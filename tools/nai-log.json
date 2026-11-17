@@ -468,5 +468,35 @@
   "seed": 3996221050,
   "prompt": "no humans, scenery, outdoors, ancient korean garden with a winding abalone-shaped stone water channel on the ground, scattered wine cups, fallen leaves, trampled ground, old trees, autumn, gloomy",
   "init": null
+ },
+ "st_sayeon_goryeo": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, goryeo noblewoman, long flowing robe with wide sleeves, light celadon green outer robe, white inner robe, long skirt, sash, holding scroll, standing, full body, looking at viewer",
+  "init": null
+ },
+ "bg_era_gaegyeong": {
+  "seed": 4187804280,
+  "prompt": "no humans, scenery, outdoors, grand ancient korean palace on stone terraces at the foot of a rocky mountain, wide stone stairs, wooden halls with grey tiled roofs, colorful banners, city of tiled roofs below, clear sky, goryeo",
+  "init": null
+ },
+ "bg_era_seohui": {
+  "seed": 2927235314,
+  "prompt": "no humans, scenery, indoors, inside a large nomad military tent, felt walls, fur rugs, low raised seat with tiger skin, braziers, banners with animal emblems, weapons racks, dim warm light, khitan",
+  "init": null
+ },
+ "bg_era_gwiju": {
+  "seed": 1376205742,
+  "prompt": "no humans, scenery, outdoors, wide snowy valley with a river, ancient korean mountain fortress walls on the hills, scattered banners and spears in the snow, wind and blizzard, winter, dramatic sky",
+  "init": null
+ },
+ "bg_era_dongbuk9": {
+  "seed": 3918537931,
+  "prompt": "no humans, scenery, outdoors, newly built ancient korean stone fortress on a snowy mountain slope, wooden gate tower, a tall stone boundary stele standing in front of the gate, pine forest, winter, cold blue sky",
+  "init": null
+ },
+ "bg_era_seogyeong": {
+  "seed": 1566427688,
+  "prompt": "no humans, scenery, outdoors, new ancient korean palace complex beside a wide river, vermilion pillars, grey tiled roofs, stone walls, soldiers' banners gathered in front, willow trees, overcast, tense atmosphere, goryeo",
+  "init": null
  }
 }
