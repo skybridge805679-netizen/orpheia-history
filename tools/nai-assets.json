@@ -763,6 +763,46 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, heavy monsoon rain over a wide flooded river, low sandy river island with an army camp, soaked banners and tents, muddy water rising, dark clouds, korea",
    "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon"
+  },
+  {
+   "id": "st_yeoul_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7070707,
+   "prompt": "1girl, solo, solo focus, teenage girl, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, big smile, open mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok"
+  },
+  {
+   "id": "st_yeoul_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7070707,
+   "prompt": "1girl, solo, solo focus, teenage girl, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, surprised, wide eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok"
+  },
+  {
+   "id": "bg_era_gaegyeong_market",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, wide ancient korean main street lined on both sides with long rows of wooden shop buildings with grey tiled roofs, cloth shop signs, baskets of rice and bolts of cloth, tea house, bookshop, daytime, goryeo capital",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese, neon, lanterns with kanji"
+  },
+  {
+   "id": "bg_era_byeokrando",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, busy ancient river port at a wide estuary, many wooden junk trading ships with battened sails moored at wooden piers, warehouses with tiled roofs, crates and jars and bolts of silk on the docks, sunny, 12th century east asia",
+   "negative": "european, galleon, tall ship, multiple masts frigate, modern, signature, steamship"
+  },
+  {
+   "id": "bg_era_gangjin_kiln",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, long climbing tunnel kiln built along a hillside, smoke rising from firing holes, piles of broken celadon green pottery shards, firewood stacks, potter's wheel under a thatched shelter, pine trees, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, factory, brick chimney"
+  },
+  {
+   "id": "bg_era_heungdeoksa",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, buddhist temple workshop, wooden table with a tray of tiny metal movable type arranged in rows, ink brush, stacks of printed paper pages, hanging printed sheets drying, warm window light, korea 14th century",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, printing press machine, gutenberg, european"
   }
  ]
 }

@@ -20,9 +20,10 @@ const CAST={
  naru:{name:'나루',cls:'c-other',stand:{baekje:'st_naru_baekje',goguryeo:'st_naru_goguryeo',silla:'st_naru_silla',sea:'st_naru_sea',smile:'st_naru_sea',serious:'st_naru_sea'}},
  yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious'}},
  haerang:{name:'해랑',cls:'c-other',stand:{neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious'}},
+ yeoul:{name:'여울',cls:'c-other',stand:{neutral:'st_yeoul_smile',smile:'st_yeoul_smile',surprised:'st_yeoul_surprised',worry:'st_yeoul_surprised'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
-const ALIAS={'해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
+const ALIAS={'여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
