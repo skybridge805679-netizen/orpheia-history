@@ -231,7 +231,7 @@
  },
  "st_sayeon_neolithic": {
   "seed": 5050505,
-  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, standing, full body, looking at viewer, prehistoric clothes, simple hemp dress, fur cape, bone hairpin, barefoot, holding clay pot",
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, straight hair, black hair color, red hair ribbon, amber eyes, gentle smile, standing, full body, looking at viewer, prehistoric clothes, simple hemp dress, fur cape, bone hairpin, barefoot, holding clay pot",
   "init": null
  },
  "st_sayeon_buyeo": {
@@ -270,27 +270,27 @@
   "init": "assets/st_muk_neutral.webp"
  },
  "st_yunseul_neutral": {
-  "seed": 7070707,
+  "seed": 7171717,
   "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, smile, closed mouth",
   "init": null
  },
  "st_yunseul_smile": {
-  "seed": 7070707,
+  "seed": 7171717,
   "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, grin, open mouth, waving",
   "init": "assets/st_yunseul_neutral.webp"
  },
  "st_yunseul_surprised": {
-  "seed": 7070707,
+  "seed": 7171717,
   "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, surprised, open mouth",
   "init": "assets/st_yunseul_neutral.webp"
  },
  "st_yunseul_pout": {
-  "seed": 7070707,
+  "seed": 7171717,
   "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, pout, puffed cheeks",
   "init": "assets/st_yunseul_neutral.webp"
  },
  "st_yunseul_serious": {
-  "seed": 7070707,
+  "seed": 7171717,
   "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, serious, thinking, finger on chin",
   "init": "assets/st_yunseul_neutral.webp"
  },
