@@ -727,6 +727,42 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, new ancient korean palace complex beside a wide river, vermilion pillars, grey tiled roofs, stone walls, soldiers' banners gathered in front, willow trees, overcast, tense atmosphere, goryeo",
    "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city"
+  },
+  {
+   "id": "bg_era_bohyeonwon",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, night, ancient korean buddhist temple pavilion with a banquet table, overturned wine cups and dishes, many torches approaching through the gate, drawn swords leaning, scattered scholar hats on the ground, ominous, goryeo",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese temple"
+  },
+  {
+   "id": "bg_era_myeonghakso",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, poor ancient korean mountain village on a slope, thatched huts, charcoal kilns smoking, small clay iron furnace, piles of firewood and pottery, muddy path, overcast, hard labor atmosphere",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, tiled roof mansion"
+  },
+  {
+   "id": "bg_era_ganghwa",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, narrow sea strait with strong tidal currents, island coast lined with long earthen and stone fortress walls, many small wooden boats crossing loaded with cargo, mudflats, summer, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon"
+  },
+  {
+   "id": "bg_era_jindo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, stone fortress walls winding over a green hill on an island, ruins of palace terraces inside, sea visible beyond, warriors' banners, cloudy sky, korea 13th century",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon"
+  },
+  {
+   "id": "bg_era_jinpo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, wide river estuary at sunset crowded with hundreds of small wooden pirate boats, korean wooden warships firing primitive cannons with fire and smoke, burning boats, sparks, dramatic",
+   "negative": "chinese architecture, european, galleon, modern, signature, steamship"
+  },
+  {
+   "id": "bg_era_wihwado",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, heavy monsoon rain over a wide flooded river, low sandy river island with an army camp, soaked banners and tents, muddy water rising, dark clouds, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon"
   }
  ]
 }
