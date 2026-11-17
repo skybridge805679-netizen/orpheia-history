@@ -605,6 +605,52 @@
    "seed": 5050505,
    "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, serious, ancient silla noblewoman, layered long robe with wide sleeves, short jacket with belt, pleated skirt, gold earrings, holding scroll, standing, full body, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, sword"
+  },
+  {
+   "id": "bg_era_gameunsa",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, east sea coast, small rocky islet in the waves near shore, on land two identical three-story granite stone pagodas side by side in front of a temple under construction, wooden scaffolding, morning, korea",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, tall pagoda, brick pagoda"
+  },
+  {
+   "id": "bg_era_dongmosan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, low forested mountain over a wide plain, wooden palisade and simple log buildings at the foot of the mountain, banners, campfire smoke, early summer, manchuria, ancient",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, castle, stone castle"
+  },
+  {
+   "id": "bg_era_sanggyeong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient walled capital on a vast plain, very wide straight main avenue leading to a palace on stone platform, tiled roofs, orderly grid of streets, distant river, clear autumn sky, balhae",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city, japanese castle"
+  },
+  {
+   "id": "bg_era_bulguksa",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient korean buddhist temple on stone terraces with stone stairs and bridge, courtyard with a plain simple three-story granite pagoda and an ornate stone pagoda with stairs, wooden halls with tiled roofs, maple trees, autumn",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, tall pagoda, brick pagoda, japanese temple"
+  },
+  {
+   "id": "bg_era_silla_village",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient korean farming village, thatched roof huts, mulberry trees, pine nut trees, rice paddies, cows and horses in a pen, low hills, late afternoon",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, tiled roof mansion, castle"
+  },
+  {
+   "id": "st_haerang_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, teenage girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok"
+  },
+  {
+   "id": "st_haerang_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, teenage girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, serious, closed mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok"
   }
  ]
 }
