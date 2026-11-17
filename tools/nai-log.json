@@ -403,5 +403,40 @@
   "seed": 5050505,
   "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, serious, ancient silla noblewoman, layered long robe with wide sleeves, short jacket with belt, pleated skirt, gold earrings, holding scroll, standing, full body, looking at viewer",
   "init": null
+ },
+ "bg_era_gameunsa": {
+  "seed": 3810697453,
+  "prompt": "no humans, scenery, outdoors, east sea coast, small rocky islet in the waves near shore, on land two identical three-story granite stone pagodas side by side in front of a temple under construction, wooden scaffolding, morning, korea",
+  "init": null
+ },
+ "bg_era_dongmosan": {
+  "seed": 1350430127,
+  "prompt": "no humans, scenery, outdoors, low forested mountain over a wide plain, wooden palisade and simple log buildings at the foot of the mountain, banners, campfire smoke, early summer, manchuria, ancient",
+  "init": null
+ },
+ "bg_era_sanggyeong": {
+  "seed": 2471004226,
+  "prompt": "no humans, scenery, outdoors, ancient walled capital on a vast plain, very wide straight main avenue leading to a palace on stone platform, tiled roofs, orderly grid of streets, distant river, clear autumn sky, balhae",
+  "init": null
+ },
+ "bg_era_bulguksa": {
+  "seed": 812648593,
+  "prompt": "no humans, scenery, outdoors, ancient korean buddhist temple on stone terraces with stone stairs and bridge, courtyard with a plain simple three-story granite pagoda and an ornate stone pagoda with stairs, wooden halls with tiled roofs, maple trees, autumn",
+  "init": null
+ },
+ "bg_era_silla_village": {
+  "seed": 1492083956,
+  "prompt": "no humans, scenery, outdoors, ancient korean farming village, thatched roof huts, mulberry trees, pine nut trees, rice paddies, cows and horses in a pen, low hills, late afternoon",
+  "init": null
+ },
+ "st_haerang_smile": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, teenage girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, smile",
+  "init": null
+ },
+ "st_haerang_serious": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, teenage girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, serious, closed mouth",
+  "init": null
  }
 }
