@@ -156,3 +156,5 @@ dialog::backdrop{background:#05070bcc;backdrop-filter:blur(6px)}
  .vn-title-chr{opacity:.35}.vn-title h1{font-size:44px}.vn-title-menu{width:min(340px,86vw)}
  .vn-phone{width:36vw}
 }
+/* 강사 스탠딩은 무릎 위(cowboy shot) 그림이라 조금 줄여 다른 인물과 머리 크기를 맞춘다. */
+.vn-chars #chr-teacher{height:84%;bottom:0}
