@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷).",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상.",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -505,6 +505,68 @@
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, red skirt, embroidery, joseon hanbok, silk, luxurious",
    "init": "assets/st_dallae_smile.webp",
    "strength": 0.6
+  },
+  {
+   "id": "bg_era_gungnaeseong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient korean stone fortress walls by a wide river, huge stepped stone pyramid tomb in a field, mountains, northeast asia, goguryeo, clear sky",
+   "negative": "chinese architecture, japanese castle"
+  },
+  {
+   "id": "bg_era_hanriver_ferry",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient ferry landing on a wide river, small wooden boats with flags tied to the riverbank, long earthen fortress wall on low hills across the river, reeds, afternoon",
+   "negative": "chinese architecture, japanese castle"
+  },
+  {
+   "id": "bg_era_sabi",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient capital by a winding river, mountain fortress on a hill, slender five-story stone pagoda in a temple courtyard, tiled roofs, baekje, morning mist",
+   "negative": "chinese architecture, japanese castle"
+  },
+  {
+   "id": "bg_era_gyeongju",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient silla capital in a basin, large round grassy burial mounds, farmland with an ox pulling a plow, mountains around, golden afternoon",
+   "negative": "chinese architecture, japanese castle"
+  },
+  {
+   "id": "bg_era_gaya",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient seaside blacksmith workshop, glowing furnace, stacked iron ingots, wooden ships loaded with iron on the beach, sea, smoke",
+   "negative": "chinese architecture, japanese castle"
+  },
+  {
+   "id": "st_naru_baekje",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1212121,
+   "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, cheerful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery"
+  },
+  {
+   "id": "st_naru_goguryeo",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1212121,
+   "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, tired expression",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery"
+  },
+  {
+   "id": "st_naru_silla",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1212121,
+   "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, wistful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery"
+  },
+  {
+   "id": "st_sayeon_baekje",
+   "size": "stand",
+   "transparent": true,
+   "seed": 5050505,
+   "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, ancient baekje noblewoman, long robe with wide sleeves, pleated skirt, belt with ornaments, gold hair ornament, holding scroll, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok"
   }
  ]
 }
