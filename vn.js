@@ -81,6 +81,8 @@ function step(){
    case 'hide':if(op.who==='all')S.chars={};else delete S.chars[op.who];S.pc++;paint();break;
    case 'day':S.day=op.arg;return card('day',op.arg);
    case 'chapter':return card('chapter',op.num,op.title);
+   // 시간 여행: @dive 연대|시대 — 빛의 통로를 지나 그 시대로 들어간다(배경은 다음 @bg).
+   case 'dive':{const [when,...what]=op.arg.split('|');S.bg=bgFile('bg_timeline_dive');S.chars={};S.phone=false;fx('flash');SFX.play('rewind');paint();return card('dive',when.trim(),what.join('|').trim());}
    case 'flash':fx('flash');SFX.play('flash');S.pc++;break;
    case 'sfx':SFX.play(op.arg);S.pc++;break;
    case 'wait':busy=true;setTimeout(()=>{busy=false;S.pc++;step();},+op.arg||600);return;
@@ -135,7 +137,7 @@ function shell(){
 }
 function paint(){
  if(!$('#vn'))shell();
- const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.src=asset(S.bg);}
+ const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onerror=()=>{bg.style.visibility='hidden';};bg.src=asset(S.bg);}
  paintChars();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
@@ -170,9 +172,9 @@ function setHidden(v){hidden=v;$('#vn')?.classList.toggle('ui-hidden',v);}
 function fx(kind){const vn=$('#vn');if(!vn)return;vn.classList.remove(kind);void vn.offsetWidth;vn.classList.add(kind);setTimeout(()=>vn.classList.remove(kind),700);}
 function card(kind,a,b){
  paint();busy=true;S.line=null;const c=$('#vnCard');$('#vnBox').classList.add('quiet');
- c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?`<small>${esc(a)}</small><h2>${esc(b)}</h2>`:`<p>${esc(a)}</p>`;
+ c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'||kind==='dive'?`<small>${esc(a)}</small><h2>${esc(b)}</h2>`:`<p>${esc(a)}</p>`;
  const done=()=>{if(c.hidden)return;c.hidden=true;$('#vnBox')?.classList.remove('quiet');busy=false;S.pc++;step();};
- c.onclick=e=>{e.stopPropagation();done();};setTimeout(done,skip?150:kind==='chapter'?2600:1700);
+ c.onclick=e=>{e.stopPropagation();done();};setTimeout(done,skip?150:kind==='chapter'||kind==='dive'?2600:1700);
 }
 function choose(op){
  S.line=null;paint();stopAuto();skip=false;const box=$('#vnChoices');box.hidden=false;$('#vnBox').classList.add('quiet');

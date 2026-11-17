@@ -158,3 +158,10 @@ dialog::backdrop{background:#05070bcc;backdrop-filter:blur(6px)}
 }
 /* 강사 스탠딩은 무릎 위(cowboy shot) 그림이라 조금 줄여 다른 인물과 머리 크기를 맞춘다. */
 .vn-chars #chr-teacher{height:84%;bottom:0}
+
+/* 시간 여행 카드 */
+.vn-card.dive{background:radial-gradient(ellipse at center,#1d3b6acc 0,#05070bee 70%)}
+.vn-card.dive small{font-size:20px;letter-spacing:.3em}
+.vn-card.dive h2{animation:dive 1.6s ease-out}
+@keyframes dive{from{opacity:0;letter-spacing:.6em;filter:blur(6px)}to{opacity:1;letter-spacing:normal;filter:none}}
+.vn-bg{background:radial-gradient(ellipse at center,#1d2a44 0,#05070b 80%)}
