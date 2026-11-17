@@ -11,16 +11,16 @@ const persist=()=>{try{localStorage.setItem(META_KEY,JSON.stringify(meta));}catc
 
 // ── 등장인물. 스탠딩은 NovelAI로 새로 만든 st_* 그림(tools/nai-assets.json).
 const CAST={
- orpheia:{name:'오르페이아',cls:'c-orpheia',stand:{neutral:'st_orpheia_neutral',smile:'st_orpheia_smile',excited:'st_orpheia_excited',worry:'st_orpheia_worry',explain:'st_orpheia_explain',surprised:'st_orpheia_surprised',pout:'st_orpheia_pout',shy:'st_orpheia_shy'},
-  face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief'}},
- teacher:{name:'서도희 강사',cls:'c-teacher',stand:{neutral:'st_teacher_neutral',stern:'st_teacher_stern',smile:'st_teacher_smile',coffee:'st_teacher_coffee'}},
- harin:{name:'유하린',cls:'c-harin',stand:{neutral:'st_harin_neutral',smile:'st_harin_smile',surprised:'st_harin_surprised',pout:'st_harin_pout',excited:'st_harin_excited'}},
- jian:{name:'류지안',cls:'c-jian',stand:{neutral:'st_jian_neutral',smile:'st_jian_smile',serious:'st_jian_serious'}},
+ orpheia:{name:'오르페이아',cls:'c-orpheia',stand:{neutral:'st_orpheia_neutral',smile:'st_orpheia_smile',excited:'st_orpheia_excited',worry:'st_orpheia_worry',explain:'st_orpheia_explain',surprised:'st_orpheia_surprised',pout:'st_orpheia_pout',shy:'st_orpheia_shy',serious:'st_orpheia_serious',teary:'st_orpheia_teary'},
+  face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief',serious:'serious',teary:'worry'}},
+ sayeon:{name:'사연',cls:'c-sayeon',stand:{neutral:'st_sayeon_neutral',smile:'st_sayeon_smile',serious:'st_sayeon_serious',surprised:'st_sayeon_surprised',worry:'st_sayeon_worry',writing:'st_sayeon_writing',neolithic:'st_sayeon_neolithic',buyeo:'st_sayeon_buyeo'}},
+ muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
+ yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
-const ALIAS={'오르페이아':'orpheia','서도희':'teacher','강사':'teacher','서 강사':'teacher','하린':'harin','유하린':'harin','지안':'jian','류지안':'jian','나':'me','주인님':'me'};
+const ALIAS={'오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
-const OLD={st_teacher_stern:'chr_instructor_stern',st_teacher_coffee:'chr_instructor_coffee',st_harin_neutral:'chr_harin_neutral',st_harin_smile:'chr_harin_smile',st_harin_surprised:'chr_harin_surprised',st_harin_pout:'chr_harin_pout',st_harin_excited:'chr_harin_excited'};
+const OLD={};
 const MISSING=new Set();
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
 // 새 그림이 아직 없으면 옛 그림으로 바꾼다.
