@@ -1,0 +1,15 @@
+{
+ "_note": "배경·장면 CG 1차분. size: bg=1216x832(무료 범위 안), id는 파일 이름(assets/<id>.webp). 프롬프트 앞에는 tools/nai-style.json의 화풍이 붙는다.",
+ "items": [
+  {"id": "bg_my_room_night", "size": "bg", "prompt": "no humans, scenery, indoors, korean apartment bedroom at night, study desk, desk lamp, open textbooks, history workbook, smartphone on desk, window, city lights, cozy, warm lighting"},
+  {"id": "bg_lecture_room", "size": "bg", "prompt": "no humans, scenery, indoors, small private academy classroom, korea, whiteboard with korean history timeline drawn, rows of desks, evening, fluorescent lights, window"},
+  {"id": "bg_study_cafe", "size": "bg", "prompt": "no humans, scenery, indoors, study cafe, wooden tables, books, coffee cups, warm lighting, night, large window, rain"},
+  {"id": "bg_street_evening", "size": "bg", "prompt": "no humans, scenery, outdoors, seoul residential street, evening, sunset, street lamps, convenience store, autumn leaves"},
+  {"id": "bg_museum_hall", "size": "bg", "prompt": "no humans, scenery, indoors, national museum exhibition hall, glass display cases, ancient artifacts, soft spotlight, quiet, polished floor"},
+  {"id": "bg_exam_room", "size": "bg", "prompt": "no humans, scenery, indoors, korean school classroom used as exam hall, desks in rows, answer sheets, clock on wall, morning light"},
+  {"id": "cg_ch01_dolmen", "size": "bg", "prompt": "no humans, scenery, outdoors, korean dolmen field, large stone dolmens on green hillside, summer sky, clouds, wide shot"},
+  {"id": "cg_ch02_baekje", "size": "bg", "prompt": "no humans, scenery, outdoors, ancient korean fortress wall on wooded hill, stone wall, river below, misty morning, traditional pavilion"},
+  {"id": "cg_ch03_palace_night", "size": "bg", "prompt": "no humans, scenery, outdoors, traditional korean palace courtyard at night, giwa roof, lanterns, stone pavement, moon, starry sky"},
+  {"id": "cg_ch04_goryeo_port", "size": "bg", "prompt": "no humans, scenery, outdoors, medieval korean trading port, wooden sailing ships, river estuary, merchants stalls, celadon pottery, morning"}
+ ]
+}
