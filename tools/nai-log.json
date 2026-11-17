@@ -328,5 +328,50 @@
   "seed": 9090909,
   "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, worried, frown, standing, full body, looking at viewer",
   "init": "assets/st_dallae_smile.webp"
+ },
+ "bg_era_gungnaeseong": {
+  "seed": 1319278921,
+  "prompt": "no humans, scenery, outdoors, ancient korean stone fortress walls by a wide river, huge stepped stone pyramid tomb in a field, mountains, northeast asia, goguryeo, clear sky",
+  "init": null
+ },
+ "bg_era_hanriver_ferry": {
+  "seed": 1790795083,
+  "prompt": "no humans, scenery, outdoors, ancient ferry landing on a wide river, small wooden boats with flags tied to the riverbank, long earthen fortress wall on low hills across the river, reeds, afternoon",
+  "init": null
+ },
+ "bg_era_sabi": {
+  "seed": 3459580233,
+  "prompt": "no humans, scenery, outdoors, ancient capital by a winding river, mountain fortress on a hill, slender five-story stone pagoda in a temple courtyard, tiled roofs, baekje, morning mist",
+  "init": null
+ },
+ "bg_era_gyeongju": {
+  "seed": 148187420,
+  "prompt": "no humans, scenery, outdoors, ancient silla capital in a basin, large round grassy burial mounds, farmland with an ox pulling a plow, mountains around, golden afternoon",
+  "init": null
+ },
+ "bg_era_gaya": {
+  "seed": 2861549772,
+  "prompt": "no humans, scenery, outdoors, ancient seaside blacksmith workshop, glowing furnace, stacked iron ingots, wooden ships loaded with iron on the beach, sea, smoke",
+  "init": null
+ },
+ "st_naru_baekje": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, cheerful smile",
+  "init": null
+ },
+ "st_naru_goguryeo": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, tired expression",
+  "init": null
+ },
+ "st_naru_silla": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, young woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, wistful smile",
+  "init": null
+ },
+ "st_sayeon_baekje": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, ancient baekje noblewoman, long robe with wide sleeves, pleated skirt, belt with ornaments, gold hair ornament, holding scroll, standing, full body, looking at viewer",
+  "init": null
  }
 }
