@@ -689,6 +689,44 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, ancient korean garden with a winding abalone-shaped stone water channel on the ground, scattered wine cups, fallen leaves, trampled ground, old trees, autumn, gloomy",
    "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, pond, bridge, japanese garden"
+  },
+  {
+   "id": "st_sayeon_goryeo",
+   "size": "stand",
+   "transparent": true,
+   "seed": 5050505,
+   "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, goryeo noblewoman, long flowing robe with wide sleeves, light celadon green outer robe, white inner robe, long skirt, sash, holding scroll, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, sword"
+  },
+  {
+   "id": "bg_era_gaegyeong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, grand ancient korean palace on stone terraces at the foot of a rocky mountain, wide stone stairs, wooden halls with grey tiled roofs, colorful banners, city of tiled roofs below, clear sky, goryeo",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city"
+  },
+  {
+   "id": "bg_era_seohui",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, inside a large nomad military tent, felt walls, fur rugs, low raised seat with tiger skin, braziers, banners with animal emblems, weapons racks, dim warm light, khitan",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, european"
+  },
+  {
+   "id": "bg_era_gwiju",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, wide snowy valley with a river, ancient korean mountain fortress walls on the hills, scattered banners and spears in the snow, wind and blizzard, winter, dramatic sky",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, cannon, firearms"
+  },
+  {
+   "id": "bg_era_dongbuk9",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, newly built ancient korean stone fortress on a snowy mountain slope, wooden gate tower, a tall stone boundary stele standing in front of the gate, pine forest, winter, cold blue sky",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, great wall of china"
+  },
+  {
+   "id": "bg_era_seogyeong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, new ancient korean palace complex beside a wide river, vermilion pillars, grey tiled roofs, stone walls, soldiers' banners gathered in front, willow trees, overcast, tense atmosphere, goryeo",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city"
   }
  ]
 }
