@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시.",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가).",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -210,6 +210,46 @@
    "transparent": true,
    "seed": 20261119,
    "prompt": "1girl, solo, black hair, very long hair, low ponytail, round eyewear, glasses, grey eyes, white shirt, grey sweater vest, lanyard, black pants, loafers, standing, full body, looking at viewer, serious, adjusting eyewear"
+  },
+  {
+   "id": "bg_timeline_dive",
+   "size": "bg",
+   "prompt": "no humans, scenery, abstract, glowing timeline corridor, floating calendar pages, light particles, deep blue and gold, tunnel of light, ancient patterns, magical"
+  },
+  {
+   "id": "bg_era_paleolithic",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, prehistoric riverside camp, simple hut made of branches and animal hides, stone tools on the ground, campfire, cave entrance in cliff, wild grassland, dawn"
+  },
+  {
+   "id": "bg_era_neolithic",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, neolithic village by a river, pit houses with thatched roofs, comb-pattern clay pots, shell mound, small field, fishing nets, morning"
+  },
+  {
+   "id": "bg_era_gojoseon",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient earthen fortress walls on a plain, wooden gate, banners, large river, bronze age kingdom capital, dramatic sky"
+  },
+  {
+   "id": "bg_era_buyeo_festival",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient northern village in winter, snow, large bonfire festival at night, people's white clothes hanging, wooden houses, stars"
+  },
+  {
+   "id": "bg_era_goguryeo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient mountain village, wooden houses, small raised storehouse beside each house, autumn, mountains, river valley"
+  },
+  {
+   "id": "bg_era_east_coast",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient fishing village on the east sea coast, wooden houses, drying fish, small boats on beach, mountains behind, clear sky"
+  },
+  {
+   "id": "bg_era_sodo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient sacred grove with a tall wooden pole and a bell hanging from a tree, rice paddies around, small village, misty morning, mystical"
   }
  ]
 }
