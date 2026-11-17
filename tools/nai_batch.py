@@ -31,7 +31,8 @@ for it in items:
     init = it.get("init")
     try:
         png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
-                                 init=(ROOT / init) if init else None, strength=it.get("strength", 0.6)))
+                                 init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
+                                 negative=it.get("negative", "")))
     except SystemExit as e:  # 한 장이 실패해도 나머지는 계속
         print("실패", it["id"], e); failed = True; continue
     print("생성", png.name, "seed", seed)

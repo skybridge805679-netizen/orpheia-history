@@ -8,7 +8,8 @@ const BGM=(()=>{
  const SCENE={
   bg_study_room:'bgm_night_shift',bg_training_room:'bgm_daily',bg_training_room_night:'bgm_night_shift',bg_center_lobby:'bgm_daily',bg_cafeteria:'bgm_daily',bg_break_room:'bgm_night_shift',
   bg_cherry_street:'bgm_outing',bg_riverside_day:'bgm_outing',bg_snow_street:'bgm_outing',bg_spring_cherry:'bgm_orpheia',
-  bg_exam_hall:'bgm_exam',
+  bg_exam_hall:'bgm_exam',bg_exam_room:'bgm_exam',bg_my_room_night:'bgm_night_shift',bg_lecture_room:'bgm_daily',bg_study_cafe:'bgm_night_shift',bg_street_evening:'bgm_outing',bg_museum_hall:'bgm_orpheia',
+  cg_ch01_dolmen:'bgm_orpheia',cg_ch02_baekje:'bgm_orpheia',cg_ch03_palace_night:'bgm_orpheia',cg_ch04_goryeo_port:'bgm_orpheia',
  };
  let set={volume:.5,muted:false};
  try{Object.assign(set,JSON.parse(localStorage.getItem(KEY)||'{}'));}catch{}

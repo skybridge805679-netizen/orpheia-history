@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨).",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시.",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -34,7 +34,7 @@
   {
    "id": "cg_ch01_dolmen",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, korean dolmen field, large stone dolmens on green hillside, summer sky, clouds, wide shot"
+   "prompt": "no humans, scenery, outdoors, prehistoric korean dolmen site, table-shaped dolmen, huge flat capstone resting on standing stones, several dolmens on grassy hillside, summer sky, clouds, wide shot"
   },
   {
    "id": "cg_ch02_baekje",
@@ -49,7 +49,8 @@
   {
    "id": "cg_ch04_goryeo_port",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, medieval korean trading port, wooden sailing ships, river estuary, merchants stalls, celadon pottery, morning"
+   "prompt": "no humans, scenery, outdoors, medieval east asian trading port, traditional korean wooden boats, small junk ships with square sails, river estuary, tiled roof warehouses, merchant stalls, green celadon jars, morning",
+   "negative": "galleon, western sailing ship, european architecture, blue and white porcelain"
   },
   {
    "id": "st_orpheia_neutral",
@@ -119,7 +120,10 @@
    "size": "stand",
    "transparent": true,
    "seed": 20261117,
-   "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, serious, crossed arms"
+   "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, serious, crossed arms",
+   "init": "assets/st_teacher_neutral.webp",
+   "strength": 0.55,
+   "negative": "coat, shawl, scarf, jacket"
   },
   {
    "id": "st_teacher_smile",
@@ -133,42 +137,50 @@
    "size": "stand",
    "transparent": true,
    "seed": 20261117,
-   "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, holding disposable coffee cup, half-closed eyes"
+   "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, holding disposable coffee cup, half-closed eyes",
+   "init": "assets/st_teacher_neutral.webp",
+   "strength": 0.55,
+   "negative": "coat, shawl, scarf, jacket"
   },
   {
    "id": "st_harin_neutral",
    "size": "stand",
    "transparent": true,
-   "seed": 20261118,
-   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, smile, closed mouth"
+   "seed": 20261218,
+   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, smile, closed mouth",
+   "negative": "border, frame, card, checkered background, panel, rectangle, bent over, leaning forward"
   },
   {
    "id": "st_harin_smile",
    "size": "stand",
    "transparent": true,
-   "seed": 20261118,
-   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, grin, open mouth, waving"
+   "seed": 20261218,
+   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, grin, open mouth, waving",
+   "negative": "border, frame, card, checkered background, panel, rectangle, bent over, leaning forward"
   },
   {
    "id": "st_harin_surprised",
    "size": "stand",
    "transparent": true,
-   "seed": 20261118,
-   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, surprised, open mouth"
+   "seed": 20261218,
+   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, surprised, open mouth",
+   "negative": "border, frame, card, checkered background, panel, rectangle, bent over, leaning forward"
   },
   {
    "id": "st_harin_pout",
    "size": "stand",
    "transparent": true,
-   "seed": 20261118,
-   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, pout, puffed cheeks"
+   "seed": 20261218,
+   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "border, frame, card, checkered background, panel, rectangle, bent over, leaning forward"
   },
   {
    "id": "st_harin_excited",
    "size": "stand",
    "transparent": true,
-   "seed": 20261118,
-   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, fist pump, happy, open mouth"
+   "seed": 20261218,
+   "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, fist pump, happy, open mouth",
+   "negative": "border, frame, card, checkered background, panel, rectangle, bent over, leaning forward"
   },
   {
    "id": "st_jian_neutral",

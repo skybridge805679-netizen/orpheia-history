@@ -9,9 +9,9 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
-def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1):
+def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative=""):
     full = f"{STYLE['style']}, {prompt}"
-    neg = STYLE["negative"]
+    neg = STYLE["negative"] + (", " + negative if negative else "")
     params = {
         "params_version": 3, "width": w, "height": h, "scale": STYLE["scale"], "sampler": STYLE["sampler"],
         "steps": STYLE["steps"], "n_samples": 1, "seed": seed, "ucPreset": 3, "qualityToggle": STYLE.get("quality", True),
@@ -22,7 +22,9 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1):
     action = "generate"
     if init:  # i2i: 기존 그림을 바탕으로 다시 그린다(strength가 클수록 많이 바뀜)
         import base64
-        params.update({"image": base64.b64encode(Path(init).read_bytes()).decode(), "strength": strength, "noise": noise, "extra_noise_seed": seed})
+        from PIL import Image
+        buf = io.BytesIO(); Image.open(init).convert("RGBA").resize((w, h)).save(buf, "PNG")
+        params.update({"image": base64.b64encode(buf.getvalue()).decode(), "strength": strength, "noise": noise, "extra_noise_seed": seed})
         action = "img2img"
     body = json.dumps({"input": full, "model": model, "action": action, "parameters": params})
     # 같은 계정으로 다른 생성(웹·다른 PC)이 돌고 있으면 429 "Concurrent generation is locked" — 기다렸다 다시 한다.

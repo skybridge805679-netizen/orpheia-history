@@ -9,18 +9,22 @@ let meta={saves:{},read:{},flags:{},settings:{auto:1600}};
 try{const raw=JSON.parse(localStorage.getItem(META_KEY)||'null');if(raw&&typeof raw==='object')meta={...meta,...raw,settings:{...meta.settings,...raw.settings}};}catch{}
 const persist=()=>{try{localStorage.setItem(META_KEY,JSON.stringify(meta));}catch{toast('이 브라우저에서는 세이브가 제한됩니다.');}};
 
-// ── 등장인물. 그림은 오르페이아 철도 ADV의 것을 그대로 쓴다.
+// ── 등장인물. 스탠딩은 NovelAI로 새로 만든 st_* 그림(tools/nai-assets.json).
 const CAST={
- orpheia:{name:'오르페이아',cls:'c-orpheia',stand:{neutral:'orpheia_sd_maid_v2',smile:'orpheia_sd_praise_v2',excited:'orpheia_sd_praise_v2',worry:'orpheia_sd_worried_v2',explain:'orpheia_sd_briefing',surprised:'orpheia_sd_surprised',pout:'orpheia_sd_pout',shy:'orpheia_sd_shy',casual:'orpheia_sd_casual',suit:'orpheia_sd_suit',coat:'orpheia_sd_coat'},
-  face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief',casual:'smile',suit:'serious',coat:'neutral'}},
- teacher:{name:'서도희 강사',cls:'c-teacher',stand:{neutral:'chr_instructor_neutral',stern:'chr_instructor_stern',smile:'chr_instructor_smile',coffee:'chr_instructor_coffee'}},
- harin:{name:'유하린',cls:'c-harin',stand:{neutral:'chr_harin_neutral',smile:'chr_harin_smile',surprised:'chr_harin_surprised',pout:'chr_harin_pout',excited:'chr_harin_excited'}},
- jian:{name:'류지안',cls:'c-jian',stand:{neutral:'chr_jian_neutral',smile:'chr_jian_smile',serious:'chr_jian_serious'}},
+ orpheia:{name:'오르페이아',cls:'c-orpheia',stand:{neutral:'st_orpheia_neutral',smile:'st_orpheia_smile',excited:'st_orpheia_excited',worry:'st_orpheia_worry',explain:'st_orpheia_explain',surprised:'st_orpheia_surprised',pout:'st_orpheia_pout',shy:'st_orpheia_shy'},
+  face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief'}},
+ teacher:{name:'서도희 강사',cls:'c-teacher',stand:{neutral:'st_teacher_neutral',stern:'st_teacher_stern',smile:'st_teacher_smile',coffee:'st_teacher_coffee'}},
+ harin:{name:'유하린',cls:'c-harin',stand:{neutral:'st_harin_neutral',smile:'st_harin_smile',surprised:'st_harin_surprised',pout:'st_harin_pout',excited:'st_harin_excited'}},
+ jian:{name:'류지안',cls:'c-jian',stand:{neutral:'st_jian_neutral',smile:'st_jian_smile',serious:'st_jian_serious'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
 const ALIAS={'오르페이아':'orpheia','서도희':'teacher','강사':'teacher','서 강사':'teacher','하린':'harin','유하린':'harin','지안':'jian','류지안':'jian','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
-const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';const f=s[expr]||s.neutral;return f?f+'.webp':'';};
+const OLD={st_teacher_stern:'chr_instructor_stern',st_teacher_coffee:'chr_instructor_coffee',st_harin_neutral:'chr_harin_neutral',st_harin_smile:'chr_harin_smile',st_harin_surprised:'chr_harin_surprised',st_harin_pout:'chr_harin_pout',st_harin_excited:'chr_harin_excited'};
+const MISSING=new Set();
+const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
+// 새 그림이 아직 없으면 옛 그림으로 바꾼다.
+for(const f of Object.keys(OLD)){const i=new Image();i.onerror=()=>MISSING.add(f);i.src=asset(f+'.webp');}
 const bgFile=f=>f.replace(/\.(png|webp)$/,'')+'.webp';
 
 // ── 대본 해석. "@명령 인자", "[이름|표정] 대사", "> 선택지 -> 라벨 {flag+1}", "// 주석", 나머지는 서술.
@@ -236,7 +240,7 @@ function menu(k){
 function title(){
  BGM.play('bgm_title');stopAuto();clearTimeout(typing?.t);typing=null;busy=false;skip=false;auto=false;S=null;Quiz.close();closeDialogs();document.body.classList.add('vn-mode');
  const cont=latest(),st=Quiz.stats();
- $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_study_room.webp')}" alt=""><img class="vn-title-chr" src="${asset('orpheia_sd_praise_v2.webp')}" alt=""><div class="vn-title-body"><small>KOREAN HISTORY VISUAL NOVEL · 한능검 심화</small><h1>오르페이아<span>電脳侍女의 한국사 연표</span></h1>
+ $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_my_room_night.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><small>KOREAN HISTORY VISUAL NOVEL · 한능검 심화</small><h1>오르페이아<span>電脳侍女의 한국사 연표</span></h1>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
  <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;

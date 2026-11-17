@@ -26,9 +26,21 @@ jobs:
         env:
           NAI_TOKEN: ${{ secrets.NAI_TOKEN }}
         run: python3 tools/nai_batch.py --missing ${{ github.event.inputs.ids }}
+      - name: 결과물 보관(푸시가 실패해도 그림을 잃지 않게)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nai-assets
+          path: |
+            assets/gen/*.png
+            tools/nai-log.json
+          if-no-files-found: ignore
       - name: 커밋
+        if: always()
         run: |
           git config user.name "orpheia-bot"
           git config user.email "orpheia-bot@users.noreply.github.com"
           git add assets/*.webp tools/nai-log.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "NAI 에셋 자동 생성" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "NAI 에셋 자동 생성"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1

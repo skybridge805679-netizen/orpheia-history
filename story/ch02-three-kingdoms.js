@@ -1,6 +1,8 @@
 VN.chapter('ch02','제2장','무령왕의 석수',`
 @chapter 제2장|무령왕의 석수 — 삼국과 가야
-@bg bg_training_room
+@bg cg_ch02_baekje
+강을 내려다보는 산성. 세 나라와 가야가 이 땅을 두고 다투던 시절이 있었다.
+@bg bg_lecture_room
 @day 11월 20일 (목) 19:00 · 스터디 강의실
 @show teacher neutral center
 [서도희] 삼국은 보통 3번부터 7번 사이예요. 한 회에 서너 문항.
@@ -74,7 +76,7 @@ VN.chapter('ch02','제2장','무령왕의 석수',`
 [서도희|coffee] 오늘 첫 시도 정답은 이야기 전체로 {quizAll}개째예요. 숫자는 신경 쓰지 말고, 틀린 문항만 기억해요.
 [서도희] 다음 시간은 남북국. 발해는 열한 회 중 열 번 나왔어요.
 @hide all
-@bg bg_cherry_street
+@bg bg_street_evening
 @day 21:00 · 돌아오는 길
 @phone on
 @show orpheia smile center

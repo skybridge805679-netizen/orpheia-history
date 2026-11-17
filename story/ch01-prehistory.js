@@ -1,6 +1,8 @@
 VN.chapter('ch01','제1장','1번과 2번 사이',`
 @chapter 제1장|1번과 2번 사이 — 선사와 여러 나라
-@bg bg_training_room
+@bg cg_ch01_dolmen
+수천 년 전, 사람들은 거대한 돌을 옮겨 무덤을 세웠다.
+@bg bg_lecture_room
 @day 11월 18일 (화) 19:00 · 스터디 강의실
 @show harin smile left
 [유하린|smile] 왔다! 80회 몇 점 나왔어? 난 비밀!
@@ -59,7 +61,7 @@ VN.chapter('ch01','제1장','1번과 2번 사이',`
 [서도희|coffee] 첫 시도에 {quizFirst}개. 오늘은 여기까지.
 [서도희|stern] 숙제예요. 영고·동맹·무천, 그리고 각 나라의 특산물과 풍습을 한 줄씩 말할 수 있게.
 @hide all
-@bg bg_cherry_street
+@bg bg_street_evening
 @day 21:10 · 돌아오는 길
 @phone on
 @show orpheia smile center
