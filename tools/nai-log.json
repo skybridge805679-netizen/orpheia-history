@@ -1,0 +1,152 @@
+{
+ "bg_my_room_night": {
+  "seed": 1856266645,
+  "prompt": "no humans, scenery, indoors, korean apartment bedroom at night, study desk, desk lamp, open textbooks, history workbook, smartphone on desk, window, city lights, cozy, warm lighting",
+  "init": null
+ },
+ "bg_lecture_room": {
+  "seed": 517357504,
+  "prompt": "no humans, scenery, indoors, small private academy classroom, korea, whiteboard with korean history timeline drawn, rows of desks, evening, fluorescent lights, window",
+  "init": null
+ },
+ "bg_study_cafe": {
+  "seed": 1566431362,
+  "prompt": "no humans, scenery, indoors, study cafe, wooden tables, books, coffee cups, warm lighting, night, large window, rain",
+  "init": null
+ },
+ "bg_street_evening": {
+  "seed": 1976035569,
+  "prompt": "no humans, scenery, outdoors, seoul residential street, evening, sunset, street lamps, convenience store, autumn leaves",
+  "init": null
+ },
+ "bg_museum_hall": {
+  "seed": 1732381358,
+  "prompt": "no humans, scenery, indoors, national museum exhibition hall, glass display cases, ancient artifacts, soft spotlight, quiet, polished floor",
+  "init": null
+ },
+ "bg_exam_room": {
+  "seed": 1621493315,
+  "prompt": "no humans, scenery, indoors, korean school classroom used as exam hall, desks in rows, answer sheets, clock on wall, morning light",
+  "init": null
+ },
+ "cg_ch01_dolmen": {
+  "seed": 2938219369,
+  "prompt": "no humans, scenery, outdoors, korean dolmen field, large stone dolmens on green hillside, summer sky, clouds, wide shot",
+  "init": null
+ },
+ "cg_ch02_baekje": {
+  "seed": 1701115196,
+  "prompt": "no humans, scenery, outdoors, ancient korean fortress wall on wooded hill, stone wall, river below, misty morning, traditional pavilion",
+  "init": null
+ },
+ "cg_ch03_palace_night": {
+  "seed": 3601768205,
+  "prompt": "no humans, scenery, outdoors, traditional korean palace courtyard at night, giwa roof, lanterns, stone pavement, moon, starry sky",
+  "init": null
+ },
+ "cg_ch04_goryeo_port": {
+  "seed": 2404874784,
+  "prompt": "no humans, scenery, outdoors, medieval korean trading port, wooden sailing ships, river estuary, merchants stalls, celadon pottery, morning",
+  "init": null
+ },
+ "st_orpheia_neutral": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, light smile, hands together",
+  "init": null
+ },
+ "st_orpheia_smile": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, smile, open mouth, happy",
+  "init": null
+ },
+ "st_orpheia_worry": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, worried, frown, hand on own chest",
+  "init": null
+ },
+ "st_orpheia_explain": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, index finger raised, smile, explaining",
+  "init": null
+ },
+ "st_orpheia_surprised": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, surprised, open mouth, wide-eyed",
+  "init": null
+ },
+ "st_orpheia_pout": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, pout, puffed cheeks, looking away",
+  "init": null
+ },
+ "st_orpheia_shy": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, blush, shy, looking down, hands together",
+  "init": null
+ },
+ "st_orpheia_excited": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, :d, arms up, sparkle, happy",
+  "init": null
+ },
+ "st_teacher_neutral": {
+  "seed": 20261117,
+  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, expressionless, arms at sides",
+  "init": null
+ },
+ "st_teacher_stern": {
+  "seed": 20261117,
+  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, serious, crossed arms",
+  "init": null
+ },
+ "st_teacher_smile": {
+  "seed": 20261117,
+  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, light smile, closed mouth",
+  "init": null
+ },
+ "st_teacher_coffee": {
+  "seed": 20261117,
+  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, holding disposable coffee cup, half-closed eyes",
+  "init": null
+ },
+ "st_harin_neutral": {
+  "seed": 20261118,
+  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, smile, closed mouth",
+  "init": null
+ },
+ "st_harin_smile": {
+  "seed": 20261118,
+  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, grin, open mouth, waving",
+  "init": null
+ },
+ "st_harin_surprised": {
+  "seed": 20261118,
+  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, surprised, open mouth",
+  "init": null
+ },
+ "st_harin_pout": {
+  "seed": 20261118,
+  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, pout, puffed cheeks",
+  "init": null
+ },
+ "st_harin_excited": {
+  "seed": 20261118,
+  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, fist pump, happy, open mouth",
+  "init": null
+ },
+ "st_jian_neutral": {
+  "seed": 20261119,
+  "prompt": "1girl, solo, black hair, very long hair, low ponytail, round eyewear, glasses, grey eyes, white shirt, grey sweater vest, lanyard, black pants, loafers, standing, full body, looking at viewer, expressionless, holding tablet computer",
+  "init": null
+ },
+ "st_jian_smile": {
+  "seed": 20261119,
+  "prompt": "1girl, solo, black hair, very long hair, low ponytail, round eyewear, glasses, grey eyes, white shirt, grey sweater vest, lanyard, black pants, loafers, standing, full body, looking at viewer, light smile, holding tablet computer",
+  "init": null
+ },
+ "st_jian_serious": {
+  "seed": 20261119,
+  "prompt": "1girl, solo, black hair, very long hair, low ponytail, round eyewear, glasses, grey eyes, white shirt, grey sweater vest, lanyard, black pants, loafers, standing, full body, looking at viewer, serious, adjusting eyewear",
+  "init": null
+ }
+}
