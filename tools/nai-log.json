@@ -515,13 +515,13 @@
   "init": null
  },
  "bg_era_jindo": {
-  "seed": 2646639700,
-  "prompt": "no humans, scenery, outdoors, stone fortress walls winding over a green hill on an island, ruins of palace terraces inside, sea visible beyond, warriors' banners, cloudy sky, korea 13th century",
+  "seed": 4150107839,
+  "prompt": "no humans, scenery, outdoors, rough weathered grey stone fortress wall made of stacked natural stones winding along a green mountain ridge on an island, ruined stone terraces of an old palace site inside, sea in the distance, cloudy, korea",
   "init": null
  },
  "bg_era_jinpo": {
-  "seed": 2274154685,
-  "prompt": "no humans, scenery, outdoors, wide river estuary at sunset crowded with hundreds of small wooden pirate boats, korean wooden warships firing primitive cannons with fire and smoke, burning boats, sparks, dramatic",
+  "seed": 2691530629,
+  "prompt": "no humans, scenery, outdoors, wide river estuary at sunset, crowded with many small flat-bottomed wooden boats with a single woven straw square sail, several burning, korean wooden oared warships with fire arrows and smoke, flames reflecting on water, dramatic, 14th century korea",
   "init": null
  },
  "bg_era_wihwado": {
