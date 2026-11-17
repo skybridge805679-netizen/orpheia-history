@@ -306,7 +306,7 @@
  },
  "st_nuri_paleo": {
   "seed": 8080808,
-  "prompt": "1girl, solo, solo focus, child, young girl, black hair, messy short hair, brown eyes, tan skin, determined expression, standing, full body, looking at viewer, prehistoric, animal fur clothes, barefoot, holding hand axe, stone tool",
+  "prompt": "1girl, solo, solo focus, child, young girl, black hair, messy short hair, brown eyes, tan skin, determined expression, standing, full body, looking at viewer, prehistoric, fur tunic covering body, long fur clothes, barefoot, holding a teardrop-shaped chipped stone in hand, stone tool",
   "init": null
  },
  "st_nuri_neo": {
@@ -321,12 +321,12 @@
  },
  "st_dallae_smile": {
   "seed": 9090909,
-  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient korean clothes, simple hanbok, apron, cloth bundle on back, cheerful smile, standing, full body, looking at viewer",
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, cheerful smile, standing, full body, looking at viewer",
   "init": null
  },
  "st_dallae_worry": {
   "seed": 9090909,
-  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient korean clothes, simple hanbok, apron, worried, frown, standing, full body, looking at viewer",
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, worried, frown, standing, full body, looking at viewer",
   "init": "assets/st_dallae_smile.webp"
  }
 }
