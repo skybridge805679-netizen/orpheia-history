@@ -48,6 +48,6 @@ for it in items:
             im.convert("RGB").save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=85, method=5)
     except ImportError:
         pass
-    time.sleep(2)
+    time.sleep(4)
 if failed:
     sys.exit("일부 에셋 생성 실패")
