@@ -13,7 +13,7 @@ const persist=()=>{try{localStorage.setItem(META_KEY,JSON.stringify(meta));}catc
 const CAST={
  orpheia:{name:'오르페이아',cls:'c-orpheia',stand:{neutral:'st_orpheia_neutral',smile:'st_orpheia_smile',excited:'st_orpheia_excited',worry:'st_orpheia_worry',explain:'st_orpheia_explain',surprised:'st_orpheia_surprised',pout:'st_orpheia_pout',shy:'st_orpheia_shy',serious:'st_orpheia_serious',teary:'st_orpheia_teary'},
   face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief',serious:'serious',teary:'worry'}},
- sayeon:{name:'사연',cls:'c-sayeon',stand:{neutral:'st_sayeon_neutral',smile:'st_sayeon_smile',serious:'st_sayeon_serious',surprised:'st_sayeon_surprised',worry:'st_sayeon_worry',writing:'st_sayeon_writing',neolithic:'st_sayeon_neolithic',buyeo:'st_sayeon_buyeo',baekje:'st_sayeon_baekje',hwarang:'st_sayeon_hwarang',goryeo:'st_sayeon_goryeo'}},
+ sayeon:{name:'사연',cls:'c-sayeon',stand:{neutral:'st_sayeon_neutral',smile:'st_sayeon_smile',serious:'st_sayeon_serious',surprised:'st_sayeon_surprised',worry:'st_sayeon_worry',writing:'st_sayeon_writing',neolithic:'st_sayeon_neolithic',buyeo:'st_sayeon_buyeo',baekje:'st_sayeon_baekje',hwarang:'st_sayeon_hwarang',goryeo:'st_sayeon_goryeo',joseon:'st_sayeon_joseon'}},
  muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
  nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
  dallae:{name:'달래',cls:'c-other',stand:{smile:'st_dallae_smile',worry:'st_dallae_worry'}},
@@ -21,9 +21,10 @@ const CAST={
  yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious'}},
  haerang:{name:'해랑',cls:'c-other',stand:{neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious'}},
  yeoul:{name:'여울',cls:'c-other',stand:{neutral:'st_yeoul_smile',smile:'st_yeoul_smile',surprised:'st_yeoul_surprised',worry:'st_yeoul_surprised'}},
+ sodam:{name:'소담',cls:'c-other',stand:{neutral:'st_sodam_smile',smile:'st_sodam_smile',worry:'st_sodam_worry',surprised:'st_sodam_worry'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
-const ALIAS={'여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
+const ALIAS={'소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();

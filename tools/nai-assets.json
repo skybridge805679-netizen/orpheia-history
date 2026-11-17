@@ -803,6 +803,60 @@
    "size": "bg",
    "prompt": "no humans, scenery, indoors, buddhist temple workshop, wooden table with a tray of tiny metal movable type arranged in rows, ink brush, stacks of printed paper pages, hanging printed sheets drying, warm window light, korea 14th century",
    "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, printing press machine, gutenberg, european"
+  },
+  {
+   "id": "st_sodam_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 8080808,
+   "prompt": "1girl, solo, solo focus, young teenage girl, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, cheerful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_sodam_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 8080808,
+   "prompt": "1girl, solo, solo focus, young teenage girl, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, worried, frown",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_sayeon_joseon",
+   "size": "stand",
+   "transparent": true,
+   "seed": 5050505,
+   "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, joseon noblewoman hanbok, pale jade jeogori, long crimson chima skirt, white collar, holding a thin bound book, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "bg_era_hanyang",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, early joseon capital under construction at the foot of a granite mountain, new palace halls with grey tiled roofs and wooden scaffolding, long stone city wall climbing the ridges, workers' tools, autumn, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, forbidden city"
+  },
+  {
+   "id": "bg_era_gyeongbokgung",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, gyeongbokgung palace main throne hall on a two-tier stone platform, wide granite courtyard with rank stones, colorful dancheong painted eaves, bugaksan mountain behind, clear blue sky, joseon",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, forbidden city, japanese"
+  },
+  {
+   "id": "bg_era_jiphyeonjeon",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, night, joseon royal library hall, shelves stacked with bound books, low reading desks with open books and brushes, oil lamps glowing, paper windows, quiet scholarly atmosphere",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, european library"
+  },
+  {
+   "id": "bg_era_joseon_night",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, night, snow falling, gate of a traditional korean noble house with tiled roof wall, footprints in the snow, scattered torches, dark ominous atmosphere, joseon",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, japanese"
+  },
+  {
+   "id": "bg_era_jongmyo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, jongmyo shrine, extremely long single-story hall with a continuous dark tiled roof and many identical red wooden doors in a row, vast stone-paved courtyard, solemn, overcast, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, japanese shrine, torii"
   }
  ]
 }
