@@ -111,8 +111,8 @@
  },
  "st_harin_neutral": {
   "seed": 20261218,
-  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, smile, closed mouth",
-  "init": null
+  "prompt": "1girl, solo, brown hair, long hair, low twintails, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, smile, closed mouth",
+  "init": "assets/st_harin_smile.webp"
  },
  "st_harin_smile": {
   "seed": 20261218,
@@ -126,8 +126,8 @@
  },
  "st_harin_pout": {
   "seed": 20261218,
-  "prompt": "1girl, solo, brown hair, short hair, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, pout, puffed cheeks",
-  "init": null
+  "prompt": "1girl, solo, brown hair, long hair, low twintails, ahoge, one side up, blue hair ribbon, hairclip, yellow eyes, white shirt, navy sweater vest, green necktie, black pencil skirt, brown pantyhose, loafers, standing, full body, looking at viewer, pout, puffed cheeks, standing straight",
+  "init": "assets/st_harin_smile.webp"
  },
  "st_harin_excited": {
   "seed": 20261218,
