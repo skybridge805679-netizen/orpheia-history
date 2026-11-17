@@ -90,23 +90,23 @@
   "init": null
  },
  "st_teacher_neutral": {
-  "seed": 20261120,
-  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, expressionless, arms at sides",
+  "seed": 777001,
+  "prompt": "1girl, solo, solo focus, single person, centered, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, expressionless, arms at sides",
   "init": null
  },
  "st_teacher_stern": {
   "seed": 20261117,
-  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, serious, crossed arms",
+  "prompt": "1girl, solo, solo focus, single person, centered, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, serious, crossed arms",
   "init": "assets/st_teacher_neutral.webp"
  },
  "st_teacher_smile": {
   "seed": 20261117,
-  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, light smile, closed mouth",
-  "init": null
+  "prompt": "1girl, solo, solo focus, single person, centered, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, light smile, closed mouth",
+  "init": "assets/st_teacher_neutral.webp"
  },
  "st_teacher_coffee": {
   "seed": 20261117,
-  "prompt": "1girl, solo, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, holding disposable coffee cup, half-closed eyes",
+  "prompt": "1girl, solo, solo focus, single person, centered, mature female, black hair, white streaked hair, short hair, hair bun, glasses, green eyes, grey cardigan, navy shirt, lanyard, id card, black pants, loafers, standing, full body, looking at viewer, holding disposable coffee cup, half-closed eyes",
   "init": "assets/st_teacher_neutral.webp"
  },
  "st_harin_neutral": {
