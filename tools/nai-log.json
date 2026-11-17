@@ -148,5 +148,45 @@
   "seed": 20261119,
   "prompt": "1girl, solo, black hair, very long hair, low ponytail, round eyewear, glasses, grey eyes, white shirt, grey sweater vest, lanyard, black pants, loafers, standing, full body, looking at viewer, serious, adjusting eyewear",
   "init": null
+ },
+ "bg_timeline_dive": {
+  "seed": 2790446626,
+  "prompt": "no humans, scenery, abstract, glowing timeline corridor, floating calendar pages, light particles, deep blue and gold, tunnel of light, ancient patterns, magical",
+  "init": null
+ },
+ "bg_era_paleolithic": {
+  "seed": 3332041456,
+  "prompt": "no humans, scenery, outdoors, prehistoric riverside camp, simple hut made of branches and animal hides, stone tools on the ground, campfire, cave entrance in cliff, wild grassland, dawn",
+  "init": null
+ },
+ "bg_era_neolithic": {
+  "seed": 1030074515,
+  "prompt": "no humans, scenery, outdoors, neolithic village by a river, pit houses with thatched roofs, comb-pattern clay pots, shell mound, small field, fishing nets, morning",
+  "init": null
+ },
+ "bg_era_gojoseon": {
+  "seed": 4253230888,
+  "prompt": "no humans, scenery, outdoors, ancient earthen fortress walls on a plain, wooden gate, banners, large river, bronze age kingdom capital, dramatic sky",
+  "init": null
+ },
+ "bg_era_buyeo_festival": {
+  "seed": 2977466088,
+  "prompt": "no humans, scenery, outdoors, ancient northern village in winter, snow, large bonfire festival at night, people's white clothes hanging, wooden houses, stars",
+  "init": null
+ },
+ "bg_era_goguryeo": {
+  "seed": 2433272666,
+  "prompt": "no humans, scenery, outdoors, ancient mountain village, wooden houses, small raised storehouse beside each house, autumn, mountains, river valley",
+  "init": null
+ },
+ "bg_era_east_coast": {
+  "seed": 4159042716,
+  "prompt": "no humans, scenery, outdoors, ancient fishing village on the east sea coast, wooden houses, drying fish, small boats on beach, mountains behind, clear sky",
+  "init": null
+ },
+ "bg_era_sodo": {
+  "seed": 976517749,
+  "prompt": "no humans, scenery, outdoors, ancient sacred grove with a tall wooden pole and a bell hanging from a tree, rice paddies around, small village, misty morning, mystical",
+  "init": null
  }
 }
