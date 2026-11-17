@@ -795,8 +795,8 @@
   {
    "id": "bg_era_gangjin_kiln",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, long climbing tunnel kiln built along a hillside, smoke rising from firing holes, piles of broken celadon green pottery shards, firewood stacks, potter's wheel under a thatched shelter, pine trees, korea",
-   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, factory, brick chimney"
+   "prompt": "no humans, scenery, outdoors, traditional korean climbing kiln made of clay and stones, a long low mound with many small arched firing holes stepping up a hillside, glowing fire in the holes, piles of broken jade green celadon shards, firewood stacks, thatched potter's workshop, pine trees, dusk",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, factory, brick chimney, concrete, ramp, road, railway, slide"
   },
   {
    "id": "bg_era_heungdeoksa",
