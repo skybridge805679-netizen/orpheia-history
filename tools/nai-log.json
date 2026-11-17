@@ -330,8 +330,8 @@
   "init": "assets/st_dallae_smile.webp"
  },
  "bg_era_gungnaeseong": {
-  "seed": 1319278921,
-  "prompt": "no humans, scenery, outdoors, ancient korean stone fortress walls by a wide river, huge stepped stone pyramid tomb in a field, mountains, northeast asia, goguryeo, clear sky",
+  "seed": 4135329431,
+  "prompt": "no humans, scenery, outdoors, ancient korean stone fortress walls along a wide river, low terraced granite tomb of seven stacked stone steps in a grassy field, small burial mounds, forested mountains, goguryeo, clear sky",
   "init": null
  },
  "bg_era_hanriver_ferry": {
@@ -340,8 +340,8 @@
   "init": null
  },
  "bg_era_sabi": {
-  "seed": 3459580233,
-  "prompt": "no humans, scenery, outdoors, ancient capital by a winding river, mountain fortress on a hill, slender five-story stone pagoda in a temple courtyard, tiled roofs, baekje, morning mist",
+  "seed": 2007002747,
+  "prompt": "no humans, scenery, outdoors, ancient capital by a winding river, earthen mountain fortress on a wooded hill, short five-story grey granite stone pagoda with wide flat thin roof stones in an empty temple courtyard, low wooden buildings with tiled roofs, baekje, morning mist",
   "init": null
  },
  "bg_era_gyeongju": {
@@ -350,8 +350,8 @@
   "init": null
  },
  "bg_era_gaya": {
-  "seed": 2861549772,
-  "prompt": "no humans, scenery, outdoors, ancient seaside blacksmith workshop, glowing furnace, stacked iron ingots, wooden ships loaded with iron on the beach, sea, smoke",
+  "seed": 2635890135,
+  "prompt": "no humans, scenery, outdoors, ancient korean seaside village, open-air clay smelting furnace glowing, stacked flat iron ingots on straw mats, thatched huts, small wooden rowing boats pulled up on the sand, river mouth, sea, dusk",
   "init": null
  },
  "st_naru_baekje": {
@@ -372,6 +372,36 @@
  "st_sayeon_baekje": {
   "seed": 5050505,
   "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, ancient baekje noblewoman, long robe with wide sleeves, pleated skirt, belt with ornaments, gold hair ornament, holding scroll, standing, full body, looking at viewer",
+  "init": null
+ },
+ "bg_era_salsu": {
+  "seed": 2092571411,
+  "prompt": "no humans, scenery, outdoors, wide shallow river crossing, ancient army banners and spears abandoned in the water, dense forest on the far bank, summer, overcast, dramatic, ancient northeast asia",
+  "init": null
+ },
+ "bg_era_ansi": {
+  "seed": 2149772713,
+  "prompt": "no humans, scenery, outdoors, ancient korean mountain fortress, rough stone walls winding along a ridge, earthen siege mound outside the wall, distant army camp with tents and banners, autumn, dusk, goguryeo",
+  "init": null
+ },
+ "bg_era_hwangsan": {
+  "seed": 1744331929,
+  "prompt": "no humans, scenery, outdoors, wide plain at the foot of low hills, many red battle banners on the far side, few black banners and wooden palisade on the near side, summer, ominous clouds, ancient korea, battlefield before battle",
+  "init": null
+ },
+ "bg_era_pyeongyang_fall": {
+  "seed": 273228411,
+  "prompt": "no humans, scenery, outdoors, ancient korean walled city by a river under siege, smoke rising from inside the stone walls, a large wooden city gate standing open, enemy banners surrounding, autumn, dusk, goguryeo",
+  "init": null
+ },
+ "bg_era_gibeolpo": {
+  "seed": 1570767832,
+  "prompt": "no humans, scenery, outdoors, wide river estuary meeting the sea, many small ancient wooden oared warships with square sails and banners, winter, cold grey sky, waves, ancient korea, naval battle",
+  "init": null
+ },
+ "st_sayeon_hwarang": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, serious, ancient silla noblewoman, layered long robe with wide sleeves, short jacket with belt, pleated skirt, gold earrings, holding scroll, standing, full body, looking at viewer",
   "init": null
  }
 }
