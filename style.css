@@ -163,3 +163,14 @@ dialog::backdrop{background:#05070bcc;backdrop-filter:blur(6px)}
 .vn-card.dive h2{animation:dive 1.6s ease-out}
 @keyframes dive{from{opacity:0;letter-spacing:.6em;filter:blur(6px)}to{opacity:1;letter-spacing:normal;filter:none}}
 .vn-bg{background:radial-gradient(ellipse at center,#1d2a44 0,#05070b 80%)}
+
+/* 연표 기록부 */
+.vn-note-pop{position:absolute;right:20px;top:64px;background:#1a2235ee;border:1px solid var(--gold);border-radius:12px;padding:8px 14px;animation:notepop 2.6s forwards;max-width:320px}
+.vn-note-pop small{display:block;color:var(--gold);font-size:11px;letter-spacing:.1em}
+@keyframes notepop{0%{opacity:0;transform:translateY(-8px)}10%,85%{opacity:1;transform:none}100%{opacity:0}}
+.vn-card.summary{overflow:auto;justify-content:flex-start;padding:5vh 4vw;cursor:default}
+.vn-notes{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;width:min(1100px,100%);margin:14px 0 18px;text-align:left}
+.vn-notecard{background:#fbf6e9;color:var(--ink);border-radius:10px;padding:12px 14px;box-shadow:0 4px 14px #0006}
+.vn-notecard b{display:block;color:#7a3b16;margin-bottom:4px}
+.vn-notecard p{margin:0;font-size:14px;line-height:1.6}
+#vnLog h3{margin:18px 0 6px;color:var(--gold)}

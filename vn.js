@@ -15,10 +15,12 @@ const CAST={
   face:{neutral:'neutral',smile:'smile',excited:'smile',worry:'worry',explain:'serious',surprised:'serious',pout:'worry',shy:'relief',serious:'serious',teary:'worry'}},
  sayeon:{name:'사연',cls:'c-sayeon',stand:{neutral:'st_sayeon_neutral',smile:'st_sayeon_smile',serious:'st_sayeon_serious',surprised:'st_sayeon_surprised',worry:'st_sayeon_worry',writing:'st_sayeon_writing',neolithic:'st_sayeon_neolithic',buyeo:'st_sayeon_buyeo'}},
  muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
+ nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
+ dallae:{name:'달래',cls:'c-other',stand:{smile:'st_dallae_smile',worry:'st_dallae_worry'}},
  yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
-const ALIAS={'오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','나':'me','주인님':'me'};
+const ALIAS={'오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','달래':'dallae','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
@@ -88,6 +90,9 @@ function step(){
    case 'wait':busy=true;setTimeout(()=>{busy=false;S.pc++;step();},+op.arg||600);return;
    case 'choice':return choose(op);
    case 'quiz':return quiz(op.arg);
+   // 연표 기록부: @note 제목|내용 — 본 것을 카드로 모은다. @summary — 이 장에서 모은 카드를 정리해 보여 준다.
+   case 'note':{const [t,...b]=op.arg.split('|');addNote(S.ch,t.trim(),b.join('|').trim());S.pc++;break;}
+   case 'summary':return summary();
    case 'end':return finishChapter(op.arg);
    case 'say':case 'narr':
     if(op.t==='say'&&op.expr&&S.chars[op.who]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
@@ -129,7 +134,7 @@ function shell(){
  document.body.classList.add('vn-mode');
  $('#main').innerHTML=`<section class="vn" id="vn" aria-label="비주얼 노벨"><div class="vn-layer vn-bg"><img id="vnBg" alt=""></div><div class="vn-layer vn-chars" id="vnChars"></div><div class="vn-phone" id="vnPhone" hidden><div class="vn-phone-notch"></div><div class="vn-phone-screen"></div></div><div class="vn-layer vn-fx" id="vnFx"></div><div class="vn-day" id="vnDay"></div><div class="vn-card" id="vnCard" hidden></div><div class="vn-choices" id="vnChoices" hidden></div>
  <div class="vn-box" id="vnBox"><div class="vn-name" id="vnName"><span class="vn-face" id="vnFace"><img alt=""></span><b id="vnWho"></b></div><p class="vn-text" id="vnText" aria-live="polite"></p><span class="vn-caret" id="vnCaret">▼</span></div>
- <nav class="vn-menu" aria-label="메뉴">${[['log','로그'],['auto','오토'],['skip','스킵'],['qsave','Q.세이브'],['qload','Q.로드'],['config','설정'],['hide','숨기기'],['title','타이틀']].map(([k,v])=>`<button data-vn="${k}">${v}</button>`).join('')}</nav></section>`;
+ <nav class="vn-menu" aria-label="메뉴">${[['notebook','기록부'],['log','로그'],['auto','오토'],['skip','스킵'],['qsave','Q.세이브'],['qload','Q.로드'],['config','설정'],['hide','숨기기'],['title','타이틀']].map(([k,v])=>`<button data-vn="${k}">${v}</button>`).join('')}</nav></section>`;
  const vn=$('#vn');
  vn.addEventListener('click',e=>{if(e.target.closest('.vn-menu,.vn-choices,.vn-card button,.qz'))return;advance();});
  vn.addEventListener('contextmenu',e=>{e.preventDefault();setHidden(!hidden);});
@@ -185,6 +190,17 @@ function choose(op){
  VN._pick=pick;
 }
 
+// ── 연표 기록부.
+function addNote(ch,title,body){const nb=records.notebook||(records.notebook={}),list=nb[ch]||(nb[ch]=[]);if(!list.some(n=>n.t===title))list.push({t:title,b:body});save();
+ const f=$('#vnFx');if(!f)return;const el=document.createElement('div');el.className='vn-note-pop';el.innerHTML=`<small>📜 연표 기록부</small><b>${esc(title)}</b>`;f.appendChild(el);SFX.play('save');setTimeout(()=>el.remove(),2600);}
+function notesHtml(ch){const list=(records.notebook||{})[ch]||[];return list.length?`<div class="vn-notes">${list.map(n=>`<div class="vn-notecard"><b>${esc(n.t)}</b><p>${esc(n.b)}</p></div>`).join('')}</div>`:'<p>아직 모은 기록이 없어요.</p>';}
+function summary(){
+ S.line=null;paint();busy=true;stopAuto();skip=false;const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card summary';c.hidden=false;
+ c.innerHTML=`<small>연표 기록부 · ${esc(curCh().title)}</small><h2>${esc(curCh().subtitle)}</h2>${notesHtml(S.ch)}<button class="primary">이야기로 돌아가기 ▶</button>`;
+ c.onclick=null;c.querySelector('button').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
+}
+function notebook(){const d=$('#vnLog');d.innerHTML=`<div class="dialog-header"><div><small>NOTEBOOK</small><h2>연표 기록부</h2></div><button class="quiet" data-close>닫기 ×</button></div>${chapters.filter(c=>(records.notebook||{})[c.id]?.length).map(c=>`<h3>${esc(c.title)} · ${esc(c.subtitle)}</h3>${notesHtml(c.id)}`).join('')||'<p>이야기를 진행하면 그 시대에서 본 것이 여기에 쌓여요.</p>'}`;d.querySelector('[data-close]').onclick=()=>d.close();d.showModal();}
+
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
 function quiz(arg){
@@ -229,6 +245,7 @@ function config(){const d=$('#vnConfig'),st=meta.settings;
 function closeDialogs(){for(const d of document.querySelectorAll('dialog[open]'))d.close();}
 function menu(k){
  if(k==='log')return openLog();
+ if(k==='notebook')return notebook();
  if(k==='auto'){auto=!auto;skip=false;paint();if(auto&&!typing&&S.line)afterLine();return;}
  if(k==='skip'){skip=!skip;auto=false;paint();if(skip){if(typing)finishType();else if(S.line)afterLine();}return;}
  if(k==='qsave')return saveTo('quick');
@@ -244,9 +261,9 @@ function title(){
  const cont=latest(),st=Quiz.stats();
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_my_room_night.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><small>KOREAN HISTORY VISUAL NOVEL · 한능검 심화</small><h1>오르페이아<span>電脳侍女의 한국사 연표</span></h1>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
- <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="config">설정</button></div>
+ <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
- const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),config};
+ const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t]());
 }
 
