@@ -165,8 +165,8 @@
   "init": null
  },
  "bg_era_gojoseon": {
-  "seed": 4253230888,
-  "prompt": "no humans, scenery, outdoors, ancient earthen fortress walls on a plain, wooden gate, banners, large river, bronze age kingdom capital, dramatic sky",
+  "seed": 4118029165,
+  "prompt": "no humans, scenery, outdoors, ancient korean earthen rampart fortress on hills, rammed earth walls with wooden palisade, thatched roof houses inside, large river, bronze age, dramatic sky, korean landscape",
   "init": null
  },
  "bg_era_buyeo_festival": {
@@ -175,8 +175,8 @@
   "init": null
  },
  "bg_era_goguryeo": {
-  "seed": 2433272666,
-  "prompt": "no humans, scenery, outdoors, ancient mountain village, wooden houses, small raised storehouse beside each house, autumn, mountains, river valley",
+  "seed": 3265987375,
+  "prompt": "no humans, scenery, outdoors, ancient korean mountain village, wooden houses, small raised wooden storehouse on stilts next to each house, autumn, mountains, river valley",
   "init": null
  },
  "bg_era_east_coast": {
@@ -185,8 +185,123 @@
   "init": null
  },
  "bg_era_sodo": {
-  "seed": 976517749,
-  "prompt": "no humans, scenery, outdoors, ancient sacred grove with a tall wooden pole and a bell hanging from a tree, rice paddies around, small village, misty morning, mystical",
+  "seed": 1264634046,
+  "prompt": "no humans, scenery, outdoors, ancient sacred grove, huge old tree with a bronze bell hanging from a branch, wooden poles with bird figures on top, rice paddies around, small village, misty morning, mystical",
+  "init": null
+ },
+ "st_orpheia_serious": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, serious, determined, hand on own chest",
+  "init": "assets/st_orpheia_neutral.webp"
+ },
+ "st_orpheia_teary": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, standing, full body, looking at viewer, teary eyes, tears, sad smile, hands together",
+  "init": "assets/st_orpheia_neutral.webp"
+ },
+ "st_sayeon_neutral": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, closed mouth",
+  "init": null
+ },
+ "st_sayeon_smile": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, gentle smile",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_serious": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, serious",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_surprised": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, surprised, open mouth",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_worry": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, worried, frown",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_writing": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, calm expression, hanbok, white jeogori, navy chima, holding calligraphy brush, holding scroll, standing, full body, looking at viewer, writing on scroll with brush, looking down",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_neolithic": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, standing, full body, looking at viewer, prehistoric clothes, simple hemp dress, fur cape, bone hairpin, barefoot, holding clay pot",
+  "init": null
+ },
+ "st_sayeon_buyeo": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, standing, full body, looking at viewer, ancient korean clothes, white robes, white clothes, fur collar, winter, holding torch",
+  "init": null
+ },
+ "st_muk_neutral": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, expressionless",
+  "init": null
+ },
+ "st_muk_smirk": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, smirk, half-closed eyes",
+  "init": "assets/st_muk_neutral.webp"
+ },
+ "st_muk_angry": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, angry, clenched teeth",
+  "init": "assets/st_muk_neutral.webp"
+ },
+ "st_muk_surprised": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, surprised, wide-eyed",
+  "init": "assets/st_muk_neutral.webp"
+ },
+ "st_muk_lonely": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, sad, lonely, looking down, hugging own arms",
+  "init": "assets/st_muk_neutral.webp"
+ },
+ "st_muk_smile": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, gentle smile, light blush",
+  "init": "assets/st_muk_neutral.webp"
+ },
+ "st_yunseul_neutral": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, smile, closed mouth",
+  "init": null
+ },
+ "st_yunseul_smile": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, grin, open mouth, waving",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "st_yunseul_surprised": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, surprised, open mouth",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "st_yunseul_pout": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, pout, puffed cheeks",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "st_yunseul_serious": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, light brown hair, wavy hair, medium hair, light blue eyes, grey hoodie, open zip-up hoodie, white t-shirt, headphones around neck, holding vocabulary cards, pleated skirt, sneakers, standing, full body, looking at viewer, serious, thinking, finger on chin",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "cg_first_dive": {
+  "seed": 1458529862,
+  "prompt": "1girl, solo, white hair, very long hair, green eyes, maid, maid headdress, black dress, white apron, green bowtie, emerald brooch, reaching out hand toward viewer, emerging from glowing smartphone screen, light particles, magical, dark bedroom at night, pov",
+  "init": null
+ },
+ "cg_ink_spread": {
+  "seed": 401688365,
+  "prompt": "no humans, ancient scroll unrolled, timeline of history drawn on scroll, black ink blots spreading and smudging the writing, ink splashes, dramatic lighting, dark background",
   "init": null
  }
 }
