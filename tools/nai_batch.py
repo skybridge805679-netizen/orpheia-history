@@ -22,11 +22,18 @@ for it in items:
         print("건너뜀", png.name); continue
     w, h = SIZES[it.get("size", "bg")]
     seed = it.get("seed") or random.randint(1, 2**32 - 1)
-    png.write_bytes(generate(it["prompt"], w, h, seed, it.get("model", STYLE["model"])))
+    prompt = it["prompt"] + (", transparent background" if it.get("transparent") else "")
+    png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"])))
     print("생성", png.name, "seed", seed)
     try:
         from PIL import Image
-        Image.open(png).convert("RGB").save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=85, method=5)
+        im = Image.open(png)
+        if it.get("transparent"):
+            alpha = im.mode == "RGBA" and im.getchannel("A").getextrema()[0] < 255
+            print("  투명 배경:", "있음" if alpha else "없음(배경 지우기 필요)")
+            im.convert("RGBA").save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=88, method=5)
+        else:
+            im.convert("RGB").save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=85, method=5)
     except ImportError:
         pass
     time.sleep(2)
