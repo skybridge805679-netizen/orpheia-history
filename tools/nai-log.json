@@ -498,5 +498,35 @@
   "seed": 1566427688,
   "prompt": "no humans, scenery, outdoors, new ancient korean palace complex beside a wide river, vermilion pillars, grey tiled roofs, stone walls, soldiers' banners gathered in front, willow trees, overcast, tense atmosphere, goryeo",
   "init": null
+ },
+ "bg_era_bohyeonwon": {
+  "seed": 1077146818,
+  "prompt": "no humans, scenery, outdoors, night, ancient korean buddhist temple pavilion with a banquet table, overturned wine cups and dishes, many torches approaching through the gate, drawn swords leaning, scattered scholar hats on the ground, ominous, goryeo",
+  "init": null
+ },
+ "bg_era_myeonghakso": {
+  "seed": 771484559,
+  "prompt": "no humans, scenery, outdoors, poor ancient korean mountain village on a slope, thatched huts, charcoal kilns smoking, small clay iron furnace, piles of firewood and pottery, muddy path, overcast, hard labor atmosphere",
+  "init": null
+ },
+ "bg_era_ganghwa": {
+  "seed": 2167061688,
+  "prompt": "no humans, scenery, outdoors, narrow sea strait with strong tidal currents, island coast lined with long earthen and stone fortress walls, many small wooden boats crossing loaded with cargo, mudflats, summer, korea",
+  "init": null
+ },
+ "bg_era_jindo": {
+  "seed": 2646639700,
+  "prompt": "no humans, scenery, outdoors, stone fortress walls winding over a green hill on an island, ruins of palace terraces inside, sea visible beyond, warriors' banners, cloudy sky, korea 13th century",
+  "init": null
+ },
+ "bg_era_jinpo": {
+  "seed": 2274154685,
+  "prompt": "no humans, scenery, outdoors, wide river estuary at sunset crowded with hundreds of small wooden pirate boats, korean wooden warships firing primitive cannons with fire and smoke, burning boats, sparks, dramatic",
+  "init": null
+ },
+ "bg_era_wihwado": {
+  "seed": 1190641977,
+  "prompt": "no humans, scenery, outdoors, heavy monsoon rain over a wide flooded river, low sandy river island with an army camp, soaked banners and tents, muddy water rising, dark clouds, korea",
+  "init": null
  }
 }
