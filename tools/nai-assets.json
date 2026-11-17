@@ -869,8 +869,8 @@
   {
    "id": "bg_era_seowon",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, traditional korean confucian academy seowon at the foot of a mountain, simple unpainted wooden lecture hall with open maru floor, dormitory buildings, stone steps, old ginkgo tree, river nearby, spring, calm",
-   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, buddhist temple, pagoda"
+   "prompt": "no humans, scenery, outdoors, 16th century joseon confucian academy in a mountain valley, several unpainted wooden buildings with grey tiled roofs arranged on stone terraces, open wooden maru floor hall, low stone walls, dirt paths, pine trees and an old ginkgo tree, river below, spring morning",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, buddhist temple, pagoda, asphalt, paved road, modern house, stage, park, lawn"
   },
   {
    "id": "bg_era_hansando",
