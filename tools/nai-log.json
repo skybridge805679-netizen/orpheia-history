@@ -558,5 +558,45 @@
   "seed": 3558179651,
   "prompt": "no humans, scenery, indoors, buddhist temple workshop, wooden table with a tray of tiny metal movable type arranged in rows, ink brush, stacks of printed paper pages, hanging printed sheets drying, warm window light, korea 14th century",
   "init": null
+ },
+ "st_sodam_smile": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young teenage girl, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, cheerful smile",
+  "init": null
+ },
+ "st_sodam_worry": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young teenage girl, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, worried, frown",
+  "init": null
+ },
+ "st_sayeon_joseon": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, black hair, very long hair, red hair ribbon, amber eyes, gentle smile, joseon noblewoman hanbok, pale jade jeogori, long crimson chima skirt, white collar, holding a thin bound book, standing, full body, looking at viewer",
+  "init": null
+ },
+ "bg_era_hanyang": {
+  "seed": 1446739004,
+  "prompt": "no humans, scenery, outdoors, early joseon capital under construction at the foot of a granite mountain, new palace halls with grey tiled roofs and wooden scaffolding, long stone city wall climbing the ridges, workers' tools, autumn, korea",
+  "init": null
+ },
+ "bg_era_gyeongbokgung": {
+  "seed": 3819987415,
+  "prompt": "no humans, scenery, outdoors, gyeongbokgung palace main throne hall on a two-tier stone platform, wide granite courtyard with rank stones, colorful dancheong painted eaves, bugaksan mountain behind, clear blue sky, joseon",
+  "init": null
+ },
+ "bg_era_jiphyeonjeon": {
+  "seed": 1793151760,
+  "prompt": "no humans, scenery, indoors, night, joseon royal library hall, shelves stacked with bound books, low reading desks with open books and brushes, oil lamps glowing, paper windows, quiet scholarly atmosphere",
+  "init": null
+ },
+ "bg_era_joseon_night": {
+  "seed": 3435807404,
+  "prompt": "no humans, scenery, outdoors, night, snow falling, gate of a traditional korean noble house with tiled roof wall, footprints in the snow, scattered torches, dark ominous atmosphere, joseon",
+  "init": null
+ },
+ "bg_era_jongmyo": {
+  "seed": 4080881031,
+  "prompt": "no humans, scenery, outdoors, jongmyo shrine, extremely long single-story hall with a continuous dark tiled roof and many identical red wooden doors in a row, vast stone-paved courtyard, solemn, overcast, korea",
+  "init": null
  }
 }
