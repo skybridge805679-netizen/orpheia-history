@@ -12,19 +12,31 @@ from nai import generate, STYLE
 ROOT = Path(__file__).resolve().parents[1]
 SIZES = {"bg": (1216, 832), "stand": (832, 1216), "square": (1024, 1024)}
 items = json.loads((ROOT / "tools/nai-assets.json").read_text(encoding="utf-8"))["items"]
-pick = set(sys.argv[1:])
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+pick = set(args)
+missing_only = "--missing" in sys.argv  # Actions: assets/<id>.webp 가 없는 것만(원본 PNG는 저장소에 없으므로)
+logp = ROOT / "tools/nai-log.json"
+log = json.loads(logp.read_text(encoding="utf-8")) if logp.exists() else {}
 gen = ROOT / "assets/gen"; gen.mkdir(parents=True, exist_ok=True)
+failed = False
 for it in items:
     if pick and it["id"] not in pick:
         continue
     png = gen / f"{it['id']}.png"
-    if png.exists() and not pick:
+    if not pick and (png.exists() or (missing_only and (ROOT / f"assets/{it['id']}.webp").exists())):
         print("건너뜀", png.name); continue
     w, h = SIZES[it.get("size", "bg")]
     seed = it.get("seed") or random.randint(1, 2**32 - 1)
     prompt = it["prompt"] + (", transparent background" if it.get("transparent") else "")
-    png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"])))
+    init = it.get("init")
+    try:
+        png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
+                                 init=(ROOT / init) if init else None, strength=it.get("strength", 0.6)))
+    except SystemExit as e:  # 한 장이 실패해도 나머지는 계속
+        print("실패", it["id"], e); failed = True; continue
     print("생성", png.name, "seed", seed)
+    log[it["id"]] = {"seed": seed, "prompt": it["prompt"], "init": init}
+    logp.write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     try:
         from PIL import Image
         im = Image.open(png)
@@ -37,3 +49,5 @@ for it in items:
     except ImportError:
         pass
     time.sleep(2)
+if failed:
+    sys.exit("일부 에셋 생성 실패")

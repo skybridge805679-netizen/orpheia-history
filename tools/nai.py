@@ -9,7 +9,7 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
-def generate(prompt, w, h, seed, model):
+def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1):
     full = f"{STYLE['style']}, {prompt}"
     neg = STYLE["negative"]
     params = {
@@ -19,7 +19,12 @@ def generate(prompt, w, h, seed, model):
         "v4_prompt": {"caption": {"base_caption": full, "char_captions": []}, "use_coords": False, "use_order": True},
         "v4_negative_prompt": {"caption": {"base_caption": neg, "char_captions": []}, "legacy_uc": False},
     }
-    body = json.dumps({"input": full, "model": model, "action": "generate", "parameters": params})
+    action = "generate"
+    if init:  # i2i: 기존 그림을 바탕으로 다시 그린다(strength가 클수록 많이 바뀜)
+        import base64
+        params.update({"image": base64.b64encode(Path(init).read_bytes()).decode(), "strength": strength, "noise": noise, "extra_noise_seed": seed})
+        action = "img2img"
+    body = json.dumps({"input": full, "model": model, "action": action, "parameters": params})
     r = subprocess.run(["curl", "-sS", "-X", "POST", "https://image.novelai.net/ai/generate-image",
                         "-H", "Content-Type: application/json", "--data-binary", "@-", "-w", "\n%{http_code}"]
                        + (["-H", "Authorization: Bearer " + os.environ["NAI_TOKEN"]] if os.environ.get("NAI_TOKEN") else []),
@@ -35,8 +40,9 @@ if __name__ == "__main__":
     ap.add_argument("out"); ap.add_argument("prompt")
     ap.add_argument("--w", type=int, default=832); ap.add_argument("--h", type=int, default=1216)
     ap.add_argument("--seed", type=int, default=None); ap.add_argument("--model", default=STYLE["model"])
+    ap.add_argument("--init", default=None, help="i2i 바탕 그림"); ap.add_argument("--strength", type=float, default=0.6)
     a = ap.parse_args()
     seed = a.seed if a.seed is not None else random.randint(1, 2**32 - 1)
-    png = generate(a.prompt, a.w, a.h, seed, a.model)
+    png = generate(a.prompt, a.w, a.h, seed, a.model, init=a.init, strength=a.strength)
     Path(a.out).write_bytes(png)
     print(f"{a.out} seed={seed}")
