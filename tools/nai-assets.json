@@ -857,6 +857,50 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, jongmyo shrine, extremely long single-story hall with a continuous dark tiled roof and many identical red wooden doors in a row, vast stone-paved courtyard, solemn, overcast, korea",
    "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, japanese shrine, torii"
+  },
+  {
+   "id": "st_naru_joseon",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1212121,
+   "prompt": "1girl, solo, solo focus, young woman, sailor, black hair, braid, tan skin, brown eyes, determined shout, open mouth, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, axe, weapon, hatchet, sword"
+  },
+  {
+   "id": "bg_era_seowon",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, traditional korean confucian academy seowon at the foot of a mountain, simple unpainted wooden lecture hall with open maru floor, dormitory buildings, stone steps, old ginkgo tree, river nearby, spring, calm",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, buddhist temple, pagoda"
+  },
+  {
+   "id": "bg_era_hansando",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, naval battle at sea between islands, many korean panokseon wooden warships with flat decks arranged in a crane-wing half circle, one turtle ship with iron spikes and dragon head, japanese warships burning, cannon smoke, summer, dramatic",
+   "negative": "european, galleon, frigate, modern, signature, steamship"
+  },
+  {
+   "id": "bg_era_jinju",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, stone castle walls of a korean fortress on a cliff above a river, a pavilion with a tiled roof on the rocky cliff, siege ladders against the walls, arrows, smoke, autumn, battle",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, japanese castle"
+  },
+  {
+   "id": "bg_era_gyeongbokgung_ruin",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ruins of a burned korean royal palace, only blackened stone foundations and platforms remain, charred wooden beams, weeds growing, granite courtyard, mountain behind, grey sky, desolate",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, european ruins, columns"
+  },
+  {
+   "id": "bg_era_namhansanseong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, korean mountain fortress stone walls winding along snowy ridges, a gate pavilion, deep snow, enemy army banners and camp fires surrounding below in the valley, bitter cold, winter dusk",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, great wall of china"
+  },
+  {
+   "id": "bg_era_samjeondo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, frozen riverbank in winter, a tall raised altar platform with steps and banners of a foreign army, snow, ranks of empty ground, grey heavy sky, humiliating solemn atmosphere",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text"
   }
  ]
 }
