@@ -415,8 +415,8 @@
   "init": null
  },
  "bg_era_sanggyeong": {
-  "seed": 2471004226,
-  "prompt": "no humans, scenery, outdoors, ancient walled capital on a vast plain, very wide straight main avenue leading to a palace on stone platform, tiled roofs, orderly grid of streets, distant river, clear autumn sky, balhae",
+  "seed": 212572822,
+  "prompt": "no humans, scenery, outdoors, ancient walled capital on a vast plain seen from ground level, very wide straight packed-earth main avenue lined with willow trees leading to a palace hall on a high stone platform, earthen city walls, wooden buildings with grey tiled roofs, autumn, clear sky, balhae, 8th century",
   "init": null
  },
  "bg_era_bulguksa": {
@@ -437,6 +437,36 @@
  "st_haerang_serious": {
   "seed": 6060606,
   "prompt": "1girl, solo, solo focus, teenage girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, serious, closed mouth",
+  "init": null
+ },
+ "st_naru_sea": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, young woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, coil of rope over shoulder, bright smile, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals",
+  "init": null
+ },
+ "bg_era_gyeongju_night": {
+  "seed": 970145070,
+  "prompt": "no humans, scenery, outdoors, ancient korean palace courtyard at night, tiled roof halls, many torches and flames over the palace wall, smoke, chaos, scattered spears, dark blue sky, silla",
+  "init": null
+ },
+ "bg_era_cheonghaejin": {
+  "seed": 1106326430,
+  "prompt": "no humans, scenery, outdoors, small island harbor, rows of wooden palisade stakes in the tidal mudflat around the island, busy port with many small wooden trading boats with square sails, warehouses with tiled roofs, sunny, sea, korea",
+  "init": null
+ },
+ "bg_era_seon_temple": {
+  "seed": 2912915072,
+  "prompt": "no humans, scenery, outdoors, small buddhist temple deep in misty mountain forest, octagonal stone stupa with lotus base in front, open wooden hall with a large dark iron seated buddha statue inside, autumn, quiet",
+  "init": null
+ },
+ "bg_era_cheorwon": {
+  "seed": 2841001264,
+  "prompt": "no humans, scenery, outdoors, ancient palace under construction on a wide basalt plain, wooden scaffolding, piles of timber and stone, laborers' tools, rivers in gorges, mountains, cloudy, korea",
+  "init": null
+ },
+ "bg_era_poseokjeong": {
+  "seed": 3996221050,
+  "prompt": "no humans, scenery, outdoors, ancient korean garden with a winding abalone-shaped stone water channel on the ground, scattered wine cups, fallen leaves, trampled ground, old trees, autumn, gloomy",
   "init": null
  }
 }
