@@ -633,5 +633,25 @@
   "seed": 1023127968,
   "prompt": "no humans, scenery, outdoors, frozen riverbank in winter, a tall raised altar platform with steps and banners of a foreign army, snow, ranks of empty ground, grey heavy sky, humiliating solemn atmosphere",
   "init": null
+ },
+ "bg_era_tangpyeong": {
+  "seed": 2045836260,
+  "prompt": "no humans, scenery, outdoors, front courtyard of a joseon royal confucian academy, a tall granite stone stele with a carved roof cap standing on a turtle-less pedestal, old ginkgo trees, wooden lecture hall with tiled roof, autumn, clear sky",
+  "init": null
+ },
+ "bg_era_hwaseong": {
+  "seed": 1456933511,
+  "prompt": "no humans, scenery, outdoors, hwaseong fortress, long stone and brick fortress wall following hills, a grand gate with pavilion, construction site with a large wooden crane machine with pulleys lifting stone blocks, workers' tools, clear autumn sky, joseon 18th century",
+  "init": null
+ },
+ "bg_era_jeongju": {
+  "seed": 584452385,
+  "prompt": "no humans, scenery, outdoors, winter, besieged korean walled town on a plain, stone walls with snow, rebel banners on the walls, government army camp with tents surrounding, smoke, grey sky",
+  "init": null
+ },
+ "bg_era_jinju_1862": {
+  "seed": 2273032352,
+  "prompt": "no humans, scenery, outdoors, korean town in spring, crowd's abandoned bamboo spears, farming tools and white cloth headbands scattered on the road in front of a government office gate with tiled roof, torches, smoke, tense, joseon",
+  "init": null
  }
 }
