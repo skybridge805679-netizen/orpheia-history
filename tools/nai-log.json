@@ -528,5 +528,35 @@
   "seed": 1190641977,
   "prompt": "no humans, scenery, outdoors, heavy monsoon rain over a wide flooded river, low sandy river island with an army camp, soaked banners and tents, muddy water rising, dark clouds, korea",
   "init": null
+ },
+ "st_yeoul_smile": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, teenage girl, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, big smile, open mouth",
+  "init": null
+ },
+ "st_yeoul_surprised": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, teenage girl, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, surprised, wide eyes",
+  "init": null
+ },
+ "bg_era_gaegyeong_market": {
+  "seed": 1591894004,
+  "prompt": "no humans, scenery, outdoors, wide ancient korean main street lined on both sides with long rows of wooden shop buildings with grey tiled roofs, cloth shop signs, baskets of rice and bolts of cloth, tea house, bookshop, daytime, goryeo capital",
+  "init": null
+ },
+ "bg_era_byeokrando": {
+  "seed": 1470597052,
+  "prompt": "no humans, scenery, outdoors, busy ancient river port at a wide estuary, many wooden junk trading ships with battened sails moored at wooden piers, warehouses with tiled roofs, crates and jars and bolts of silk on the docks, sunny, 12th century east asia",
+  "init": null
+ },
+ "bg_era_gangjin_kiln": {
+  "seed": 3353964066,
+  "prompt": "no humans, scenery, outdoors, long climbing tunnel kiln built along a hillside, smoke rising from firing holes, piles of broken celadon green pottery shards, firewood stacks, potter's wheel under a thatched shelter, pine trees, korea",
+  "init": null
+ },
+ "bg_era_heungdeoksa": {
+  "seed": 3558179651,
+  "prompt": "no humans, scenery, indoors, buddhist temple workshop, wooden table with a tray of tiny metal movable type arranged in rows, ink brush, stacks of printed paper pages, hanging printed sheets drying, warm window light, korea 14th century",
+  "init": null
  }
 }
