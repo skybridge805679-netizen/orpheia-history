@@ -303,5 +303,30 @@
   "seed": 401688365,
   "prompt": "no humans, ancient scroll unrolled, timeline of history drawn on scroll, black ink blots spreading and smudging the writing, ink splashes, dramatic lighting, dark background",
   "init": null
+ },
+ "st_nuri_paleo": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, child, young girl, black hair, messy short hair, brown eyes, tan skin, determined expression, standing, full body, looking at viewer, prehistoric, animal fur clothes, barefoot, holding hand axe, stone tool",
+  "init": null
+ },
+ "st_nuri_neo": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, child, young girl, black hair, messy short hair, brown eyes, tan skin, determined expression, standing, full body, looking at viewer, neolithic, simple hemp dress, bone necklace, holding comb-pattern clay pot",
+  "init": null
+ },
+ "st_nuri_bronze": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, child, young girl, black hair, messy short hair, brown eyes, tan skin, determined expression, standing, full body, looking at viewer, bronze age, worn hemp clothes, rope over shoulder, sweat, tired, pulling rope, laborer",
+  "init": null
+ },
+ "st_dallae_smile": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient korean clothes, simple hanbok, apron, cloth bundle on back, cheerful smile, standing, full body, looking at viewer",
+  "init": null
+ },
+ "st_dallae_worry": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient korean clothes, simple hanbok, apron, worried, frown, standing, full body, looking at viewer",
+  "init": "assets/st_dallae_smile.webp"
  }
 }
