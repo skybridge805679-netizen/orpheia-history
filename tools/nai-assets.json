@@ -657,8 +657,8 @@
    "size": "stand",
    "transparent": true,
    "seed": 1212121,
-   "prompt": "1girl, solo, solo focus, young woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, coil of rope over shoulder, bright smile, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery"
+   "prompt": "1girl, solo, solo focus, young woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, bright smile, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, axe, weapon, hatchet, sword"
   },
   {
    "id": "bg_era_gyeongju_night",
@@ -681,8 +681,8 @@
   {
    "id": "bg_era_cheorwon",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, ancient palace under construction on a wide basalt plain, wooden scaffolding, piles of timber and stone, laborers' tools, rivers in gorges, mountains, cloudy, korea",
-   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city, japanese castle"
+   "prompt": "no humans, scenery, outdoors, large ancient korean palace complex being built on a wide flat plain, many wooden halls with tiled roofs, half-built hall with wooden scaffolding, earthen walls, timber piles, mountains in the distance, cloudy, 10th century korea",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, forbidden city, japanese castle, canyon, cliff, ruins"
   },
   {
    "id": "bg_era_poseokjeong",
