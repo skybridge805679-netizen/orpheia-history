@@ -749,14 +749,14 @@
   {
    "id": "bg_era_jindo",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, stone fortress walls winding over a green hill on an island, ruins of palace terraces inside, sea visible beyond, warriors' banners, cloudy sky, korea 13th century",
-   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon"
+   "prompt": "no humans, scenery, outdoors, rough weathered grey stone fortress wall made of stacked natural stones winding along a green mountain ridge on an island, ruined stone terraces of an old palace site inside, sea in the distance, cloudy, korea",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, cannon, concrete, white walls, castle, modern building"
   },
   {
    "id": "bg_era_jinpo",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, wide river estuary at sunset crowded with hundreds of small wooden pirate boats, korean wooden warships firing primitive cannons with fire and smoke, burning boats, sparks, dramatic",
-   "negative": "chinese architecture, european, galleon, modern, signature, steamship"
+   "prompt": "no humans, scenery, outdoors, wide river estuary at sunset, crowded with many small flat-bottomed wooden boats with a single woven straw square sail, several burning, korean wooden oared warships with fire arrows and smoke, flames reflecting on water, dramatic, 14th century korea",
+   "negative": "chinese architecture, european, galleon, sailing ship, tall ship, multiple masts, frigate, modern, signature, steamship"
   },
   {
    "id": "bg_era_wihwado",
