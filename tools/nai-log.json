@@ -905,13 +905,13 @@
   "init": null
  },
  "bg_era_election_1948": {
-  "seed": 175893836,
-  "prompt": "no humans, scenery, indoors, 1948 polling station set up in a school classroom, a wooden ballot box on a table, simple cloth voting booth, election posters with stick figures on the wall, sunlight through windows, solemn",
+  "seed": 834802231,
+  "prompt": "no humans, scenery, indoors, 1948 korean polling station in an old wooden-floored schoolroom, worn wooden desks pushed aside, one plain wooden ballot box with a slot on a table covered with white cloth, a simple cloth-curtained voting booth, hand-painted election notice papers on the wooden wall, dusty sunlight",
   "init": null
  },
  "bg_era_heungnam": {
-  "seed": 781435293,
-  "prompt": "no humans, scenery, outdoors, winter harbor in a blizzard, a large grey cargo ship docked at a pier with ramps, piles of abandoned bundles and luggage on the snowy pier, distant burning smoke, desperate atmosphere, 1950",
+  "seed": 711069741,
+  "prompt": "no humans, scenery, outdoors, 1950 winter harbor in a blizzard, an old rusty merchant cargo ship with cranes and a single funnel docked at a wooden pier, gangways, piles of abandoned bundles, oxcarts and luggage on the snowy pier, distant smoke, desperate atmosphere",
   "init": null
  },
  "bg_era_busan_refugee": {
@@ -930,27 +930,27 @@
   "init": null
  },
  "bg_era_april19": {
-  "seed": 3870464738,
+  "seed": 2997879670,
   "prompt": "no humans, scenery, outdoors, 1960 seoul wide avenue in april, old government buildings, spring trees, scattered school caps and handwritten placards on the road, a stopped tram, tear gas haze, dramatic",
   "init": null
  },
  "bg_era_gyeongbu": {
-  "seed": 3487680687,
+  "seed": 664961296,
   "prompt": "no humans, scenery, outdoors, 1970 korea, a newly built two-lane concrete expressway winding through green mountains and rice fields, a few vintage cars and buses, tunnel entrance, clear summer sky, proud atmosphere",
   "init": null
  },
  "bg_era_buma": {
-  "seed": 643715531,
+  "seed": 1716693365,
   "prompt": "no humans, scenery, outdoors, night, 1979 korean port city street, closed shop shutters, street lamps, scattered leaflets and stones, tear gas smoke drifting, distant university gate, tense atmosphere",
   "init": null
  },
  "bg_era_gwangju_1980": {
-  "seed": 2689307800,
+  "seed": 274174376,
   "prompt": "no humans, scenery, outdoors, may 1980 korean city square in front of a white provincial government building with a clock tower and a fountain, stopped buses and trucks, baskets of rice balls on a table, fresh green trees, tense quiet, helicopter in the sky",
   "init": null
  },
  "bg_era_june1987": {
-  "seed": 681453018,
+  "seed": 2207358616,
   "prompt": "no humans, scenery, outdoors, june 1987 seoul city hall plaza, wide avenue filled with scattered white handkerchiefs and paper flyers, 1980s cars stopped honking, office buildings, tear gas haze, summer evening light, hopeful and intense",
   "init": null
  }
