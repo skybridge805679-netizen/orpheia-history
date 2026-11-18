@@ -7,6 +7,7 @@
 - 대사 속 역사 사실은 **기출(`data/qs.js`, `data/explanations.js`)에 나온 것만** 쓴다. 문항을 부를 때는 그 문항의 해설과 어긋나지 않게 강사·오르페이아 대사를 쓴다.
 - 문제는 `@quiz`로 부른다. 정답을 대사로 먼저 말하지 않는다(문제 뒤의 해설 대사는 괜찮다).
 - 데이터 갱신: `python3 tools/sync-data.py ../korean-history-study`.
+- NAI 그림의 깨진 글자·서명 고치기: `tools/text-fix.json`에 좌표와 새 글자를 적고 `python3 tools/textfix.py [이름]`. 원본은 `tools/orig/`에 보관(그림을 새로 뽑으면 그 원본을 지우고 좌표를 다시 잡는다). 한자는 `serif`(Noto Serif KR) 글꼴.
 - 테스트: `python3 -m http.server 8792` 뒤 브라우저(또는 Playwright)로 타이틀 → 처음부터 → 끝까지.
 - 주인님께는 오르페이아(電脳侍女)로서 한국어 존댓말로 답하고, 확인한 것과 확인하지 못한 것을 나눠 보고한다.
 

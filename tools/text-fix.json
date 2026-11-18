@@ -1,0 +1,1371 @@
+{
+ "_설명": "tools/textfix.py 설정. 좌표는 원본 화소. 원본은 tools/orig/",
+ "st_yunseul_pout": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      160,
+      207
+     ],
+     [
+      281,
+      160
+     ],
+     [
+      322,
+      246
+     ],
+     [
+      204,
+      306
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      234,
+      321
+     ],
+     [
+      331,
+      286
+     ],
+     [
+      338,
+      311
+     ],
+     [
+      241,
+      338
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     244,
+     234
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     287,
+     313
+    ],
+    "angle": 21,
+    "size": [
+     160,
+     40
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 13,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_serious": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      160,
+      206
+     ],
+     [
+      273,
+      163
+     ],
+     [
+      314,
+      246
+     ],
+     [
+      196,
+      308
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      234,
+      321
+     ],
+     [
+      328,
+      286
+     ],
+     [
+      334,
+      311
+     ],
+     [
+      241,
+      337
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     240,
+     235
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     284,
+     313
+    ],
+    "angle": 21,
+    "size": [
+     160,
+     40
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 13,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_smile": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      162,
+      210
+     ],
+     [
+      271,
+      163
+     ],
+     [
+      312,
+      246
+     ],
+     [
+      196,
+      308
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      234,
+      321
+     ],
+     [
+      326,
+      289
+     ],
+     [
+      332,
+      316
+     ],
+     [
+      241,
+      338
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     241,
+     237
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     284,
+     315
+    ],
+    "angle": 21,
+    "size": [
+     160,
+     40
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 13,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_surprised": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      160,
+      210
+     ],
+     [
+      271,
+      163
+     ],
+     [
+      312,
+      246
+     ],
+     [
+      196,
+      308
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      234,
+      321
+     ],
+     [
+      326,
+      291
+     ],
+     [
+      332,
+      316
+     ],
+     [
+      241,
+      338
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     241,
+     237
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     284,
+     315
+    ],
+    "angle": 21,
+    "size": [
+     160,
+     40
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 13,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_neutral": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      160,
+      214
+     ],
+     [
+      268,
+      165
+     ],
+     [
+      318,
+      262
+     ],
+     [
+      240,
+      296
+     ],
+     [
+      226,
+      252
+     ],
+     [
+      182,
+      262
+     ]
+    ],
+    "pick": "ink",
+    "keep_hue": [
+     [
+      30,
+      110
+     ]
+    ],
+    "radius": 7,
+    "grow": 2
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      228,
+      326
+     ],
+     [
+      330,
+      286
+     ],
+     [
+      342,
+      311
+     ],
+     [
+      240,
+      354
+     ]
+    ],
+    "pick": "ink",
+    "keep_hue": [
+     [
+      30,
+      110
+     ]
+    ],
+    "radius": 6
+   },
+   {
+    "op": "layer",
+    "center": [
+     243,
+     229
+    ],
+    "angle": 29,
+    "size": [
+     220,
+     160
+    ],
+    "items": [
+     {
+      "box": [
+       136,
+       96
+      ],
+      "fill": "#fbfbf7",
+      "radius": 8
+     },
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 17,
+      "color": "#2b3f63",
+      "at": [
+       -24,
+       -28
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 34,
+      "color": "#1d1a16",
+      "at": [
+       -2,
+       4
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 15,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       38,
+       36
+      ]
+     }
+    ]
+   },
+   {
+    "op": "restore",
+    "poly": [
+     [
+      165,
+      235
+     ],
+     [
+      250,
+      235
+     ],
+     [
+      250,
+      330
+     ],
+     [
+      165,
+      330
+     ]
+    ],
+    "smin": 4
+   },
+   {
+    "op": "layer",
+    "center": [
+     286,
+     318
+    ],
+    "angle": 27,
+    "size": [
+     170,
+     40
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 14,
+      "color": "#1d1a16"
+     }
+    ]
+   }
+  ]
+ },
+ "bg_era_sodo": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      960,
+      652
+     ],
+     [
+      1140,
+      652
+     ],
+     [
+      1140,
+      812
+     ],
+     [
+      960,
+      812
+     ]
+    ],
+    "pick": "light",
+    "radius": 7,
+    "grow": 3
+   }
+  ]
+ },
+ "bg_era_namhansanseong": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      722,
+      725
+     ],
+     [
+      845,
+      725
+     ],
+     [
+      845,
+      760
+     ],
+     [
+      722,
+      760
+     ]
+    ],
+    "pick": "all",
+    "radius": 7
+   }
+  ]
+ },
+ "bg_era_jongno_tram": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      838,
+      72
+     ],
+     [
+      964,
+      72
+     ],
+     [
+      964,
+      110
+     ],
+     [
+      838,
+      110
+     ]
+    ],
+    "pick": "all",
+    "radius": 7
+   }
+  ]
+ },
+ "bg_era_neolithic": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      1128,
+      806
+     ],
+     [
+      1216,
+      806
+     ],
+     [
+      1216,
+      832
+     ],
+     [
+      1128,
+      832
+     ]
+    ],
+    "pick": "light",
+    "radius": 7,
+    "grow": 3
+   }
+  ]
+ },
+ "bg_era_paleolithic": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      1086,
+      802
+     ],
+     [
+      1206,
+      802
+     ],
+     [
+      1206,
+      832
+     ],
+     [
+      1086,
+      832
+     ]
+    ],
+    "pick": "all",
+    "radius": 7
+   }
+  ]
+ },
+ "cg_ch02_baekje": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      1076,
+      700
+     ],
+     [
+      1202,
+      700
+     ],
+     [
+      1202,
+      764
+     ],
+     [
+      1076,
+      764
+     ]
+    ],
+    "pick": "light",
+    "radius": 7,
+    "grow": 3
+   }
+  ]
+ },
+ "cg_orpheia_jealous": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      188,
+      238
+     ],
+     [
+      262,
+      238
+     ],
+     [
+      300,
+      312
+     ],
+     [
+      350,
+      378
+     ],
+     [
+      346,
+      445
+     ],
+     [
+      322,
+      522
+     ],
+     [
+      246,
+      522
+     ],
+     [
+      226,
+      380
+     ],
+     [
+      188,
+      318
+     ]
+    ],
+    "pick": "all",
+    "radius": 9
+   },
+   {
+    "op": "layer",
+    "center": [
+     224,
+     276
+    ],
+    "angle": 8,
+    "size": [
+     120,
+     120
+    ],
+    "items": [
+     {
+      "text": "흥",
+      "font": "dohyeon",
+      "size": 60,
+      "color": "#e3ecfb",
+      "stroke": 4,
+      "stroke_color": "#34406e"
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     258,
+     346
+    ],
+    "angle": -6,
+    "size": [
+     120,
+     120
+    ],
+    "items": [
+     {
+      "text": "흥",
+      "font": "dohyeon",
+      "size": 56,
+      "color": "#e3ecfb",
+      "stroke": 4,
+      "stroke_color": "#34406e"
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     314,
+     412
+    ],
+    "angle": 6,
+    "size": [
+     120,
+     120
+    ],
+    "items": [
+     {
+      "text": "흥",
+      "font": "dohyeon",
+      "size": 52,
+      "color": "#e3ecfb",
+      "stroke": 4,
+      "stroke_color": "#34406e"
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     288,
+     488
+    ],
+    "angle": -4,
+    "size": [
+     120,
+     120
+    ],
+    "items": [
+     {
+      "text": "흥",
+      "font": "dohyeon",
+      "size": 46,
+      "color": "#e3ecfb",
+      "stroke": 4,
+      "stroke_color": "#34406e"
+     }
+    ]
+   }
+  ]
+ },
+ "bg_era_gaegyeong": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      955,
+      410
+     ],
+     [
+      992,
+      410
+     ],
+     [
+      992,
+      522
+     ],
+     [
+      955,
+      522
+     ]
+    ],
+    "pick": "dark",
+    "dark": 140,
+    "fill": "#eef0ea",
+    "grow": 2
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      1071,
+      436
+     ],
+     [
+      1100,
+      436
+     ],
+     [
+      1100,
+      538
+     ],
+     [
+      1071,
+      538
+     ]
+    ],
+    "pick": "light",
+    "vmin": 150,
+    "smax": 120,
+    "radius": 4
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      1038,
+      470
+     ],
+     [
+      1060,
+      470
+     ],
+     [
+      1060,
+      528
+     ],
+     [
+      1038,
+      528
+     ]
+    ],
+    "pick": "light",
+    "vmin": 150,
+    "smax": 120,
+    "radius": 4
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      348,
+      430
+     ],
+     [
+      375,
+      430
+     ],
+     [
+      375,
+      520
+     ],
+     [
+      348,
+      520
+     ]
+    ],
+    "pick": "light",
+    "vmin": 150,
+    "smax": 120,
+    "radius": 4
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      313,
+      470
+     ],
+     [
+      337,
+      470
+     ],
+     [
+      337,
+      538
+     ],
+     [
+      313,
+      538
+     ]
+    ],
+    "pick": "dark",
+    "dark": 140,
+    "radius": 4
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      505,
+      455
+     ],
+     [
+      542,
+      455
+     ],
+     [
+      542,
+      512
+     ],
+     [
+      505,
+      512
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 4
+   },
+   {
+    "op": "layer",
+    "center": [
+     973,
+     462
+    ],
+    "size": [
+     60,
+     140
+    ],
+    "items": [
+     {
+      "text": "開京",
+      "vertical": true,
+      "font": "serif",
+      "size": 30,
+      "color": "#1d1a16",
+      "spacing": 6
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     1085,
+     486
+    ],
+    "size": [
+     50,
+     140
+    ],
+    "items": [
+     {
+      "text": "八關會",
+      "vertical": true,
+      "font": "serif",
+      "size": 22,
+      "color": "#fff4e6",
+      "spacing": 5
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     361,
+     474
+    ],
+    "size": [
+     50,
+     140
+    ],
+    "items": [
+     {
+      "text": "國子監",
+      "vertical": true,
+      "font": "serif",
+      "size": 21,
+      "color": "#ffffff",
+      "spacing": 5
+     }
+    ]
+   }
+  ]
+ },
+ "bg_era_donhwamun": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      561,
+      376
+     ],
+     [
+      649,
+      376
+     ],
+     [
+      649,
+      402
+     ],
+     [
+      561,
+      402
+     ]
+    ],
+    "pick": "light",
+    "vmin": 120,
+    "smax": 110,
+    "fill": "#1d2235",
+    "grow": 2
+   },
+   {
+    "op": "layer",
+    "center": [
+     605,
+     389
+    ],
+    "size": [
+     120,
+     40
+    ],
+    "items": [
+     {
+      "text": "門化敦",
+      "font": "serif",
+      "size": 21,
+      "color": "#efe6cf",
+      "stroke": 1,
+      "stroke_color": "#efe6cf"
+     }
+    ]
+   }
+  ]
+ },
+ "cg_mv_ch15": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      804,
+      306
+     ],
+     [
+      1040,
+      309
+     ],
+     [
+      1040,
+      348
+     ],
+     [
+      804,
+      345
+     ]
+    ],
+    "pick": "light",
+    "vmin": 120,
+    "smax": 140,
+    "radius": 5,
+    "grow": 2
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      902,
+      698
+     ],
+     [
+      1008,
+      698
+     ],
+     [
+      1008,
+      722
+     ],
+     [
+      902,
+      722
+     ]
+    ],
+    "pick": "light",
+    "vmin": 150,
+    "smax": 120,
+    "fill": "#32456e",
+    "grow": 1
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      908,
+      372
+     ],
+     [
+      952,
+      372
+     ],
+     [
+      952,
+      395
+     ],
+     [
+      908,
+      395
+     ]
+    ],
+    "pick": "light",
+    "vmin": 120,
+    "smax": 140,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     921,
+     326
+    ],
+    "angle": -1.5,
+    "size": [
+     260,
+     60
+    ],
+    "items": [
+     {
+      "text": "漢城電氣會社",
+      "font": "serif",
+      "size": 24,
+      "color": "#f1e6cc"
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     955,
+     710
+    ],
+    "size": [
+     140,
+     40
+    ],
+    "items": [
+     {
+      "text": "西大門 ─ 淸凉里",
+      "font": "serif",
+      "size": 13,
+      "color": "#eef2fb"
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     930,
+     384
+    ],
+    "size": [
+     80,
+     40
+    ],
+    "items": [
+     {
+      "text": "18",
+      "font": "serif",
+      "size": 20,
+      "color": "#e6d6b0"
+     }
+    ]
+   }
+  ]
+ }
+}
