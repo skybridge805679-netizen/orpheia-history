@@ -1425,7 +1425,7 @@
   "init": null
  },
  "st_saebyeok_angry": {
-  "seed": 1515151,
+  "seed": 1515158,
   "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile, angry, pout, puffed cheeks, crossed arms, annoyed",
   "init": null
  },
@@ -1440,12 +1440,12 @@
   "init": null
  },
  "st_dasom_shy": {
-  "seed": 1616161,
+  "seed": 1616168,
   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
   "init": null
  },
  "st_dasom_angry": {
-  "seed": 1616161,
+  "seed": 1616168,
   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
   "init": null
  },
@@ -1545,13 +1545,13 @@
   "init": null
  },
  "cg_ev_gibeolpo": {
-  "seed": 1676846364,
-  "prompt": "ancient silla wooden warships attacking tang dynasty fleet at a wide river estuary, winter, drums, fire arrows, epic naval battle, wide shot",
+  "seed": 2695626014,
+  "prompt": "7th century silla navy, small korean wooden warships with single square sails and oars, attacking tang chinese wooden junk ships at a wide river estuary in winter, fire arrows, drums, epic naval battle, wide shot",
   "init": null
  },
  "cg_ev_dongmosan": {
-  "seed": 160549251,
-  "prompt": "ancient goguryeo refugees and mohe people raising a banner on a mountain at dawn, founding a new kingdom, wooden palisade, hopeful, wide shot",
+  "seed": 1559529763,
+  "prompt": "ancient goguryeo warriors and mohe tribesmen in fur and leather raising plain red banners on a forested mountain at dawn, wooden palisade, horses, founding of a new kingdom, hopeful, wide shot, no women in foreground",
   "init": null
  },
  "cg_ev_ilicheon": {
@@ -1565,18 +1565,18 @@
   "init": null
  },
  "cg_ev_bohyeonwon": {
-  "seed": 608988267,
-  "prompt": "night, goryeo pavilion banquet thrown into chaos, armed military officers with torches storming in, fallen tables, scattered wine cups, dramatic shadows, no gore",
+  "seed": 1409069350,
+  "prompt": "night, 12th century goryeo royal pavilion banquet thrown into chaos, armored goryeo military officers in lamellar armor with swords and torches storming in, civil officials in red robes and black hats fleeing, fallen tables, scattered wine cups, dramatic orange torchlight, no women, wide shot",
   "init": null
  },
  "cg_ev_jinpo": {
-  "seed": 3247084846,
-  "prompt": "goryeo wooden warships firing early gunpowder cannons, hundreds of pirate ships burning at a river mouth at sunset, smoke, epic naval battle",
+  "seed": 3944415369,
+  "prompt": "1380, small goryeo wooden warships with square sails firing early gunpowder cannons, hundreds of small wooden pirate boats burning at a river mouth at sunset, smoke, flames, epic naval battle, wide shot",
   "init": null
  },
  "cg_ev_hansando": {
-  "seed": 641364141,
-  "prompt": "joseon panokseon warships in crane wing formation on blue sea, firing cannons, japanese ships burning, turtle ship, epic naval battle, aerial view",
+  "seed": 3484547098,
+  "prompt": "1592, joseon dynasty panokseon wooden warships with flat decks and red-brown hulls in a crane wing semicircle formation, a turtle ship covered with iron spikes and a dragon head, firing cannons at burning japanese wooden ships, blue sea, islands, aerial view, epic",
   "init": null
  },
  "cg_ev_gwangseongbo": {
@@ -1590,8 +1590,8 @@
   "init": null
  },
  "cg_ev_march1": {
-  "seed": 58273056,
-  "prompt": "1919, huge crowd of koreans in white hanbok raising both hands and shouting in a seoul street near a pagoda park gate, students in black uniforms, spring, hopeful, wide shot",
+  "seed": 4053285090,
+  "prompt": "1919, wide shot of a huge crowd of koreans in white hanbok raising both arms and shouting in front of an old stone gate in seoul, traditional tiled roofs and low old buildings in the background, students in black school uniforms, early spring, hopeful, no modern buildings",
   "init": null
  },
  "cg_ev_cheongsanri": {
@@ -1605,8 +1605,8 @@
   "init": null
  },
  "cg_ev_june1987": {
-  "seed": 3301572880,
-  "prompt": "1987, seoul city street packed with protesters, students and office workers in neckties, tear gas smoke, rain of paper, determined, wide shot",
+  "seed": 230968503,
+  "prompt": "1987, wide shot of a seoul downtown street packed with thousands of protesters, university students and office workers in white shirts and neckties raising fists, tear gas smoke, 1980s low concrete buildings, old buses, rain of paper leaflets, documentary feeling, no central character",
   "init": null
  },
  "cg_ev_muk_farewell": {
