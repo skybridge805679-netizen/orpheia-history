@@ -178,6 +178,8 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @label c2ok
 [오르페이아|excited] 정답이에요♪
 @label c2after
+@show orpheia smile center
+[오르페이아|explain] 자, 퀴즈 타임이에요♪ 「부여의 풍습」 얘기, 시험지 버전으로 확인해요.
 @hide all
 @quiz 71-2
 @hide all
@@ -209,6 +211,8 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @label c3ok
 [오르페이아|excited] 정답! 땅을 보면 나라 성격이 보이죠?
 @label c3after
+@show orpheia smile center
+[오르페이아|explain] 여기서 문제 들어갑니다! 「서옥제와 동맹」, 외운 거 말고 본 걸로 풀어 주세요.
 @hide all
 @quiz 80-2 76-2
 @show orpheia smile left
@@ -246,6 +250,8 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @label c4ok
 [오르페이아|excited] 정답이에요♪ '경계'의 동예, '가족'의 옥저!
 @label c4after
+@show orpheia smile center
+[오르페이아|explain] 딱 이 대목이 시험에 나왔어요. 「동예」, 바로 확인하고 가요!
 @hide all
 @quiz 77-3 70-2
 @hide all
@@ -274,6 +280,8 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @label c5ok
 [오르페이아|excited] 정답! 고조선(제정일치)이랑 삼한(제정 분리), 나란히 세워 두세요.
 @label c5after
+@show orpheia smile center
+[오르페이아|explain] 주인님, 실전 연습이에요. 「삼한의 경제」 장면 기억나시죠? 그대로 풀면 돼요.
 @hide all
 @quiz 73-4 78-3
 @hide all

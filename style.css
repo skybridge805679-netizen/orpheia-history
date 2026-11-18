@@ -52,9 +52,11 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-bg img{width:100%;height:100%;object-fit:cover}
 .vn-chars{pointer-events:none}
 /* 카우보이 샷: 전신 스탠딩을 크게 키워 허벅지 아래는 화면 밖으로 */
-.vn-chr{position:absolute;top:4%;height:150%;transition:left .35s,filter .25s;transform:translateX(-50%)}
+.vn-chr{position:absolute;top:4%;height:142%;transition:left .35s,filter .25s;transform:translateX(-50%)}
 .vn-chr img{height:100%;display:block}
 .vn-chr.pos-left{left:24%}.vn-chr.pos-center{left:50%}.vn-chr.pos-right{left:76%}
+/* 휴대폰(오르페이아)이 켜지면 오른쪽 구석을 비워 준다 */
+.vn.phone-on .vn-chars .vn-chr.pos-left{left:20%}.vn.phone-on .vn-chars .vn-chr.pos-center{left:42%}.vn.phone-on .vn-chars .vn-chr.pos-right{left:62%}
 .vn-chr:not(.speaking){filter:brightness(.6) sepia(.25) saturate(.8)}
 .vn-chr-fx{height:100%}
 .fx-enter{animation:enter .45s ease-out}
@@ -69,10 +71,10 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 @keyframes flash{from{opacity:.9}to{opacity:0}}
 
 /* 휴대폰 속 오르페이아: 현대 물건이라 그대로 두되 테두리만 먹색 */
-.vn-phone{position:absolute;right:4%;top:9%;width:min(24vw,300px);aspect-ratio:9/17;border-radius:30px;background:#14110e;border:6px solid #2b251e;box-shadow:0 20px 50px #000a;overflow:hidden}
+.vn-phone{position:absolute;right:2.5%;top:9%;width:min(15vw,200px);aspect-ratio:9/16;border-radius:24px;z-index:2;background:#14110e;border:6px solid #2b251e;box-shadow:0 20px 50px #000a;overflow:hidden}
 .vn-phone-notch{position:absolute;top:8px;left:50%;width:34%;height:16px;transform:translateX(-50%);background:#000;border-radius:10px;z-index:2}
 .vn-phone-screen{position:absolute;inset:0;background:linear-gradient(#20403e,#14110e)}
-.vn-phone-screen .vn-chr{top:auto;height:118%;bottom:-30%;left:50%}
+.vn-phone-screen .vn-chr{top:5%;bottom:auto;height:215%;left:50%}
 .vn-phone-screen .vn-chr:not(.speaking){filter:none}
 
 /* 날짜·장소: 한지 띠지 */
@@ -252,7 +254,7 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
  .vn-text{font-size:16px}.vn-box{padding:28px 22px 18px;min-height:130px}
  .vn-menu{top:auto;bottom:calc(100% + 0px)}
  .vn-title-chr{opacity:.35}.vn-title h1{font-size:42px}.vn-title-body{left:4%;right:4%;max-width:none;padding:26px 22px}
- .vn-phone{width:36vw}
+ .vn-phone{width:26vw}
  .vn-scroll{padding:36px 30px 28px}
 }
 @media (max-width:900px){.vn-menu{position:absolute;top:10px;bottom:auto;flex-wrap:wrap;justify-content:flex-end;max-width:70vw}}

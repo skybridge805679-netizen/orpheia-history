@@ -154,6 +154,8 @@ VN.chapter('ch01','제1장','누리의 돌',`
 @label p4ok
 [오르페이아|excited] 정답! 청동 방울은 의례 도구예요. 80회 1번 정답이 바로 이거였다고요!
 @label p4after
+@show orpheia smile center
+[오르페이아|explain] 방금 본 「청동기는 지배자의 물건」, 기출에선 이렇게 나와요! 장면 떠올리면서 풀어 봐요.
 @hide all
 @quiz 80-1 77-1
 @show orpheia smile left

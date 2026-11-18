@@ -42,6 +42,7 @@ const BGM=(()=>{
  const probed=Promise.all(TRACKS.map(n=>exists(n).then(ok=>{if(ok)ready.add(n);})));
  const decks=[new Audio(),new Audio()];decks.forEach(a=>{a.loop=true;a.preload='none';a.volume=0;});
  let front=0,cur='',wanted='',unlocked=false;
+ // 앞 곡의 play()가 늦게 끝나도(네트워크 지연) 그 사이 다른 곡으로 바뀌었으면 그 덱은 멈춘다. 예전엔 늦게 끝난 play가 볼륨을 다시 올려 두 곡이 겹쳤다.
  // 덱마다 페이드는 하나만 돈다: 새 페이드가 시작되면 그 덱의 이전 페이드(와 끝난 뒤의 pause)는 취소된다.
  // (곡이 0.7초 안에 연달아 바뀔 때, 앞 곡 페이드아웃의 pause가 방금 시작한 새 곡을 멈추던 문제를 막는다.)
  function fade(a,to,ms,done){const id=a._f=(a._f||0)+1,from=a.volume,t0=performance.now();const step=t=>{if(a._f!==id)return;const k=Math.min(1,(t-t0)/ms);a.volume=Math.max(0,Math.min(1,from+(to-from)*k));if(k<1)requestAnimationFrame(step);else done?.();};requestAnimationFrame(step);}
@@ -53,7 +54,7 @@ const BGM=(()=>{
   fade(old,0,700,()=>{if(old!==decks[front])old.pause();});
   if(!cur||!ready.has(cur))return;
   front^=1;const a=decks[front];a._f=(a._f||0)+1;a.src=src(cur);a.currentTime=0;a.volume=0;   // a._f 증가: 이 덱에서 돌던 이전 페이드를 끊는다
-  a.play().then(()=>fade(a,level(),900)).catch(e=>{console.warn('bgm',name,e.name);if(e.name==='NotSupportedError')ready.delete(name);if(e.name==='NotAllowedError'){unlocked=false;arm();}if(cur===name)cur='';});
+  a.play().then(()=>{if(a!==decks[front]||cur!==name){a.pause();return;}fade(a,level(),900);decks.forEach(d=>{if(d!==a&&!d.paused&&d.volume===0)d.pause();});}).catch(e=>{console.warn('bgm',name,e.name);if(e.name==='NotSupportedError')ready.delete(name);if(e.name==='NotAllowedError'){unlocked=false;arm();}if(cur===name)cur='';});
  }
  const scene=bg=>{const n=String(bg||'').replace(/\.(png|webp)$/,'');let t=SCENE[n]||byRule(n)||'bgm_daily';if(t.startsWith('song_')&&!ready.has(t))t='bgm_result';play(t);};
  // Browsers only allow audio after a user gesture.

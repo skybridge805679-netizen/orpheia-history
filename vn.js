@@ -170,6 +170,7 @@ function paintChars(){
  const STAGE=/(^|\/)cg_(ch01_dolmen|ch02_baekje|ch03_palace_night|ch04_goryeo_port|ink_spread|comment_flame)\b/;
  const bgName=String(S.bg||''),cg=/(^|\/)cg_/.test(bgName)&&!STAGE.test(bgName);
  wrap.hidden=cg;phone.hidden=cg||!(S.phone&&S.chars.orpheia);
+ $('#vn')?.classList.toggle('phone-on',!phone.hidden);
  const keep=new Set();
  for(const [who,c] of Object.entries(S.chars)){
   const file=standFile(who,c.expr);if(!file)continue;keep.add(who);
