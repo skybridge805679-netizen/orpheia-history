@@ -271,3 +271,9 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
  .vn-scroll{padding:36px 30px 28px}
 }
 @media (max-width:900px){.vn-menu{position:absolute;top:10px;bottom:auto;flex-wrap:wrap;justify-content:flex-end;max-width:70vw}}
+
+/* 정리 페이지(학습 사이트 요약노트) */
+.vn-sum-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+dialog#vnLog.sheets{max-width:1180px;width:96vw;max-height:92vh;overflow:auto}
+dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink)}
+.vn-sheet-wait{color:var(--ink3)}

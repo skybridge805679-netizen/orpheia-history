@@ -224,10 +224,31 @@ function choose(op){
 function addNote(ch,title,body){const nb=records.notebook||(records.notebook={}),list=nb[ch]||(nb[ch]=[]);if(!list.some(n=>n.t===title))list.push({t:title,b:body});save();
  const f=$('#vnFx');if(!f)return;const el=document.createElement('div');el.className='vn-note-pop';el.innerHTML=`<small><i class="vn-seal mini">記</i>연표 기록부</small><b>${esc(title)}</b>`;f.appendChild(el);SFX.play('save');setTimeout(()=>el.remove(),2600);}
 function notesHtml(ch){const list=(records.notebook||{})[ch]||[];return list.length?`<div class="vn-notes">${list.map(n=>`<div class="vn-notecard"><b>${esc(n.t)}</b><p>${esc(n.b)}</p></div>`).join('')}</div>`:'<p>아직 모은 기록이 없어요.</p>';}
+// 정리 페이지: 학습 사이트(korean-history-study)의 손필기식 요약노트를 그대로 불러와 펼친다.
+const SHEETS={ch01:['ancient-1'],ch02:['ancient-1'],ch03:['ancient-1','ancient-2'],ch04:['ancient-1'],ch05:['unified-1'],ch06:['unified-1'],
+ ch07:['goryeo-1'],ch08:['goryeo-1'],ch09:['goryeo-2','goryeo-1'],ch10:['joseon1-1','joseon1-2'],ch11:['joseon1-1'],ch12:['joseon2-1'],ch13:['joseon2-2','joseon2-1'],
+ ch14:['gaehang-1'],ch15:['gaehang-2'],ch16:['gaehang-2'],ch17:['ilje-1'],ch18:['ilje-2'],ch19:['ilje-2'],ch20:['ilje-3'],ch21:['modern-1'],ch22:['modern-1'],ch23:['modern-2','modern-1'],ch24:['integrated-1']};
+const SHEET_FILE=id=>({'ancient-1':'ancient1','ancient-2':'ancient2','unified-1':'unified','integrated-1':'modern'})[id]||id.split('-')[0];
+const loaded={};
+function loadOnce(url,kind){return loaded[url]||(loaded[url]=new Promise((ok,no)=>{const el=document.createElement(kind==='css'?'link':'script');if(kind==='css'){el.rel='stylesheet';el.href=url;}else el.src=url;el.onload=ok;el.onerror=no;document.head.appendChild(el);}));}
+async function openSheets(ch){
+ const ids=SHEETS[ch]||[],d=$('#vnLog');if(!ids.length)return;
+ d.innerHTML=`<div class="dialog-header"><div><small>정리 페이지</small><h2>요약노트</h2></div><button class="quiet" data-close>닫기 ×</button></div><p class="vn-sheet-wait">학습 사이트에서 요약노트를 불러오는 중이에요…</p>`;
+ d.classList.add('sheets');d.querySelector('[data-close]').onclick=()=>d.close();d.onclose=()=>d.classList.remove('sheets');if(!d.open)d.showModal();
+ try{
+  await loadOnce(figSrc('summary.css'),'css');await loadOnce(figSrc('summary-render.js'));
+  await Promise.all([...new Set(ids.map(SHEET_FILE))].map(f=>loadOnce(figSrc(`summary/${f}.js`))));
+  const all=window.SUMMARY_SHEETS||[],html=ids.map(id=>all.find(x=>x.id===id)).filter(Boolean).map(x=>window.SummaryNotes.sheet(x,{sourceLabel:'한능검 학습실 요약노트'})).join('');
+  const w=document.createElement('div');w.className='sm-wrap';w.innerHTML=html;
+  w.querySelectorAll('img').forEach(i=>{const a=i.getAttribute('src');if(a&&!/^(https?:|data:)/.test(a))i.src=figSrc(a);});
+  d.querySelector('.vn-sheet-wait').replaceWith(w);
+ }catch(e){const p=d.querySelector('.vn-sheet-wait');if(p)p.textContent='요약노트를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.';}
+}
 function summary(){
  S.line=null;paint();busy=true;stopAuto();skip=false;const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card summary';c.hidden=false;
- c.innerHTML=`<small>연표 기록부 · ${esc(curCh().title)}</small><h2>${esc(curCh().subtitle)}</h2>${notesHtml(S.ch)}<button class="primary">이야기로 돌아가기 ▶</button>`;
- c.onclick=null;c.querySelector('button').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
+ c.innerHTML=`<small>연표 기록부 · ${esc(curCh().title)}</small><h2>${esc(curCh().subtitle)}</h2>${notesHtml(S.ch)}<div class="vn-sum-btns">${SHEETS[S.ch]?'<button class="quiet" data-sheets>📜 정리 페이지 펼치기</button>':''}<button class="primary" data-back>이야기로 돌아가기 ▶</button></div>`;
+ const sb=c.querySelector('[data-sheets]');if(sb)sb.onclick=e=>{e.stopPropagation();openSheets(S.ch);};
+ c.onclick=null;c.querySelector('[data-back]').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
 }
 function notebook(){const d=$('#vnLog');d.innerHTML=`<div class="dialog-header"><div><small>NOTEBOOK</small><h2>연표 기록부</h2></div><button class="quiet" data-close>닫기 ×</button></div>${chapters.filter(c=>(records.notebook||{})[c.id]?.length).map(c=>`<h3>${esc(c.title)} · ${esc(c.subtitle)}</h3>${notesHtml(c.id)}`).join('')||'<p>이야기를 진행하면 그 시대에서 본 것이 여기에 쌓여요.</p>'}`;d.querySelector('[data-close]').onclick=()=>d.close();d.showModal();}
 
@@ -318,5 +339,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:id=>{S=fresh(id);log=[];shell();paint();step();}};
+return {openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:id=>{S=fresh(id);log=[];shell();paint();step();}};
 })();
