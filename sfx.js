@@ -55,6 +55,7 @@ const SFX=(()=>{
   vb_purify:()=>{[1047,1319,1568,2093,2637].forEach((f,i)=>tone(f,i*.12,1.6,{type:'sine',vol:.06}));noise(0,1.4,{vol:.04,freq:6000,type:'highpass'});},
   vb_bell:()=>{[220,330,440].forEach((f,i)=>tone(f,0,3.2,{type:'sine',vol:.12/(i+1)}));tone(659,.02,2.6,{type:'sine',vol:.03});},
   vb_ko:()=>{tone(50,0,1.4,{type:'sine',vol:.6,to:35});[392,523,659,784,1047].forEach((f,i)=>tone(f,.2+i*.1,1.4,{type:'triangle',vol:.08}));tone(1568,.8,2,{type:'sine',vol:.05});},
+  vb_glitch:()=>{for(let i=0;i<9;i++){tone(200+Math.random()*1800,i*.045,.04,{type:'square',vol:.07});}noise(0,.5,{vol:.2,freq:3500,q:4,sweep:600});tone(880,.42,.25,{type:'square',vol:.06,to:110});tone(60,0,.3,{type:'sawtooth',vol:.15,to:30});},
   vb_end:()=>{[392,494,587].forEach((f,i)=>tone(f,i*.1,.6,{type:'triangle',vol:.09}));},
  };
  // Text blips ("뽁뽁뽁"): each speaker has a voice pitch; spaces and punctuation stay silent,
