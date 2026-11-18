@@ -174,3 +174,9 @@ dialog::backdrop{background:#05070bcc;backdrop-filter:blur(6px)}
 .vn-notecard b{display:block;color:#7a3b16;margin-bottom:4px}
 .vn-notecard p{margin:0;font-size:14px;line-height:1.6}
 #vnLog h3{margin:18px 0 6px;color:var(--gold)}
+
+/* 상태창(@hud) */
+.vn-card.hud{background:#05070bb8}
+.vn-hud{border:2px solid var(--cyan);border-radius:10px;background:#0b1622ee;padding:18px 26px;min-width:min(420px,86vw);text-align:left;box-shadow:0 0 24px #4fe3d455}
+.vn-hud b{display:block;color:var(--cyan);font:700 15px/1.4 ui-monospace,monospace;letter-spacing:.12em;margin-bottom:8px}
+.vn-hud pre{margin:0;font:15px/1.8 ui-monospace,'Noto Sans KR',monospace;color:#e8f6ff;white-space:pre-wrap}
