@@ -4,5 +4,23 @@
   "credit": "Feth · GPL · 위키미디어 공용",
   "file": "Turtle_boat.jpg",
   "checked": false
+ },
+ "빗살무늬 토기": {
+  "src": "heritage/x02.webp",
+  "credit": "CC BY-SA 3.0 · 위키미디어 공용",
+  "file": "KoreanEarthenwareJar4000BCEAmsa-DongNearSeoul.jpg",
+  "checked": false
+ },
+ "반달 돌칼": {
+  "src": "heritage/x03.webp",
+  "credit": "국립중앙박물관 · KOGL Type 1 · 위키미디어 공용",
+  "file": "부여_송국리_유적_출토_반달돌칼.jpg",
+  "checked": false
+ },
+ "비파형 동검": {
+  "src": "heritage/x04.webp",
+  "credit": "The user's homepage · CC BY 2.0 · 위키미디어 공용",
+  "file": "Bronze_dagger.jpg",
+  "checked": false
  }
 }
