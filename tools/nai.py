@@ -9,16 +9,27 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
-def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative=""):
+def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None):
+    """chars: [{"prompt": 인물 프롬프트, "uc": 인물 네거티브, "x": 0.1~0.9, "y": 0.1~0.9}] — NAI 멀티 캐릭터 프롬프트.
+    인물마다 따로 적어서 머리색·옷이 서로 섞이지 않게 하고, x·y(5×5 격자)로 화면 위치를 정한다.
+    동작은 source#/target#/mutual# 태그(예: source#carrying, target#carrying)로 누가 누구에게 하는지 적는다."""
+    chars = chars or []
     full = f"{STYLE['style']}, {prompt}"
     neg = STYLE["negative"] + (", " + negative if negative else "")
     params = {
         "params_version": 3, "width": w, "height": h, "scale": STYLE["scale"], "sampler": STYLE["sampler"],
         "steps": STYLE["steps"], "n_samples": 1, "seed": seed, "ucPreset": 3, "qualityToggle": STYLE.get("quality", True),
         "noise_schedule": "karras", "negative_prompt": neg,
-        "v4_prompt": {"caption": {"base_caption": full, "char_captions": []}, "use_coords": False, "use_order": True},
-        "v4_negative_prompt": {"caption": {"base_caption": neg, "char_captions": []}, "legacy_uc": False},
+        "v4_prompt": {"caption": {"base_caption": full, "char_captions": [
+            {"char_caption": c["prompt"], "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
+            "use_coords": any("x" in c for c in chars), "use_order": True},
+        "v4_negative_prompt": {"caption": {"base_caption": neg, "char_captions": [
+            {"char_caption": c.get("uc", ""), "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
+            "legacy_uc": False},
     }
+    if chars:
+        params["characterPrompts"] = [{"prompt": c["prompt"], "uc": c.get("uc", ""),
+                                       "center": {"x": c.get("x", 0.5), "y": c.get("y", 0.5)}, "enabled": True} for c in chars]
     action = "generate"
     if init:  # i2i: 기존 그림을 바탕으로 다시 그린다(strength가 클수록 많이 바뀜)
         import base64

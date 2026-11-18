@@ -1433,8 +1433,22 @@
   {
    "id": "cg_ch02_dallae_contract",
    "size": "bg",
-   "prompt": "1girl, 1boy, adult woman merchant with black hair in a low bun and hairpin, plain brown hemp robe, grinning and grabbing the arm of young man in a black hoodie with hood up, face hidden in shadow, faceless, holding a bamboo strip contract, ancient market with clay jars and crowd, comedic, sunny",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, ancient market street, crowd of onlookers, clay jars, wooden stalls, a tall tower of stacked grain sacks wobbling behind them, motion lines, dynamic angle, dutch angle, wide shot, bright sunlight, comedic, anime screencap",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair, low bun, wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, running, looking back over shoulder, big grin, source#pulling by the wrist",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.3,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, stumbling forward, being dragged, target#pulling by the wrist",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.7,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch02",
@@ -1445,14 +1459,42 @@
   {
    "id": "cg_ch03_capsize",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult ferrywoman with black braid and tan skin, beige hemp clothes, and young man in a black hoodie with hood up, face hidden in shadow, faceless, both fallen into a river next to a capsized wooden ferry boat, soaked clothes, clinging to a long wooden oar together, she is yelling angrily and blushing, splashing water, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, wide river, small wooden ferry boat capsizing, a huge wave, a large ancient warship with many oars passing in the background, big water splash, water droplets frozen in midair, motion blur, dynamic angle, midair, falling into water, comedic, bright daylight",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, ferrywoman, black hair, long braid, tan skin, brown eyes, light blue hemp jacket, rolled-up sleeves, falling backward into the river, screaming, open mouth, angry blush, wet hair, still gripping a long wooden oar, target#tackle",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, falling on top of her, flailing arms, panicking, source#tackle",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.6,
+     "y": 0.4
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_ch03_drying",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman with wet black braid wrapped in a blanket and young man in a black hoodie with hood up, face hidden in shadow, faceless wrapped in a blanket sitting back to back by a campfire on a riverbank at dusk, wet clothes hanging on sticks to dry, both blushing, awkward, fireflies",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, campfire on a sandy riverbank at dusk, an overturned wooden boat on the sand, wet clothes hanging on sticks and steaming, warm orange firelight, purple evening sky, fireflies, sitting back to back, wide shot, cinematic lighting, quiet romantic mood",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair, wet hair down, tan skin, brown eyes, wrapped in a large blanket, bare shoulders, hugging knees, blush, sidelong glance, small shy smile, mutual#sitting back to back",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.35,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, wrapped in a blanket, sitting, head down, mutual#sitting back to back",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.65,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch03",
@@ -1463,8 +1505,22 @@
   {
    "id": "cg_ch04_hwarang",
    "size": "bg",
-   "prompt": "1girl, solo, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch but wearing a stylized silla hwarang costume over her maid dress with a flower ornament on her head, proud pose with hands on hips, holding a wooden sword upside down, comedic, ancient korean army camp background",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, goguryeo great wall construction site, half-built stone wall, wooden scaffolding, angry soldiers with spears chasing in the background, dust cloud, comedic chase, running away, motion lines, dutch angle, speed lines",
+   "chars": [
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, wearing a silla hwarang costume over the maid dress, flower ornament in hair, teary eyes, panicking, running, source#pulling by the wrist",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, running, being pulled, target#pulling by the wrist",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.68,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch04",
@@ -1475,8 +1531,22 @@
   {
    "id": "cg_ch05_haerang_carry",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman with short dark brown hair in side ponytail, green eyes, dark blue wrap tunic with fur trim, laughing while carrying young man in a black hoodie with hood up, face hidden in shadow, faceless over her shoulder like a sack while crossing a forest stream, he is flailing, comedic, manchurian forest",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, forest stream with melting ice in early spring, mossy stepping stones, manchurian pine forest, splashing water, sunlight, dynamic angle, comedic, wide shot",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, laughing, confident, balancing on a stepping stone, source#carrying over shoulder",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, carried over her shoulder like a sack, legs flailing, target#carrying over shoulder",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.55,
+     "y": 0.4
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch05",
@@ -1487,8 +1557,22 @@
   {
    "id": "cg_ch06_seasick",
    "size": "bg",
-   "prompt": "1girl, 1boy, on the wooden deck of an ancient sailing ship, a young man in a black hoodie with hood up lying down pale and seasick with his head resting on the lap of a young adult woman sailor with a black braid, tan skin and indigo hemp tunic, she pats his head and grins teasingly, waves, sails, blue sky, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, wooden deck of an ancient trading ship, the ship tilting on a big wave, sea spray, billowing sails, blue sky, dutch angle, comedic, motion lines",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, sailor, black hair, long braid, tan skin, brown eyes, cloth headband, short indigo hemp tunic, white trousers, sitting, startled, deep blush, arms raised, shouting, embarrassed, target#face in chest",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, pale, seasick, sliding forward, face pressed against her chest by accident, source#face in chest",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch06",
@@ -1499,8 +1583,28 @@
   {
    "id": "cg_ch07_gwageo",
    "size": "bg",
-   "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting nervously at a low desk in an ancient korean civil service examination yard with many scholars, sweating, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch whispering into his ear, an angry examiner pointing at him, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1boy, 1girl, 1other, goryeo civil service examination yard, rows of scholars at low desks, paper scrolls, ink brushes, morning light, comedic, sweat drops",
+   "chars": [
+    {
+     "prompt": "boy, young man, white scholar robe over a black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, sitting at a low desk, nervous, holding a brush",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.45,
+     "y": 0.6
+    },
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, hiding under the back of his wide robe, peeking over his shoulder, whispering into his ear, hand cupped near mouth, mischievous smile, blush",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "old man, examiner, goryeo official robe, black hat, suspicious, glaring, pointing",
+     "uc": "young",
+     "x": 0.85,
+     "y": 0.4
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch07",
@@ -1511,8 +1615,16 @@
   {
    "id": "cg_ch08_fashion",
    "size": "bg",
-   "prompt": "1girl, solo, silver white very long hair, green eyes, wearing a traditional mongolian deel robe in red and gold with a wide sash and a round fur-trimmed mongolian hat instead of maid clothes, twirling shyly with blush, holding the hem of the robe, goryeo market street background, cute",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child, maid, apron, maid headdress"
+   "prompt": "1girl, solo, goryeo capital market street, colorful stalls, silk banners, sunny, twirling, spinning, flowing robe, dynamic, sparkles, cute",
+   "chars": [
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, wearing a red and gold mongolian deel robe with a wide sash and a round fur-trimmed mongolian hat instead of a maid outfit, twirling, holding the long hem, shy blush, smile",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch08",
@@ -1523,14 +1635,42 @@
   {
    "id": "cg_ch10_crossdress",
    "size": "bg",
-   "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless wearing an ill-fitting joseon palace maid hanbok and a big braided wig over the hood, awkward pose, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, laughing and covering her mouth, a tiny silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch taking photos with stars in her eyes, palace corridor, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1boy, 1girl, joseon palace servants' quarters, paper sliding doors, folding screen, comedic, sparkles, sweat drops",
+   "chars": [
+    {
+     "prompt": "boy, tall young man, wearing an ill-fitting joseon palace maid hanbok, green jeogori too small, big braided wig on top of a black hood, hood up, face completely hidden in the shadow of the hood, faceless, awkward pose, knees bent",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, black hair, single long braid, red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima, white apron, laughing, covering mouth with hand, tears of laughter",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.68,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_ch10_sodam_yakgwa",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, smiling and feeding a honey cookie with chopsticks to young man in a black hoodie with hood up, face hidden in shadow, faceless wearing a palace maid disguise, royal kitchen with steam and trays of sweets, warm light, cute",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, joseon royal kitchen, steam, trays of yakgwa honey cookies, warm afternoon light, soft focus, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair, single long braid, red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima, white apron, feeding a honey cookie with chopsticks, blush, looking away, pout, source#feeding",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, tall young man, ill-fitting joseon palace maid hanbok, braided wig, black hood, face completely hidden in the shadow of the hood, faceless, sitting, target#feeding",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch10",
@@ -1541,8 +1681,22 @@
   {
    "id": "cg_ch11_rowing",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, black braid, tan skin, white cloth headband, plain white jeogori, grey baji trousers, rowing a huge wooden oar energetically and laughing, next to exhausted young man in a black hoodie with hood up, face hidden in shadow, faceless sweating and struggling with the same oar, inside the lower deck of a joseon panokseon warship, other oars, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, lower deck of a joseon panokseon warship, rows of oarsmen, huge wooden oars, light shafts through the oar ports, sweat, dynamic, comedic",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, oarswoman, black hair, long braid, tan skin, brown eyes, white cloth headband, plain white jeogori, grey baji trousers, rolled-up sleeves, sitting right behind him pressed against his back, her hands over his hands on the oar, shouting the rhythm, energetic, source#hug from behind",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, rowing, exhausted, sweating, stiff, target#hug from behind",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.55,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch11",
@@ -1553,8 +1707,22 @@
   {
    "id": "cg_ch12_closet",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, squeezed together face to face with young man in a black hoodie with hood up, face hidden in shadow, faceless inside a cramped dark wooden wardrobe, she presses a finger to her lips with a deep blush, a sliver of light through the door crack, comedic tension",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, inside a cramped dark wooden wardrobe, folded blankets, a thin vertical sliver of warm light from the door crack, silhouettes of officials in silk robes outside the crack, dramatic chiaroscuro, tense, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair, single long braid, red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima, white apron, back pressed against his chest, finger on lips, shushing, deep blush, eyes wide, holding breath",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, standing behind her, pressed against her back, stiff",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch12",
@@ -1565,8 +1733,22 @@
   {
    "id": "cg_ch13_battle",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, messy short black hair with red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, indigo chima over white trousers, singing passionately with an open folding fan on a joseon market stage, facing young man in a black hoodie with hood up, face hidden in shadow, faceless holding up a glowing smartphone speaker, big crowd cheering around them, sparks of rivalry, comedic music battle",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, joseon market square at sunset, a big crowd of commoners cheering, earthenware jars, straw roofs, versus, sparks of rivalry between them, low angle, dynamic composition",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, messy short black hair, red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, rolled sleeves, short indigo chima over white trousers, standing on a big earthenware jar, singing passionately, open folding fan, one arm raised, open mouth, confident grin",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.3,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, holding up a glowing smartphone, confident stance",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.75,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_ch13_dano_wink",
@@ -1595,8 +1777,22 @@
   {
    "id": "cg_ch15_tram",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori, long black chima, pinned against the wall inside a crowded vintage 1899 streetcar by young man in a black hoodie with hood up, face hidden in shadow, faceless who stumbled, she is blushing furiously with a newspaper flying from her hand, accidental kabedon, comedic, passengers staring",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, inside a crowded vintage 1899 streetcar, wooden interior, hanging straps swinging, passengers in hanbok and gat hats staring, window light, sudden stop, motion lines, comedic",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair, center part, long braid with white ribbon, dark eyes, white jeogori, long black chima, pinned against the window frame, newspaper clutched to her chest, furious blush, wide eyes, target#kabedon",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, leaning in after stumbling, one hand on the wall beside her head, source#kabedon",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch15",
@@ -1661,8 +1857,22 @@
   {
    "id": "cg_ch20_parachute",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform, and young man in a black hoodie with hood up, face hidden in shadow, faceless tangled together in a big white parachute at the bottom of a grassy hill, she is blushing and shouting, his arms trapped in the cloth, comedic, military training field, sunny",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, 1boy, grassy hill training field in the 1940s, a wooden jump platform, blue sky, white parachute billowing, midair, from below, dynamic angle, comedic",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, sharp black eyes, olive drab 1940s military uniform jacket, belt, trousers, field cap, jumping, cheerful shout, fist raised, parachute harness, mutual#holding hands",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, screaming, flailing, parachute harness tied to her, mutual#holding hands",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.6,
+     "y": 0.45
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch20",
@@ -2203,6 +2413,198 @@
    "size": "bg",
    "prompt": "1girl, black long hair dissolving into ink droplets, pale skin, black and white hanbok-style dress, gentle smile, closing eyes, floating ink drops turning into glowing particles, soft light, emotional farewell",
    "negative": "watermark, signature, text, logo, nude, explicit, gore, blood, extra limbs, bad hands, multiple views, child, modern clothes, flag with text, multiple girls"
+  },
+  {
+   "id": "cg_ch02_dallae_fall",
+   "size": "bg",
+   "prompt": "1girl, 1boy, ancient market, toppled grain sacks, spilled millet grains everywhere, onlookers whistling and pointing in the background, from above, high angle, comedic, sweat drops, flying grains, embarrassed atmosphere",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair, low bun, wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, sitting on the ground, knees together, full-face blush, shocked, wide eyes, trembling, steam from head, arms raised in surprise, source#lap pillow",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.35
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, lying face down on the grain, face buried in her lap, arms spread, target#lap pillow",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.7
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch04_hideout",
+   "size": "bg",
+   "prompt": "1girl, 1boy, dark hay storehouse, thin light rays through gaps in wooden planks, dust particles, scattered hay, from above, close-up, intimate distance, romantic comedy, soft lighting",
+   "chars": [
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, wearing a silla hwarang costume over the maid dress, lying on top of him, very long hair falling down like a curtain, deep blush, embarrassed, wide eyes, hands on his chest, source#lying on person",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, lying on back in hay, target#lying on person",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.65
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch05_haerang_wet",
+   "size": "bg",
+   "prompt": "1girl, 1boy, in the middle of a forest stream, waist-deep water, huge splash, water droplets, sunlight through pine trees, comedic, romantic comedy, from above",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, fallen on top of him and sitting in the water, soaked clothes, wet drooping fur trim, wet hair, water dripping from bangs, blush, surprised, open mouth, shivering",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, fallen on his back in the water, one hand on her waist by accident, splashing",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.7
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch07_gwageo_caught",
+   "size": "bg",
+   "prompt": "1boy, 1girl, 1other, goryeo civil service examination yard, scholars turning around and gasping in the background, comedic, shock lines, sweat drops",
+   "chars": [
+    {
+     "prompt": "old man, examiner, goryeo official robe, black hat, lifting the hem of a robe with one hand, shocked, furious, veins",
+     "uc": "young",
+     "x": 0.22,
+     "y": 0.45
+    },
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, clinging to his back like a cicada, revealed, teary eyes, embarrassed awkward smile, small wave",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.6,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, white scholar robe lifted up over a black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, frozen, sitting at a low desk",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.6,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch08_fashion_fall",
+   "size": "bg",
+   "prompt": "1girl, 1boy, stone paved market street, fallen together, a long red silk robe spread over both of them like a blanket, a round fur hat rolling away, onlookers whispering behind sleeves in the background, from above, comedic, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, red and gold mongolian deel robe, lying on top of him, flustered, deep blush, hands on his chest, hair spread out, source#lying on person",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, lying on his back, arms around her waist protectively, target#lying on person",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.65
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch10_hide_hug",
+   "size": "bg",
+   "prompt": "1girl, 1boy, 1other, joseon royal kitchen, steam, trays of yakgwa honey cookies, iron oil pots, comedic tension, sweat drops, dutch angle",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair, single long braid, red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima, white apron, hugging his head tightly against her chest to hide it, panicked smile, deep blush, eyes darting sideways, source#hug",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.4,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, tall young man, ill-fitting joseon palace maid hanbok, head pulled against her chest, braided wig slipping off, black hood, faceless, target#hug",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.48,
+     "y": 0.55
+    },
+    {
+     "prompt": "old woman, joseon court lady, strict, squinting suspiciously, hands behind back",
+     "uc": "young",
+     "x": 0.85,
+     "y": 0.4
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch11_recoil",
+   "size": "bg",
+   "prompt": "1girl, 1boy, lower deck of a joseon warship, cannon smoke pouring in through the oar ports, deck shaking, dust falling, motion lines, dutch angle, comedic",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, oarswoman, black hair, long braid, tan skin, brown eyes, white cloth headband, plain white jeogori, grey baji trousers, rolled-up sleeves, tumbling backward into his arms, tangled between oar handles, shocked, deep blush, open mouth, target#catching",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.45,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, catching her, arms around her, sitting on the deck, source#catching",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.55,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch13_catch",
+   "size": "bg",
+   "prompt": "1girl, 1boy, joseon market square at sunset, a crowd cheering and whistling, a jar lid flying in the air, comedic, romantic comedy, sparkles",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, messy short black hair, red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, rolled sleeves, short indigo chima over white trousers, being carried in a princess carry, flustered, deep blush, folding fan over mouth, legs kicking, target#princess carry",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, carrying her in a princess carry, source#princess carry",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch20_tangle",
+   "size": "bg",
+   "prompt": "1girl, 1boy, bottom of a grassy hill, both wrapped together inside a huge white parachute canopy like a cocoon, tangled ropes, only their heads sticking out, an instructor blowing a whistle far in the background, comedic, sunny",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, sharp black eyes, olive drab 1940s military uniform jacket, belt, trousers, field cap, head sticking out of the parachute cloth, field cap askew, furious blush, shouting",
+     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, head sticking out of the cloth right next to her, squeezed",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
   }
  ]
 }

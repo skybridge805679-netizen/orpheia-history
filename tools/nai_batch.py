@@ -29,10 +29,21 @@ for it in items:
     seed = it.get("seed") or random.randint(1, 2**32 - 1)
     prompt = it["prompt"] + (", transparent background" if it.get("transparent") else "")
     init = it.get("init")
+    chars = it.get("chars")
     try:
-        png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
-                                 init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
-                                 negative=it.get("negative", "")))
+        try:
+            png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
+                                     init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
+                                     negative=it.get("negative", ""), chars=chars))
+        except SystemExit as e:
+            if not chars:
+                raise
+            # 멀티 캐릭터 형식을 서버가 거절하면 인물 프롬프트를 이어 붙여 한 번 더
+            print("  인물별 프롬프트 거절, 한 줄로 다시:", e)
+            flat = prompt + ", " + ", ".join(c["prompt"].replace("source#", "").replace("target#", "").replace("mutual#", "") for c in chars)
+            png.write_bytes(generate(flat, w, h, seed, it.get("model", STYLE["model"]),
+                                     init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
+                                     negative=it.get("negative", "")))
     except SystemExit as e:  # 한 장이 실패해도 나머지는 계속
         print("실패", it["id"], e); failed = True; continue
     print("생성", png.name, "seed", seed)
