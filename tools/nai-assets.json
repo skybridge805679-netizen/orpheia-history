@@ -1321,8 +1321,8 @@
   {
    "id": "bg_era_imf_1998",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, winter morning 1998 korean city street in front of a bank building, a long queue line marked with rope stanchions on the sidewalk, small velvet ring boxes and a donation table with a banner, cold breath atmosphere, warm sunlight",
-   "negative": "signature, watermark, japanese text, smartphone, people silhouettes, text"
+   "prompt": "no humans, scenery, outdoors, winter morning 1990s korean city sidewalk in front of a plain stone bank building with blank signboards, rope stanchions forming a long empty queue line, a small table with velvet ring boxes and a donation box, light snow, warm sunrise light",
+   "negative": "signature, watermark, japanese text, smartphone, people silhouettes, text, text, letters, english text, signboard text, words, writing"
   },
   {
    "id": "bg_era_panmunjom",
