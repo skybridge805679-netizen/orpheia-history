@@ -84,7 +84,8 @@ def layer(img, op):
         if "box" in it:  # 라벨 바탕(둥근 사각형)
             bw, bh = it["box"]
             d.rounded_rectangle((cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2), radius=it.get("radius", 6),
-                                fill=rgb(it.get("fill", "#fbfbf7")))
+                                fill=None if it.get("fill") == "none" else rgb(it.get("fill", "#fbfbf7")),
+                                outline=rgb(it["outline"]) if "outline" in it else None, width=it.get("width", 2))
             continue
         f = font(it.get("font", "black"), it["size"])
         txt = "\n".join(it["text"]) if it.get("vertical") else it["text"]

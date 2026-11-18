@@ -1011,34 +1011,33 @@
      ]
     ],
     "pick": "light",
-    "vmin": 150,
-    "smax": 120,
-    "radius": 4
+    "vmin": 195,
+    "smax": 75,
+    "radius": 4,
+    "grow": 2
    },
    {
     "op": "erase",
     "poly": [
      [
-      1038,
-      470
+      1041,
+      473
      ],
      [
-      1060,
-      470
+      1058,
+      473
      ],
      [
-      1060,
-      528
+      1058,
+      527
      ],
      [
-      1038,
-      528
+      1041,
+      527
      ]
     ],
-    "pick": "light",
-    "vmin": 150,
-    "smax": 120,
-    "radius": 4
+    "pick": "all",
+    "fill": "#e397c9"
    },
    {
     "op": "erase",
@@ -1150,8 +1149,10 @@
       "vertical": true,
       "font": "serif",
       "size": 22,
-      "color": "#fff4e6",
-      "spacing": 5
+      "color": "#fff8ee",
+      "spacing": 5,
+      "stroke": 1,
+      "stroke_color": "#8a2a22"
      }
     ]
    },
@@ -1220,9 +1221,9 @@
      {
       "text": "門化敦",
       "font": "serif",
-      "size": 21,
+      "size": 22,
       "color": "#efe6cf",
-      "stroke": 1,
+      "stroke": 0,
       "stroke_color": "#efe6cf"
      }
     ]
@@ -1307,6 +1308,30 @@
     "vmin": 120,
     "smax": 140,
     "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     922,
+     327
+    ],
+    "angle": -1.5,
+    "size": [
+     280,
+     70
+    ],
+    "items": [
+     {
+      "box": [
+       232,
+       36
+      ],
+      "fill": "none",
+      "outline": "#c9a36a",
+      "width": 2,
+      "radius": 3
+     }
+    ]
    },
    {
     "op": "layer",
