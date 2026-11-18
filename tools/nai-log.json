@@ -825,13 +825,13 @@
   "init": null
  },
  "bg_era_tomak": {
-  "seed": 2664144198,
-  "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a hillside outside a city, crude dugout huts made of earth, straw mats and scrap wood under a bridge, muddy ground, distant city buildings, grey sky, poverty",
+  "seed": 2171464855,
+  "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a barren hillside at the edge of a korean city, crude dugout huts with earthen walls and straw mat roofs, a small wooden plank footbridge over a muddy stream, laundry, distant tiled roofs and a few brick buildings, grey sky",
   "init": null
  },
  "bg_era_dansungsa": {
-  "seed": 1893644142,
-  "prompt": "no humans, scenery, indoors, 1920s movie theater interior, rows of wooden benches, a silent film projector beam through dust onto a white screen, a small stage with a narrator's podium, warm dim light, nostalgic",
+  "seed": 3971212219,
+  "prompt": "no humans, scenery, indoors, 1920s silent movie theater, plain wooden long benches on a flat wooden floor, a small cloth screen on a low stage with a side podium for a live narrator, gas lamps on the walls, wooden pillars, dusty projector beam, warm sepia light",
   "init": null
  },
  "bg_era_amtaedo": {
@@ -860,32 +860,32 @@
   "init": null
  },
  "bg_era_daejeonja": {
-  "seed": 2678444694,
+  "seed": 1720857694,
   "prompt": "no humans, scenery, outdoors, steep narrow mountain pass in northern manchuria in summer, a winding dirt road at the bottom of a deep gorge, dense forest on both slopes, rocks, gun smoke, dramatic clouds",
   "init": null
  },
  "bg_era_hongkou": {
-  "seed": 2153898662,
+  "seed": 1833992350,
   "prompt": "no humans, scenery, outdoors, 1932 shanghai park with a large ceremonial wooden reviewing stand decorated with bunting, empty folding chairs, scattered ceremony flags on the grass, explosion smoke rising from the stand, spring trees",
   "init": null
  },
  "bg_era_kokumin_school": {
-  "seed": 2391741845,
+  "seed": 2448610028,
   "prompt": "no humans, scenery, outdoors, 1940s colonial korean elementary school playground, a two-story wooden school building, a flagpole without a flag, a small wooden shrine structure in the corner of the yard, gloomy morning light, oppressive atmosphere",
   "init": null
  },
  "bg_era_bupyeong": {
-  "seed": 837633940,
+  "seed": 2237540835,
   "prompt": "no humans, scenery, outdoors, 1940s military arsenal factory complex, long brick factory buildings with sawtooth roofs, tall chimneys with smoke, rail tracks with freight cars loaded with crates, barbed wire fence, grey sky",
   "init": null
  },
  "bg_era_chongqing": {
-  "seed": 3537798377,
+  "seed": 2743544729,
   "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, a taegukgi flag hanging at the entrance, damp air, morning mist",
   "init": null
  },
  "bg_era_liberation": {
-  "seed": 580762102,
+  "seed": 2607706253,
   "prompt": "no humans, scenery, outdoors, august 1945 korean town street, summer sunshine, many hand-drawn taegukgi flags waving from windows and gates of tiled roof houses and shops, scattered leaflets, cicada summer atmosphere, joyful",
   "init": null
  }
