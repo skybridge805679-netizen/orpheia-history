@@ -1,6 +1,6 @@
 VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @chapter 제4장|살수에서 기벌포까지 — 수·당과의 전쟁과 삼국 통일
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 22일 (토) 01:10 · 상철의 작업실
 @show yunseul serious right
 @show orpheia worry left
@@ -168,7 +168,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @show orpheia smile left
 [사연] 70여 년의 전쟁이 이유와 함께 제자리를 찾았습니다.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -1,7 +1,7 @@
 VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @chapter 제15장|황제의 나라, 전차가 달리는 거리 — 독립 협회와 대한 제국, 근대 문물
 // 이 장의 질문: 러시아 공사관에서 돌아온 왕은 왜 황제가 되었고, 백성들은 무엇을 요구했나. 그리고 그 사이 거리에는 무엇이 새로 생겼나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 13일 (토) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -150,7 +150,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @show orpheia smile left
 [한별|smile] 다음엔 전차 같이 타요! 표는 제가 살게요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

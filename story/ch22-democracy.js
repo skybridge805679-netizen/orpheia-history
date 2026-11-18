@@ -1,7 +1,7 @@
 VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @chapter 제22장|4월의 교복, 6월의 거리 — 4·19 혁명에서 6월 민주 항쟁까지
 // 이 장의 질문: 경제는 자라는데 민주주의는 왜 자꾸 멈췄나. 1960년의 학생, 1979년의 부산과 마산, 1980년의 광주, 1987년의 거리는 무엇을 이어받았나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 27일 (토) 21:30 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -163,7 +163,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @show orpheia smile left
 [다솜|smile] 올해 겨울엔 우리가 대통령을 직접 뽑아요. 엄마랑 같이 투표하러 갈 거예요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

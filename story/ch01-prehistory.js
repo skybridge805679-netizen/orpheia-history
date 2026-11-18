@@ -1,6 +1,6 @@
 VN.chapter('ch01','제1장','누리의 돌',`
 @chapter 제1장|누리의 돌 — 무리에서 지배자까지
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 18일 (화) 02:40 · 상철의 작업실
 @show yunseul smile right
 @show orpheia explain left
@@ -218,7 +218,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 [사연] 이 시대의 기록이 다시 또렷해졌습니다. 떠돌던 무리가 머물러 마을이 되고, 마을에 지배자가 서고, 그 지배자의 무덤이 고인돌이 되기까지.
 [오르페이아|smile] 주인님, 기록부에 모은 걸 한번 넘겨 볼까요?
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

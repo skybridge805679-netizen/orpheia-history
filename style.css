@@ -51,7 +51,8 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-bg{background:radial-gradient(ellipse at center,#2a2219 0,#0f0d0b 80%)}
 .vn-bg img{width:100%;height:100%;object-fit:cover}
 .vn-chars{pointer-events:none}
-.vn-chr{position:absolute;bottom:0;height:92%;transition:left .35s,filter .25s;transform:translateX(-50%)}
+/* 카우보이 샷: 전신 스탠딩을 크게 키워 허벅지 아래는 화면 밖으로 */
+.vn-chr{position:absolute;top:4%;height:150%;transition:left .35s,filter .25s;transform:translateX(-50%)}
 .vn-chr img{height:100%;display:block}
 .vn-chr.pos-left{left:24%}.vn-chr.pos-center{left:50%}.vn-chr.pos-right{left:76%}
 .vn-chr:not(.speaking){filter:brightness(.6) sepia(.25) saturate(.8)}
@@ -71,7 +72,7 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-phone{position:absolute;right:4%;top:9%;width:min(24vw,300px);aspect-ratio:9/17;border-radius:30px;background:#14110e;border:6px solid #2b251e;box-shadow:0 20px 50px #000a;overflow:hidden}
 .vn-phone-notch{position:absolute;top:8px;left:50%;width:34%;height:16px;transform:translateX(-50%);background:#000;border-radius:10px;z-index:2}
 .vn-phone-screen{position:absolute;inset:0;background:linear-gradient(#20403e,#14110e)}
-.vn-phone-screen .vn-chr{height:118%;bottom:-30%;left:50%}
+.vn-phone-screen .vn-chr{top:auto;height:118%;bottom:-30%;left:50%}
 .vn-phone-screen .vn-chr:not(.speaking){filter:none}
 
 /* 날짜·장소: 한지 띠지 */
@@ -84,12 +85,8 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-box::before{content:'';position:absolute;right:16px;top:14px;width:46px;height:46px;opacity:.07;background:repeating-linear-gradient(0deg,var(--ink) 0 2px,transparent 2px 9px),repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 9px);border-radius:50%;pointer-events:none}
 .vn-box.quiet{opacity:0;pointer-events:none}
 .vn-box.is-narr .vn-text{color:var(--ink2);font-style:normal}
-.vn-name{position:absolute;top:-20px;left:30px;display:flex;align-items:center;gap:8px;background:var(--seal);color:#fff4e6;border-radius:3px;padding:4px 16px 4px 4px;box-shadow:inset 0 0 0 2px #fff4e633,0 0 0 1px #7d1a14,0 4px 10px #0006;transform:rotate(-1.5deg)}
-.vn-name:not(.has-face){padding-left:16px}
+.vn-name{position:absolute;top:-20px;left:30px;display:flex;align-items:center;gap:8px;background:var(--seal);color:#fff4e6;border-radius:3px;padding:5px 20px;box-shadow:inset 0 0 0 2px #fff4e633,0 0 0 1px #7d1a14,0 4px 10px #0006;transform:rotate(-1.5deg)}
 .vn-name b{font:700 17px var(--f-title);letter-spacing:.08em;color:#fff4e6}
-.vn-face{width:40px;height:40px;border-radius:2px;overflow:hidden;background:var(--paper2);box-shadow:0 0 0 2px #fff4e6aa}
-.vn-face img{width:100%;height:100%;object-fit:cover}
-.vn-face.crop img{object-fit:cover;object-position:50% 8%;transform:scale(2.4);transform-origin:50% 12%}
 /* 인물별 도장 색: 오르페이아 청록, 윤슬 쪽빛, 사연 황토, 묵 먹, 상철 검정 */
 .c-orpheia .vn-name{background:var(--cheong);box-shadow:inset 0 0 0 2px #fff4e633,0 0 0 1px #0f3f3c,0 4px 10px #0006}
 .c-yunseul .vn-name{background:var(--jjok);box-shadow:inset 0 0 0 2px #fff4e633,0 0 0 1px #172338,0 4px 10px #0006}

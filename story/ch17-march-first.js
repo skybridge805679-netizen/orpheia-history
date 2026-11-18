@@ -1,7 +1,7 @@
 VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @chapter 제17장|칼 찬 교사와 만세의 봄 — 1910년대 무단 통치와 3·1 운동, 대한민국 임시 정부
 // 이 장의 질문: 일제는 1910년대에 무엇으로 조선을 눌렀고, 사람들은 나라 안팎 어디에서 버텼나. 그 힘이 어떻게 1919년 3월 1일로 모였고, 무엇을 낳았나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 17일 (수) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -169,7 +169,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @show orpheia smile left
 [한별|smile] 저는 다시 교단으로 돌아갈 거예요. 이번엔 칼 없이요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

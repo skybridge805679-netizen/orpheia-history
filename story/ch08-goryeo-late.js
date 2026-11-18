@@ -1,7 +1,7 @@
 VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @chapter 제8장|칼과 말발굽의 시대 — 무신 정권에서 고려의 끝까지
 // 이 장의 질문: 칼로 권력을 잡은 무신들, 말발굽으로 밀려온 몽골, 그리고 원의 그늘. 고려는 무엇을 잃고 무엇을 지켰으며, 왜 끝났나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 29일 (토) 22:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -208,7 +208,7 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @show orpheia smile left
 [사연] 고려 오백 년이 끝났습니다.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

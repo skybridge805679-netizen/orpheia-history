@@ -1,7 +1,7 @@
 VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @chapter 제14장|검은 배, 세 번의 격변 — 흥선 대원군에서 을미사변까지
 // 이 장의 질문: 문을 걸어 잠그던 나라는 어떻게 문을 열었고, 열린 문 앞에서 누가 어떤 길을 걸으려 했나. 군인, 개화파, 농민이 차례로 일어난 까닭은 무엇인가.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 11일 (목) 21:30 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -238,7 +238,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @show orpheia smile left
 [보리|smile] 다음에 오면, 우리 마을 보리밭 보여 줄게요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

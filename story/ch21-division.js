@@ -1,7 +1,7 @@
 VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @chapter 제21장|둘로 갈린 새벽 — 광복에서 6·25 전쟁, 이승만 정부까지
 // 이 장의 질문: 광복의 기쁨은 왜 분단으로 이어졌나. 하나의 정부를 세우려던 사람들은 무엇을 했고, 전쟁은 무엇을 남겼나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 25일 (목) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -170,7 +170,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @show orpheia smile left
 [새벽|smile] 아이들이 커서, 이 나라를 더 좋은 나라로 만들 거예요. 저는 그렇게 믿어요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -1,6 +1,6 @@
 VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @chapter 제2장|하늘의 자손, 다섯 나라의 축제 — 고조선과 여러 나라
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 20일 (목) 23:30 · 상철의 작업실
 @show yunseul smile right
 @show orpheia explain left
@@ -316,7 +316,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @show orpheia smile left
 [사연] 다섯 나라의 축제가 제자리를 찾았습니다. 그리고 하늘의 자손이 세운 첫 나라가 어떻게 서고 무너졌는지도.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

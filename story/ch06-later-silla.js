@@ -1,7 +1,7 @@
 VN.chapter('ch06','제6장','천 년의 저녁',`
 @chapter 제6장|천 년의 저녁 — 신라 하대와 후삼국
 // 이 장의 질문: 그렇게 강하던 신라는 왜 흔들렸고, 그 틈에서 누가 일어나 누가 다시 하나로 묶었나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 25일 (화) 22:10 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -197,7 +197,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @show orpheia smile left
 [나루|smile] 바닷길은 그대로예요. 나라 이름이 바뀌어도 배는 또 떠요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

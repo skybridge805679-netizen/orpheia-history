@@ -1,7 +1,7 @@
 VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @chapter 제11장|붓의 다툼, 칼의 바다 — 사화에서 병자호란까지
 // 이 장의 질문: 사림은 왜 네 번이나 피를 흘리고도 끝내 조정을 차지했나. 그리고 두 번의 큰 전쟁은 조선을 어떻게 바꾸었나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 5일 (금) 22:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -197,7 +197,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show orpheia smile left
 [나루|joseon] 전쟁은 끝났어요. 이제 노 대신 그물을 잡아야죠. 바다는 그대로니까요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

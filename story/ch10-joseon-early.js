@@ -1,7 +1,7 @@
 VN.chapter('ch10','제10장','새 나라의 설계도',`
 @chapter 제10장|새 나라의 설계도 — 조선의 건국과 체제 정비
 // 이 장의 질문: 성리학의 나라 조선은 어떤 설계도로 지어졌고, 그 설계도를 둘러싸고 누가 다투었나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 3일 (수) 21:20 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -207,7 +207,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @show orpheia smile left
 [소담|smile] 다음에 오시면 제가 만든 약과 드릴게요!
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -1,7 +1,7 @@
 VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @chapter 제20장|이름을 빼앗긴 밤, 광복의 새벽 — 1930년대~1945년
 // 이 장의 질문: 침략 전쟁에 나선 일제는 왜 이름과 말까지 빼앗으려 했나. 그 가장 어두운 시기에 독립운동은 어떻게 하나로 모여 광복을 맞이했나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 23일 (화) 22:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -185,7 +185,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [새벽|smile] 선생님, 이제 우리말로 마음껏 가르치세요!
 [한별|smile] 그래. 이번엔 칼도 없이, 일본어도 없이.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

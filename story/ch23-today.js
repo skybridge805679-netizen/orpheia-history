@@ -1,7 +1,7 @@
 VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @chapter 제23장|선을 넘는 걸음 — 민주화 이후의 정부와 통일을 향한 노력
 // 이 장의 질문: 직접 뽑은 대통령들은 무엇을 바꾸었나. 그리고 휴전선 앞에서 남과 북은 어떤 약속을 주고받았나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 29일 (월) 22:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -142,7 +142,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @show orpheia smile left
 [다솜|smile] 언젠가 이 선이 없어지는 날도, 기록꾼 님이 와서 봐 주세요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

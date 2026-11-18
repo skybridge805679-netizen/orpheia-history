@@ -1,7 +1,7 @@
 VN.chapter('ch12','제12장','상복과 탕평비',`
 @chapter 제12장|상복과 탕평비 — 붕당 정치에서 세도 정치까지
 // 이 장의 질문: 상복을 몇 년 입을지가 왜 목숨을 건 싸움이 되었고, 영조와 정조는 그 싸움을 어떻게 멈추려 했으며, 그 뒤에 무엇이 왔나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 7일 (일) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -169,7 +169,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @show orpheia smile left
 [사연] 정치가 흔들리는 동안에도, 장터는 북적였고 사람들은 새로운 생각을 했습니다.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

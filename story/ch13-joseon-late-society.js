@@ -1,7 +1,7 @@
 VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @chapter 제13장|장터의 노래, 실학의 붓 — 조선 후기의 경제·사회·문화
 // 이 장의 질문: 전쟁 뒤의 조선은 무엇으로 다시 일어섰나. 논과 장터가 바뀌자 신분과 생각과 그림이 어떻게 함께 바뀌었나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 9일 (화) 21:40 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -167,7 +167,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @show orpheia smile left
 [단오|smile] 다음 장날에 또 와요! 그땐 『심청전』 읽어 줄게요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -1,7 +1,7 @@
 VN.chapter('ch03','제3장','한강의 주인',`
 @chapter 제3장|한강의 주인 — 고구려·백제·신라·가야
 // 이 장의 질문: 세 나라는 어떻게 '왕의 나라'가 되었고, 왜 한강을 두고 싸웠나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 21일 (금) 22:30 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -249,7 +249,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @show orpheia smile left
 [사연] 한강의 기록이 다시 또렷해졌습니다. 세 나라가 어떻게 왕의 나라가 되었는지, 그리고 깃발이 왜 그 순서로 바뀌었는지.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

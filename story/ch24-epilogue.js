@@ -1,7 +1,7 @@
 VN.chapter('ep','종장','연표의 끝에서',`
 @chapter 종장|연표의 끝에서 — 시대를 가로지르는 한 바퀴, 그리고 81회
 // 이 장의 질문: 시대별로 따로 외운 것을 한 줄로 꿸 수 있는가. 그리고 모든 기록이 읽히고 나면, 읽히지 않던 기록은 어디로 가는가.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 2월 20일 (금) 23:00 · 상철의 작업실 · 81회 시험 이틀 전
 @phone on
 @show yunseul smile right

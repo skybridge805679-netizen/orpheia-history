@@ -1,7 +1,7 @@
 VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @chapter 제19장|경성의 두 얼굴 — 일제 강점기의 사회·문화와 민족 문화 수호
 // 이 장의 질문: 백화점과 라디오가 들어선 경성은 누구의 도시였나. 그 뒤편의 노동자·농민·백정·어린이는 무엇을 요구했고, 사람들은 말과 역사를 어떻게 지켰나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 21일 (일) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -158,7 +158,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia smile left
 [한별|smile] 저도 우리 동네 말 몇 개 적어서 보냈어요. 사전에 실리면 좋겠다!
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -1,7 +1,7 @@
 VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @chapter 제18장|부드러운 손, 숨은 칼 — 1920년대 문화 통치와 민족 운동
 // 이 장의 질문: 문화 통치는 정말 부드러워진 것이었나. 실력을 기르자는 사람들, 총을 든 사람들, 폭탄을 든 사람들, 손잡은 사람들. 1920년대의 길은 왜 이렇게 여러 갈래였나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 19일 (금) 21:30 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -164,7 +164,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @show orpheia smile left
 [한별|smile] 다음엔 우리 교실에 와 주세요. 아이들이랑 『어린이』 잡지 같이 읽어요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

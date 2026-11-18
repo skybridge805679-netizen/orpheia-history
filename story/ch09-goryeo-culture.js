@@ -1,7 +1,7 @@
 VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @chapter 제9장|벽란도의 가짜 약혼자 — 고려의 경제와 문화
 // 이 장의 질문: 고려 사람들은 무엇으로 먹고살고, 무엇을 믿고, 무엇을 남겼나. 사진 문제가 쏟아지는 그 시대를 눈으로 익힌다.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 1일 (월) 21:30 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -273,7 +273,7 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 
 @bgm off
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 2일 (화) 04:10 · 작업실
 @phone on
 @show yunseul smile right

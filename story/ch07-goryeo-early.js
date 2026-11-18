@@ -1,7 +1,7 @@
 VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @chapter 제7장|호족의 나라에서 문벌의 나라로 — 고려 전기
 // 이 장의 질문: 호족들이 세운 나라를 왕들은 어떻게 '왕의 나라'로 만들었고, 그 나라는 북쪽의 거란·여진과 어떻게 맞섰나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 27일 (목) 21:40 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -200,7 +200,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @show orpheia smile left
 [사연] 고려 전기 이백오십 년이 제자리를 찾았습니다.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -48,7 +48,7 @@ VN.chapter('ch00','서장','얼굴 없는 작곡가와 역사덕후 보컬',`
 [윤슬|smile] 오, 명언 같지? 내가 한 말인데. 가사로 써도 돼. 저작권료는 반반!
 @hide all
 
-@bg cg_studio_night
+@bg bg_studio_night
 @day 03:40 · 작업실
 윤슬이 메모장을 내민다. 「연표 1번 트랙 — 고인돌 (가사 초안)」.
 @phone on
@@ -85,7 +85,7 @@ VN.chapter('ch00','서장','얼굴 없는 작곡가와 역사덕후 보컬',`
 [먹물] 나는 읽히지 않는 기록을 좋아해. 외우기만 하고 이해하지 않은 기록은, 아주 잘 번지거든.
 목소리는 웃음과 함께 먹물 속으로 가라앉았다.
 @bgm auto
-@bg cg_studio_night
+@bg bg_studio_night
 @show orpheia worry center
 [오르페이아|worry] ……방금 그 계정, 제 데이터 어디에도 없는 존재예요.
 그때, 모니터 메모장에 붓으로 쓴 듯한 글씨가 한 줄씩 떠오른다.

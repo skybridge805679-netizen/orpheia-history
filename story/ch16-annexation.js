@@ -1,7 +1,7 @@
 VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @chapter 제16장|빼앗긴 도장, 지키려는 손 — 러일 전쟁에서 국권 피탈까지
 // 이 장의 질문: 대한 제국은 어떤 순서로 하나씩 빼앗겼나. 그리고 사람들은 총으로, 붓으로, 돈으로 어떻게 지키려 했나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 12월 15일 (월) 22:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -189,7 +189,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [보리|smile] 학생 아가씨, 글 잘 쓴다며? 나중에 우리 이야기도 좀 써 줘요.
 [한별|smile] 네! 꼭요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

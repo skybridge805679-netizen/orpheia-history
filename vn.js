@@ -144,7 +144,7 @@ function stopAuto(){clearTimeout(autoTimer);}
 function shell(){
  document.body.classList.add('vn-mode');
  $('#main').innerHTML=`<section class="vn" id="vn" aria-label="비주얼 노벨"><div class="vn-layer vn-bg"><img id="vnBg" alt=""></div><div class="vn-layer vn-chars" id="vnChars"></div><div class="vn-phone" id="vnPhone" hidden><div class="vn-phone-notch"></div><div class="vn-phone-screen"></div></div><div class="vn-layer vn-fx" id="vnFx"></div><div class="vn-day" id="vnDay"></div><div class="vn-card" id="vnCard" hidden></div><div class="vn-choices" id="vnChoices" hidden></div>
- <div class="vn-box" id="vnBox"><div class="vn-name" id="vnName"><span class="vn-face" id="vnFace"><img alt=""></span><b id="vnWho"></b></div><p class="vn-text" id="vnText" aria-live="polite"></p><span class="vn-caret" id="vnCaret">▼</span></div>
+ <div class="vn-box" id="vnBox"><div class="vn-name" id="vnName"><b id="vnWho"></b></div><p class="vn-text" id="vnText" aria-live="polite"></p><span class="vn-caret" id="vnCaret">▼</span></div>
  <nav class="vn-menu" aria-label="메뉴">${[['notebook','기록부'],['log','로그'],['auto','오토'],['skip','스킵'],['qsave','Q.세이브'],['qload','Q.로드'],['config','설정'],['hide','숨기기'],['title','타이틀']].map(([k,v])=>`<button data-vn="${k}">${v}</button>`).join('')}</nav></section>`;
  const vn=$('#vn');
  vn.addEventListener('click',e=>{if(e.target.closest('.vn-menu,.vn-choices,.vn-card button,.qz'))return;advance();});
@@ -159,18 +159,17 @@ function paint(){
  const l=S.line,box=$('#vnBox');
  box.className='vn-box'+(l?.who?' '+(CAST[l.who]?.cls||'c-other'):' is-narr');
  $('#vnWho').textContent=l?.who?nameOf(l.who):'';$('#vnName').hidden=!l?.who;
- const face=$('#vnFace');let faceSrc='',crop='';
- if(l?.who==='orpheia')faceSrc=`ui/face_${CAST.orpheia.face[l.expr]||'neutral'}.webp`;
- else if(l?.who&&CAST[l.who]){const f=standFile(l.who,l.expr||S.chars[l.who]?.expr||'neutral');if(f){faceSrc=f;crop=' crop crop-'+l.who;}}
- face.hidden=!faceSrc;face.className='vn-face'+crop;$('#vnName').classList.toggle('has-face',!!faceSrc);
- if(faceSrc){const img=face.querySelector('img');if(img.dataset.f!==faceSrc){img.dataset.f=faceSrc;img.src=asset(faceSrc);}}
  $('#vnText').textContent='';$('#vnCaret').classList.remove('ready');
  $('#vn').querySelector('[data-vn="auto"]').classList.toggle('on',auto);$('#vn').querySelector('[data-vn="skip"]').classList.toggle('on',skip);
 }
 function paintChars(){
  const wrap=$('#vnChars'),phone=$('#vnPhone');if(!wrap)return;
  const inPhone=who=>S.phone&&who==='orpheia';
- phone.hidden=!(S.phone&&S.chars.orpheia);
+ // CG 장면에서는 스탠딩·휴대폰을 숨기고 CG 한 장으로만 보여 준다(상태는 그대로 두고 CG가 끝나면 다시 나온다).
+ // 사람이 안 나오는 풍경형 CG는 배경처럼 쓴다(스탠딩을 얹는다).
+ const STAGE=/(^|\/)cg_(ch01_dolmen|ch02_baekje|ch03_palace_night|ch04_goryeo_port|ink_spread|comment_flame)\b/;
+ const bgName=String(S.bg||''),cg=/(^|\/)cg_/.test(bgName)&&!STAGE.test(bgName);
+ wrap.hidden=cg;phone.hidden=cg||!(S.phone&&S.chars.orpheia);
  const keep=new Set();
  for(const [who,c] of Object.entries(S.chars)){
   const file=standFile(who,c.expr);if(!file)continue;keep.add(who);

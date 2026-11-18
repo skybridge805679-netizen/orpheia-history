@@ -1,7 +1,7 @@
 VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @chapter 제5장|바다 동쪽의 번성한 나라 — 통일 신라와 발해
 // 이 장의 질문: 통일 뒤 신라는 세 나라 사람을 어떻게 한 나라로 묶었고, 고구려의 땅에서는 누가 다시 일어섰나.
-@bg cg_studio_night
+@bg bg_studio_night
 @day 11월 23일 (일) 21:00 · 상철의 작업실
 @phone on
 @show yunseul smile right
@@ -186,7 +186,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @show orpheia smile left
 [해랑|smile] 고마워요, 기록꾼님. 다음에 오면 상경의 큰길을 같이 걸어요.
 @hide all
-@bg cg_studio_night
+@bg bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right
