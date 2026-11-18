@@ -2121,8 +2121,9 @@
   {
    "id": "cg_ev_gibeolpo",
    "size": "bg",
-   "prompt": "7th century silla navy, small korean wooden warships with single square sails and oars, attacking tang chinese wooden junk ships at a wide river estuary in winter, fire arrows, drums, epic naval battle, wide shot",
-   "negative": "watermark, signature, text, logo, nude, explicit, gore, blood, extra limbs, bad hands, multiple views, child, modern clothes, flag with text, maid, white hair, girl in foreground, anime girl, modern buildings, skyscraper, neon sign, western galleon, european sailing ship, modern warship, battleship, destroyer, steel ship"
+   "prompt": "ancient east asian naval battle, 7th century, many small korean wooden rowing warships with one plain square cloth sail each, rows of oars, soldiers with bows and spears, attacking large chinese tang junk ships with red hulls, wide icy river estuary, winter, fire arrows, smoke, drums, painterly epic wide shot",
+   "negative": "watermark, signature, text, logo, nude, explicit, gore, blood, extra limbs, bad hands, multiple views, child, modern clothes, flag with text, maid, white hair, girl in foreground, anime girl, modern buildings, skyscraper, neon sign, western galleon, european sailing ship, modern warship, battleship, destroyer, steel ship, schooner, galleon, clipper, multiple masts, rigging, european ship, empty sea",
+   "seed": 4242424
   },
   {
    "id": "cg_ev_dongmosan",
