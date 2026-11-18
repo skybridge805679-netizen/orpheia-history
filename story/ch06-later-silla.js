@@ -87,6 +87,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @dive 9세기|지방의 산사
 @bg bg_era_seon_temple
 @day 신라 하대 · 깊은 산속의 절
+@photo 화순 쌍봉사 철감선사탑
 돌을 깎아 만든 승탑이 서 있고, 법당 안엔 쇠로 만든 커다란 불상이 앉아 있다. 승려들이 말없이 앉아 참선 중이다.
 @show sayeon neutral right
 @show orpheia explain left

@@ -4,7 +4,7 @@
 import json, os, re
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
-OK = {"거북선": "복원 모형", "빗살무늬 토기": "신석기 · 서울 암사동", "반달 돌칼": "청동기 · 부여 송국리", "고인돌": "청동기 · 강화 부근리 탁자식", "선죽교": "개성 · 옛 사진"}
+OK = {"거북선": "복원 모형", "빗살무늬 토기": "신석기 · 서울 암사동", "반달 돌칼": "청동기 · 부여 송국리", "고인돌": "청동기 · 강화 부근리 탁자식", "선죽교": "개성 · 옛 사진", "청화 백자": "조선 후기", "도산 서원": "안동 · 이황 · 모형", "화순 쌍봉사 철감선사탑": "신라 하대 승탑", "연천 전곡리 유적": "구석기 · 주먹도끼 출토지"}
 NO = {"비파형 동검": "비파형이 아닌 창끝 모양 동검 사진", "민무늬 토기": "토기가 아닌 궁궐 지붕 사진", "나전 칠기": "시대 확인 불가(고려 나전 칠기로 쓸 수 없음)"}
 p = ROOT / "data/heritage-extra.json"; d = json.loads(p.read_text())
 for k, why in NO.items():
@@ -12,8 +12,12 @@ for k, why in NO.items():
         f = ROOT / "assets" / d[k].get("src", "x")
         if f.exists(): f.unlink()
         d[k] = {"rejected": True, "why": why}
+if "주먹도끼" in d and not d["주먹도끼"].get("rejected"):
+    d["연천 전곡리 유적"] = d.pop("주먹도끼")
 for k, desc in OK.items():
     if k in d and not d[k].get("rejected"): d[k]["checked"] = True; d[k]["desc"] = desc
+if "주먹도끼" in d and not d["주먹도끼"].get("rejected"):
+    d["연천 전곡리 유적"] = d.pop("주먹도끼")  # 받은 사진은 유물이 아니라 유적 전경
 p.write_text(json.dumps(d, ensure_ascii=False, indent=1))
 h = ROOT / "data/heritage.js"; t = h.read_text(); db = json.loads(t[t.index("{"):t.rindex("}") + 1])
 for k, v in d.items():

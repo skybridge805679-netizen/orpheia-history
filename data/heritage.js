@@ -460,5 +460,29 @@ window.HERITAGE = {
   "credit": "Homer Hulbert · Public domain · 위키미디어 공용",
   "desc": "개성 · 옛 사진",
   "local": true
+ },
+ "청화 백자": {
+  "src": "heritage/x09.webp",
+  "credit": "Korea Copyright Commission · Public domain · 위키미디어 공용",
+  "desc": "조선 후기",
+  "local": true
+ },
+ "도산 서원": {
+  "src": "heritage/x10.webp",
+  "credit": "Steve46814 · CC BY-SA 3.0 · 위키미디어 공용",
+  "desc": "안동 · 이황 · 모형",
+  "local": true
+ },
+ "화순 쌍봉사 철감선사탑": {
+  "src": "heritage/x11.webp",
+  "credit": "Unknown authorUnknown author · Public domain · 위키미디어 공용",
+  "desc": "신라 하대 승탑",
+  "local": true
+ },
+ "연천 전곡리 유적": {
+  "src": "heritage/x12.webp",
+  "credit": "국가유산청 · KOGL Type 1 · 위키미디어 공용",
+  "desc": "구석기 · 주먹도끼 출토지",
+  "local": true
  }
 };
