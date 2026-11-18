@@ -825,12 +825,12 @@
   "init": null
  },
  "bg_era_tomak": {
-  "seed": 2171464855,
+  "seed": 3378479927,
   "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a barren hillside at the edge of a korean city, crude dugout huts with earthen walls and straw mat roofs, a small wooden plank footbridge over a muddy stream, laundry, distant tiled roofs and a few brick buildings, grey sky",
   "init": null
  },
  "bg_era_dansungsa": {
-  "seed": 3971212219,
+  "seed": 3773341820,
   "prompt": "no humans, scenery, indoors, 1920s silent movie theater, plain wooden long benches on a flat wooden floor, a small cloth screen on a low stage with a side podium for a live narrator, gas lamps on the walls, wooden pillars, dusty projector beam, warm sepia light",
   "init": null
  },
@@ -880,13 +880,13 @@
   "init": null
  },
  "bg_era_chongqing": {
-  "seed": 2743544729,
-  "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, a taegukgi flag hanging at the entrance, damp air, morning mist",
+  "seed": 596520446,
+  "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, damp air, morning mist",
   "init": null
  },
  "bg_era_liberation": {
-  "seed": 2607706253,
-  "prompt": "no humans, scenery, outdoors, august 1945 korean town street, summer sunshine, many hand-drawn taegukgi flags waving from windows and gates of tiled roof houses and shops, scattered leaflets, cicada summer atmosphere, joyful",
+  "seed": 1586275862,
+  "prompt": "no humans, scenery, outdoors, august 1945 korean town street in bright summer sunshine, traditional tiled roof houses and small shops with doors flung open, an old radio on a windowsill, scattered paper leaflets and confetti in the air, blue sky with big white clouds, joyful atmosphere",
   "init": null
  }
 }
