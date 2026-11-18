@@ -1069,6 +1069,42 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, 1909 manchurian railway station platform in the morning, russian style station building, a steam locomotive with smoke, honor guard rifles, crowd area with luggage, cold autumn, dramatic light",
    "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt, modern train"
+  },
+  {
+   "id": "bg_era_chongdokbu",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, 1910s colonial korean elementary school classroom, wooden desks in rows, blackboard, a teacher's uniform cap and a sheathed sword hanging on the wall by the podium, barred window showing a military police officer's silhouette outside, oppressive grey light",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+  },
+  {
+   "id": "bg_era_land_survey",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1910s korean farmland, surveying instruments on a tripod, wooden boundary stakes with numbered tags driven into rice paddies, a measuring chain lying on the ground, thatched farmhouses, overcast autumn",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+  },
+  {
+   "id": "bg_era_samwonbo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, a taegukgi flag, big sky",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+  },
+  {
+   "id": "bg_era_hawaii",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1910s hawaii sugarcane plantation, tall green sugarcane fields, wooden worker barracks, a small wooden church, palm trees, mountains, bright tropical sky",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, resort, beach umbrella"
+  },
+  {
+   "id": "bg_era_tapgol",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1919 seoul park with an octagonal korean pavilion with tiled roof, a stone pagoda, scattered printed leaflets and small taegukgi flags on the ground, early spring trees, crowd's footprints, dramatic sunlight",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+  },
+  {
+   "id": "bg_era_shanghai",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1920s shanghai french concession alley, narrow lane of grey brick three-story shikumen row houses with stone gate frames, laundry lines, a small taegukgi in one window, evening light",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
   }
  ]
 }
