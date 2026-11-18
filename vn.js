@@ -416,5 +416,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:id=>{S=fresh(id);log=[];shell();paint();step();}};
+return {openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
 })();

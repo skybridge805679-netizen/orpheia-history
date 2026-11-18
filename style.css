@@ -327,7 +327,7 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 .vn-battle.serious>img{filter:grayscale(.5) brightness(.85)}
 .vn-battle.serious .vb-text b{text-shadow:0 0 18px #fff8;color:#f7f1e6}
 .vn-battle.serious::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,#fff6,transparent 60%);animation:vbGlow 2.4s ease-out forwards}
-.vn-battle-hud{position:absolute;left:14px;top:12px;z-index:9;display:flex;gap:10px;align-items:center;background:#120f0ce6;color:#f4ecdf;padding:6px 12px 6px 6px;border:1px solid #6b5a44;border-left:4px solid #b3261e;pointer-events:none}
+.vn-battle-hud{position:absolute;left:14px;bottom:12px;z-index:9;display:flex;gap:10px;align-items:center;background:#120f0ce6;color:#f4ecdf;padding:6px 12px 6px 6px;border:1px solid #6b5a44;border-left:4px solid #b3261e;pointer-events:none}
 .vn-battle-hud img{width:58px;height:58px;object-fit:cover;object-position:50% 20%}
 .vn-battle-hud b{display:block;font-size:14px}
 .vn-battle-hud small{font-size:11px;opacity:.7}

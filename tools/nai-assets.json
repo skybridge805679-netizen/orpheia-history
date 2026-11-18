@@ -1718,13 +1718,14 @@
      "y": 0.5
     },
     {
-     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, standing behind her, pressed against her back, stiff",
-     "uc": "visible face, eyes, mouth, nose, chin",
+     "prompt": "boy, young man, black hoodie, hood pulled low over his face, entire face covered in solid black shadow, faceless, head turned away looking up at the ceiling, standing behind her, pressed against her back, stiff",
+     "uc": "visible face, eyes, closed eyes, mouth, nose, chin, lips",
      "x": 0.6,
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, sex, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature, nipples, areolae, topless, completely nude, pussy"
+   "negative": "nude, nipples, explicit, sex, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature, nipples, areolae, topless, completely nude, pussy",
+   "seed": 8181818
   },
   {
    "id": "cg_mv_ch12",
