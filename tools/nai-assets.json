@@ -1487,7 +1487,7 @@
   {
    "id": "cg_ch06_seasick",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman sailor with black braid and tan skin, indigo hemp tunic, sitting on the deck of an ancient wooden ship and letting pale seasick young man in a black hoodie with hood up, face hidden in shadow, faceless rest his head on her lap, she smiles teasingly, waves and sails, comedic",
+   "prompt": "1girl, 1boy, on the wooden deck of an ancient sailing ship, a young man in a black hoodie with hood up lying down pale and seasick with his head resting on the lap of a young adult woman sailor with a black braid, tan skin and indigo hemp tunic, she pats his head and grins teasingly, waves, sails, blue sky, comedic",
    "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
   },
   {
@@ -1511,8 +1511,8 @@
   {
    "id": "cg_ch08_fashion",
    "size": "bg",
-   "prompt": "1girl, solo, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch but wearing a mongol style deel robe and a small fur hat over her silver hair, twirling shyly with blush, holding the hem, goryeo market street background, cute",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "1girl, solo, silver white very long hair, green eyes, wearing a traditional mongolian deel robe in red and gold with a wide sash and a round fur-trimmed mongolian hat instead of maid clothes, twirling shyly with blush, holding the hem of the robe, goryeo market street background, cute",
+   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child, maid, apron, maid headdress"
   },
   {
    "id": "cg_mv_ch08",
