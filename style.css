@@ -77,6 +77,19 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-phone-screen .vn-chr{top:5%;bottom:auto;height:215%;left:50%}
 .vn-phone-screen .vn-chr:not(.speaking){filter:none}
 
+/* 문화재 사진: 도록 한 장처럼 왼쪽 위에, 누르면 크게 */
+.vn-photo{position:absolute;left:18px;top:60px;width:min(27vw,340px);margin:0;background:var(--fiber) var(--paper);color:var(--ink);padding:10px 10px 8px;box-shadow:0 10px 26px #000b,inset 0 0 0 1px var(--paper-edge);transform:rotate(-1.2deg);z-index:3;cursor:zoom-in;animation:enter .4s ease-out;transition:all .25s}
+.vn-photo-frame{background:#fffdf7;box-shadow:inset 0 0 0 1px #0002}
+.vn-photo img{display:block;width:100%;max-height:40vh;object-fit:contain}
+.vn-photo figcaption{display:flex;flex-direction:column;gap:1px;padding:6px 2px 0}
+.vn-photo figcaption b{font:400 16px/1.3 var(--f-title)}
+.vn-photo figcaption b::before{content:'寫';display:inline-block;background:var(--seal);color:#fff4e6;font-size:10px;padding:1px 3px;margin-right:6px;vertical-align:2px;border-radius:2px}
+.vn-photo figcaption small{font-size:10px;color:var(--ink3)}
+.vn-photo.big{left:50%;top:46%;width:min(70vw,860px);transform:translate(-50%,-50%);z-index:6;cursor:zoom-out}
+.vn-photo.big img{max-height:72vh}
+.vn.photo-on .vn-chars .vn-chr.pos-left{left:44%}.vn.photo-on .vn-chars .vn-chr.pos-center{left:60%}.vn.photo-on .vn-chars .vn-chr.pos-right{left:80%}
+.vn.ui-hidden .vn-photo{display:none}
+
 /* 날짜·장소: 한지 띠지 */
 .vn-day{position:absolute;top:16px;left:18px;font:15px var(--f-body);color:var(--ink);background:var(--fiber) var(--paper);padding:4px 14px 4px 12px;border-left:4px solid var(--seal);box-shadow:0 3px 10px #0007;letter-spacing:.03em}
 .vn-day:empty{display:none}

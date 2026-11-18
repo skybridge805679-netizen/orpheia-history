@@ -84,16 +84,17 @@ function step(){
    case 'if':{const v=S.flags[op.flag]||0,ok={'>=':v>=op.val,'<=':v<=op.val,'==':v===op.val,'>':v>op.val,'<':v<op.val}[op.op];S.pc=ok?ch.labels[op.label]:S.pc+1;break;}
    case 'set':S.flags[op.flag]=op.val;S.pc++;break;
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;S.pc++;break;
-   case 'bg':S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
+   case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
+   case 'bg':S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
    case 'phone':S.phone=op.arg!=='off';if(S.phone)SFX.play('phone');if(S.phone&&S.chars.orpheia)pendingFx.orpheia='enter';S.pc++;paint();break;
    case 'hop':case 'tilt':case 'nod':case 'sink':case 'shake':if(op.arg)pendingFx[ALIAS[op.arg]||op.arg]=op.t;S.pc++;paint();break;
-   case 'hide':if(op.who==='all')S.chars={};else delete S.chars[op.who];S.pc++;paint();break;
+   case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else delete S.chars[op.who];S.pc++;paint();break;
    case 'day':S.day=op.arg;return card('day',op.arg);
    case 'chapter':return card('chapter',op.num,op.title);
    // 시간 여행: @dive 연대|시대 — 빛의 통로를 지나 그 시대로 들어간다(배경은 다음 @bg).
-   case 'dive':{const [when,...what]=op.arg.split('|');S.bg=bgFile('bg_timeline_dive');S.chars={};S.phone=false;fx('flash');SFX.play('rewind');paint();return card('dive',when.trim(),what.join('|').trim());}
+   case 'dive':{const [when,...what]=op.arg.split('|');S.bg=bgFile('bg_timeline_dive');S.chars={};S.phone=false;S.photo=null;fx('flash');SFX.play('rewind');paint();return card('dive',when.trim(),what.join('|').trim());}
    // 상태창: @hud 제목|줄|줄 — {flag} 값을 채워 게임 HUD처럼 보여 준다.
    case 'hud':{const [t,...ls]=fill(op.arg).split('|');return card('hud',t.trim(),ls.map(x=>x.trim()).join('\n'));}
    case 'flash':fx('flash');SFX.play('flash');S.pc++;break;
@@ -143,7 +144,7 @@ function stopAuto(){clearTimeout(autoTimer);}
 // ── 그리기.
 function shell(){
  document.body.classList.add('vn-mode');
- $('#main').innerHTML=`<section class="vn" id="vn" aria-label="비주얼 노벨"><div class="vn-layer vn-bg"><img id="vnBg" alt=""></div><div class="vn-layer vn-chars" id="vnChars"></div><div class="vn-phone" id="vnPhone" hidden><div class="vn-phone-notch"></div><div class="vn-phone-screen"></div></div><div class="vn-layer vn-fx" id="vnFx"></div><div class="vn-day" id="vnDay"></div><div class="vn-card" id="vnCard" hidden></div><div class="vn-choices" id="vnChoices" hidden></div>
+ $('#main').innerHTML=`<section class="vn" id="vn" aria-label="비주얼 노벨"><div class="vn-layer vn-bg"><img id="vnBg" alt=""></div><div class="vn-layer vn-chars" id="vnChars"></div><figure class="vn-photo" id="vnPhoto" hidden title="눌러서 크게 보기"><div class="vn-photo-frame"><img alt=""></div><figcaption><b></b><small></small></figcaption></figure><div class="vn-phone" id="vnPhone" hidden><div class="vn-phone-notch"></div><div class="vn-phone-screen"></div></div><div class="vn-layer vn-fx" id="vnFx"></div><div class="vn-day" id="vnDay"></div><div class="vn-card" id="vnCard" hidden></div><div class="vn-choices" id="vnChoices" hidden></div>
  <div class="vn-box" id="vnBox"><div class="vn-name" id="vnName"><b id="vnWho"></b></div><p class="vn-text" id="vnText" aria-live="polite"></p><span class="vn-caret" id="vnCaret">▼</span></div>
  <nav class="vn-menu" aria-label="메뉴">${[['notebook','기록부'],['log','로그'],['auto','오토'],['skip','스킵'],['qsave','Q.세이브'],['qload','Q.로드'],['config','설정'],['hide','숨기기'],['title','타이틀']].map(([k,v])=>`<button data-vn="${k}">${v}</button>`).join('')}</nav></section>`;
  const vn=$('#vn');
@@ -151,10 +152,28 @@ function shell(){
  vn.addEventListener('contextmenu',e=>{e.preventDefault();setHidden(!hidden);});
  vn.querySelectorAll('[data-vn]').forEach(b=>b.onclick=e=>{e.stopPropagation();menu(b.dataset.vn);});
 }
+// 문화재 사진: 기출 보기 사진(QUESTION_FIGURES, 이름 확인된 것)과 따로 모은 사진(data/heritage.js)에서 이름으로 찾는다.
+function heritage(name){
+ const H=window.HERITAGE||{},F=window.QUESTION_FIGURES||{};
+ if(H[name])return {src:asset(H[name].src),credit:H[name].credit};
+ let near=null;
+ for(const [k,v] of Object.entries(F))for(const c of v.choices||[]){
+  if(c.nameStatus!=='identified')continue;const [r,n]=k.split('-'),hit={src:figSrc(c.src),credit:`제${r}회 ${n}번 기출 보기 사진`};
+  if(c.name===name)return hit;if(!near&&(c.name.includes(name)||name.includes(c.name)))near=hit;}
+ if(!near)for(const [k,v] of Object.entries(H))if(k.includes(name)||name.includes(k)){near={src:asset(v.src),credit:v.credit};break;}
+ return near;
+}
+function paintPhoto(){
+ const el=$('#vnPhoto');if(!el)return;const [name,label]=String(S.photo||'').split('|').map(x=>x.trim()),h=name&&heritage(name);
+ el.hidden=!h;$('#vn').classList.toggle('photo-on',!!h);if(!h){el.classList.remove('big');return;}
+ const img=el.querySelector('img');if(img.dataset.f!==h.src){img.dataset.f=h.src;img.src=h.src;img.alt=label||name;el.classList.remove('big');}
+ el.querySelector('b').textContent=label||name;el.querySelector('small').textContent=h.credit;
+ el.onclick=e=>{e.stopPropagation();el.classList.toggle('big');};
+}
 function paint(){
  if(!$('#vn'))shell();
  const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onerror=()=>{bg.style.visibility='hidden';};bg.src=asset(S.bg);}
- paintChars();
+ paintChars();paintPhoto();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
  box.className='vn-box'+(l?.who?' '+(CAST[l.who]?.cls||'c-other'):' is-narr');
