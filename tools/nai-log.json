@@ -775,8 +775,8 @@
   "init": null
  },
  "bg_era_samwonbo": {
-  "seed": 1592344797,
-  "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, a taegukgi flag, big sky",
+  "seed": 3486269405,
+  "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, big sky",
   "init": null
  },
  "bg_era_hawaii": {
@@ -795,27 +795,27 @@
   "init": null
  },
  "bg_era_pyongyang_market": {
-  "seed": 1830815669,
+  "seed": 3600668731,
   "prompt": "no humans, scenery, outdoors, 1920s korean city street, mix of traditional tiled roof shops and two-story modern brick shops, cloth banners hanging in front of shops, rolls of white cotton cloth displayed, telegraph poles, dirt road, sunny",
   "init": null
  },
  "bg_era_cheongsanri": {
-  "seed": 598734129,
+  "seed": 1747291565,
   "prompt": "no humans, scenery, outdoors, deep forested valley in manchuria in autumn, red and yellow maple and birch trees on steep hillsides, a narrow dirt path along a stream at the bottom, rifle smoke drifting between trees, dramatic light",
   "init": null
  },
  "bg_era_jongno_police": {
-  "seed": 3711453546,
+  "seed": 2124364528,
   "prompt": "no humans, scenery, outdoors, night, snow falling, 1920s seoul street with a two-story western style police station building, shattered windows with smoke, scattered footprints in the snow, street lamps, tense atmosphere",
   "init": null
  },
  "bg_era_donhwamun": {
-  "seed": 3481012718,
+  "seed": 3704217582,
   "prompt": "no humans, scenery, outdoors, a grand korean palace main gate with a two-story tiled roof pavilion, white mourning banners and funeral lanterns lining the road, scattered printed leaflets on the ground, overcast summer, solemn",
   "init": null
  },
  "bg_era_gwangju_station": {
-  "seed": 3917548412,
+  "seed": 688427319,
   "prompt": "no humans, scenery, outdoors, small 1920s korean railway station platform, wooden station building with a tiled roof, a steam train with passenger cars, school bags dropped on the platform, autumn afternoon",
   "init": null
  }
