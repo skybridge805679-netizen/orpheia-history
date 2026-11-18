@@ -2802,13 +2802,14 @@
      "y": 0.45
     },
     {
-     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, sitting on the floor, she is on his lap, arms raised in surprise",
-     "uc": "visible face, eyes, mouth, nose, chin",
+     "prompt": "boy, young man, black hoodie, hood up, seen from behind, back view, back to viewer, face not visible, sitting on the floor, she is on his lap",
+     "uc": "visible face, eyes, mouth, open mouth, cheek, nose, profile",
      "x": 0.55,
-     "y": 0.6
+     "y": 0.65
     }
    ],
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature",
+   "seed": 9191919
   },
   {
    "id": "cg_ch18_measure",
