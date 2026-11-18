@@ -1806,8 +1806,28 @@
   {
    "id": "cg_ch16_rivals",
    "size": "bg",
-   "prompt": "2girls, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori, long black chima, and young adult woman, sun-tanned skin, thick black hair in a low braid, white cotton headband, white hemp jeogori and white trousers, glaring at each other with sparks between them, each pulling one arm of young man in a black hoodie with hood up, face hidden in shadow, faceless in the middle, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch fuming behind, mountain guerrilla camp, comedic love triangle",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child"
+   "prompt": "2girls, 1boy, righteous army camp in the mountains, tents, campfire smoke, militia watching in the background, tug of war over a man, sparks of rivalry, comedic, dynamic angle",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair, center part, long braid with white ribbon, dark eyes, white jeogori, long black chima, pulling his left arm, glaring at the other girl, puffed cheeks, jealous",
+     "uc": "nude, nipples, child, male",
+     "x": 0.25,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, in the middle, both arms pulled, sweat drops",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown eyes, plain white hemp jeogori, white chima, pulling his right arm, glaring, jealous",
+     "uc": "nude, nipples, child, male",
+     "x": 0.75,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_mv_ch16",
@@ -1842,8 +1862,22 @@
   {
    "id": "cg_ch19_date",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon but with a 1930s bob haircut and a western dress with a cloche hat, walking arm in arm with young man in a black hoodie with hood up, face hidden in shadow, faceless on a 1930s colonial seoul street with a department store, comedic date",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child, maid, maid headdress, apron, silver hair, white hair"
+   "prompt": "1girl, 1boy, 1930s colonial seoul shopping street, a four-storey western department store, streetcar passing behind, strong gust of wind, flying leaves, comedic, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black bob haircut, dark eyes, 1930s modern girl, short western dress, cloche hat, high heels, wind lifting her skirt, skirt flip, white lace panties visible, thighs, holding down her skirt and her hat, full-face blush, shocked, open mouth",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, standing next to her arm in arm, frozen, turning his head away",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.65,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
   },
   {
    "id": "cg_ch19_cinema",
@@ -2637,6 +2671,184 @@
    "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, clothes almost completely torn away, only black lingerie, black bra and black panties, shreds of a hanbok dress, kneeling on the paper, covering herself with both arms, crying, tears, full-face blush, flustered, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature",
    "seed": 6060606
+  },
+  {
+   "id": "st_muk_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the dress, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the dress, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_surprised_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the dress, surprised, wide-eyed, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_smile_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the dress, embarrassed small smile, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_angry_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, heavy battle damage, torn clothes, torn bodice, black bra visible through the torn dress, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, heavy battle damage, torn clothes, torn bodice, black bra visible through the torn dress, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, heavy battle damage, torn clothes, torn bodice, black bra visible through the torn dress, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lingerie, black lace bra and black panties, only shreds of the hanbok dress left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "st_muk_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lingerie, black lace bra and black panties, only shreds of the hanbok dress left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature"
+  },
+  {
+   "id": "cg_ch14_bori_stream",
+   "size": "bg",
+   "prompt": "1girl, 1boy, shallow stream at dusk in the korean countryside, reeds, orange sunset light reflecting on the water, a bamboo spear standing on the bank, wooden water bucket dropped, splashing, romantic comedy, dutch angle",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown eyes, hair down and wet, standing up in knee-deep water, wearing only a thin wet white cotton undershirt and white underskirt, see-through wet clothes, clinging clothes, white chest wrap visible through the wet cloth, cleavage, wet thighs, covering chest with one arm, reaching for the spear, full-face blush, shocked, angry",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, standing on the bank, dropped bucket, waving hands in panic, turning away",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.75,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch16_rivals_fall",
+   "size": "bg",
+   "prompt": "2girls, 1boy, grassy ground in a mountain camp, all three fallen in a heap, from above, comedic, romantic comedy, sweat drops, flying grass",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair, center part, long braid with white ribbon, dark eyes, white jeogori, long black chima, fallen on top of him, jeogori ribbon untied, jeogori open at the front, white undergarment visible, cleavage, flustered, deep blush, clutching her collar",
+     "uc": "nude, nipples, child, male",
+     "x": 0.35,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, lying on his back under both girls",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.65
+    },
+    {
+     "prompt": "girl, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown eyes, plain white hemp jeogori, white chima rolled up to her thighs, bare thighs, white bloomers visible, fallen on top of him, angry, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.65,
+     "y": 0.45
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch17_bori_spill",
+   "size": "bg",
+   "prompt": "1girl, 1boy, simple manchurian thatched kitchen, a smoking iron pot, firewood scattered, overturned bowl, comedic, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown eyes, plain white hemp jeogori soaked with spilled dark porridge, wet see-through clothes clinging, white chest wrap visible, cleavage, fallen onto his lap, holding a spoon, flustered, blush, open mouth",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, sitting on the floor, she is on his lap, arms raised in surprise",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.55,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch18_measure",
+   "size": "bg",
+   "prompt": "1girl, 1boy, 1920s korean room with paper doors, white cotton cloth spread on the floor, sewing kit scattered, measuring tape, from above, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair, center part, long braid with white ribbon, dark eyes, white jeogori, long black chima, white jeogori with loosened ribbon slipping off one shoulder, cleavage, sitting on top of him after slipping, measuring tape wrapped around both of them, full-face blush, surprised",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, lying on his back on the cloth, measuring tape around his chest",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.5,
+     "y": 0.65
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_ch19_cinema_spill",
+   "size": "bg",
+   "prompt": "1girl, 1boy, dark old movie theater, projector light beam over the seats, flickering silent film on the screen, romantic comedy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black bob haircut, dark eyes, 1930s modern girl, short western dress, cloche hat, high heels, white blouse soaked with spilled soda, wet see-through blouse, lace bra visible through the wet blouse, cleavage, holding an empty glass soda bottle, flustered, blush, whispering",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, sitting next to her, holding her hand on the armrest",
+     "uc": "visible face, eyes, mouth, nose, chin",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, sex, child, loli, multiple views, text, speech bubble, watermark, signature"
   }
  ]
 }

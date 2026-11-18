@@ -33,7 +33,13 @@ const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
-const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
+// 배틀 뒤의 묵: 찢어진 단계(S.mukDmg 1~3)에 맞는 스탠딩. 그 장이 끝나면 먹물이 다시 차올라 원래 옷으로 돌아온다.
+const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
+ 2:{angry:'angry',lonely:'lonely',surprised:'shy',smile:'shy',smirk:'angry',neutral:'shy',shy:'shy'},
+ 3:{lonely:'lonely',angry:'shy',surprised:'shy',smile:'shy',smirk:'shy',neutral:'shy',shy:'shy'}};
+const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
+ if(who==='muk'&&S?.mukDmg){const d=S.mukDmg,e=MUK_DMG[d][expr]||MUK_DMG[d].neutral;return `st_muk_${e}_d${d}.webp`;}
+ const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
 // 새 그림이 아직 없으면 옛 그림으로 바꾼다.
 for(const f of Object.keys(OLD)){const i=new Image();i.onerror=()=>MISSING.add(f);i.src=asset(f+'.webp');}
 const bgFile=f=>f.replace(/\.(png|webp)$/,'')+'.webp';
@@ -309,6 +315,7 @@ function battle(arg){
  const [who,mode]=arg.split(/\s+/);
  if(who==='end'){
   const b=S.battle;S.battle=null;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
+  if(!b.serious&&b.stage>0)S.mukDmg=b.stage;
   if(skip){S.pc++;return step();}
   busy=true;const el=battleCut(b.stage>=3?(b.serious?'봉인 완료':'K.O.'):'BATTLE END',
    b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):`먹물 옷 남은 겹 ${3-b.stage}`,b.stage,b.serious,true);
