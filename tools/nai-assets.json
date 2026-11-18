@@ -1145,14 +1145,14 @@
   {
    "id": "bg_era_tomak",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a hillside outside a city, crude dugout huts made of earth, straw mats and scrap wood under a bridge, muddy ground, distant city buildings, grey sky, poverty",
-   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon"
+   "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a barren hillside at the edge of a korean city, crude dugout huts with earthen walls and straw mat roofs, a small wooden plank footbridge over a muddy stream, laundry, distant tiled roofs and a few brick buildings, grey sky",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon, highway, overpass, concrete bridge, modern"
   },
   {
    "id": "bg_era_dansungsa",
    "size": "bg",
-   "prompt": "no humans, scenery, indoors, 1920s movie theater interior, rows of wooden benches, a silent film projector beam through dust onto a white screen, a small stage with a narrator's podium, warm dim light, nostalgic",
-   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon, modern cinema seats"
+   "prompt": "no humans, scenery, indoors, 1920s silent movie theater, plain wooden long benches on a flat wooden floor, a small cloth screen on a low stage with a side podium for a live narrator, gas lamps on the walls, wooden pillars, dusty projector beam, warm sepia light",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon, modern cinema seats, red velvet seats, modern cinema, theater seats, stadium seating"
   },
   {
    "id": "bg_era_amtaedo",
