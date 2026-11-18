@@ -1245,14 +1245,14 @@
   {
    "id": "bg_era_election_1948",
    "size": "bg",
-   "prompt": "no humans, scenery, indoors, 1948 polling station set up in a school classroom, a wooden ballot box on a table, simple cloth voting booth, election posters with stick figures on the wall, sunlight through windows, solemn",
-   "negative": "signature, watermark, japanese text, skyscraper, smartphone, neon, flag, modern ballot"
+   "prompt": "no humans, scenery, indoors, 1948 korean polling station in an old wooden-floored schoolroom, worn wooden desks pushed aside, one plain wooden ballot box with a slot on a table covered with white cloth, a simple cloth-curtained voting booth, hand-painted election notice papers on the wooden wall, dusty sunlight",
+   "negative": "signature, watermark, japanese text, skyscraper, smartphone, neon, flag, modern ballot, modern classroom, plastic chairs, fluorescent light, air conditioner, steel desks"
   },
   {
    "id": "bg_era_heungnam",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, winter harbor in a blizzard, a large grey cargo ship docked at a pier with ramps, piles of abandoned bundles and luggage on the snowy pier, distant burning smoke, desperate atmosphere, 1950",
-   "negative": "signature, watermark, japanese text, skyscraper, smartphone, neon, flag"
+   "prompt": "no humans, scenery, outdoors, 1950 winter harbor in a blizzard, an old rusty merchant cargo ship with cranes and a single funnel docked at a wooden pier, gangways, piles of abandoned bundles, oxcarts and luggage on the snowy pier, distant smoke, desperate atmosphere",
+   "negative": "signature, watermark, japanese text, skyscraper, smartphone, neon, flag, warship, destroyer, gun turret, modern ship"
   },
   {
    "id": "bg_era_busan_refugee",
