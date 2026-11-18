@@ -1128,5 +1128,85 @@
   "seed": 2055278636,
   "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing in a windswept steppe and island fortress landscape, wearing a goryeo-mongol fusion stage costume with a deel-style robe and fur hat, horses running in the background, dramatic clouds, music video scene",
   "init": null
+ },
+ "cg_ch10_crossdress": {
+  "seed": 3276392833,
+  "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless wearing an ill-fitting joseon palace maid hanbok and a big braided wig over the hood, awkward pose, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, laughing and covering her mouth, a tiny silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch taking photos with stars in her eyes, palace corridor, comedic",
+  "init": null
+ },
+ "cg_ch10_sodam_yakgwa": {
+  "seed": 1403965260,
+  "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, smiling and feeding a honey cookie with chopsticks to young man in a black hoodie with hood up, face hidden in shadow, faceless wearing a palace maid disguise, royal kitchen with steam and trays of sweets, warm light, cute",
+  "init": null
+ },
+ "cg_mv_ch10": {
+  "seed": 1656037527,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing in a joseon palace courtyard at night with floating lanterns, wearing an elegant stylized joseon court lady hanbok stage costume with gold embroidery, cherry blossoms falling, romantic ballad music video scene",
+  "init": null
+ },
+ "cg_ch11_rowing": {
+  "seed": 1205748418,
+  "prompt": "1girl, 1boy, young adult woman, black braid, tan skin, white cloth headband, plain white jeogori, grey baji trousers, rowing a huge wooden oar energetically and laughing, next to exhausted young man in a black hoodie with hood up, face hidden in shadow, faceless sweating and struggling with the same oar, inside the lower deck of a joseon panokseon warship, other oars, comedic",
+  "init": null
+ },
+ "cg_mv_ch11": {
+  "seed": 3720335762,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on the deck of a korean turtle ship in a stormy sea, wearing a joseon admiral inspired stage costume with a red cape and helmet ornament, waves crashing, cannon smoke, epic music video scene",
+  "init": null
+ },
+ "cg_ch12_closet": {
+  "seed": 503316447,
+  "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, squeezed together face to face with young man in a black hoodie with hood up, face hidden in shadow, faceless inside a cramped dark wooden wardrobe, she presses a finger to her lips with a deep blush, a sliver of light through the door crack, comedic tension",
+  "init": null
+ },
+ "cg_mv_ch12": {
+  "seed": 2049069422,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing dramatically in front of a grand joseon throne hall with a stone tablet, wearing a royal consort inspired hanbok stage costume in crimson and gold, dramatic red lighting, makjang drama music video scene",
+  "init": null
+ },
+ "cg_ch13_battle": {
+  "seed": 1638310103,
+  "prompt": "1girl, 1boy, young adult woman, messy short black hair with red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, indigo chima over white trousers, singing passionately with an open folding fan on a joseon market stage, facing young man in a black hoodie with hood up, face hidden in shadow, faceless holding up a glowing smartphone speaker, big crowd cheering around them, sparks of rivalry, comedic music battle",
+  "init": null
+ },
+ "cg_ch13_dano_wink": {
+  "seed": 2643605418,
+  "prompt": "1girl, solo, young adult woman, messy short black hair with red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, indigo chima over white trousers, winking playfully and pointing at viewer with a folded fan, grin, joseon market background at sunset, cute",
+  "init": null
+ },
+ "cg_mv_ch13": {
+  "seed": 886915733,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, performing on a wooden stage at a crowded joseon market, wearing a colorful pansori and mask dance inspired stage costume, holding a folding fan and microphone, masked dancers behind, festive music video scene",
+  "init": null
+ },
+ "cg_ch14_bori_song": {
+  "seed": 2933885803,
+  "prompt": "1girl, 1boy, young adult woman, sun-tanned skin, thick black hair in a low braid, white cotton headband, white hemp jeogori and white trousers, singing with closed eyes beside a night bonfire surrounded by peasant farmers in white clothes singing along, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting next to her looking surprised, hills with many campfires, warm and emotional",
+  "init": null
+ },
+ "cg_mv_ch14": {
+  "seed": 1209359619,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing quietly with tears on a snowy hill at dawn, wearing a white hemp donghak peasant inspired stage costume with a white headband, bamboo spears planted in the snow behind her, solemn and beautiful music video scene",
+  "init": null
+ },
+ "cg_ch15_tram": {
+  "seed": 3518761918,
+  "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori, long black chima, pinned against the wall inside a crowded vintage 1899 streetcar by young man in a black hoodie with hood up, face hidden in shadow, faceless who stumbled, she is blushing furiously with a newspaper flying from her hand, accidental kabedon, comedic, passengers staring",
+  "init": null
+ },
+ "cg_mv_ch15": {
+  "seed": 476754022,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing while standing on the platform of a vintage 1899 electric streetcar, wearing a korean empire era modern girl stage costume mixing hanbok and western blouse with a ribbon hat, telegraph wires, retro sepia sunset, music video scene",
+  "init": null
+ },
+ "cg_ch16_rivals": {
+  "seed": 3493951300,
+  "prompt": "2girls, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori, long black chima, and young adult woman, sun-tanned skin, thick black hair in a low braid, white cotton headband, white hemp jeogori and white trousers, glaring at each other with sparks between them, each pulling one arm of young man in a black hoodie with hood up, face hidden in shadow, faceless in the middle, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch fuming behind, mountain guerrilla camp, comedic love triangle",
+  "init": null
+ },
+ "cg_mv_ch16": {
+  "seed": 708990054,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing solemnly in an autumn mountain forest at a guerrilla camp, wearing a righteous army inspired stage costume with a white headband and old coat, a faded flag behind her, golden leaves falling, emotional music video scene",
+  "init": null
  }
 }
