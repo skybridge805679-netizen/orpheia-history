@@ -76,11 +76,6 @@ window.HERITAGE = {
   "credit": "Steve46814 · CC BY-SA 4.0 · 위키미디어 공용",
   "desc": "통일 신라 혜공왕 때 완성(771)·에밀레종"
  },
- "감은사지 동·서 삼층 석탑": {
-  "src": "heritage/gamunsa.jpg",
-  "credit": "ddol-mang (a flickr user) · CC BY-SA 2.0 · 위키미디어 공용",
-  "desc": "문무왕이 착공·감은사·동해 대왕암"
- },
  "구례 화엄사 사사자 삼층 석탑": {
   "src": "heritage/hwaeomsa-lion.jpg",
   "credit": "by eimoberg · CC BY 2.0 · 위키미디어 공용",
@@ -241,11 +236,6 @@ window.HERITAGE = {
   "credit": "by eimoberg · CC BY 2.0 · 위키미디어 공용",
   "desc": "조선 후기 숙종 때(1702) 중건한 각황전"
  },
- "탈춤(하회별신굿탈)": {
-  "src": "heritage/hahoe-mask.jpg",
-  "credit": "Bernard Gagnon · CC0 · 위키미디어 공용",
-  "desc": "조선 후기 하회 별신굿 탈놀이"
- },
  "독립문": {
   "src": "heritage/independence-gate.jpg",
   "credit": "D. E. Grenier · CC BY-SA 4.0 · 위키미디어 공용",
@@ -381,11 +371,6 @@ window.HERITAGE = {
   "credit": "Jeong Seon (1676–1759) · Public domain · 위키미디어 공용",
   "desc": "정선·진경산수화·금강산"
  },
- "3·1 독립 선언서": {
-  "src": "heritage/declaration-of-independence.jpg",
-  "credit": "N777777 · CC BY-SA 4.0 · 위키미디어 공용",
-  "desc": "3·1 운동(1919)·민족 대표 33인"
- },
  "장군총": {
   "src": "heritage/janggunchong.jpg",
   "credit": "Prcshaw · CC BY-SA 4.0 · 위키미디어 공용",
@@ -400,11 +385,6 @@ window.HERITAGE = {
   "src": "heritage/jinheung-stele.jpg",
   "credit": "Ethan Doyle White · CC BY-SA 4.0 · 위키미디어 공용",
   "desc": "진흥왕·한강 유역 확보·순수비 4곳(북한산·창녕·황초령·마운령)"
- },
- "감은사지 삼층 석탑": {
-  "src": "heritage/gamunsa.jpg",
-  "credit": "ddol-mang (a flickr user) · CC BY-SA 2.0 · 위키미디어 공용",
-  "desc": "문무왕이 착공·감은사·동해 대왕암"
  },
  "석굴암": {
   "src": "heritage/seokguram.jpg",
@@ -465,12 +445,6 @@ window.HERITAGE = {
   "src": "heritage/x09.webp",
   "credit": "Korea Copyright Commission · Public domain · 위키미디어 공용",
   "desc": "조선 후기",
-  "local": true
- },
- "도산 서원": {
-  "src": "heritage/x10.webp",
-  "credit": "Steve46814 · CC BY-SA 3.0 · 위키미디어 공용",
-  "desc": "안동 · 이황 · 모형",
   "local": true
  },
  "화순 쌍봉사 철감선사탑": {

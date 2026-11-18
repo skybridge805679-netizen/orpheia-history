@@ -54,11 +54,8 @@
   "desc": "조선 후기"
  },
  "도산 서원": {
-  "src": "heritage/x10.webp",
-  "credit": "Steve46814 · CC BY-SA 3.0 · 위키미디어 공용",
-  "file": "Korea-Andong-Dosan_Seowon_3025-06.JPG",
-  "checked": true,
-  "desc": "안동 · 이황 · 모형"
+  "rejected": true,
+  "why": "실물이 아닌 축소 모형"
  },
  "화순 쌍봉사 철감선사탑": {
   "src": "heritage/x11.webp",
