@@ -295,7 +295,7 @@ const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');con
 function quiz(arg){
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
- Quiz.run(arg,{host:$('#vn'),onAnswer:S.battle?battleHit:null,onDone:R=>{
+ Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{
   S.flags.quizFirst=R.first;S.flags.quizTotal=R.total;S.flags.quizAll=(S.flags.quizAll||0)+R.first;
   $('#vnBattleHud')?.remove();busy=false;BGM.scene(S.bg);S.pc++;step();
  }});
@@ -303,28 +303,51 @@ function quiz(arg){
 
 // ── 묵 배틀. @battle muk [serious] … @quiz … @battle end
 //    첫 시도에 맞힐 때마다 묵의 먹물 옷이 한 단계씩 찢어진다(cg_muk_b0~b3). serious: 옷 대신 먹물이 빛으로 흩어진다.
+//    연출: VS 컷인 → 게이지·콤보 → 정답마다 히트스톱·베기·옷 조각 파편 → 오답은 먹물 반격 → 마지막은 FINISH/K.O. → 등급.
+const MUK_TAUNT=['이유? 그런 거 없어도 외워지던데?','연도만 맞으면 되잖아. 순서는 내가 섞어 줄게.','이번 문제지는 내 거야. 가져갈 수 있으면 가져가 봐.','오르페이아, 네 주인님 시험 운은 어떨까?'];
 const MUK_BREAK={
- 1:['묵|angry','……소매쯤이야. 이유 하나 붙였다고 우쭐하지 마!'],
- 2:['묵|surprised','자, 잠깐! 거긴…… 보지 마! 이건 먹물이 모자라서 그런 거라고!'],
- 3:['묵|surprised','~~~~~!! 다 벗겨 놓고 이유까지 붙이면…… 나한테 뭐가 남는데……!'],
+ 1:['……소매쯤이야. 이유 하나 붙였다고 우쭐하지 마!','윽, 이 정도로……! 아직 한참 남았거든!'],
+ 2:['자, 잠깐! 거긴…… 보지 마! 이건 먹물이 모자라서 그런 거라고!','어, 어깨……! 오르페이아, 네 주인님 눈 좀 가려!'],
+ 3:['~~~~~!! 다 벗겨 놓고 이유까지 붙이면…… 나한테 뭐가 남는데……!','보, 보지 마……! 이번만…… 이번만 진 걸로 해 줄게……!'],
 };
 const MUK_SERIOUS={1:'먹물 한 겹이 빛이 되어 흩어진다.',2:'엉킨 연도 하나가 풀리며, 묵의 소매가 투명해진다.',3:'이유를 되찾은 기록이 하얗게 빛난다. 묵이 조용히 눈을 감는다.'};
-const MUK_MISS=['틀렸네~ 먹물 충전♪','이유 없이 고르면, 그건 내 거야.','봐, 또 번졌잖아.'];
+const MUK_MISS=['틀렸네~ 먹물 충전♪','이유 없이 고르면, 그건 내 거야.','봐, 또 번졌잖아.','후후, 그 선지 나도 헷갈리게 만든 거야.'];
+const ORP_MISS=['주인님, 괜찮아요! 해설 보고 다시 가요!','으으, 먹물 튀었어요……! 다음엔 꼭이요!','방심했어요! 단서부터 다시 봐요!'];
+const ORP_COMBO=['좋아요, 주인님! 그대로 밀어붙여요!','연속 정답! 묵이 흔들리고 있어요!','이 흐름이에요! 이유로 꿰뚫어요!'];
+const pickOne=a=>a[Math.floor(Math.random()*a.length)];
+const calm=()=>skip||window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 function battleImg(st){return asset(`cg_muk_b${S.battle?.serious?0:st}.webp`);}
+function vnShake(big){if(calm())return;const v=$('#vn');v.classList.remove('vb-shake','vb-shake-big');void v.offsetWidth;v.classList.add(big?'vb-shake-big':'vb-shake');setTimeout(()=>v.classList.remove('vb-shake','vb-shake-big'),600);}
+function particles(host,kind,n){if(calm())return;
+ for(let i=0;i<n;i++){const e=document.createElement('i');e.className='vb-p '+kind;
+  const ang=Math.random()*Math.PI*2,d=120+Math.random()*420;
+  e.style.cssText=`left:${40+Math.random()*25}%;top:${30+Math.random()*30}%;--dx:${Math.cos(ang)*d}px;--dy:${Math.sin(ang)*d+(kind==='light'?-260:160)}px;--r:${Math.random()*720-360}deg;--s:${.5+Math.random()*1.1};animation-delay:${Math.random()*.15}s`;
+  host.appendChild(e);}}
 function battle(arg){
  const [who,mode]=arg.split(/\s+/);
  if(who==='end'){
   const b=S.battle;S.battle=null;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
   if(!b.serious&&b.stage>0)S.mukDmg=b.stage;
   if(skip){S.pc++;return step();}
-  busy=true;const el=battleCut(b.stage>=3?(b.serious?'봉인 완료':'K.O.'):'BATTLE END',
-   b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):`먹물 옷 남은 겹 ${3-b.stage}`,b.stage,b.serious,true);
+  const rate=b.total?b.hits/b.total:0,rank=rate>=1?'S':rate>=.67?'A':rate>=.34?'B':'C';
+  busy=true;SFX.play(rank==='S'?'vb_ko':'vb_end');
+  const head=b.stage>=3?(b.serious?'정화 완료':'K.O.'):'BATTLE END';
+  const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):(b.serious?`아직 번진 기록 ${3-b.stage}`:`먹물 옷 남은 겹 ${3-b.stage}`),b.stage,b.serious,true);
+  el.classList.add('result');
+  el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}"><span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li></ul>`);
   el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};return;
  }
- S.battle={who,serious:mode==='serious',stage:0};fx('flash');SFX.play('alarm');
+ S.battle={who,serious:mode==='serious',stage:0,hits:0,total:0,combo:0,maxCombo:0};
  if(skip){S.pc++;return step();}
- busy=true;const el=battleCut('BATTLE',S.battle.serious?'번진 기록이 문제지를 덮었다. 첫 시도에 맞혀서 이유와 함께 되돌려 주세요.':'묵이 먹물 옷을 두르고 문제지를 감쌌다! 첫 시도에 맞힐 때마다 이유로 한 겹씩 벗겨 내세요.',0,S.battle.serious,true);
- el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};
+ busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
+ const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
+ el.innerHTML=`<div class="vs-side vs-l"><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
+ <div class="vs-side vs-r"><img src="${asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
+ <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div><div class="vs-bar top"></div><div class="vs-bar bot"></div>
+ <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':'묵「'+pickOne(MUK_TAUNT)+'」')}</p>
+ <p class="vs-go">${S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요'}<small>눌러서 시작 ▶</small></p>`;
+ v.appendChild(el);SFX.play(S.battle.serious?'vb_bell':'vb_start');if(!S.battle.serious)vnShake(true);
+ el.onclick=e=>{e.stopPropagation();el.classList.add('out');SFX.play('vb_go');setTimeout(()=>{el.remove();busy=false;S.pc++;step();},280);};
 }
 function battleCut(head,text,st,serious,wait){
  const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
@@ -333,17 +356,28 @@ function battleCut(head,text,st,serious,wait){
 }
 function battleHud(){
  $('#vnBattleHud')?.remove();const b=S.battle,el=document.createElement('div');el.id='vnBattleHud';el.className='vn-battle-hud'+(b.serious?' serious':'');
- el.innerHTML=`<img src="${battleImg(b.stage)}" alt=""><div><b>묵</b><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span><small>${b.serious?'번진 기록':'먹물 옷'}</small></div>`;
- $('#vn').appendChild(el);
+ const hp=100-b.stage*100/3;
+ el.innerHTML=`<img src="${battleImg(b.stage)}" alt=""><div class="vbh-body"><b>묵 <small>${b.serious?'번진 기록':'먹물 옷'}</small></b><span class="vbh-bar"><i class="lag" style="width:${b.lagHp??hp}%"></i><i class="hp" style="width:${hp}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span></div>${b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:''}`;
+ $('#vn').appendChild(el);b.lagHp=hp;
+ requestAnimationFrame(()=>{const l=el.querySelector('.lag');if(l)setTimeout(()=>l.style.width=hp+'%',380);});
 }
 function battleHit(ok,first,hits,total){
- const b=S.battle;if(!b)return;
- if(!ok){const m=battleCut('묵의 반격',MUK_MISS[Math.floor(Math.random()*MUK_MISS.length)],b.stage,b.serious,false);m.classList.add('miss');setTimeout(()=>m.remove(),1500);return;}
- const st=Math.min(3,Math.ceil(3*hits/Math.max(1,total)));if(st<=b.stage)return;b.stage=st;
- SFX.play('flash');fx('flash');
- const [who,line]=MUK_BREAK[st];
- const el=battleCut(b.serious?'정화':'BREAK!',b.serious?MUK_SERIOUS[st]:`${who.split('|')[0]}「${line}」`,st,b.serious,false);el.classList.add('hit');
- el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),2600);battleHud();
+ const b=S.battle;if(!b)return;b.total=total;b.hits=hits;
+ if(ok&&!first){battleHud();return;}
+ if(!ok){b.combo=0;SFX.play('vb_ink');vnShake(false);
+  const m=battleCut('묵의 반격',`묵「${pickOne(MUK_MISS)}」`,b.stage,b.serious,false);m.classList.add('miss');particles(m,'ink',18);
+  m.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<p class="vb-orp">오르페이아「${esc(pickOne(ORP_MISS))}」</p>`);
+  sdPop('cry');setTimeout(()=>m.remove(),1700);battleHud();return;}
+ b.combo++;b.maxCombo=Math.max(b.maxCombo,b.combo);
+ const st=Math.min(3,Math.ceil(3*hits/Math.max(1,total)));
+ if(st<=b.stage){battleHud();if(b.combo>1){SFX.play('vb_combo');sdPop('cheer');}return;}
+ const prev=b.stage;b.stage=st;const fin=st>=3;
+ if(b.serious){SFX.play('vb_purify');}else{SFX.play(fin?'vb_finish':'vb_break');setTimeout(()=>SFX.play('vb_rip'),fin?260:140);vnShake(fin);}
+ const el=document.createElement('div');el.className='vn-battle hit'+(b.serious?' serious':'')+(fin?' fin':'');
+ const [head,line]=b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':'BREAK!',`묵「${pickOne(MUK_BREAK[st])}」`];
+ el.innerHTML=`<img class="old" src="${asset(`cg_muk_b${b.serious?0:prev}.webp`)}" alt=""><img class="new" src="${asset(`cg_muk_b${b.serious?0:st}.webp`)}" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · 오르페이아「${esc(pickOne(ORP_COMBO))}」</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':'-1 겹'}</span>`;
+ $('#vn').appendChild(el);particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
+ el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),fin?3400:2700);battleHud();
 }
 
 function finishChapter(next){

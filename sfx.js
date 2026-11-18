@@ -44,6 +44,18 @@ const SFX=(()=>{
   wrong:()=>{tone(196,0,.45,{type:'sawtooth',vol:.12,to:130});tone(185,.02,.45,{type:'sawtooth',vol:.08,to:123});},
   rewind:()=>{tone(300,0,.7,{type:'sine',vol:.18,to:1800});noise(0,.7,{vol:.12,freq:3000,sweep:300,q:1});[1568,1319,1047].forEach((f,i)=>tone(f,.5+i*.06,.2,{type:'sine',vol:.08}));},
   clear:()=>{[523,659,784,1047,1319].forEach((f,i)=>tone(f,i*.09,.5,{type:'triangle',vol:.12}));tone(1568,.5,.9,{type:'sine',vol:.08});},
+  // 묵 배틀
+  vb_start:()=>{tone(55,0,1.4,{type:'sine',vol:.55,to:40});noise(0,.9,{vol:.3,freq:180,type:'lowpass'});[110,165,220].forEach(f=>tone(f,0,1.6,{type:'sawtooth',vol:.04}));noise(.15,1.1,{vol:.12,freq:400,sweep:6000,q:.7});[0,.18,.36].forEach((t,i)=>{tone(70,t+.9,.22,{type:'sine',vol:.5,to:40});noise(t+.9,.12,{vol:.25,freq:300,type:'lowpass'});});},
+  vb_go:()=>{noise(0,.25,{vol:.25,freq:900,sweep:5000,q:1.2});tone(660,0,.12,{type:'square',vol:.07});tone(990,.08,.2,{type:'square',vol:.07});},
+  vb_break:()=>{noise(0,.18,{vol:.45,freq:7000,sweep:1200,q:1.5,type:'bandpass'});tone(90,0,.35,{type:'sine',vol:.6,to:40});[2637,3520,4186].forEach((f,i)=>tone(f,.03+i*.01,.6,{type:'triangle',vol:.05}));},
+  vb_rip:()=>{for(let i=0;i<7;i++)noise(i*.035,.05,{vol:.25-i*.02,freq:2500+i*300,q:3,type:'bandpass'});noise(.25,.2,{vol:.1,freq:5000,type:'highpass'});},
+  vb_finish:()=>{tone(45,0,1.2,{type:'sine',vol:.7,to:30});noise(0,.5,{vol:.5,freq:250,type:'lowpass'});noise(0,.3,{vol:.4,freq:8000,sweep:900,q:1.2});[523,784,1047,1568,2093].forEach((f,i)=>tone(f,.35+i*.07,1.2,{type:'triangle',vol:.06}));},
+  vb_ink:()=>{tone(150,0,.3,{type:'sine',vol:.35,to:60});noise(0,.25,{vol:.3,freq:500,type:'lowpass'});for(let i=0;i<5;i++)tone(300+Math.random()*500,.1+i*.06,.08,{type:'sine',vol:.08,to:900});tone(233,.15,.5,{type:'sawtooth',vol:.05,to:110});},
+  vb_combo:()=>{[1175,1568,2093].forEach((f,i)=>tone(f,i*.05,.18,{type:'square',vol:.05}));},
+  vb_purify:()=>{[1047,1319,1568,2093,2637].forEach((f,i)=>tone(f,i*.12,1.6,{type:'sine',vol:.06}));noise(0,1.4,{vol:.04,freq:6000,type:'highpass'});},
+  vb_bell:()=>{[220,330,440].forEach((f,i)=>tone(f,0,3.2,{type:'sine',vol:.12/(i+1)}));tone(659,.02,2.6,{type:'sine',vol:.03});},
+  vb_ko:()=>{tone(50,0,1.4,{type:'sine',vol:.6,to:35});[392,523,659,784,1047].forEach((f,i)=>tone(f,.2+i*.1,1.4,{type:'triangle',vol:.08}));tone(1568,.8,2,{type:'sine',vol:.05});},
+  vb_end:()=>{[392,494,587].forEach((f,i)=>tone(f,i*.1,.6,{type:'triangle',vol:.09}));},
  };
  // Text blips ("뽁뽁뽁"): each speaker has a voice pitch; spaces and punctuation stay silent,
  // narration is softer; only every other character sounds so fast text does not turn into a buzz.

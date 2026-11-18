@@ -32,10 +32,10 @@ const Quiz=(()=>{
   return choose(pool,+opt.n||1);
  }
  // ── 실행
- function run(arg,{host,onDone,title,onAnswer}){
+ function run(arg,{host,onDone,title,onAnswer,bgm}){
   const list=Array.isArray(arg)?arg:select(arg);
   if(!list.length){onDone({first:0,total:0});return;}
-  close();BGM.play('bgm_exam');
+  close();BGM.play(bgm||'bgm_exam');
   R={list,i:0,first:0,tried:new Set(),done:false,host,onDone,title,onAnswer};
   const el=document.createElement('section');el.className='qz';el.setAttribute('aria-label','기출 문제');host.appendChild(el);R.el=el;
   render();
