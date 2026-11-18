@@ -1298,5 +1298,320 @@
   "seed": 1303569585,
   "prompt": "no humans, scenery, indoors, dark home music studio at night, empty gaming chair, desk with multiple glowing monitors showing DAW software waveforms, midi keyboard, studio headphones on desk, condenser microphone on arm, cables, cup noodles, acoustic foam panels, bookshelf with history books, window with city night lights, blue ambient light, cozy messy room",
   "init": null
+ },
+ "st_dallae_shy": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_dallae_angry": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_dallae_teary": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_dallae_surprised": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_haerang_shy": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_haerang_angry": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_haerang_teary": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_haerang_surprised": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_yeoul_teary": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, big smile, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_sodam_shy": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_sodam_angry": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_sodam_teary": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_sodam_surprised": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_dano_shy": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, lively young adult woman, 21 years old, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan, standing, full body, looking at viewer, wink, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_dano_angry": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, lively young adult woman, 21 years old, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan, standing, full body, looking at viewer, wink, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_dano_teary": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, lively young adult woman, 21 years old, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan, standing, full body, looking at viewer, wink, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_bori_shy": {
+  "seed": 1313131,
+  "prompt": "1girl, solo, solo focus, young young adult woman, 22 years old, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_bori_angry": {
+  "seed": 1313131,
+  "prompt": "1girl, solo, solo focus, young young adult woman, 22 years old, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_bori_teary": {
+  "seed": 1313131,
+  "prompt": "1girl, solo, solo focus, young young adult woman, 22 years old, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_bori_surprised": {
+  "seed": 1313131,
+  "prompt": "1girl, solo, solo focus, young young adult woman, 22 years old, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_hanbyeol_shy": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_hanbyeol_angry": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_hanbyeol_teary": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_hanbyeol_surprised": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_saebyeok_shy": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_saebyeok_angry": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_saebyeok_teary": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_saebyeok_surprised": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_dasom_shy": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_dasom_angry": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": null
+ },
+ "st_dasom_teary": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_dasom_surprised": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": null
+ },
+ "st_yunseul_shy": {
+  "seed": 7171717,
+  "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, singer, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, sneakers, wireless earphones, holding a thick korean history book with sticky notes, standing, full body, looking at viewer, embarrassed, blush, looking away, shy smile, hand on cheek",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "st_yunseul_angry": {
+  "seed": 7171717,
+  "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, singer, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, sneakers, wireless earphones, holding a thick korean history book with sticky notes, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "st_yunseul_teary": {
+  "seed": 7171717,
+  "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, singer, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, sneakers, wireless earphones, holding a thick korean history book with sticky notes, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": "assets/st_yunseul_neutral.webp"
+ },
+ "sd_orp_idea": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, index finger raised, glowing light bulb above head, eureka, sparkle, happy",
+  "init": null
+ },
+ "sd_orp_warn": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, alarmed, sweat drop, pointing forward, exclamation mark above head, wide eyes",
+  "init": null
+ },
+ "sd_orp_thumbs": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, thumbs up, wink, confident grin, sparkles",
+  "init": null
+ },
+ "sd_orp_cry": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, comedic crying, streaming tears, wailing, flailing arms",
+  "init": null
+ },
+ "sd_orp_pout": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, pout, puffed cheeks, angry vein, hands on hips, jealous",
+  "init": null
+ },
+ "sd_orp_shock": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, shocked, white eyes, jaw drop, comedic, lightning behind",
+  "init": null
+ },
+ "sd_orp_love": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, hearts around, blush, hands on cheeks, love-struck",
+  "init": null
+ },
+ "sd_orp_teach": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, holding a pointer stick, teacher pose, glasses, explaining, small blackboard behind",
+  "init": null
+ },
+ "sd_orp_detective": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, holding a magnifying glass, detective hat, investigating, curious",
+  "init": null
+ },
+ "sd_orp_cheer": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, cheering with pom-poms, jumping, open mouth smile, energetic",
+  "init": null
+ },
+ "sd_orp_think": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, thinking, hand on chin, question mark above head, tilted head",
+  "init": null
+ },
+ "sd_orp_bow": {
+  "seed": 161008233,
+  "prompt": "chibi, super deformed, 1girl, solo, white hair, very long hair, green eyes, maid headdress, green hair ribbon, maid, black dress, white apron, green bowtie, emerald brooch, full body, simple background, white background, polite bow, maid curtsy, closed eyes smile",
+  "init": null
+ },
+ "cg_ev_salsu": {
+  "seed": 3848401204,
+  "prompt": "ancient korean goguryeo soldiers in lamellar armor ambushing chinese sui army crossing a river, splashing water, arrows, banners, epic battle, wide shot, dramatic summer sky",
+  "init": null
+ },
+ "cg_ev_hwangsan": {
+  "seed": 834058965,
+  "prompt": "a small army of baekje soldiers holding a hill against an overwhelming silla army, last stand, dusk, dust, banners, ancient korean armor, wide shot, solemn",
+  "init": null
+ },
+ "cg_ev_gibeolpo": {
+  "seed": 1676846364,
+  "prompt": "ancient silla wooden warships attacking tang dynasty fleet at a wide river estuary, winter, drums, fire arrows, epic naval battle, wide shot",
+  "init": null
+ },
+ "cg_ev_dongmosan": {
+  "seed": 160549251,
+  "prompt": "ancient goguryeo refugees and mohe people raising a banner on a mountain at dawn, founding a new kingdom, wooden palisade, hopeful, wide shot",
+  "init": null
+ },
+ "cg_ev_ilicheon": {
+  "seed": 2624317603,
+  "prompt": "huge cavalry battle on a plain by a river, goryeo army charging, 10th century korean armor, banners, dust clouds, epic wide shot",
+  "init": null
+ },
+ "cg_ev_gwiju": {
+  "seed": 3099275719,
+  "prompt": "goryeo cavalry defeating khitan army in a snowy plain, wind and snow, banners, epic battle, wide shot",
+  "init": null
+ },
+ "cg_ev_bohyeonwon": {
+  "seed": 608988267,
+  "prompt": "night, goryeo pavilion banquet thrown into chaos, armed military officers with torches storming in, fallen tables, scattered wine cups, dramatic shadows, no gore",
+  "init": null
+ },
+ "cg_ev_jinpo": {
+  "seed": 3247084846,
+  "prompt": "goryeo wooden warships firing early gunpowder cannons, hundreds of pirate ships burning at a river mouth at sunset, smoke, epic naval battle",
+  "init": null
+ },
+ "cg_ev_hansando": {
+  "seed": 641364141,
+  "prompt": "joseon panokseon warships in crane wing formation on blue sea, firing cannons, japanese ships burning, turtle ship, epic naval battle, aerial view",
+  "init": null
+ },
+ "cg_ev_gwangseongbo": {
+  "seed": 1020536593,
+  "prompt": "1871, joseon soldiers in white clothes defending a stone fortress on ganghwa island against american marines, smoke, cannon fire, tragic, wide shot",
+  "init": null
+ },
+ "cg_ev_ujeongchongguk": {
+  "seed": 736864731,
+  "prompt": "night, 1884 seoul, a western-style post office building with fire breaking out nearby, officials in hanbok fleeing a banquet, dramatic orange light",
+  "init": null
+ },
+ "cg_ev_march1": {
+  "seed": 58273056,
+  "prompt": "1919, huge crowd of koreans in white hanbok raising both hands and shouting in a seoul street near a pagoda park gate, students in black uniforms, spring, hopeful, wide shot",
+  "init": null
+ },
+ "cg_ev_cheongsanri": {
+  "seed": 4283823068,
+  "prompt": "1920, korean independence army soldiers ambushing japanese troops in a dense autumn birch forest in manchuria, rifles, mountains, epic wide shot",
+  "init": null
+ },
+ "cg_ev_daejeonja": {
+  "seed": 1728732045,
+  "prompt": "1933, korean independence fighters ambushing a column of japanese soldiers in a narrow mountain pass in manchuria, rifles, rocks, smoke, wide shot",
+  "init": null
+ },
+ "cg_ev_june1987": {
+  "seed": 3301572880,
+  "prompt": "1987, seoul city street packed with protesters, students and office workers in neckties, tear gas smoke, rain of paper, determined, wide shot",
+  "init": null
+ },
+ "cg_ev_muk_farewell": {
+  "seed": 3463649400,
+  "prompt": "1girl, black long hair dissolving into ink droplets, pale skin, black and white hanbok-style dress, gentle smile, closing eyes, floating ink drops turning into glowing particles, soft light, emotional farewell",
+  "init": null
  }
 }
