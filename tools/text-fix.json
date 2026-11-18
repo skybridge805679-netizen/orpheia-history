@@ -1392,5 +1392,377 @@
     ]
    }
   ]
+ },
+ "st_yunseul_shy": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      156,
+      205
+     ],
+     [
+      274,
+      164
+     ],
+     [
+      312,
+      258
+     ],
+     [
+      196,
+      307
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      226,
+      298
+     ],
+     [
+      338,
+      281
+     ],
+     [
+      344,
+      324
+     ],
+     [
+      232,
+      348
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     238,
+     236
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     286,
+     316
+    ],
+    "angle": 21,
+    "size": [
+     180,
+     50
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 14,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_angry": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      156,
+      205
+     ],
+     [
+      274,
+      164
+     ],
+     [
+      312,
+      258
+     ],
+     [
+      196,
+      307
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      226,
+      298
+     ],
+     [
+      338,
+      281
+     ],
+     [
+      344,
+      324
+     ],
+     [
+      232,
+      348
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     238,
+     236
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     286,
+     316
+    ],
+    "angle": 21,
+    "size": [
+     180,
+     50
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 14,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
+ },
+ "st_yunseul_teary": {
+  "ops": [
+   {
+    "op": "erase",
+    "poly": [
+     [
+      156,
+      205
+     ],
+     [
+      274,
+      164
+     ],
+     [
+      312,
+      258
+     ],
+     [
+      196,
+      307
+     ]
+    ],
+    "pick": "ink",
+    "fill": "#fbfbf7",
+    "grow": 2,
+    "keep_hue": [
+     [
+      15,
+      115
+     ]
+    ]
+   },
+   {
+    "op": "erase",
+    "poly": [
+     [
+      226,
+      298
+     ],
+     [
+      338,
+      281
+     ],
+     [
+      344,
+      324
+     ],
+     [
+      232,
+      348
+     ]
+    ],
+    "pick": "dark",
+    "dark": 110,
+    "radius": 5
+   },
+   {
+    "op": "layer",
+    "center": [
+     238,
+     236
+    ],
+    "angle": 21,
+    "size": [
+     220,
+     140
+    ],
+    "items": [
+     {
+      "text": "역덕 전용",
+      "font": "dohyeon",
+      "size": 19,
+      "color": "#2b3f63",
+      "at": [
+       -12,
+       -34
+      ]
+     },
+     {
+      "text": "한능검",
+      "font": "black",
+      "size": 38,
+      "color": "#1d1a16",
+      "at": [
+       -6,
+       2
+      ]
+     },
+     {
+      "text": "심화!",
+      "font": "black",
+      "size": 17,
+      "color": "#ffffff",
+      "pill": "#d6336c",
+      "pad": 4,
+      "at": [
+       44,
+       38
+      ]
+     }
+    ]
+   },
+   {
+    "op": "layer",
+    "center": [
+     286,
+     316
+    ],
+    "angle": 21,
+    "size": [
+     180,
+     50
+    ],
+    "items": [
+     {
+      "text": "70~80회 기출 550제",
+      "font": "dohyeon",
+      "size": 14,
+      "color": "#173d3a"
+     }
+    ]
+   }
+  ]
  }
 }
