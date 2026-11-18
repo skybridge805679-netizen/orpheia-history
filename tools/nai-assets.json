@@ -1215,14 +1215,14 @@
   {
    "id": "bg_era_chongqing",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, a taegukgi flag hanging at the entrance, damp air, morning mist",
-   "negative": "signature, watermark, japanese text, modern city, skyscraper, asphalt, smartphone, neon"
+   "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, damp air, morning mist",
+   "negative": "signature, watermark, japanese text, modern city, skyscraper, asphalt, smartphone, neon, flag, banner, red flag"
   },
   {
    "id": "bg_era_liberation",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, august 1945 korean town street, summer sunshine, many hand-drawn taegukgi flags waving from windows and gates of tiled roof houses and shops, scattered leaflets, cicada summer atmosphere, joyful",
-   "negative": "signature, watermark, japanese text, modern city, skyscraper, asphalt, smartphone, neon, rising sun flag, japanese flag"
+   "prompt": "no humans, scenery, outdoors, august 1945 korean town street in bright summer sunshine, traditional tiled roof houses and small shops with doors flung open, an old radio on a windowsill, scattered paper leaflets and confetti in the air, blue sky with big white clouds, joyful atmosphere",
+   "negative": "signature, watermark, japanese text, modern city, skyscraper, asphalt, smartphone, neon, rising sun flag, japanese flag, flag, banner, rising sun"
   }
  ]
 }
