@@ -1468,13 +1468,14 @@
      "y": 0.45
     },
     {
-     "prompt": "boy, young man, black hoodie, hood up, face completely hidden in the shadow of the hood, faceless, no visible eyes, falling on top of her, flailing arms, panicking, source#tackle",
-     "uc": "visible face, eyes, mouth, nose, chin",
+     "prompt": "boy, young man, black hoodie, hood up, seen from behind, back view, back to viewer, face not visible, falling on top of her, flailing arms, source#tackle",
+     "uc": "visible face, eyes, mouth, nose, chin, eyes closed, open mouth, profile",
      "x": 0.6,
      "y": 0.4
     }
    ],
-   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature",
+   "seed": 7171717
   },
   {
    "id": "cg_ch03_drying",
@@ -1664,13 +1665,14 @@
      "y": 0.5
     },
     {
-     "prompt": "boy, tall young man, ill-fitting joseon palace maid hanbok, braided wig, black hood, face completely hidden in the shadow of the hood, faceless, sitting, target#feeding",
-     "uc": "visible face, eyes, mouth, nose, chin",
+     "prompt": "boy, tall young man, crossdressing, wearing an ill-fitting joseon palace maid costume, green jeogori, deep blue chima skirt, white apron, big braided black wig on top of a black hood, hood up, face completely hidden in the shadow of the hood, faceless, sitting awkwardly with knees together, target#feeding",
+     "uc": "visible face, gat, hat, male hanbok, black robe",
      "x": 0.62,
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature",
+   "seed": 7373737
   },
   {
    "id": "cg_mv_ch10",
@@ -2532,8 +2534,8 @@
      "y": 0.45
     },
     {
-     "prompt": "boy, tall young man, ill-fitting joseon palace maid hanbok, head pulled against her chest, braided wig slipping off, black hood, faceless, target#hug",
-     "uc": "visible face, eyes, mouth, nose, chin",
+     "prompt": "boy, tall young man, ill-fitting green palace maid jeogori and blue chima, black hoodie hood up on his head, black hood, braided black wig slipping off the hood, head pulled against her chest, back view, face hidden, target#hug",
+     "uc": "visible face, grey hair, white hair, old",
      "x": 0.48,
      "y": 0.55
     },
@@ -2544,7 +2546,8 @@
      "y": 0.4
     }
    ],
-   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature",
+   "seed": 7272727
   },
   {
    "id": "cg_ch11_recoil",
