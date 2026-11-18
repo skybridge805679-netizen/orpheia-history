@@ -1717,6 +1717,12 @@
    "size": "bg",
    "prompt": "6+girls, 1boy, group shot, a big lively party on a glowing timeline road among the stars, young man in a black hoodie with hood up, face hidden in shadow, faceless in the center surrounded by many young adult women in different korean historical costumes from goryeo, joseon, korean empire and 1940s eras pulling his arms, a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch in front trying to line everyone up with an angry face, a young adult woman with light brown wavy hair in a pastel blue hoodie laughing with a microphone, comedic harem ending, sparkles",
    "negative": "watermark, signature, text, logo, nude, nipples, explicit, child, bad hands"
+  },
+  {
+   "id": "bg_studio_night",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, dark home music studio at night, empty gaming chair, desk with multiple glowing monitors showing DAW software waveforms, midi keyboard, studio headphones on desk, condenser microphone on arm, cables, cup noodles, acoustic foam panels, bookshelf with history books, window with city night lights, blue ambient light, cozy messy room",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo"
   }
  ]
 }
