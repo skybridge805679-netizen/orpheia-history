@@ -1,0 +1,229 @@
+<title>Suno 작곡 콘솔</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbit&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 레이아웃: 왼쪽 트랙 랙 · 가운데 가사 시트(섹션 태그 줄) · 오른쪽 스타일 패치와 보내기 — 믹싱 콘솔 */
+:root{
+  --bg:#f3f1ec;--panel:#ffffff;--panel2:#ecebe6;--ink:#1e1d22;--muted:#6b6a72;--edge:#d6d3cb;
+  --accent:#d1495b;--accent2:#2a7f86;--tag:#7a4fb3;--ok:#2f8f4e;--warn:#c07a12;
+  --display:'Orbit','Noto Sans KR',system-ui,sans-serif;--body:'Noto Sans KR',system-ui,sans-serif;--mono:'IBM Plex Mono','Noto Sans KR',ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141318;--panel:#1c1b22;--panel2:#24232c;--ink:#ecebf1;--muted:#9a98a6;--edge:#34323e;--accent:#ff6b7d;--accent2:#5ec4cb;--tag:#b892f0;--ok:#62c788;--warn:#e8a64a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141318;--panel:#1c1b22;--panel2:#24232c;--ink:#ecebf1;--muted:#9a98a6;--edge:#34323e;--accent:#ff6b7d;--accent2:#5ec4cb;--tag:#b892f0;--ok:#62c788;--warn:#e8a64a;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font:14px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;border:1px solid var(--edge);background:var(--panel2);border-radius:6px;padding:6px 10px}
+button:hover{border-color:var(--accent2)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.ghost{background:transparent}
+input,select,textarea{background:var(--panel);border:1px solid var(--edge);border-radius:6px;padding:6px 8px;width:100%}
+textarea{resize:vertical}
+.top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.top h1{font-size:26px;letter-spacing:.02em}
+.top small{color:var(--muted)}
+.status{margin-left:auto;font:12px var(--mono);color:var(--muted)}
+.console{display:grid;grid-template-columns:260px minmax(0,1fr) 320px;gap:12px;align-items:start}
+@media (max-width:1100px){.console{grid-template-columns:220px minmax(0,1fr)}.patch{grid-column:1/-1}}
+@media (max-width:720px){.console{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--edge);border-radius:10px;padding:12px;min-width:0}
+.label{font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+/* 트랙 랙 */
+.rack .tools{display:flex;gap:6px;margin:8px 0}
+.rack .tools input{flex:1}
+.list{display:flex;flex-direction:column;gap:4px;max-height:70vh;overflow:auto}
+.item{display:grid;grid-template-columns:8px 1fr auto;gap:8px;align-items:center;text-align:left;width:100%;padding:7px 8px;background:transparent;border:1px solid transparent}
+.item.on{background:var(--panel2);border-color:var(--edge)}
+.item .led{width:8px;height:8px;border-radius:50%;background:var(--edge)}
+.item[data-st="생성함"] .led{background:var(--warn)}
+.item[data-st="완료"] .led{background:var(--ok)}
+.item .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .k{font:11px var(--mono);color:var(--muted)}
+.group{font:500 11px var(--mono);color:var(--muted);margin:8px 0 2px;letter-spacing:.08em}
+/* 시트 */
+.sheet .head{display:grid;grid-template-columns:1fr 130px 120px;gap:8px;margin-bottom:10px}
+@media (max-width:720px){.sheet .head{grid-template-columns:1fr}}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}
+.chip{font:12px var(--mono);padding:3px 8px;border-radius:999px;border:1px dashed var(--tag);color:var(--tag);background:transparent}
+.lyric{font:14px/1.75 var(--mono);min-height:52vh}
+.count{font:12px var(--mono);color:var(--muted);text-align:right}
+.count.over{color:var(--accent)}
+.preview{margin-top:10px;font:13px/1.7 var(--mono);white-space:pre-wrap;max-height:40vh;overflow:auto;background:var(--panel2);border-radius:8px;padding:10px}
+.preview .tg{color:var(--tag)}
+/* 패치 */
+.patch .row{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.style{min-height:140px;font:13px/1.6 var(--mono)}
+.send{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-top:8px}
+.send a{grid-column:1/-1;text-align:center;padding:8px;border-radius:6px;background:var(--accent2);color:#fff;text-decoration:none}
+.ai{margin-top:12px;border-top:1px dashed var(--edge);padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.ai .out{font:12px/1.6 var(--mono);color:var(--muted);white-space:pre-wrap;max-height:180px;overflow:auto}
+.note{font-size:12px;color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
+@media (prefers-reduced-motion:no-preference){.item,button{transition:border-color .15s,background .15s}}
+</style>
+
+<div class="top">
+  <h1>SUNO 작곡 콘솔</h1>
+  <small>가사·구성·스타일을 짜고, 오르페이아에게 초안을 맡기고, 버튼 하나로 Suno에 옮긴다</small>
+  <span class="status" id="dbState">라이브러리 연결 중…</span>
+</div>
+
+<div class="console">
+  <section class="card rack" aria-label="트랙 목록">
+    <div class="label">트랙 랙</div>
+    <div class="tools"><input id="q" placeholder="찾기 (제목·프로젝트)"><button id="newBtn" title="새 트랙">＋</button></div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section class="card sheet" aria-label="가사 시트">
+    <div class="head">
+      <div><div class="label">제목</div><input id="title" maxlength="80"></div>
+      <div><div class="label">종류</div><select id="kind"><option>노래</option><option>BGM</option></select></div>
+      <div><div class="label">상태</div><select id="st"><option>초안</option><option>생성함</option><option>완료</option></select></div>
+    </div>
+    <div><div class="label">프로젝트</div><input id="project" placeholder="예: 연표 앨범"></div>
+    <div class="label" style="margin-top:10px">섹션 태그 넣기 (커서 위치에)</div>
+    <div class="chips" id="tags"></div>
+    <div class="label">가사 (BGM은 비워 두기)</div>
+    <textarea id="lyrics" class="lyric" spellcheck="false"></textarea>
+    <div class="count" id="lcount"></div>
+    <details><summary class="label">미리보기</summary><div class="preview" id="pv"></div></details>
+  </section>
+
+  <section class="card patch" aria-label="스타일과 보내기">
+    <div class="label">스타일 패치</div>
+    <textarea id="style" class="style" spellcheck="false"></textarea>
+    <div class="count" id="scount"></div>
+    <div class="label" style="margin-top:6px">자주 쓰는 조각</div>
+    <div class="row" id="stylechips"></div>
+    <div class="label" style="margin-top:6px">메모 (Suno 곡 링크 등)</div>
+    <input id="memo" placeholder="https://suno.com/song/…">
+    <div class="label" style="margin-top:10px">Suno로 보내기</div>
+    <div class="send">
+      <button id="cpT">제목 복사</button><button id="cpL">가사 복사</button><button id="cpS">스타일 복사</button>
+      <a href="https://suno.com/create" target="_blank" rel="noopener">Suno 만들기 화면 열기 ↗</a>
+    </div>
+    <p class="note">Suno의 Custom 모드에 붙여 넣고 Create는 직접 누른다. 다 뽑으면 상태를 「생성함」, 고른 곡이 있으면 「완료」로.</p>
+
+    <div class="ai" id="aiBox">
+      <div class="label">오르페이아에게 맡기기</div>
+      <textarea id="brief" rows="4" placeholder="무엇에 대한 곡인지, 꼭 넣을 단어, 분위기. 예: 고려 무신 정권과 몽골 항쟁, 연도는 숫자를 한 자씩 읽기, 후렴은 강화도"></textarea>
+      <div class="row">
+        <button id="aiWrite" class="primary">가사·스타일 초안</button>
+        <button id="aiStyle">스타일만 다듬기</button>
+        <button id="aiCheck">가사 점검</button>
+      </div>
+      <div class="out" id="aiOut"></div>
+    </div>
+  </section>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const TAGS=['[Intro]','[Verse 1]','[Verse 2]','[Pre-Chorus]','[Chorus]','[Instrumental Break]','[Bridge]','[Build Up]','[Key Change - Modulate Up One Semitone]','[Final Chorus]','[Outro]','[End]','[Soft Female Vocal]','[Instrumental - 4 Bars]'];
+const STYLE_CHIPS=['Japanese indie pop-rock','soft expressive female vocals','backing-voice call-and-response','one-semitone lift before the final chorus','sparkling clean guitars','melodic bass','natural live drums','Korean traditional percussion','seamless loop, no vocals','orchestral strings'];
+const LIMIT={lyrics:5000,style:1000};
+let db=null,tracks=[],cur=null,saveTimer=null,dirty=false;
+
+function toast(t){const e=$('#toast');e.textContent=t;e.hidden=false;clearTimeout(e._t);e._t=setTimeout(()=>e.hidden=true,1800);}
+async function copy(text,label){
+  try{await navigator.clipboard.writeText(text);toast(label+' 복사됨');}
+  catch{const ta=document.createElement('textarea');ta.value=text;document.body.append(ta);ta.select();toast('복사가 막혀 있어 선택만 했어요. Ctrl+C 하세요');setTimeout(()=>ta.remove(),4000);}
+}
+const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+// 예시(라이브러리가 비었거나 연결되지 않았을 때만 보이는 견본)
+const SAMPLE={id:'sample',title:'예시 · 바다 건너 등주로',kind:'노래',project:'예시',status:'초안',memo:'',
+ lyrics:'[Intro - Sparkling Clean Guitar Arpeggio, Gentle Piano]\n[Instrumental - 4 Bars]\n[Soft Female Vocal]\n\n[Verse 1 - Intimate Vocal]\n삼국을 하나로 묶은 뒤에\n신문왕은 국학을 세웠지\n\n[Chorus - Full Band, Soaring Female Vocal]\n육구팔 동모산, 고왕 대조영\n인안은 무왕, 대흥은 문왕\n아 발해, 발해여\n\n[End]',
+ style:'Japanese indie pop-rock, sparkling clean guitars, melodic bass, natural live drums; soft expressive female vocals; one-semitone lift before the final chorus'};
+
+function render(){
+  const q=$('#q').value.trim().toLowerCase();
+  const rows=(tracks.length?tracks:[SAMPLE]).filter(t=>!q||(t.title+' '+(t.project||'')).toLowerCase().includes(q));
+  const groups={};rows.forEach(t=>{const g=(t.project||'기타')+' · '+(t.kind||'노래');(groups[g]=groups[g]||[]).push(t);});
+  $('#list').innerHTML=Object.entries(groups).map(([g,ts])=>`<div class="group">${esc(g)}</div>`+ts.map(t=>`<button class="item${cur&&cur.id===t.id?' on':''}" data-id="${esc(t.id)}" data-st="${esc(t.status||'초안')}"><span class="led"></span><span class="t">${esc(t.title||'제목 없음')}</span><span class="k">${esc(t.status||'초안')}</span></button>`).join('')).join('')||'<p class="note">찾는 트랙이 없어요.</p>';
+}
+function fill(t){
+  cur=t;$('#title').value=t.title||'';$('#kind').value=t.kind||'노래';$('#st').value=t.status||'초안';$('#project').value=t.project||'';
+  $('#lyrics').value=t.lyrics||'';$('#style').value=t.style||'';$('#memo').value=t.memo||'';counts();preview();render();
+}
+function counts(){
+  const l=$('#lyrics').value.length,s=$('#style').value.length;
+  $('#lcount').textContent=`${l} / ${LIMIT.lyrics}자`;$('#lcount').classList.toggle('over',l>LIMIT.lyrics);
+  $('#scount').textContent=`${s} / ${LIMIT.style}자`;$('#scount').classList.toggle('over',s>LIMIT.style);
+}
+function preview(){$('#pv').innerHTML=esc($('#lyrics').value).replace(/(\[[^\]\n]+\])/g,'<span class="tg">$1</span>');}
+function formData(){return{title:$('#title').value,kind:$('#kind').value,status:$('#st').value,project:$('#project').value,lyrics:$('#lyrics').value,style:$('#style').value,memo:$('#memo').value,updatedAt:Date.now()};}
+function changed(){counts();preview();if(!cur||cur.id==='sample'||!db)return;dirty=true;clearTimeout(saveTimer);saveTimer=setTimeout(save,900);$('#dbState').textContent='저장 대기…';}
+async function save(){
+  if(!dirty||!cur||!db)return;dirty=false;const d=formData();Object.assign(cur,d);
+  try{await db.collection('tracks').doc(cur.id).set({...d,order:cur.order??Date.now()});$('#dbState').textContent='저장됨';}
+  catch(e){$('#dbState').textContent='저장 실패: '+(e.code||e.message);}
+}
+['#title','#kind','#st','#project','#lyrics','#style','#memo'].forEach(s=>$(s).addEventListener('input',changed));
+$('#q').addEventListener('input',render);
+$('#list').addEventListener('click',e=>{const b=e.target.closest('.item');if(!b)return;save();const t=(tracks.length?tracks:[SAMPLE]).find(x=>x.id===b.dataset.id);if(t)fill(t);});
+$('#tags').innerHTML=TAGS.map(t=>`<button class="chip" type="button">${esc(t)}</button>`).join('');
+$('#tags').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const ta=$('#lyrics'),p=ta.selectionStart,v=ta.value,ins=(p&&v[p-1]!=='\n'?'\n':'')+b.textContent+'\n';ta.value=v.slice(0,p)+ins+v.slice(ta.selectionEnd);ta.focus();ta.selectionStart=ta.selectionEnd=p+ins.length;changed();});
+$('#stylechips').innerHTML=STYLE_CHIPS.map(t=>`<button class="chip" type="button">${esc(t)}</button>`).join('');
+$('#stylechips').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const s=$('#style');s.value=(s.value.trim()?s.value.trim().replace(/[,;]?$/,', '):'')+b.textContent;changed();});
+$('#cpT').onclick=()=>copy($('#title').value,'제목');
+$('#cpL').onclick=()=>copy($('#lyrics').value,'가사');
+$('#cpS').onclick=()=>copy($('#style').value,'스타일');
+$('#newBtn').onclick=async()=>{
+  if(!db){toast('라이브러리에 연결되지 않아 새 트랙을 저장할 수 없어요');return;}
+  save();const ref=db.collection('tracks').doc();const t={title:'새 트랙',kind:'노래',status:'초안',project:cur?.project||'',lyrics:'',style:'',memo:'',order:Date.now(),updatedAt:Date.now()};
+  try{await ref.set(t);fill({id:ref.id,...t});$('#title').select();}catch(e){toast('만들지 못했어요: '+(e.code||e.message));}
+};
+
+// 라이브러리
+(async()=>{
+  db=await window.claude?.use?.('db')??null;
+  if(!db){$('#dbState').textContent='라이브러리 없음 · 예시만 표시 (편집 내용은 저장되지 않음)';fill(SAMPLE);return;}
+  const timer=setTimeout(()=>$('#dbState').textContent='라이브러리에 아직 닿지 않았어요',10000);
+  db.collection('tracks').orderBy('order').onSnapshot(snap=>{
+    if(!snap.metadata?.fromCache)clearTimeout(timer);
+    tracks=snap.docs.map(d=>({id:d.id,...d.data()}));
+    $('#dbState').textContent=tracks.length?`트랙 ${tracks.length}곡`:'라이브러리가 비었어요 · ＋로 첫 트랙';
+    if(!cur||cur.id==='sample'){fill(tracks[0]||SAMPLE);}else if(!dirty){const fresh=tracks.find(t=>t.id===cur.id);if(fresh&&document.activeElement?.closest?.('.sheet,.patch')==null)fill(fresh);else render();}
+    else render();
+  },e=>{clearTimeout(timer);$('#dbState').textContent='라이브러리 오류: '+(e.code||e.message);});
+})();
+
+// 오르페이아(Claude) 연결부
+const FORMAT=`형식 규칙(사용자의 Suno 형식):
+- 섹션마다 대괄호 태그 한 줄: [Intro - 악기 설명], [Verse 1 - 연출], [Pre-Chorus - ...], [Chorus - Full Band, Soaring Female Vocal, Layered Harmonies], [Instrumental Break - ...], [Bridge - ...], [Build Up - ...], [Key Change - Modulate Up One Semitone], [Final Chorus - Higher Key, Explosive], [Outro - ...], 마지막 [End].
+- 보컬 지시 태그 예: [Soft Female Vocal].
+- 가사는 한국어. 연도는 숫자를 한 자씩 한글로 읽는다(780 → 칠팔공, 1592 → 일오구이).
+- 후렴은 같은 가사로 2~3번 반복, 마지막 후렴 앞에서 반음 상승.
+- 스타일(style)은 영어 한 문단, 장르·악기·보컬·편곡 흐름, 1000자 이내.`;
+let aiCtl=null,sampleFn=null;
+async function getSample(){if(sampleFn!==null)return sampleFn;sampleFn=await window.claude?.use?.('sample')??null;if(!sampleFn){$('#aiBox').querySelector('.row').hidden=true;$('#aiOut').textContent='이 화면에서는 오르페이아 연결을 쓸 수 없어요. claude.ai에서 열어 주세요.';}return sampleFn;}
+function busy(on){['#aiWrite','#aiStyle','#aiCheck'].forEach(s=>$(s).disabled=on);}
+async function runAI(kind){
+  const s=await getSample();if(!s)return;
+  aiCtl?.abort();aiCtl=new AbortController();busy(true);$('#aiOut').textContent='오르페이아가 쓰는 중…';
+  const brief=$('#brief').value.trim(),title=$('#title').value,lyr=$('#lyrics').value,sty=$('#style').value,kindTxt=$('#kind').value;
+  try{
+    if(kind==='write'){
+      const r=await s.json(`너는 Suno용 곡을 쓰는 작사가다. 아래 요청으로 ${kindTxt==='BGM'?'가사 없는 BGM의 제목과 스타일만':'제목, 가사, 스타일'}을 만들어라.\n${FORMAT}\n${kindTxt==='BGM'?'BGM은 lyrics를 빈 문자열로, style 끝에 "seamless loop, no vocals"를 붙인다.':''}\n요청: ${brief||'(요청 없음: 현재 제목과 가사를 바탕으로 완성도를 높여라)'}\n현재 제목: ${title}\n현재 가사:\n${lyr}\n현재 스타일: ${sty}\n역사 내용을 쓸 때는 확실한 사실만 쓴다. JSON {"title":string,"lyrics":string,"style":string}만 답한다.`,{signal:aiCtl.signal,modelTier:'complex',onText:({text})=>{$('#aiOut').textContent=text.slice(-600);}});
+      if(r&&typeof r==='object'){if(r.title)$('#title').value=r.title;if(typeof r.lyrics==='string'&&kindTxt!=='BGM')$('#lyrics').value=r.lyrics;if(r.style)$('#style').value=r.style;changed();$('#aiOut').textContent='초안을 넣었어요. 마음에 안 드는 곳은 요청을 고쳐 다시 눌러 주세요.';}
+    }else if(kind==='style'){
+      const r=await s(`Suno 스타일 프롬프트를 다듬어라. 영어 한 문단, 1000자 이내, 장르·악기·보컬·편곡 흐름이 분명하게. 요청: ${brief}\n곡 제목: ${title}\n현재 스타일: ${sty}\n가사 앞부분: ${lyr.slice(0,600)}\n다듬은 스타일 문단만 답한다.`,{signal:aiCtl.signal,onText:({text})=>{$('#aiOut').textContent=text;}});
+      $('#style').value=r.text.trim();changed();$('#aiOut').textContent='스타일을 바꿨어요.';
+    }else{
+      const r=await s(`다음 Suno 가사를 점검해라. (1) 형식 규칙 위반(태그 누락, [End] 없음, 연도 표기) (2) 역사 사실 중 틀렸거나 의심스러운 줄 (3) 5000자·후렴 반복 문제. 고칠 줄과 고친 문장을 한국어 목록으로 짧게. 확실하지 않은 사실은 '확인 필요'라고 표시.\n${FORMAT}\n제목: ${title}\n가사:\n${lyr}`,{signal:aiCtl.signal,onText:({text})=>{$('#aiOut').textContent=text;}});
+      $('#aiOut').textContent=r.text;
+    }
+  }catch(e){
+    if(e.name==='AbortError')return;
+    $('#aiOut').textContent=e.code==='not_granted'?'오르페이아 연결이 허락되지 않았어요.':e.code==='rate_limited'?'잠시 쉬었다가 다시 눌러 주세요.':'실패했어요: '+(e.message||e.code);
+  }finally{busy(false);}
+}
+$('#aiWrite').onclick=()=>runAI('write');$('#aiStyle').onclick=()=>runAI('style');$('#aiCheck').onclick=()=>runAI('check');
+</script>
