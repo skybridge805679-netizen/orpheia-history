@@ -1748,5 +1748,65 @@
   "seed": 2719227231,
   "prompt": "1girl, 1boy, dark old movie theater, projector light beam over the seats, flickering silent film on the screen, romantic comedy",
   "init": null
+ },
+ "cg_orp_b1": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, digital glitch damage, one sleeve torn away with pixelated edges, apron partially dissolved into pixels, skirt hem torn with pixel noise, surprised, embarrassed, blush, looking at her own arm, digital cyberspace background, floating green code, error windows, broken pixel blocks, glitch effect, chromatic aberration, scanlines, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_orp_b2": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, heavy digital glitch damage, maid dress torn by digital corruption, holes with glowing pixel edges, white lace bra visible, cleavage, one bare shoulder, skirt torn up to the thigh, thighhighs, garter straps, flustered, deep blush, covering chest with one arm, shouting, digital cyberspace background, floating green code, error windows, broken pixel blocks, glitch effect, chromatic aberration, scanlines, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_orp_b3": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, clothes almost completely glitched away, only white lace lingerie, white lace bra and white panties, fragments of the maid dress floating as pixels, maid headdress and green bowtie remain, kneeling, covering herself with both arms, teary eyes, full-face blush, embarrassed, glitch artifacts on her body, digital cyberspace background, floating green code, error windows, broken pixel blocks, glitch effect, chromatic aberration, scanlines, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "st_orpheia_shy_g1": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, digital glitch damage, one sleeve torn away with pixelated edges, apron partially dissolved into pixels, skirt hem torn with pixel noise, flustered, full-face blush, covering chest with arms, teary eyes",
+  "init": null
+ },
+ "st_orpheia_pout_g1": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, digital glitch damage, one sleeve torn away with pixelated edges, apron partially dissolved into pixels, skirt hem torn with pixel noise, pouting, puffed cheeks, blush, hands on hips",
+  "init": null
+ },
+ "st_orpheia_smile_g1": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, digital glitch damage, one sleeve torn away with pixelated edges, apron partially dissolved into pixels, skirt hem torn with pixel noise, embarrassed smile, blush, sweat drop, one hand raised",
+  "init": null
+ },
+ "st_orpheia_shy_g2": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, heavy digital glitch damage, maid dress torn with glowing pixel edges, white lace bra visible, cleavage, one bare shoulder, skirt torn up to the thigh, thighhighs, garter straps, flustered, full-face blush, covering chest with arms, teary eyes",
+  "init": null
+ },
+ "st_orpheia_pout_g2": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, heavy digital glitch damage, maid dress torn with glowing pixel edges, white lace bra visible, cleavage, one bare shoulder, skirt torn up to the thigh, thighhighs, garter straps, pouting, puffed cheeks, blush, hands on hips",
+  "init": null
+ },
+ "st_orpheia_smile_g2": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, heavy digital glitch damage, maid dress torn with glowing pixel edges, white lace bra visible, cleavage, one bare shoulder, skirt torn up to the thigh, thighhighs, garter straps, embarrassed smile, blush, sweat drop, one hand raised",
+  "init": null
+ },
+ "st_orpheia_shy_g3": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, clothes almost completely glitched away, white lace lingerie, white lace bra and white panties, fragments of the maid dress, maid headdress and green bowtie remain, bare stomach, flustered, full-face blush, covering chest with arms, teary eyes",
+  "init": null
+ },
+ "st_orpheia_pout_g3": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, clothes almost completely glitched away, white lace lingerie, white lace bra and white panties, fragments of the maid dress, maid headdress and green bowtie remain, bare stomach, pouting, puffed cheeks, blush, hands on hips",
+  "init": null
+ },
+ "st_orpheia_smile_g3": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, clothes almost completely glitched away, white lace lingerie, white lace bra and white panties, fragments of the maid dress, maid headdress and green bowtie remain, bare stomach, embarrassed smile, blush, sweat drop, one hand raised",
+  "init": null
  }
 }
