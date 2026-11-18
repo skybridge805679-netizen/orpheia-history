@@ -74,7 +74,12 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-phone{position:absolute;right:2.5%;top:9%;width:min(15vw,200px);aspect-ratio:9/16;border-radius:24px;z-index:2;background:#14110e;border:6px solid #2b251e;box-shadow:0 20px 50px #000a;overflow:hidden}
 .vn-phone-notch{position:absolute;top:8px;left:50%;width:34%;height:16px;transform:translateX(-50%);background:#000;border-radius:10px;z-index:2}
 .vn-phone-screen{position:absolute;inset:0;background:linear-gradient(#20403e,#14110e)}
-.vn-phone-screen .vn-chr{top:5%;bottom:auto;height:215%;left:50%}
+.vn-phone-screen{overflow:hidden}
+/* 휴대폰 속 오르페이아: 화면 높이가 아니라 휴대폰 폭에 맞춰 상반신을 고정 배율로 자른다(표정마다 위치가 흔들리지 않게) */
+.vn-phone-screen .vn-chr{position:absolute;inset:0;top:0;bottom:0;left:0;height:auto;transform:none;transition:none}
+.vn-phone-screen .vn-chr-fx{position:absolute;inset:0;height:auto}
+.vn-phone-screen .vn-chr img{position:absolute;left:50%;top:7%;width:205%;height:auto;max-width:none;transform:translateX(-50%)}
+.vn-phone-screen .fx-tilt,.vn-phone-screen .fx-shake{animation:none}
 .vn-phone-screen .vn-chr:not(.speaking){filter:none}
 
 /* 문화재 사진: 도록 한 장처럼 왼쪽 위에, 누르면 크게 */
