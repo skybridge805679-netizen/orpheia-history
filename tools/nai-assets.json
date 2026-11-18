@@ -979,8 +979,8 @@
   {
    "id": "bg_era_gwangseongbo",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, korean coastal stone fort on a cliff above a strait, crenellated stone walls with cannon ports, old bronze cannons, a large yellow square banner with a single black chinese character, smoke from warships in the strait, dramatic, 1871",
-   "negative": "european castle, japanese castle, signature, modern"
+   "prompt": "no humans, scenery, outdoors, 1871 korean coastal stone fort on a rocky cliff above a narrow strait, curved stone walls with small cannon ports, old bronze cannons, a large plain yellow cloth banner without letters, in the strait two 19th century wooden steam frigates with masts and black smoke, cannon smoke, dramatic clouds",
+   "negative": "modern warship, destroyer, battleship, aircraft, text, letters, kanji, signature, european castle, japanese castle"
   },
   {
    "id": "bg_era_incheon_port",
@@ -997,8 +997,8 @@
   {
    "id": "bg_era_baeksan",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, low hill completely covered with white cloth banners and planted bamboo spears, wide flat rice plains around, spring, morning mist, korea 1894",
-   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car, cross, flags with text"
+   "prompt": "no humans, scenery, outdoors, low grassy hill rising from wide flat green rice paddies, the hillside crowded with hundreds of planted bamboo spears and tall white cloth banners on poles fluttering in the wind, distant mountains, spring morning, korea 1894",
+   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car, cross, flags with text, tent, sheets, laundry"
   },
   {
    "id": "bg_era_ugeumchi",
