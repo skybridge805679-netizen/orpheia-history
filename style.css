@@ -277,3 +277,9 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 dialog#vnLog.sheets{max-width:1180px;width:96vw;max-height:92vh;overflow:auto}
 dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink)}
 .vn-sheet-wait{color:var(--ink3)}
+
+/* SD 리액션 컷인 */
+.vn-sd{position:absolute;left:2%;bottom:150px;width:min(17vw,190px);z-index:4;pointer-events:none;filter:drop-shadow(0 6px 10px #0008)}
+.vn-sd.pop{animation:sdpop .45s cubic-bezier(.2,1.6,.4,1)}
+@keyframes sdpop{from{transform:scale(.3) rotate(-12deg);opacity:0}to{transform:none;opacity:1}}
+.vn.ui-hidden .vn-sd{display:none}

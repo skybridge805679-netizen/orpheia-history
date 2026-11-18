@@ -16,17 +16,17 @@ const CAST={
  sayeon:{name:'사연',cls:'c-sayeon',stand:{neutral:'st_sayeon_neutral',smile:'st_sayeon_smile',serious:'st_sayeon_serious',surprised:'st_sayeon_surprised',worry:'st_sayeon_worry',writing:'st_sayeon_writing',neolithic:'st_sayeon_neolithic',buyeo:'st_sayeon_buyeo',baekje:'st_sayeon_baekje',hwarang:'st_sayeon_hwarang',goryeo:'st_sayeon_goryeo',joseon:'st_sayeon_joseon'}},
  muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
  nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
- dallae:{name:'달래',cls:'c-other',stand:{smile:'st_dallae_smile',worry:'st_dallae_worry'}},
+ dallae:{name:'달래',cls:'c-other',stand:{neutral:'st_dallae_smile',smile:'st_dallae_smile',worry:'st_dallae_worry',shy:'st_dallae_shy',angry:'st_dallae_angry',teary:'st_dallae_teary',surprised:'st_dallae_surprised'}},
  naru:{name:'나루',cls:'c-other',stand:{baekje:'st_naru_baekje',goguryeo:'st_naru_goguryeo',silla:'st_naru_silla',sea:'st_naru_sea',joseon:'st_naru_joseon',smile:'st_naru_sea',serious:'st_naru_sea'}},
- yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious'}},
- haerang:{name:'해랑',cls:'c-other',stand:{neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious'}},
- yeoul:{name:'여울',cls:'c-other',stand:{neutral:'st_yeoul_smile',smile:'st_yeoul_smile',surprised:'st_yeoul_surprised',worry:'st_yeoul_surprised',shy:'st_yeoul_shy',angry:'st_yeoul_angry',teary:'st_yeoul_shy'}},
- sodam:{name:'소담',cls:'c-other',stand:{neutral:'st_sodam_smile',smile:'st_sodam_smile',worry:'st_sodam_worry',surprised:'st_sodam_worry'}},
- dano:{name:'단오',cls:'c-other',stand:{neutral:'st_dano_smile',smile:'st_dano_smile',surprised:'st_dano_surprised',worry:'st_dano_surprised'}},
- bori:{name:'보리',cls:'c-other',stand:{neutral:'st_bori_smile',smile:'st_bori_smile',serious:'st_bori_serious',worry:'st_bori_serious',teary:'st_bori_serious'}},
- hanbyeol:{name:'한별',cls:'c-other',stand:{neutral:'st_hanbyeol_smile',smile:'st_hanbyeol_smile',excited:'st_hanbyeol_smile',serious:'st_hanbyeol_serious',worry:'st_hanbyeol_serious',surprised:'st_hanbyeol_serious',teary:'st_hanbyeol_serious'}},
- saebyeok:{name:'새벽',cls:'c-other',stand:{neutral:'st_saebyeok_smile',smile:'st_saebyeok_smile',serious:'st_saebyeok_serious',teary:'st_saebyeok_serious',worry:'st_saebyeok_serious',surprised:'st_saebyeok_serious'}},
- dasom:{name:'다솜',cls:'c-other',stand:{neutral:'st_dasom_smile',smile:'st_dasom_smile',serious:'st_dasom_serious',teary:'st_dasom_serious',worry:'st_dasom_serious',surprised:'st_dasom_smile'}},
+ yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious',shy:'st_yunseul_shy',angry:'st_yunseul_angry',teary:'st_yunseul_teary'}},
+ haerang:{name:'해랑',cls:'c-other',stand:{neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious',shy:'st_haerang_shy',angry:'st_haerang_angry',teary:'st_haerang_teary',surprised:'st_haerang_surprised'}},
+ yeoul:{name:'여울',cls:'c-other',stand:{neutral:'st_yeoul_smile',smile:'st_yeoul_smile',surprised:'st_yeoul_surprised',worry:'st_yeoul_surprised',shy:'st_yeoul_shy',angry:'st_yeoul_angry',teary:'st_yeoul_teary'}},
+ sodam:{name:'소담',cls:'c-other',stand:{neutral:'st_sodam_smile',smile:'st_sodam_smile',worry:'st_sodam_worry',surprised:'st_sodam_surprised',shy:'st_sodam_shy',angry:'st_sodam_angry',teary:'st_sodam_teary'}},
+ dano:{name:'단오',cls:'c-other',stand:{neutral:'st_dano_smile',smile:'st_dano_smile',surprised:'st_dano_surprised',worry:'st_dano_surprised',shy:'st_dano_shy',angry:'st_dano_angry',teary:'st_dano_teary'}},
+ bori:{name:'보리',cls:'c-other',stand:{neutral:'st_bori_smile',smile:'st_bori_smile',serious:'st_bori_serious',worry:'st_bori_serious',teary:'st_bori_teary',shy:'st_bori_shy',angry:'st_bori_angry',surprised:'st_bori_surprised'}},
+ hanbyeol:{name:'한별',cls:'c-other',stand:{neutral:'st_hanbyeol_smile',smile:'st_hanbyeol_smile',excited:'st_hanbyeol_smile',serious:'st_hanbyeol_serious',worry:'st_hanbyeol_serious',surprised:'st_hanbyeol_surprised',teary:'st_hanbyeol_teary',shy:'st_hanbyeol_shy',angry:'st_hanbyeol_angry'}},
+ saebyeok:{name:'새벽',cls:'c-other',stand:{neutral:'st_saebyeok_smile',smile:'st_saebyeok_smile',serious:'st_saebyeok_serious',teary:'st_saebyeok_teary',worry:'st_saebyeok_serious',surprised:'st_saebyeok_surprised',shy:'st_saebyeok_shy',angry:'st_saebyeok_angry'}},
+ dasom:{name:'다솜',cls:'c-other',stand:{neutral:'st_dasom_smile',smile:'st_dasom_smile',serious:'st_dasom_serious',teary:'st_dasom_teary',worry:'st_dasom_serious',surprised:'st_dasom_surprised',shy:'st_dasom_shy',angry:'st_dasom_angry'}},
  me:{name:'상철',cls:'c-player',stand:{}},
 };
 const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me','상철':'me'};
@@ -84,6 +84,7 @@ function step(){
    case 'if':{const v=S.flags[op.flag]||0,ok={'>=':v>=op.val,'<=':v<=op.val,'==':v===op.val,'>':v>op.val,'<':v<op.val}[op.op];S.pc=ok?ch.labels[op.label]:S.pc+1;break;}
    case 'set':S.flags[op.flag]=op.val;S.pc++;break;
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;S.pc++;break;
+   case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
    case 'bg':S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
@@ -163,6 +164,12 @@ function heritage(name){
  if(!near)for(const [k,v] of Object.entries(H))if(k.includes(name)||name.includes(k)){near={src:figSrc(v.src),credit:v.credit,desc:v.desc};break;}
  return near;
 }
+// 학습만화식 SD 리액션 컷인: @sd idea|warn|thumbs|cry|pout|shock|love|teach|detective|cheer|think|bow — 2.4초 뒤 사라진다(세이브에 남지 않음).
+function sdPop(kind){
+ const v=$('#vn');if(!v||skip)return;let el=$('#vnSd');if(!el){el=document.createElement('img');el.id='vnSd';el.className='vn-sd';el.alt='';v.appendChild(el);}
+ el.onerror=()=>{el.hidden=true;};el.hidden=false;el.src=asset(`sd_orp_${kind}.webp`);el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');
+ clearTimeout(el._t);el._t=setTimeout(()=>{el.hidden=true;},2400);
+}
 function paintPhoto(){
  const el=$('#vnPhoto');if(!el)return;const [name,label]=String(S.photo||'').split('|').map(x=>x.trim()),h=name&&heritage(name);
  el.hidden=!h;$('#vn').classList.toggle('photo-on',!!h);if(!h){el.classList.remove('big');return;}
@@ -172,7 +179,7 @@ function paintPhoto(){
 }
 function paint(){
  if(!$('#vn'))shell();
- const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onerror=()=>{bg.style.visibility='hidden';};bg.src=asset(S.bg);}
+ const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;};bg.onerror=()=>{if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
  paintChars();paintPhoto();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
@@ -197,7 +204,7 @@ function paintChars(){
   let el=document.getElementById('chr-'+who);
   if(!el||el.parentElement!==host){el?.remove();el=document.createElement('div');el.id='chr-'+who;el.innerHTML='<div class="vn-chr-fx"><img alt=""></div>';host.appendChild(el);}
   el.className=`vn-chr pos-${c.pos}${S.line?.who===who||!S.line?.who?' speaking':''}`;
-  const img=el.querySelector('img');if(img.dataset.f!==file){img.dataset.f=file;img.src=asset(file);img.alt=nameOf(who);}
+  const img=el.querySelector('img');if(img.dataset.f!==file){img.dataset.f=file;img.onerror=()=>{const fb=standFile(who,'neutral');if(fb&&!img.src.endsWith(fb))img.src=asset(fb);};img.src=asset(file);img.alt=nameOf(who);}
   const fxName=pendingFx[who];if(fxName){const f=el.firstChild;f.className='vn-chr-fx';void f.offsetWidth;f.classList.add('fx-'+fxName);}
  }
  pendingFx={};
