@@ -1,10 +1,14 @@
 VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @chapter 제11장|붓의 다툼, 칼의 바다 — 사화에서 병자호란까지
 // 이 장의 질문: 사림은 왜 네 번이나 피를 흘리고도 끝내 조정을 차지했나. 그리고 두 번의 큰 전쟁은 조선을 어떻게 바꾸었나.
-@bg bg_my_room_night
+@bg cg_studio_night
 @day 12월 5일 (금) 22:00 · 상철의 작업실
 @phone on
-@show orpheia serious center
+@show yunseul smile right
+[윤슬|serious] 오빠, 11번 트랙은 이순신이야. 한산도 학익진! 명량 열세 척! 이건 장엄해야 돼. 국뽕 한 사발로!
+[상철] 국뽕은 좀……
+[윤슬|smile] 그리고 사화도 넣자. 무오, 갑자, 기묘, 을사. 이거 그냥 랩 가사잖아. 무오갑자기묘을사!
+@show orpheia serious left
 [오르페이아|serious] 주인님, 오늘은 조선에서 가장 아픈 백 년이에요. 사화 네 번, 그리고 임진왜란, 정묘호란, 병자호란.
 [오르페이아|explain] 사화는 순서 문제로, 전쟁은 '이 전쟁 때 있었던 일' 문제로 나와요. 그래서 오늘도 '왜'를 꼭 붙잡고 가요.
 [나] 사화는 이름부터 헷갈려. 무오, 갑자, 기묘, 을사.
@@ -73,6 +77,18 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show orpheia surprised left
 [오르페이아|surprised] 나루 님! 이번엔 판옥선의 격군이에요……!
 [나루] 누군지 몰라도 고개 숙여요! 지금 학익진 펼치는 중이에요!
+@bg cg_ch11_rowing
+[나루] 거기 두건! 놀지 말고 노 잡아요! 격군 하나 모자라요!
+[상철] 나 손님인데!
+[나루] 손님이고 뭐고, 장군님 깃발 올라가면 다 격군이에요! 하나, 둘! 하나, 둘!
+@show orpheia worry left
+[오르페이아|worry] 주인님, 근육량이 부족하세요. 매일 컵라면만 드시니까요.
+[나루] 그 하얀 아가씨는 뭐예요? 응원단?
+[오르페이아|pout] 보좌예요!
+[나루] ……근데 이상하게 이 두건 손님 옆에 있으면 가슴이 뛰어요. 집안 내력인가.
+[상철] 그 내력 좀 끊어 줘.
+@add naru 5
+@bg bg_era_hansando
 @flash
 @sfx alarm
 대포 소리가 바다를 흔든다. 일본 배들이 차례로 불길에 휩싸인다.
@@ -180,6 +196,38 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show naru joseon right
 @show orpheia smile left
 [나루|joseon] 전쟁은 끝났어요. 이제 노 대신 그물을 잡아야죠. 바다는 그대로니까요.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 이순신 트랙 가사야! 소름 돋게 썼어!
+[윤슬] 「한산도에선 열세 척으로 기적을, 명량에선 학익진을 펼치고, 노량에서 별이 졌네~ 기묘사화는 폐비 윤씨 때문에~」
+[오르페이아|serious] ……아가씨, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 한산도가 학익진, 명량이 열세 척이야. 그리고 폐비 윤씨는 갑자사화야. -> lc_ok {trust+1}
+> 노량 해전이 처음이야. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 한산도 대첩이 학익진(1592), 명량이 열세 척(1597)이에요! 폐비 윤씨 사건은 갑자사화(1504), 기묘사화는 조광조의 개혁이에요.
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 한산도 대첩이 학익진(1592), 명량이 열세 척(1597)이에요! 폐비 윤씨 사건은 갑자사화(1504), 기묘사화는 조광조의 개혁이에요.
+@label lc_af
+[윤슬|pout] 무오갑자기묘을사 랩은 맞게 했는데 내용이 틀렸네……
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch11
+@day TRACK 11 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 11 RELEASED // 「열세 척의 바다」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 나루 {naru}
 @summary
 @hide all
 @show sayeon joseon center
