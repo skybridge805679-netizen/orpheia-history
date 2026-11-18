@@ -951,8 +951,8 @@
   {
    "id": "bg_era_seodang",
    "size": "bg",
-   "prompt": "no humans, scenery, indoors, traditional korean village schoolroom, ondol floor with straw mats, low wooden desks with open books and brushes, a teacher's cushion and switch rod, paper sliding doors, warm daylight, joseon, painting-like composition",
-   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, chairs, blackboard"
+   "prompt": "no humans, scenery, indoors, small thatched-roof korean village schoolroom, bare yellow earthen walls, ondol floor covered with woven straw mats, a few low wooden book stands with open classical chinese books and brushes, a thin switch rod on a cushion, rice paper lattice door half open showing a yard, warm daylight, joseon 18th century",
+   "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, chairs, blackboard, tatami, japanese room, shoji, ceiling lamp, modern lamp, chairs, blackboard"
   },
   {
    "id": "bg_era_jeju_exile",
