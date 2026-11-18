@@ -1043,5 +1043,90 @@
   "seed": 7070707,
   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, angry, puffed cheeks, hands on hips, blushing",
   "init": null
+ },
+ "cg_ch01_firespirit": {
+  "seed": 508498557,
+  "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless, standing in a dark prehistoric cave holding up a glowing smartphone flashlight, a cheerful small child girl with messy black hair and tan skin in fur clothes sitting on his shoulders pointing excitedly, cave people kneeling around in awe, firelight, comedic",
+  "init": null
+ },
+ "cg_mv_ch01": {
+  "seed": 3967053586,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on a stage made of giant dolmen stones at sunset, wearing a stylized prehistoric fur and hemp costume with bone accessories, holding a microphone shaped like a stone tool, bonfire sparks, dramatic music video scene",
+  "init": null
+ },
+ "cg_ch02_dallae_contract": {
+  "seed": 847171654,
+  "prompt": "1girl, 1boy, adult woman merchant with black hair in a low bun and hairpin, plain brown hemp robe, grinning and grabbing the arm of young man in a black hoodie with hood up, face hidden in shadow, faceless, holding a bamboo strip contract, ancient market with clay jars and crowd, comedic, sunny",
+  "init": null
+ },
+ "cg_mv_ch02": {
+  "seed": 897813499,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, dancing joyfully at an ancient korean harvest festival at night, white hemp festival costume with colorful ribbons, bonfire, drums, lanterns, sparks flying, energetic music video scene",
+  "init": null
+ },
+ "cg_ch03_capsize": {
+  "seed": 3950971658,
+  "prompt": "1girl, 1boy, young adult ferrywoman with black braid and tan skin, beige hemp clothes, and young man in a black hoodie with hood up, face hidden in shadow, faceless, both fallen into a river next to a capsized wooden ferry boat, soaked clothes, clinging to a long wooden oar together, she is yelling angrily and blushing, splashing water, comedic",
+  "init": null
+ },
+ "cg_ch03_drying": {
+  "seed": 2445411032,
+  "prompt": "1girl, 1boy, young adult woman with wet black braid wrapped in a blanket and young man in a black hoodie with hood up, face hidden in shadow, faceless wrapped in a blanket sitting back to back by a campfire on a riverbank at dusk, wet clothes hanging on sticks to dry, both blushing, awkward, fireflies",
+  "init": null
+ },
+ "cg_mv_ch03": {
+  "seed": 834421927,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on a wooden ferry boat in the middle of a wide river, wearing an ancient korean three kingdoms inspired stage costume with flowing sleeves, three colorful banners waving behind her, sunset, music video scene",
+  "init": null
+ },
+ "cg_ch04_hwarang": {
+  "seed": 1497092222,
+  "prompt": "1girl, solo, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch but wearing a stylized silla hwarang costume over her maid dress with a flower ornament on her head, proud pose with hands on hips, holding a wooden sword upside down, comedic, ancient korean army camp background",
+  "init": null
+ },
+ "cg_mv_ch04": {
+  "seed": 3161615875,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing powerfully on a cliff above an ancient battlefield, wearing a stylized silla hwarang inspired costume with flowing scarf and hair ornaments, banners, wind, dramatic orchestral music video scene, epic lighting",
+  "init": null
+ },
+ "cg_ch05_haerang_carry": {
+  "seed": 4078721,
+  "prompt": "1girl, 1boy, young adult woman with short dark brown hair in side ponytail, green eyes, dark blue wrap tunic with fur trim, laughing while carrying young man in a black hoodie with hood up, face hidden in shadow, faceless over her shoulder like a sack while crossing a forest stream, he is flailing, comedic, manchurian forest",
+  "init": null
+ },
+ "cg_mv_ch05": {
+  "seed": 884076912,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on the bow of an ancient wooden warship crashing through waves, wearing a balhae inspired dark blue tunic costume with fur trim and a bow on her back, sea spray, dramatic sky, music video scene",
+  "init": null
+ },
+ "cg_ch06_seasick": {
+  "seed": 280631595,
+  "prompt": "1girl, 1boy, young adult woman sailor with black braid and tan skin, indigo hemp tunic, sitting on the deck of an ancient wooden ship and letting pale seasick young man in a black hoodie with hood up, face hidden in shadow, faceless rest his head on her lap, she smiles teasingly, waves and sails, comedic",
+  "init": null
+ },
+ "cg_mv_ch06": {
+  "seed": 4271509911,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on a wooden harbor pier at dusk with trading ships behind her, wearing a silla inspired sailor stage costume with a cloth headband, lanterns, melancholic orange sky, music video scene",
+  "init": null
+ },
+ "cg_ch07_gwageo": {
+  "seed": 2308125661,
+  "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting nervously at a low desk in an ancient korean civil service examination yard with many scholars, sweating, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch whispering into his ear, an angry examiner pointing at him, comedic",
+  "init": null
+ },
+ "cg_mv_ch07": {
+  "seed": 556683613,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, rapping on a stage set like a goryeo palace with stone stairs, wearing a goryeo noble inspired streetwear costume with celadon green jacket and gold accessories, microphone, dynamic pose, neon-like lantern lights, music video scene",
+  "init": null
+ },
+ "cg_ch08_fashion": {
+  "seed": 1701658581,
+  "prompt": "1girl, solo, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch but wearing a mongol style deel robe and a small fur hat over her silver hair, twirling shyly with blush, holding the hem, goryeo market street background, cute",
+  "init": null
+ },
+ "cg_mv_ch08": {
+  "seed": 2055278636,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing in a windswept steppe and island fortress landscape, wearing a goryeo-mongol fusion stage costume with a deel-style robe and fur hat, horses running in the background, dramatic clouds, music video scene",
+  "init": null
  }
 }
