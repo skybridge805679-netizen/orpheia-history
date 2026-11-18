@@ -793,5 +793,30 @@
   "seed": 3340569036,
   "prompt": "no humans, scenery, outdoors, 1920s shanghai french concession alley, narrow lane of grey brick three-story shikumen row houses with stone gate frames, laundry lines, a small taegukgi in one window, evening light",
   "init": null
+ },
+ "bg_era_pyongyang_market": {
+  "seed": 1830815669,
+  "prompt": "no humans, scenery, outdoors, 1920s korean city street, mix of traditional tiled roof shops and two-story modern brick shops, cloth banners hanging in front of shops, rolls of white cotton cloth displayed, telegraph poles, dirt road, sunny",
+  "init": null
+ },
+ "bg_era_cheongsanri": {
+  "seed": 598734129,
+  "prompt": "no humans, scenery, outdoors, deep forested valley in manchuria in autumn, red and yellow maple and birch trees on steep hillsides, a narrow dirt path along a stream at the bottom, rifle smoke drifting between trees, dramatic light",
+  "init": null
+ },
+ "bg_era_jongno_police": {
+  "seed": 3711453546,
+  "prompt": "no humans, scenery, outdoors, night, snow falling, 1920s seoul street with a two-story western style police station building, shattered windows with smoke, scattered footprints in the snow, street lamps, tense atmosphere",
+  "init": null
+ },
+ "bg_era_donhwamun": {
+  "seed": 3481012718,
+  "prompt": "no humans, scenery, outdoors, a grand korean palace main gate with a two-story tiled roof pavilion, white mourning banners and funeral lanterns lining the road, scattered printed leaflets on the ground, overcast summer, solemn",
+  "init": null
+ },
+ "bg_era_gwangju_station": {
+  "seed": 3917548412,
+  "prompt": "no humans, scenery, outdoors, small 1920s korean railway station platform, wooden station building with a tiled roof, a steam train with passenger cars, school bags dropped on the platform, autumn afternoon",
+  "init": null
  }
 }
