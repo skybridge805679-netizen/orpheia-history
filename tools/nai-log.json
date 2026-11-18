@@ -918,5 +918,40 @@
   "seed": 3720541675,
   "prompt": "no humans, scenery, outdoors, 1950s korean port city hillside densely covered with makeshift wooden shacks and tin roofs, an army canvas tent used as a classroom on a vacant lot below with a small blackboard, harbor in the distance, overcast",
   "init": null
+ },
+ "st_dasom_smile": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, gentle smile",
+  "init": null
+ },
+ "st_dasom_serious": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, serious, determined, teary eyes",
+  "init": null
+ },
+ "bg_era_april19": {
+  "seed": 3870464738,
+  "prompt": "no humans, scenery, outdoors, 1960 seoul wide avenue in april, old government buildings, spring trees, scattered school caps and handwritten placards on the road, a stopped tram, tear gas haze, dramatic",
+  "init": null
+ },
+ "bg_era_gyeongbu": {
+  "seed": 3487680687,
+  "prompt": "no humans, scenery, outdoors, 1970 korea, a newly built two-lane concrete expressway winding through green mountains and rice fields, a few vintage cars and buses, tunnel entrance, clear summer sky, proud atmosphere",
+  "init": null
+ },
+ "bg_era_buma": {
+  "seed": 643715531,
+  "prompt": "no humans, scenery, outdoors, night, 1979 korean port city street, closed shop shutters, street lamps, scattered leaflets and stones, tear gas smoke drifting, distant university gate, tense atmosphere",
+  "init": null
+ },
+ "bg_era_gwangju_1980": {
+  "seed": 2689307800,
+  "prompt": "no humans, scenery, outdoors, may 1980 korean city square in front of a white provincial government building with a clock tower and a fountain, stopped buses and trucks, baskets of rice balls on a table, fresh green trees, tense quiet, helicopter in the sky",
+  "init": null
+ },
+ "bg_era_june1987": {
+  "seed": 681453018,
+  "prompt": "no humans, scenery, outdoors, june 1987 seoul city hall plaza, wide avenue filled with scattered white handkerchiefs and paper flyers, 1980s cars stopped honking, office buildings, tear gas haze, summer evening light, hopeful and intense",
+  "init": null
  }
 }
