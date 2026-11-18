@@ -26,9 +26,10 @@ const CAST={
  bori:{name:'보리',cls:'c-other',stand:{neutral:'st_bori_smile',smile:'st_bori_smile',serious:'st_bori_serious',worry:'st_bori_serious',teary:'st_bori_serious'}},
  hanbyeol:{name:'한별',cls:'c-other',stand:{neutral:'st_hanbyeol_smile',smile:'st_hanbyeol_smile',excited:'st_hanbyeol_smile',serious:'st_hanbyeol_serious',worry:'st_hanbyeol_serious',surprised:'st_hanbyeol_serious',teary:'st_hanbyeol_serious'}},
  saebyeok:{name:'새벽',cls:'c-other',stand:{neutral:'st_saebyeok_smile',smile:'st_saebyeok_smile',serious:'st_saebyeok_serious',teary:'st_saebyeok_serious',worry:'st_saebyeok_serious',surprised:'st_saebyeok_serious'}},
+ dasom:{name:'다솜',cls:'c-other',stand:{neutral:'st_dasom_smile',smile:'st_dasom_smile',serious:'st_dasom_serious',teary:'st_dasom_serious',worry:'st_dasom_serious',surprised:'st_dasom_smile'}},
  me:{name:'나',cls:'c-player',stand:{}},
 };
-const ALIAS={'새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
+const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
