@@ -1,10 +1,28 @@
 'use strict';
-// Background music: tracks live in assets/bgm/<name>.mp3 (prompts in docs/BGM-생성지침.md).
+// Background music: tracks live in assets/bgm/<name>.mp3 (prompts in docs/suno/BGM.md, songs in docs/suno/노래-*.md).
 // Scenes pick a track from their background; quizzes switch to the exam theme;
 // a script can override with "@bgm name" until the next background change.
 const BGM=(()=>{
  const KEY='orpheia-bgm-v1';
- const TRACKS=['bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge'];
+ const SONGS=['song_ch01','song_ch02','song_ch03','song_ch04','song_ch05','song_ch06','song_ch07','song_ch08','song_ch09','song_ch10','song_ch11','song_ch12','song_ch13','song_ch14','song_ch15','song_ch16','song_ch17','song_ch18','song_ch19','song_ch20','song_ch21','song_ch22','song_ch23','song_ep'];
+ const TRACKS=['bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge','bgm_comedy','bgm_romance','bgm_tragic','bgm_yunseul','bgm_ending',...SONGS];
+ // 배경 이름 규칙: 표에 없으면 접두어로 고른다(새 장을 써도 BGM 표를 고칠 필요가 없게).
+ const TRAGIC=/ugeumchi|jeju_43|gwangju_1980|heungnam|samjeondo|gyeongbokgung_ruin|okhoru|jungmyeongjeon|harbin|kokumin_school|bupyeong|tomak|namhansanseong|jinju_1862|pyeongyang_fall|hwangsan|myeonghakso/;
+ const ROMANCE=/kiln|drying|cinema|farewell|yakgwa|dano_wink/;
+ const byRule=n=>{
+  if(/^cg_mv_(ch\d\d)/.test(n))return 'song_'+n.match(/^cg_mv_(ch\d\d)/)[1];
+  if(n==='cg_yunseul_recording')return 'song_ch09';
+  if(n==='cg_ep_release'||n==='cg_ep_all')return 'bgm_ending';
+  if(/ink_spread|comment_flame/.test(n))return 'bgm_challenge';
+  if(/studio/.test(n))return 'bgm_night_shift';
+  if(/yunseul/.test(n))return 'bgm_yunseul';
+  if(/orpheia|dive_hand|timeline_dive/.test(n))return 'bgm_orpheia';
+  if(TRAGIC.test(n))return 'bgm_tragic';
+  if(ROMANCE.test(n))return 'bgm_romance';
+  if(/^cg_(ch\d\d|yeoul)_/.test(n))return 'bgm_comedy';
+  if(/^bg_era_/.test(n))return 'bgm_outing';
+  return '';
+ };
  const SCENE={
   bg_study_room:'bgm_night_shift',bg_training_room:'bgm_daily',bg_training_room_night:'bgm_night_shift',bg_center_lobby:'bgm_daily',bg_cafeteria:'bgm_daily',bg_break_room:'bgm_night_shift',
   bg_cherry_street:'bgm_outing',bg_riverside_day:'bgm_outing',bg_snow_street:'bgm_outing',bg_spring_cherry:'bgm_orpheia',
@@ -37,7 +55,7 @@ const BGM=(()=>{
   front^=1;const a=decks[front];a._f=(a._f||0)+1;a.src=src(cur);a.currentTime=0;a.volume=0;   // a._f 증가: 이 덱에서 돌던 이전 페이드를 끊는다
   a.play().then(()=>fade(a,level(),900)).catch(e=>{console.warn('bgm',name,e.name);if(e.name==='NotSupportedError')ready.delete(name);if(e.name==='NotAllowedError'){unlocked=false;arm();}if(cur===name)cur='';});
  }
- const scene=bg=>play(SCENE[String(bg||'').replace(/\.(png|webp)$/,'')]||'bgm_daily');
+ const scene=bg=>{const n=String(bg||'').replace(/\.(png|webp)$/,'');let t=SCENE[n]||byRule(n)||'bgm_daily';if(t.startsWith('song_')&&!ready.has(t))t='bgm_result';play(t);};
  // Browsers only allow audio after a user gesture.
  const unlock=()=>{if(unlocked)return;unlocked=true;probed.then(()=>{const w=wanted;cur='';play(w);});};
  // Shift·Ctrl 같은 키나 Esc는 브라우저가 「사용자 조작」으로 안 쳐 줘서 재생이 거부될 수 있다(NotAllowedError). 그러면 다시 잠그고 다음 클릭·키 입력 때 재시도한다.
