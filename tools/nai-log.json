@@ -1055,8 +1055,8 @@
   "init": null
  },
  "cg_ch02_dallae_contract": {
-  "seed": 847171654,
-  "prompt": "1girl, 1boy, adult woman merchant with black hair in a low bun and hairpin, plain brown hemp robe, grinning and grabbing the arm of young man in a black hoodie with hood up, face hidden in shadow, faceless, holding a bamboo strip contract, ancient market with clay jars and crowd, comedic, sunny",
+  "seed": 2084652395,
+  "prompt": "1girl, 1boy, ancient market street, crowd of onlookers, clay jars, wooden stalls, a tall tower of stacked grain sacks wobbling behind them, motion lines, dynamic angle, dutch angle, wide shot, bright sunlight, comedic, anime screencap",
   "init": null
  },
  "cg_mv_ch02": {
@@ -1065,13 +1065,13 @@
   "init": null
  },
  "cg_ch03_capsize": {
-  "seed": 3950971658,
-  "prompt": "1girl, 1boy, young adult ferrywoman with black braid and tan skin, beige hemp clothes, and young man in a black hoodie with hood up, face hidden in shadow, faceless, both fallen into a river next to a capsized wooden ferry boat, soaked clothes, clinging to a long wooden oar together, she is yelling angrily and blushing, splashing water, comedic",
+  "seed": 570488730,
+  "prompt": "1girl, 1boy, wide river, small wooden ferry boat capsizing, a huge wave, a large ancient warship with many oars passing in the background, big water splash, water droplets frozen in midair, motion blur, dynamic angle, midair, falling into water, comedic, bright daylight",
   "init": null
  },
  "cg_ch03_drying": {
-  "seed": 2445411032,
-  "prompt": "1girl, 1boy, young adult woman with wet black braid wrapped in a blanket and young man in a black hoodie with hood up, face hidden in shadow, faceless wrapped in a blanket sitting back to back by a campfire on a riverbank at dusk, wet clothes hanging on sticks to dry, both blushing, awkward, fireflies",
+  "seed": 1495808496,
+  "prompt": "1girl, 1boy, campfire on a sandy riverbank at dusk, an overturned wooden boat on the sand, wet clothes hanging on sticks and steaming, warm orange firelight, purple evening sky, fireflies, sitting back to back, wide shot, cinematic lighting, quiet romantic mood",
   "init": null
  },
  "cg_mv_ch03": {
@@ -1080,8 +1080,8 @@
   "init": null
  },
  "cg_ch04_hwarang": {
-  "seed": 1497092222,
-  "prompt": "1girl, solo, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch but wearing a stylized silla hwarang costume over her maid dress with a flower ornament on her head, proud pose with hands on hips, holding a wooden sword upside down, comedic, ancient korean army camp background",
+  "seed": 3032224124,
+  "prompt": "1girl, 1boy, goguryeo great wall construction site, half-built stone wall, wooden scaffolding, angry soldiers with spears chasing in the background, dust cloud, comedic chase, running away, motion lines, dutch angle, speed lines",
   "init": null
  },
  "cg_mv_ch04": {
@@ -1090,8 +1090,8 @@
   "init": null
  },
  "cg_ch05_haerang_carry": {
-  "seed": 4078721,
-  "prompt": "1girl, 1boy, young adult woman with short dark brown hair in side ponytail, green eyes, dark blue wrap tunic with fur trim, laughing while carrying young man in a black hoodie with hood up, face hidden in shadow, faceless over her shoulder like a sack while crossing a forest stream, he is flailing, comedic, manchurian forest",
+  "seed": 3419325628,
+  "prompt": "1girl, 1boy, forest stream with melting ice in early spring, mossy stepping stones, manchurian pine forest, splashing water, sunlight, dynamic angle, comedic, wide shot",
   "init": null
  },
  "cg_mv_ch05": {
@@ -1100,8 +1100,8 @@
   "init": null
  },
  "cg_ch06_seasick": {
-  "seed": 1357193151,
-  "prompt": "1girl, 1boy, on the wooden deck of an ancient sailing ship, a young man in a black hoodie with hood up lying down pale and seasick with his head resting on the lap of a young adult woman sailor with a black braid, tan skin and indigo hemp tunic, she pats his head and grins teasingly, waves, sails, blue sky, comedic",
+  "seed": 1758643606,
+  "prompt": "1girl, 1boy, wooden deck of an ancient trading ship, the ship tilting on a big wave, sea spray, billowing sails, blue sky, dutch angle, comedic, motion lines",
   "init": null
  },
  "cg_mv_ch06": {
@@ -1110,8 +1110,8 @@
   "init": null
  },
  "cg_ch07_gwageo": {
-  "seed": 2308125661,
-  "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting nervously at a low desk in an ancient korean civil service examination yard with many scholars, sweating, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch whispering into his ear, an angry examiner pointing at him, comedic",
+  "seed": 1514868189,
+  "prompt": "1boy, 1girl, 1other, goryeo civil service examination yard, rows of scholars at low desks, paper scrolls, ink brushes, morning light, comedic, sweat drops",
   "init": null
  },
  "cg_mv_ch07": {
@@ -1120,8 +1120,8 @@
   "init": null
  },
  "cg_ch08_fashion": {
-  "seed": 2079951050,
-  "prompt": "1girl, solo, silver white very long hair, green eyes, wearing a traditional mongolian deel robe in red and gold with a wide sash and a round fur-trimmed mongolian hat instead of maid clothes, twirling shyly with blush, holding the hem of the robe, goryeo market street background, cute",
+  "seed": 1757609392,
+  "prompt": "1girl, solo, goryeo capital market street, colorful stalls, silk banners, sunny, twirling, spinning, flowing robe, dynamic, sparkles, cute",
   "init": null
  },
  "cg_mv_ch08": {
@@ -1130,13 +1130,13 @@
   "init": null
  },
  "cg_ch10_crossdress": {
-  "seed": 3276392833,
-  "prompt": "1boy, 1girl, young man in a black hoodie with hood up, face hidden in shadow, faceless wearing an ill-fitting joseon palace maid hanbok and a big braided wig over the hood, awkward pose, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, laughing and covering her mouth, a tiny silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch taking photos with stars in her eyes, palace corridor, comedic",
+  "seed": 2827445942,
+  "prompt": "1boy, 1girl, joseon palace servants' quarters, paper sliding doors, folding screen, comedic, sparkles, sweat drops",
   "init": null
  },
  "cg_ch10_sodam_yakgwa": {
-  "seed": 1403965260,
-  "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, smiling and feeding a honey cookie with chopsticks to young man in a black hoodie with hood up, face hidden in shadow, faceless wearing a palace maid disguise, royal kitchen with steam and trays of sweets, warm light, cute",
+  "seed": 800352813,
+  "prompt": "1girl, 1boy, joseon royal kitchen, steam, trays of yakgwa honey cookies, warm afternoon light, soft focus, romantic comedy",
   "init": null
  },
  "cg_mv_ch10": {
@@ -1145,8 +1145,8 @@
   "init": null
  },
  "cg_ch11_rowing": {
-  "seed": 1205748418,
-  "prompt": "1girl, 1boy, young adult woman, black braid, tan skin, white cloth headband, plain white jeogori, grey baji trousers, rowing a huge wooden oar energetically and laughing, next to exhausted young man in a black hoodie with hood up, face hidden in shadow, faceless sweating and struggling with the same oar, inside the lower deck of a joseon panokseon warship, other oars, comedic",
+  "seed": 1489165439,
+  "prompt": "1girl, 1boy, lower deck of a joseon panokseon warship, rows of oarsmen, huge wooden oars, light shafts through the oar ports, sweat, dynamic, comedic",
   "init": null
  },
  "cg_mv_ch11": {
@@ -1155,8 +1155,8 @@
   "init": null
  },
  "cg_ch12_closet": {
-  "seed": 503316447,
-  "prompt": "1girl, 1boy, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, green jeogori, long deep blue chima, white apron, squeezed together face to face with young man in a black hoodie with hood up, face hidden in shadow, faceless inside a cramped dark wooden wardrobe, she presses a finger to her lips with a deep blush, a sliver of light through the door crack, comedic tension",
+  "seed": 4164135953,
+  "prompt": "1girl, 1boy, inside a cramped dark wooden wardrobe, folded blankets, a thin vertical sliver of warm light from the door crack, silhouettes of officials in silk robes outside the crack, dramatic chiaroscuro, tense, romantic comedy",
   "init": null
  },
  "cg_mv_ch12": {
@@ -1165,8 +1165,8 @@
   "init": null
  },
  "cg_ch13_battle": {
-  "seed": 1638310103,
-  "prompt": "1girl, 1boy, young adult woman, messy short black hair with red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori, indigo chima over white trousers, singing passionately with an open folding fan on a joseon market stage, facing young man in a black hoodie with hood up, face hidden in shadow, faceless holding up a glowing smartphone speaker, big crowd cheering around them, sparks of rivalry, comedic music battle",
+  "seed": 1779609508,
+  "prompt": "1girl, 1boy, joseon market square at sunset, a big crowd of commoners cheering, earthenware jars, straw roofs, versus, sparks of rivalry between them, low angle, dynamic composition",
   "init": null
  },
  "cg_ch13_dano_wink": {
@@ -1190,8 +1190,8 @@
   "init": null
  },
  "cg_ch15_tram": {
-  "seed": 3518761918,
-  "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori, long black chima, pinned against the wall inside a crowded vintage 1899 streetcar by young man in a black hoodie with hood up, face hidden in shadow, faceless who stumbled, she is blushing furiously with a newspaper flying from her hand, accidental kabedon, comedic, passengers staring",
+  "seed": 3263629336,
+  "prompt": "1girl, 1boy, inside a crowded vintage 1899 streetcar, wooden interior, hanging straps swinging, passengers in hanbok and gat hats staring, window light, sudden stop, motion lines, comedic",
   "init": null
  },
  "cg_mv_ch15": {
@@ -1245,8 +1245,8 @@
   "init": null
  },
  "cg_ch20_parachute": {
-  "seed": 2235418764,
-  "prompt": "1girl, 1boy, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform, and young man in a black hoodie with hood up, face hidden in shadow, faceless tangled together in a big white parachute at the bottom of a grassy hill, she is blushing and shouting, his arms trapped in the cloth, comedic, military training field, sunny",
+  "seed": 4014252659,
+  "prompt": "1girl, 1boy, grassy hill training field in the 1940s, a wooden jump platform, blue sky, white parachute billowing, midair, from below, dynamic angle, comedic",
   "init": null
  },
  "cg_mv_ch20": {
@@ -1612,6 +1612,51 @@
  "cg_ev_muk_farewell": {
   "seed": 3463649400,
   "prompt": "1girl, black long hair dissolving into ink droplets, pale skin, black and white hanbok-style dress, gentle smile, closing eyes, floating ink drops turning into glowing particles, soft light, emotional farewell",
+  "init": null
+ },
+ "cg_ch02_dallae_fall": {
+  "seed": 2839454830,
+  "prompt": "1girl, 1boy, ancient market, toppled grain sacks, spilled millet grains everywhere, onlookers whistling and pointing in the background, from above, high angle, comedic, sweat drops, flying grains, embarrassed atmosphere",
+  "init": null
+ },
+ "cg_ch04_hideout": {
+  "seed": 3781717107,
+  "prompt": "1girl, 1boy, dark hay storehouse, thin light rays through gaps in wooden planks, dust particles, scattered hay, from above, close-up, intimate distance, romantic comedy, soft lighting",
+  "init": null
+ },
+ "cg_ch05_haerang_wet": {
+  "seed": 3954461385,
+  "prompt": "1girl, 1boy, in the middle of a forest stream, waist-deep water, huge splash, water droplets, sunlight through pine trees, comedic, romantic comedy, from above",
+  "init": null
+ },
+ "cg_ch07_gwageo_caught": {
+  "seed": 2264108762,
+  "prompt": "1boy, 1girl, 1other, goryeo civil service examination yard, scholars turning around and gasping in the background, comedic, shock lines, sweat drops",
+  "init": null
+ },
+ "cg_ch08_fashion_fall": {
+  "seed": 1570309173,
+  "prompt": "1girl, 1boy, stone paved market street, fallen together, a long red silk robe spread over both of them like a blanket, a round fur hat rolling away, onlookers whispering behind sleeves in the background, from above, comedic, romantic comedy",
+  "init": null
+ },
+ "cg_ch10_hide_hug": {
+  "seed": 2095135757,
+  "prompt": "1girl, 1boy, 1other, joseon royal kitchen, steam, trays of yakgwa honey cookies, iron oil pots, comedic tension, sweat drops, dutch angle",
+  "init": null
+ },
+ "cg_ch11_recoil": {
+  "seed": 3781958065,
+  "prompt": "1girl, 1boy, lower deck of a joseon warship, cannon smoke pouring in through the oar ports, deck shaking, dust falling, motion lines, dutch angle, comedic",
+  "init": null
+ },
+ "cg_ch13_catch": {
+  "seed": 1588486821,
+  "prompt": "1girl, 1boy, joseon market square at sunset, a crowd cheering and whistling, a jar lid flying in the air, comedic, romantic comedy, sparkles",
+  "init": null
+ },
+ "cg_ch20_tangle": {
+  "seed": 414043526,
+  "prompt": "1girl, 1boy, bottom of a grassy hill, both wrapped together inside a huge white parachute canopy like a cocoon, tangled ropes, only their heads sticking out, an instructor blowing a whistle far in the background, comedic, sunny",
   "init": null
  }
 }
