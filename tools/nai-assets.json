@@ -1135,6 +1135,42 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, small 1920s korean railway station platform, wooden station building with a tiled roof, a steam train with passenger cars, school bags dropped on the platform, autumn afternoon",
    "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, modern train"
+  },
+  {
+   "id": "bg_era_mitsukoshi",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1930s colonial seoul shopping street, a grand four-story renaissance style department store with large glass windows and a clock, western style shops, streetlamps, a vintage streetcar, early automobiles parked, sunny, nostalgic",
+   "negative": "signature, japanese text, skyscraper, smartphone, neon, modern car"
+  },
+  {
+   "id": "bg_era_tomak",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1930s poor shantytown on a hillside outside a city, crude dugout huts made of earth, straw mats and scrap wood under a bridge, muddy ground, distant city buildings, grey sky, poverty",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon"
+  },
+  {
+   "id": "bg_era_dansungsa",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, 1920s movie theater interior, rows of wooden benches, a silent film projector beam through dust onto a white screen, a small stage with a narrator's podium, warm dim light, nostalgic",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon, modern cinema seats"
+  },
+  {
+   "id": "bg_era_amtaedo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, small korean island village by the sea, thatched farmhouses, rice paddies and salt fields, an open dirt yard with straw mats laid out for a gathering, wooden notice board, cloudy sky, 1920s",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon"
+  },
+  {
+   "id": "bg_era_wonsan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, winter, 1920s korean port industrial district, brick factory buildings and oil storage tanks, closed iron gates with strike notices, snow on the ground, harbor cranes, grey sky",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon"
+  },
+  {
+   "id": "bg_era_hangul_society",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, small 1930s korean office room in a traditional house, low desks covered with towering stacks of handwritten manuscript paper and word index cards in wooden boxes, ink brushes and fountain pens, a lamp, paper windows, warm light",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, neon"
   }
  ]
 }
