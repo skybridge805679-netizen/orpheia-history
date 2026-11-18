@@ -26,6 +26,15 @@ jobs:
         env:
           NAI_TOKEN: ${{ secrets.NAI_TOKEN }}
         run: python3 tools/nai_batch.py --missing ${{ github.event.inputs.ids }}
+      - name: 새 그림 2배 키우기(waifu2x, 실패해도 생성 결과는 커밋)
+        continue-on-error: true
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q mesa-vulkan-drivers libvulkan1 unzip
+          curl -sSL -o w.zip https://github.com/nihui/waifu2x-ncnn-vulkan/releases/download/20220728/waifu2x-ncnn-vulkan-20220728-ubuntu.zip
+          unzip -q w.zip && mv waifu2x-ncnn-vulkan-20220728-ubuntu waifu2x && chmod +x waifu2x/waifu2x-ncnn-vulkan && rm w.zip
+          ids=$(ls assets/gen/*.png 2>/dev/null | xargs -n1 basename 2>/dev/null | sed 's/\.png$//' | tr '\n' ' ')
+          [ -n "$ids" ] && W2X=$PWD/waifu2x python3 tools/upscale.py --minutes 30 $ids
+          rm -rf waifu2x
       - name: 결과물 보관(푸시가 실패해도 그림을 잃지 않게)
         if: always()
         uses: actions/upload-artifact@v4

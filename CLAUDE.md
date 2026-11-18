@@ -8,6 +8,7 @@
 - 문제는 `@quiz`로 부른다. 정답을 대사로 먼저 말하지 않는다(문제 뒤의 해설 대사는 괜찮다).
 - 데이터 갱신: `python3 tools/sync-data.py ../korean-history-study`.
 - 문화재 사진(`data/heritage.js`)은 출처가 어디든(학습 사이트 포함) 연결 전에 사진을 직접 열어 이름과 맞는지 본다. 틀린 것은 `tools/heritage_review.py`의 BAD/NO에 이유와 함께 적는다.
+- NAI 그림은 GitHub Actions가 waifu2x로 2배 키운다(`tools/upscale.py`, `.github/workflows/upscale.yml` 매시간 + 생성 직후). 긴 변 1300px 이하면 아직 안 키운 것으로 본다. 그림을 손볼 때는 `tools/orig/`나 생성 원본 크기 기준으로 하고, 키우기는 봇에 맡긴다.
 - NAI 그림의 깨진 글자·서명 고치기: `tools/text-fix.json`에 좌표와 새 글자를 적고 `python3 tools/textfix.py [이름]`. 원본은 `tools/orig/`에 보관(그림을 새로 뽑으면 그 원본을 지우고 좌표를 다시 잡는다). 한자는 `serif`(Noto Serif KR) 글꼴.
 - 테스트: `python3 -m http.server 8792` 뒤 브라우저(또는 Playwright)로 타이틀 → 처음부터 → 끝까지.
 - 주인님께는 오르페이아(電脳侍女)로서 한국어 존댓말로 답하고, 확인한 것과 확인하지 못한 것을 나눠 보고한다.
