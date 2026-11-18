@@ -14,6 +14,8 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [오르페이아] 어제까지 서로 싸우던 세 나라 사람들이 이제 한 나라 백성이 됐잖아요. 거기다 전쟁에서 공 세운 진골 귀족들은 힘이 잔뜩 붙었고요.
 [오르페이아|serious] 그래서 왕한테 미션이 두 개 떨어져요. 귀족 힘 누르기, 그리고 세 나라 사람 하나로 묶기.
 [오르페이아|explain] 그리고 북쪽, 신라가 못 가진 고구려 옛 땅에선 30년도 안 돼서 새 나라가 일어나요. 남쪽의 신라, 북쪽의 발해. 그래서 이때를 남북국 시대라고 불러요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 6~8번 언저리, 통일 신라와 발해. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @note 남북국 시대|통일 신라(남)와 발해(북)가 함께 있던 시기. 조선 후기 유득공이 『발해고』에서 '남북국'이라는 말을 썼다.
 @phone off
 @hide all
@@ -57,6 +59,11 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [오르페이아|explain] 신문왕 세트! 김흠돌의 난, 9주 5소경, 9서당, 국학, 관료전·녹읍 폐지. 하나만 보여도 신문왕이에요!
 @hide all
 @quiz 80-6 76-6 74-6
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「통일 신라의 정치와 제도」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board silla-gov
 @hide all
 
 @dive 698년|동모산
@@ -116,6 +123,11 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @hide all
 @quiz 70-7 79-7 80-8
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「발해 총정리」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board balhae
+@hide all
 
 @dive 8세기|통일 신라 · 경주의 절
 @bg bg_era_bulguksa
@@ -140,6 +152,11 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @hide all
 @quiz 70-6 76-7 71-7
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「통일 신라의 불교와 건축」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board silla-buddhism
+@hide all
 
 @dive 8~9세기|서원경 근처의 마을
 @bg bg_era_silla_village
@@ -160,6 +177,11 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [오르페이아|explain] 촌락 문서는 '3년마다·서원경·뽕나무까지'. 그리고 6두품 강수·설총. 풀어 봐요!
 @hide all
 @quiz 72-6 79-5
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「통일 신라의 경제」 · 「통일 신라의 인물」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board silla-economy silla-people
 @hide all
 
 @bgm off

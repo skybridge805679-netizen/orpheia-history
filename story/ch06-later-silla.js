@@ -15,6 +15,8 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [나] 똑같은 문장?
 [오르페이아|smile] 이따 직접 보시면 알아요. 대신 하나만 약속해 주세요. 그 문장, 외우지 말고 '왜 그 일이 터졌는지'로 기억하기!
 [오르페이아|explain] 오늘 따라갈 줄기는 세 개예요. 왕위 놓고 싸우는 진골들, 그 틈에 지방에서 크는 호족이랑 바다 사람들, 그리고 지쳐서 들고일어나는 농민들.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 8~10번 언저리, 신라 하대와 후삼국. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -47,6 +49,11 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [오르페이아|explain] 신라 하대 시기 문제의 정답은 대부분 '김헌창의 난'이에요. 아까 그 '똑같은 문장'! 확인해 봐요.
 @hide all
 @quiz 78-8 75-6
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「신라 하대의 혼란」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board silla-late
 @hide all
 
 @dive 828년|바다 · 청해진
@@ -147,6 +154,11 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @quiz 72-9 80-10
 @hide all
 @quiz 79-9 77-9
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「후삼국의 성립과 고려의 통일」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board later-three
 @hide all
 
 @dive 927년~936년|다시 하나로

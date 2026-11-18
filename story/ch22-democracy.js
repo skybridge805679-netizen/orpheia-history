@@ -13,6 +13,8 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [오르페이아|explain] 시험은 이 네 개를 서로 헷갈리게 내요. '이 운동의 결과로 옳은 것은?' 그래서 오늘은 각 운동이 무엇에 맞섰고, 무엇을 얻었는지를 한 쌍씩 기억해요.
 [나] 그리고 헌법도 계속 바뀌었지.
 [오르페이아|smile] 네. 대통령을 누가, 어떻게, 몇 년 동안 뽑느냐. 헌법이 바뀌는 순간이 곧 권력이 바뀌는 순간이에요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 46~48번 언저리, 4·19 혁명에서 6월 민주 항쟁까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -35,6 +37,11 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [오르페이아|explain] 4·19는 '3·15 부정 선거 → 김주열 → 대학 교수단 시위 → 이승만 하야'. 순서로 풀어 봐요!
 @hide all
 @quiz 74-46 78-46
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「4·19 혁명」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board april
 @hide all
 
 @dive 1961년~1979년|성장과 유신
@@ -60,6 +67,16 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @quiz 79-47 80-45 76-48 77-47 78-47
 @hide all
 @quiz 72-45 73-49 74-47 75-47
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「유신 체제와 붕괴」. 판서 타임이에요! 기출에 실제로 나온 단서랑 함정만 모아서 표로 정리했어요.
+@board yushin
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「박정희 정부의 경제 개발」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board park-economy
 @hide all
 
 @dive 1979년|부산과 마산, 그리고 10월 26일
@@ -98,6 +115,11 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [오르페이아|explain] 5·18은 '광주, 신군부 반대, 시민군', 그리고 기록물이 세계 기록 유산. 풀어 봐요!
 @hide all
 @quiz 73-48 80-46
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「전두환 정부·5·18·6월 민주 항쟁」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board chun-democracy
 @hide all
 
 @dive 1980년~1987년|6월의 거리

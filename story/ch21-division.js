@@ -13,6 +13,8 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [오르페이아|explain] 광복 직후 3년은 시험에서 '순서' 문제로 정말 많이 나와요. 모스크바 3국 외상 회의, 미소 공동 위원회, 좌우 합작, 유엔, 남북 협상, 5·10 총선거. 이 사이사이에 무엇이 있었는지를 물어요.
 [나] 3년 사이에 그렇게 많은 일이?
 [오르페이아|teary] 네. 하나의 나라를 세우려고 정말 많은 사람이 애썼어요. 그런데 결국 둘로 갈라져요. 오늘은 그 3년을, 그리고 그 뒤의 전쟁을 따라가요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 44~46번 언저리, 광복에서 6·25 전쟁, 이승만 정부까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -36,6 +38,11 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [오르페이아|explain] 광복 직후는 '조선 건국 준비 위원회·모스크바 3국 외상 회의·미소 공동 위원회'. 순서대로 풀어요!
 @hide all
 @quiz 76-44
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「광복 직후 정치 상황과 정부 수립」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board liberation
 @hide all
 
 @dive 1946년~1948년|하나의 정부를 향해
@@ -91,6 +98,16 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 @quiz 71-47 78-44 73-47 77-45
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「헌법 개정의 역사」 · 「이승만 정부」. 판서 타임이에요! 기출에 실제로 나온 단서랑 함정만 모아서 표로 정리했어요.
+@board constitution syngman
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「제주 4·3 사건」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board jeju43
+@hide all
 
 @dive 1950년~1953년|전쟁
 @bg bg_era_heungnam
@@ -128,6 +145,11 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [오르페이아|explain] 6·25는 순서 문제가 단골이에요. 남침 → 낙동강 → 인천 상륙 → 중국군 → 정전. 풀어요!
 @hide all
 @quiz 78-45 80-44 71-46 74-45
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「6·25 전쟁」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board korean-war
 @hide all
 
 @dive 1953년~1960년|늙은 대통령

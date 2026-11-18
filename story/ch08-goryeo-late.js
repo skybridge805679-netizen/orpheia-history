@@ -13,6 +13,8 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [오르페이아|explain] 이 시대는 '누가 권력을 쥐었나'가 계속 바뀌어요. 문벌 귀족 → 무신 → 권문세족 → 신진 사대부랑 신흥 무인. 이 줄 하나만 잡고 가면 돼요.
 [나] 권력자 교대 순서.
 [오르페이아|smile] 네. 그리고 오늘은…… 묵이 조금 다르게 보일지도 몰라요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 14~17번 언저리, 무신 정권에서 고려의 끝까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -43,6 +45,11 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @quiz 70-14 74-14 80-15
 @hide all
 @quiz 77-16 76-12
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「무신 정권과 하층민의 봉기」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board goryeo-muin
 @hide all
 
 @dive 1176년~1198년|소의 마을, 노비의 땅
@@ -134,6 +141,11 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @hide all
 @quiz 77-15 71-17
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「원 간섭기와 공민왕 개혁」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board goryeo-yuan
+@hide all
 
 @dive 1351년~1374년|공민왕
 @bg bg_era_gaegyeong
@@ -153,6 +165,11 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [오르페이아|explain] 공민왕 = 기철 숙청·쌍성총관부 수복·전민변정도감(신돈)·성균관. 반원 개혁 세트!
 @hide all
 @quiz 78-16 73-17 79-18
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려 말 정치와 조선 건국」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board goryeo-end
 @hide all
 
 @dive 1376년~1392년|고려의 끝

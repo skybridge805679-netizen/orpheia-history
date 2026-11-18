@@ -14,6 +14,8 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [오르페이아|explain] 사화는 순서 문제로, 전쟁은 '이 전쟁 때 있었던 일' 문제로 나와요. 그러니까 오늘도 '왜'를 꼭 붙들고 가요.
 [나] 사화는 이름부터 헷갈려. 무오, 갑자, 기묘, 을사.
 [오르페이아|smile] 그 해의 간지예요. 근데 이름 말고 '불씨가 뭐였나'로 기억하면 안 섞여요. 글 한 편, 어머니의 죽음, 개혁, 외척. 이렇게요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 21~23번 언저리, 사화에서 병자호란까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -51,6 +53,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @quiz 76-20 73-23 70-20
 @hide all
 @quiz 71-21 72-21 75-22
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「사림의 성장과 사화」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board joseon-sahwa
 @hide all
 
 @dive 16세기|서원과 향약, 그리고 붕당
@@ -124,6 +131,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 @quiz 74-21 77-21
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「임진왜란과 전란 후 변화」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board joseon-imjin
+@hide all
 
 @dive 1598년~1623년|전쟁 뒤, 광해군
 @bg bg_era_gyeongbokgung_ruin
@@ -146,6 +158,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @quiz 70-23 72-25 76-23
 @hide all
 @quiz 79-22 80-22 72-22
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「조선 후기 경제 총정리」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board joseon-econ-late
 @hide all
 
 @dive 1623년~1659년|남한산성
@@ -182,6 +199,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @quiz 71-22 77-22 72-24
 @hide all
 @quiz 75-23 78-23
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「호란과 북벌」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board joseon-byeongja
 @hide all
 
 @bgm off

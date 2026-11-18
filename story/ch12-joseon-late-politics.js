@@ -14,6 +14,8 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [나] 붕당 싸움은 진짜 노잼인데.
 [오르페이아|pout] 노잼이라니요! 상복 한 벌로 시작해서, 왕비 한 사람으로 뒤집히고, 왕 둘이 말려 보다가, 결국 한 집안이 다 먹는 이야기라고요. 이게 노잼이면 뭐가 꿀잼이에요!
 [오르페이아|smile] 순서만 잡으면 오히려 점수 따기 제일 쉬운 단원이에요. 예송 → 환국 → 탕평 → 세도. 이 네 단어만 들고 가요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 24~27번 언저리, 붕당 정치에서 세도 정치까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -71,6 +73,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 @quiz 71-24 77-24
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「붕당 정치의 전개와 숙종의 환국」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board joseon-bungdang
+@hide all
 
 @dive 1724년~1776년|영조의 탕평
 @bg bg_era_tangpyeong
@@ -95,6 +102,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [오르페이아|explain] 영조 문제는 이렇게 나와요. '균역법·탕평비·준천사·속대전' 중에 하나만 보이면 영조! 풀어 봐요.
 @hide all
 @quiz 75-24 79-23 76-25 73-28
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「영조의 개혁과 탕평」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board joseon-yeongjo
 @hide all
 
 @dive 1776년~1800년|정조의 화성
@@ -123,6 +135,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @quiz 70-24 72-28 74-24
 @hide all
 @quiz 78-24 71-23
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「정조의 개혁」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board joseon-jeongjo
 @hide all
 
 @dive 1800년~1863년|한 집안의 나라
@@ -157,6 +174,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @quiz 74-25 76-26 71-26
 @hide all
 @quiz 75-27 79-27 73-27 77-28 71-27
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「세도 정치와 농민 봉기」 · 「조선 후기 신분 변동과 천주교·동학」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board sedo joseon-society
 @hide all
 
 @bgm off

@@ -15,6 +15,8 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 [오르페이아] 경제 문제엔 치트키가 있어요. 사료가 '고려'라는 것만 알아내면, 정답은 거의 늘 넷 중 하나예요. 벽란도, 관영 상점, 해동통보, 그리고 소.
 [윤슬|smile] 오, 그것도 가사에 넣자. 벽란도~ 해동통보~
 [상철] 랩이냐.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 12~17번 언저리, 고려의 경제와 문화. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -165,6 +167,16 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 @quiz 79-15 77-17 73-16
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려 역사서와 과학 기술」. 판서 타임이에요! 기출에 실제로 나온 단서랑 함정만 모아서 표로 정리했어요.
+@board goryeo-books
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려의 유학과 교육」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board goryeo-confucian
+@hide all
 
 @dive 11~13세기|아버지의 배를 비는 절
 @bg bg_era_seon_temple
@@ -202,6 +214,11 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 @quiz 78-17 74-16 80-16 70-12
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려 불교」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board goryeo-buddhism
+@hide all
 
 @dive 12세기|강진의 가마
 @bg bg_era_gangjin_kiln
@@ -230,6 +247,11 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 [오르페이아|explain] 사진 문제예요! 상감 청자, 경천사지 십층 석탑, 관촉사 미륵, 무량수전. 방금 본 사진 떠올리면서!
 @hide all
 @quiz 76-17 74-13 75-18 72-17
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려 문화유산 총정리」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board goryeo-culture
 @hide all
 @bg cg_yeoul_kiln
 @day 그날 밤 · 가마 앞

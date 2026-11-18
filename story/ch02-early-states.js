@@ -10,6 +10,8 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @sd teach
 [오르페이아|explain] 아가씨, 그 셋 헷갈리면 시험에 바로 나와요. 다섯 나라가 왜 축제 날짜가 다 다른지, 그것부터 보고 와야 해요.
 [윤슬|pout] 그럼 오빠가 축제 직캠 찍어 와. 4K로.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 2~3번 언저리, 고조선과 여러 나라. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @hide all
 // 이 장의 질문: 군장들의 세상은 어떻게 '나라'가 되었고, 나라마다 왜 다르게 살았나.
 @dive 기원전 2333년이라 전하는 때|고조선의 시작
@@ -116,6 +118,11 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [오르페이아|excited] 완벽해요! 나라 틀이 잡혀 가는 흐름, 그대로 보이셨죠?
 @label q1after
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고조선 총정리」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board gojoseon
+@hide all
 
 @dive 기원전 109년~108년|왕검성의 마지막 해
 @bg bg_era_gojoseon
@@ -188,6 +195,11 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [오르페이아|explain] 부여는 '12월 영고·1책 12법·사출도'. 이 셋 중 하나면 부여예요. 가 볼까요!
 @hide all
 @quiz 71-2
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「초기 국가 총정리」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board early-states
 @hide all
 
 @dive 압록강 언저리|고구려

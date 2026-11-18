@@ -19,6 +19,8 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아] 하나, 왕 자리를 아들에게 물려준다. 둘, 율령, 그러니까 나라 전체에 통하는 법을 만든다. 셋, 불교를 받아들여서 여러 부족 마음을 하나로 묶는다. 넷, 정복으로 땅을 넓힌다.
 @note 중앙 집권 국가의 조건|왕위 부자 상속, 율령 반포(나라 전체의 법과 관등), 불교 수용(사상 통합), 정복 활동으로 영토 확장. 세 나라는 이 순서를 각자 다른 때에 밟는다.
 [오르페이아|serious] 오늘은 세 나라가 이 네 칸을 언제 채우는지, 그리고 한강 깃발이 누구 걸로 바뀌는지 보러 가요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 4~5번 언저리, 고구려·백제·신라·가야. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -53,6 +55,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|explain] 고구려 4세기 = 소수림왕(율령·불교·태학). 고국원왕 전사 바로 다음이라는 것까지 기억!
 @hide all
 @quiz 70-4 78-5
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고구려 총정리」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board goguryeo
 @hide all
 
 @dive 4세기|한강, 백제의 깃발
@@ -95,6 +102,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @hide all
 @quiz 73-5 71-5
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「백제 총정리」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board baekje
+@hide all
 
 @dive 5세기|한강, 고구려의 깃발
 @bg bg_era_hanriver_ferry
@@ -130,6 +142,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|explain] 5세기는 광개토(영락·호우명 그릇)랑 장수왕(평양 천도·한성 함락). 부자를 갈라서 풀어 봐요!
 @hide all
 @quiz 73-6 70-3
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「삼국 항쟁과 통일 과정 연표」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board samguk-war
 @hide all
 
 @dive 6세기 전반|웅진과 사비
@@ -190,6 +207,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @hide all
 @quiz 80-4 71-6 77-4
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「신라 왕별 정리와 사회 제도」 · 「삼국 문화유산·도교」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board silla samguk-culture
+@hide all
 
 @dive 1세기~6세기|가야, 철의 나라
 @bg bg_era_gaya
@@ -220,6 +242,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|explain] 금관가야(김해, 532 법흥왕)랑 대가야(고령, 562 진흥왕). 지역이랑 연도 짝꿍으로 풀어요!
 @hide all
 @quiz 79-4 75-4
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「가야 총정리」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board gaya
 @hide all
 
 @dive 553년~562년|한강, 신라의 깃발

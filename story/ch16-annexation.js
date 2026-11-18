@@ -13,6 +13,8 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [오르페이아|explain] 시험은 이 '조각'이 떨어져 나간 순서를 물어요. 집으로 치면 마당 → 지갑 → 현관 열쇠 → 안방 → 경비원 → 판사 → 경찰. 바깥부터 안쪽으로, 하나씩이요.
 [나] 순서대로 빼앗겼다는 거네.
 [오르페이아|serious] 네. 그리고 하나 빼앗길 때마다, 누군가는 일어났어요. 의병으로, 학교로, 신문으로, 나랏빚 갚는 돈으로. 그 짝을 맞추는 게 오늘의 공부예요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 32~35번 언저리, 러일 전쟁에서 국권 피탈까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -39,6 +41,16 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @quiz 74-35 79-32 75-30
 @hide all
 @quiz 71-35 78-31 75-32
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「개항기 경제 침탈과 대응」 · 「애국 계몽 운동과 신민회」. 잠깐 판서! 이 표만 머리에 넣고 가면 이 대목 문제는 거의 다 풀려요.
+@board economy-modern enlightenment
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「러일 전쟁과 국권 피탈 과정」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board rights-loss
 @hide all
 
 @dive 1905년 11월|중명전의 밤
@@ -123,6 +135,11 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @quiz 70-32 72-34 74-32
 @hide all
 @quiz 78-33 80-34
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「의병 운동과 의열 투쟁」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board euibyeong
 @hide all
 
 @dive 1904년~1910년|붓과 돈으로

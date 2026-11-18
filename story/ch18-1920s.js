@@ -13,6 +13,8 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [나] 이름만 들으면 좋아진 것 같은데.
 [오르페이아|serious] 그게 함정이에요! 헌병 경찰을 보통 경찰로 바꿨는데, 경찰 수는 오히려 늘었어요. 신문은 허락하되 검열하고 정간시키고요. 그리고 친일파를 키워서 우리끼리 싸우게 했어요. 웃는 얼굴로 뒤통수 치기예요.
 [오르페이아|explain] 그래서 1920년대 민족 운동은 여러 갈래로 나뉘어요. 실력 키우기 팀, 총 든 팀, 폭탄 든 팀. 오늘은 갈래를 하나씩 따라가다가, 마지막에 다들 한 번 손을 잡는 장면을 볼 거예요. 어벤져스 결성 같은 거요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 37~40번 언저리, 1920년대 문화 통치와 민족 운동. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -59,6 +61,11 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 @quiz 80-36 76-39 73-44 71-39
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「1920년대 민족주의 운동(물산 장려·신간회·광주 학생)」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board ilje-nationalist
+@hide all
 
 @dive 1920년|봉오동과 청산리
 @bg bg_era_cheongsanri
@@ -88,6 +95,11 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 @quiz 72-37 70-38 80-37
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「무장 독립 투쟁(만주·중국 관내)」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board ilje-armed
+@hide all
 
 @dive 1919년~1926년|의열단
 @bg bg_era_jongno_police
@@ -106,6 +118,11 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [오르페이아|explain] 의열단은 '김원봉, 조선 혁명 선언(신채호)'. 한인 애국단(김구)이랑 섞지 마세요!
 @hide all
 @quiz 77-36 76-38 74-38 72-42
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「의열단과 한인 애국단」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board ilje-uidol
 @hide all
 
 @dive 1926년~1931년|손을 잡다

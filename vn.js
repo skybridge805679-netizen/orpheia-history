@@ -84,6 +84,7 @@ function step(){
    case 'if':{const v=S.flags[op.flag]||0,ok={'>=':v>=op.val,'<=':v<=op.val,'==':v===op.val,'>':v>op.val,'<':v<op.val}[op.op];S.pc=ok?ch.labels[op.label]:S.pc+1;break;}
    case 'set':S.flags[op.flag]=op.val;S.pc++;break;
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;S.pc++;break;
+   case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
    case 'bg':S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
@@ -165,6 +166,26 @@ function heritage(name){
  return near;
 }
 // 학습만화식 SD 리액션 컷인: @sd idea|warn|thumbs|cry|pout|shock|love|teach|detective|cheer|think|bow — 2.4초 뒤 사라진다(세이브에 남지 않음).
+// 판서: 학습 사이트의 기출 핵심노트(CORE_NOTES)를 이야기 속 칠판으로 띄운다. @board 노트id [노트id…]
+const NOTE_FILES=['ancient','goryeo-joseon','modern','contemporary'];
+async function coreNotes(){if(window.CORE_NOTES?.length)return window.CORE_NOTES;await Promise.all(NOTE_FILES.map(f=>loadOnce(figSrc(`core-notes/${f}.js`))));return window.CORE_NOTES||[];}
+const hl=t=>esc(t).replace(/\*\*([^*]+)\*\*/g,'<b class="bd-b">$1</b>').replace(/(\d{2}-\d{1,2})/g,'<i class="bd-q">$1</i>');
+function boardHtml(n){
+ const tb=(n.tables||[]).map(t=>`<figure class="bd-t"><figcaption>${hl(t.c||'')}</figcaption><table><thead><tr>${t.h.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${t.r.map(r=>`<tr>${r.map(c=>`<td>${hl(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></figure>`).join('');
+ const tr=(n.traps||[]).length?`<div class="bd-traps"><b>함정 주의</b><ul>${n.traps.map(x=>`<li>${hl(typeof x==='string'?x:(x.t||x.text||JSON.stringify(x)))}</li>`).join('')}</ul></div>`:'';
+ const ky=(n.keys||[]).length?`<div class="bd-keys"><b>이 단어가 보이면</b>${n.keys.map(x=>Array.isArray(x)?`<div><span>${esc(x[0])}</span> → <em>${esc(x[1])}</em></div>`:`<div><span>${esc(String(x))}</span></div>`).join('')}</div>`:'';
+ return `<section class="bd-note"><h3><i class="vn-seal mini">板</i>${esc(n.title)}</h3>${tr}${ky}${tb}</section>`;
+}
+function board(ids){
+ paint();busy=true;S.line=null;stopAuto();const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card board';c.hidden=false;c.onclick=null;
+ c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small>오르페이아의 판서 · 기출 핵심노트</small><button class="primary" data-back>정리 끝 ▶</button></div><div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
+ const done=e=>{e?.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
+ c.querySelector('[data-back]').onclick=done;
+ if(skip){done();return;}
+ const nb=records.boards||(records.boards=[]);ids.forEach(id=>{if(!nb.includes(id))nb.push(id);});save();
+ coreNotes().then(all=>{const body=c.querySelector('.bd-body');if(!body)return;const ns=ids.map(id=>all.find(x=>x.id===id)).filter(Boolean);
+  body.innerHTML=ns.length?ns.map(boardHtml).join(''):'<p>판서를 불러오지 못했어요.</p>';}).catch(()=>{const b=c.querySelector('.bd-body');if(b)b.innerHTML='<p>판서를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</p>';});
+}
 function sdPop(kind){
  const v=$('#vn');if(!v||skip)return;let el=$('#vnSd');if(!el){el=document.createElement('img');el.id='vnSd';el.className='vn-sd';el.alt='';v.appendChild(el);}
  el.onerror=()=>{el.hidden=true;};el.hidden=false;el.src=asset(`sd_orp_${kind}.webp`);el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');
@@ -258,6 +279,9 @@ function summary(){
  c.onclick=null;c.querySelector('[data-back]').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
 }
 function notebook(){const d=$('#vnLog');d.innerHTML=`<div class="dialog-header"><div><small>NOTEBOOK</small><h2>연표 기록부</h2></div><button class="quiet" data-close>닫기 ×</button></div>${chapters.filter(c=>(records.notebook||{})[c.id]?.length).map(c=>`<h3>${esc(c.title)} · ${esc(c.subtitle)}</h3>${notesHtml(c.id)}`).join('')||'<p>이야기를 진행하면 그 시대에서 본 것이 여기에 쌓여요.</p>'}`;d.querySelector('[data-close]').onclick=()=>d.close();d.showModal();}
+const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');const ids=records.boards||[];if(!ids.length)return;
+ const sec=document.createElement('div');sec.innerHTML=`<h3>오르페이아의 판서 (${ids.length})</h3><p class="vn-sheet-wait">판서를 불러오는 중…</p>`;d.appendChild(sec);
+ coreNotes().then(all=>{sec.querySelector('.vn-sheet-wait').outerHTML=`<div class="bd-wrap bd-inline"><div class="bd-body">${ids.map(id=>all.find(x=>x.id===id)).filter(Boolean).map(boardHtml).join('')}</div></div>`;}).catch(()=>{});};
 
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.

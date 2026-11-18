@@ -33,6 +33,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 @quiz 77-50 76-50
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「천도의 역사」 · 「연호의 역사」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board capital-history era-names
+@hide all
 @show sayeon smile right
 @show orpheia explain left
 [사연] 다음은 땅과 사람을 다스린 방법입니다.
@@ -46,6 +51,16 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @quiz 72-47 72-48 74-50
 @hide all
 @quiz 79-50 70-48 75-38 77-12
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「사회 시책의 역사」 · 「근현대 주요 문서」 · 「시대 순서 문제 푸는 법」. 칠판 한 번 보고 갈게요. 문제에 나온 단서 → 정답, 오답 → 진짜 주인. 이 두 줄이 핵심이에요.
+@board welfare-history documents order-life
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「토지 제도의 변천」 · 「관리 선발·군사·통치 제도의 변천」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board land-history gov-history
 @hide all
 
 @dive 연표 전체|문화유산 한 바퀴
@@ -70,6 +85,16 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @quiz 80-24 70-31 73-24
 @hide all
 @quiz 70-22 72-10 73-19 71-30
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「불교 문화유산」 · 「유네스코 세계 기록 유산」 · 「유네스코 인류 무형 문화유산」. 잠깐 판서! 이 표만 머리에 넣고 가면 이 대목 문제는 거의 다 풀려요.
+@board buddhist-heritage world-record intangible
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「궁궐(경복궁·창덕궁·덕수궁 등)」 · 「성곽과 전투의 역사」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board palace fortress
 @hide all
 
 @dive 연표 전체|우리 고장 한 바퀴
@@ -110,6 +135,21 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @quiz 71-18 80-50 75-50 78-50
 @hide all
 @quiz 76-46 72-50 70-50
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「지역사: 안동」 · 「지역사: 진주」 · 「지역사: 제주」. 칠판 한 번 보고 갈게요. 문제에 나온 단서 → 정답, 오답 → 진짜 주인. 이 두 줄이 핵심이에요.
+@board regional-andong regional-jinju regional-jeju regional-busan
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「지역사: 공주」 · 「지역사: 부여」 · 「지역사: 개경(개성)」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board regional-gongju regional-buyeo regional-gaegyeong regional-chungju
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「지역사: 충남 내포(홍성·예산·서산)」 · 「지역사: 창녕」 · 「지역사: 대구·광주」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board regional-naepo regional-changnyeong regional-daegu-gwangju
 @hide all
 
 @bgm off

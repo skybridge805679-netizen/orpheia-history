@@ -15,6 +15,8 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [오르페이아] 치트키 하나! 이 문제 오답은 거의 늘 '광복 뒤 물건'이에요. 새마을 운동, 텔레비전 방송, 「아침 이슬」, 컬러텔레비전. 미래에서 온 물건만 걸러 내도 반은 먹고 들어가요.
 [나] 시대를 구분하는 눈이 중요한 거네.
 [오르페이아|serious] 네. 그리고 이 시대의 '새로운 것'에는 늘 그림자가 있었다는 걸 기억해 주세요. 오늘은 그 빛과 그림자를 같이 볼 거예요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 39~42번 언저리, 일제 강점기의 사회·문화와 민족 문화 수호. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -64,6 +66,11 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @hide all
 @quiz 79-37 70-39 72-39
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「일제 강점기 생활과 대중문화」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board ilje-life
+@hide all
 
 @dive 1920년대~1930년대|일하는 사람들
 @bg bg_era_amtaedo
@@ -85,6 +92,11 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [오르페이아|explain] 노동 운동 대표는 원산 총파업(1929)! 소작 쟁의는 암태도. 노동이랑 소작을 갈라 보세요!
 @hide all
 @quiz 78-37 75-40 79-38 71-41
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「1920년대 사회 운동(농민·노동·소년·형평)」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board ilje-social
 @hide all
 
 @dive 1922년~1923년|저울과 어린이
@@ -131,6 +143,11 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @quiz 78-41 75-41 79-42
 @hide all
 @quiz 74-39 70-37 77-43
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「국어 연구와 민족 문화 수호」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board ilje-language
 @hide all
 
 @bgm off

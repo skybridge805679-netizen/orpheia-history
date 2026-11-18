@@ -13,6 +13,8 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [오르페이아|explain] 근대는 연도가 빽빽해요. 1866, 1871, 1876, 1882, 1884, 1894, 1895. 근데 이 숫자들, 도미노예요. 앞 사건이 쓰러지면서 뒤 사건의 '구실'이나 '계기'가 돼요.
 [나] 도미노라.
 [오르페이아|smile] 네! 시험 문제에도 '이 사건을 구실로', '이 사건을 계기로'라고 그대로 나와요. 오늘은 도미노를 하나씩 쓰러뜨려 볼게요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 28~31번 언저리, 흥선 대원군에서 을미사변까지. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -51,6 +53,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @quiz 72-31 71-28 80-28
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「흥선 대원군의 정책과 통상 수교 거부」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board daewongun
+@hide all
 
 @dive 1876년|문이 열리다
 @bg bg_era_incheon_port
@@ -70,6 +77,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [오르페이아|explain] 위정척사는 시대별로 상대가 바뀌어요. 60년대 통상 반대, 70년대 개항 반대(최익현), 80년대 개화 반대(영남 만인소), 90년대 의병. 이 순서로 풀어 봐요!
 @hide all
 @quiz 80-29 78-28 76-28
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「개항과 불평등 조약」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board open-ports
 @hide all
 
 @dive 1880년~1883년|개화의 길
@@ -93,6 +105,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @quiz 79-30 71-32 74-29
 @hide all
 @quiz 70-29 74-28 79-28
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「개화 정책, 임오군란, 갑신정변」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board gaehwa
 @hide all
 
 @dive 1882년 6월|임오군란
@@ -194,6 +211,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @quiz 74-31 76-31 78-32
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「동학과 동학 농민 운동」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board donghak-movement
+@hide all
 
 @dive 1894년~1896년|위로부터의 개혁
 @bg bg_era_gyeongbokgung
@@ -225,6 +247,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @quiz 79-31 72-32
 @hide all
 @quiz 80-31 77-30 71-31
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「갑오·을미개혁과 아관 파천」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board gabo-eulmi
 @hide all
 
 @bgm off

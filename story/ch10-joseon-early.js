@@ -15,6 +15,8 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [나] 그건 진짜 외우는 수밖에 없는 거 아냐?
 [오르페이아|smile] 아니에요! 관청마다 '왜 생겼는지'가 있어요. 조선은 처음부터 설계도 들고 지은 나라거든요. 왕도 너무 세지 않게, 신하도 너무 세지 않게.
 [오르페이아|serious] 그리고 그 설계도를 그린 사람이랑, 그걸 고쳐 쓴 왕들이 서로 부딪혀요. 오늘은 그 얘기예요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 19~21번 언저리, 조선의 건국과 체제 정비. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -52,6 +54,11 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [오르페이아|explain] 정도전 = 『조선경국전』·『불씨잡변』·재상 중심. 그리고 이방원의 왕자의 난. 풀어 봐요!
 @hide all
 @quiz 71-19 75-19 73-20
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「조선 전기 왕별 정리(태조~성종)」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board joseon-kings-early
 @hide all
 
 @dive 1400년~1418년|태종, 왕의 나라
@@ -97,6 +104,11 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @quiz 73-21 79-19 76-19
 @hide all
 @quiz 70-18 75-21 78-21
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「조선 전기 인물과 문화유산」 · 「조선의 대외 관계(사대와 교린)」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board joseon-people-early joseon-foreign
 @hide all
 
 @dive 1453년~1468년|계유정난과 세조
@@ -150,6 +162,11 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @quiz 80-21 72-20 70-19
 @hide all
 @quiz 80-19 79-20
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「조선의 통치 기구와 토지 제도」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board joseon-gov
 @hide all
 
 @dive 15세기|궁궐의 관청들

@@ -14,6 +14,8 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 [나] 벌써 어지러운데.
 [오르페이아|smile] 그래서 왕마다 '뭐가 문제였고, 그래서 뭘 했는지' 딱 한 줄씩만 챙겨 가요.
 [오르페이아] 태조는 호족 달래기, 광종은 호족 누르기, 성종은 나라 틀 짜기. 그다음은 북쪽에서 오는 거란이랑 여진, 그리고 왕보다 세진 귀족 가문이에요.
+@sd warn
+[오르페이아|serious] 아, 그리고 오늘 밤 번진 곳 보고예요. 시험지 11~14번 언저리, 고려 전기. 먹물이 어젯밤 여기까지 왔어요. 오늘 다이브 좌표는 거기예요.
 @phone off
 @hide all
 
@@ -37,6 +39,11 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 [오르페이아|explain] 태조는 '혼인·사성·사심관·기인·훈요 10조·흑창'. 호족 달래기 세트로 풀어요!
 @hide all
 @quiz 73-11
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려 전기 왕별 정리」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board goryeo-kings
 @hide all
 
 @dive 945년~975년|광종, 호족을 누르다
@@ -76,6 +83,11 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @hide all
 @quiz 78-11 74-11 77-14
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려의 통치 체제와 토지 제도」. 오답 노트 미리 보기예요. 선지가 원래 어느 시대 건지까지 적어 뒀어요.
+@board goryeo-gov
+@hide all
 
 @dive 982년~997년|성종, 나라의 틀을 짜다
 @bg bg_era_gaegyeong
@@ -100,6 +112,11 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @quiz 80-11 72-11 71-11
 @hide all
 @quiz 74-18 78-15
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려의 경제와 사회 시책」. 방금 푼 문제, 해부 들어갑니다! 기출에 실제로 나온 단서 → 정답, 오답 → 진짜 주인을 표로 정리했어요.
+@board goryeo-economy
 @hide all
 
 @dive 993년~1019년|거란이 온다
@@ -133,6 +150,11 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @hide all
 @quiz 74-12 80-12 72-12 79-13
 @hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「고려의 대외 항쟁(거란·여진·몽골·왜구)」. 복습 판서예요. 이번에 맞힌 것도 틀린 것도, 이 표에 다 들어 있어요. 함정 칸 꼭 보세요!
+@board goryeo-war
+@hide all
 
 @dive 1104년~1109년|여진, 동북 9성
 @bg bg_era_dongbuk9
@@ -152,6 +174,11 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 [오르페이아|explain] 숙종=별무반·주전도감·해동통보, 예종=동북 9성·7재·양현고. 형제 같은 부자 구분해요!
 @hide all
 @quiz 78-13 70-13 76-11 74-15
+@hide all
+@show orpheia explain center
+@sd teach
+[오르페이아|explain] 「문벌 귀족 사회의 동요」. 칠판 정리 갈게요. 다른 회차에선 같은 내용이 이렇게도 나왔어요. 한 번 훑고 가요!
+@board goryeo-aristocrat
 @hide all
 
 @dive 1126년~1135년|문벌의 시대
