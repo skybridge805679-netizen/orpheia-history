@@ -1116,7 +1116,7 @@
    "id": "bg_era_cheongsanri",
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, deep forested valley in manchuria in autumn, red and yellow maple and birch trees on steep hillsides, a narrow dirt path along a stream at the bottom, rifle smoke drifting between trees, dramatic light",
-   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, watermark, artist name, copyright, text, logo"
   },
   {
    "id": "bg_era_jongno_police",
