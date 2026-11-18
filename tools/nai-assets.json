@@ -959,6 +959,116 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, winter, a small humble thatched house with a round window, two old pine trees and two cypress trees standing beside it, bare snowy ground, black volcanic stone wall, cold grey sky, lonely, ink painting atmosphere, jeju island",
    "negative": "chinese architecture, japanese castle, european, galleon, modern, chimney, barrel, signature, japanese text, palace"
+  },
+  {
+   "id": "st_bori_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1313131,
+   "prompt": "1girl, solo, solo focus, young teenage farm girl, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, warm smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, weapon pointing, armor"
+  },
+  {
+   "id": "st_bori_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1313131,
+   "prompt": "1girl, solo, solo focus, young teenage farm girl, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, standing, full body, looking at viewer, serious, frown",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, armor"
+  },
+  {
+   "id": "bg_era_gwangseongbo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, korean coastal stone fort on a cliff above a strait, crenellated stone walls with cannon ports, old bronze cannons, a large yellow square banner with a single black chinese character, smoke from warships in the strait, dramatic, 1871",
+   "negative": "european castle, japanese castle, signature, modern"
+  },
+  {
+   "id": "bg_era_incheon_port",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1880s korean port opening to foreign trade, small fishing village with thatched houses next to new western style two-story brick buildings and warehouses, a black steamship with paddle wheel and smokestack anchored, tidal mudflat, overcast",
+   "negative": "signature, modern city, car, skyscraper, japanese text"
+  },
+  {
+   "id": "bg_era_ujeongchongguk",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, night, a traditional korean tiled-roof government building with a banquet lit inside, flames rising from a neighboring house, smoke and sparks, overturned lanterns, chaos, 1884 seoul",
+   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car"
+  },
+  {
+   "id": "bg_era_baeksan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, low hill completely covered with white cloth banners and planted bamboo spears, wide flat rice plains around, spring, morning mist, korea 1894",
+   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car, cross, flags with text"
+  },
+  {
+   "id": "bg_era_ugeumchi",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, winter mountain pass ridge, snow falling, bamboo spears and white headbands scattered in the snow on the slope, gun smoke drifting from the ridge top, grey sky, desolate, korea 1894",
+   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car"
+  },
+  {
+   "id": "bg_era_okhoru",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, pre-dawn darkness, inner courtyard of a korean royal palace residence, small elegant wooden buildings with tiled roofs, a lotus pond with a pavilion, broken paper doors, dropped lantern, ominous, cold blue light",
+   "negative": "chinese architecture, japanese castle, galleon, signature, japanese text, modern city, car, blood"
+  },
+  {
+   "id": "st_hanbyeol_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, teenage schoolgirl, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, bright smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern"
+  },
+  {
+   "id": "st_hanbyeol_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, teenage schoolgirl, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, serious, determined",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern"
+  },
+  {
+   "id": "bg_era_independence_gate",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1897 seoul, a western style granite triumphal arch gate under construction with wooden scaffolding, two old stone pillars of a demolished gate beside it, dirt road, crowd's straw mats, korean tiled roof houses and mountains behind, autumn",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt, arc de triomphe paris"
+  },
+  {
+   "id": "bg_era_hwangudan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, korean imperial altar of heaven, three-tiered round white granite altar with stone stairs and railings, a three-story octagonal shrine with golden yellow tiled roof behind, banners, ceremonial atmosphere, autumn morning",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt, temple of heaven beijing"
+  },
+  {
+   "id": "bg_era_ewha",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1900s seoul jeongdong street, red brick western style mission school building with arched windows, a church, stone walls and trees, korean tiled roofs mixed in, dirt road, spring, nostalgic",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt"
+  },
+  {
+   "id": "bg_era_jongno_tram",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1899 seoul main street, an early electric streetcar with an overhead trolley pole on rails in the middle of a wide dirt road, telegraph poles and wires, traditional korean shops with tiled roofs on both sides, a bell pavilion, sunny",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt, modern tram, bus"
+  },
+  {
+   "id": "bg_era_jungmyeongjeon",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, night, a two-story western style red brick building with arched verandas inside a korean palace compound, japanese soldiers' rifles and lanterns surrounding it, bare winter trees, cold blue moonlight, oppressive atmosphere, 1905",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt"
+  },
+  {
+   "id": "bg_era_uibyeong_camp",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, hidden guerrilla camp in a korean mountain forest in autumn, a few canvas and straw tents, old matchlock guns and modern rifles leaning against a tree, a campfire with a pot, white cloth banner, misty mountains",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt"
+  },
+  {
+   "id": "bg_era_harbin",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1909 manchurian railway station platform in the morning, russian style station building, a steam locomotive with smoke, honor guard rifles, crowd area with luggage, cold autumn, dramatic light",
+   "negative": "japanese castle, signature, japanese text, modern city, car, skyscraper, asphalt, modern train"
   }
  ]
 }
