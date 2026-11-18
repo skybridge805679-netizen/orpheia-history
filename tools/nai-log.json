@@ -1000,8 +1000,8 @@
   "init": null
  },
  "cg_yeoul_fall": {
-  "seed": 3947323581,
-  "prompt": "1girl, 1boy, young adult woman, wavy chestnut brown hair in low twin tails tied with blue cloth, blue eyes, freckles, jade green goryeo jacket with wide sleeves, long white skirt, lying on her back on a wooden pier surrounded by scattered celadon jars and rolling crates, blushing furiously, shocked wide eyes, hands raised, 1boy, young man, black hoodie with hood up, face hidden in shadow, faceless fallen on top of her on all fours above her, accidental, comedic lucky pervert situation, fully clothed, harbor with junk ships behind, sunny, sweat drops, motion lines",
+  "seed": 2969458688,
+  "prompt": "1girl, 1boy, young adult woman, wavy chestnut brown hair in low twin tails tied with blue cloth, blue eyes, freckles, jade green goryeo jacket with wide sleeves, long white skirt, lying on her back on a wooden pier surrounded by scattered celadon jars and rolling crates, blushing furiously, shocked wide eyes, hands raised, 1boy, young man, black hoodie with hood up, face hidden in shadow, faceless fallen on top of her on all fours above her, accidental, comedic lucky pervert situation, fully clothed, harbor with junk ships behind, sunny, sweat drops, motion lines, her skirt flipped up, white panties visible, bare thighs, panty shot",
   "init": null
  },
  "cg_yeoul_father": {
@@ -1070,7 +1070,7 @@
   "init": null
  },
  "cg_ch03_drying": {
-  "seed": 1495808496,
+  "seed": 1136326422,
   "prompt": "1girl, 1boy, campfire on a sandy riverbank at dusk, an overturned wooden boat on the sand, wet clothes hanging on sticks and steaming, warm orange firelight, purple evening sky, fireflies, sitting back to back, wide shot, cinematic lighting, quiet romantic mood",
   "init": null
  },
@@ -1100,7 +1100,7 @@
   "init": null
  },
  "cg_ch06_seasick": {
-  "seed": 1758643606,
+  "seed": 4090701045,
   "prompt": "1girl, 1boy, wooden deck of an ancient trading ship, the ship tilting on a big wave, sea spray, billowing sails, blue sky, dutch angle, comedic, motion lines",
   "init": null
  },
@@ -1155,7 +1155,7 @@
   "init": null
  },
  "cg_ch12_closet": {
-  "seed": 4164135953,
+  "seed": 322205111,
   "prompt": "1girl, 1boy, inside a cramped dark wooden wardrobe, folded blankets, a thin vertical sliver of warm light from the door crack, silhouettes of officials in silk robes outside the crack, dramatic chiaroscuro, tense, romantic comedy",
   "init": null
  },
@@ -1190,7 +1190,7 @@
   "init": null
  },
  "cg_ch15_tram": {
-  "seed": 3263629336,
+  "seed": 4119457365,
   "prompt": "1girl, 1boy, inside a crowded vintage 1899 streetcar, wooden interior, hanging straps swinging, passengers in hanbok and gat hats staring, window light, sudden stop, motion lines, comedic",
   "init": null
  },
@@ -1615,17 +1615,17 @@
   "init": null
  },
  "cg_ch02_dallae_fall": {
-  "seed": 2839454830,
+  "seed": 2024029013,
   "prompt": "1girl, 1boy, ancient market, toppled grain sacks, spilled millet grains everywhere, onlookers whistling and pointing in the background, from above, high angle, comedic, sweat drops, flying grains, embarrassed atmosphere",
   "init": null
  },
  "cg_ch04_hideout": {
-  "seed": 3781717107,
+  "seed": 2232282181,
   "prompt": "1girl, 1boy, dark hay storehouse, thin light rays through gaps in wooden planks, dust particles, scattered hay, from above, close-up, intimate distance, romantic comedy, soft lighting",
   "init": null
  },
  "cg_ch05_haerang_wet": {
-  "seed": 3954461385,
+  "seed": 4204524857,
   "prompt": "1girl, 1boy, in the middle of a forest stream, waist-deep water, huge splash, water droplets, sunlight through pine trees, comedic, romantic comedy, from above",
   "init": null
  },
@@ -1635,7 +1635,7 @@
   "init": null
  },
  "cg_ch08_fashion_fall": {
-  "seed": 1570309173,
+  "seed": 719362646,
   "prompt": "1girl, 1boy, stone paved market street, fallen together, a long red silk robe spread over both of them like a blanket, a round fur hat rolling away, onlookers whispering behind sleeves in the background, from above, comedic, romantic comedy",
   "init": null
  },
@@ -1645,18 +1645,38 @@
   "init": null
  },
  "cg_ch11_recoil": {
-  "seed": 3781958065,
+  "seed": 2310100896,
   "prompt": "1girl, 1boy, lower deck of a joseon warship, cannon smoke pouring in through the oar ports, deck shaking, dust falling, motion lines, dutch angle, comedic",
   "init": null
  },
  "cg_ch13_catch": {
-  "seed": 1588486821,
+  "seed": 3292025024,
   "prompt": "1girl, 1boy, joseon market square at sunset, a crowd cheering and whistling, a jar lid flying in the air, comedic, romantic comedy, sparkles",
   "init": null
  },
  "cg_ch20_tangle": {
-  "seed": 414043526,
+  "seed": 3296289711,
   "prompt": "1girl, 1boy, bottom of a grassy hill, both wrapped together inside a huge white parachute canopy like a cocoon, tangled ropes, only their heads sticking out, an instructor blowing a whistle far in the background, comedic, sunny",
+  "init": null
+ },
+ "cg_muk_b0": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, fighting stance, holding a giant ink brush like a spear, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_b1": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink brush cracked, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_b2": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, heavy battle damage, torn clothes, torn bodice, black bra visible through the torn dress, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, embarrassed, wide eyes, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_b3": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, clothes almost completely torn away, only black lingerie, black bra and black panties, shreds of a hanbok dress, kneeling on the paper, covering herself with both arms, crying, tears, full-face blush, flustered, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
   "init": null
  }
 }
