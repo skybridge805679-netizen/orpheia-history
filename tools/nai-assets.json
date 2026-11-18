@@ -2158,9 +2158,9 @@
   {
    "id": "cg_ev_hansando",
    "size": "bg",
-   "prompt": "1592 naval battle, low side view from the sea surface, several joseon panokseon warships, wide flat wooden hulls with a two-level deck and a small pavilion on top, dozens of oars, red and white banners, firing cannons with smoke, a turtle ship with iron spiked roof and dragon head in front, burning japanese wooden ships in the distance, islands, dramatic sky, painterly epic",
-   "negative": "watermark, signature, text, logo, nude, explicit, gore, blood, extra limbs, bad hands, multiple views, child, modern clothes, flag with text, maid, white hair, girl in foreground, anime girl, modern buildings, skyscraper, neon sign, western galleon, european sailing ship, modern warship, battleship, destroyer, steel ship, pagoda, aerial view, circle formation, aircraft carrier, tower",
-   "seed": 5151515
+   "prompt": "1592 naval battle, low side view from the sea surface, several joseon panokseon warships, wide flat wooden hulls with a two-level deck and a small pavilion on top, dozens of oars, plain blue and yellow triangular joseon military pennants, firing cannons with smoke, a turtle ship with iron spiked roof and dragon head in front, burning japanese wooden ships in the distance, islands, dramatic sky, painterly epic",
+   "negative": "watermark, signature, text, logo, nude, explicit, gore, blood, extra limbs, bad hands, multiple views, child, modern clothes, flag with text, maid, white hair, girl in foreground, anime girl, modern buildings, skyscraper, neon sign, western galleon, european sailing ship, modern warship, battleship, destroyer, steel ship, pagoda, aerial view, circle formation, aircraft carrier, tower, red circle, rising sun, japanese flag, hinomaru, circle emblem on flag",
+   "seed": 5252525
   },
   {
    "id": "cg_ev_gwangseongbo",
