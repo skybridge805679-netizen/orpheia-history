@@ -1085,8 +1085,8 @@
   {
    "id": "bg_era_samwonbo",
    "size": "bg",
-   "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, a taegukgi flag, big sky",
-   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone"
+   "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, big sky",
+   "negative": "signature, japanese text, modern city, car, skyscraper, asphalt, smartphone, flag, japanese flag, rising sun, banner"
   },
   {
    "id": "bg_era_hawaii",
