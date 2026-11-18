@@ -47,7 +47,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|excited] 정답! 소수림왕은 율령·불교·태학으로 안을 다진 왕이에요.
 @label c1after
 @show orpheia smile center
-[오르페이아|explain] 방금 본 「소수림왕의 개혁」, 기출에선 이렇게 나와요! 장면 떠올리면서 풀어 봐요.
+[오르페이아|explain] 고구려 4세기 = 소수림왕(율령·불교·태학). 고국원왕 전사 바로 다음이라는 것까지 기억!
 @hide all
 @quiz 70-4 78-5
 @hide all
@@ -87,7 +87,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @add naru 5
 @bg bg_era_hanriver_ferry
 @show orpheia smile center
-[오르페이아|explain] 자, 퀴즈 타임이에요♪ 「왜 한강인가」 얘기, 시험지 버전으로 확인해요.
+[오르페이아|explain] 근초고왕 = 마한 정복·평양성 공격·고흥 『서기』·칠지도. 백제 전성기 세트로 풀어요!
 @hide all
 @quiz 73-5 71-5
 @hide all
@@ -122,7 +122,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|excited] 정답! 같은 나루, 바뀌는 깃발. 순서가 알아서 서죠?
 @label c2after
 @show orpheia smile center
-[오르페이아|explain] 여기서 문제 들어갑니다! 「한강을 잃은 백제」, 외운 거 말고 본 걸로 풀어 주세요.
+[오르페이아|explain] 5세기는 광개토(영락·호우명 그릇)랑 장수왕(평양 천도·한성 함락). 부자를 갈라서 풀어 봐요!
 @hide all
 @quiz 73-6 70-3
 @hide all
@@ -147,7 +147,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @note 성왕과 사비|538 사비(부여) 천도, 국호 남부여, 일본에 불교 전파. 551 신라와 함께 한강 하류 회복.
 @note 백제의 탑|부여 정림사지 오층 석탑(소정방의 '평제탑' 글귀), 익산 미륵사지 석탑(무왕, 목탑 양식의 석탑). 부여 능산리에서 금동 대향로 출토.
 @show orpheia smile center
-[오르페이아|explain] 딱 이 대목이 시험에 나왔어요. 「백제의 탑」, 바로 확인하고 가요!
+[오르페이아|explain] 백제는 도읍 순서가 핵심이에요. 한성 → 웅진(문주왕) → 사비(성왕). 무령왕은 웅진 시절!
 @hide all
 @quiz 77-5 72-4 79-6
 @hide all
@@ -180,7 +180,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|excited] 정답! 지증왕은 이름, 법흥왕은 법과 믿음.
 @label c3after
 @show orpheia smile center
-[오르페이아|explain] 주인님, 실전 연습이에요. 「법흥왕」 장면 기억나시죠? 그대로 풀면 돼요.
+[오르페이아|explain] 지증왕은 '이름'(국호·왕·우산국), 법흥왕은 '법과 믿음'(율령·불교 공인·금관가야). 가요!
 @hide all
 @quiz 80-4 71-6 77-4
 @hide all
@@ -210,7 +210,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [오르페이아|excited] 정답! 먼저 선 김해가 먼저, 고령은 나중.
 @label c4after
 @show orpheia smile center
-[오르페이아|explain] 방금 본 「가야」, 기출에선 이렇게 나와요! 장면 떠올리면서 풀어 봐요.
+[오르페이아|explain] 금관가야(김해, 532 법흥왕)랑 대가야(고령, 562 진흥왕). 지역이랑 연도 짝꿍으로 풀어요!
 @hide all
 @quiz 79-4 75-4
 @hide all
@@ -253,8 +253,6 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @show muk surprised center
 [묵|surprised] ……깃발 세 개를 이야기 하나로 꿰어 버렸네.
 [묵|angry] 그럼 이것도. 연도 섞어 놨거든?
-@show orpheia smile center
-[오르페이아|explain] 자, 퀴즈 타임이에요♪ 「한강의 주인 순서」 얘기, 시험지 버전으로 확인해요.
 @hide all
 @quiz 76-3 72-3 74-4
 @show muk lonely center
