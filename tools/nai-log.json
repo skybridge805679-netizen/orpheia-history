@@ -848,5 +848,45 @@
   "seed": 2271000864,
   "prompt": "no humans, scenery, indoors, small 1930s korean office room in a traditional house, low desks covered with towering stacks of handwritten manuscript paper and word index cards in wooden boxes, ink brushes and fountain pens, a lamp, paper windows, warm light",
   "init": null
+ },
+ "st_saebyeok_smile": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, hopeful smile",
+  "init": null
+ },
+ "st_saebyeok_serious": {
+  "seed": 1515151,
+  "prompt": "1girl, solo, solo focus, young woman soldier, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with a small taegeuk badge, holding a rifle at her side, standing, full body, looking at viewer, serious, tears in eyes",
+  "init": null
+ },
+ "bg_era_daejeonja": {
+  "seed": 2678444694,
+  "prompt": "no humans, scenery, outdoors, steep narrow mountain pass in northern manchuria in summer, a winding dirt road at the bottom of a deep gorge, dense forest on both slopes, rocks, gun smoke, dramatic clouds",
+  "init": null
+ },
+ "bg_era_hongkou": {
+  "seed": 2153898662,
+  "prompt": "no humans, scenery, outdoors, 1932 shanghai park with a large ceremonial wooden reviewing stand decorated with bunting, empty folding chairs, scattered ceremony flags on the grass, explosion smoke rising from the stand, spring trees",
+  "init": null
+ },
+ "bg_era_kokumin_school": {
+  "seed": 2391741845,
+  "prompt": "no humans, scenery, outdoors, 1940s colonial korean elementary school playground, a two-story wooden school building, a flagpole without a flag, a small wooden shrine structure in the corner of the yard, gloomy morning light, oppressive atmosphere",
+  "init": null
+ },
+ "bg_era_bupyeong": {
+  "seed": 837633940,
+  "prompt": "no humans, scenery, outdoors, 1940s military arsenal factory complex, long brick factory buildings with sawtooth roofs, tall chimneys with smoke, rail tracks with freight cars loaded with crates, barbed wire fence, grey sky",
+  "init": null
+ },
+ "bg_era_chongqing": {
+  "seed": 3537798377,
+  "prompt": "no humans, scenery, outdoors, foggy 1940s chinese mountain city on steep hills by a river, long stone staircases, old three-story building with balconies, a taegukgi flag hanging at the entrance, damp air, morning mist",
+  "init": null
+ },
+ "bg_era_liberation": {
+  "seed": 580762102,
+  "prompt": "no humans, scenery, outdoors, august 1945 korean town street, summer sunshine, many hand-drawn taegukgi flags waving from windows and gates of tiled roof houses and shops, scattered leaflets, cicada summer atmosphere, joyful",
+  "init": null
  }
 }
