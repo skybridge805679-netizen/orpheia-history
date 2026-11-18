@@ -888,5 +888,35 @@
   "seed": 1586275862,
   "prompt": "no humans, scenery, outdoors, august 1945 korean town street in bright summer sunshine, traditional tiled roof houses and small shops with doors flung open, an old radio on a windowsill, scattered paper leaflets and confetti in the air, blue sky with big white clouds, joyful atmosphere",
   "init": null
+ },
+ "bg_era_hwimun_1945": {
+  "seed": 1502192223,
+  "prompt": "no humans, scenery, outdoors, august 1945 korean school playground packed ground, a simple wooden speaker's platform with a microphone stand, two-story brick school building, summer sunlight, trampled grass, hopeful atmosphere",
+  "init": null
+ },
+ "bg_era_38line": {
+  "seed": 1559933700,
+  "prompt": "no humans, scenery, outdoors, 1947 korean countryside dirt road crossing low hills, a simple wooden signpost with the number 38 painted on it in the middle of the road, barbed wire coil at the roadside, rice paddies, lonely autumn atmosphere",
+  "init": null
+ },
+ "bg_era_jeju_43": {
+  "seed": 3480790137,
+  "prompt": "no humans, scenery, outdoors, winter on jeju island, a burned village with only black basalt stone walls remaining, charred roof beams, gentle volcanic hills covered in snow, distant mountain, grey sky, sorrowful silence",
+  "init": null
+ },
+ "bg_era_election_1948": {
+  "seed": 175893836,
+  "prompt": "no humans, scenery, indoors, 1948 polling station set up in a school classroom, a wooden ballot box on a table, simple cloth voting booth, election posters with stick figures on the wall, sunlight through windows, solemn",
+  "init": null
+ },
+ "bg_era_heungnam": {
+  "seed": 781435293,
+  "prompt": "no humans, scenery, outdoors, winter harbor in a blizzard, a large grey cargo ship docked at a pier with ramps, piles of abandoned bundles and luggage on the snowy pier, distant burning smoke, desperate atmosphere, 1950",
+  "init": null
+ },
+ "bg_era_busan_refugee": {
+  "seed": 3720541675,
+  "prompt": "no humans, scenery, outdoors, 1950s korean port city hillside densely covered with makeshift wooden shacks and tin roofs, an army canvas tent used as a classroom on a vacant lot below with a small blackboard, harbor in the distance, overcast",
+  "init": null
  }
 }
