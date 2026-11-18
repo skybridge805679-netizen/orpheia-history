@@ -267,6 +267,14 @@ function menu(k){
 }
 
 // ── 타이틀.
+// 시작 화면: 브라우저는 사용자가 한 번 누르기 전엔 소리를 막는다. 여기서 한 번 눌러야 타이틀 BGM이 바로 나온다.
+function splash(){
+ document.body.classList.add('vn-mode');
+ $('#main').innerHTML=`<section class="vn-splash" tabindex="0"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><div class="vn-splash-body"><span class="vn-seal">電脳侍女</span><h1><span class="vn-title-brush">연표</span>오르페이아</h1><p class="vn-splash-press">화면을 눌러 시작</p><small>소리가 함께 나와요 ♪</small></div></section>`;
+ const el=$('.vn-splash');el.focus();
+ let gone=false;const go=e=>{if(gone)return;if(e.type==='keydown'&&['Shift','Control','Alt','Meta','Tab'].includes(e.key))return;gone=true;el.removeEventListener('pointerdown',go);document.removeEventListener('keydown',go);title();};
+ el.addEventListener('pointerdown',go);document.addEventListener('keydown',go);
+}
 function title(){
  BGM.play('bgm_title');stopAuto();clearTimeout(typing?.t);typing=null;busy=false;skip=false;auto=false;S=null;Quiz.close();closeDialogs();document.body.classList.add('vn-mode');
  const cont=latest(),st=Quiz.stats();
@@ -291,5 +299,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {flag:k=>S?.flags?.[k],chapter,title,_pick:null,chapters,_dev:id=>{S=fresh(id);log=[];shell();paint();step();}};
+return {flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:id=>{S=fresh(id);log=[];shell();paint();step();}};
 })();

@@ -140,6 +140,14 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-card.dive h2{font:400 clamp(24px,3.6vw,38px)/1.3 var(--f-title);color:var(--text);margin-top:14px;animation:dive 1.6s ease-out;text-shadow:0 2px 12px #000}
 @keyframes dive{from{opacity:0;letter-spacing:.6em;filter:blur(6px)}to{opacity:1;letter-spacing:normal;filter:none}}
 
+/* ── 시작 화면(첫 입력으로 소리 잠금 해제) */
+.vn-splash{position:absolute;inset:0;overflow:hidden;background:var(--night);cursor:pointer;display:flex;align-items:center;justify-content:center;outline:none}
+.vn-splash-body{position:relative;text-align:center;background:var(--fiber) var(--paper);color:var(--ink);padding:36px 56px 28px;box-shadow:inset 0 0 0 6px var(--paper),inset 0 0 0 7px var(--ink2),inset 0 0 0 9px var(--paper),inset 0 0 0 10px var(--ink3),0 20px 60px #000c;animation:enter .8s ease-out}
+.vn-splash-body .vn-seal{position:absolute;right:-12px;top:-14px}
+.vn-splash h1{font:400 52px/1.1 var(--f-title);margin:4px 0 18px}
+.vn-splash-press{margin:0;font:400 34px/1 var(--f-brush);color:var(--seal);animation:blink 1.6s infinite}
+.vn-splash small{display:block;margin-top:10px;color:var(--ink3);font-size:12px}
+
 /* ── 타이틀 */
 .vn-title{position:absolute;inset:0;overflow:hidden;background:var(--night)}
 .vn-title-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.5) sepia(.35)}
