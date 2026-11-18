@@ -690,8 +690,8 @@
   "init": null
  },
  "bg_era_gwangseongbo": {
-  "seed": 145188038,
-  "prompt": "no humans, scenery, outdoors, korean coastal stone fort on a cliff above a strait, crenellated stone walls with cannon ports, old bronze cannons, a large yellow square banner with a single black chinese character, smoke from warships in the strait, dramatic, 1871",
+  "seed": 1544976124,
+  "prompt": "no humans, scenery, outdoors, 1871 korean coastal stone fort on a rocky cliff above a narrow strait, curved stone walls with small cannon ports, old bronze cannons, a large plain yellow cloth banner without letters, in the strait two 19th century wooden steam frigates with masts and black smoke, cannon smoke, dramatic clouds",
   "init": null
  },
  "bg_era_incheon_port": {
@@ -705,8 +705,8 @@
   "init": null
  },
  "bg_era_baeksan": {
-  "seed": 1335891935,
-  "prompt": "no humans, scenery, outdoors, low hill completely covered with white cloth banners and planted bamboo spears, wide flat rice plains around, spring, morning mist, korea 1894",
+  "seed": 2051243266,
+  "prompt": "no humans, scenery, outdoors, low grassy hill rising from wide flat green rice paddies, the hillside crowded with hundreds of planted bamboo spears and tall white cloth banners on poles fluttering in the wind, distant mountains, spring morning, korea 1894",
   "init": null
  },
  "bg_era_ugeumchi": {
