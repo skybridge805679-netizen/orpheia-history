@@ -1,10 +1,13 @@
 VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @chapter 제7장|호족의 나라에서 문벌의 나라로 — 고려 전기
 // 이 장의 질문: 호족들이 세운 나라를 왕들은 어떻게 '왕의 나라'로 만들었고, 그 나라는 북쪽의 거란·여진과 어떻게 맞섰나.
-@bg bg_my_room_night
-@day 11월 27일 (목) 21:40 · 내 방
+@bg cg_studio_night
+@day 11월 27일 (목) 21:40 · 상철의 작업실
 @phone on
-@show orpheia excited center
+@show yunseul smile right
+[윤슬|smile] 오빠, 고려 전기! 이번 트랙은 '왕들의 래퍼 배틀'로 가자. 태조 대 광종 대 성종! 노비안검법으로 디스하는 광종 벌스!
+[상철] 광종이 랩을 해?
+@show orpheia excited left
 [오르페이아|excited] 주인님, 드디어 고려예요! 시험지에서 문항이 가장 많은 시대 중 하나예요.
 [오르페이아|explain] 그런데 고려 전기 왕들은 이름이 비슷해서 다들 섞어요. 태조, 광종, 성종, 현종, 숙종, 예종, 인종……
 [나] 벌써 어지러운데.
@@ -57,6 +60,14 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 [오르페이아|explain] 광종은 스스로 황제라 하고, 개경을 황도라 불렀어요. 광덕, 준풍이라는 독자적인 연호도 썼고요. 청주 용두사지 철당간에 '준풍' 연호가 새겨져 있어요.
 [사연] 밖으로는 고려의 왕이지만, 안으로는 황제의 나라. 이를 외왕내제라 합니다. 태조 왕건의 청동상이 황제의 관인 통천관을 쓰고 있는 것도 같은 뜻이지요.
 @note 광종의 왕권 강화|노비안검법(956), 과거제(958, 쌍기의 건의), 공복 제정, 칭제·황도, 연호 광덕·준풍, 호족 숙청. 제위보(빈민 구제), 후주와 교류. 외왕내제.
+@bg cg_ch07_gwageo
+[사연] 주인님, 마침 광종이 처음 연 과거 시험장입니다. 구경만 하시려 했는데…… 이름이 응시자 명단에 올라가 버렸군요.
+[상철] 왜?!
+@show orpheia explain left
+[오르페이아|explain] 걱정 마세요, 주인님. 제가 귓속말로 다 알려 드릴게요.
+[시험관] 거기! 혼자 중얼거리는 자! 부정행위냐!
+[오르페이아|teary] 주인님, 저 지금 카닝 페이퍼 취급받았어요!
+@bg bg_era_gaegyeong
 @hide all
 @quiz 78-11 74-11 77-14
 @hide all
@@ -188,6 +199,38 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @show sayeon goryeo right
 @show orpheia smile left
 [사연] 고려 전기 이백오십 년이 제자리를 찾았습니다.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 래퍼 배틀 가사 왔다! 이번엔 완벽해!
+[윤슬] 「광종은 12목, 성종은 노비안검법, 태조는 훈요 10조, 거란은 서희의 말로 강동 6주~」
+[오르페이아|serious] ……윤슬 님, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 광종이 노비안검법, 성종이 12목이야. 서로 바뀌었어. -> lc_ok {trust+1}
+> 훈요 10조는 광종이야. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 노비안검법은 광종, 12목은 성종이에요! 호족과 싸운 광종, 나라 틀을 짠 성종. 나머지는 맞아요.
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 노비안검법은 광종, 12목은 성종이에요! 호족과 싸운 광종, 나라 틀을 짠 성종. 나머지는 맞아요.
+@label lc_af
+[윤슬|pout] 광종 벌스랑 성종 벌스를 바꿔 불렀네…… 대참사.
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch07
+@day TRACK 07 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 07 RELEASED // 「왕들의 배틀」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100
 @summary
 @hide all
 @show orpheia serious center

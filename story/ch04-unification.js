@@ -1,5 +1,16 @@
 VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @chapter 제4장|살수에서 기벌포까지 — 수·당과의 전쟁과 삼국 통일
+@bg cg_studio_night
+@day 11월 22일 (토) 01:10 · 상철의 작업실
+@show yunseul serious right
+@show orpheia worry left
+[윤슬|serious] 오빠, 4번 트랙은 전쟁이야. 살수 대첩, 안시성, 황산벌, 기벌포. 웅장하게, 오케스트라로!
+[상철] 전쟁터에 가라고?
+[오르페이아|worry] 주인님은 제가 지켜 드릴게요. 그래서…… 준비했어요.
+@show orpheia excited left
+[오르페이아|excited] 짠! 화랑 의상이에요! 이러면 아무도 우리가 미래에서 온 줄 모르겠죠?
+[윤슬|smile] 언니 미쳤다. 그거 MV 의상으로 써도 돼?
+@hide all
 // 이 장의 질문: 삼국 통일은 왜 신라가 이루었고, 무엇을 얻고 무엇을 잃었나.
 @bg bg_timeline_dive
 @show sayeon neutral center
@@ -23,6 +34,13 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @note 살수 대첩(612)|영양왕 때 수 양제의 대군 침입. 을지문덕이 별동대를 깊이 끌어들인 뒤 살수에서 크게 무찔렀다. 무리한 고구려 원정으로 수는 곧 멸망.
 [사연] 그러나 수를 이은 당나라 역시 고구려를 노렸습니다. 고구려는 영류왕 때인 631년부터 부여성에서 바다까지 천 리에 이르는 장성을 쌓기 시작했지요.
 @note 천리장성(631~)|영류왕 때 당의 침입에 대비해 쌓기 시작. 축조를 감독한 이가 연개소문이다.
+@bg cg_ch04_hwarang
+[오르페이아] 주인님! 보세요, 화랑 오르페이아예요! 칼은 못 쓰지만 대신 해설은 잘해요!
+[상철] ……화랑은 신라잖아. 여기 고구려야.
+[오르페이아|surprised] ……아.
+[고구려 병사] 거기 수상한 둘! 수나라 첩자냐?!
+[오르페이아|teary] 주인님, 도망쳐요!!
+@bg bg_timeline_dive
 @hide all
 
 @dive 642년|세 나라에 일어난 일
@@ -149,6 +167,38 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @show sayeon hwarang right
 @show orpheia smile left
 [사연] 70여 년의 전쟁이 이유와 함께 제자리를 찾았습니다.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 전쟁 트랙 가사! 이번엔 진짜 자신 있어!
+[윤슬] 「살수에선 강감찬, 안시성엔 연개소문의 정변, 황산벌엔 계백의 오천 결사대, 기벌포에서 끝나는 칠십 년~」
+[오르페이아|serious] ……윤슬 님, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 살수 대첩은 강감찬이 아니라 을지문덕이야. 강감찬은 고려의 귀주 대첩이고. -> lc_ok {trust+1}
+> 계백 결사대는 오만이야. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 살수는 을지문덕(612)! 강감찬은 고려 거란 3차 침입 때 귀주 대첩이에요. 나머지는 맞아요.
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 살수는 을지문덕(612)! 강감찬은 고려 거란 3차 침입 때 귀주 대첩이에요. 나머지는 맞아요.
+@label lc_af
+[윤슬|pout] 을지문덕이랑 강감찬…… 둘 다 수염 기른 장군 이미지라서……
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch04
+@day TRACK 04 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 04 RELEASED // 「칠십 년의 전쟁」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100
 @summary
 [사연] 다음은 통일 뒤의 신라, 그리고 고구려의 땅에서 다시 일어선 나라입니다. 바다 동쪽의 번성한 나라, 해동성국.
 [오르페이아|excited] 발해예요, 주인님! 제가 제일 좋아하는 나라예요.

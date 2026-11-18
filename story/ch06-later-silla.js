@@ -1,10 +1,14 @@
 VN.chapter('ch06','제6장','천 년의 저녁',`
 @chapter 제6장|천 년의 저녁 — 신라 하대와 후삼국
 // 이 장의 질문: 그렇게 강하던 신라는 왜 흔들렸고, 그 틈에서 누가 일어나 누가 다시 하나로 묶었나.
-@bg bg_my_room_night
-@day 11월 25일 (화) 22:10 · 내 방
+@bg cg_studio_night
+@day 11월 25일 (화) 22:10 · 상철의 작업실
 @phone on
-@show orpheia serious center
+@show yunseul smile right
+[윤슬|smile] 오빠, 다음은 신라 하대랑 후삼국! 견훤, 궁예, 왕건! 이거 완전 삼파전 드라마야. 궁예 관심법 대사 넣고 싶어. '누가 기침 소리를 내었는가!'
+[상철] 그거 드라마 대사 아니야?
+[오르페이아|explain] 맞아요. 사극 대사예요. 고증은 아니고요.
+@show orpheia serious left
 [오르페이아|serious] 주인님, 오늘은 조금 쓸쓸한 이야기예요. 천 년 가까이 이어진 나라가 저무는 이야기.
 [오르페이아|explain] 신라 하대는 시험에 정말 자주 나와요. 그런데 문제를 보면 신기한 게 있어요. 사료가 무엇이든 정답이 자꾸 같은 문장이에요.
 [나] 같은 문장?
@@ -60,6 +64,16 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [사연] 원한을 품은 장보고는 청해진을 근거로 반란을 일으켰고, 끝내 자객에게 암살당했습니다. 851년, 청해진은 없어지고 주민들은 벽골군으로 옮겨졌지요.
 [오르페이아|teary] 골품의 벽이에요. 바다를 다 가진 사람도, 진골이 아니면 왕실과 이어질 수 없었어요.
 @note 장보고의 최후|문성왕이 장보고의 딸을 왕비로 맞으려다 귀족 반대로 철회 → 장보고의 반란(846), 암살. 청해진 폐지(851), 주민은 벽골군으로 이주.
+@bg cg_ch06_seasick
+청해진을 떠난 배가 파도를 넘을 때마다, 상철의 얼굴이 하얗게 질린다.
+[나루] 손님, 뱃멀미예요? 이리 와요. 무릎 빌려줄게요. 우리 집안 대대로 두건 쓴 남자한테 약하다는 말이 있거든요.
+[상철] 그런 집안 내력이 어딨어……
+[나루] 할머니의 할머니가 한강에서 두건 쓴 손님한테 덮쳐졌대요. 그 뒤로 다들 이상하게 끌린대요.
+@show orpheia pout center
+[오르페이아|pout] ……그 손님, 주인님이에요. 같은 사람이에요.
+[나루] 네?
+@add naru 5
+@bg bg_era_cheonghaejin
 @hide all
 @quiz 74-9 80-7 79-10
 @hide all
@@ -182,6 +196,38 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @show naru smile right
 @show orpheia smile left
 [나루|smile] 바닷길은 그대로예요. 나라 이름이 바뀌어도 배는 또 떠요.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 장보고 썰 들었어! 가사는 이렇게 썼어!
+[윤슬] 「청해진의 왕 장보고, 김헌창과 손잡고 웅천주에서 일어섰네~ 견훤은 송악에서, 궁예는 완산주에서~」
+[오르페이아|serious] ……윤슬 님, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 견훤은 완산주, 궁예는 송악이야. 그리고 김헌창의 난은 장보고랑 상관없어. -> lc_ok {trust+1}
+> 장보고는 고려 사람이야. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 견훤은 완산주(전주)에서 후백제, 궁예는 송악에서 후고구려예요. 김헌창의 난(822)은 따로 일어난 하대 왕위 다툼이에요!
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 견훤은 완산주(전주)에서 후백제, 궁예는 송악에서 후고구려예요. 김헌창의 난(822)은 따로 일어난 하대 왕위 다툼이에요!
+@label lc_af
+[윤슬|pout] 후삼국 지도가 머릿속에서 빙빙 돌아……
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch06
+@day TRACK 06 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 06 RELEASED // 「천 년의 저녁」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 나루 {naru}
 @summary
 @hide all
 @show sayeon smile center

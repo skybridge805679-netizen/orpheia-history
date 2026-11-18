@@ -1,10 +1,13 @@
 VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @chapter 제5장|바다 동쪽의 번성한 나라 — 통일 신라와 발해
 // 이 장의 질문: 통일 뒤 신라는 세 나라 사람을 어떻게 한 나라로 묶었고, 고구려의 땅에서는 누가 다시 일어섰나.
-@bg bg_my_room_night
-@day 11월 23일 (일) 21:00 · 내 방
+@bg cg_studio_night
+@day 11월 23일 (일) 21:00 · 상철의 작업실
 @phone on
-@show orpheia explain center
+@show yunseul smile right
+[윤슬|smile] 오빠! 발해! 해동성국! 내 최애 국가야! 무왕이 등주를 칠 때 그 바다! 그 파도! 가사 첫 줄 벌써 나왔어. '바다 건너 등주로'.
+[상철] 너 최애가 매주 바뀌는 것 같은데.
+@show orpheia explain left
 [오르페이아|explain] 주인님, 676년에 전쟁이 끝났어요. 그런데 진짜 어려운 건 그다음이에요.
 [나] 이겼는데 뭐가 어려워?
 [오르페이아] 어제까지 서로 죽이던 세 나라 사람들이 이제 한 나라 백성이 됐잖아요. 그리고 전쟁에서 공을 세운 진골 귀족들은 힘이 잔뜩 세졌고요.
@@ -65,6 +68,18 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @flash
 @note 발해의 건국(698)|고구려 장수 출신 대조영이 고구려 유민과 말갈인을 이끌고 동모산에서 건국(고왕). 지배층은 주로 고구려인, 피지배층에 말갈인이 많았다.
 [오르페이아|explain] 주인님, 발해 왕들은 이름보다 '무엇을 했는지'로 기억하면 돼요. 한 사람씩 만나 볼까요?
+@bg cg_ch05_haerang_carry
+개울을 건너다 미끄러진 상철을, 해랑이 한 손으로 번쩍 들어 어깨에 둘러멘다.
+[해랑] 남쪽 사람은 이렇게 약해요? 발해 여자는 사슴도 들쳐 메는데.
+[상철] 내려 줘! 혼자 건널 수 있어!
+@show orpheia pout left
+[오르페이아|pout] 해랑 님! 주인님은 제가 업을 거예요!
+[해랑] 그 가는 팔로? 하하! 좋아요, 그럼 내기해요. 누구 나라가 더 대단한지.
+[오르페이아|serious] 좋아요. 저는 통일 신라 편이에요. 불국사! 석굴암!
+[해랑] 발해는 해동성국이에요! 5경 15부 62주!
+[상철] ……일단 나부터 내려 줘.
+@add haerang 5
+@bg bg_era_dongmosan
 @hide all
 @bg bg_era_sanggyeong
 @day 발해 · 8세기
@@ -170,6 +185,38 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @show haerang smile right
 @show orpheia smile left
 [해랑|smile] 고마워요, 기록꾼님. 다음에 오면 상경의 큰길을 같이 걸어요.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 해랑 언니 진짜 멋있다. 가사 바로 써 봤어!
+[윤슬] 「대조영이 세운 나라, 문왕의 인안, 무왕의 대흥, 선왕 때 해동성국, 5경 15부 62주~」
+[오르페이아|serious] ……윤슬 님, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 연호가 바뀌었어. 무왕이 인안, 문왕이 대흥이야. -> lc_ok {trust+1}
+> 5경 15부 62주는 문왕 때야. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 무왕은 '인안', 문왕은 '대흥'이에요! 서로 바뀌었어요. 선왕 때 해동성국은 맞아요.
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 무왕은 '인안', 문왕은 '대흥'이에요! 서로 바뀌었어요. 선왕 때 해동성국은 맞아요.
+@label lc_af
+[윤슬|pout] 인안·대흥…… 무인·문대! 무인문대로 외워야지.
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch05
+@day TRACK 05 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 05 RELEASED // 「바다 건너 등주로」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 해랑 {haerang}
 @summary
 @hide all
 @show sayeon worry center

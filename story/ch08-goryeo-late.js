@@ -1,10 +1,13 @@
 VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @chapter 제8장|칼과 말발굽의 시대 — 무신 정권에서 고려의 끝까지
 // 이 장의 질문: 칼로 권력을 잡은 무신들, 말발굽으로 밀려온 몽골, 그리고 원의 그늘. 고려는 무엇을 잃고 무엇을 지켰으며, 왜 끝났나.
-@bg bg_my_room_night
-@day 11월 29일 (토) 22:00 · 내 방
+@bg cg_studio_night
+@day 11월 29일 (토) 22:00 · 상철의 작업실
 @phone on
-@show orpheia serious center
+@show yunseul smile right
+[윤슬|serious] 오빠, 8번 트랙은 진지하게 갈 거야. 무신 정권, 몽골, 원 간섭기. 근데 하나만. 고려양! 원나라 궁궐에서 고려 패션이 유행했대. 이건 MV 의상이다.
+[상철] 진지하게 간다며.
+@show orpheia serious left
 [오르페이아|serious] 주인님, 오늘은 고려의 뒤쪽 이백 년이에요. 무신 정권 백 년, 몽골과의 전쟁 삼십 년, 원 간섭기 팔십 년, 그리고 마지막 몇십 년.
 [오르페이아|explain] 이 시대는 '누가 권력을 쥐었나'가 계속 바뀌어요. 문벌 귀족 → 무신 → 권문세족 → 신진 사대부와 신흥 무인. 이 줄 하나만 잡고 가면 돼요.
 [나] 권력자가 바뀌는 순서.
@@ -107,6 +110,14 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [사연] 그 그늘 속에서도 새로운 것이 들어왔습니다. 충렬왕 때 안향이 원에서 성리학을 들여왔고, 같은 때 이승휴는 『제왕운기』를, 일연은 『삼국유사』를 지어 단군을 우리 역사의 시작으로 적었지요.
 [오르페이아|explain] 충선왕은 원의 수도 연경에 만권당을 세워요. 이제현이 거기서 조맹부 같은 원의 학자들과 사귀었고, 나중에 『역옹패설』을 써요. 이암은 원의 농서 『농상집요』를 들여왔고요.
 @note 원 간섭기의 문화|안향의 성리학 소개(충렬왕). 이승휴 『제왕운기』, 일연 『삼국유사』(단군 기록). 충선왕의 만권당(연경) — 이제현이 원 학자들과 교유, 『역옹패설』. 이암이 『농상집요』 소개.
+@bg cg_ch08_fashion
+[오르페이아] 주인님, 보세요! 몽골풍 옷이에요! 개경에서 유행이래요!
+@show orpheia shy center
+[오르페이아|shy] ……어울려요? 윤슬 님이 MV 참고용으로 꼭 입어 보래서요.
+[상철] ……어울려.
+[오르페이아|excited] 들으셨죠?! 지금 그 말, 녹음했어요! 평생 들을 거예요!
+@add orp 3
+@bg bg_era_jindo
 @hide all
 @quiz 76-18 72-15 80-17 79-16
 @hide all
@@ -196,6 +207,38 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @show sayeon goryeo right
 @show orpheia smile left
 [사연] 고려 오백 년이 끝났습니다.
+@hide all
+@bg cg_studio_night
+@day 귀환 · 상철의 작업실
+@phone on
+@show yunseul smile right
+@show orpheia neutral left
+[윤슬|smile] 진지 모드 가사야. 이번엔 진짜야!
+[윤슬] 「최충헌은 정방, 최우는 교정도감, 삼별초는 강화에서 진도로, 공민왕은 쌍성총관부를 되찾았네~」
+[오르페이아|serious] ……윤슬 님, 잠깐만요. 주인님, 어디가 틀렸는지 보이세요?
+@choice
+> 교정도감이 최충헌, 정방이 최우야. 서로 바뀌었어. -> lc_ok {trust+1}
+> 쌍성총관부는 충렬왕이 되찾았어. -> lc_ng
+@label lc_ng
+[오르페이아|pout] 아니에요, 주인님. 최충헌은 교정도감(교정별감), 최우는 정방이에요! 아버지가 교정, 아들이 정방. 나머지는 맞아요.
+@jump lc_af
+@label lc_ok
+[오르페이아|excited] 정답이에요! 최충헌은 교정도감(교정별감), 최우는 정방이에요! 아버지가 교정, 아들이 정방. 나머지는 맞아요.
+@label lc_af
+[윤슬|pout] 최충헌이랑 최우…… 성이 같으니까 더 헷갈려.
+[상철] 고쳐서 내자. 이번엔 먹물한테 안 털리게.
+@if quizFirst >= 2 -> rel_ok
+@add subs 900
+@jump rel_af
+@label rel_ok
+@add subs 3500
+@label rel_af
+@phone off
+@hide all
+@bg cg_mv_ch08
+@day TRACK 08 · 뮤직비디오 촬영
+노래가 흐른다. 이번 시대에서 보고 들은 것들이 한 줄 한 줄 가사가 되어 윤슬의 목소리에 실린다.
+@hud TRACK 08 RELEASED // 「칼과 말발굽」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100
 @summary
 @hide all
 @show orpheia explain center
