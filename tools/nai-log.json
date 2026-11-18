@@ -763,5 +763,35 @@
   "seed": 3776262440,
   "prompt": "no humans, scenery, outdoors, 1909 manchurian railway station platform in the morning, russian style station building, a steam locomotive with smoke, honor guard rifles, crowd area with luggage, cold autumn, dramatic light",
   "init": null
+ },
+ "bg_era_chongdokbu": {
+  "seed": 1241603354,
+  "prompt": "no humans, scenery, indoors, 1910s colonial korean elementary school classroom, wooden desks in rows, blackboard, a teacher's uniform cap and a sheathed sword hanging on the wall by the podium, barred window showing a military police officer's silhouette outside, oppressive grey light",
+  "init": null
+ },
+ "bg_era_land_survey": {
+  "seed": 501777822,
+  "prompt": "no humans, scenery, outdoors, 1910s korean farmland, surveying instruments on a tripod, wooden boundary stakes with numbered tags driven into rice paddies, a measuring chain lying on the ground, thatched farmhouses, overcast autumn",
+  "init": null
+ },
+ "bg_era_samwonbo": {
+  "seed": 1592344797,
+  "prompt": "no humans, scenery, outdoors, vast manchurian plain in early spring, a small village of thatched mud houses, a simple wooden schoolhouse with a dirt drill ground, wooden training rifles leaning on a fence, a taegukgi flag, big sky",
+  "init": null
+ },
+ "bg_era_hawaii": {
+  "seed": 2666263455,
+  "prompt": "no humans, scenery, outdoors, 1910s hawaii sugarcane plantation, tall green sugarcane fields, wooden worker barracks, a small wooden church, palm trees, mountains, bright tropical sky",
+  "init": null
+ },
+ "bg_era_tapgol": {
+  "seed": 1382994629,
+  "prompt": "no humans, scenery, outdoors, 1919 seoul park with an octagonal korean pavilion with tiled roof, a stone pagoda, scattered printed leaflets and small taegukgi flags on the ground, early spring trees, crowd's footprints, dramatic sunlight",
+  "init": null
+ },
+ "bg_era_shanghai": {
+  "seed": 3340569036,
+  "prompt": "no humans, scenery, outdoors, 1920s shanghai french concession alley, narrow lane of grey brick three-story shikumen row houses with stone gate frames, laundry lines, a small taegukgi in one window, evening light",
+  "init": null
  }
 }
