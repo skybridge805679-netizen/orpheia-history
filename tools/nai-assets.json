@@ -1305,6 +1305,30 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, june 1987 seoul city hall plaza, wide avenue filled with scattered white handkerchiefs and paper flyers, 1980s cars stopped honking, office buildings, tear gas haze, summer evening light, hopeful and intense",
    "negative": "signature, watermark, japanese text, smartphone, flag, 21st century, smartphone, modern skyscraper glass"
+  },
+  {
+   "id": "bg_era_olympic_1988",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1988 huge olympic stadium seen from the stands, packed colorful empty seats, a large green field with ceremony lines, white doves flying into blue autumn sky, olympic torch cauldron, festive",
+   "negative": "signature, watermark, japanese text, smartphone, people silhouettes, olympic rings logo, text"
+  },
+  {
+   "id": "bg_era_capitol_1995",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1995 seoul, a massive grey neoclassical colonial government building with a central dome being dismantled, a large crane lifting the dome spire, a traditional korean palace roof visible behind it, mountain backdrop, summer sky",
+   "negative": "signature, watermark, japanese text, smartphone, people silhouettes"
+  },
+  {
+   "id": "bg_era_imf_1998",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, winter morning 1998 korean city street in front of a bank building, a long queue line marked with rope stanchions on the sidewalk, small velvet ring boxes and a donation table with a banner, cold breath atmosphere, warm sunlight",
+   "negative": "signature, watermark, japanese text, smartphone, people silhouettes, text"
+  },
+  {
+   "id": "bg_era_panmunjom",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, joint security area, a low concrete curb line crossing the ground between blue barrack buildings, a grey two-story building in the background, gravel, autumn sky, quiet tense atmosphere",
+   "negative": "signature, watermark, japanese text, smartphone, people silhouettes, soldiers, flag"
   }
  ]
 }
