@@ -953,5 +953,25 @@
   "seed": 2207358616,
   "prompt": "no humans, scenery, outdoors, june 1987 seoul city hall plaza, wide avenue filled with scattered white handkerchiefs and paper flyers, 1980s cars stopped honking, office buildings, tear gas haze, summer evening light, hopeful and intense",
   "init": null
+ },
+ "bg_era_olympic_1988": {
+  "seed": 3032582586,
+  "prompt": "no humans, scenery, outdoors, 1988 huge olympic stadium seen from the stands, packed colorful empty seats, a large green field with ceremony lines, white doves flying into blue autumn sky, olympic torch cauldron, festive",
+  "init": null
+ },
+ "bg_era_capitol_1995": {
+  "seed": 964185843,
+  "prompt": "no humans, scenery, outdoors, 1995 seoul, a massive grey neoclassical colonial government building with a central dome being dismantled, a large crane lifting the dome spire, a traditional korean palace roof visible behind it, mountain backdrop, summer sky",
+  "init": null
+ },
+ "bg_era_imf_1998": {
+  "seed": 1118003194,
+  "prompt": "no humans, scenery, outdoors, winter morning 1998 korean city street in front of a bank building, a long queue line marked with rope stanchions on the sidewalk, small velvet ring boxes and a donation table with a banner, cold breath atmosphere, warm sunlight",
+  "init": null
+ },
+ "bg_era_panmunjom": {
+  "seed": 1878413301,
+  "prompt": "no humans, scenery, outdoors, joint security area, a low concrete curb line crossing the ground between blue barrack buildings, a grey two-story building in the background, gravel, autumn sky, quiet tense atmosphere",
+  "init": null
  }
 }
