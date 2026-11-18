@@ -186,7 +186,9 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 민주주의의 길 총정리, 가요!
 @hide all
+@battle muk serious
 @quiz 78-46 77-48 79-48
+@battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
 [묵] 조금 더.

@@ -238,7 +238,9 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [묵|surprised] ……진 쪽의 이유가 있어야, 이긴 쪽의 이유도 보인다.
 [묵|lonely] 그 말, 조금만 더 믿어 볼게.
 @hide all
+@battle muk
 @quiz 72-14 73-15 74-17
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵] 아직은…… 내 안의 이름들이 엉켜 있어.

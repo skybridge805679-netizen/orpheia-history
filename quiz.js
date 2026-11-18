@@ -32,11 +32,11 @@ const Quiz=(()=>{
   return choose(pool,+opt.n||1);
  }
  // ── 실행
- function run(arg,{host,onDone,title}){
+ function run(arg,{host,onDone,title,onAnswer}){
   const list=Array.isArray(arg)?arg:select(arg);
   if(!list.length){onDone({first:0,total:0});return;}
   close();BGM.play('bgm_exam');
-  R={list,i:0,first:0,tried:new Set(),done:false,host,onDone,title};
+  R={list,i:0,first:0,tried:new Set(),done:false,host,onDone,title,onAnswer};
   const el=document.createElement('section');el.className='qz';el.setAttribute('aria-label','기출 문제');host.appendChild(el);R.el=el;
   render();
  }
@@ -68,8 +68,8 @@ const Quiz=(()=>{
  }
  function answer(c){
   if(!R||R.done)return;const q=R.list[R.i],first=R.tried.size===0;
-  if(c===q.a){R.done=true;R.firstOk=first;if(first)R.first++;logAnswer(key(q),true,first);SFX.play('correct');render();R.el.querySelector('.qz-next')?.focus();return;}
-  if(first)logAnswer(key(q),false,true);
+  if(c===q.a){R.done=true;R.firstOk=first;if(first)R.first++;logAnswer(key(q),true,first);SFX.play('correct');render();R.el.querySelector('.qz-next')?.focus();R.onAnswer?.(true,first,R.first,R.list.length);return;}
+  if(first){logAnswer(key(q),false,true);R.onAnswer?.(false,true,R.first,R.list.length);}
   R.tried.add(c);R.wrongPick=c;R.line=null;SFX.play('wrong');setTimeout(()=>SFX.play('rewind'),260);
   R.el.classList.remove('rewinding');void R.el.offsetWidth;R.el.classList.add('rewinding');render();
  }

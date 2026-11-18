@@ -141,6 +141,8 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 낙하산 줄이 엉킨다. 두 사람은 그대로 언덕 아래 풀밭으로 굴러, 하얀 낙하산 천에 둘둘 말린 채 멈춘다. 천 속은 깜깜하고, 서로의 숨소리만 들린다.
 [새벽|surprised] ……기록꾼 님. 손이…… 어디 있는지 알아요?
 [상철] 모, 모르겠어! 안 보여!
+뚝, 뚝. 천 속에서 단추 튀는 소리가 연달아 난다. 엉킨 줄이 새벽의 군복 앞섶을 그대로 잡아당긴 것이다.
+[새벽|surprised] 단추……! 내 단추! 기록꾼 님, 지금 눈 감고 있죠?! 감고 있는 거죠?!
 [새벽|shy] 그, 그럼 움직이지 마요! 움직이면 더 이상한 데로 가잖아요!
 @show orpheia pout left
 @sd pout
@@ -203,7 +205,9 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1930년대부터 광복까지, 가요!
 @hide all
+@battle muk serious
 @quiz era=일제강점기 n=3
+@battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
 [묵] 조금 더.

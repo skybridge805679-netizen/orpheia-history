@@ -224,7 +224,9 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [묵|lonely] ……왕이 바뀌고, 나라가 바뀌고, 이름이 바뀌어도…… 너흰 순서를 기억하는구나.
 [묵] 나는 그런 시대에 떠밀려 지워진 이름들이야. 어느 왕 때였는지, 어느 마을 사람이었는지도 모르는.
 @hide all
+@battle muk
 @quiz 73-7 76-9 73-10
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 아직 덜 단단하네~

@@ -221,7 +221,9 @@ VN.chapter('ch01','제1장','누리의 돌',`
 [묵|surprised] ……뭐야. 단어가 아니라 이유로 말하네.
 [묵|angry] 흥. 그럼 내가 섞어 둔 것도 전부 맞혀 보시든가.
 @hide all
+@battle muk
 @quiz era=선사 n=3
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 아직 덜 읽었네~ 다음에 또 섞어 줄게.

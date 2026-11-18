@@ -182,7 +182,9 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [묵|surprised] ……숫자까지 이야기로 꿰는구나.
 [묵|angry] 그래도 이건 헷갈릴걸.
 @hide all
+@battle muk
 @quiz era=삼국 n=3
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 아직 엉킨 데가 있네~

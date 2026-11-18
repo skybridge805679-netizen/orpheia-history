@@ -173,7 +173,9 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 사회·문화 총정리, 가요!
 @hide all
+@battle muk serious
 @quiz 76-43 79-41 75-41
+@battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
 [묵] 조금 더.

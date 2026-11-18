@@ -209,7 +209,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show orpheia smile left
 [오르페이아|smile] 주인님, 아가씨. 마지막으로 다섯 문제만 같이 풀어요. 시대마다 하나씩. 연표가 처음부터 끝까지 이어지는지 확인하는 거예요.
 @hide all
+@battle muk serious
 @quiz 80-1 80-8 80-17 80-25 80-49
+@battle end
 @show orpheia excited center
 @if quizFirst >= 4 -> finalok
 [오르페이아|smile] 괜찮아요. 틀린 건 오답 노트에 묵이 기다리고 있어요. 시험 끝나고 같이 다시 읽어요.

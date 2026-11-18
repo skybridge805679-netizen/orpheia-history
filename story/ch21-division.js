@@ -190,7 +190,9 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 광복부터 이승만 정부까지, 가요!
 @hide all
+@battle muk serious
 @quiz 77-46 79-46 74-45
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵] 아직 줄이 흔들려.

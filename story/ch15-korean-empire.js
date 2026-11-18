@@ -174,7 +174,9 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. '누가 세웠나'로 근대 문물 총정리, 가요!
 @hide all
+@battle muk
 @quiz 76-32 74-30 72-29
+@battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
 [묵] 조금 더.

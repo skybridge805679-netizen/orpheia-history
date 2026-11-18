@@ -244,7 +244,9 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @show muk lonely center
 [묵|lonely] ……
 @hide all
+@battle muk
 @quiz 75-11 77-11
+@battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 아직 왕들이 엉켜 있네~

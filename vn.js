@@ -104,6 +104,7 @@ function step(){
    case 'wait':busy=true;setTimeout(()=>{busy=false;S.pc++;step();},+op.arg||600);return;
    case 'choice':return choose(op);
    case 'quiz':return quiz(op.arg);
+   case 'battle':return battle(op.arg.trim());
    // 연표 기록부: @note 제목|내용 — 본 것을 카드로 모은다. @summary — 이 장에서 모은 카드를 정리해 보여 준다.
    case 'note':{const [t,...b]=op.arg.split('|');addNote(S.ch,t.trim(),b.join('|').trim());S.pc++;break;}
    case 'summary':return summary();
@@ -287,10 +288,55 @@ const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');con
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
 function quiz(arg){
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
- Quiz.run(arg,{host:$('#vn'),onDone:R=>{
+ if(S.battle)battleHud();
+ Quiz.run(arg,{host:$('#vn'),onAnswer:S.battle?battleHit:null,onDone:R=>{
   S.flags.quizFirst=R.first;S.flags.quizTotal=R.total;S.flags.quizAll=(S.flags.quizAll||0)+R.first;
-  busy=false;BGM.scene(S.bg);S.pc++;step();
+  $('#vnBattleHud')?.remove();busy=false;BGM.scene(S.bg);S.pc++;step();
  }});
+}
+
+// ── 묵 배틀. @battle muk [serious] … @quiz … @battle end
+//    첫 시도에 맞힐 때마다 묵의 먹물 옷이 한 단계씩 찢어진다(cg_muk_b0~b3). serious: 옷 대신 먹물이 빛으로 흩어진다.
+const MUK_BREAK={
+ 1:['묵|angry','……소매쯤이야. 이유 하나 붙였다고 우쭐하지 마!'],
+ 2:['묵|surprised','자, 잠깐! 거긴…… 보지 마! 이건 먹물이 모자라서 그런 거라고!'],
+ 3:['묵|surprised','~~~~~!! 다 벗겨 놓고 이유까지 붙이면…… 나한테 뭐가 남는데……!'],
+};
+const MUK_SERIOUS={1:'먹물 한 겹이 빛이 되어 흩어진다.',2:'엉킨 연도 하나가 풀리며, 묵의 소매가 투명해진다.',3:'이유를 되찾은 기록이 하얗게 빛난다. 묵이 조용히 눈을 감는다.'};
+const MUK_MISS=['틀렸네~ 먹물 충전♪','이유 없이 고르면, 그건 내 거야.','봐, 또 번졌잖아.'];
+function battleImg(st){return asset(`cg_muk_b${S.battle?.serious?0:st}.webp`);}
+function battle(arg){
+ const [who,mode]=arg.split(/\s+/);
+ if(who==='end'){
+  const b=S.battle;S.battle=null;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
+  if(skip){S.pc++;return step();}
+  busy=true;const el=battleCut(b.stage>=3?(b.serious?'봉인 완료':'K.O.'):'BATTLE END',
+   b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):`먹물 옷 남은 겹 ${3-b.stage}`,b.stage,b.serious,true);
+  el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};return;
+ }
+ S.battle={who,serious:mode==='serious',stage:0};fx('flash');SFX.play('alarm');
+ if(skip){S.pc++;return step();}
+ busy=true;const el=battleCut('BATTLE',S.battle.serious?'번진 기록이 문제지를 덮었다. 첫 시도에 맞혀서 이유와 함께 되돌려 주세요.':'묵이 먹물 옷을 두르고 문제지를 감쌌다! 첫 시도에 맞힐 때마다 이유로 한 겹씩 벗겨 내세요.',0,S.battle.serious,true);
+ el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};
+}
+function battleCut(head,text,st,serious,wait){
+ const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
+ el.innerHTML=`<img src="${asset(`cg_muk_b${serious?0:st}.webp`)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
+ v.appendChild(el);return el;
+}
+function battleHud(){
+ $('#vnBattleHud')?.remove();const b=S.battle,el=document.createElement('div');el.id='vnBattleHud';el.className='vn-battle-hud'+(b.serious?' serious':'');
+ el.innerHTML=`<img src="${battleImg(b.stage)}" alt=""><div><b>묵</b><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span><small>${b.serious?'번진 기록':'먹물 옷'}</small></div>`;
+ $('#vn').appendChild(el);
+}
+function battleHit(ok,first,hits,total){
+ const b=S.battle;if(!b)return;
+ if(!ok){const m=battleCut('묵의 반격',MUK_MISS[Math.floor(Math.random()*MUK_MISS.length)],b.stage,b.serious,false);m.classList.add('miss');setTimeout(()=>m.remove(),1500);return;}
+ const st=Math.min(3,Math.ceil(3*hits/Math.max(1,total)));if(st<=b.stage)return;b.stage=st;
+ SFX.play('flash');fx('flash');
+ const [who,line]=MUK_BREAK[st];
+ const el=battleCut(b.serious?'정화':'BREAK!',b.serious?MUK_SERIOUS[st]:`${who.split('|')[0]}「${line}」`,st,b.serious,false);el.classList.add('hit');
+ el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),2600);battleHud();
 }
 
 function finishChapter(next){
