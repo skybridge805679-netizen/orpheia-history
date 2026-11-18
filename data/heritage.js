@@ -430,5 +430,35 @@ window.HERITAGE = {
   "src": "heritage/cheomseongdae.jpg",
   "credit": "Basile Morin · CC BY-SA 4.0 · 위키미디어 공용",
   "desc": "선덕여왕·현존 동양 최고(最古) 천문대"
+ },
+ "거북선": {
+  "src": "heritage/x01.webp",
+  "credit": "Feth · GPL · 위키미디어 공용",
+  "desc": "복원 모형",
+  "local": true
+ },
+ "빗살무늬 토기": {
+  "src": "heritage/x02.webp",
+  "credit": "CC BY-SA 3.0 · 위키미디어 공용",
+  "desc": "신석기 · 서울 암사동",
+  "local": true
+ },
+ "반달 돌칼": {
+  "src": "heritage/x03.webp",
+  "credit": "국립중앙박물관 · KOGL Type 1 · 위키미디어 공용",
+  "desc": "청동기 · 부여 송국리",
+  "local": true
+ },
+ "고인돌": {
+  "src": "heritage/x05.webp",
+  "credit": "ChongDae · CC BY-SA 3.0 · 위키미디어 공용",
+  "desc": "청동기 · 강화 부근리 탁자식",
+  "local": true
+ },
+ "선죽교": {
+  "src": "heritage/x08.webp",
+  "credit": "Homer Hulbert · Public domain · 위키미디어 공용",
+  "desc": "개성 · 옛 사진",
+  "local": true
  }
 };

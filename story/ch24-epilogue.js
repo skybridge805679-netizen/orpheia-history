@@ -19,6 +19,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @dive 연표 전체|시대를 가로지르는 길
 @bg bg_timeline_dive
 @day 연표 위
+@photo 고인돌
 끝없이 이어진 한 줄의 길. 길 양옆으로 시대의 풍경이 차례로 흘러간다. 동굴, 고인돌, 성벽, 궁궐, 전차, 광장.
 @show sayeon smile right
 @show orpheia excited left

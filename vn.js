@@ -156,12 +156,12 @@ function shell(){
 // 문화재 사진: 기출 보기 사진(QUESTION_FIGURES, 이름 확인된 것)과 따로 모은 사진(data/heritage.js)에서 이름으로 찾는다.
 function heritage(name){
  const H=window.HERITAGE||{},F=window.QUESTION_FIGURES||{};
- if(H[name])return {src:figSrc(H[name].src),credit:H[name].credit,desc:H[name].desc};
+ if(H[name])return {src:H[name].local?asset(H[name].src):figSrc(H[name].src),credit:H[name].credit,desc:H[name].desc};
  let near=null;
  for(const [k,v] of Object.entries(F))for(const c of v.choices||[]){
   if(c.nameStatus!=='identified')continue;const [r,n]=k.split('-'),hit={src:figSrc(c.src),credit:`제${r}회 ${n}번 기출 보기 사진`};
   if(c.name===name)return hit;if(!near&&(c.name.includes(name)||name.includes(c.name)))near=hit;}
- if(!near)for(const [k,v] of Object.entries(H))if(k.includes(name)||name.includes(k)){near={src:figSrc(v.src),credit:v.credit,desc:v.desc};break;}
+ if(!near)for(const [k,v] of Object.entries(H))if(k.includes(name)||name.includes(k)){near={src:v.local?asset(v.src):figSrc(v.src),credit:v.credit,desc:v.desc};break;}
  return near;
 }
 // 학습만화식 SD 리액션 컷인: @sd idea|warn|thumbs|cry|pout|shock|love|teach|detective|cheer|think|bow — 2.4초 뒤 사라진다(세이브에 남지 않음).

@@ -3,24 +3,53 @@
   "src": "heritage/x01.webp",
   "credit": "Feth · GPL · 위키미디어 공용",
   "file": "Turtle_boat.jpg",
-  "checked": false
+  "checked": true,
+  "desc": "복원 모형"
  },
  "빗살무늬 토기": {
   "src": "heritage/x02.webp",
   "credit": "CC BY-SA 3.0 · 위키미디어 공용",
   "file": "KoreanEarthenwareJar4000BCEAmsa-DongNearSeoul.jpg",
-  "checked": false
+  "checked": true,
+  "desc": "신석기 · 서울 암사동"
  },
  "반달 돌칼": {
   "src": "heritage/x03.webp",
   "credit": "국립중앙박물관 · KOGL Type 1 · 위키미디어 공용",
   "file": "부여_송국리_유적_출토_반달돌칼.jpg",
-  "checked": false
+  "checked": true,
+  "desc": "청동기 · 부여 송국리"
  },
  "비파형 동검": {
-  "src": "heritage/x04.webp",
-  "credit": "The user's homepage · CC BY 2.0 · 위키미디어 공용",
-  "file": "Bronze_dagger.jpg",
+  "rejected": true,
+  "why": "비파형이 아닌 창끝 모양 동검 사진"
+ },
+ "고인돌": {
+  "src": "heritage/x05.webp",
+  "credit": "ChongDae · CC BY-SA 3.0 · 위키미디어 공용",
+  "file": "Ganghwa_Bugeun-ri_dolmen.jpg",
+  "checked": true,
+  "desc": "청동기 · 강화 부근리 탁자식"
+ },
+ "민무늬 토기": {
+  "rejected": true,
+  "why": "토기가 아닌 궁궐 지붕 사진"
+ },
+ "나전 칠기": {
+  "rejected": true,
+  "why": "시대 확인 불가(고려 나전 칠기로 쓸 수 없음)"
+ },
+ "선죽교": {
+  "src": "heritage/x08.webp",
+  "credit": "Homer Hulbert · Public domain · 위키미디어 공용",
+  "file": "The_\"Blood_Bridge\"_at_Songdo.jpg",
+  "checked": true,
+  "desc": "개성 · 옛 사진"
+ },
+ "청화 백자": {
+  "src": "heritage/x09.webp",
+  "credit": "Korea Copyright Commission · Public domain · 위키미디어 공용",
+  "file": "백자_청화매죽문_항아리.jpg",
   "checked": false
  }
 }
