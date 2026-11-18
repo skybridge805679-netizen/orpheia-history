@@ -653,5 +653,30 @@
   "seed": 2273032352,
   "prompt": "no humans, scenery, outdoors, korean town in spring, crowd's abandoned bamboo spears, farming tools and white cloth headbands scattered on the road in front of a government office gate with tiled roof, torches, smoke, tense, joseon",
   "init": null
+ },
+ "st_dano_smile": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, lively teenage girl, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan, standing, full body, looking at viewer, grin, wink",
+  "init": null
+ },
+ "st_dano_surprised": {
+  "seed": 9090909,
+  "prompt": "1girl, solo, solo focus, lively teenage girl, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan, standing, full body, looking at viewer, surprised, open mouth",
+  "init": null
+ },
+ "bg_era_songpa_market": {
+  "seed": 215279928,
+  "prompt": "no humans, scenery, outdoors, crowded joseon riverside market, rows of straw-roofed stalls with piles of red chili peppers, salt sacks, cloth, pottery, a wooden stage area with masks for a mask dance, river ferry boats behind, sunny, 18th century korea",
+  "init": null
+ },
+ "bg_era_seodang": {
+  "seed": 3902775452,
+  "prompt": "no humans, scenery, indoors, traditional korean village schoolroom, ondol floor with straw mats, low wooden desks with open books and brushes, a teacher's cushion and switch rod, paper sliding doors, warm daylight, joseon, painting-like composition",
+  "init": null
+ },
+ "bg_era_jeju_exile": {
+  "seed": 3147130492,
+  "prompt": "no humans, scenery, outdoors, winter, a small humble thatched house with a round window, two old pine trees and two cypress trees standing beside it, bare snowy ground, black volcanic stone wall, cold grey sky, lonely, ink painting atmosphere, jeju island",
+  "init": null
  }
 }
