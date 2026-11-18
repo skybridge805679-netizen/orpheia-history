@@ -1208,5 +1208,90 @@
   "seed": 708990054,
   "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing solemnly in an autumn mountain forest at a guerrilla camp, wearing a righteous army inspired stage costume with a white headband and old coat, a faded flag behind her, golden leaves falling, emotional music video scene",
   "init": null
+ },
+ "cg_ch17_bori_cooking": {
+  "seed": 3506577874,
+  "prompt": "1girl, 1boy, young adult woman, sun-tanned skin, thick black hair in a low braid, white cotton headband, white hemp jeogori and white trousers, proudly holding out a spoon of burnt black porridge toward young man in a black hoodie with hood up, face hidden in shadow, faceless who is sweating, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch panicking with an analysis screen, simple manchurian thatched kitchen with a smoking pot, comedic",
+  "init": null
+ },
+ "cg_mv_ch17": {
+  "seed": 3625359848,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing with arms raised in a spring plaza with an octagonal korean pavilion, wearing a 1919 schoolgirl inspired stage costume with white jeogori and black skirt, holding a small taegukgi, cherry blossoms, emotional uplifting music video scene",
+  "init": null
+ },
+ "cg_ch18_makeover": {
+  "seed": 497330035,
+  "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon, white jeogori and black skirt, cheerfully putting a white cotton durumagi coat on young man in a black hoodie with hood up, face hidden in shadow, faceless who still keeps his hood up, sewing kit on the floor, a tiny chibi silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch protesting, 1920s korean room, comedic",
+  "init": null
+ },
+ "cg_mv_ch18": {
+  "seed": 1216286165,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing in a 1920s jazz club style stage with art deco lights, wearing a 1920s korean modern girl costume with cloche hat and white cotton hanbok coat, microphone stand, retro glamorous music video scene",
+  "init": null
+ },
+ "cg_ch19_date": {
+  "seed": 4289039059,
+  "prompt": "1girl, 1boy, young adult woman, long straight black hair with center part and a long braid with white ribbon but with a 1930s bob haircut and a western dress with a cloche hat, walking arm in arm with young man in a black hoodie with hood up, face hidden in shadow, faceless on a 1930s colonial seoul street with a department store, behind them a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch wearing sunglasses hiding behind a lamp post, comedic date",
+  "init": null
+ },
+ "cg_ch19_cinema": {
+  "seed": 1681317863,
+  "prompt": "1girl, 1boy, 1930s woman with bob haircut sitting next to young man in a black hoodie with hood up, face hidden in shadow, faceless in a dark old movie theater, their hands touching on the armrest, she blushes looking at the screen, projector light beam, romantic",
+  "init": null
+ },
+ "cg_mv_ch19": {
+  "seed": 407882214,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing on a rooftop of a 1930s department store at night with city lights, wearing a 1930s modern girl dress with bob wig and pearls, retro city pop aesthetic, neon-like warm lights, music video scene",
+  "init": null
+ },
+ "cg_ch20_parachute": {
+  "seed": 3807535706,
+  "prompt": "1girl, 1boy, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform, and young man in a black hoodie with hood up, face hidden in shadow, faceless tangled together in a big white parachute at the bottom of a grassy hill, she is blushing and shouting, his arms trapped in the cloth, comedic, military training field, sunny",
+  "init": null
+ },
+ "cg_mv_ch20": {
+  "seed": 1333127217,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing in front of a foggy mountain city at dawn, wearing a 1940s korean liberation army inspired uniform costume with a cap, holding a folded flag, sunrise rays breaking through fog, emotional music video scene",
+  "init": null
+ },
+ "cg_ch21_tentschool": {
+  "seed": 2784190144,
+  "prompt": "1girl, 1boy, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform but wearing a simple 1950s blouse and skirt, blushing among a crowd of laughing children in a canvas tent classroom, children pointing at young man in a black hoodie with hood up, face hidden in shadow, faceless, a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch pouting in the corner, warm comedic",
+  "init": null
+ },
+ "cg_mv_ch21": {
+  "seed": 4112626328,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing gently in front of an army canvas tent classroom on a hillside of shacks, wearing a 1950s schoolteacher inspired simple dress with a cardigan, children's drawings pinned around, hopeful sunset, music video scene",
+  "init": null
+ },
+ "cg_ch22_suspect": {
+  "seed": 806085776,
+  "prompt": "1girl, 1boy, young adult woman, shoulder length straight black hair with bangs, white blouse, navy cardigan, high-waisted light blue jeans, angrily grabbing and pulling the hood of young man in a black hoodie with hood up, face hidden in shadow, faceless who desperately holds his hood down with both hands, a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch panicking, 1980s university campus with old buildings, comedic",
+  "init": null
+ },
+ "cg_mv_ch22": {
+  "seed": 1851727988,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing with an acoustic guitar on a 1980s university campus lawn, wearing high-waisted jeans and a white blouse with a white handkerchief tied on her wrist, sunset, crowd of students' silhouettes waving handkerchiefs, nostalgic music video scene",
+  "init": null
+ },
+ "cg_ch23_mother": {
+  "seed": 3602021548,
+  "prompt": "2girls, 1boy, an elegant elderly korean woman with white bob hair smiling teasingly, young adult woman, shoulder length straight black hair with bangs, white blouse, navy cardigan, high-waisted light blue jeans blushing and shocked beside her, young man in a black hoodie with hood up, face hidden in shadow, faceless sweating, a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch pouting behind, 1988 olympic stadium entrance with crowds, comedic",
+  "init": null
+ },
+ "cg_mv_ch23": {
+  "seed": 2471824859,
+  "prompt": "1girl, solo, young adult woman, light brown wavy medium hair, light blue eyes, singing joyfully on a huge stadium stage with confetti and a crowd of light sticks, wearing a white and blue unification themed stage costume, doves flying, grand finale music video scene",
+  "init": null
+ },
+ "cg_ep_release": {
+  "seed": 2746445804,
+  "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie jumping with joy pointing at a monitor showing a rising chart graph, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting at the desk, a tiny silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch celebrating on another screen, confetti, home music studio at evening, happy",
+  "init": null
+ },
+ "cg_ep_all": {
+  "seed": 315442956,
+  "prompt": "6+girls, 1boy, group shot, a big lively party on a glowing timeline road among the stars, young man in a black hoodie with hood up, face hidden in shadow, faceless in the center surrounded by many young adult women in different korean historical costumes from goryeo, joseon, korean empire and 1940s eras pulling his arms, a silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch in front trying to line everyone up with an angry face, a young adult woman with light brown wavy hair in a pastel blue hoodie laughing with a microphone, comedic harem ending, sparkles",
+  "init": null
  }
 }
