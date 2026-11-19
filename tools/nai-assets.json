@@ -3012,8 +3012,8 @@
    "size": "stand",
    "transparent": true,
    "silhouette": true,
-   "seed": 424242,
-   "prompt": "1boy, very old korean man, long beard, topknot, walking with a cane, long robe, hunched, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "seed": 525252,
+   "prompt": "1boy, solo, very old korean man, hunched back, long white beard, topknot, walking with a long wooden cane, long robe, full body, from side, side view, clear outline, simple pose, plain background, transparent background, no text",
    "negative": "multiple views, text, cropped, background scenery, nsfw"
   },
   {
@@ -3021,8 +3021,8 @@
    "size": "stand",
    "transparent": true,
    "silhouette": true,
-   "seed": 424242,
-   "prompt": "1girl, old korean woman storyteller, headscarf, simple hanbok, hunched, holding a folding fan, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "seed": 535353,
+   "prompt": "1girl, solo, old korean woman, hunched back, headscarf tied under chin, short jeogori, long chima, leaning on a short cane, holding a folding fan in the other hand, full body, from side, side view, clear outline, simple pose, plain background, transparent background, no text",
    "negative": "multiple views, text, cropped, background scenery, nsfw"
   },
   {
@@ -3084,8 +3084,8 @@
    "size": "stand",
    "transparent": true,
    "silhouette": true,
-   "seed": 424242,
-   "prompt": "multiple people, crowd of five korean commoners in hanbok standing together, gat hats and headscarves, cheering with raised arms, group, full body, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "seed": 515151,
+   "prompt": "crowd of five korean villagers standing side by side, two middle-aged men wearing wide-brimmed gat hats and long robes, an old man with a topknot, a woman with a basket on her head, a man with a jige A-frame carrier on his back, cheering with raised fists, group, full body, from front, clear outline, plain background, transparent background, no text",
    "negative": "multiple views, text, cropped, background scenery, nsfw"
   },
   {
