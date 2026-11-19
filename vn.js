@@ -29,6 +29,15 @@ const CAST={
  dasom:{name:'다솜',cls:'c-other',stand:{neutral:'st_dasom_smile',smile:'st_dasom_smile',serious:'st_dasom_serious',teary:'st_dasom_teary',worry:'st_dasom_serious',surprised:'st_dasom_surprised',shy:'st_dasom_shy',angry:'st_dasom_angry'}},
  me:{name:'상철',cls:'c-player',stand:{}},
 };
+// 모브: 검은 실루엣(assets/mob_*.webp). 대사 이름표가 아래 이름이면 그 실루엣이 자동으로 선다. 장마다 @mob 이름=원형 으로 덮어쓴다.
+const MOB_TYPES=['soldier_ancient','official_ancient','king_ancient','scholar','farmer','blacksmith','merchant','elder_man','woman_elder','woman','court_lady','noble_joseon','soldier_joseon','soldier_modern','man_modern','crowd','child'];
+for(const m of MOB_TYPES)CAST['mob_'+m]={name:'',cls:'c-mob',stand:{neutral:'mob_'+m}};
+const MOB_BY_NAME={'전령':'soldier_ancient','늙은 병사':'soldier_ancient','고구려 병사':'soldier_ancient','백제 병사':'soldier_ancient','감독관':'soldier_ancient',
+ '태학 박사':'official_ancient','백제 관리':'official_ancient','고구려 관리':'official_ancient','귀족':'official_ancient','사신':'official_ancient','신라 사신':'official_ancient','시험관':'official_ancient','준왕':'king_ancient',
+ '선비':'scholar','고흥':'scholar','젊은 관리':'scholar','문벌 도령':'scholar','승객':'scholar','응시생들':'crowd',
+ '농부':'farmer','농민':'farmer','만적':'farmer','대장장이':'blacksmith','송나라 상인':'merchant','강 행수':'merchant','다점 주인':'merchant',
+ '늙은 내관':'elder_man','이야기꾼':'woman_elder','상궁':'court_lady','대감':'noble_joseon','군관':'soldier_joseon','교관':'soldier_modern',
+ '구경꾼':'crowd','아이들':'crowd','절 아이':'child'};
 const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me','상철':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
@@ -117,7 +126,13 @@ function step(){
    case 'note':{const [t,...b]=op.arg.split('|');addNote(S.ch,t.trim(),b.join('|').trim());S.pc++;break;}
    case 'summary':return summary();
    case 'end':return finishChapter(op.arg);
+   case 'mob':{const [n,t]=op.arg.split('=').map(x=>x.trim());(S.mobMap||(S.mobMap={}))[n]=t;S.pc++;break;}
    case 'say':case 'narr':
+    if(op.t==='say'&&!CAST[op.who]){const t=(S.mobMap||{})[op.who]??MOB_BY_NAME[op.who];const id=t&&t!=='none'?'mob_'+t:null;
+     if(id&&!S.chars[id]){for(const k of Object.keys(S.chars))if(k.startsWith('mob_')&&S.chars[k].auto)delete S.chars[k];
+      const used=new Set(Object.values(S.chars).map(c=>c.pos));const pos=['right','left','center'].find(p=>!used.has(p))||'right';
+      S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}
+     S.speakingMob=id;}else if(op.t==='say')S.speakingMob=null;
     if(op.t==='say'&&op.expr&&S.chars[op.who]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
     S.line={who:op.who||'',text:fill(op.text),expr:op.expr||S.chars[op.who]?.expr||'neutral'};
     log.push({who:nameOf(S.line.who),text:S.line.text});if(log.length>LOG_MAX)log.shift();
@@ -233,7 +248,7 @@ function paintChars(){
   const host=inPhone(who)?phone.querySelector('.vn-phone-screen'):wrap;
   let el=document.getElementById('chr-'+who);
   if(!el||el.parentElement!==host){el?.remove();el=document.createElement('div');el.id='chr-'+who;el.innerHTML='<div class="vn-chr-fx"><img alt=""></div>';host.appendChild(el);}
-  el.className=`vn-chr pos-${c.pos}${S.line?.who===who||!S.line?.who?' speaking':''}`;
+  el.className=`vn-chr pos-${c.pos}${who.startsWith('mob_')?' mob':''}${S.line?.who===who||who===S.speakingMob||!S.line?.who?' speaking':''}`;
   const img=el.querySelector('img');if(img.dataset.f!==file){img.dataset.f=file;img.onerror=()=>{const fb=standFile(who,'neutral');if(fb&&!img.src.endsWith(fb))img.src=asset(fb);};img.src=asset(file);img.alt=nameOf(who);}
   const fxName=pendingFx[who];if(fxName){const f=el.firstChild;f.className='vn-chr-fx';void f.offsetWidth;f.classList.add('fx-'+fxName);}
  }

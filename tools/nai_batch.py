@@ -52,7 +52,15 @@ for it in items:
     try:
         from PIL import Image
         im = Image.open(png)
-        if it.get("transparent"):
+        if it.get("silhouette"):
+            # 모브용 검은 실루엣: 알파만 살려 먹빛 단색으로 칠하고, 선이 무르지 않게 2배로 키운다
+            a = im.convert("RGBA").getchannel("A")
+            a = a.point(lambda v: 0 if v < 40 else (255 if v > 200 else v))
+            a = a.resize((a.width * 2, a.height * 2), Image.LANCZOS)
+            sil = Image.new("RGBA", a.size, (22, 18, 28, 255)); sil.putalpha(a)
+            sil.save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=90, method=5)
+            print("  실루엣:", "알파 있음" if a.getextrema()[0] < 255 else "알파 없음(배경 지우기 필요)")
+        elif it.get("transparent"):
             alpha = im.mode == "RGBA" and im.getchannel("A").getextrema()[0] < 255
             print("  투명 배경:", "있음" if alpha else "없음(배경 지우기 필요)")
             im.convert("RGBA").save(ROOT / f"assets/{it['id']}.webp", "WEBP", quality=88, method=5)

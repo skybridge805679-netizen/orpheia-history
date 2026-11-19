@@ -2943,6 +2943,159 @@
    "seed": 161008233,
    "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, standing, full body, looking at viewer, glitch effect, pixel noise, clothes almost completely glitched away, white lace lingerie, white lace bra and white panties, fragments of the maid dress, maid headdress and green bowtie remain, bare stomach, embarrassed smile, blush, sweat drop, one hand raised",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "mob_soldier_ancient",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, ancient korean soldier, lamellar armor, round iron helmet with plume, holding a long spear upright, sword at waist, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_official_ancient",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, middle-aged ancient korean official, long wide-sleeved robe, tall black official hat, holding a wooden tablet, beard, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_king_ancient",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, ancient korean king, golden crown with tall branch ornaments, long royal robe with wide sleeves, dignified pose, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_scholar",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, young korean scholar, long white dopo robe, wide-brimmed black gat hat, holding rolled scrolls under arm, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_farmer",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, old korean farmer, straw hat, rolled-up trousers, holding a hoe over shoulder, straw sandals, slightly bent, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_blacksmith",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, muscular korean blacksmith, headband, leather apron, sleeveless, holding a big hammer, broad shoulders, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_merchant",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, chubby korean merchant, round hat, long vest, carrying a large cloth bundle on his back, holding an abacus, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_elder_man",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, very old korean man, long beard, topknot, walking with a cane, long robe, hunched, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_woman_elder",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1girl, old korean woman storyteller, headscarf, simple hanbok, hunched, holding a folding fan, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_woman",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1girl, adult korean commoner woman, long chima skirt, short jeogori, hair in a low bun, carrying a basket, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_court_lady",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1girl, strict middle-aged joseon court lady, large braided wig gache, long chima, hands folded in front, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_noble_joseon",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, middle-aged joseon high official, gwanbok robe with chest badge, winged samo hat, belt, holding a fan, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_soldier_joseon",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, joseon military officer, jeollip hat with feather, long military coat, holding a bow, sword at waist, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_soldier_modern",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, 1940s soldier, military field cap, uniform jacket with belt, trousers, boots, holding a rifle, whistle, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_man_modern",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, 1920s korean man, fedora hat, three-piece suit, long coat, holding a newspaper, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_crowd",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "multiple people, crowd of five korean commoners in hanbok standing together, gat hats and headscarves, cheering with raised arms, group, full body, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "mob_child",
+   "size": "stand",
+   "transparent": true,
+   "silhouette": true,
+   "seed": 424242,
+   "prompt": "1boy, korean child, short hanbok, topknot, holding a small broom, cheerful pose, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
+   "negative": "multiple views, text, cropped, background scenery, nsfw"
   }
  ]
 }
