@@ -32,7 +32,7 @@ const CAST={
 // 모브: 검은 실루엣(assets/mob_*.webp). 대사 이름표가 아래 이름이면 그 실루엣이 자동으로 선다. 장마다 @mob 이름=원형 으로 덮어쓴다.
 const MOB_TYPES=['soldier_ancient','official_ancient','king_ancient','scholar','farmer','blacksmith','merchant','elder_man','woman_elder','woman','court_lady','noble_joseon','soldier_joseon','soldier_modern','man_modern','crowd','child'];
 for(const m of MOB_TYPES)CAST['mob_'+m]={name:'',cls:'c-mob',stand:{neutral:'mob_'+m}};
-const MOB_BY_NAME={'전령':'soldier_ancient','늙은 병사':'soldier_ancient','고구려 병사':'soldier_ancient','백제 병사':'soldier_ancient','감독관':'soldier_ancient',
+const MOB_BY_NAME={'전령':'soldier_ancient','젊은 병사':'soldier_ancient','병사':'soldier_ancient','신라 수군':'soldier_ancient','김춘추':'official_ancient','늙은 병사':'soldier_ancient','고구려 병사':'soldier_ancient','백제 병사':'soldier_ancient','감독관':'soldier_ancient',
  '태학 박사':'official_ancient','백제 관리':'official_ancient','고구려 관리':'official_ancient','귀족':'official_ancient','사신':'official_ancient','신라 사신':'official_ancient','시험관':'official_ancient','준왕':'king_ancient',
  '선비':'scholar','고흥':'scholar','젊은 관리':'scholar','문벌 도령':'scholar','승객':'scholar','응시생들':'crowd',
  '농부':'farmer','농민':'farmer','만적':'farmer','대장장이':'blacksmith','송나라 상인':'merchant','강 행수':'merchant','다점 주인':'merchant',
