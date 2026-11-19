@@ -37,7 +37,7 @@ const MOB_BY_NAME={'전령':'soldier_ancient','젊은 병사':'soldier_ancient',
  '선비':'scholar','고흥':'scholar','젊은 관리':'scholar','문벌 도령':'scholar','승객':'scholar','응시생들':'crowd',
  '농부':'farmer','농민':'farmer','만적':'farmer','대장장이':'blacksmith','송나라 상인':'merchant','강 행수':'merchant','다점 주인':'merchant',
  '늙은 내관':'elder_man','이야기꾼':'woman_elder','상궁':'court_lady','대감':'noble_joseon','군관':'soldier_joseon','교관':'soldier_modern',
- '구경꾼':'crowd','아이들':'crowd','절 아이':'child','역부':'farmer','기와장이':'farmer','최치원':'scholar','화랑':'soldier_ancient','왕':'king_ancient','호족':'official_ancient','청년':'scholar','서경 사람':'farmer','이성계':'soldier_ancient','최영':'soldier_ancient','장인':'blacksmith','역관':'scholar','상인':'merchant'};
+ '구경꾼':'crowd','아이들':'crowd','절 아이':'child','역부':'farmer','기와장이':'farmer','최치원':'scholar','화랑':'soldier_ancient','왕':'king_ancient','호족':'official_ancient','청년':'scholar','서경 사람':'farmer','이성계':'soldier_ancient','최영':'soldier_ancient','장인':'blacksmith','역관':'scholar','상인':'merchant','학생':'man_modern'};
 const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','나':'me','주인님':'me','상철':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
