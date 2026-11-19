@@ -9,12 +9,12 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
-def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None):
+def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None, style=None):
     """chars: [{"prompt": 인물 프롬프트, "uc": 인물 네거티브, "x": 0.1~0.9, "y": 0.1~0.9}] — NAI 멀티 캐릭터 프롬프트.
     인물마다 따로 적어서 머리색·옷이 서로 섞이지 않게 하고, x·y(5×5 격자)로 화면 위치를 정한다.
     동작은 source#/target#/mutual# 태그(예: source#carrying, target#carrying)로 누가 누구에게 하는지 적는다."""
     chars = chars or []
-    full = f"{STYLE['style']}, {prompt}"
+    full = f"{style or STYLE['style']}, {prompt}"
     neg = STYLE["negative"] + (", " + negative if negative else "")
     params = {
         "params_version": 3, "width": w, "height": h, "scale": STYLE["scale"], "sampler": STYLE["sampler"],
