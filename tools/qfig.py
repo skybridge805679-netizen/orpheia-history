@@ -48,7 +48,13 @@ th{{background:#f1e3ee;font-weight:bold}}
 .tl .ev{{text-align:center;width:150px;font-size:17px;line-height:1.4}}.tl .ev b{{display:block;font-size:19px}}
 .tl .ev .dot{{width:16px;height:16px;border-radius:50%;background:#333;margin:12px auto 0}}
 .tl .slot{{align-self:flex-end;margin-bottom:-26px;font:bold 21px B,serif;background:#fff;border:2px solid #333;padding:2px 10px}}
-.plan .ph{{height:110px;width:160px;object-fit:cover;border:1px solid #999;display:block}}
+.plan table{{table-layout:fixed}}.plan th:nth-child(1){{width:90px}}.plan th:nth-child(2){{width:230px}}.plan th:nth-child(3){{width:190px}}
+.plan .ph{{height:118px;width:170px;object-fit:cover;border:1px solid #999;display:block;margin:auto}}
+.tl2{{margin:14px 6px 6px;font-size:17px}}.tlr{{display:grid;align-items:center;text-align:center}}
+.tlc b{{display:block;font-size:19px}}.tlc span{{display:block;line-height:1.35;padding:0 2px;word-break:keep-all;font-size:15px}}
+.tlr.line{{position:relative;height:30px}}.tlr.line:before{{content:'';position:absolute;left:0;right:0;top:13px;height:4px;background:#333}}
+.tlc .d{{display:block;width:16px;height:16px;border-radius:50%;background:#333;margin:0 auto;position:relative}}
+.tlc em{{font:bold 21px B,serif;font-style:normal;border:2px solid #333;padding:2px 10px;background:#fff;display:inline-block}}
 .scene{{position:relative;width:932px}}.scene img.bg{{width:100%;display:block;border:1px solid #bbb}}
 .bub{{position:absolute;background:#fff;border:2px solid #333;border-radius:18px;padding:12px 16px;font-size:18px;line-height:1.6;box-shadow:2px 3px 0 #0002}}
 .bub:after{{content:'';position:absolute;width:18px;height:18px;background:#fff;border-right:2px solid #333;border-bottom:2px solid #333;bottom:-11px;transform:rotate(45deg)}}

@@ -18,9 +18,13 @@ def TABLE(head, rows): return "<table><tr>"+"".join(f"<th>{h}</th>" for h in hea
 def AI(user, ans, ph=None): return WIN(f'<div class="ai"><b style="font-size:20px">인공 지능 대화창</b>{f"<img class=ph src={photo(ph)}>" if ph else ""}<div class="u">{user}</div><div class="a"><span class="bot"></span><div>{ans}</div></div></div>')
 def NEWS(name, date, head, body, one=False): return f'<div class="news{" one" if one else ""}"><div class="mast"><b>{name}</b><span>{date}</span></div><h3>{head}</h3><p>{body}</p></div>'
 def TL(items):
-    cells="".join(f'<div class="ev"><b>{i[1]}</b>{i[2]}<div class="dot"></div></div>' if i[0]=="ev" else f'<div class="slot">{i[1]}</div>' for i in items)
-    return f'<div class="tl"><div class="line"></div><div class="row">{cells}</div></div>'
-def PLAN(title, rows): return f'<div class="head"><b>{title}</b></div>'+TABLE(["일정","답사지","사진","주요 내용"],[(d,p,f'<img class="ph" src="{photo(s)}">' if s else "",t) for d,p,s,t in rows])
+    n=len(items)
+    lab="".join(f'<div class="tlc"><b>{i[1]}</b><span>{i[2]}</span></div>' if i[0]=="ev" else '<div class="tlc"></div>' for i in items)
+    dot="".join('<div class="tlc"><i class="d"></i></div>' if i[0]=="ev" else '<div class="tlc"></div>' for i in items)
+    slot="".join(f'<div class="tlc"><em>{i[1]}</em></div>' if i[0]=="slot" else '<div class="tlc"></div>' for i in items)
+    g=f'style="grid-template-columns:repeat({n},1fr)"'
+    return f'<div class="tl2"><div class="tlr" {g}>{lab}</div><div class="tlr line" {g}>{dot}</div><div class="tlr" {g}>{slot}</div></div>'
+def PLAN(title, rows): return f'<div class="plan"><div class="head"><b>{title}</b></div>'+TABLE(["일정","답사지","사진","주요 내용"],[(d,p,f'<img class="ph" src="{photo(s)}">' if s else "",t) for d,p,s,t in rows])+'</div>'
 def SCENE(img, bubs):
     src=(ROOT/"assets"/f"{img}.webp").as_uri()
     b="".join(f'<div class="bub {side}" style="left:{x}px;top:{y}px;width:{w}px">{f"<span class=who>{E(who)}</span>" if who else ""}{t}</div>' for who,t,x,y,w,side in bubs)
