@@ -3243,9 +3243,9 @@
   {
    "id": "qs_crowd1919",
    "size": "bg",
-   "prompt": "crowd, 1919 korean men and women in white hanbok, elders wearing black gat hats, young students, all raising both arms high and shouting, no flags, empty hands, in front of a traditional gate, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, flag, flags, japanese flag, banner, holding object",
-   "seed": 19190378
+   "prompt": "crowd, 1919 korean villagers in white hanbok, middle-aged men with topknots wearing black gat hats, women with hair in low buns and no hats, elderly men with white beards, young male students in school caps, all raising both arms high and shouting manse, no flags, empty hands, in front of a traditional gate, medium shot, faces clearly visible, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, flag, flags, japanese flag, banner, holding object, women wearing hats, identical faces",
+   "seed": 19190302
   },
   {
    "id": "qs_family_tv",

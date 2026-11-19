@@ -25,13 +25,13 @@ def TL(items):
     g=f'style="grid-template-columns:repeat({n},1fr)"'
     return f'<div class="tl2"><div class="tlr" {g}>{lab}</div><div class="tlr line" {g}>{dot}</div><div class="tlr" {g}>{slot}</div></div>'
 def PLAN(title, rows): return f'<div class="plan"><div class="head"><b>{title}</b></div>'+TABLE(["일정","답사지","사진","주요 내용"],[(d,p,f'<img class="ph" src="{photo(s)}">' if s else "",t) for d,p,s,t in rows])+'</div>'
-def SCENE(img, bubs):
+def SCENE(img, bubs, flip=False):
     """말풍선은 그림 위 띠에 두어 인물을 가리지 않게 한다(기출처럼). 줄 수로 띠 높이를 잡는다."""
     src=(ROOT/"assets"/f"{img}.webp").as_uri()
     lines=max(len(t)*18//max(w-36,1)+1 for _,t,_,_,w,_ in bubs)
     band=lines*29+48
     b="".join(f'<div class="bub {side}" style="left:{x}px;top:8px;width:{w}px">{f"<span class=who>{E(who)}</span>" if who else ""}{t}</div>' for who,t,x,y,w,side in bubs)
-    return f'<div class="scene" style="--band:{band}px"><img class="bg" src="{src}">{b}</div>'
+    return f'<div class="scene" style="--band:{band}px"><img class="bg" src="{src}"{' style="transform:scaleX(-1)"' if flip else ''}>{b}</div>'
 def VERDICT(t): return f'<div class="verdict"><h4>판결문</h4>{t}</div>'
 def CARD(title, items): return f'<div class="card"><h4>{title}</h4><ul>{"".join(f"<li>{i}</li>" for i in items)}</ul></div>'
 BL=lambda s="(가)": f'<span class="blank">{s}</span>'
@@ -123,7 +123,7 @@ add("ch11","조선전기","광해군","밑줄 그은 '왕'의 재위 시기에 �
 
 # ───────── 12장 조선 후기 정치
 add("ch12","조선후기","영조","밑줄 그은 '왕'의 재위 시기에 있었던 사실로 옳은 것은?",
- SCENE("qs_interview",[("기자","성균관 입구에 새 비석이 섰습니다. 무슨 뜻이 새겨져 있습니까?",30,16,360,"l"),("유생","\"두루 사귀어 편당하지 않는 것이 군자의 공평한 마음이요, 편당하여 두루 사귀지 못함은 소인의 사사로운 뜻이다.\" <u>왕</u>께서 붕당의 다툼을 경계하라고 친히 지으신 글이오.",420,30,500,"r")]),
+ SCENE("qs_interview",[("기자","성균관 입구에 새 비석이 섰습니다. 무슨 뜻이 새겨져 있습니까?",30,16,360,"l"),("유생","\"두루 사귀어 편당하지 않는 것이 군자의 공평한 마음이요, 편당하여 두루 사귀지 못함은 소인의 사사로운 뜻이다.\" <u>왕</u>께서 붕당의 다툼을 경계하라고 친히 지으신 글이오.",420,30,500,"r")],flip=True),
  "[인터뷰] 기자: 성균관 입구에 새 비석이 섰습니다. / 유생: \"두루 사귀어 편당하지 않는 것이 군자의 공평한 마음이요, 편당하여 두루 사귀지 못함은 소인의 사사로운 뜻이다.\" 왕께서 붕당의 다툼을 경계하라고 친히 지으신 글이오.",
  "『속대전』을 편찬하여 법전을 정비하였다.","성균관 입구의 붕당 경계 비석 → 탕평비 → 영조. 영조는 『속대전』을 편찬하였다.",
  [("규장각을 설치하여 인재를 길렀다.","정조"),("『대전통편』을 편찬하였다.","정조"),("국왕의 친위 부대인 장용영을 두었다.","정조"),("경신환국으로 남인을 몰아내었다.","숙종")],
