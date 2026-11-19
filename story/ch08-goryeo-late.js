@@ -152,7 +152,7 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @hide all
 @quiz 76-18 72-15 80-17 79-16
 @hide all
-@quiz 77-15 71-17
+@quiz 77-15 71-17 70-16
 @hide all
 @show orpheia explain center
 @sd teach
