@@ -3187,51 +3187,51 @@
   {
    "id": "qs_classroom",
    "size": "bg",
-   "prompt": "1girl, 2boys, korean high school classroom, a female teacher standing beside a blackboard holding a pointer, two students raising hands at desks, wide shot, empty space at top",
+   "prompt": "1girl, 2boys, korean high school classroom, a female teacher standing beside a blackboard holding a pointer, two students raising hands at desks, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8112
+   "seed": 8189
   },
   {
    "id": "qs_students",
    "size": "bg",
-   "prompt": "1girl, 1boy, two korean high school students in uniforms talking while walking in a school courtyard, girl on the left holding a tablet, boy on the right holding a book, wide shot, empty space at top",
+   "prompt": "1girl, 1boy, two korean high school students in uniforms talking while walking in a school courtyard, girl on the left holding a tablet, boy on the right holding a book, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8111
+   "seed": 8188
   },
   {
    "id": "qs_interview",
    "size": "bg",
-   "prompt": "1girl, 1boy, a female tv reporter holding a microphone interviewing an elderly man in a hanbok in front of a traditional village, cameraman silhouette, wide shot, empty space at top",
+   "prompt": "1girl, 1boy, a female tv reporter holding a microphone interviewing an elderly man in a hanbok in front of a traditional village, cameraman silhouette, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8112
+   "seed": 8189
   },
   {
    "id": "qs_excavation",
    "size": "bg",
-   "prompt": "1girl, 1boy, archaeological excavation site, a male archaeologist with a brush kneeling by a dig pit with stone tools, a female student taking notes, tents, wide shot, empty space at top",
+   "prompt": "1girl, 1boy, archaeological excavation site, a male archaeologist with a brush kneeling by a dig pit with stone tools, a female student taking notes, tents, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8113
+   "seed": 8190
   },
   {
    "id": "qs_scholars",
    "size": "bg",
-   "prompt": "2boys, two joseon dynasty scholars in white dopo robes and black gat hats sitting on a wooden maru floor facing each other in discussion, books and inkstone, wide shot, empty space at top",
+   "prompt": "2boys, two joseon dynasty scholars in white dopo robes and black gat hats sitting on a wooden maru floor facing each other in discussion, books and inkstone, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8111
+   "seed": 8188
   },
   {
    "id": "qs_court",
    "size": "bg",
-   "prompt": "2boys, ancient korean royal court, a king in a golden crown and red robe seated on a throne on the right, a kneeling official in a long robe on the left presenting a scroll, wide shot, empty space at top",
+   "prompt": "2boys, ancient korean royal court, a king in a golden crown and red robe seated on a throne on the right, a kneeling official in a long robe on the left presenting a scroll, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8108
+   "seed": 8185
   },
   {
    "id": "qs_market",
    "size": "bg",
-   "prompt": "1girl, 1boy, joseon dynasty market street, a peddler with a wooden jige frame on his back talking with a woman merchant at a stall of cloth and ginseng, wide shot, empty space at top",
+   "prompt": "1girl, 1boy, joseon dynasty market street, a peddler with a wooden jige frame on his back talking with a woman merchant at a stall of cloth and ginseng, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8109
+   "seed": 8186
   },
   {
    "id": "qs_meeting",
@@ -3243,23 +3243,23 @@
   {
    "id": "qs_crowd1919",
    "size": "bg",
-   "prompt": "crowd, 1919 korean men and women in white hanbok, elders wearing black gat hats, young students, all raising both arms high and shouting, no flags, empty hands, in front of a traditional gate, wide shot, empty space at top",
+   "prompt": "crowd, 1919 korean men and women in white hanbok, elders wearing black gat hats, young students, all raising both arms high and shouting, no flags, empty hands, in front of a traditional gate, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, flag, flags, japanese flag, banner, holding object",
-   "seed": 19190301
+   "seed": 19190378
   },
   {
    "id": "qs_family_tv",
    "size": "bg",
-   "prompt": "1girl, 1boy, 1980s korean living room, a father and a daughter watching a boxy crt television news, wide shot, empty space at top",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8112
+   "prompt": "1girl, 1man, 1980s korean living room at night, a middle-aged father and his young adult daughter sitting on the floor watching an old boxy wooden crt television with a blank glowing screen, viewed from the side, medium shot, characters large in the foreground, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, flat screen tv, text on screen, letters, subtitles, anime girl on screen",
+   "seed": 8189
   },
   {
    "id": "qs_soldiers",
    "size": "bg",
-   "prompt": "3boys, 1940s korean liberation army soldiers in olive uniforms and field caps standing in front of a tent camp, one holding a document, wide shot, empty space at top",
+   "prompt": "3boys, 1940s korean liberation army soldiers in olive uniforms and field caps standing in front of a tent camp, one holding a document, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
-   "seed": 8111
+   "seed": 8188
   }
  ]
 }
