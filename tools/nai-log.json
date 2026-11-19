@@ -1893,5 +1893,55 @@
   "seed": 424242,
   "prompt": "1boy, korean child, short hanbok, topknot, holding a small broom, cheerful pose, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
   "init": null
+ },
+ "st_orpheia_hanbok_neutral": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, light smile, hands together",
+  "init": null
+ },
+ "st_orpheia_hanbok_smile": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, smile, open mouth, happy",
+  "init": null
+ },
+ "st_orpheia_hanbok_worry": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, worried, frown, hand on own chest",
+  "init": null
+ },
+ "st_orpheia_hanbok_explain": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, index finger raised, smile, explaining",
+  "init": null
+ },
+ "st_orpheia_hanbok_surprised": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, surprised, open mouth, wide-eyed",
+  "init": null
+ },
+ "st_orpheia_hanbok_pout": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, pout, puffed cheeks, looking away",
+  "init": null
+ },
+ "st_orpheia_hanbok_shy": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, blush, shy, looking down, hands together",
+  "init": null
+ },
+ "st_orpheia_hanbok_excited": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, :d, arms up, sparkle, happy",
+  "init": null
+ },
+ "st_orpheia_hanbok_serious": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, serious, determined, hand on own chest",
+  "init": null
+ },
+ "st_orpheia_hanbok_teary": {
+  "seed": 161008233,
+  "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, teary eyes, tears, sad smile, hands together",
+  "init": null
  }
 }
