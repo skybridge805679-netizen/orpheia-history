@@ -2003,5 +2003,20 @@
   "seed": 8188,
   "prompt": "3boys, 1940s korean liberation army soldiers in olive uniforms and field caps standing in front of a tent camp, one holding a document, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
+ },
+ "qs_khitan": {
+  "seed": 8209,
+  "prompt": "2boys, 10th century diplomatic negotiation in a military camp tent, on the left a goryeo envoy in a dark blue official robe and black official hat, on the right a khitan general in fur-trimmed armor with a fur hat and braided hair, facing each other across a low table, medium shot, faces clearly visible, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_cheoin": {
+  "seed": 8209,
+  "prompt": "1boy, crowd, 13th century korean buddhist monk with a shaved head in gray robes drawing a longbow on a small earthen fortress wall, villagers with farming tools behind him, mongol cavalry in the distance, dramatic, medium shot, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_queen": {
+  "seed": 8208,
+  "prompt": "1girl, 1boy, 9th century silla royal court, an adult queen in a golden crown with jade ornaments and a layered red silk robe seated on a throne on the right, a scholar official in a dark robe kneeling on the left presenting a document with both hands, medium shot, faces clearly visible, some empty space at the top of the image",
+  "init": null
  }
 }
