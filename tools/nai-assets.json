@@ -4076,17 +4076,17 @@
    "id": "st_muk_yeogwan_angry_d1",
    "size": "stand",
    "transparent": true,
-   "seed": 8181818,
-   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat (rounded official cap with two side wings), battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, gat, wide brimmed hat, horsehair hat"
+   "seed": 9191919,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, no hat, bare head, black hair partly tied in a low bun with a silver binyeo hairpin, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, gat, wide brimmed hat, horsehair hat, hat, headwear, cap"
   },
   {
    "id": "st_muk_yeogwan_lonely_d1",
    "size": "stand",
    "transparent": true,
-   "seed": 8181818,
-   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat (rounded official cap with two side wings), battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, gat, wide brimmed hat, horsehair hat"
+   "seed": 9191919,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, no hat, bare head, black hair partly tied in a low bun with a silver binyeo hairpin, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, gat, wide brimmed hat, horsehair hat, hat, headwear, cap"
   },
   {
    "id": "st_muk_yeogwan_shy_d2",
