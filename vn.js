@@ -187,7 +187,7 @@ function boardHtml(n){
 }
 function board(ids){
  paint();busy=true;S.line=null;stopAuto();const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card board';c.hidden=false;c.onclick=null;
- c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small>오르페이아의 판서 · 기출 핵심노트</small><button class="primary" data-back>정리 끝 ▶</button></div><div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
+ c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small><img class="bd-emblem" src="${asset('emblem_white.webp')}" alt="">오르페이아의 판서 · 기출 핵심노트</small><button class="primary" data-back>정리 끝 ▶</button></div><div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
  const done=e=>{e?.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
  c.querySelector('[data-back]').onclick=done;
  if(skip){done();return;}
@@ -244,7 +244,7 @@ function setHidden(v){hidden=v;$('#vn')?.classList.toggle('ui-hidden',v);}
 function fx(kind){const vn=$('#vn');if(!vn)return;vn.classList.remove(kind);void vn.offsetWidth;vn.classList.add(kind);setTimeout(()=>vn.classList.remove(kind),700);}
 function card(kind,a,b){
  paint();busy=true;S.line=null;const c=$('#vnCard');$('#vnBox').classList.add('quiet');
- c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
+ c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><img class="vn-crest scroll" src="${asset('emblem_gold.webp')}" alt=""><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<div class="vn-dive-emblem"><img src="${asset('emblem_white.webp')}" alt=""><i></i></div><em class="vn-dive-tag">ORPHEIA · MV SCENE ENGINE</em><small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><img class="vn-hud-emblem" src="${asset('emblem_gold.webp')}" alt=""><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
  const done=()=>{if(c.hidden)return;c.hidden=true;$('#vnBox')?.classList.remove('quiet');busy=false;S.pc++;step();};
  c.onclick=e=>{e.stopPropagation();done();};setTimeout(done,skip?150:kind==='hud'?4200:kind==='chapter'||kind==='dive'?2600:1700);
 }
@@ -343,14 +343,14 @@ function battle(arg){
   const head=b.stage>=3?(b.serious?'정화 완료':'K.O.'):'BATTLE END';
   const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):(b.serious?`아직 번진 기록 ${3-b.stage}`:`먹물 옷 남은 겹 ${3-b.stage}`),b.stage,b.serious,true);
   el.classList.add('result');
-  el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}"><span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
+  el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
   el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};return;
  }
  S.battle={who,serious:mode==='serious',stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
  if(skip){S.pc++;return step();}
  busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
- el.innerHTML=`<div class="vs-side vs-l"><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
+ el.innerHTML=`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
  <div class="vs-side vs-r"><img src="${asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
  <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div><div class="vs-bar top"></div><div class="vs-bar bot"></div>
  <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':'묵「'+pickOne(MUK_TAUNT)+'」')}</p>
@@ -398,7 +398,7 @@ function finishChapter(next){
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
  if(nx){S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
  busy=true;S.line=null;paint();const c=$('#vnCard');c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
- const done=curCh().id==='ep';c.innerHTML=done?`<small>THE END</small><h2>연표의 끝에서</h2><p>선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
+ const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END</small><h2>연표의 끝에서</h2><p>선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};
 }
 
@@ -442,15 +442,15 @@ function menu(k){
 // 시작 화면: 브라우저는 사용자가 한 번 누르기 전엔 소리를 막는다. 여기서 한 번 눌러야 타이틀 BGM이 바로 나온다.
 function splash(){
  document.body.classList.add('vn-mode');
- $('#main').innerHTML=`<section class="vn-splash" tabindex="0"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><div class="vn-splash-body"><span class="vn-seal">電脳侍女</span><h1><span class="vn-title-brush">연표</span>오르페이아</h1><p class="vn-splash-press">화면을 눌러 시작</p><small>소리가 함께 나와요 ♪</small></div></section>`;
+ $('#main').innerHTML=`<section class="vn-splash" tabindex="0"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><img class="vn-emblem-splash" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><div class="vn-splash-body"><span class="vn-seal">電脳侍女</span><h1><span class="vn-title-brush">연표</span>오르페이아</h1><p class="vn-splash-press">화면을 눌러 시작</p><small>소리가 함께 나와요 ♪</small></div></section>`;
  const el=$('.vn-splash');el.focus();
- let gone=false;const go=e=>{if(gone)return;if(e.type==='keydown'&&['Shift','Control','Alt','Meta','Tab'].includes(e.key))return;gone=true;el.removeEventListener('pointerdown',go);document.removeEventListener('keydown',go);title();};
+ let gone=false;const go=e=>{if(gone)return;if(e.type==='keydown'&&['Shift','Control','Alt','Meta','Tab'].includes(e.key))return;gone=true;el.removeEventListener('pointerdown',go);document.removeEventListener('keydown',go);el.classList.add('strum');SFX.play('vb_purify');setTimeout(title,650);};
  el.addEventListener('pointerdown',go);document.addEventListener('keydown',go);
 }
 function title(){
  BGM.play('bgm_title');stopAuto();clearTimeout(typing?.t);typing=null;busy=false;skip=false;auto=false;S=null;Quiz.close();closeDialogs();document.body.classList.add('vn-mode');
  const cont=latest(),st=Quiz.stats();
- $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
+ $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
  <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
