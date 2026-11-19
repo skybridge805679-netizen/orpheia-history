@@ -2018,5 +2018,60 @@
   "seed": 8208,
   "prompt": "1girl, 1boy, 9th century silla royal court, an adult queen in a golden crown with jade ornaments and a layered red silk robe seated on a throne on the right, a scholar official in a dark robe kneeling on the left presenting a document with both hands, medium shot, faces clearly visible, some empty space at the top of the image",
   "init": null
+ },
+ "cg_muk_hunter_b0": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, holding a stone-tipped spear, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hunter_b1": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, holding a stone-tipped spear, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hunter_b2": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, , heavy battle damage, torn clothes, torn top, brown leather bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hunter_b3": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, , clothes almost completely torn away, only brown leather lingerie, brown leather bra and brown leather panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_shaman_b0": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, holding a bronze dagger and bells, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_shaman_b1": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, holding a bronze dagger and bells, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_shaman_b2": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, , heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_shaman_b3": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, , clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_cavalry_b0": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, holding a composite bow, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_cavalry_b1": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, holding a composite bow, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_cavalry_b2": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, , heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
  }
 }
