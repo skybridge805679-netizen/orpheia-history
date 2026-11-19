@@ -240,6 +240,19 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [사연|worry] 묵, 혹시 너는……
 [묵] 다음 시대에서 보자.
 @label sealafter
+@bg cg_ink_spread
+먹물이 왕좌 주위를 빙글빙글 돈다. 하대의 왕들이 너무 빨리 바뀌어서, 얼굴이 흐릿하다.
+@show muk smirk center
+[묵|smirk] 하대는 왕이 너무 많아서 다들 섞어. 반란을 일으킨 도독, 사벌주의 농민, 완산주의 장수. 섞는 건 내 특기야.
+@show orpheia serious left
+[오르페이아|serious] 섞이는 건 순서를 몰라서예요. 순서엔 이유가 있고요. 주인님, 2단계예요.
+@hide all
+@battle muk stage2
+@quiz 81-60 81-61 81-62 81-63
+@battle end
+@show muk lonely center
+[묵|lonely] ……순서가 서니까, 왕들 얼굴이 보여.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_cheonghaejin

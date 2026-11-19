@@ -348,7 +348,7 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @show orpheia serious center
 [오르페이아|serious] ……아뇨. 이름은 몰라도 이유는 알 수 있거든요. 주인님, 반박 들어가요.
 @hide all
-@quiz era=고려 n=3
+@quiz 81-71 81-72 81-73
 @if quizFirst >= 2 -> releaseok
 @bg cg_comment_flame
 [먹물] 거 봐. 아직도 헷갈리잖아. 이름 없는 장인들처럼, 이 노래도 금방 잊힐걸.

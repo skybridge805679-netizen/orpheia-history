@@ -222,7 +222,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 붕당 정치 총정리, 가 볼까요!
 @hide all
 @battle muk serious
-@quiz 81-13 81-14 81-15
+@quiz 81-13 81-14 81-15 81-79
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

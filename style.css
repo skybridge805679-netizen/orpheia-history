@@ -491,3 +491,4 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 .vn-chr.mob img{filter:drop-shadow(0 0 1.5px #f3e7d0cc) drop-shadow(0 0 10px #f3e7d040) drop-shadow(0 10px 16px #0008);opacity:.94}
 .vn-chr.mob:not(.speaking) img{opacity:.6}
 .qz-pred{color:#1d5c55;letter-spacing:.04em}
+.vs-stage{position:absolute;left:50%;top:60%;transform:translateX(-50%);z-index:3;font:900 clamp(18px,2.6vw,30px)/1 var(--serif,serif);letter-spacing:.2em;color:#ffe08a;text-shadow:0 0 14px #b3261e,2px 2px 0 #000;animation:vbIn .4s .6s both}

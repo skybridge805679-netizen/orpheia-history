@@ -16,6 +16,9 @@ const Quiz=(()=>{
  const lastRound=()=>Math.max(...QS.filter(q=>!q.pred).map(q=>q.r));
  function stats(){const t=QS.length,seen=QS.filter(q=>records.quiz[key(q)]).length,right=QS.filter(q=>records.quiz[key(q)]?.last).length;return {total:t,seen,right};}
  // 고르는 규칙: 안 푼 문항 → 최근에 틀린 문항 → 나머지 순으로 섞어서 뽑는다.
+ // 제81회 예상 모의고사: 기출 회당 평균 시대 비중(docs/출제-분석.md)대로 예상 문제에서 50문항을 시험지 순서로 뽑는다.
+ const MOCK_QUOTA={'선사':1,'초기국가':1,'삼국':4,'남북국':4,'고려':7,'조선전기':4,'조선후기':5,'근대':7,'일제강점기':9,'현대':5,'통합':3};
+ function mockList(){const out=[];for(const [e,n] of Object.entries(MOCK_QUOTA))out.push(...QS.filter(q=>q.pred&&q.era===e).sort((a,b)=>(b.w||0)-(a.w||0)||a.n-b.n).slice(0,n).sort((a,b)=>a.n-b.n));return out;}
  function choose(pool,n){
   const w=q=>{const r=records.quiz[key(q)];return !r?0:!r.last?1:2;};
   const sh=pool.map(q=>[w(q)+Math.random()*.9,q]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
@@ -86,16 +89,18 @@ const Quiz=(()=>{
  // ── 타이틀의 「기출 풀기」 로비.
  function lobby(back){
   BGM.play('bgm_daily');document.body.classList.add('vn-mode');
-  const rounds=[...new Set(QS.map(q=>q.r))].sort((a,b)=>b-a),eras=['선사','초기국가','삼국','남북국','고려','조선전기','조선후기','근대','일제강점기','현대','통합'].filter(e=>QS.some(q=>q.era===e)),st=stats();
+  const rounds=[...new Set(QS.filter(q=>!q.pred).map(q=>q.r))].sort((a,b)=>b-a),eras=['선사','초기국가','삼국','남북국','고려','조선전기','조선후기','근대','일제강점기','현대','통합'].filter(e=>QS.some(q=>q.era===e)),st=stats();
   const acc=f=>{const qs=QS.filter(f),r=qs.filter(q=>records.quiz[key(q)]?.last).length;return `${r}/${qs.length}`;};
   $('#main').innerHTML=`<section class="qz-lobby"><img class="qz-lobby-bg" src="${asset('bg_study_cafe.webp')}" alt=""><div class="qz-lobby-body"><header><small>PRACTICE · 기출 풀기</small><h2>어디부터 풀까요, 주인님?</h2><p>풀어 본 문항 ${st.seen}/${st.total} · 최근 정답 ${st.right}</p><button class="quiet" data-back>← 타이틀</button></header>
    <h3>시대별 10문항 <span>(안 푼 문항 → 최근에 틀린 문항 순)</span></h3><div class="qz-grid">${eras.map(e=>`<button data-era="${esc(e)}"><b>${esc(e)}</b><span>최근 정답 ${acc(q=>q.era===e)}</span></button>`).join('')}</div>
+   <h3>오르페이아 예상 모의고사</h3><div class="qz-grid"><button data-mock><b>제81회 예상 모의고사</b><span>기출 시대 비중대로 50문항 · 최근 정답 ${(()=>{const l=mockList();return l.filter(q=>records.quiz[key(q)]?.last).length+'/'+l.length})()}</span></button></div>
    <h3>회차 전체 50문항</h3><div class="qz-grid">${rounds.map(r=>`<button data-round="${r}"><b>${r===81?'오르페이아 예상':`제${r}회`}</b><span>최근 정답 ${acc(q=>q.r===r)}</span></button>`).join('')}</div>
    <h3>틀린 문제만</h3><div class="qz-grid"><button data-wrong><b>최근에 틀린 문항</b><span>${QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last).length}문항</span></button></div></div></section>`;
   const host=$('.qz-lobby'),again=()=>lobby(back);
   host.querySelector('[data-back]').onclick=back;
   host.querySelectorAll('[data-era]').forEach(b=>b.onclick=()=>run(`era=${b.dataset.era} n=10`,{host,onDone:again,title:b.dataset.era}));
-  host.querySelectorAll('[data-round]').forEach(b=>b.onclick=()=>run(`round=${b.dataset.round}`,{host,onDone:again,title:b.dataset.round==='81'?'오르페이아 예상 문제':`제${b.dataset.round}회`}));
+  host.querySelector('[data-mock]').onclick=()=>run(mockList(),{host,onDone:again,title:'제81회 예상 모의고사'});
+  host.querySelectorAll('[data-round]').forEach(b=>b.onclick=()=>run(`round=${b.dataset.round}`,{host,onDone:again,title:`제${b.dataset.round}회`}));
   host.querySelector('[data-wrong]').onclick=()=>{const l=QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last);if(!l.length)return toast('최근에 틀린 문항이 없어요♪');run(l.slice(0,20),{host,onDone:again,title:'오답 다시'});};
  }
  document.addEventListener('keydown',e=>{if(!R||document.querySelector('dialog[open]'))return;if(/^[1-5]$/.test(e.key)&&!R.done){e.preventDefault();const b=R.el.querySelector(`[data-c="${e.key}"]`);if(b&&!b.disabled)answer(+e.key);}else if((e.key==='Enter'||e.key===' ')&&R.done){e.preventDefault();R.el.querySelector('[data-next],[data-back]')?.click();}});

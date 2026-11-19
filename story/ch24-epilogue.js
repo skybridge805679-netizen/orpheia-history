@@ -211,13 +211,13 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show orpheia smile left
 @hide all
 @battle muk serious
-@quiz 81-48 81-49 81-50 81-51 81-52
+@quiz 81-48 81-49 81-50 81-51 81-52 81-84 81-85 81-86 81-87
 @show orpheia explain center
 [오르페이아|explain] 주인님, 아가씨. 마지막으로 다섯 문제만 같이 풀어요. 시대마다 하나씩. 연표가 처음부터 끝까지 이어지는지 확인하는 거예요.
 @hide all
 @battle end
 @show orpheia excited center
-@if quizFirst >= 4 -> finalok
+@if quizFirst >= 7 -> finalok
 [오르페이아|smile] 괜찮아요. 틀린 건 오답 노트에 묵이 기다리고 있어요. 시험 끝나고 같이 다시 읽어요.
 @jump finalafter
 @label finalok

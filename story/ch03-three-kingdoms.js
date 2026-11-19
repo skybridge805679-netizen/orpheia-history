@@ -357,6 +357,19 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [묵|lonely] ……이유를 알면, 연도도 안 번지는구나.
 [묵] 나한테 온 기록들은 전부 연도만 남은 것들이었어. 이유는…… 아무도 붙여 주지 않았지.
 @label sealafter
+@bg cg_ink_spread
+먹물이 다시 번진다. 이번엔 깃발이 아니라 이름이다. 거련, 경, 명농. 왕의 이름만 둥둥 떠다닌다.
+@show muk angry center
+[묵|angry] 깃발 순서는 맞혔다 쳐. 그런데 깃발 아래 있던 왕 이름까지 기억해? 이름만 남은 조각들이 아직 내 안에 남아 있거든.
+@show orpheia serious left
+[오르페이아|serious] 그 이름들, 나루 씨 장부에 다 있었어요. 주인님, 2단계예요.
+@hide all
+@battle muk stage2
+@quiz 81-53 81-54 81-55
+@battle end
+@show muk lonely center
+[묵|lonely] ……이름에도 이유가 붙으니까, 더는 번질 데가 없네.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_hanriver_ferry

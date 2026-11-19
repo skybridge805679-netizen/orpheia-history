@@ -369,13 +369,13 @@ function battle(arg){
   el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
   el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};return;
  }
- S.battle={who,serious:mode==='serious',stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
+ const st2=/stage2/.test(arg);S.battle={who,serious:/serious/.test(arg),stage2:st2,stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
  if(skip){S.pc++;return step();}
  busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
  el.innerHTML=`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
  <div class="vs-side vs-r"><img src="${asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
- <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div><div class="vs-bar top"></div><div class="vs-bar bot"></div>
+ <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div>${S.battle.stage2?'<div class="vs-stage">STAGE 2 · 잔향</div>':''}<div class="vs-bar top"></div><div class="vs-bar bot"></div>
  <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':'묵「'+pickOne(MUK_TAUNT)+'」')}</p>
  <p class="vs-go">${S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요'}<small>눌러서 시작 ▶</small></p>`;
  v.appendChild(el);SFX.play(S.battle.serious?'vb_bell':'vb_start');if(!S.battle.serious)vnShake(true);

@@ -251,6 +251,19 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [묵|smile] ……이상하네. 이번엔 지워지는 느낌이 아니라, 제자리에 놓이는 느낌이야.
 [사연|surprised] 묵이…… 웃었어요.
 @label sealafter
+@bg cg_ink_spread
+먹물이 백 년을 한꺼번에 덮는다. 노비들의 모의, 처인성의 화살, 원 황녀의 혼례, 압록강의 섬.
+@show muk smirk center
+[묵|smirk] 칼의 시대 다음은 몽골, 그다음은 원, 그다음은 위화도. 백 년이 넘는 순서를 이유로 꿸 수 있어?
+@show orpheia serious left
+[오르페이아|serious] 꿸 수 있어요. 주인님이 직접 봤잖아요. 2단계예요!
+@hide all
+@battle muk stage2
+@quiz 81-67 81-68 81-69 81-70
+@battle end
+@show muk lonely center
+[묵|lonely] ……백 년이, 한 줄로 이어졌어.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_gaegyeong

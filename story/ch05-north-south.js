@@ -243,6 +243,19 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [묵] 나한테도 그런 사람이 있었으면 좋았을 텐데.
 [오르페이아|worry] 묵……?
 @label sealafter
+@bg cg_ink_spread
+먹물이 남쪽으로 흘러간다. 서라벌의 궁궐, 바다 건너 일본 창고에 잠든 종이 한 장, 그리고 어느 승려의 노랫소리.
+@show muk smirk center
+[묵|smirk] 발해만 기억하면 다인 줄 알았지? 같은 시대의 남쪽도 있어. 반란, 승려, 마을 문서. 한꺼번에 섞어 줄게.
+@show orpheia serious left
+[오르페이아|serious] 남북국은 남과 북을 같이 봐야 해요. 주인님, 2단계 가요!
+@hide all
+@battle muk stage2
+@quiz 81-56 81-57 81-58 81-59
+@battle end
+@show muk lonely center
+[묵|lonely] ……남쪽도, 북쪽도. 둘 다 이유가 있었구나.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_sanggyeong

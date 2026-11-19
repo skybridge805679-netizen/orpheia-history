@@ -6,12 +6,21 @@ FONTS = ROOT / "tools/fonts"
 SITE = ROOT.parent / "korean-history-study/site"
 E = html.escape
 
+_H=None
+def heritage_src(name):
+    """heritage.js 의 이름 → src 경로"""
+    global _H
+    if _H is None:
+        t=(ROOT/"data/heritage.js").read_text(encoding="utf-8"); _H=json.loads(t[t.index("{"):t.rindex("}")+1])
+    if name not in _H: raise KeyError(f"heritage.js 에 없는 문화유산: {name}")
+    return _H[name]["src"]
 def photo(src):
-    """heritage 경로(학습 사이트 사진 또는 이 저장소 assets/heritage) → file:// 주소"""
+    """heritage 경로 또는 heritage.js 이름 → file:// 주소"""
+    if not src.startswith("heritage/"): src=heritage_src(src)
     for base in (ROOT / "assets", SITE):
         p = base / src
         if p.exists(): return p.as_uri()
-    return ""
+    raise FileNotFoundError(src)
 
 CSS = f"""
 @font-face{{font-family:B;src:url({(FONTS/'GowunBatang-Bold.ttf').as_uri()})}}

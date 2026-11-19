@@ -261,6 +261,19 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 [오르페이아|worry] 묵, 그 말……
 [묵] 다음은 칼의 시대야. 그때도 이유를 댈 수 있나 보자고.
 @label sealafter
+@bg cg_ink_spread
+먹물이 개경 하늘에 세 갈래로 번진다. 북쪽 국경의 외교 담판, 학당에 몰린 젊은이들, 서경에서 부는 바람.
+@show muk angry center
+[묵|angry] 고려 앞부분엔 외교도, 학당도, 서경 바람도 있었어. 셋 다 한꺼번에 번지게 해 줄게.
+@show orpheia serious left
+[오르페이아|serious] 셋 다 장면이 달라요. 담판, 학당, 천도 운동. 주인님, 2단계예요.
+@hide all
+@battle muk stage2
+@quiz 81-64 81-65 81-66
+@battle end
+@show muk lonely center
+[묵|lonely] ……칼 이전의 고려도, 이유가 있었네.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_gaegyeong

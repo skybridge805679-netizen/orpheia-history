@@ -266,6 +266,19 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @label sealok
 [묵|smile] ……가라앉았어. 고마워.
 @label sealafter
+@bg cg_ink_spread
+먹물이 경복궁 처마 끝에서 뚝뚝 떨어진다. 형제의 피, 숙부의 정변, 선비들의 사약, 관청 이름표들.
+@show muk smirk center
+[묵|smirk] 조선 앞 백 년. 태종, 세조, 사화, 관청 이름들. 외우기만 한 사람은 꼭 여기서 미끄러지더라.
+@show orpheia serious left
+[오르페이아|serious] 미끄러지면 다시 일어나면 돼요. 이유를 붙잡고요. 주인님, 2단계예요.
+@hide all
+@battle muk stage2
+@quiz 81-74 81-75 81-76 81-77 81-78
+@battle end
+@show muk lonely center
+[묵|lonely] ……이 백 년도, 제자리에 놓였어.
+@hide all
 @hide all
 @bgm auto
 @bg bg_era_gyeongbokgung
