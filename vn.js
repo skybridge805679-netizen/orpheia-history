@@ -54,7 +54,7 @@ const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
  if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;
- if(who==='muk'&&S?.mukDmg){const d=S.mukDmg,e=MUK_DMG[d][expr]||MUK_DMG[d].neutral;return `st_muk_${e}_d${d}.webp`;}
+ if(who==='muk'&&S?.mukDmg){const d=S.mukDmg,k=S.mukSkin;if(k&&window.MUK_SKINS?.[k]?.dmg)return `st_muk_${k}_${expr==='lonely'?'lonely':d===1?'angry':'shy'}_d${d}.webp`;const e=MUK_DMG[d][expr]||MUK_DMG[d].neutral;return `st_muk_${e}_d${d}.webp`;}
  const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
 // 새 그림이 아직 없으면 옛 그림으로 바꾼다.
 for(const f of Object.keys(OLD)){const i=new Image();i.onerror=()=>MISSING.add(f);i.src=asset(f+'.webp');}
@@ -365,7 +365,7 @@ function battle(arg){
  if(who==='end'){
   const b=S.battle;S.battle=null;lastBattle=b;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
   recordSkin(b);
-  if(!b.serious&&b.stage>0)S.mukDmg=b.stage;
+  if(!b.serious&&b.stage>0){S.mukDmg=b.stage;S.mukSkin=b.skin||null;}
   if(!b.serious&&b.orp>0)S.orpDmg=b.orp;
   if(skip){S.pc++;return step();}
   const rate=b.total?b.hits/b.total:0,rank=rate>=1?'S':rate>=.67?'A':rate>=.34?'B':'C';

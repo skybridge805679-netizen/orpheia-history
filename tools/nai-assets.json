@@ -3687,6 +3687,582 @@
    "seed": 6060606,
    "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, ink turning into light, serene smile, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "st_muk_hunter_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hunter_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hunter_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, heavy battle damage, torn clothes, torn top, brown leather bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hunter_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, heavy battle damage, torn clothes, torn top, brown leather bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hunter_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, brown leather lingerie, brown leather bra and brown leather panties, only shreds of the outfit (prehistoric hunter outfit) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hunter_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, brown leather lingerie, brown leather bra and brown leather panties, only shreds of the outfit (prehistoric hunter outfit) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lingerie, white bra and white panties, only shreds of the outfit (bronze age shaman priestess) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_shaman_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lingerie, white bra and white panties, only shreds of the outfit (bronze age shaman priestess) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, red lingerie, red bra and red panties, only shreds of the outfit (goguryeo female cavalry warrior) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_cavalry_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, red lingerie, red bra and red panties, only shreds of the outfit (goguryeo female cavalry warrior) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, heavy battle damage, torn clothes, torn top, sky blue bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, heavy battle damage, torn clothes, torn top, sky blue bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, sky blue lingerie, sky blue bra and sky blue panties, only shreds of the outfit (silla hwarang outfit) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_hwarang_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, sky blue lingerie, sky blue bra and sky blue panties, only shreds of the outfit (silla hwarang outfit) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, navy lingerie, navy bra and navy panties, only shreds of the outfit (balhae noblewoman) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_balhae_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, navy lingerie, navy bra and navy panties, only shreds of the outfit (balhae noblewoman) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_captain_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 9th century korean silla sea trade captain, dark navy korean long robe with wide sleeves and crossed collar, leather belt, red sash, simple wrist guards, wind-blown, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_captain_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 9th century korean silla sea trade captain, dark navy korean long robe with wide sleeves and crossed collar, leather belt, red sash, simple wrist guards, wind-blown, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_captain_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 9th century korean silla sea trade captain, dark navy korean long robe with wide sleeves and crossed collar, leather belt, red sash, simple wrist guards, wind-blown, heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_captain_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 9th century korean silla sea trade captain, dark navy korean long robe with wide sleeves and crossed collar, leather belt, red sash, simple wrist guards, wind-blown, heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_captain_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, navy lingerie, navy bra and navy panties, only shreds of the outfit (9th century korean silla sea trade captain) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_captain_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, navy lingerie, navy bra and navy panties, only shreds of the outfit (9th century korean silla sea trade captain) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_muk_goryeo_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_goryeo_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_goryeo_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, heavy battle damage, torn clothes, torn top, jade green bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_goryeo_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, heavy battle damage, torn clothes, torn top, jade green bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_goryeo_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, jade green lingerie, jade green bra and jade green panties, only shreds of the outfit (goryeo noblewoman) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_goryeo_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, jade green lingerie, jade green bra and jade green panties, only shreds of the outfit (goryeo noblewoman) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_general_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo dynasty korean female military general, korean lamellar armor of small dark iron plates laced with blue cord over a dark red korean robe, wide hanbok sleeves, black cape, straight double-edged korean sword, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_general_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo dynasty korean female military general, korean lamellar armor of small dark iron plates laced with blue cord over a dark red korean robe, wide hanbok sleeves, black cape, straight double-edged korean sword, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_general_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo dynasty korean female military general, korean lamellar armor of small dark iron plates laced with blue cord over a dark red korean robe, wide hanbok sleeves, black cape, straight double-edged korean sword, heavy battle damage, torn clothes, torn top, black bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_general_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, goryeo dynasty korean female military general, korean lamellar armor of small dark iron plates laced with blue cord over a dark red korean robe, wide hanbok sleeves, black cape, straight double-edged korean sword, heavy battle damage, torn clothes, torn top, black bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_general_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lingerie, black bra and black panties, only shreds of the outfit (goryeo dynasty korean female military general) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_general_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lingerie, black bra and black panties, only shreds of the outfit (goryeo dynasty korean female military general) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery, japanese armor, samurai, katana, tsuba, kabuto, oyoroi, kimono, hakama, chinese armor"
+  },
+  {
+   "id": "st_muk_yeogwan_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_yeogwan_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_yeogwan_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_yeogwan_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_yeogwan_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lingerie, white bra and white panties, only shreds of the outfit (joseon court female official) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_yeogwan_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lingerie, white bra and white panties, only shreds of the outfit (joseon court female official) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, red lingerie, red bra and red panties, only shreds of the outfit (talchum mask dancer) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_talchum_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, red lingerie, red bra and red panties, only shreds of the outfit (talchum mask dancer) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, heavy battle damage, torn clothes, torn top, white lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, heavy battle damage, torn clothes, torn top, white lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lace lingerie, white lace bra and white lace panties, only shreds of the outfit (1900s korean empire era western dress) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_modern1900_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, white lace lingerie, white lace bra and white lace panties, only shreds of the outfit (1900s korean empire era western dress) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_angry_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, angry, glaring, clenched teeth, blush",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_lonely_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, battle damage, torn clothes, torn sleeves, ripped skirt hem, scratches on the clothes, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_shy_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, heavy battle damage, torn clothes, torn top, black lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_lonely_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, heavy battle damage, torn clothes, torn top, black lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_shy_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lace lingerie, black lace bra and black lace panties, only shreds of the outfit (modern k-pop idol stage outfit) left on her arms and waist, bare stomach, bare legs, flustered, full-face blush, covering chest with arms, teary eyes, embarrassed",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "st_muk_idol_lonely_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lace lingerie, black lace bra and black lace panties, only shreds of the outfit (modern k-pop idol stage outfit) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
   }
  ]
 }
