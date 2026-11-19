@@ -46,9 +46,14 @@ const MISSING=new Set();
 const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
  2:{angry:'angry',lonely:'lonely',surprised:'shy',smile:'shy',smirk:'angry',neutral:'shy',shy:'shy'},
  3:{lonely:'lonely',angry:'shy',surprised:'shy',smile:'shy',smirk:'shy',neutral:'shy',shy:'shy'}};
+// 한복 오르페이아: 다이브(MV 장면 엔진) 안의 옛 시대 장면에서는 옷도 시대에 맞춘다. @outfit hanbok|maid|auto 로 덮어쓰기.
+const HANBOK_EXPR=new Set(['neutral','smile','worry','explain','surprised','pout','shy','excited','serious','teary']);
+const HANBOK_CH=new Set(['ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09','ch10','ch11','ch12','ch13','ch14','ch15']);
+function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.outfit==='maid')return false;return HANBOK_CH.has(S.ch)&&/(^|\/)bg_era_/.test(String(S.bg||''));}
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
+ if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;
  if(who==='muk'&&S?.mukDmg){const d=S.mukDmg,e=MUK_DMG[d][expr]||MUK_DMG[d].neutral;return `st_muk_${e}_d${d}.webp`;}
  const f=s[expr]||s.neutral;if(!f)return '';return (MISSING.has(f)&&OLD[f]?OLD[f]:f)+'.webp';};
 // 새 그림이 아직 없으면 옛 그림으로 바꾼다.
@@ -104,9 +109,10 @@ function step(){
    case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
-   case 'bg':S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
+   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
-   case 'show':{const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
+   case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
+    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
    case 'phone':S.phone=op.arg!=='off';if(S.phone)SFX.play('phone');if(S.phone&&S.chars.orpheia)pendingFx.orpheia='enter';S.pc++;paint();break;
    case 'hop':case 'tilt':case 'nod':case 'sink':case 'shake':if(op.arg)pendingFx[ALIAS[op.arg]||op.arg]=op.t;S.pc++;paint();break;
    case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else delete S.chars[op.who];S.pc++;paint();break;
@@ -126,12 +132,14 @@ function step(){
    case 'note':{const [t,...b]=op.arg.split('|');addNote(S.ch,t.trim(),b.join('|').trim());S.pc++;break;}
    case 'summary':return summary();
    case 'end':return finishChapter(op.arg);
+   case 'outfit':S.outfit=op.arg.trim()==='auto'?null:op.arg.trim();S.pc++;paint();break;
    case 'mob':{const [n,t]=op.arg.split('=').map(x=>x.trim());(S.mobMap||(S.mobMap={}))[n]=t;S.pc++;break;}
    case 'say':case 'narr':
     if(op.t==='say'&&!CAST[op.who]){const t=(S.mobMap||{})[op.who]??MOB_BY_NAME[op.who];const id=t&&t!=='none'?'mob_'+t:null;
      if(id&&!S.chars[id]){for(const k of Object.keys(S.chars))if(k.startsWith('mob_')&&S.chars[k].auto)delete S.chars[k];
-      const used=new Set(Object.values(S.chars).map(c=>c.pos));const pos=['right','left','center'].find(p=>!used.has(p))||'right';
-      S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}
+      const others=Object.values(S.chars);let pos=null;
+      if(!others.length)pos='center';else if(others.length===1)pos=others[0].pos==='right'?'left':'right';else if(others.length===2){const u=new Set(others.map(c=>c.pos));pos=['center','left','right'].find(p=>!u.has(p))||null;}
+      if(pos){if(others.length===1&&others[0].pos==='center')others[0].pos=pos==='right'?'left':'right';S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}}
      S.speakingMob=id;}else if(op.t==='say')S.speakingMob=null;
     if(op.t==='say'&&op.expr&&S.chars[op.who]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
     S.line={who:op.who||'',text:fill(op.text),expr:op.expr||S.chars[op.who]?.expr||'neutral'};
@@ -309,7 +317,24 @@ const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');con
 
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
+// 복습 배틀 문항 고르기: @quiz review n=3
+//  이 장에서 이미 푼 문항은 빼고, 이 장 시대까지의 문항 가운데 ① 주인님이 틀렸던 것 ② 아직 안 본 것 ③ 앞 장에서 맞힌 것 순으로,
+//  같은 시대를 조금 더 우선해 고른다. 묵이 '이유 없이 남은 조각'을 다시 번지게 한다는 설정.
+const ERA_ORDER=['선사','초기국가','삼국','남북국','고려','조선전기','조선후기','근대','일제강점기','현대','통합'];
+function chapterKeys(c){const ks=[];for(const o of c.ops)if(o.t==='quiz')for(const k of String(o.arg).split(/\s+/))if(/^\d+-\d+$/.test(k))ks.push(k);return ks;}
+function reviewList(n,fixed=[]){
+ const ch=curCh(),here=new Set(chapterKeys(ch)),Q=window.QS||[];
+ const eraOf=k=>{const [r,m]=k.split('-').map(Number);return Q.find(q=>q.r===r&&q.n===m)?.era;};
+ const cnt={};for(const k of here){const e=eraOf(k);if(e)cnt[e]=(cnt[e]||0)+1;}
+ const main=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0]?.[0]||'선사',mi=ERA_ORDER.indexOf(main);
+ const later=new Set();chapters.slice(chapters.indexOf(ch)+1).forEach(c=>chapterKeys(c).forEach(k=>later.add(k)));
+ const pool=Q.filter(q=>{const k=q.r+'-'+q.n,ei=ERA_ORDER.indexOf(q.era);return !here.has(k)&&!later.has(k)&&ei>=0&&ei<=mi&&q.era!=='통합';});
+ const score=q=>{const r=records.quiz[q.r+'-'+q.n];return (!r?1:!r.last?0:2)+(q.era===main?-.6:0)+Math.random()*.8;};
+ const fx=fixed.map(k=>QBY[k]).filter(Boolean),fk=new Set(fixed);
+ return fx.concat(pool.filter(q=>!fk.has(q.r+'-'+q.n)).map(q=>[score(q),q]).sort((a,b)=>a[0]-b[0]).slice(0,Math.max(0,n-fx.length)).map(x=>x[1]));
+}
 function quiz(arg){
+ if(/^review\b/.test(String(arg).trim())){const n=+(String(arg).match(/n=(\d+)/)||[0,3])[1];const l=reviewList(n,String(arg).split(/\s+/).filter(k=>/^\d+-\d+$/.test(k)));arg=l.length?l:'era=선사 n=1';}
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
  Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{

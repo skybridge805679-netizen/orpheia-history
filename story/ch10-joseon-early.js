@@ -257,7 +257,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [묵] ……그럼 보여 줘. 이 관청들 이름을, 이유랑 같이.
 @hide all
 @battle muk
-@quiz 74-19 72-23
+@quiz review n=3 74-19 72-23
 @battle end
 @show muk lonely center
 @if quizFirst >= 1 -> sealok

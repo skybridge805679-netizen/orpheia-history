@@ -216,7 +216,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 국권 피탈 과정 총정리, 가요!
 @hide all
 @battle muk serious
-@quiz 73-34 78-33 79-35
+@quiz review n=3
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

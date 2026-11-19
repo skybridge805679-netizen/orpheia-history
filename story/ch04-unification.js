@@ -185,7 +185,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [묵|angry] 그래도 이건 헷갈릴걸.
 @hide all
 @battle muk
-@quiz era=삼국 n=3
+@quiz review n=3
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

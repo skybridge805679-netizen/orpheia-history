@@ -201,7 +201,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1910년대부터 임시 정부까지, 가요!
 @hide all
 @battle muk serious
-@quiz 73-37 72-38 70-35
+@quiz review n=3
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

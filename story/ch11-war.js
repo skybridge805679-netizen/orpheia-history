@@ -235,7 +235,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [묵] ……그럼 보여 줘.
 @hide all
 @battle muk serious
-@quiz era=조선전기 n=3
+@quiz review n=3
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

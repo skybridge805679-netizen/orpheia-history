@@ -229,7 +229,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [묵] 나는 그런 시대에 떠밀려 지워진 이름들이야. 어느 왕 때였는지, 어느 마을 사람이었는지도 모르는.
 @hide all
 @battle muk
-@quiz 73-7 76-9 73-10
+@quiz review n=3 73-7 76-9 73-10
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

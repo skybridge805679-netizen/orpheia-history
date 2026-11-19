@@ -232,7 +232,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [묵|angry] 그럼 이건 어때.
 @hide all
 @battle muk
-@quiz 77-7 79-8 74-7
+@quiz review n=3 77-7 79-8 74-7
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

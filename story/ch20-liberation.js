@@ -209,7 +209,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1930년대부터 광복까지, 가요!
 @hide all
 @battle muk serious
-@quiz era=일제강점기 n=3
+@quiz review n=3
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

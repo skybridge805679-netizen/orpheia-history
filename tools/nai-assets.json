@@ -3096,6 +3096,86 @@
    "seed": 424242,
    "prompt": "1boy, korean child, short hanbok, topknot, holding a small broom, cheerful pose, solo, full body, standing, from front, clear outline, simple pose, plain background, transparent background, no text",
    "negative": "multiple views, text, cropped, background scenery, nsfw"
+  },
+  {
+   "id": "st_orpheia_hanbok_neutral",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, light smile, hands together",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, smile, open mouth, happy",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, worried, frown, hand on own chest",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_explain",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, index finger raised, smile, explaining",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, surprised, open mouth, wide-eyed",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, pout, puffed cheeks, looking away",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, blush, shy, looking down, hands together",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_excited",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, :d, arms up, sparkle, happy",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, serious, determined, hand on own chest",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
+  },
+  {
+   "id": "st_orpheia_hanbok_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 161008233,
+   "prompt": "1girl, solo, solo focus, adult woman, white hair, very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes, standing, full body, looking at viewer, teary eyes, tears, sad smile, hands together",
+   "negative": "maid, maid headdress, apron, bowtie, western clothes, multiple views, cropped"
   }
  ]
 }

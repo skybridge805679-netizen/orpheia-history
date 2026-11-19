@@ -298,7 +298,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 도미노 끝까지, 가요!
 @hide all
 @battle muk serious
-@quiz 74-31 72-30 79-31
+@quiz review n=3 72-30
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
