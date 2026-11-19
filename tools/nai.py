@@ -50,8 +50,12 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, nega
         time.sleep(min(10 * (attempt + 1), 60))
     if code != b"200":
         sys.exit(f"HTTP {code.decode()}: {data[:400].decode(errors='replace')}")
-    with zipfile.ZipFile(io.BytesIO(data)) as z:
-        return z.read(z.namelist()[0])
+    try:
+        with zipfile.ZipFile(io.BytesIO(data)) as z:
+            return z.read(z.namelist()[0])
+    except zipfile.BadZipFile:
+        # 200인데 zip이 아닌 응답(검열·일시 오류) — 이 한 장만 실패로 넘긴다
+        sys.exit(f"zip 아닌 응답: {data[:300].decode(errors='replace')}")
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
