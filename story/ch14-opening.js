@@ -297,7 +297,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 도미노 끝까지, 가요!
 @hide all
-@battle muk serious
+@battle muk serious skin=donghak
 @quiz 72-30 81-19 81-20 81-81 81-82 81-83
 @battle end
 @show muk smile center

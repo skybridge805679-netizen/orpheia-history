@@ -190,7 +190,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1920년대 총정리, 가요!
 @hide all
-@battle muk serious
+@battle muk serious skin=moga
 @quiz 81-30 81-31 81-32
 @battle end
 @show muk smile center

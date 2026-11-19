@@ -200,7 +200,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1910년대부터 임시 정부까지, 가요!
 @hide all
-@battle muk serious
+@battle muk serious skin=manse
 @quiz 81-27 81-28 81-29
 @battle end
 @show muk smile center

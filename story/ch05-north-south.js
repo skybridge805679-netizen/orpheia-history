@@ -231,7 +231,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 [해랑|smile] 우린 기억해요. 그러니까 지우지 마요.
 [묵|angry] 그럼 이건 어때.
 @hide all
-@battle muk
+@battle muk skin=balhae
 @quiz 77-7 79-8 74-7
 @battle end
 @show muk lonely center
@@ -250,7 +250,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @show orpheia serious left
 [오르페이아|serious] 남북국은 남과 북을 같이 봐야 해요. 주인님, 2단계 가요!
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=balhae
 @quiz 81-56 81-57 81-58 81-59
 @battle end
 @show muk lonely center

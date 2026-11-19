@@ -349,7 +349,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [묵|surprised] ……외운 게 아니네. 진짜로 보고 온 거네.
 [묵|angry] 그럼 이것도 맞혀 봐. 두 나라를 한꺼번에 묶어 놨거든?
 @hide all
-@battle muk
+@battle muk skin=shaman
 @quiz 81-4 81-5 81-6
 @battle end
 @show muk lonely center

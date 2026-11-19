@@ -492,3 +492,24 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 .vn-chr.mob:not(.speaking) img{opacity:.6}
 .qz-pred{color:#1d5c55;letter-spacing:.04em}
 .vs-stage{position:absolute;left:50%;top:60%;transform:translateX(-50%);z-index:3;font:900 clamp(18px,2.6vw,30px)/1 var(--serif,serif);letter-spacing:.2em;color:#ffe08a;text-shadow:0 0 14px #b3261e,2px 2px 0 #000;animation:vbIn .4s .6s both}
+
+/* 다음 배틀 예고 · 묵 의상 도감 */
+.vn-next{position:absolute;inset:0;z-index:11;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:radial-gradient(ellipse at center,#1d1410,#060504);color:#f4ecdf;cursor:pointer;animation:vbIn .4s ease-out;text-align:center}
+.vn-next small{letter-spacing:.5em;color:#b3261e;font-weight:700;font-size:14px;animation:vbBlink 1.4s infinite}
+.vn-next-sil{width:min(64vw,620px);aspect-ratio:1216/832;overflow:hidden;border:1px solid #3a2a22;box-shadow:0 0 60px #b3261e40}
+.vn-next-sil img{width:100%;height:100%;object-fit:cover;filter:brightness(0) drop-shadow(0 0 2px #f6d6a0) drop-shadow(0 0 14px #b3261e);animation:nextReveal 3s ease-in-out infinite}
+.vn-next b{font:900 clamp(22px,3vw,34px)/1 var(--serif,serif);margin-top:6px}
+.vn-next p{margin:0;font-size:clamp(18px,2.2vw,24px);color:#f6d6a0}
+.vn-next em{font-style:normal;color:#cbbfa9;font-size:15px}
+.vn-next span{font-size:13px;opacity:.6;margin-top:6px}
+@keyframes nextReveal{0%,100%{filter:brightness(0) drop-shadow(0 0 2px #f6d6a0) drop-shadow(0 0 14px #b3261e)}50%{filter:brightness(.08) drop-shadow(0 0 3px #f6d6a0) drop-shadow(0 0 22px #b3261e)}}
+.vs-side.vs-r.cg img{top:0;bottom:0;right:0;height:100%;width:100%;object-fit:cover;object-position:60% 25%;opacity:.95}
+.mg-sum{margin:0 0 10px;color:var(--ink3)}
+.mg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.mg-card{margin:0;background:#16120f;border:1px solid #3a2f26;border-radius:4px;overflow:hidden;color:#f4ecdf}
+.mg-main{aspect-ratio:1216/832;overflow:hidden;cursor:zoom-in}.mg-main img{width:100%;height:100%;object-fit:cover}
+.mg-card.locked .mg-main{cursor:default}.mg-card.locked .mg-main img{filter:brightness(0) drop-shadow(0 0 2px #f6d6a055)}
+.mg-card figcaption{display:flex;justify-content:space-between;align-items:center;padding:6px 8px;font-size:13px}
+.mg-pips{display:flex;gap:4px}.mg-pips i{width:16px;height:8px;background:#3a322a;display:block}.mg-pips i.on{background:#b3261e;cursor:zoom-in;box-shadow:0 0 6px #b3261e}
+.mg-card.serious figcaption small{color:#e8e2d4;opacity:.7}
+.mg-view{position:fixed;inset:0;z-index:60;background:#000d;display:flex;align-items:center;justify-content:center;cursor:zoom-out}.mg-view img{max-width:94vw;max-height:90vh}

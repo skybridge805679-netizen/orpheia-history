@@ -345,9 +345,15 @@ const ORP_BUG={
 const MUK_BUG=['네 주인님이 틀리니까 네가 번지는 거야♪','기록으로 만들어진 몸이잖아. 기록이 번지면, 너도 번져.','어머, 메이드 스킨이 다 깨졌네?'];
 const ORP_MISS=['주인님, 괜찮아요! 해설 보고 다시 가요!','으으, 먹물 튀었어요……! 다음엔 꼭이요!','방심했어요! 단서부터 다시 봐요!'];
 const ORP_COMBO=['좋아요, 주인님! 그대로 밀어붙여요!','연속 정답! 묵이 흔들리고 있어요!','이 흐름이에요! 이유로 꿰뚫어요!'];
+let lastBattle=null;
 const pickOne=a=>a[Math.floor(Math.random()*a.length)];
 const calm=()=>skip||window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-function battleImg(st){return asset(`cg_muk_b${S.battle?.serious?0:st}.webp`);}
+// 의상(스킨)별 CG. 없으면 기본 cg_muk_bN.
+function mukCg(st,b=S.battle){const k=b?.skin,n=b?.serious?0:st;return asset(k&&window.MUK_SKINS?.[k]?`cg_muk_${k}_b${n}.webp`:`cg_muk_b${n}.webp`);}
+function battleImg(st){return mukCg(st);}
+function skinName(b=S.battle){return window.MUK_SKINS?.[b?.skin]?.name||'';}
+function recordSkin(b){if(!b?.skin)return;const m=records.mukSkins||(records.mukSkins={});m[b.skin]=Math.max(m[b.skin]??0,b.serious?0:b.stage);save();}
+function nextSkin(){const i=chapters.indexOf(curCh());for(const c of chapters.slice(i+1))for(const o of c.ops)if(o.t==='battle'){const m=/skin=(\w+)/.exec(o.arg);if(m)return m[1];}return null;}
 function vnShake(big){if(calm())return;const v=$('#vn');v.classList.remove('vb-shake','vb-shake-big');void v.offsetWidth;v.classList.add(big?'vb-shake-big':'vb-shake');setTimeout(()=>v.classList.remove('vb-shake','vb-shake-big'),600);}
 function particles(host,kind,n){if(calm())return;
  for(let i=0;i<n;i++){const e=document.createElement('i');e.className='vb-p '+kind;
@@ -357,7 +363,8 @@ function particles(host,kind,n){if(calm())return;
 function battle(arg){
  const [who,mode]=arg.split(/\s+/);
  if(who==='end'){
-  const b=S.battle;S.battle=null;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
+  const b=S.battle;S.battle=null;lastBattle=b;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
+  recordSkin(b);
   if(!b.serious&&b.stage>0)S.mukDmg=b.stage;
   if(!b.serious&&b.orp>0)S.orpDmg=b.orp;
   if(skip){S.pc++;return step();}
@@ -367,14 +374,20 @@ function battle(arg){
   const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):(b.serious?`아직 번진 기록 ${3-b.stage}`:`먹물 옷 남은 겹 ${3-b.stage}`),b.stage,b.serious,true);
   el.classList.add('result');
   el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
-  el.onclick=e=>{e.stopPropagation();el.remove();busy=false;S.pc++;step();};return;
+  el.onclick=e=>{e.stopPropagation();el.remove();
+   // 이 장의 마지막 배틀이면 다음 장 묵의 새 의상을 실루엣으로 예고
+   const more=curCh().ops.slice(S.pc+1).some(o=>o.t==='battle'&&!/^end/.test(o.arg));const nk=!more&&nextSkin();
+   if(nk&&window.MUK_SKINS?.[nk]){const t=document.createElement('div');t.className='vn-next';const sk=window.MUK_SKINS[nk];
+    t.innerHTML=`<small>NEXT BATTLE</small><div class="vn-next-sil"><img src="${asset(`cg_muk_${nk}_b0.webp`)}" alt=""></div><b>다음 장의 묵</b><p>「${esc(sk.name)}」</p><em>${sk.serious?'다음 기록은, 조용히 마주해야 해요.':'다음엔 이 옷이에요. 벗겨 낼 수 있을까요?'}</em><span>눌러서 계속 ▶</span>`;
+    $('#vn').appendChild(t);SFX.play('vb_bell');t.onclick=ev=>{ev.stopPropagation();t.remove();busy=false;S.pc++;step();};return;}
+   busy=false;S.pc++;step();};return;
  }
- const st2=/stage2/.test(arg);S.battle={who,serious:/serious/.test(arg),stage2:st2,stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
+ const st2=/stage2/.test(arg),skin=(/skin=(\w+)/.exec(arg)||[])[1]||null;S.battle={who,skin,serious:/serious/.test(arg),stage2:st2,stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
  if(skip){S.pc++;return step();}
  busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
  el.innerHTML=`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
- <div class="vs-side vs-r"><img src="${asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
+ <div class="vs-side vs-r${S.battle.skin?' cg':''}"><img src="${S.battle.skin?mukCg(0):asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${skinName()?esc(skinName())+' · ':''}${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
  <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div>${S.battle.stage2?'<div class="vs-stage">STAGE 2 · 잔향</div>':''}<div class="vs-bar top"></div><div class="vs-bar bot"></div>
  <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':'묵「'+pickOne(MUK_TAUNT)+'」')}</p>
  <p class="vs-go">${S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요'}<small>눌러서 시작 ▶</small></p>`;
@@ -383,7 +396,7 @@ function battle(arg){
 }
 function battleCut(head,text,st,serious,wait){
  const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
- el.innerHTML=`<img src="${asset(`cg_muk_b${serious?0:st}.webp`)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
+ el.innerHTML=`<img src="${mukCg(st,S.battle||lastBattle)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
  v.appendChild(el);return el;
 }
 function battleHud(){
@@ -412,7 +425,7 @@ function battleHit(ok,first,hits,total){
  if(b.serious){SFX.play('vb_purify');}else{SFX.play(fin?'vb_finish':'vb_break');setTimeout(()=>SFX.play('vb_rip'),fin?260:140);vnShake(fin);}
  const el=document.createElement('div');el.className='vn-battle hit'+(b.serious?' serious':'')+(fin?' fin':'');
  const [head,line]=b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':'BREAK!',`묵「${pickOne(MUK_BREAK[st])}」`];
- el.innerHTML=`<img class="old" src="${asset(`cg_muk_b${b.serious?0:prev}.webp`)}" alt=""><img class="new" src="${asset(`cg_muk_b${b.serious?0:st}.webp`)}" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · 오르페이아「${esc(pickOne(ORP_COMBO))}」</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':'-1 겹'}</span>`;
+ el.innerHTML=`<img class="old" src="${mukCg(prev,b)}" alt=""><img class="new" src="${mukCg(st,b)}" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · 오르페이아「${esc(pickOne(ORP_COMBO))}」</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':'-1 겹'}</span>`;
  $('#vn').appendChild(el);particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
  el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),fin?3400:2700);battleHud();
 }
@@ -448,6 +461,17 @@ function config(){const d=$('#vnConfig'),st=meta.settings;
  $('#cfgReset').onclick=()=>{if(!confirm('세이브·읽음 기록을 지울까요? 문항 풀이 기록은 남습니다.'))return;meta={saves:{},read:{},flags:{},settings:st};persist();d.close();title();};
  d.showModal();
 }
+// 묵 의상 도감: 배틀에서 만난 의상과 벗겨 낸 단계까지의 CG. 못 본 의상은 실루엣.
+function mukGallery(){const d=$('#vnLog'),got=records.mukSkins||{},all=Object.entries(window.MUK_SKINS||{});
+ const n=all.filter(([k])=>k in got).length;
+ d.innerHTML=`<div class="dialog-header"><div><small>COLLECTION</small><h2>묵 의상 도감</h2></div><button class="quiet" data-close>닫기 ×</button></div>
+ <p class="mg-sum">만난 의상 ${n} / ${all.length} · 첫 시도 정답으로 먹물 옷을 벗겨 낸 단계까지 열려요.</p><div class="mg-grid">${all.map(([k,v])=>{const has=k in got,mx=has?got[k]:-1,st=v.serious?[0]:[0,1,2,3];
+  return `<figure class="mg-card${has?'':' locked'}${v.serious?' serious':''}"><div class="mg-main"><img src="${asset(`cg_muk_${k}_b0.webp`)}" alt=""></div><figcaption><b>${has?esc(v.name):'???'}</b>${v.serious?'<small>진혼</small>':`<span class="mg-pips">${st.map(i=>`<i class="${i<=mx?'on':''}" data-k="${k}" data-i="${i}"></i>`).join('')}</span>`}</figcaption></figure>`;}).join('')}</div><div class="mg-view" hidden><img alt=""></div>`;
+ d.querySelector('[data-close]').onclick=()=>d.close();
+ const view=d.querySelector('.mg-view');view.onclick=()=>view.hidden=true;
+ d.querySelectorAll('.mg-card:not(.locked) .mg-main').forEach(m=>m.onclick=()=>{view.querySelector('img').src=m.querySelector('img').src;view.hidden=false;});
+ d.querySelectorAll('.mg-pips i.on').forEach(p=>p.onclick=e=>{e.stopPropagation();view.querySelector('img').src=asset(`cg_muk_${p.dataset.k}_b${p.dataset.i}.webp`);view.hidden=false;});
+ d.showModal();}
 function closeDialogs(){for(const d of document.querySelectorAll('dialog[open]'))d.close();}
 function menu(k){
  if(k==='log')return openLog();
@@ -475,9 +499,9 @@ function title(){
  const cont=latest(),st=Quiz.stats();
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg" src="${asset('bg_timeline_dive.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
- <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="config">설정</button></div>
+ <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
- const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config};
+ const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t]());
 }
 

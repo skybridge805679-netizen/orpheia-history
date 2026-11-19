@@ -240,7 +240,7 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 [묵|surprised] ……진 쪽의 이유가 있어야, 이긴 쪽의 이유도 보인다.
 [묵|lonely] 그 말, 조금만 더 믿어 볼게.
 @hide all
-@battle muk
+@battle muk skin=general
 @quiz 72-14 73-15 74-17
 @battle end
 @show muk lonely center
@@ -258,7 +258,7 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @show orpheia serious left
 [오르페이아|serious] 꿸 수 있어요. 주인님이 직접 봤잖아요. 2단계예요!
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=general
 @quiz 81-67 81-68 81-69 81-70
 @battle end
 @show muk lonely center

@@ -208,7 +208,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 1930년대부터 광복까지, 가요!
 @hide all
-@battle muk serious
+@battle muk serious skin=liberation
 @quiz 81-36 81-37 81-38
 @battle end
 @show muk smile center

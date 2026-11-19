@@ -234,7 +234,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [사연|serious] ……그래서 우리가 왜 그 일이 일어났는지를 붙잡는 겁니다. 전쟁이 무엇을 무너뜨렸기에 대동법이 필요했는지, 무엇을 잃었기에 북벌을 외쳤는지.
 [묵] ……그럼 보여 줘.
 @hide all
-@battle muk serious
+@battle muk serious skin=lotus
 @quiz 81-10 81-11 81-12
 @battle end
 @show muk lonely center

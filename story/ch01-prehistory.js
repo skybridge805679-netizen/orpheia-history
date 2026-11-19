@@ -222,7 +222,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 [묵|surprised] ……뭐야. 단어가 아니라 이유로 말하네.
 [묵|angry] 흥. 그럼 내가 섞어 둔 것도 전부 맞혀 보시든가.
 @hide all
-@battle muk
+@battle muk skin=hunter
 @quiz 81-1 81-2 81-3
 @battle end
 @show muk lonely center

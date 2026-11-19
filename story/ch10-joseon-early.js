@@ -256,7 +256,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [오르페이아|serious] 그럼 같이 막아요. 이유랑 같이 기억하는 거, 그게 저희 방식이잖아요.
 [묵] ……그럼 보여 줘. 이 관청들 이름을, 이유랑 같이.
 @hide all
-@battle muk
+@battle muk skin=yeogwan
 @quiz 74-19 72-23
 @battle end
 @show muk lonely center
@@ -273,7 +273,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @show orpheia serious left
 [오르페이아|serious] 미끄러지면 다시 일어나면 돼요. 이유를 붙잡고요. 주인님, 2단계예요.
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=yeogwan
 @quiz 81-74 81-75 81-76 81-77 81-78
 @battle end
 @show muk lonely center

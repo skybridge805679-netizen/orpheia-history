@@ -212,7 +212,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @show orpheia smile center
 [오르페이아|explain] 묵의 마지막 문제예요. 조선 후기 총정리, 가요!
 @hide all
-@battle muk
+@battle muk skin=talchum
 @quiz 81-16 81-17 81-18 81-80
 @battle end
 @show muk smile center

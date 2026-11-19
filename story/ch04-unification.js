@@ -184,7 +184,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [묵|surprised] ……숫자까지 이야기로 꿰는구나.
 [묵|angry] 그래도 이건 헷갈릴걸.
 @hide all
-@battle muk
+@battle muk skin=hwarang
 @quiz 81-7 81-8 81-9
 @battle end
 @show muk lonely center

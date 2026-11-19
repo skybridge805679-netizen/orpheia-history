@@ -228,7 +228,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [묵|lonely] ……왕이 바뀌고, 나라가 바뀌고, 이름이 바뀌어도…… 너흰 순서를 기억하는구나.
 [묵] 나는 그런 시대에 떠밀려 지워진 이름들이야. 어느 왕 때였는지, 어느 마을 사람이었는지도 모르는.
 @hide all
-@battle muk
+@battle muk skin=captain
 @quiz 73-7 76-9 73-10
 @battle end
 @show muk lonely center
@@ -247,7 +247,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @show orpheia serious left
 [오르페이아|serious] 섞이는 건 순서를 몰라서예요. 순서엔 이유가 있고요. 주인님, 2단계예요.
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=captain
 @quiz 81-60 81-61 81-62 81-63
 @battle end
 @show muk lonely center

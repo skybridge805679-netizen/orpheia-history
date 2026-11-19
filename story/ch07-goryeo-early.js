@@ -249,7 +249,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @show muk lonely center
 [묵|lonely] ……
 @hide all
-@battle muk
+@battle muk skin=goryeo
 @quiz 75-11 77-11
 @battle end
 @show muk lonely center
@@ -268,7 +268,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @show orpheia serious left
 [오르페이아|serious] 셋 다 장면이 달라요. 담판, 학당, 천도 운동. 주인님, 2단계예요.
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=goryeo
 @quiz 81-64 81-65 81-66
 @battle end
 @show muk lonely center

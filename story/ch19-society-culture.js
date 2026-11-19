@@ -186,7 +186,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 사회·문화 총정리, 가요!
 @hide all
-@battle muk serious
+@battle muk serious skin=hangul
 @quiz 81-33 81-34 81-35
 @battle end
 @show muk smile center

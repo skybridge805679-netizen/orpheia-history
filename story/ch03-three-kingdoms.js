@@ -346,7 +346,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [묵|surprised] ……깃발 세 개를 이야기 하나로 꿰어 버렸네.
 [묵|angry] 그럼 이것도. 연도 섞어 놨거든? 아, 그리고 지난번에 번졌던 바닷가 나라 하나도 같이 섞었어. 시대가 바뀌면 헷갈리잖아?
 @hide all
-@battle muk
+@battle muk skin=cavalry
 @quiz 76-3 72-3 79-2 74-4
 @battle end
 @show muk lonely center
@@ -364,7 +364,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @show orpheia serious left
 [오르페이아|serious] 그 이름들, 나루 씨 장부에 다 있었어요. 주인님, 2단계예요.
 @hide all
-@battle muk stage2
+@battle muk stage2 skin=cavalry
 @quiz 81-53 81-54 81-55
 @battle end
 @show muk lonely center
