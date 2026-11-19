@@ -3274,6 +3274,419 @@
    "prompt": "1girl, 1boy, 9th century silla royal court, an adult queen in a golden crown with jade ornaments and a layered red silk robe seated on a throne on the right, a scholar official in a dark robe kneeling on the left presenting a document with both hands, medium shot, faces clearly visible, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, multiple views",
    "seed": 8208
+  },
+  {
+   "id": "cg_muk_hunter_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, holding a stone-tipped spear, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hunter_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, holding a stone-tipped spear, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hunter_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, , heavy battle damage, torn clothes, torn top, brown leather bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hunter_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, prehistoric hunter outfit, fur and leather wrap top and skirt, bone necklace, feather hair ornaments, , clothes almost completely torn away, only brown leather lingerie, brown leather bra and brown leather panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_shaman_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, holding a bronze dagger and bells, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_shaman_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, holding a bronze dagger and bells, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_shaman_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, , heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_shaman_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, bronze age shaman priestess, long white ritual robe with red sash, bronze mirror hanging on chest, bronze bells on wrists, , clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_cavalry_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, holding a composite bow, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_cavalry_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, holding a composite bow, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_cavalry_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, , heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_cavalry_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goguryeo female cavalry warrior, lamellar armor over a red robe, plumed helmet, , clothes almost completely torn away, only red lingerie, red bra and red panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hwarang_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, holding a straight sword, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hwarang_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, holding a straight sword, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hwarang_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, , heavy battle damage, torn clothes, torn top, sky blue bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_hwarang_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, silla hwarang outfit, white and sky blue robe with wide sleeves, flower ornament in hair, , clothes almost completely torn away, only sky blue lingerie, sky blue bra and sky blue panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_balhae_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, holding a gold-tipped staff, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_balhae_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, holding a gold-tipped staff, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_balhae_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, , heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_balhae_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, balhae noblewoman, dark navy robe with thick fur trim, gold hair ornaments, fur hat, , clothes almost completely torn away, only navy lingerie, navy bra and navy panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_captain_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, sea merchant captain, long navy coat with gold buttons over a hanbok blouse, red sash, wind-blown, holding a curved sabre, ship ropes behind, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_captain_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, sea merchant captain, long navy coat with gold buttons over a hanbok blouse, red sash, wind-blown, holding a curved sabre, ship ropes behind, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_captain_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, sea merchant captain, long navy coat with gold buttons over a hanbok blouse, red sash, wind-blown, , heavy battle damage, torn clothes, torn top, navy bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_captain_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, sea merchant captain, long navy coat with gold buttons over a hanbok blouse, red sash, wind-blown, , clothes almost completely torn away, only navy lingerie, navy bra and navy panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_goryeo_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, holding a celadon fan, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_goryeo_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, holding a celadon fan, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_goryeo_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, , heavy battle damage, torn clothes, torn top, jade green bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_goryeo_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo noblewoman, jade green silk robe, celadon hair ornaments, long trailing sleeves, , clothes almost completely torn away, only jade green lingerie, jade green bra and jade green panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_general_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo female general, black iron armor with red tassels, black cape, holding a long two-handed sword, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_general_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo female general, black iron armor with red tassels, black cape, holding a long two-handed sword, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_general_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo female general, black iron armor with red tassels, black cape, , heavy battle damage, torn clothes, torn top, black bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_general_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, goryeo female general, black iron armor with red tassels, black cape, , clothes almost completely torn away, only black lingerie, black bra and black panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_yeogwan_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, holding a writing brush like a sword, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_yeogwan_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, holding a writing brush like a sword, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_yeogwan_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, , heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_yeogwan_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, joseon court female official, dark green gwanbok robe with a crane badge on the chest, black samo hat, , clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_talchum_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, holding a folding fan, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_talchum_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, holding a folding fan, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_talchum_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, , heavy battle damage, torn clothes, torn top, red bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_talchum_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, talchum mask dancer, colorful saekdong striped hanbok with very long white sleeves, a wooden hahoe-style mask tilted on the side of her head, , clothes almost completely torn away, only red lingerie, red bra and red panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_modern1900_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, holding a lace parasol, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_modern1900_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, holding a lace parasol, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_modern1900_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, , heavy battle damage, torn clothes, torn top, white lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_modern1900_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1900s korean empire era western dress, high collar blouse, long bustle skirt, lace gloves, feathered hat, , clothes almost completely torn away, only white lace lingerie, white lace bra and white lace panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_idol_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, holding a handheld microphone, fighting stance, confident smirk, half-closed eyes, ink orbs floating around her, intact clothes, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_idol_b1",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, holding a handheld microphone, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_idol_b2",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, , heavy battle damage, torn clothes, torn top, black lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_idol_b3",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, modern k-pop idol stage outfit, sparkly black and silver crop jacket, pleated skirt, thigh boots, earpiece microphone, , clothes almost completely torn away, only black lace lingerie, black lace bra and black lace panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_muk_lotus_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white mourning hanbok, holding a glowing paper lotus lantern, solemn, quiet sad smile, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_rain_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, indigo hanbok soaked in rain, holding an oil-paper umbrella and a lantern, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_donghak_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, plain white cotton farmer clothes, white headband, holding a bamboo spear upright, determined, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_uibyeong_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, righteous army volunteer, padded cotton coat, straw hat, matchlock rifle on shoulder, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_manse_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white jeogori and long black skirt, both hands raised, solemn, wind, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_moga_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1920s modern girl, cloche hat, drop-waist dress, holding newspapers, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_hangul_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, pale hanbok, hugging manuscripts of hangul dictionary cards, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_liberation_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1940s korean liberation army olive uniform, field cap, solemn, salute, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_refugee_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1950s winter refugee coat and scarf, snow falling, carrying a bundle, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_handkerchief_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1980s white blouse and long skirt, holding a white handkerchief high, solemn, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
+  },
+  {
+   "id": "cg_muk_pages_b0",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, ink turning into light, serene smile, ink wash background with soft glowing light particles, hanji paper floating, dignified, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, cleavage, torn clothes"
   }
  ]
 }
