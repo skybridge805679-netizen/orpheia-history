@@ -55,7 +55,7 @@ th{{background:#f1e3ee;font-weight:bold}}
 .tlr.line{{position:relative;height:30px}}.tlr.line:before{{content:'';position:absolute;left:0;right:0;top:13px;height:4px;background:#333}}
 .tlc .d{{display:block;width:16px;height:16px;border-radius:50%;background:#333;margin:0 auto;position:relative}}
 .tlc em{{font:bold 21px B,serif;font-style:normal;border:2px solid #333;padding:2px 10px;background:#fff;display:inline-block}}
-.scene{{position:relative;width:932px}}.scene img.bg{{width:100%;display:block;border:1px solid #bbb}}
+.scene{{position:relative;width:932px;padding-top:var(--band,150px)}}.scene img.bg{{width:100%;display:block;border:1px solid #bbb}}
 .bub{{position:absolute;background:#fff;border:2px solid #333;border-radius:18px;padding:12px 16px;font-size:18px;line-height:1.6;box-shadow:2px 3px 0 #0002}}
 .bub:after{{content:'';position:absolute;width:18px;height:18px;background:#fff;border-right:2px solid #333;border-bottom:2px solid #333;bottom:-11px;transform:rotate(45deg)}}
 .bub.l:after{{left:34px}}.bub.r:after{{right:34px}}

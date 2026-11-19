@@ -26,9 +26,12 @@ def TL(items):
     return f'<div class="tl2"><div class="tlr" {g}>{lab}</div><div class="tlr line" {g}>{dot}</div><div class="tlr" {g}>{slot}</div></div>'
 def PLAN(title, rows): return f'<div class="plan"><div class="head"><b>{title}</b></div>'+TABLE(["일정","답사지","사진","주요 내용"],[(d,p,f'<img class="ph" src="{photo(s)}">' if s else "",t) for d,p,s,t in rows])+'</div>'
 def SCENE(img, bubs):
+    """말풍선은 그림 위 띠에 두어 인물을 가리지 않게 한다(기출처럼). 줄 수로 띠 높이를 잡는다."""
     src=(ROOT/"assets"/f"{img}.webp").as_uri()
-    b="".join(f'<div class="bub {side}" style="left:{x}px;top:{y}px;width:{w}px">{f"<span class=who>{E(who)}</span>" if who else ""}{t}</div>' for who,t,x,y,w,side in bubs)
-    return f'<div class="scene"><img class="bg" src="{src}">{b}</div>'
+    lines=max(len(t)*18//max(w-36,1)+1 for _,t,_,_,w,_ in bubs)
+    band=lines*29+48
+    b="".join(f'<div class="bub {side}" style="left:{x}px;top:8px;width:{w}px">{f"<span class=who>{E(who)}</span>" if who else ""}{t}</div>' for who,t,x,y,w,side in bubs)
+    return f'<div class="scene" style="--band:{band}px"><img class="bg" src="{src}">{b}</div>'
 def VERDICT(t): return f'<div class="verdict"><h4>판결문</h4>{t}</div>'
 def CARD(title, items): return f'<div class="card"><h4>{title}</h4><ul>{"".join(f"<li>{i}</li>" for i in items)}</ul></div>'
 BL=lambda s="(가)": f'<span class="blank">{s}</span>'
