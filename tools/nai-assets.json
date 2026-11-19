@@ -3252,10 +3252,10 @@
   {
    "id": "qs_crowd1919",
    "size": "bg",
-   "prompt": "crowd, 1919 korean people in white hanbok raising fists and waving small flags without symbols in front of a traditional gate, students and elders, wide shot, empty space at top",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi",
+   "prompt": "crowd, 1919 korean men and women in white hanbok, elders wearing black gat hats, young students, all raising both arms high and shouting, no flags, empty hands, in front of a traditional gate, wide shot, empty space at top",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, flag, flags, japanese flag, banner, holding object",
    "style": "textbook illustration, educational comic panel, clean lineart, flat colors, soft cel shading, simple background, korean history workbook style, {best quality, very aesthetic, highres}",
-   "seed": 8112
+   "seed": 19190301
   },
   {
    "id": "qs_family_tv",
