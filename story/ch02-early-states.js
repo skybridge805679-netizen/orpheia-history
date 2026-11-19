@@ -244,9 +244,12 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [오르페이아|excited] 정답! 땅을 보면 나라 성격이 보이죠?
 @label c3after
 @show orpheia smile center
-[오르페이아|explain] 고구려는 '서옥제·동맹·제가 회의·부경'. 산골 나라 세트로 풀어요!
+[오르페이아|smile] 보기부터 보지 말고, 사료에서 '누가·언제·무엇을'부터 찾아요. 답은 그다음이에요.
 @hide all
 @quiz 80-2 76-2
+@show orpheia explain center
+[오르페이아|explain] 방금 문제의 열쇠, 다시 짚을게요. 고구려는 '서옥제·동맹·제가 회의·부경'.
+@hide all
 @show orpheia smile left
 @if quizFirst >= 2 -> q3good
 [오르페이아|smile] 상가·대로·패자, 제가 회의, 서옥제, 동맹. '산골에서 뻗어 나간 나라'로 한 묶음이에요.
@@ -284,9 +287,12 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [오르페이아|excited] 정답이에요♪ '경계'의 동예, '가족'의 옥저!
 @label c4after
 @show orpheia smile center
-[오르페이아|explain] 옥저=민며느리제·가족 공동 무덤, 동예=책화·무천·단궁·과하마·반어피. 갈라서 풀어 봐요!
+[오르페이아|smile] 이번엔 힌트 안 드릴게요. 주인님 머릿속에 남은 걸로만 가 봐요. 틀려도 괜찮아요, 그게 제일 오래 남아요.
 @hide all
 @quiz 77-3 70-2
+@hide all
+@show orpheia explain center
+[오르페이아|explain] 방금 문제의 열쇠, 다시 짚을게요. 옥저=민며느리제·가족 공동 무덤, 동예=책화·무천·단궁·과하마·반어피.
 @hide all
 
 @dive 한강 남쪽|삼한

@@ -173,9 +173,12 @@ VN.chapter('ch01','제1장','누리의 돌',`
 [오르페이아|excited] 정답! 청동 방울은 의례 도구예요. 80회 1번 정답이 바로 이거였다고요!
 @label p4after
 @show orpheia smile center
-[오르페이아|explain] 청동기 문제 치트키! 비파형 동검·청동 방울·거울은 지배자 거, 농기구는 여전히 돌. 이걸로 풀어 봐요!
+[오르페이아|smile] 문제 들어가기 전에, 방금 본 장면에서 제일 결정적이었던 단서 하나만 먼저 떠올려 보세요. 떠올렸으면 그걸 들고 가요.
 @hide all
 @quiz 80-1 77-1
+@show orpheia explain center
+[오르페이아|explain] 방금 문제의 열쇠, 다시 짚을게요. 청동기 문제 치트키! 비파형 동검·청동 방울·거울은 지배자 거, 농기구는 여전히 돌.
+@hide all
 @show orpheia smile left
 @if quizFirst >= 2 -> q2good
 [오르페이아|smile] 괜찮아요. 고인돌, 반달 돌칼, 민무늬 토기, 그리고 '청동은 높으신 분 물건'. 이유를 알았으니 다음엔 안 번져요.
