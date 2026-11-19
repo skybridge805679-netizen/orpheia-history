@@ -317,24 +317,7 @@ const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');con
 
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
-// 복습 배틀 문항 고르기: @quiz review n=3
-//  이 장에서 이미 푼 문항은 빼고, 이 장 시대까지의 문항 가운데 ① 주인님이 틀렸던 것 ② 아직 안 본 것 ③ 앞 장에서 맞힌 것 순으로,
-//  같은 시대를 조금 더 우선해 고른다. 묵이 '이유 없이 남은 조각'을 다시 번지게 한다는 설정.
-const ERA_ORDER=['선사','초기국가','삼국','남북국','고려','조선전기','조선후기','근대','일제강점기','현대','통합'];
-function chapterKeys(c){const ks=[];for(const o of c.ops)if(o.t==='quiz')for(const k of String(o.arg).split(/\s+/))if(/^\d+-\d+$/.test(k))ks.push(k);return ks;}
-function reviewList(n,fixed=[]){
- const ch=curCh(),here=new Set(chapterKeys(ch)),Q=window.QS||[];
- const eraOf=k=>{const [r,m]=k.split('-').map(Number);return Q.find(q=>q.r===r&&q.n===m)?.era;};
- const cnt={};for(const k of here){const e=eraOf(k);if(e)cnt[e]=(cnt[e]||0)+1;}
- const main=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0]?.[0]||'선사',mi=ERA_ORDER.indexOf(main);
- const later=new Set();chapters.slice(chapters.indexOf(ch)+1).forEach(c=>chapterKeys(c).forEach(k=>later.add(k)));
- const pool=Q.filter(q=>{const k=q.r+'-'+q.n,ei=ERA_ORDER.indexOf(q.era);return !here.has(k)&&!later.has(k)&&ei>=0&&ei<=mi&&q.era!=='통합';});
- const score=q=>{const r=records.quiz[q.r+'-'+q.n];return (!r?1:!r.last?0:2)+(q.era===main?-.6:0)+Math.random()*.8;};
- const fx=fixed.map(k=>QBY[k]).filter(Boolean),fk=new Set(fixed);
- return fx.concat(pool.filter(q=>!fk.has(q.r+'-'+q.n)).map(q=>[score(q),q]).sort((a,b)=>a[0]-b[0]).slice(0,Math.max(0,n-fx.length)).map(x=>x[1]));
-}
 function quiz(arg){
- if(/^review\b/.test(String(arg).trim())){const n=+(String(arg).match(/n=(\d+)/)||[0,3])[1];const l=reviewList(n,String(arg).split(/\s+/).filter(k=>/^\d+-\d+$/.test(k)));arg=l.length?l:'era=선사 n=1';}
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
  Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{

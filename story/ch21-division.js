@@ -195,7 +195,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 광복부터 이승만 정부까지, 가요!
 @hide all
 @battle muk serious
-@quiz review n=3
+@quiz 81-39 81-40 81-41
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

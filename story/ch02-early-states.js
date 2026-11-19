@@ -350,7 +350,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [묵|angry] 그럼 이것도 맞혀 봐. 두 나라를 한꺼번에 묶어 놨거든?
 @hide all
 @battle muk
-@quiz review n=3
+@quiz 81-4 81-5 81-6
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok

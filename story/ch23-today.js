@@ -146,7 +146,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 [오르페이아|serious] 그 얘기는, 마지막에 같이 해요. 주인님의 시험 전날에.
 @hide all
 @battle muk
-@quiz review n=3
+@quiz 81-45 81-46 81-47
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

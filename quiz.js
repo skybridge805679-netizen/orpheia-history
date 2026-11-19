@@ -13,7 +13,7 @@ const Quiz=(()=>{
  const pick=a=>a[Math.floor(Math.random()*a.length)];
  let R=null;
  const key=q=>q.r+'-'+q.n;
- const lastRound=()=>Math.max(...QS.map(q=>q.r));
+ const lastRound=()=>Math.max(...QS.filter(q=>!q.pred).map(q=>q.r));
  function stats(){const t=QS.length,seen=QS.filter(q=>records.quiz[key(q)]).length,right=QS.filter(q=>records.quiz[key(q)]?.last).length;return {total:t,seen,right};}
  // 고르는 규칙: 안 푼 문항 → 최근에 틀린 문항 → 나머지 순으로 섞어서 뽑는다.
  function choose(pool,n){
@@ -58,7 +58,7 @@ const Quiz=(()=>{
   if(R.done){note=`<div class="qz-exp ok"><h3>✓ 정답 ${N[q.a-1]}</h3>${(ex.clues||[]).length?`<p class="qz-clue"><b>단서</b> ${esc(ex.clues.join(' '))}</p>`:''}<p>${esc(ex.reason||q.exp)}</p>${ex.takeaway?`<p class="qz-take"><b>기억할 점</b> ${esc(ex.takeaway)}</p>`:''}<details><summary>보기 다섯 개 해설</summary><ol>${(ex.choices||[]).map((c,i)=>`<li class="${i+1===q.a?'ok':''}">${N[i]} ${esc(c)}</li>`).join('')}</ol></details></div>`;}
   else if(last){note=`<div class="qz-exp bad"><h3>✕ ${N[last-1]}은(는) 아니에요</h3><p>${esc((ex.choices||[])[last-1]||'이 보기는 조건에 맞지 않아요.')}</p>${R.hint?`<p class="qz-clue"><b>힌트</b> ${esc((ex.clues||[])[0]||'')}</p>`:'<button class="quiet" data-hint>단서 힌트 보기</button>'}</div>`;}
   const ori=R.done?say('right',R.firstOk?pick(LINES.right):'이번엔 맞혔어요. 첫 시도 점수는 다음에 꼭 가져가요!'):last?say('wrong',R.line||(R.line=pick(LINES.wrong))):say('open',R.open||(R.open=pick(LINES.open)));
-  R.el.innerHTML=`<div class="qz-panel"><header class="qz-head"><span class="qz-no">${q.n}.</span><span class="chip">${esc(q.era)}</span><span class="chip gold">${esc(q.topic)}</span><span class="qz-meta">제${q.r}회 · ${q.p}점 · ${R.i+1}/${R.list.length}</span>${R.title?`<span class="qz-meta">${esc(R.title)}</span>`:''}<button class="quiet qz-exit" data-exit>그만</button></header>
+  R.el.innerHTML=`<div class="qz-panel"><header class="qz-head"><span class="qz-no">${q.n}.</span><span class="chip">${esc(q.era)}</span><span class="chip gold">${esc(q.topic)}</span><span class="qz-meta">${q.pred?'<b class="qz-pred">오르페이아 예상</b>':`제${q.r}회`} · ${q.p}점 · ${R.i+1}/${R.list.length}</span>${R.title?`<span class="qz-meta">${esc(R.title)}</span>`:''}<button class="quiet qz-exit" data-exit>그만</button></header>
    <div class="qz-body"><div class="qz-left"><h2 class="qz-q">${esc(q.q)}</h2>${figure(q)}</div><div class="qz-right"><div class="qz-choices">${choiceHtml(q)}</div>${ori}${note}${R.done?`<button class="primary qz-next" data-next>${R.i+1<R.list.length?'다음 문제 ▶':'결과 보기 ▶'}</button>`:''}</div></div></div>`;
   R.el.querySelectorAll('[data-c]').forEach(b=>b.onclick=e=>{e.stopPropagation();answer(+b.dataset.c);});
   R.el.querySelector('[data-next]')?.addEventListener('click',e=>{e.stopPropagation();next();});
@@ -90,12 +90,12 @@ const Quiz=(()=>{
   const acc=f=>{const qs=QS.filter(f),r=qs.filter(q=>records.quiz[key(q)]?.last).length;return `${r}/${qs.length}`;};
   $('#main').innerHTML=`<section class="qz-lobby"><img class="qz-lobby-bg" src="${asset('bg_study_cafe.webp')}" alt=""><div class="qz-lobby-body"><header><small>PRACTICE · 기출 풀기</small><h2>어디부터 풀까요, 주인님?</h2><p>풀어 본 문항 ${st.seen}/${st.total} · 최근 정답 ${st.right}</p><button class="quiet" data-back>← 타이틀</button></header>
    <h3>시대별 10문항 <span>(안 푼 문항 → 최근에 틀린 문항 순)</span></h3><div class="qz-grid">${eras.map(e=>`<button data-era="${esc(e)}"><b>${esc(e)}</b><span>최근 정답 ${acc(q=>q.era===e)}</span></button>`).join('')}</div>
-   <h3>회차 전체 50문항</h3><div class="qz-grid">${rounds.map(r=>`<button data-round="${r}"><b>제${r}회</b><span>최근 정답 ${acc(q=>q.r===r)}</span></button>`).join('')}</div>
+   <h3>회차 전체 50문항</h3><div class="qz-grid">${rounds.map(r=>`<button data-round="${r}"><b>${r===81?'오르페이아 예상':`제${r}회`}</b><span>최근 정답 ${acc(q=>q.r===r)}</span></button>`).join('')}</div>
    <h3>틀린 문제만</h3><div class="qz-grid"><button data-wrong><b>최근에 틀린 문항</b><span>${QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last).length}문항</span></button></div></div></section>`;
   const host=$('.qz-lobby'),again=()=>lobby(back);
   host.querySelector('[data-back]').onclick=back;
   host.querySelectorAll('[data-era]').forEach(b=>b.onclick=()=>run(`era=${b.dataset.era} n=10`,{host,onDone:again,title:b.dataset.era}));
-  host.querySelectorAll('[data-round]').forEach(b=>b.onclick=()=>run(`round=${b.dataset.round}`,{host,onDone:again,title:`제${b.dataset.round}회`}));
+  host.querySelectorAll('[data-round]').forEach(b=>b.onclick=()=>run(`round=${b.dataset.round}`,{host,onDone:again,title:b.dataset.round==='81'?'오르페이아 예상 문제':`제${b.dataset.round}회`}));
   host.querySelector('[data-wrong]').onclick=()=>{const l=QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last);if(!l.length)return toast('최근에 틀린 문항이 없어요♪');run(l.slice(0,20),{host,onDone:again,title:'오답 다시'});};
  }
  document.addEventListener('keydown',e=>{if(!R||document.querySelector('dialog[open]'))return;if(/^[1-5]$/.test(e.key)&&!R.done){e.preventDefault();const b=R.el.querySelector(`[data-c="${e.key}"]`);if(b&&!b.disabled)answer(+e.key);}else if((e.key==='Enter'||e.key===' ')&&R.done){e.preventDefault();R.el.querySelector('[data-next],[data-back]')?.click();}});
