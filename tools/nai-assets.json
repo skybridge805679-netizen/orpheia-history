@@ -4263,6 +4263,330 @@
    "seed": 6060606,
    "prompt": "1girl, solo, solo focus, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, standing, full body, looking at viewer, clothes almost completely torn away, black lace lingerie, black lace bra and black lace panties, only shreds of the outfit (modern k-pop idol stage outfit) left on her arms and waist, bare stomach, bare legs, sad, lonely, looking down, hugging own arms",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, text, watermark, signature, background scenery"
+  },
+  {
+   "id": "bg_era_silla_archive",
+   "size": "bg",
+   "prompt": "no humans, scenery, unified silla royal archive room at night, wooden shelves of bamboo slips and paper scrolls, a single oil lamp on a low desk, spilled ink on a document, tiled roof beams, korean",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_tile_kiln",
+   "size": "bg",
+   "prompt": "no humans, scenery, late silla roof tile kiln yard, round clay kiln with smoke, stacks of grey roof-end tiles with phoenix and goblin face patterns drying on straw mats, korean countryside hills",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_gongsan_snow",
+   "size": "bg",
+   "prompt": "no humans, scenery, snowy mountain valley in winter, broken spears and torn war banners half buried in snow, bare trees, grey sky, aftermath of a battle, 10th century korea",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_geumsansa",
+   "size": "bg",
+   "prompt": "no humans, scenery, old korean buddhist temple at night, tall earthen wall with tiled top, a small side gate ajar, moonlight, spring blossoms, multi-storey wooden hall in the background",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_manbugyo",
+   "size": "bg",
+   "prompt": "no humans, scenery, old stone arch bridge over a stream in a goryeo dynasty capital, several bactrian camels tied to the bridge pillars below, dry grass, overcast sky, tiled roofs of the city behind",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_hyanggyo",
+   "size": "bg",
+   "prompt": "no humans, scenery, korean confucian provincial school courtyard, wooden lecture hall with open veranda, ginkgo tree, low desks and books on the wooden floor, goryeo period, sunny",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_woodblock_hall",
+   "size": "bg",
+   "prompt": "no humans, scenery, buddhist temple workshop, rows of wooden printing blocks being carved, carving knives, wood shavings on the floor, scripture text carved in reverse, paper lanterns, goryeo dynasty",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_palace_construction",
+   "size": "bg",
+   "prompt": "no humans, scenery, construction site of a goryeo palace, wooden scaffolding around unfinished halls, stacked timber and roof tiles, stone foundations, earthen ramps, mountains behind",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_goryeo_library",
+   "size": "bg",
+   "prompt": "no humans, scenery, goryeo royal library hall interior, tall bookshelves full of bound books and scrolls, low reading desks, celadon vase, warm light through lattice windows",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_palace_fire",
+   "size": "bg",
+   "prompt": "no humans, scenery, goryeo royal palace burning at night, flames on tiled roofs, smoke, embers in the air, palace courtyard, dramatic, tragic",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_seaside_fortress",
+   "size": "bg",
+   "prompt": "no humans, scenery, small old stone mountain fortress on a hill overlooking the southern sea, crumbling stone walls, wooden watch gate, islands in the distance, autumn, lonely",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_goryeo_mansion_night",
+   "size": "bg",
+   "prompt": "no humans, scenery, courtyard of a large goryeo noble house at night, bonfire in the yard, swords and spears leaning on a wooden veranda, tiled gate, tense mood",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_hillside_dusk",
+   "size": "bg",
+   "prompt": "no humans, scenery, rocky hillside behind a goryeo capital at dusk, large boulders and pine trees, distant city roofs below, purple sky, secretive mood",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_exile_cottage",
+   "size": "bg",
+   "prompt": "no humans, scenery, humble thatched cottage on a windy coastal hill, stone fence, swept dirt yard with a broom, grey sea below, island exile, goryeo",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_fortress_siege",
+   "size": "bg",
+   "prompt": "no humans, scenery, top of a korean stone fortress wall in winter, arrows stuck in the parapet, snow, smoke rising beyond the wall, banners, defenders' bows left on the wall, goryeo",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_goryeo_road",
+   "size": "bg",
+   "prompt": "no humans, scenery, wide dirt road through northern korean plains, flags of a royal procession on the roadside, autumn grass, distant mountains, goryeo",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_goryeo_village",
+   "size": "bg",
+   "prompt": "no humans, scenery, poor goryeo farming village, thatched houses, falconry cages and perches with hunting hawks by a house, muddy road, overcast",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_goryeo_office",
+   "size": "bg",
+   "prompt": "no humans, scenery, courtyard of a late goryeo government office, new wooden signboard over the gate, bronze cannon barrels and gunpowder barrels on the ground, tiled roofs",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_ruined_village",
+   "size": "bg",
+   "prompt": "no humans, scenery, burned ruins of a korean house, charred wooden pillars, stone fence remains, smoke, winter fields, war refugees' left-behind bundles",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_palace_kitchen",
+   "size": "bg",
+   "prompt": "no humans, scenery, joseon palace confectionery kitchen interior, iron pots on a clay stove, trays of yakgwa honey cookies, wooden shelves with brass bowls, steam, warm light",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_gyodong_ferry",
+   "size": "bg",
+   "prompt": "no humans, scenery, small wooden ferry boat at a muddy tidal landing, narrow sea strait, low island across the water, reeds, autumn evening, joseon",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_royal_tomb",
+   "size": "bg",
+   "prompt": "no humans, scenery, joseon royal tomb, grassy burial mound surrounded by stone statues of officials and animals, stone lantern, pine forest, dusk",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_refugee_road",
+   "size": "bg",
+   "prompt": "no humans, scenery, country road crowded with abandoned bundles and A-frame carriers, burning village in the distance, autumn, joseon war refugees",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_sewing_room",
+   "size": "bg",
+   "prompt": "no humans, scenery, joseon palace sewing room, piles of undyed white hemp cloth for mourning clothes, needle boxes, folded garments, paper windows",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_cheonggyecheon_dredge",
+   "size": "bg",
+   "prompt": "no humans, scenery, stream in joseon hanyang being dredged, muddy riverbed, earthen banks, baskets and shovels, stone bridge, tiled roofs and mountains behind",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_joseon_village",
+   "size": "bg",
+   "prompt": "no humans, scenery, joseon farming village, thatched houses, stone walls, persimmon tree, dirt road, autumn",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_painter_studio",
+   "size": "bg",
+   "prompt": "no humans, scenery, joseon court painter's studio, paper sheets with martial arts figure drawings pinned on the wall, brushes and ink stones on a low desk, window light",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_pontoon_bridge",
+   "size": "bg",
+   "prompt": "no humans, scenery, pontoon bridge made of many wooden boats lined up across the wide han river, planks laid on top, banners, joseon royal procession preparation, morning",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_jongno_alley",
+   "size": "bg",
+   "prompt": "no humans, scenery, narrow back alley of joseon hanyang, small street stalls with goods on straw mats, tiled and thatched roofs, lanterns",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_baeron",
+   "size": "bg",
+   "prompt": "no humans, scenery, remote mountain valley with an onggi pottery kiln, stacked brown earthenware jars hiding the entrance of a small earthen cave, winter, secretive",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_rice_transplant",
+   "size": "bg",
+   "prompt": "no humans, scenery, flooded rice paddies in early summer, rows of young rice seedlings, korean farming village and hills, joseon, bright day",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_scholar_study",
+   "size": "bg",
+   "prompt": "no humans, scenery, late joseon scholar's study, piles of books, a globe and a brass telescope from qing china, ink stone and brushes, lattice window, lamplight",
+   "negative": "chinese architecture, japanese castle, japanese text, european medieval, modern, signature, watermark, text, letters, humans, people"
+  },
+  {
+   "id": "bg_era_gamriseo",
+   "size": "bg",
+   "prompt": "no humans, scenery, late 19th century korean government office at an open port, tiled-roof building with a flagpole, documents on a desk, japanese-style warehouses nearby, harbor",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_beonsachang",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1880s korean arsenal, red brick industrial building with arched windows next to a traditional tiled hall, crates of rifles, workbenches",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_customs_house",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1880s incheon customs house, western-style building, crates and sacks on a pier, steamship at anchor, korean and western flags",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_jongno_shops_closed",
+   "size": "bg",
+   "prompt": "no humans, scenery, jongno street of 1880s seoul, rows of traditional shop fronts with wooden shutters all closed, empty street, protest mood",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_yukjo_street",
+   "size": "bg",
+   "prompt": "no humans, scenery, wide avenue in front of a korean palace gate, government offices on both sides, a wooden notice board with posted official gazettes, 1890s",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_jeonggwanheon",
+   "size": "bg",
+   "prompt": "no humans, scenery, korean empire era pavilion combining traditional tiled roof with western colonnade and balustrade, palace garden, early 1900s",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_telegraph_office",
+   "size": "bg",
+   "prompt": "no humans, scenery, early 1900s telegraph office interior, telegraph machines, paper tape, wooden counters, wall clock, korean empire",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_exchange_office",
+   "size": "bg",
+   "prompt": "no humans, scenery, street in front of a currency exchange office in 1905 seoul, western-style bank building, long rope barrier for a queue, scattered nickel coins on the ground",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_bookstore_1900s",
+   "size": "bg",
+   "prompt": "no humans, scenery, small bookstore in early 1900s korea, wooden shelves of books and newspapers, taegeuk sign, glass window, warm interior",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_courtyard_meeting",
+   "size": "bg",
+   "prompt": "no humans, scenery, korean house courtyard set up for a public meeting, a table with donated silver rings, hairpins and tobacco pouches, banners with hangul, 1907",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_lushun_prison",
+   "size": "bg",
+   "prompt": "no humans, scenery, early 20th century prison corridor, red brick walls, iron-barred cell doors, cold light from a small window",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_classroom_1910s",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1910s korean public school classroom, wooden desks, blackboard with japanese text, teacher's desk with a sheathed sword lying on it, grim mood",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_pharmacy_1910s",
+   "size": "bg",
+   "prompt": "no humans, scenery, traditional korean herbal pharmacy interior at night, drawers of medicine, a locked door, oil lamp, secret meeting mood, 1910s",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_boarding_house",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1920s seoul boarding house room, newspaper spread on the floor, small charcoal brazier, paper door, winter",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_meeting_hall_1920s",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1920s korean town meeting hall, wooden benches, a banner with a scale symbol, spring light through windows",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_shanghai_room",
+   "size": "bg",
+   "prompt": "no humans, scenery, small rented room in 1930s shanghai shikumen house, iron bed, old photograph on a desk, window to a narrow lane",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_memorial_hall",
+   "size": "bg",
+   "prompt": "no humans, scenery, modern history memorial museum interior, exhibition cube covered with signed cloth banners, framed photos, soft lighting, no text",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_jangsari_ship",
+   "size": "bg",
+   "prompt": "no humans, scenery, memorial museum shaped like an old transport ship standing on the east sea coast, waves, clear sky, modern korea",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_seoul_1950s",
+   "size": "bg",
+   "prompt": "no humans, scenery, late 1950s seoul street, shabby buildings, newspaper stand, trams and jeeps, posters, grey sky",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_gimpo_1960s",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1960s korean airport apron, propeller airliner with boarding stairs, small terminal building, families waving, no text",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_neighborhood_1970s",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1970s korean neighborhood alley, barbershop with striped pole, posters on a wall, low houses, no readable text",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "bg_era_newsroom_1980s",
+   "size": "bg",
+   "prompt": "no humans, scenery, 1980s korean newspaper office, desks with typewriters and telephones, stacks of papers, crumpled memo on a desk, cigarette smoke",
+   "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
   }
  ]
 }
