@@ -46,6 +46,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @hide all
 
 @bg bg_era_gaegyeong
+@bg bg_era_manbugyo
 @day 개경 · 만부교, 942년
 다리 아래에서 짐승 우는 소리가 며칠째 그치지 않는다. 낙타 쉰 마리가 다리 기둥에 묶인 채 말라 가고 있다.
 @show orpheia worry left
