@@ -260,7 +260,7 @@ function paintChars(){
   const img=el.querySelector('img');if(img.dataset.f!==file){img.dataset.f=file;img.onerror=()=>{const fb=standFile(who,'neutral');if(fb&&!img.src.endsWith(fb))img.src=asset(fb);};img.src=asset(file);img.alt=nameOf(who);}
   const fxName=pendingFx[who];if(fxName){const f=el.firstChild;f.className='vn-chr-fx';void f.offsetWidth;f.classList.add('fx-'+fxName);}
  }
- pendingFx={};
+ pendingFx={};wrap.dataset.n=[...keep].filter(w=>!inPhone(w)).length;
  for(const el of [...wrap.children,...phone.querySelector('.vn-phone-screen').children])if(!keep.has(el.id.slice(4)))el.remove();
 }
 function setHidden(v){hidden=v;$('#vn')?.classList.toggle('ui-hidden',v);}
