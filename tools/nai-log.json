@@ -2680,8 +2680,8 @@
   "init": null
  },
  "bg_era_tile_kiln": {
-  "seed": 2322968586,
-  "prompt": "no humans, scenery, late silla roof tile kiln yard, round clay kiln with smoke, stacks of grey roof-end tiles with phoenix and goblin face patterns drying on straw mats, korean countryside hills",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, late silla roof tile kiln yard, a domed clay kiln with smoke, rows of curved grey korean roof tiles (giwa) and round roof-end tiles stacked on straw mats, thatched workshop, hills",
   "init": null
  },
  "bg_era_gongsan_snow": {
@@ -2690,13 +2690,13 @@
   "init": null
  },
  "bg_era_geumsansa": {
-  "seed": 127675296,
-  "prompt": "no humans, scenery, old korean buddhist temple at night, tall earthen wall with tiled top, a small side gate ajar, moonlight, spring blossoms, multi-storey wooden hall in the background",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, korean buddhist temple at night, plain earthen wall with grey tiled coping, small wooden side gate ajar, moonlight, a large three-storey korean wooden hall with dancheong eaves behind, pine trees",
   "init": null
  },
  "bg_era_manbugyo": {
-  "seed": 1381016428,
-  "prompt": "no humans, scenery, old stone arch bridge over a stream in a goryeo dynasty capital, several bactrian camels tied to the bridge pillars below, dry grass, overcast sky, tiled roofs of the city behind",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, old rough granite arch bridge over a small stream, several bactrian camels tied under the bridge, dry autumn grass, korean tiled roofs in the distance, overcast",
   "init": null
  },
  "bg_era_hyanggyo": {
@@ -2760,8 +2760,8 @@
   "init": null
  },
  "bg_era_goryeo_office": {
-  "seed": 8492351,
-  "prompt": "no humans, scenery, courtyard of a late goryeo government office, new wooden signboard over the gate, bronze cannon barrels and gunpowder barrels on the ground, tiled roofs",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, courtyard of a medieval korean government office, plain wooden gate with blank signboard, bronze cannon barrels lying on straw mats, tiled roofs",
   "init": null
  },
  "bg_era_ruined_village": {
@@ -2795,8 +2795,8 @@
   "init": null
  },
  "bg_era_cheonggyecheon_dredge": {
-  "seed": 4026211264,
-  "prompt": "no humans, scenery, stream in joseon hanyang being dredged, muddy riverbed, earthen banks, baskets and shovels, stone bridge, tiled roofs and mountains behind",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, 18th century stream in joseon seoul being dredged, muddy riverbed, earthen banks, straw baskets and wooden shovels, a granite slab bridge, thatched and tiled hanok roofs, mountains behind",
   "init": null
  },
  "bg_era_joseon_village": {
@@ -2835,8 +2835,8 @@
   "init": null
  },
  "bg_era_gamriseo": {
-  "seed": 2837961814,
-  "prompt": "no humans, scenery, late 19th century korean government office at an open port, tiled-roof building with a flagpole, documents on a desk, japanese-style warehouses nearby, harbor",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, late 19th century korean government office at a harbor, traditional tiled-roof building with a korean taegeuk flag on a pole, documents on a desk, wooden piers, sailing ships",
   "init": null
  },
  "bg_era_beonsachang": {
@@ -2845,18 +2845,18 @@
   "init": null
  },
  "bg_era_customs_house": {
-  "seed": 3502862574,
-  "prompt": "no humans, scenery, 1880s incheon customs house, western-style building, crates and sacks on a pier, steamship at anchor, korean and western flags",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, small two-storey 1880s western-style customs office building by a harbor pier, crates and rice sacks on the pier, a steamship at anchor, hills",
   "init": null
  },
  "bg_era_jongno_shops_closed": {
-  "seed": 1449731133,
-  "prompt": "no humans, scenery, jongno street of 1880s seoul, rows of traditional shop fronts with wooden shutters all closed, empty street, protest mood",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, jongno street of 1880s seoul, long row of traditional korean hanok shop fronts with tiled roofs and closed wooden shutters, empty dirt street",
   "init": null
  },
  "bg_era_yukjo_street": {
-  "seed": 4268445416,
-  "prompt": "no humans, scenery, wide avenue in front of a korean palace gate, government offices on both sides, a wooden notice board with posted official gazettes, 1890s",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, wide dirt avenue in front of gwanghwamun gate of gyeongbokgung, rows of traditional korean tiled government office buildings on both sides, a wooden notice board, 1890s",
   "init": null
  },
  "bg_era_jeonggwanheon": {
@@ -2910,8 +2910,8 @@
   "init": null
  },
  "bg_era_shanghai_room": {
-  "seed": 2222015469,
-  "prompt": "no humans, scenery, small rented room in 1930s shanghai shikumen house, iron bed, old photograph on a desk, window to a narrow lane",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, small rented room interior in a 1930s shanghai lane house, iron bed, desk with an old photograph, window looking down on a narrow lane, lamp",
   "init": null
  },
  "bg_era_memorial_hall": {
@@ -2920,23 +2920,23 @@
   "init": null
  },
  "bg_era_jangsari_ship": {
-  "seed": 1369252191,
-  "prompt": "no humans, scenery, memorial museum shaped like an old transport ship standing on the east sea coast, waves, clear sky, modern korea",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, museum building shaped like an old cargo landing ship with a bow ramp, beached on the east sea coast, waves, clear sky, modern korea",
   "init": null
  },
  "bg_era_seoul_1950s": {
-  "seed": 3002761121,
-  "prompt": "no humans, scenery, late 1950s seoul street, shabby buildings, newspaper stand, trams and jeeps, posters, grey sky",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, late 1950s seoul street, war-damaged concrete and hanok buildings, korean hangul shop signs (unreadable), trams and military jeeps, grey sky",
   "init": null
  },
  "bg_era_gimpo_1960s": {
-  "seed": 2660713359,
-  "prompt": "no humans, scenery, 1960s korean airport apron, propeller airliner with boarding stairs, small terminal building, families waving, no text",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, 1960s airport apron, four-engine propeller passenger airliner with boarding stairs, small low terminal building, clear sky",
   "init": null
  },
  "bg_era_neighborhood_1970s": {
-  "seed": 440055514,
-  "prompt": "no humans, scenery, 1970s korean neighborhood alley, barbershop with striped pole, posters on a wall, low houses, no readable text",
+  "seed": 5151515,
+  "prompt": "no humans, scenery, 1970s korean neighborhood alley, low brick and cement houses with korean tiled roofs, barbershop pole, utility poles, posters on a wall with unreadable hangul",
   "init": null
  },
  "bg_era_newsroom_1980s": {
