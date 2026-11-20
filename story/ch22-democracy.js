@@ -121,6 +121,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 
 @dive 1980년~1987년|6월의 거리
 @bg bg_era_june1987
+@bg bg_era_newsroom_1980s
 @day 서울, 1980년대
 @show dasom serious right
 @show orpheia serious left

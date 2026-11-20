@@ -124,6 +124,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 
 @dive 1922년~1923년|저울과 어린이
 @bg bg_era_ewha
+@bg bg_era_meeting_hall_1920s
 @day 진주, 1923년 봄
 @show hanbyeol smile right
 @show orpheia explain left
