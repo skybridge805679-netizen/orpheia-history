@@ -52,7 +52,14 @@ const HANBOK_EXPR=new Set(['neutral','smile','worry','explain','surprised','pout
 const HANBOK_CH=new Set(['ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09','ch10','ch11','ch12','ch13','ch14','ch15']);
 function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.outfit==='maid')return false;return HANBOK_CH.has(S.ch)&&/(^|\/)bg_era_/.test(String(S.bg||''));}
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
+// 시대 옷으로 그린 인물(나루): @show의 옷을 기억하고, 표정 그림은 옷별로(st_naru_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
+const COSTUME={naru:new Set(['baekje','goguryeo','silla','sea','joseon'])};
+const COSTUME_EXPR={naru:new Set([])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
+// 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
+const SAYEON_DMG_OK=false;
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
+ if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c&&COSTUME_EXPR[who].has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
+ if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
  if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;
  if(who==='muk'&&S?.mukDmg){const d=S.mukDmg,k=S.mukSkin;if(k&&window.MUK_SKINS?.[k]?.dmg)return `st_muk_${k}_${expr==='lonely'?'lonely':d===1?'angry':'shy'}_d${d}.webp`;const e=MUK_DMG[d][expr]||MUK_DMG[d].neutral;return `st_muk_${e}_d${d}.webp`;}
@@ -118,7 +125,7 @@ function step(){
    case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
-    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
+    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
    case 'phone':S.phone=op.arg!=='off';if(S.phone)SFX.play('phone');if(S.phone&&S.chars.orpheia)pendingFx.orpheia='enter';S.pc++;paint();break;
    case 'hop':case 'tilt':case 'nod':case 'sink':case 'shake':if(op.arg)pendingFx[ALIAS[op.arg]||op.arg]=op.t;S.pc++;paint();break;
    case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else delete S.chars[op.who];S.pc++;paint();break;
@@ -148,7 +155,7 @@ function step(){
       if(pos){if(others.length===1&&others[0].pos==='center')others[0].pos=pos==='right'?'left':'right';S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}}
      S.speakingMob=id;}else if(op.t==='say')S.speakingMob=null;
     // 그 인물에게 없는 표정이면 지금 그림을 그대로 둔다(나루처럼 시대 옷으로만 그린 인물이 사라지거나 옷이 바뀌지 않게).
-    if(op.t==='say'&&op.expr&&S.chars[op.who]&&CAST[op.who]?.stand?.[op.expr]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
+    if(op.t==='say'&&op.expr&&S.chars[op.who]&&(CAST[op.who]?.stand?.[op.expr]||COSTUME_EXPR[op.who]?.has(op.expr)||(op.who==='sayeon'&&S.sayeonDmg&&SAYEON_DMG_OK))){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
     S.line={who:op.who||'',text:fill(op.text),expr:op.expr||S.chars[op.who]?.expr||'neutral'};
     log.push({who:nameOf(S.line.who),text:S.line.text});if(log.length>LOG_MAX)log.shift();
     if(skip&&!isRead(S.pc))skip=false;
@@ -386,6 +393,7 @@ function battle(arg){
   const b=S.battle;S.battle=null;lastBattle=b;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
   if(b.who==='muk')recordSkin(b);
   if(b.who==='muk'&&!b.serious&&b.stage>0){S.mukDmg=b.stage;S.mukSkin=b.skin||null;}
+  if(b.who==='sayeon'&&b.stage>0)S.sayeonDmg=b.stage;
   if(!b.serious&&b.orp>0)S.orpDmg=b.orp;
   if(skip){S.pc++;return step();}
   const rate=b.total?b.hits/b.total:0,rank=rate>=1?'S':rate>=.67?'A':rate>=.34?'B':'C';
