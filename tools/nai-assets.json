@@ -5038,6 +5038,20 @@
    "prompt": "2boys, adult men, a young korean buddhist monk in grey robes with shaved head on the left gesturing to the temple, a traveler in a straw hat and travel clothes on the right, korean buddhist temple courtyard in the mountains, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
    "seed": 8316
+  },
+  {
+   "id": "cg_title",
+   "size": "bg",
+   "seed": 9101,
+   "prompt": "key visual, title screen illustration, 3girls, 1boy, wide shot, characters gathered on the right two thirds of the image, left third is dark starry night sky with soft glow for a menu, a glowing golden timeline road made of unrolled hanji scrolls spiraling into the starry sky, floating fragments of korean history scenes in light (ancient fortress, joseon palace roof, old steam train, city lights), center right an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, smiling and reaching her hand toward the viewer, golden harp and wing shaped light emblem glowing behind her, behind her a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, wearing big headphones, holding a laptop, beside him a cheerful young adult woman with light brown wavy hair in an oversized pastel blue hoodie with pin badges holding a microphone, on the far right an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, smirk, ink droplets floating, high in the sky a calm adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, holding a brush and scroll, sparkles, cinematic lighting, masterpiece",
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_title_clear",
+   "size": "bg",
+   "seed": 9102,
+   "prompt": "key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters gathered on the right two thirds of the image, left third is soft blurred window light for a menu, an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, gentle happy smile, holding a certificate scroll with a gold seal, a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, sitting at a keyboard workstation, a young adult woman with light brown wavy hair in a pastel blue hoodie laughing and hugging his shoulders, an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, sitting on the desk teasing, an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, reading a scroll on the sofa, golden timeline ribbons gently floating in the air, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
   }
  ]
 }
