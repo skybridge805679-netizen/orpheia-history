@@ -19,7 +19,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 
 @dive 1659년~1674년|두 번의 예송
-@bg bg_era_gyeongbokgung
 @bg bg_era_sewing_room
 @day 한양 · 궁궐, 1659년
 @show orpheia surprised left
@@ -107,7 +106,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 
 @dive 1724년~1776년|영조의 탕평
-@bg bg_era_hanyang
 @bg bg_era_cheonggyecheon_dredge
 @day 한양 · 청계천, 1760년
 막힌 개천 바닥에 수백 명이 들어가 흙을 퍼 올린다. 둑 위에서 관리가 장부를 적는다.
@@ -176,7 +174,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @show orpheia explain left
 [선비] 규장각에 검서관 자리를 두시고, 이덕무, 박제가, 유득공, 서이수 같은 서얼을 쓰셨지. 출신보다 글을 보신다오. 꿈을 꿔도 되겠구려.
 @hide all
-@bg bg_era_hwaseong
 @bg bg_era_pontoon_bridge
 @day 한강 · 배다리, 정조 때
 강 위로 배들이 빗살처럼 이어져 다리가 되었다. 사공들이 노를 거두고 그 위로 행렬을 기다린다.
@@ -189,7 +186,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [병사] 초계문신제라. 젊은 문신들을 규장각에서 다시 가르치고, 임금께서 몸소 시험하신다지.
 @note 정조의 개혁|서얼 등용 논의, 규장각(검서관: 이덕무·박제가·유득공·서이수), 초계문신제, 장용영(내영·외영), 사도 세자 묘 이장(현륭원), 수원 화성(정약용의 거중기), 한강 배다리, 『무예도보통지』, 『대전통편』.
 @hide all
-@bg bg_era_hanyang
 @bg bg_era_jongno_alley
 @day 한양 · 종로 뒷골목, 1791년
 [상인] (좌판을 펴며 눈치를 본다) 쉿, 시전 상인들한테 걸리면 물건 다 뺏기오. 허가 없는 장사는 난전이라고 막을 수 있는 권리가 저들한테 있거든.
@@ -210,7 +206,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @dive 1800년~1863년|한 집안의 나라
 @bg bg_era_gyeongbokgung_ruin
 @day 한양, 19세기 전반
-@bg bg_era_jeongju
 @bg bg_era_baeron
 @day 충청도 제천 · 배론, 1801년
 산골 옹기 가마 뒤, 옹기 저장고처럼 꾸민 토굴. 사람들이 숨죽이고 있다.

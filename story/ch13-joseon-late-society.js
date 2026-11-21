@@ -20,7 +20,6 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 
 @dive 18세기|논과 밭
-@bg bg_era_silla_village
 @bg bg_era_rice_transplant
 @day 경기도 어느 마을, 18세기 초여름
 논에 물이 찰랑찰랑하다. 사람들이 줄지어 서서 어린 모를 옮겨 심고 있다.
@@ -136,7 +135,6 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 
 @dive 17~19세기|실학자들의 서재
-@bg bg_era_jiphyeonjeon
 @bg bg_era_scholar_study
 @day 어느 선비의 서재
 등불 아래 책이 산처럼 쌓였다. 청나라에서 들여온 지구의와 천리경도 보인다.

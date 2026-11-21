@@ -67,7 +67,6 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @note 원성왕 즉위(785)|김주원이 추대되었으나 북천이 불어 건너지 못하는 사이 김경신이 즉위. 혜공왕 피살(780)~청해진 설치(828) 사이.
 @hide all
 
-@bg bg_era_gyeongju_night
 @bg bg_era_silla_archive
 @day 경주 · 궁궐 서고, 9세기 초
 등잔 하나. 늙은 관리가 왕대별 기록을 정리하다가 붓을 멈춘다. 종이 한가운데가 먹물로 시커멓게 번져 있다.
@@ -268,7 +267,6 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 
 @dive 900년|무진주와 철원
-@bg bg_era_cheorwon
 @bg bg_era_tile_kiln
 @day 무진주(광주) · 기와 가마, 9세기 말
 가마 앞에서 기와장이가 막 구운 수막새를 들어 올린다. 봉황 무늬가 선명하다. 옆의 암막새에는 도깨비 얼굴이 이를 드러내고 있다.
@@ -335,7 +333,6 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @quiz 75-10
 @hide all
 @bgm auto
-@bg bg_era_hwangsan
 @bg bg_era_gongsan_snow
 @day 대구 · 공산 자락, 927년 겨울
 눈 덮인 골짜기. 부서진 깃발 사이에서 늙은 병사가 투구 하나를 품에 안고 있다.
@@ -358,7 +355,6 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 
 @dive 935년|금산사와 경주
-@bg bg_era_hwangsan
 @bg bg_era_geumsansa
 @day 후백제 · 김제 금산사, 935년 봄
 @photo 김제 금산사 미륵전

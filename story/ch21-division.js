@@ -111,7 +111,6 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 
 @dive 1950년~1953년|전쟁
-@bg bg_era_heungnam
 @bg bg_era_jangsari_ship
 @day 경북 영덕 장사리 · 훗날 · 전승 기념관
 바다 위에 배 모양의 기념관이 떠 있다.
@@ -173,7 +172,6 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 
 @dive 1953년~1960년|늙은 대통령
-@bg bg_era_busan_refugee
 @bg bg_era_seoul_1950s
 @day 서울, 1950년대 후반
 @show orpheia explain left

@@ -57,7 +57,6 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @hide all
 
 @dive 1932년|한인 애국단
-@bg bg_era_hongkou
 @bg bg_era_shanghai_room
 @day 상하이, 1932년 봄
 골목 안 하숙방. 세종 연서면 출신 청년 유진만이 낡은 사진 한 장을 쥐고 있다.

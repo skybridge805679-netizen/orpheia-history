@@ -64,7 +64,6 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @dive 1876년|문이 열리다
-@bg bg_era_incheon_port
 @bg bg_era_gamriseo
 @day 부산 · 개항장 감리서, 몇 해 뒤
 새로 생긴 관청. 젊은 서기가 일본 상인과 조선 관리 사이에서 서류를 정리하고 있다.
@@ -86,7 +85,6 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @dive 1880년~1883년|개화의 길
-@bg bg_era_incheon_port
 @bg bg_era_beonsachang
 @day 한양 · 삼군부 총무당과 번사창, 1883년
 옛 삼군부 건물에 새 현판이 걸렸다. 그 너머 붉은 벽돌 건물에서 망치 소리가 난다.
@@ -246,7 +244,6 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @dive 1894년~1896년|위로부터의 개혁
-@bg bg_era_gyeongbokgung
 @bg bg_era_yukjo_street
 @day 한양 · 육조 거리, 1894년 ~ 1895년
 게시판 앞에 사람들이 몰려 있다. 선비 둘이 관보를 펼쳐 읽는다.

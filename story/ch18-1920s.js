@@ -115,7 +115,6 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 
 @dive 1920년~1926년|폭탄과 선언문
-@bg bg_era_jongno_police
 @bg bg_era_boarding_house
 @day 경성 · 하숙집, 1926년 겨울
 신문을 펼친 하숙집 주인이 손을 떤다.
