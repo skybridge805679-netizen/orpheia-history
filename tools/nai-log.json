@@ -3473,5 +3473,20 @@
   "seed": 9132,
   "prompt": "6girls, hidden harem ending part two, the same small home music studio at night, more women from different eras of korean history pouring out of a glowing monitor and lining up to propose, holding gifts, comedic harem, flower petals, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
+ },
+ "cg_after_store": {
+  "seed": 9201,
+  "prompt": "4girls, comedic slice of life, inside a brightly lit modern korean convenience store at night, refrigerators full of drinks, shelves of snacks, women from different eras of korean history in their old clothes amazed by modern things, masterpiece",
+  "init": null
+ },
+ "cg_after_bath": {
+  "seed": 9202,
+  "prompt": "4girls, comedic bath scene, modern home bathroom full of white steam, four young adult women squeezed together in one bathtub overflowing with soap bubbles, each wrapped in a white bath towel from chest to thigh, bubbles and steam covering, wet hair, playing with foam, blushing, laughing, cleavage, bare shoulders, safe, masterpiece",
+  "init": null
+ },
+ "cg_after_rooftop": {
+  "seed": 9203,
+  "prompt": "5girls, 1boy, night rooftop of a korean apartment building, city lights and stars, everyone holding glowing smartphones, warm and peaceful, gentle wind, masterpiece",
+  "init": null
  }
 }
