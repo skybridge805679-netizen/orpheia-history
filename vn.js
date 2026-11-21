@@ -42,7 +42,7 @@ const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
-const ENDING_COUNT=4; // 종장의 엔딩 수(오르페이아·히로인·묵·낙방). 엔딩을 늘리면 같이 고친다.
+const ENDING_COUNT=5; // 종장의 엔딩 수(오르페이아·히로인·묵·낙방·히든 하렘). 엔딩을 늘리면 같이 고친다.
 // 배틀 뒤의 묵: 찢어진 단계(S.mukDmg 1~3)에 맞는 스탠딩. 그 장이 끝나면 먹물이 다시 차올라 원래 옷으로 돌아온다.
 const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
  2:{angry:'angry',lonely:'lonely',surprised:'shy',smile:'shy',smirk:'angry',neutral:'shy',shy:'shy'},
