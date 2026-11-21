@@ -555,3 +555,21 @@ dialog#vnLog.gallery{max-width:1180px;width:96vw;max-height:92vh;overflow:auto}
 .gl-replay{position:relative}.gl-play{position:absolute;right:6px;bottom:6px;background:#b3261ecc;color:#fff;font:12px var(--f-ui);padding:2px 8px;border-radius:2px}
 .gl-viewer .gl-count{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);color:#fff;font:14px var(--f-ui);background:#000a;padding:3px 12px;border-radius:12px}
 .gl-nav{position:fixed;top:50%;transform:translateY(-50%);width:54px;height:80px;border:0;background:#0008;color:#fff;font-size:42px;cursor:pointer}.gl-nav.prev{left:12px}.gl-nav.next{right:12px}
+
+/* 연표 기록부(공부용) */
+dialog#vnLog.nb{overflow:hidden;display:flex;flex-direction:column;height:92vh}
+dialog#vnLog.nb[open]{display:flex}
+.nb-tabs{align-items:center}.nb-q{margin-left:auto;min-width:220px;padding:6px 10px;border:1px solid var(--paper-edge);background:#fffdf6;font:14px var(--f-body);border-radius:2px}
+.nb-body{flex:1;min-height:0;overflow:auto}
+.nb-wrap{display:grid;grid-template-columns:230px 1fr;gap:14px;height:100%;min-height:0}
+.nb-side{overflow:auto;display:flex;flex-direction:column;gap:4px;padding-right:4px;border-right:1px solid var(--paper-edge)}
+.nb-side button{text-align:left;border:0;background:transparent;padding:7px 10px;border-left:4px solid transparent;cursor:pointer;color:var(--ink);font:14px var(--f-body);display:grid;grid-template-columns:1fr auto;gap:0 6px}
+.nb-side button span{grid-column:1;font-size:11px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nb-side button small{grid-column:2;grid-row:1/3;align-self:center;color:var(--ink3)}
+.nb-side button:hover{background:#0000000a}.nb-side button.on{border-left-color:var(--seal);background:#b3261e14;color:var(--seal)}
+.nb-main{overflow:auto;min-height:0}.nb-main .vn-notes{margin:0}.nb-ch{display:block;color:var(--ink3);font-size:11px;letter-spacing:.05em;margin-bottom:2px}
+.nb-bnav{display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:var(--paper);padding:4px 0 8px;z-index:1}.nb-bnav button{border:1px solid var(--paper-edge);background:#fffdf6;padding:5px 14px;cursor:pointer;border-radius:2px}
+.nb-time{list-style:none;margin:0;padding:0 0 0 8px;border-left:3px solid var(--seal)}
+.nb-time li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:8px 0 8px 10px;position:relative}
+.nb-time li::before{content:'';position:absolute;left:-15px;top:14px;width:11px;height:11px;border-radius:50%;background:var(--seal);box-shadow:0 0 0 3px var(--paper)}
+.nb-y{font:400 20px var(--f-title);color:var(--seal);text-align:right}.nb-time b{display:block;font:400 16px var(--f-title)}.nb-time small{color:var(--ink3);font-size:11px}.nb-time p{margin:2px 0 0;font:14px/1.6 var(--f-body)}
+@media (max-width:760px){.nb-wrap{grid-template-columns:1fr}.nb-side{flex-direction:row;overflow:auto;border-right:0;border-bottom:1px solid var(--paper-edge)}.nb-side button{min-width:140px}.nb-time li{grid-template-columns:70px 1fr}.nb-y{font-size:16px}}

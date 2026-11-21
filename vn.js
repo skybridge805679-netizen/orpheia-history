@@ -337,10 +337,42 @@ function summary(){
  const sb=c.querySelector('[data-sheets]');if(sb)sb.onclick=e=>{e.stopPropagation();openSheets(S.ch);};
  c.onclick=null;c.querySelector('[data-back]').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
 }
-function notebook(){const d=$('#vnLog');d.innerHTML=`<div class="dialog-header"><div><small>NOTEBOOK</small><h2>연표 기록부</h2></div><button class="quiet" data-close>닫기 ×</button></div>${chapters.filter(c=>(records.notebook||{})[c.id]?.length).map(c=>`<h3>${esc(c.title)} · ${esc(c.subtitle)}</h3>${notesHtml(c.id)}`).join('')||'<p>이야기를 진행하면 그 시대에서 본 것이 여기에 쌓여요.</p>'}`;d.querySelector('[data-close]').onclick=()=>d.close();d.showModal();}
-const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');const ids=records.boards||[];if(!ids.length)return;
- const sec=document.createElement('div');sec.innerHTML=`<h3>오르페이아의 판서 (${ids.length})</h3><p class="vn-sheet-wait">판서를 불러오는 중…</p>`;d.appendChild(sec);
- coreNotes().then(all=>{sec.querySelector('.vn-sheet-wait').outerHTML=`<div class="bd-wrap bd-inline"><div class="bd-body">${ids.map(id=>all.find(x=>x.id===id)).filter(Boolean).map(boardHtml).join('')}</div></div>`;}).catch(()=>{});};
+// ── 연표 기록부: 공부용으로 세 가지 보기. 장별 노트(왼쪽 장 목록·오른쪽 카드), 판서(한 장씩 넘기기), 연표(연도 순). 위쪽 검색은 세 보기 모두에 걸린다.
+function boardChapters(){const m={};for(const c of chapters)for(const o of c.ops)if(o.t==='board')for(const id of o.arg.trim().split(/\s+/))if(!m[id])m[id]=c.id;return m;}
+const yearOf=n=>{const m=/(?:기원전\s*)?(\d{3,4})(?=\s*년|[)~·,\s])/.exec(n.t+' '+n.b);if(!m)return null;const y=+m[1];return /기원전/.test(m[0])?-y:y;};
+function notebook(view='notes',sel=null,q=''){
+ const d=$('#vnLog');d.className='sheets gallery nb';const nb=records.notebook||{},bids=records.boards||[],bch=boardChapters();
+ const all=[];for(const c of chapters)for(const n of nb[c.id]||[])all.push({...n,ch:c.id,ct:c.title});
+ const hit=n=>!q||(n.t+' '+n.b).includes(q);
+ const chs=chapters.filter(c=>(nb[c.id]||[]).length||bids.some(id=>bch[id]===c.id));
+ const tabs=`<nav class="gl-tabs nb-tabs">${[['notes',`장별 노트 ${all.length}`],['boards',`판서 ${bids.length}`],['time','연표 순서']].map(([k,v])=>`<button data-view="${k}" class="${k===view?'on':''}">${v}</button>`).join('')}<input class="nb-q" type="search" placeholder="검색: 인물·사건·연도" value="${esc(q)}"></nav>`;
+ let body='';
+ if(!all.length&&!bids.length)body='<p class="mg-sum">이야기를 진행하면 그 시대에서 본 것이 여기에 쌓여요.</p>';
+ else if(view==='notes'){const cur=sel&&chs.some(c=>c.id===sel)?sel:(q?'all':chs[0]?.id);
+  const list=all.filter(n=>(cur==='all'||n.ch===cur)&&hit(n));
+  body=`<div class="nb-wrap"><aside class="nb-side"><button data-ch="all" class="${cur==='all'?'on':''}">전체 <small>${all.filter(hit).length}</small></button>${chs.map(c=>`<button data-ch="${c.id}" class="${c.id===cur?'on':''}">${esc(c.title)}<span>${esc(c.subtitle||'')}</span><small>${(nb[c.id]||[]).filter(hit).length}</small></button>`).join('')}</aside>
+  <section class="nb-main">${list.length?`<div class="vn-notes">${list.map(n=>`<div class="vn-notecard">${cur==='all'?`<small class="nb-ch">${esc(n.ct)}</small>`:''}<b>${esc(n.t)}</b><p>${esc(n.b)}</p></div>`).join('')}</div>`:'<p class="mg-sum">찾는 기록이 없어요.</p>'}</section></div>`;}
+ else if(view==='boards'){body=`<div class="nb-wrap"><aside class="nb-side nb-bside"><p class="vn-sheet-wait">판서 목록을 불러오는 중…</p></aside><section class="nb-main nb-board"><p class="vn-sheet-wait">판서를 불러오는 중…</p></section></div>`;}
+ else{const L=all.filter(hit).map(n=>({...n,y:yearOf(n)})).filter(n=>n.y!=null).sort((a,b)=>a.y-b.y);
+  body=`<p class="mg-sum">노트 제목·내용에 나온 첫 연도로 줄을 세웠어요(연도가 없는 노트는 「장별 노트」에서 보세요).</p><ol class="nb-time">${L.map(n=>`<li><span class="nb-y">${n.y<0?'기원전 '+(-n.y):n.y}</span><div><b>${esc(n.t)}</b><small>${esc(n.ct)}</small><p>${esc(n.b)}</p></div></li>`).join('')||'<li>아직 연도가 붙은 기록이 없어요.</li>'}</ol>`;}
+ d.innerHTML=`<div class="dialog-header"><div><small>NOTEBOOK</small><h2>연표 기록부</h2></div><button class="quiet" data-close>닫기 ×</button></div>${tabs}<div class="nb-body">${body}</div>`;
+ d.querySelector('[data-close]').onclick=()=>{d.close();d.className='';};
+ d.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>notebook(b.dataset.view,null,q));
+ d.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>notebook('notes',b.dataset.ch,q));
+ const qi=d.querySelector('.nb-q');let t;qi.oninput=()=>{clearTimeout(t);t=setTimeout(()=>{const pos=qi.value;notebook(view,view==='notes'?'all':sel,pos);const n=$('#vnLog .nb-q');n.focus();n.setSelectionRange(pos.length,pos.length);},250);};
+ if(view==='boards'&&bids.length)coreNotes().then(notes=>{if(!d.open||!d.querySelector('.nb-bside'))return;
+  const L=bids.map(id=>notes.find(x=>x.id===id)).filter(Boolean).filter(n=>!q||JSON.stringify(n).includes(q));
+  const ord=chapters.map(c=>c.id);L.sort((a,b)=>ord.indexOf(bch[a.id])-ord.indexOf(bch[b.id]));
+  let i=Math.max(0,L.findIndex(n=>n.id===sel));
+  const side=d.querySelector('.nb-bside'),main=d.querySelector('.nb-board');
+  const draw=()=>{side.innerHTML=L.map((n,k)=>`<button data-b="${k}" class="${k===i?'on':''}">${esc(n.title)}<span>${esc((chapters.find(c=>c.id===bch[n.id])||{}).title||'')}</span></button>`).join('')||'<p class="mg-sum">찾는 판서가 없어요.</p>';
+   main.innerHTML=L.length?`<div class="nb-bnav"><button data-step="-1">‹ 이전</button><small>${i+1} / ${L.length}</small><button data-step="1">다음 ›</button></div><div class="bd-wrap bd-inline"><div class="bd-body">${boardHtml(L[i])}</div></div>`:'';
+   side.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{i=+b.dataset.b;draw();});
+   main.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>{i=(i+ +b.dataset.step+L.length)%L.length;draw();main.scrollTop=0;});
+   side.querySelector('.on')?.scrollIntoView({block:'nearest'});};
+  draw();}).catch(()=>{});
+ if(!d.open)d.showModal();
+}
 
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
