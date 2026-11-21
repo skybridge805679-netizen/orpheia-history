@@ -1080,7 +1080,7 @@
   "init": null
  },
  "cg_ch04_hwarang": {
-  "seed": 3032224124,
+  "seed": 3422402549,
   "prompt": "1girl, 1boy, goguryeo great wall construction site, half-built stone wall, wooden scaffolding, angry soldiers with spears chasing in the background, dust cloud, comedic chase, running away, motion lines, dutch angle, speed lines",
   "init": null
  },
@@ -3194,34 +3194,14 @@
   "prompt": "2boys, adult men, a young korean buddhist monk in grey robes with shaved head on the left gesturing to the temple, a traveler in a straw hat and travel clothes on the right, korean buddhist temple courtyard in the mountains, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
  },
- "qs_dosan": {
-  "seed": 8311,
-  "prompt": "2boys, adult men, joseon confucian scholars in white robes and black gat hats in the courtyard of a korean confucian academy seowon with wooden hall, an older scholar on the left holding a book and talking, a younger scholar on the right listening, autumn, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+ "cg_title": {
+  "seed": 9101,
+  "prompt": "key visual, title screen illustration, 3girls, 1boy, wide shot, characters gathered on the right two thirds of the image, left third is dark starry night sky with soft glow for a menu, a glowing golden timeline road made of unrolled hanji scrolls spiraling into the starry sky, floating fragments of korean history scenes in light (ancient fortress, joseon palace roof, old steam train, city lights), center right an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, smiling and reaching her hand toward the viewer, golden harp and wing shaped light emblem glowing behind her, behind her a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, wearing big headphones, holding a laptop, beside him a cheerful young adult woman with light brown wavy hair in an oversized pastel blue hoodie with pin badges holding a microphone, on the far right an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, smirk, ink droplets floating, high in the sky a calm adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, holding a brush and scroll, sparkles, cinematic lighting, masterpiece",
   "init": null
  },
- "qs_poetry_party": {
-  "seed": 8312,
-  "prompt": "2boys, adult men, joseon middle-class technical officials in light blue robes and black gat hats holding a poetry gathering on a hilltop under pine trees, one on the left reading a poem from paper, one on the right with a brush and painting scroll, spring, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-  "init": null
- },
- "qs_hyeopseong": {
-  "seed": 8313,
-  "prompt": "2boys, young adult men, 1890s korean students in white hanbok with short haircuts debating in a western style classroom with a blackboard, one standing on the left raising a hand, one standing on the right gesturing, late joseon korean empire era, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-  "init": null
- },
- "qs_children": {
-  "seed": 8314,
-  "prompt": "1boy, 2girls, 1920s korean young man in a round collar suit and glasses smiling on the right holding a magazine, two korean children in hanbok on the left excitedly pointing at a board game on the table, warm room, 1920s colonial korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-  "init": null
- },
- "qs_kaesong_market": {
-  "seed": 8315,
-  "prompt": "1boy, 1girl, adult man and adult woman, goryeo dynasty korean market street, a merchant man in a brown robe on the left whispering gossip, a market woman in hanbok with a basket on the right surprised, stalls with goods behind, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-  "init": null
- },
- "qs_songgwangsa": {
-  "seed": 8316,
-  "prompt": "2boys, adult men, a young korean buddhist monk in grey robes with shaved head on the left gesturing to the temple, a traveler in a straw hat and travel clothes on the right, korean buddhist temple courtyard in the mountains, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+ "cg_title_clear": {
+  "seed": 9102,
+  "prompt": "key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters gathered on the right two thirds of the image, left third is soft blurred window light for a menu, an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, gentle happy smile, holding a certificate scroll with a gold seal, a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, sitting at a keyboard workstation, a young adult woman with light brown wavy hair in a pastel blue hoodie laughing and hugging his shoulders, an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, sitting on the desk teasing, an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, reading a scroll on the sofa, golden timeline ribbons gently floating in the air, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
   "init": null
  }
 }
