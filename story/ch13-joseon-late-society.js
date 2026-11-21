@@ -221,15 +221,15 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 장터 구경 재밌었지? 그럼 장꾼, 중인, 향촌 양반 싸움까지 섞어 볼까. 다 조선 후기니까 아무거나 붙여도 되겠지?
+[묵|smirk] 장터는 시끌벅적한데, 그 밑엔 고려 뒤쪽 먹물이 깔려 있어. 성리학 들여온 사람, 서경의 반란, 원의 사위 나라.
 @show orpheia serious left
-[오르페이아|serious] 아무거나가 아니에요! 신분마다 사정이 달랐어요. 2단계!
+[오르페이아|serious] 원 간섭기랑 서경 바람이요. 8장에서 다 봤어요. 주인님, 2단계예요!
 @hide all
 @battle muk stage2 skin=talchum
-@quiz 81-94 81-95 81-96
+@quiz 81-133 81-134 81-135
 @battle end
 @show muk lonely center
-[묵|lonely] ……장터 사람들이 다 자기 자리로 돌아갔어.
+[묵|lonely] ……장터 밑 먹물도, 이제 없어.
 @hide all
 @bgm auto
 @bg bg_era_songpa_market

@@ -197,15 +197,15 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 전차 구경 끝? 그럼 원수부, 학교, 철길. 새것들이 언제 생겼는지 순서 섞어 놨어.
+[묵|smirk] 전차 구경하는 동안 조선 앞쪽 먹물이 슬금슬금 올라왔어. 쫓겨난 임금, 궁궐 이름 지은 사람, 땅 제도.
 @show orpheia serious left
-[오르페이아|serious] 순서는 한별 님이랑 걸은 길 그대로예요. 2단계!
+[오르페이아|serious] 소담 씨네 궁궐 이야기의 잔향이에요. 상순이 시절 기억나시죠? 2단계!
 @hide all
 @battle muk stage2 skin=modern1900
-@quiz 81-100 81-101 81-102
+@quiz 81-139 81-140 81-141
 @battle end
 @show muk lonely center
-[묵|lonely] ……새것들이 생긴 순서, 이제 안 엉켜.
+[묵|lonely] ……조선 앞쪽도, 다시 굳었어.
 @hide all
 @bgm auto
 @bg bg_era_jongno_tram

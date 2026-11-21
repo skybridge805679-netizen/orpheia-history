@@ -253,15 +253,15 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 나라가 조각조각 넘어가는데, 그 조각마다 이름이 있었지. 전쟁, 돈 바꾸기, 하얼빈. 아직 덜 마른 먹물이야.
+[묵|smirk] 나라가 넘어가는 이 마당에, 다섯 장 전 선비들 이름까지 다시 번지고 있어. 외척 다툼, 서원 현판, 징비록.
 @show orpheia serious left
-[오르페이아|serious] 그 조각들, 하나도 그냥 넘어가지 않았어요. 주인님, 2단계예요.
+[오르페이아|serious] 사화랑 서원, 임진왜란의 잔향이에요. 교동도 뱃사공 노래부터 다시 떠올려요. 2단계!
 @hide all
 @battle muk serious stage2 skin=uibyeong
-@quiz 81-103 81-104 81-105
+@quiz 81-88 81-89 81-90
 @battle end
 @show muk lonely center
-[묵|lonely] ……조각마다 붙은 이름, 이제 안 번져.
+[묵|lonely] ……갓 아래 얼굴이, 이제 하나씩 다르게 보여.
 @hide all
 @bgm auto
 @bg bg_era_uibyeong_camp

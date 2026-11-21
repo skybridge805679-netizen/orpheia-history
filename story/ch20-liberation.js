@@ -241,15 +241,15 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 우한, 목화밭, 난징. 가장 어두운 때의 이름들이야. 어두우니까 번지기도 쉽지.
+[묵|smirk] 가장 어두운 때인데, 대한 제국의 먹물까지 흘러들었어. 원수부, 좌원·우원, 화륜차.
 @show orpheia serious left
-[오르페이아|serious] 어두운 데서도 다들 길을 찾았어요. 주인님, 2단계예요.
+[오르페이아|serious] 한별 님이 학생이던 시절의 잔향이에요. 2단계!
 @hide all
 @battle muk serious stage2 skin=liberation
-@quiz 81-115 81-116 81-117
+@quiz 81-100 81-101 81-102
 @battle end
 @show muk lonely center
-[묵|lonely] ……어둠 속 이름들이, 하나씩 불이 켜졌어.
+[묵|lonely] ……새것들이 생긴 순서, 이제 안 엉켜.
 @hide all
 @bgm auto
 @bg bg_era_liberation

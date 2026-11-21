@@ -317,15 +317,15 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 도미노는 세웠다 쳐. 근데 그 옆에 선 사람들은? 성벽 위 포수, 집강소의 통문, 양력 토론하던 학생들. 아직 번져 있어.
+[묵|smirk] 도미노 옆에 하나 더. 벽란도 시절 문화가 아직 번져 있거든. 송광사 결사, 김부식의 책, 화약 만드는 관청.
 @show orpheia serious left
-[오르페이아|serious] 그 사람들 다 만나고 왔어요. 주인님, 잔향 2단계예요.
+[오르페이아|serious] 여울 씨랑 다니던 고려 문화의 잔향이에요. 2단계!
 @hide all
 @battle muk serious stage2 skin=donghak
-@quiz 81-97 81-98 81-99
+@quiz 81-136 81-137 81-138
 @battle end
 @show muk lonely center
-[묵|lonely] ……도미노 옆에 선 얼굴들까지, 다 보였어.
+[묵|lonely] ……청자 색처럼, 이유는 안 바래는구나.
 @hide all
 @bgm auto
 @bg bg_era_baeksan

@@ -289,15 +289,15 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 상복 다툼 다음엔 들판이 들끓었지. 정주성, 진주…… 그 연도랑 이유, 아직 내 안에서 질척거려.
+[묵|smirk] 상복 다툼 얘기만 하다 잊었지? 고려 앞쪽 잔향이 여기 고여 있어. 황제라 부르던 왕, 소 마을, 말 탄 여진.
 @show orpheia serious left
-[오르페이아|serious] 들판 사람들 사정까지 다 봤잖아요. 주인님, 2단계예요.
+[오르페이아|serious] 담장 밖 과거 시험장, 명학소의 서신, 선덕관성. 다 저희가 본 거예요. 2단계!
 @hide all
 @battle muk serious stage2 skin=rain
-@quiz 81-91 81-92 81-93
+@quiz 81-130 81-131 81-132
 @battle end
 @show muk lonely center
-[묵|lonely] ……들판의 이유도, 제자리에 놓였네.
+[묵|lonely] ……고려의 잔향까지, 다 걷혔네.
 @hide all
 @bgm auto
 @bg bg_era_hwaseong

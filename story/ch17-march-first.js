@@ -221,15 +221,15 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 하와이, 대구, 충칭. 바다 건너, 땅 밑, 피란길. 흩어진 자리들을 내가 한데 섞어 놨어.
+[묵|smirk] 만세 소리 뒤로 조선 후기 먹물이 흘러들어. 나선 정벌, 정주성, 진주. 연도랑 이유가 아직 질척거려.
 @show orpheia serious left
-[오르페이아|serious] 흩어졌어도 다 이어져 있었어요. 2단계, 잔향이에요!
+[오르페이아|serious] 들판 사람들 사정까지 다 봤잖아요. 잔향 2단계예요.
 @hide all
 @battle muk serious stage2 skin=manse
-@quiz 81-106 81-107 81-108
+@quiz 81-91 81-92 81-93
 @battle end
 @show muk lonely center
-[묵|lonely] ……흩어진 자리들이, 지도 위에 다시 찍혔어.
+[묵|lonely] ……들판의 이유도, 제자리에 놓였네.
 @hide all
 @bgm auto
 @bg bg_era_tapgol

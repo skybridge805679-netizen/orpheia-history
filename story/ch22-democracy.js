@@ -207,15 +207,15 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 공장, 신문사 쪽지, 헌법 조문. 거리 말고 그 뒤편에 남은 기록들. 거긴 아직 번져 있어.
+[묵|smirk] 거리 뒤편에 1910년대 먹물이 남아 있어. 하와이, 대구 약방, 그리고 청산리 숲.
 @show orpheia serious left
-[오르페이아|serious] 거리 뒤편 사람들 이야기도 같이 읽어요. 주인님, 2단계예요.
+[오르페이아|serious] 보리 씨 감자죽 시절부터 청산리까지의 잔향이에요. 2단계!
 @hide all
 @battle muk serious stage2 skin=handkerchief
-@quiz 81-121 81-122 81-123
+@quiz 81-106 81-107 81-109
 @battle end
 @show muk lonely center
-[묵|lonely] ……거리 뒤편까지, 다 읽혔어.
+[묵|lonely] ……흩어진 자리들이, 지도 위에 다시 찍혔어.
 @hide all
 @bgm auto
 @bg bg_era_june1987

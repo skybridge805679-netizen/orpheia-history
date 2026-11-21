@@ -178,6 +178,17 @@ VN.chapter('ep','종장','연표의 끝에서',`
 연표의 끝. 길이 끝나는 곳에 묵이 홀로 서 있다. 먹물이 거의 남지 않아, 몸이 반쯤 투명하다.
 @show muk lonely center
 [묵|lonely] ……다 읽었구나. 선사부터 오늘까지.
+[묵] ……아니, 하나 남았어. 내 안에 아직 마르지 않은 잔향. 충칭의 건국 강령, 저울처럼 공평하자던 사람들, 어린이라는 말, 우한의 연극, 목화밭, 난징의 독립운동가.
+[묵] 이것까지 이유와 함께 읽으면, 나는 정말로 다 읽히는 거야.
+@show orpheia teary left
+[오르페이아|teary] ……묵.
+[나] 읽을게. 끝까지.
+@hide all
+@battle muk serious skin=pages
+@quiz 81-108 81-113 81-114 81-115 81-116 81-117
+@battle end
+@bg cg_ink_spread
+@show muk lonely center
 @show orpheia teary left
 [오르페이아|teary] 묵, 몸이……
 [묵] 응. 다 읽히면 나는 사라져. 나는 이유 없이 삼켜진 기록의 부스러기니까.

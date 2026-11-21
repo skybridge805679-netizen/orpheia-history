@@ -218,15 +218,15 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 투표소, 북촌 마을, 들판의 상환 장부. 갈라지던 3년 동안의 기록이 아직 축축해.
+[묵|smirk] 갈라지는 땅 위로 국권 피탈 때 먹물이 번져. 전쟁, 돈 바꾸기, 하얼빈.
 @show orpheia serious left
-[오르페이아|serious] 그 3년, 다 직접 봤어요. 2단계!
+[오르페이아|serious] 전보국 사환이랑 뤼순 원고의 잔향이에요. 2단계!
 @hide all
 @battle muk serious stage2 skin=refugee
-@quiz 81-118 81-119 81-120
+@quiz 81-103 81-104 81-105
 @battle end
 @show muk lonely center
-[묵|lonely] ……축축하던 장부가, 다 말랐어.
+[묵|lonely] ……조각마다 붙은 이름, 이제 안 번져.
 @hide all
 @bgm auto
 @bg bg_era_busan_refugee

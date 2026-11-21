@@ -199,15 +199,15 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 숲과 거리, 그리고 재판정. 1920년대는 여러 갈래였잖아. 갈래마다 먹물을 한 방울씩 떨어뜨려 놨지.
+[묵|smirk] 1920년대 거리 밑에 조선 장터가 아직 번져 있어. 덕대, 중인, 향전. 다 옛날 얘기라고 섞어도 되겠지?
 @show orpheia serious left
-[오르페이아|serious] 갈래는 많아도 길은 다 보였어요. 주인님, 2단계!
+[오르페이아|serious] 송파장의 잔향이에요. 단오 씨 장터, 아직 생생하죠? 2단계!
 @hide all
 @battle muk serious stage2 skin=moga
-@quiz 81-109 81-110 81-111
+@quiz 81-94 81-95 81-96
 @battle end
 @show muk lonely center
-[묵|lonely] ……여러 갈래가, 한 장의 지도가 됐네.
+[묵|lonely] ……장터 사람들이 다 자기 자리로 돌아갔어.
 @hide all
 @bgm auto
 @bg bg_era_donhwamun

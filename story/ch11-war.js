@@ -281,15 +281,15 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] ……아직 남았어. 이름만 남은 선비들, 서원 현판에 붙은 이름들. 누가 누군지 섞어 놓으면 다 똑같은 갓이야.
+[묵|smirk] ……다섯 장 전 먹물이 아직 안 말랐어. 발해 황후의 연호, 북천을 못 건넌 사람, 꽃의 왕 이야기. 그 시대 잔향이 여기까지 흘러왔지.
 @show orpheia serious left
-[오르페이아|serious] 서원 현판 뒤에도 사람이 있어요. 주인님, 잔향이에요. 2단계!
+[오르페이아|serious] 남북국의 잔향이에요. 해랑 님이랑 나루 씨랑 걸은 길, 아직 기억하시죠? 2단계예요!
 @hide all
 @battle muk serious stage2 skin=lotus
-@quiz 81-88 81-89 81-90
+@quiz 81-127 81-128 81-129
 @battle end
 @show muk lonely center
-[묵|lonely] ……갓 아래 얼굴이, 이제 하나씩 다르게 보여.
+[묵|lonely] ……오래된 먹물도, 이유를 대면 마르는구나.
 @hide all
 @bgm auto
 @bg bg_era_hansando

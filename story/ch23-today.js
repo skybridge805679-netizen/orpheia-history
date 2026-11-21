@@ -161,15 +161,15 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 마지막 시대, 대통령 이름만 세 개 남았어. 올림픽, IMF, 호주제. 누가 누군지 섞어 볼까?
+[묵|smirk] 마지막 시대인데 1920년대 먹물이 아직 마르지 않았어. 국장일, 나주역, 그리고 축음기 노래 한 곡.
 @show orpheia serious left
-[오르페이아|serious] 이름 말고 그때 사람들 얼굴로 기억해요. 마지막 2단계예요!
+[오르페이아|serious] 한별 님의 1920년대 잔향이에요. 마지막 2단계!
 @hide all
 @battle muk stage2 skin=idol
-@quiz 81-124 81-125 81-126
+@quiz 81-110 81-111 81-112
 @battle end
 @show muk lonely center
-[묵|lonely] ……마지막 이름들까지, 제자리야.
+[묵|lonely] ……마지막 잔향까지, 제자리야.
 @hide all
 @bgm auto
 @bg bg_era_panmunjom

@@ -222,15 +222,15 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
-[묵|smirk] 노래, 백정, 어린이. 그 시대 사람들이 지키려던 작은 것들. 작으니까 지워도 아무도 모를걸?
+[묵|smirk] 경성 네온 아래 개항기 먹물이 고여 있어. 정족산성, 집강소 통문, 양력 토론.
 @show orpheia serious left
-[오르페이아|serious] 작아도 다 기록이에요. 2단계예요, 주인님.
+[오르페이아|serious] 보리 씨랑 걸은 길의 잔향이에요. 2단계!
 @hide all
 @battle muk serious stage2 skin=hangul
-@quiz 81-112 81-113 81-114
+@quiz 81-97 81-98 81-99
 @battle end
 @show muk lonely center
-[묵|lonely] ……작은 것들이, 제일 오래 남는구나.
+[묵|lonely] ……도미노 옆에 선 얼굴들까지, 다 보였어.
 @hide all
 @bgm auto
 @bg bg_era_hangul_society
