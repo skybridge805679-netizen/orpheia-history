@@ -5596,14 +5596,14 @@
   {
    "id": "cg_after_rooftop",
    "size": "bg",
-   "seed": 9203,
+   "seed": 9213,
    "prompt": "5girls, 1boy, night rooftop of a korean apartment building, city lights and stars, everyone holding glowing smartphones, warm and peaceful, gentle wind, masterpiece",
    "chars": [
     {
-     "prompt": "boy, young man, black hoodie, hood up, eyes hidden in the shadow of the hood, sitting on the rooftop edge, smiling",
-     "uc": 0.6,
-     "x": "visible eyes",
-     "y": 0.5
+     "prompt": "boy, young man, black hoodie, hood up, seen from behind, back view, sitting on the rooftop edge looking at the city",
+     "uc": "face, eyes, visible face",
+     "x": 0.5,
+     "y": 0.75
     },
     {
      "prompt": "girl, adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, standing behind him, gentle smile",
@@ -5612,7 +5612,7 @@
      "y": 0.35
     },
     {
-     "prompt": "girl, young adult woman, long straight black hair with a braid and white ribbon, white jeogori with short sleeves, long black chima, reading news on a smartphone excitedly",
+     "prompt": "girl, young adult woman, long straight black hair in a single braid with a white ribbon, white short-sleeved jeogori, long black chima, 1900s schoolgirl, holding a smartphone and pointing at the news excitedly",
      "uc": "nude, nipples, child, loli, male",
      "x": 0.18,
      "y": 0.55
@@ -5624,7 +5624,7 @@
      "y": 0.65
     },
     {
-     "prompt": "girl, adult woman, black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, typing on a phone with a smirk",
+     "prompt": "girl, adult woman, black very long hair turning into dripping black ink at the ends, grey eyes, pale skin, black and white hanbok-style dress with ink stains, floating ink droplets, typing on a phone with a smirk",
      "uc": "nude, nipples, child, loli, male",
      "x": 0.75,
      "y": 0.55
