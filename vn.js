@@ -54,9 +54,9 @@ function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
 // 시대 옷으로 그린 인물(나루): @show의 옷을 기억하고, 표정 그림은 옷별로(st_naru_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
 const COSTUME={naru:new Set(['baekje','goguryeo','silla','sea','joseon'])};
-const COSTUME_EXPR={naru:new Set([])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
+const COSTUME_EXPR={naru:new Set(['smile','surprised','angry'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
-const SAYEON_DMG_OK=false;
+const SAYEON_DMG_OK=true;
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
  if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c&&COSTUME_EXPR[who].has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
  if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
