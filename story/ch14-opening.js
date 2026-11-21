@@ -320,8 +320,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [묵|smirk] 도미노 옆에 하나 더. 벽란도 시절 문화가 아직 번져 있거든. 송광사 결사, 김부식의 책, 화약 만드는 관청.
 @show orpheia serious left
 [오르페이아|serious] 여울 씨랑 다니던 고려 문화의 잔향이에요. 2단계!
+@show sayeon serious right
+[사연|serious] 이 양장은 허리가 너무 조입니다. ……그래도 2단계는 제 차례입니다. 오래된 먹물부터 걷어 내지요.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=donghak
+@battle muk serious stage2 skin=donghak ally=sayeon askin=sy_bustle
 @quiz 81-136 81-137 81-138
 @battle end
 @show muk lonely center

@@ -202,8 +202,11 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [묵|smirk] 1920년대 거리 밑에 조선 장터가 아직 번져 있어. 덕대, 중인, 향전. 다 옛날 얘기라고 섞어도 되겠지?
 @show orpheia serious left
 [오르페이아|serious] 송파장의 잔향이에요. 단오 씨 장터, 아직 생생하죠? 2단계!
+@show sayeon serious right
+[사연|serious] 기자 수첩까지 쥐여 주었군요. 좋습니다. 잔향을 취재하고, 사실만 남기겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=moga
+@battle muk serious stage2 skin=moga ally=sayeon askin=sy_reporter
 @quiz 81-94 81-95 81-96
 @battle end
 @show muk lonely center

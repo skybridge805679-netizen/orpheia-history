@@ -285,8 +285,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [묵|smirk] ……다섯 장 전 먹물이 아직 안 말랐어. 발해 황후의 연호, 북천을 못 건넌 사람, 꽃의 왕 이야기. 그 시대 잔향이 여기까지 흘러왔지.
 @show orpheia serious left
 [오르페이아|serious] 남북국의 잔향이에요. 해랑 님이랑 나루 씨랑 걸은 길, 아직 기억하시죠? 2단계예요!
+@show sayeon serious right
+[사연|serious] 잔향은 제가 맡겠습니다. 장면 엔진이 이 시대 옷으로 여궁사 차림을 그려 주었군요. ……화살 대신 두루마리를 쏘겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=lotus
+@battle muk serious stage2 skin=lotus ally=sayeon askin=sy_archer
 @quiz 81-127 81-128 81-129
 @battle end
 @show muk lonely center

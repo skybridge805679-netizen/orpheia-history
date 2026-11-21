@@ -164,8 +164,11 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 [묵|smirk] 마지막 시대인데 1920년대 먹물이 아직 마르지 않았어. 국장일, 나주역, 그리고 축음기 노래 한 곡.
 @show orpheia serious left
 [오르페이아|serious] 한별 님의 1920년대 잔향이에요. 마지막 2단계!
+@show sayeon serious right
+[사연|serious] 오늘의 뉴스 앵커입니다. 마지막 잔향 앞에서, 제가 오늘의 기록을 전하겠습니다. 주인님, 큐 사인을.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk stage2 skin=idol
+@battle muk stage2 skin=idol ally=sayeon askin=sy_anchor
 @quiz 81-110 81-111 81-112
 @battle end
 @show muk lonely center

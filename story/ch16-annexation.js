@@ -256,8 +256,11 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [묵|smirk] 나라가 넘어가는 이 마당에, 다섯 장 전 선비들 이름까지 다시 번지고 있어. 외척 다툼, 서원 현판, 징비록.
 @show orpheia serious left
 [오르페이아|serious] 사화랑 서원, 임진왜란의 잔향이에요. 교동도 뱃사공 노래부터 다시 떠올려요. 2단계!
+@show sayeon serious right
+[사연|serious] 전보사 사무원이군요. 끊긴 전보를 잇듯, 끊긴 기록을 잇겠습니다. 주인님, 송신 부탁드립니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=uibyeong
+@battle muk serious stage2 skin=uibyeong ally=sayeon askin=sy_telegraph
 @quiz 81-88 81-89 81-90
 @battle end
 @show muk lonely center

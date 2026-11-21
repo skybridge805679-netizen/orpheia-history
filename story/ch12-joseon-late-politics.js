@@ -293,8 +293,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [묵|smirk] 상복 다툼 얘기만 하다 잊었지? 고려 앞쪽 잔향이 여기 고여 있어. 황제라 부르던 왕, 소 마을, 말 탄 여진.
 @show orpheia serious left
 [오르페이아|serious] 담장 밖 과거 시험장, 명학소의 서신, 선덕관성. 다 저희가 본 거예요. 2단계!
+@show sayeon serious right
+[사연|serious] 다모 차림이군요. 오래된 기록을 쫓는 데는 이만한 옷이 없습니다. 묵, 잔향을 체포하겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=rain
+@battle muk serious stage2 skin=rain ally=sayeon askin=sy_damo
 @quiz 81-130 81-131 81-132
 @battle end
 @show muk lonely center

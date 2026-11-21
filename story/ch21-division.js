@@ -221,8 +221,11 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [묵|smirk] 갈라지는 땅 위로 국권 피탈 때 먹물이 번져. 전쟁, 돈 바꾸기, 하얼빈.
 @show orpheia serious left
 [오르페이아|serious] 전보국 사환이랑 뤼순 원고의 잔향이에요. 2단계!
+@show sayeon serious right
+[사연|serious] 간호장교의 옷이군요. 번진 기록도 상처처럼 싸매야 낫습니다. 붕대 대신 두루마리를 감겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=refugee
+@battle muk serious stage2 skin=refugee ally=sayeon askin=sy_nurse
 @quiz 81-103 81-104 81-105
 @battle end
 @show muk lonely center

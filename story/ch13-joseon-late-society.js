@@ -224,8 +224,11 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 [묵|smirk] 장터는 시끌벅적한데, 그 밑엔 고려 뒤쪽 먹물이 깔려 있어. 성리학 들여온 사람, 서경의 반란, 원의 사위 나라.
 @show orpheia serious left
 [오르페이아|serious] 원 간섭기랑 서경 바람이요. 8장에서 다 봤어요. 주인님, 2단계예요!
+@show sayeon serious right
+[사연|serious] 가야금을 들려 주다니, 엔진도 짓궂군요. 줄 대신 두루마리를 튕기겠습니다. 주인님, 박자는 이유로 맞춰 주십시오.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk stage2 skin=talchum
+@battle muk stage2 skin=talchum ally=sayeon askin=sy_gayageum
 @quiz 81-133 81-134 81-135
 @battle end
 @show muk lonely center

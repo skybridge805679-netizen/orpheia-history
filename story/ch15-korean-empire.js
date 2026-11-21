@@ -200,8 +200,11 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 [묵|smirk] 전차 구경하는 동안 조선 앞쪽 먹물이 슬금슬금 올라왔어. 쫓겨난 임금, 궁궐 이름 지은 사람, 땅 제도.
 @show orpheia serious left
 [오르페이아|serious] 소담 씨네 궁궐 이야기의 잔향이에요. 상순이 시절 기억나시죠? 2단계!
+@show sayeon serious right
+[사연|serious] 여학당 학생 차림이라니. 사관이 다시 학생이 된 기분입니다. 잔향 시험, 제가 대신 치르겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk stage2 skin=modern1900
+@battle muk stage2 skin=modern1900 ally=sayeon askin=sy_ewha
 @quiz 81-139 81-140 81-141
 @battle end
 @show muk lonely center

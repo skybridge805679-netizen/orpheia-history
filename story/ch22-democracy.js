@@ -210,8 +210,11 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [묵|smirk] 거리 뒤편에 1910년대 먹물이 남아 있어. 하와이, 대구 약방, 그리고 청산리 숲.
 @show orpheia serious left
 [오르페이아|serious] 보리 씨 감자죽 시절부터 청산리까지의 잔향이에요. 2단계!
+@show sayeon serious right
+[사연|serious] 청재킷이라니, 이 시대 학생들 옷이로군요. 노래책 대신 연표를 들고 앞에 서겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=handkerchief
+@battle muk serious stage2 skin=handkerchief ally=sayeon askin=sy_campus
 @quiz 81-106 81-107 81-109
 @battle end
 @show muk lonely center

@@ -224,8 +224,11 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [묵|smirk] 만세 소리 뒤로 조선 후기 먹물이 흘러들어. 나선 정벌, 정주성, 진주. 연도랑 이유가 아직 질척거려.
 @show orpheia serious left
 [오르페이아|serious] 들판 사람들 사정까지 다 봤잖아요. 잔향 2단계예요.
+@show sayeon serious right
+[사연|serious] 상하이에서 문서를 지키던 사람들의 옷입니다. 오늘은 제가 묵의 잔향 앞에서 문서를 지키겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=manse
+@battle muk serious stage2 skin=manse ally=sayeon askin=sy_shanghai
 @quiz 81-91 81-92 81-93
 @battle end
 @show muk lonely center

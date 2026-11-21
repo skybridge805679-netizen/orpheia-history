@@ -225,8 +225,11 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [묵|smirk] 경성 네온 아래 개항기 먹물이 고여 있어. 정족산성, 집강소 통문, 양력 토론.
 @show orpheia serious left
 [오르페이아|serious] 보리 씨랑 걸은 길의 잔향이에요. 2단계!
+@show sayeon serious right
+[사연|serious] 유성기 가수의 드레스…… 사관이 무대에 서다니요. 노래 대신 연표를 부르겠습니다. 주인님, 반주는 정답으로.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=hangul
+@battle muk serious stage2 skin=hangul ally=sayeon askin=sy_singer
 @quiz 81-97 81-98 81-99
 @battle end
 @show muk lonely center

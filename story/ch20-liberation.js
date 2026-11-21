@@ -244,8 +244,11 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [묵|smirk] 가장 어두운 때인데, 대한 제국의 먹물까지 흘러들었어. 원수부, 좌원·우원, 화륜차.
 @show orpheia serious left
 [오르페이아|serious] 한별 님이 학생이던 시절의 잔향이에요. 2단계!
+@show sayeon serious right
+[사연|serious] 방송국 아나운서 차림입니다. 잔향이 거짓을 퍼뜨리기 전에, 제가 먼저 바른 기록을 송출하겠습니다.
+[오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=liberation
+@battle muk serious stage2 skin=liberation ally=sayeon askin=sy_announcer
 @quiz 81-100 81-101 81-102
 @battle end
 @show muk lonely center
