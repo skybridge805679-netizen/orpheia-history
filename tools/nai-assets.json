@@ -4700,9 +4700,9 @@
    "transparent": true,
    "seed": 1212121,
    "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, open mouth, shouting, laughing, teeth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, open mouth, shouting, laughing, teeth, corset, bodice, laced vest, western dress, dirndl, sneakers, modern shoes, apron",
    "init": "assets/st_naru_baekje.webp",
-   "strength": 0.72
+   "strength": 0.6
   },
   {
    "id": "st_naru_goguryeo_smile",
@@ -4850,9 +4850,9 @@
    "transparent": true,
    "seed": 1212121,
    "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, axe, weapon, hatchet, sword, open mouth, shouting, laughing, teeth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, axe, weapon, hatchet, sword, open mouth, shouting, laughing, teeth, corset, bodice, laced vest, western dress, dirndl, sneakers, modern shoes, apron",
    "init": "assets/st_naru_sea.webp",
-   "strength": 0.72
+   "strength": 0.6
   },
   {
    "id": "st_naru_joseon_smile",
