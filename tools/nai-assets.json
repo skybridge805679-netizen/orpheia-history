@@ -4975,6 +4975,27 @@
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, small walled county town in a river valley, earthen walls and wooden gate, thatched roofs, farmland around, many banners of two armies on the surrounding hills, autumn, early morning mist, ancient korea, later three kingdoms period, tense before battle",
    "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, text, watermark, firearms, cannon"
+  },
+  {
+   "id": "qs_silla_coast",
+   "size": "bg",
+   "prompt": "2boys, adult men, 7th century silla korean generals in lamellar armor and helmets standing on a rocky seashore, one older general on the right pointing out to sea, a younger officer on the left holding a spear, warships with sails on the sea in the distance, windy, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
+   "seed": 8301
+  },
+  {
+   "id": "qs_ansi_wall",
+   "size": "bg",
+   "prompt": "2boys, adult men, goguryeo soldiers in red lamellar armor standing on top of a stone fortress wall, one tired veteran on the left leaning on a spear, a young soldier on the right smiling with relief, huge enemy army camp far below withdrawing, autumn, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
+   "seed": 8302
+  },
+  {
+   "id": "qs_silla_palace",
+   "size": "bg",
+   "prompt": "2boys, adult men, ancient silla royal palace courtyard, a king in a golden crown and red robe on the right, a middle-aged general in lamellar armor kneeling on the left with a sword at his side, guards blurred in the background, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
+   "seed": 8303
   }
  ]
 }
