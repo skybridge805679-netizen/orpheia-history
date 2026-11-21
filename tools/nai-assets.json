@@ -1509,8 +1509,8 @@
    "prompt": "1girl, 1boy, goguryeo great wall construction site, half-built stone wall, wooden scaffolding, angry soldiers with spears chasing in the background, dust cloud, comedic chase, running away, motion lines, dutch angle, speed lines",
    "chars": [
     {
-     "prompt": "girl, silver white hair, very long hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, wearing a silla hwarang costume over the maid dress, flower ornament in hair, teary eyes, panicking, running, source#pulling by the wrist",
-     "uc": "nude, nipples, cleavage, underwear, child, male",
+     "prompt": "girl, adult woman, silver white hair, very long hair, green eyes, green hair ribbon, flower ornament in hair, silla hwarang costume, white and pale green robe with wide sleeves, short belted jacket, pleated hakama-like trousers, straight sword at the waist, no maid dress, no apron, teary eyes, panicking, running, source#pulling by the wrist",
+     "uc": "nude, nipples, cleavage, underwear, child, male, maid, maid headdress, apron, black dress",
      "x": 0.4,
      "y": 0.5
     },
@@ -1521,7 +1521,7 @@
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, nipples, explicit, sex, underwear, panties, child, loli, extra people in foreground, multiple views, text, speech bubble, watermark, signature, maid outfit, apron"
   },
   {
    "id": "cg_mv_ch04",
