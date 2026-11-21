@@ -4605,8 +4605,8 @@
   {
    "id": "cg_end_orpheia",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional",
-   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+   "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional, monitor screens show only soft blurred glow, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, text, letters, english text, japanese text, user interface text, logo"
   },
   {
    "id": "cg_end_muk",
@@ -4617,8 +4617,8 @@
   {
    "id": "cg_end_fail",
    "size": "bg",
-   "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a monitor full of comment boxes and a rising play count, home music studio at night, bittersweet, warm light",
-   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, maid, maid headdress, apron, silver hair, white hair"
+   "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a softly glowing monitor, comment boxes shown as blurred colored blocks, young man hugging her shoulders from behind with the hood pulled low, face completely hidden, home music studio at night, bittersweet, warm light, monitor screens show only soft blurred glow, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, maid, maid headdress, apron, silver hair, white hair, text, letters, english text, japanese text, user interface text, logo, visible face of the man, mouth, nose, chin"
   },
   {
    "id": "cg_sayeon_b0",
@@ -4651,8 +4651,8 @@
   {
    "id": "cg_ep_jealous",
    "size": "bg",
-   "prompt": "3girls, 1boy, comedic scene in a home music studio in the morning, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting on a sofa, on his left an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, teasing smirk, clinging to his arm, on his right an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a brush and scroll, calm smile, leaning close to him, in front an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, puffed cheeks, jealous, angry vein mark, waving arms trying to push them away, chibi angry symbols, monitors, keyboard, comedic, harem",
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands"
+   "prompt": "3girls, 1boy, comedic scene in a home music studio in the morning, young man in a black hoodie with the hood pulled low over his whole face, face completely hidden in deep shadow, only the hood visible, faceless, no mouth, no nose, no chin visible, sitting on a sofa, on his left an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, teasing smirk, clinging to his arm, on his right an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a brush and scroll, calm smile, leaning close to him, in front an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, puffed cheeks, jealous, angry vein mark, waving arms trying to push them away, chibi angry symbols, monitors, keyboard, comedic, harem, monitor screens show only soft blurred glow, no readable text",
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, visible face, mouth, nose, lips, chin, text, letters"
   },
   {
    "id": "st_naru_baekje_smile",
