@@ -5526,6 +5526,117 @@
     }
    ],
    "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_store",
+   "size": "bg",
+   "seed": 9201,
+   "prompt": "4girls, comedic slice of life, inside a brightly lit modern korean convenience store at night, refrigerators full of drinks, shelves of snacks, women from different eras of korean history in their old clothes amazed by modern things, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, black hair in a low bun with a hairpin, brown eyes, plain brown hemp robe with wide sleeves, cloth bundle on back, arguing at the counter holding a price tag, angry comedic face",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.15,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, white cloth headscarf, black hair braid, tan skin, light teal plaid long korean dress, red sash, hugging a big bottle of water from the fridge, sparkling eyes",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, sun-tanned, black hair low braid, white cotton headband, plain white hemp jeogori and chima, holding a torn triangle kimbap with ripped seaweed, pouting",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.62,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, short bob black hair, olive drab 1940s uniform jacket with belt, plain field cap with a small round taegeuk badge, holding up a transit card in wonder",
+     "uc": "nude, nipples, child, loli, male, eagle emblem, nazi, swastika, german uniform",
+     "x": 0.86,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, completely nude, nipples, areolae, pussy, genitals, sex, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_bath",
+   "size": "bg",
+   "seed": 9202,
+   "prompt": "4girls, comedic bath scene, modern home bathroom full of white steam, four young adult women squeezed together in one bathtub overflowing with soap bubbles, each wrapped in a white bath towel from chest to thigh, bubbles and steam covering, wet hair, playing with foam, blushing, laughing, cleavage, bare shoulders, safe, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, wavy chestnut brown hair in low twin tails, bright blue eyes, freckles, white bath towel wrapped around body, splashing water happily",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.18,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red ribbon, round brown eyes, white bath towel wrapped around body, holding up soap foam, delighted",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.4,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, short dark brown hair with a side ponytail, bright green eyes, white bath towel wrapped around body, relaxed blissful face",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.62,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, white bath towel wrapped around body, foam mask on face, laughing",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.84,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, completely nude, nipples, areolae, pussy, genitals, sex, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views, no towel, naked, topless"
+  },
+  {
+   "id": "cg_after_rooftop",
+   "size": "bg",
+   "seed": 9203,
+   "prompt": "5girls, 1boy, night rooftop of a korean apartment building, city lights and stars, everyone holding glowing smartphones, warm and peaceful, gentle wind, masterpiece",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood up, eyes hidden in the shadow of the hood, sitting on the rooftop edge, smiling",
+     "uc": 0.6,
+     "x": "visible eyes",
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, standing behind him, gentle smile",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.5,
+     "y": 0.35
+    },
+    {
+     "prompt": "girl, young adult woman, long straight black hair with a braid and white ribbon, white jeogori with short sleeves, long black chima, reading news on a smartphone excitedly",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.18,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, shoulder length black hair with bangs, white blouse under navy cardigan, jeans, listening with earphones, soft smile",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.32,
+     "y": 0.65
+    },
+    {
+     "prompt": "girl, adult woman, black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, typing on a phone with a smirk",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.75,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, adult woman, black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, writing on a scroll next to a smartphone, calm",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.88,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, completely nude, nipples, areolae, pussy, genitals, sex, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
   }
  ]
 }
