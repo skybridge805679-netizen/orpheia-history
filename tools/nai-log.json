@@ -3006,7 +3006,7 @@
  },
  "st_naru_baekje_teary": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, white cloth headscarf, light teal plaid long korean dress with white collar, red waist sash, brown short boots, holding a long wooden pole oar, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
   "init": "assets/st_naru_baekje.webp"
  },
  "st_naru_goguryeo_smile": {
@@ -3081,7 +3081,7 @@
  },
  "st_naru_sea_teary": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, white cloth headband, navy blue fisherman jacket, red waist sash, white baggy trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
   "init": "assets/st_naru_sea.webp"
  },
  "st_naru_joseon_smile": {
@@ -3140,12 +3140,12 @@
   "init": "assets/st_sayeon_neutral.webp"
  },
  "bg_era_refuge_road": {
-  "seed": 1847538648,
+  "seed": 2257682261,
   "prompt": "no humans, scenery, outdoors, long winding dirt road through snowy hills heading south, abandoned palanquin and scattered bundles by the roadside, footprints and cart tracks in the snow, distant smoke on the northern horizon, falling snow, grey winter sky, ancient korea, goryeo period, lonely and tense",
   "init": null
  },
  "bg_era_gochang": {
-  "seed": 1777881990,
+  "seed": 592774485,
   "prompt": "no humans, scenery, outdoors, small walled county town in a river valley, earthen walls and wooden gate, thatched roofs, farmland around, many banners of two armies on the surrounding hills, autumn, early morning mist, ancient korea, later three kingdoms period, tense before battle",
   "init": null
  },
@@ -3162,6 +3162,36 @@
  "qs_silla_palace": {
   "seed": 8303,
   "prompt": "2boys, adult men, ancient silla royal palace courtyard, a king in a golden crown and red robe on the right, a middle-aged general in lamellar armor kneeling on the left with a sword at his side, guards blurred in the background, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_dosan": {
+  "seed": 8311,
+  "prompt": "2boys, adult men, joseon confucian scholars in white robes and black gat hats in the courtyard of a korean confucian academy seowon with wooden hall, an older scholar on the left holding a book and talking, a younger scholar on the right listening, autumn, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_poetry_party": {
+  "seed": 8312,
+  "prompt": "2boys, adult men, joseon middle-class technical officials in light blue robes and black gat hats holding a poetry gathering on a hilltop under pine trees, one on the left reading a poem from paper, one on the right with a brush and painting scroll, spring, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_hyeopseong": {
+  "seed": 8313,
+  "prompt": "2boys, young adult men, 1890s korean students in white hanbok with short haircuts debating in a western style classroom with a blackboard, one standing on the left raising a hand, one standing on the right gesturing, late joseon korean empire era, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_children": {
+  "seed": 8314,
+  "prompt": "1boy, 2girls, 1920s korean young man in a round collar suit and glasses smiling on the right holding a magazine, two korean children in hanbok on the left excitedly pointing at a board game on the table, warm room, 1920s colonial korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_kaesong_market": {
+  "seed": 8315,
+  "prompt": "1boy, 1girl, adult man and adult woman, goryeo dynasty korean market street, a merchant man in a brown robe on the left whispering gossip, a market woman in hanbok with a basket on the right surprised, stalls with goods behind, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_songgwangsa": {
+  "seed": 8316,
+  "prompt": "2boys, adult men, a young korean buddhist monk in grey robes with shaved head on the left gesturing to the temple, a traveler in a straw hat and travel clothes on the right, korean buddhist temple courtyard in the mountains, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
  }
 }
