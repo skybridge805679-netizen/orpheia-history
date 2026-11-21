@@ -528,3 +528,20 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 .mg-pips{display:flex;gap:4px}.mg-pips i{width:16px;height:8px;background:#3a322a;display:block}.mg-pips i.on{background:#b3261e;cursor:zoom-in;box-shadow:0 0 6px #b3261e}
 .mg-card.serious figcaption small{color:#e8e2d4;opacity:.7}
 .mg-view{position:fixed;inset:0;z-index:60;background:#000d;display:flex;align-items:center;justify-content:center;cursor:zoom-out}.mg-view img{max-width:94vw;max-height:90vh}
+
+/* 갤러리 */
+dialog#vnLog.gallery{max-width:1180px;width:96vw;max-height:92vh;overflow:auto}
+.gl-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}.gl-tabs button{border:1px solid var(--paper-edge);background:transparent;color:var(--ink);padding:6px 14px;border-radius:2px;cursor:pointer;font:14px var(--f-ui)}
+.gl-tabs button.on{background:var(--seal);color:#fff;border-color:var(--seal)}
+.gl-h{font:400 18px var(--f-title);margin:16px 0 8px;color:var(--seal)}
+.gl-lock{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:#1c1713;color:#6b5b4b;font:700 28px var(--f-title)}
+.gl-music{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px}
+.gl-music li{display:flex;align-items:center;gap:10px;padding:6px 10px;background:#fffdf6;border:1px solid var(--paper-edge);border-radius:2px}
+.gl-music li.locked{opacity:.45}.gl-music small{margin-left:auto;color:var(--ink3);font-size:11px;letter-spacing:.1em}
+.gl-music button{width:34px;height:34px;border-radius:50%;border:0;background:var(--cheong,#1d5c55);color:#fff;cursor:pointer}.gl-music button.playing{background:var(--seal)}.gl-music button:disabled{background:#bbb;cursor:default}
+.gl-end{list-style:none;padding:0;margin:0;display:grid;gap:6px}.gl-end li{padding:10px 14px;background:#fffdf6;border-left:4px solid var(--seal)}.gl-end li.locked{opacity:.5;border-left-color:#aaa}
+
+.gl-ch{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.gl-ch button{width:100%;text-align:left;padding:10px 14px;background:#fffdf6;border:1px solid var(--paper-edge);border-left:5px solid var(--cheong,#1d5c55);border-radius:2px;cursor:pointer;color:var(--ink);font:14px var(--f-body)}
+.gl-ch button b{display:block;font:400 17px var(--f-title);color:var(--seal)}.gl-ch button span{font-size:13px;color:var(--ink3)}
+.gl-ch li.locked button{opacity:.45;cursor:default;border-left-color:#aaa}

@@ -258,7 +258,7 @@ function paintPhoto(){
 }
 function paint(){
  if(!$('#vn'))shell();
- const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
+ const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;seeCg(bg.src);};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
  paintChars();paintPhoto();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
@@ -463,7 +463,7 @@ function battleHit(ok,first,hits,total){
  if(!ok&&!b.serious&&!allyOn(b)&&b.orp<3){b.combo=0;b.orp++;const n=b.orp;SFX.play('vb_glitch');vnShake(n>=3);
   const el=document.createElement('div');el.className='vn-battle bug'+(n>=3?' fin':'');const src=asset(`cg_orp_b${n}.webp`);
   el.innerHTML=`<img class="base" src="${src}" alt=""><img class="rgb r" src="${src}" alt=""><img class="rgb c" src="${src}" alt=""><div class="vb-scan"></div><div class="vb-err">ERROR 0x${(0xC0+n*7).toString(16).toUpperCase()} · COSTUME_DATA ${[0,23,61,98][n]}% LOST</div><div class="vb-text"><b>${n>=3?'SYSTEM DOWN':'BUG!'}</b><p>오르페이아「${esc(pickOne(ORP_BUG[n]))}」</p><p class="vb-muk">${opp(b).name}「${esc(pickOne(opp(b).bug()))}」</p></div>`;
-  $('#vn').appendChild(el);particles(el,'pixel',n>=3?36:22);el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),n>=3?3400:2700);battleHud();return;}
+  $('#vn').appendChild(el);seeCg(src);particles(el,'pixel',n>=3?36:22);el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),n>=3?3400:2700);battleHud();return;}
  if(!ok){b.combo=0;SFX.play('vb_ink');vnShake(false);
   const m=battleCut(opp(b).counter,`${opp(b).name}「${pickOne(opp(b).miss())}」`,b.stage,b.serious,false);m.classList.add('miss');particles(m,'ink',18);
   m.querySelector('.vb-text').insertAdjacentHTML('beforeend',allyOn(b)?`<p class="vb-orp">사연「${esc(pickOne(ALLY_SAYEON_MISS))}」</p>`:`<p class="vb-orp">오르페이아「${esc(pickOne(ORP_MISS))}」</p>`);
@@ -477,13 +477,13 @@ function battleHit(ok,first,hits,total){
  const [head,line]=allyOn(b)?[fin?'FINISH!':'UNROLL!',`사연「${pickOne(ALLY_SAYEON_BREAK[st])}」`]:b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':opp(b).brkHead,`${opp(b).name}「${pickOne(opp(b).brk()[st])}」`];
  const sub=allyOn(b)?`<p class="vb-muk">${b.serious?esc(MUK_SERIOUS[st]):'묵「'+esc(pickOne(opp(b).brk()[st]))+'」'}</p>`:'';
  el.innerHTML=(allyOn(b)?`<img class="old" src="${allyCg(prev,b)}" onerror="this.onerror=null;this.src='${allyFb(prev)}'" alt=""><img class="new" src="${allyCg(st,b)}" onerror="this.onerror=null;this.src='${allyFb(st)}'" alt="">`:`<img class="old" src="${opp(b).cg(prev,b)}" alt=""><img class="new" src="${opp(b).cg(st,b)}" alt="">`)+`<div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${sub}${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · ${allyOn(b)?'오르페이아「사연 님, 그대로예요!」':'오르페이아「'+esc(pickOne(ORP_COMBO))+'」'}</p>`:''}</div><span class="vb-dmg">${allyOn(b)?'+1 연표':b.serious?'+1 기록':opp(b).dmg}</span>`;
- $('#vn').appendChild(el);particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
+ $('#vn').appendChild(el);seeCg(allyOn(b)?allyCg(st,b):opp(b).cg(st,b));particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
  el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),fin?3400:2700);battleHud();
 }
 
 function finishChapter(next){
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
- if(nx){S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
+ if(nx){reach(nx.id);S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
  busy=true;S.line=null;paint();const c=$('#vnCard');c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
  const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END${S.ending?` · ${esc(S.ending.t)}`:''}</small><h2>연표의 끝에서</h2>${S.ending?.d?`<p><b>${esc(S.ending.d)}</b></p>`:''}<p>본 엔딩 ${(records.endings||[]).length}/${ENDING_COUNT}. 선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};
@@ -523,6 +523,50 @@ function mukGallery(){const d=$('#vnLog'),got=records.mukSkins||{},all=Object.en
  d.querySelectorAll('.mg-card:not(.locked) .mg-main').forEach(m=>m.onclick=()=>{view.querySelector('img').src=m.querySelector('img').src;view.hidden=false;});
  d.querySelectorAll('.mg-pips i.on').forEach(p=>p.onclick=e=>{e.stopPropagation();view.querySelector('img').src=asset(`cg_muk_${p.dataset.k}_b${p.dataset.i}.webp`);view.hidden=false;});
  d.showModal();}
+// ── 갤러리: 본 CG·들은 곡·본 엔딩만 열린다(records.cgSeen / records.bgmHeard / records.endings).
+function seeCg(src){const k=String(src||'').split('/').pop().replace(/\.(webp|png)(\?.*)?$/,'');if(!/^cg_/.test(k)||/^cg_(ink_spread|comment_flame)$/.test(k))return;const a=records.cgSeen||(records.cgSeen=[]);if(!a.includes(k)){a.push(k);save();}}
+BGM.onplay=n=>{if(!n||n==='bgm_title')return;const a=records.bgmHeard||(records.bgmHeard=[]);if(!a.includes(n)){a.push(n);save();}};
+const SONG_TITLE={song_ch01:'돌덩이 러브레터',song_ch02:'다섯 나라 페스티벌',song_ch03:'한강의 깃발',song_ch04:'칠십 년의 전쟁',song_ch05:'바다 건너 등주로',song_ch06:'천 년의 저녁',song_ch07:'왕들의 배틀',song_ch08:'칼과 말발굽',song_ch09:'여울 상단',song_ch10:'상순이의 궁궐',song_ch11:'격군의 노래',song_ch12:'상복 3년 대 1년',song_ch13:'장터의 노래',song_ch14:'하늘은 안 없어져요',song_ch15:'전차가 달리는 거리',song_ch16:'빼앗길 때마다',song_ch17:'만세의 봄',song_ch18:'여러 갈래의 길',song_ch19:'경성 시티팝',song_ch20:'광복의 새벽',song_ch21:'천막 교실의 노래',song_ch22:'4월의 교복, 6월의 거리',song_ch23:'선을 넘는 걸음',song_ep:'연표 (앨범 타이틀곡)',song_end_orpheia:'이유와 함께',song_end_fail:'노래는 남았다'};
+const BGM_TITLE={bgm_title:'타이틀',bgm_daily:'작업실 낮',bgm_night_shift:'새벽 세 시의 작업실',bgm_outing:'연표 다이브',bgm_orpheia:'오르페이아 테마',bgm_exam:'기출 풀기',bgm_result:'발매 정산',bgm_challenge:'먹물과의 배틀',bgm_comedy:'러브코미디 사건',bgm_romance:'설렘',bgm_tragic:'비극의 현장',bgm_yunseul:'윤슬 테마',bgm_ending:'전원 집합',bgm_sayeon:'사관의 시험',bgm_jealous:'질투 소동'};
+function galleryCgs(){
+ const groups=[],seen=new Set();
+ for(const c of chapters){const list=[];for(const o of c.ops)if(o.t==='bg'){const k=o.arg.split('|')[0].trim();if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.title,list});}
+ const battle=['cg_orp_b1','cg_orp_b2','cg_orp_b3','cg_sayeon_b0','cg_sayeon_b1','cg_sayeon_b2','cg_sayeon_b3'];
+ for(const k of Object.keys(window.SAYEON_SKINS||{}))for(let i=0;i<4;i++)battle.push(`cg_sayeon_${k}_b${i}`);
+ groups.push({t:'배틀 — 오르페이아·사연',list:battle.filter(k=>!seen.has(k))});
+ return groups;
+}
+function gallery(tab='cg'){
+ const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.cgSeen||[]),heard=new Set(records.bgmHeard||[]),ends=records.endings||[];
+ const groups=galleryCgs(),total=groups.reduce((n,g)=>n+g.list.length,0),opened=groups.reduce((n,g)=>n+g.list.filter(k=>got.has(k)).length,0);
+ const songs=[...BGM.songs,'song_end_orpheia','song_end_fail'],bgms=Object.keys(BGM_TITLE);
+ const tabs=`<nav class="gl-tabs">${[['cg',`CG ${opened}/${total}`],['music',`음악 감상 ${[...songs,...bgms].filter(n=>heard.has(n)||n==='bgm_title').length}/${songs.length+bgms.length}`],['end',`엔딩 ${ends.length}/${ENDING_COUNT}`],['muk','묵 의상 도감']].map(([k,v])=>`<button data-tab="${k}" class="${k===tab?'on':''}">${v}</button>`).join('')}</nav>`;
+ let body='';
+ if(tab==='cg')body=groups.map(g=>`<h3 class="gl-h">${esc(g.t)}</h3><div class="mg-grid">${g.list.map(k=>`<figure class="mg-card${got.has(k)?'':' locked'}"><div class="mg-main" data-k="${k}">${got.has(k)?`<img loading="lazy" src="${asset(k+'.webp')}" alt="">`:'<span class="gl-lock">?</span>'}</div></figure>`).join('')}</div>`).join('');
+ if(tab==='music'){const row=(n,t)=>{const on=heard.has(n)||n==='bgm_title';return `<li class="${on?'':'locked'}"><button data-play="${n}" ${on?'':'disabled'}>▶</button><span>${on?esc(t):'？？？'}</span><small>${n.startsWith('song_ch')?'TRACK '+n.slice(-2):''}</small></li>`;};
+  body=`<p class="mg-sum">이야기에서 한 번 들은 곡이 열려요. 다시 누르면 멈춰요.</p><h3 class="gl-h">노래</h3><ul class="gl-music">${songs.map(n=>row(n,SONG_TITLE[n]||n)).join('')}</ul><h3 class="gl-h">배경 음악</h3><ul class="gl-music">${bgms.map(n=>row(n,BGM_TITLE[n])).join('')}</ul>`;}
+ if(tab==='end')body=`<p class="mg-sum">본 엔딩 ${ends.length} / ${ENDING_COUNT}</p><ul class="gl-end">${ends.map(e=>`<li>✦ ${esc(typeof e==='string'?e:e.t||'')}</li>`).join('')||'<li class="locked">아직 본 엔딩이 없어요.</li>'}${Array.from({length:Math.max(0,ENDING_COUNT-ends.length)},()=>'<li class="locked">？？？</li>').join('')}</ul>`;
+ d.innerHTML=`<div class="dialog-header"><div><small>GALLERY</small><h2>갤러리</h2></div><button class="quiet" data-close>닫기 ×</button></div>${tabs}<div class="gl-body">${body}</div><div class="mg-view" hidden><img alt=""></div>`;
+ const close=()=>{d.close();d.className='';if(tab==='music')BGM.play('bgm_title');};
+ d.querySelector('[data-close]').onclick=close;
+ d.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{if(b.dataset.tab==='muk'){d.close();d.className='';return mukGallery();}if(tab==='music'&&b.dataset.tab!=='music')BGM.play('bgm_title');gallery(b.dataset.tab);});
+ const view=d.querySelector('.mg-view');view.onclick=()=>view.hidden=true;
+ d.querySelectorAll('.mg-card:not(.locked) .mg-main').forEach(m=>m.onclick=()=>{view.querySelector('img').src=asset(m.dataset.k+'.webp');view.hidden=false;});
+ d.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>{const n=b.dataset.play,on=b.classList.contains('playing');d.querySelectorAll('[data-play]').forEach(x=>{x.classList.remove('playing');x.textContent='▶';});if(on){BGM.play('');return;}b.classList.add('playing');b.textContent='■';BGM.play(n);});
+ if(!d.open)d.showModal();
+}
+// ── 장 선택: 한 번 들어간 장은 타이틀에서 처음부터 다시 볼 수 있다(records.chReached).
+function reach(id){const a=records.chReached||(records.chReached=[]);if(!a.includes(id)){a.push(id);save();}}
+function chapterSelect(){const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.chReached||[]);
+ d.innerHTML=`<div class="dialog-header"><div><small>CHAPTER SELECT</small><h2>장 선택</h2></div><button class="quiet" data-close>닫기 ×</button></div><p class="mg-sum">한 번 들어간 장은 그 장 처음부터 다시 볼 수 있어요. 지금 이어하던 기록은 그대로 남아요.</p>
+ <ul class="gl-ch">${chapters.map(c=>`<li class="${got.has(c.id)?'':'locked'}"><button data-ch="${c.id}" ${got.has(c.id)?'':'disabled'}><b>${esc(c.title)}</b><span>${got.has(c.id)?esc(c.subtitle||''):'？？？'}</span></button></li>`).join('')}</ul>`;
+ d.querySelector('[data-close]').onclick=()=>{d.close();d.className='';};
+ d.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>{d.close();d.className='';S=fresh(b.dataset.ch);log=[];shell();paint();step();});
+ d.showModal();}
+// 갤러리 기록이 생기기 전의 세이브: 세이브 위치보다 앞선 장은 들어간 장으로, 그 장들의 CG는 본 것으로 친다(한 번만).
+function backfill(){if(records.galleryBackfill)return;let mx=-1;for(const v of Object.values(meta.saves||{})){const i=chapters.findIndex(c=>c.id===v?.state?.ch);if(i>mx)mx=i;}
+ for(let i=0;i<=mx;i++){reach(chapters[i].id);if(i<mx)for(const o of chapters[i].ops)if(o.t==='bg'){const k=o.arg.split('|')[0].trim();if(/^cg_/.test(k))seeCg(k);}}
+ records.galleryBackfill=1;save();}
 function closeDialogs(){for(const d of document.querySelectorAll('dialog[open]'))d.close();}
 function menu(k){
  if(k==='log')return openLog();
@@ -547,13 +591,13 @@ function splash(){
 }
 function title(){
  BGM.play('bgm_title');stopAuto();clearTimeout(typing?.t);typing=null;busy=false;skip=false;auto=false;S=null;Quiz.close();closeDialogs();document.body.classList.add('vn-mode');
- const cont=latest(),st=Quiz.stats();
+ const cont=latest(),st=Quiz.stats();backfill();
  const art=(records.endings||[]).length?'cg_title_clear':'cg_title';
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg vn-title-art" src="${asset(art+'.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
- <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
+ <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button><button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
- const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery};
+ const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),chsel:chapterSelect};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t]());
  // 타이틀 일러스트: 있으면 그 그림을 크게 깔고 스탠딩은 숨긴다. 엔딩을 본 뒤에는 새벽 작업실 그림, 없으면 기본 그림 → 연표 터널 배경 + 스탠딩.
  const bg=$('.vn-title-art'),sec=$('.vn-title');

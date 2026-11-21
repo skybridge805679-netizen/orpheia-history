@@ -60,6 +60,7 @@ const BGM=(()=>{
   const old=decks[front];cur=name||'';
   fade(old,0,700,()=>{if(old!==decks[front])old.pause();});
   if(!cur||!ready.has(cur))return;
+  try{api.onplay&&api.onplay(cur);}catch{}
   front^=1;const a=decks[front];a._f=(a._f||0)+1;a.src=src(cur);a.currentTime=0;a.volume=0;   // a._f 증가: 이 덱에서 돌던 이전 페이드를 끊는다
   a.play().then(()=>{if(a!==decks[front]||cur!==name){a.pause();return;}fade(a,level(),900);decks.forEach(d=>{if(d!==a&&!d.paused&&d.volume===0)d.pause();});}).catch(e=>{console.warn('bgm',name,e.name);if(e.name==='NotSupportedError')ready.delete(name);if(e.name==='NotAllowedError'){unlocked=false;arm();}if(cur===name)cur='';});
  }
@@ -74,5 +75,6 @@ const BGM=(()=>{
  function setVolume(v){set.volume=v;persist();decks[front].volume=level();}
  function setMuted(m){set.muted=m;persist();decks[front].volume=level();}
  const status=()=>({found:ready.size,total:TRACKS.length,current:cur,unlocked});
- return {current:()=>cur,play,scene,setVolume,setMuted,settings:()=>({...set}),tracks:TRACKS,ready,status,whenReady:()=>probed};
+ const api={current:()=>cur,play,scene,setVolume,setMuted,settings:()=>({...set}),tracks:TRACKS,songs:SONGS,ready,status,whenReady:()=>probed,onplay:null};
+ return api;
 })();
