@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
   actions: write
-concurrency: nai-assets
+concurrency: nai-upscale  # 생성(nai-assets)과 대기열을 나눠, 매시간 업스케일이 대기 중인 생성 작업을 취소하지 않게 한다
 jobs:
   upscale:
     runs-on: ubuntu-latest
