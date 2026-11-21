@@ -4996,6 +4996,48 @@
    "prompt": "2boys, adult men, ancient silla royal palace courtyard, a king in a golden crown and red robe on the right, a middle-aged general in lamellar armor kneeling on the left with a sword at his side, guards blurred in the background, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
    "seed": 8303
+  },
+  {
+   "id": "qs_dosan",
+   "size": "bg",
+   "prompt": "2boys, adult men, joseon confucian scholars in white robes and black gat hats in the courtyard of a korean confucian academy seowon with wooden hall, an older scholar on the left holding a book and talking, a younger scholar on the right listening, autumn, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8311
+  },
+  {
+   "id": "qs_poetry_party",
+   "size": "bg",
+   "prompt": "2boys, adult men, joseon middle-class technical officials in light blue robes and black gat hats holding a poetry gathering on a hilltop under pine trees, one on the left reading a poem from paper, one on the right with a brush and painting scroll, spring, joseon dynasty, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8312
+  },
+  {
+   "id": "qs_hyeopseong",
+   "size": "bg",
+   "prompt": "2boys, young adult men, 1890s korean students in white hanbok with short haircuts debating in a western style classroom with a blackboard, one standing on the left raising a hand, one standing on the right gesturing, late joseon korean empire era, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8313
+  },
+  {
+   "id": "qs_children",
+   "size": "bg",
+   "prompt": "1boy, 2girls, 1920s korean young man in a round collar suit and glasses smiling on the right holding a magazine, two korean children in hanbok on the left excitedly pointing at a board game on the table, warm room, 1920s colonial korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8314
+  },
+  {
+   "id": "qs_kaesong_market",
+   "size": "bg",
+   "prompt": "1boy, 1girl, adult man and adult woman, goryeo dynasty korean market street, a merchant man in a brown robe on the left whispering gossip, a market woman in hanbok with a basket on the right surprised, stalls with goods behind, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8315
+  },
+  {
+   "id": "qs_songgwangsa",
+   "size": "bg",
+   "prompt": "2boys, adult men, a young korean buddhist monk in grey robes with shaved head on the left gesturing to the temple, a traveler in a straw hat and travel clothes on the right, korean buddhist temple courtyard in the mountains, goryeo period, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese clothes, modern",
+   "seed": 8316
   }
  ]
 }

@@ -238,6 +238,24 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [사연|worry] ……묵.
 @label sealafter
 @hide all
+@bg cg_ink_spread
+먹물이 다시 일렁인다. 이번엔 글자가 아니라 그림이다. 바닷가에 선 장수들, 성벽 위의 병사들, 왕궁 마당에 무릎 꿇은 장군. 말풍선만 하얗게 비어 있다.
+@show muk smirk center
+[묵|smirk] 아직 안 끝났어. 연표는 외웠지? 그럼 이번엔 사람들 입에서 나온 말로 맞혀 봐. 누가, 어디서, 언제 한 말인지.
+@show orpheia serious left
+[오르페이아|serious] 같은 전쟁인데 자리가 다 달라요. 고구려 성벽, 신라 왕궁, 그리고 기벌포로 가는 바닷가. 주인님, 2단계예요.
+@hide all
+@battle muk stage2 skin=hwarang
+@quiz 81-142 81-143 81-144
+@battle end
+@show muk lonely center
+@if quizFirst >= 2 -> s2ok
+[묵|smirk] 말풍선 몇 개는 아직 비어 있네~
+@jump s2af
+@label s2ok
+[묵|lonely] ……성벽 위의 병사도, 무릎 꿇은 장군도. 이름 없는 사람들 입으로도 연표가 맞춰지는구나.
+@label s2af
+@hide all
 @bgm auto
 @bg bg_era_gibeolpo
 @show sayeon hwarang right
