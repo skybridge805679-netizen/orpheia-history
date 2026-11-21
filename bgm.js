@@ -5,7 +5,9 @@
 const BGM=(()=>{
  const KEY='orpheia-bgm-v1';
  const SONGS=['song_ch01','song_ch02','song_ch03','song_ch04','song_ch05','song_ch06','song_ch07','song_ch08','song_ch09','song_ch10','song_ch11','song_ch12','song_ch13','song_ch14','song_ch15','song_ch16','song_ch17','song_ch18','song_ch19','song_ch20','song_ch21','song_ch22','song_ch23','song_ep'];
- const TRACKS=['bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge','bgm_comedy','bgm_romance','bgm_tragic','bgm_yunseul','bgm_ending',...SONGS];
+ const TRACKS=['bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge','bgm_comedy','bgm_romance','bgm_tragic','bgm_yunseul','bgm_ending','bgm_sayeon','bgm_jealous','song_end_orpheia','song_end_fail',...SONGS];
+ // 새 곡 파일이 아직 없으면 대신 틀 곡
+ const FB={bgm_sayeon:'bgm_challenge',bgm_jealous:'bgm_comedy',song_end_orpheia:'bgm_orpheia',song_end_fail:'bgm_ending'};
  // 배경 이름 규칙: 표에 없으면 접두어로 고른다(새 장을 써도 BGM 표를 고칠 필요가 없게).
  const TRAGIC=/ugeumchi|jeju_43|gwangju_1980|heungnam|samjeondo|gyeongbokgung_ruin|okhoru|jungmyeongjeon|harbin|kokumin_school|bupyeong|tomak|namhansanseong|jinju_1862|pyeongyang_fall|hwangsan|myeonghakso/;
  const ROMANCE=/kiln|drying|cinema|farewell|yakgwa|dano_wink/;
@@ -13,6 +15,9 @@ const BGM=(()=>{
   if(/^cg_mv_(ch\d\d)/.test(n))return 'song_'+n.match(/^cg_mv_(ch\d\d)/)[1];
   if(n==='cg_yunseul_recording')return 'song_ch09';
   if(n==='cg_ep_release'||n==='cg_ep_all')return 'bgm_ending';
+  if(n==='cg_ep_jealous')return 'bgm_jealous';
+  if(n==='cg_end_orpheia')return 'song_end_orpheia';
+  if(n==='cg_end_fail')return 'song_end_fail';
   if(/ink_spread|comment_flame/.test(n))return 'bgm_challenge';
   if(/studio/.test(n))return 'bgm_night_shift';
   if(/yunseul/.test(n))return 'bgm_yunseul';
@@ -49,8 +54,10 @@ const BGM=(()=>{
  const level=()=>set.muted?0:set.volume;
  function play(name){
   wanted=name||'';
-  if(!unlocked||wanted===cur)return;
-  const old=decks[front];cur=wanted;
+  if(!unlocked)return;
+  if(name&&!ready.has(name)&&FB[name])name=FB[name];
+  if((name||'')===cur)return;
+  const old=decks[front];cur=name||'';
   fade(old,0,700,()=>{if(old!==decks[front])old.pause();});
   if(!cur||!ready.has(cur))return;
   front^=1;const a=decks[front];a._f=(a._f||0)+1;a.src=src(cur);a.currentTime=0;a.volume=0;   // a._f 증가: 이 덱에서 돌던 이전 페이드를 끊는다

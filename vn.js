@@ -327,7 +327,7 @@ const _notebook=notebook;notebook=function(){_notebook();const d=$('#vnLog');con
 function quiz(arg){
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
- Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{
+ Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':S.battle.who==='sayeon'?'bgm_sayeon':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{
   S.flags.quizFirst=R.first;S.flags.quizTotal=R.total;S.flags.quizAll=(S.flags.quizAll||0)+R.first;S.flags.quizAllTotal=(S.flags.quizAllTotal||0)+R.total;S.flags.quizRate=S.flags.quizAllTotal?Math.round(100*S.flags.quizAll/S.flags.quizAllTotal):0;
   $('#vnBattleHud')?.remove();busy=false;BGM.scene(S.bg);S.pc++;step();
  }});
@@ -404,7 +404,7 @@ function battle(arg){
  }
  const st2=/stage2/.test(arg),skin=(/skin=(\w+)/.exec(arg)||[])[1]||null;S.battle={who,skin,serious:/serious/.test(arg),stage2:st2,stage:0,orp:0,hits:0,total:0,combo:0,maxCombo:0};
  if(skip){S.pc++;return step();}
- busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
+ busy=true;BGM.play(S.battle.serious?'bgm_tragic':S.battle.who==='sayeon'?'bgm_sayeon':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
  el.innerHTML=`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
  <div class="vs-side vs-r${opp(S.battle).vsCg(S.battle)?' cg':''}"><img src="${opp(S.battle).vsImg(S.battle)}" alt=""><b>${opp(S.battle).name}</b><small>${S.battle.who==='muk'&&skinName()?esc(skinName())+' · ':''}${S.battle.serious?opp(S.battle).serSub:opp(S.battle).sub}</small></div>
