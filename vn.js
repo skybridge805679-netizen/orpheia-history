@@ -17,7 +17,7 @@ const CAST={
  muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
  nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
  dallae:{name:'달래',cls:'c-other',stand:{neutral:'st_dallae_smile',smile:'st_dallae_smile',worry:'st_dallae_worry',shy:'st_dallae_shy',angry:'st_dallae_angry',teary:'st_dallae_teary',surprised:'st_dallae_surprised'}},
- naru:{name:'나루',cls:'c-other',stand:{baekje:'st_naru_baekje',goguryeo:'st_naru_goguryeo',silla:'st_naru_silla',sea:'st_naru_sea',joseon:'st_naru_joseon',smile:'st_naru_sea',serious:'st_naru_sea'}},
+ naru:{name:'나루',cls:'c-other',stand:{baekje:'st_naru_baekje',goguryeo:'st_naru_goguryeo',silla:'st_naru_silla',sea:'st_naru_sea',joseon:'st_naru_joseon'}},
  yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious',shy:'st_yunseul_shy',angry:'st_yunseul_angry',teary:'st_yunseul_teary'}},
  haerang:{name:'해랑',cls:'c-other',stand:{neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious',shy:'st_haerang_shy',angry:'st_haerang_angry',teary:'st_haerang_teary',surprised:'st_haerang_surprised'}},
  yeoul:{name:'여울',cls:'c-other',stand:{neutral:'st_yeoul_smile',smile:'st_yeoul_smile',surprised:'st_yeoul_surprised',worry:'st_yeoul_surprised',shy:'st_yeoul_shy',angry:'st_yeoul_angry',teary:'st_yeoul_teary'}},
@@ -147,7 +147,8 @@ function step(){
       if(!others.length)pos='center';else if(others.length===1)pos=others[0].pos==='right'?'left':'right';else if(others.length===2){const u=new Set(others.map(c=>c.pos));pos=['center','left','right'].find(p=>!u.has(p))||null;}
       if(pos){if(others.length===1&&others[0].pos==='center')others[0].pos=pos==='right'?'left':'right';S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}}
      S.speakingMob=id;}else if(op.t==='say')S.speakingMob=null;
-    if(op.t==='say'&&op.expr&&S.chars[op.who]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
+    // 그 인물에게 없는 표정이면 지금 그림을 그대로 둔다(나루처럼 시대 옷으로만 그린 인물이 사라지거나 옷이 바뀌지 않게).
+    if(op.t==='say'&&op.expr&&S.chars[op.who]&&CAST[op.who]?.stand?.[op.expr]){if(S.chars[op.who].expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.chars[op.who].expr=op.expr;}
     S.line={who:op.who||'',text:fill(op.text),expr:op.expr||S.chars[op.who]?.expr||'neutral'};
     log.push({who:nameOf(S.line.who),text:S.line.text});if(log.length>LOG_MAX)log.shift();
     if(skip&&!isRead(S.pc))skip=false;
@@ -349,6 +350,19 @@ const ORP_BUG={
  3:['시, 시스템 경고! 의상 데이터 손실 98%…… 주인님, 다음 문제는 꼭 맞혀 주세요오……!','머리띠랑 리본만 남았어요……! 이, 이건 메이드 스킨 최후의 보루예요!'],
 };
 const MUK_BUG=['네 주인님이 틀리니까 네가 번지는 거야♪','기록으로 만들어진 몸이잖아. 기록이 번지면, 너도 번져.','어머, 메이드 스킨이 다 깨졌네?'];
+// 사연 배틀(종장 '사관의 시험'): 사관복은 연표 두루마리를 엮은 옷. 시대를 이어 맞힐수록 두루마리가 한 자락씩 풀려 연표가 된다(CG cg_sayeon_b0~b3).
+const SAYEON_TAUNT=['이번엔 제가 묻겠습니다. 때와 곳, 이어 주실 수 있겠지요?','사관의 시험은 엄합니다. ……봐 드리지 않습니다.','처음 뵌 밤부터 지켜보았습니다. 이제 증명해 주십시오.'];
+const SAYEON_BREAK={
+ 1:['……허리띠 두루마리가 풀렸군요. 괘, 괜찮습니다. 연표가 이어진 것이니까요.','한 자락 풀렸을 뿐입니다. 사관은 동요하지 않습니다.'],
+ 2:['자, 잠깐만요……! 겉옷까지 연표가 되어 버리면…… 주인님, 눈은 기록에만 두십시오!','어, 어깨가…… 이건 기록상 필요한 노출입니다. 그렇다고 해 두십시오!'],
+ 3:['~~~~~! 다 풀려 버렸습니다……! 연표는 이어졌지만, 저는…… 저는 무엇을 입으란 말입니까……!','보, 보지 마십시오……! 사관이 이런 꼴로 기록되면…… 기록되면……!'],
+};
+const SAYEON_MISS=['……그 답은 기록에 없습니다. 다시 읽으십시오.','때가 어긋났습니다. 사관의 눈은 속일 수 없습니다.','후후, 그 보기는 제가 일부러 놓아둔 것입니다.'];
+const SAYEON_BUG=['주인님이 틀리시면, 오르페이아 님이 번집니다. 저와 같은 종이니까요.','오르페이아 님, 의상이…… 기록이 흐려지셨습니다.','제가 입을 옷을 지키려다 오르페이아 님 옷이 날아갔군요.'];
+const OPP={
+ muk:{name:'묵',sub:'먹물 계정',serSub:'번진 기록',cg:(st,b)=>mukCg(st,b),vsImg:b=>b.skin?mukCg(0,b):asset(b.serious?'st_muk_lonely.webp':'st_muk_smirk.webp'),vsCg:b=>!!b.skin,taunt:()=>MUK_TAUNT,brk:()=>MUK_BREAK,miss:()=>MUK_MISS,bug:()=>MUK_BUG,cloth:'먹물 옷',left:'먹물 옷 남은 겹',fin:'묵의 먹물 옷이 전부 벗겨졌다!',go:'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요',counter:'묵의 반격',brkHead:'BREAK!',dmg:'-1 겹'},
+ sayeon:{name:'사연',sub:'연표의 사관',serSub:'연표의 사관',cg:st=>asset(`cg_sayeon_b${st}.webp`),vsImg:()=>asset('cg_sayeon_b0.webp'),vsCg:()=>true,taunt:()=>SAYEON_TAUNT,brk:()=>SAYEON_BREAK,miss:()=>SAYEON_MISS,bug:()=>SAYEON_BUG,cloth:'두루마리 사관복',left:'남은 두루마리',fin:'사관복이 연표로 전부 풀려 나갔다!',go:'첫 시도 정답 = UNROLL! 두루마리 사관복을 한 자락씩 풀어 연표를 이으세요',counter:'사관의 반문',brkHead:'UNROLL!',dmg:'+1 연표'}};
+const opp=b=>OPP[b?.who]||OPP.muk;
 const ORP_MISS=['주인님, 괜찮아요! 해설 보고 다시 가요!','으으, 먹물 튀었어요……! 다음엔 꼭이요!','방심했어요! 단서부터 다시 봐요!'];
 const ORP_COMBO=['좋아요, 주인님! 그대로 밀어붙여요!','연속 정답! 묵이 흔들리고 있어요!','이 흐름이에요! 이유로 꿰뚫어요!'];
 let lastBattle=null;
@@ -356,7 +370,7 @@ const pickOne=a=>a[Math.floor(Math.random()*a.length)];
 const calm=()=>skip||window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 // 의상(스킨)별 CG. 없으면 기본 cg_muk_bN.
 function mukCg(st,b=S.battle){const k=b?.skin,n=b?.serious?0:st;return asset(k&&window.MUK_SKINS?.[k]?`cg_muk_${k}_b${n}.webp`:`cg_muk_b${n}.webp`);}
-function battleImg(st){return mukCg(st);}
+function battleImg(st){return opp(S.battle).cg(st,S.battle);}
 function skinName(b=S.battle){return window.MUK_SKINS?.[b?.skin]?.name||'';}
 function recordSkin(b){if(!b?.skin)return;const m=records.mukSkins||(records.mukSkins={});m[b.skin]=Math.max(m[b.skin]??0,b.serious?0:b.stage);save();}
 function nextSkin(){const i=chapters.indexOf(curCh());for(const c of chapters.slice(i+1))for(const o of c.ops)if(o.t==='battle'){const m=/skin=(\w+)/.exec(o.arg);if(m)return m[1];}return null;}
@@ -370,19 +384,19 @@ function battle(arg){
  const [who,mode]=arg.split(/\s+/);
  if(who==='end'){
   const b=S.battle;S.battle=null;lastBattle=b;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
-  recordSkin(b);
-  if(!b.serious&&b.stage>0){S.mukDmg=b.stage;S.mukSkin=b.skin||null;}
+  if(b.who==='muk')recordSkin(b);
+  if(b.who==='muk'&&!b.serious&&b.stage>0){S.mukDmg=b.stage;S.mukSkin=b.skin||null;}
   if(!b.serious&&b.orp>0)S.orpDmg=b.orp;
   if(skip){S.pc++;return step();}
   const rate=b.total?b.hits/b.total:0,rank=rate>=1?'S':rate>=.67?'A':rate>=.34?'B':'C';
   busy=true;SFX.play(rank==='S'?'vb_ko':'vb_end');
   const head=b.stage>=3?(b.serious?'정화 완료':'K.O.'):'BATTLE END';
-  const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':'묵의 먹물 옷이 전부 벗겨졌다!'):(b.serious?`아직 번진 기록 ${3-b.stage}`:`먹물 옷 남은 겹 ${3-b.stage}`),b.stage,b.serious,true);
+  const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':opp(b).fin):(b.serious?`아직 번진 기록 ${3-b.stage}`:`${opp(b).left} ${3-b.stage}`),b.stage,b.serious,true);
   el.classList.add('result');
   el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
   el.onclick=e=>{e.stopPropagation();el.remove();
    // 이 장의 마지막 배틀이면 다음 장 묵의 새 의상을 실루엣으로 예고
-   const more=curCh().ops.slice(S.pc+1).some(o=>o.t==='battle'&&!/^end/.test(o.arg));const nk=!more&&nextSkin();
+   const more=curCh().ops.slice(S.pc+1).some(o=>o.t==='battle'&&!/^end/.test(o.arg));const nk=!more&&b.who==='muk'&&nextSkin();
    if(nk&&window.MUK_SKINS?.[nk]){const t=document.createElement('div');t.className='vn-next';const sk=window.MUK_SKINS[nk];
     t.innerHTML=`<small>NEXT BATTLE</small><div class="vn-next-sil"><img src="${asset(`cg_muk_${nk}_b0.webp`)}" alt=""></div><b>다음 장의 묵</b><p>「${esc(sk.name)}」</p><em>${sk.serious?'다음 기록은, 조용히 마주해야 해요.':'다음엔 이 옷이에요. 벗겨 낼 수 있을까요?'}</em><span>눌러서 계속 ▶</span>`;
     $('#vn').appendChild(t);SFX.play('vb_bell');t.onclick=ev=>{ev.stopPropagation();t.remove();busy=false;S.pc++;step();};return;}
@@ -393,22 +407,22 @@ function battle(arg){
  busy=true;BGM.play(S.battle.serious?'bgm_tragic':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
  el.innerHTML=`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>
- <div class="vs-side vs-r${S.battle.skin?' cg':''}"><img src="${S.battle.skin?mukCg(0):asset(S.battle.serious?'st_muk_lonely.webp':'st_muk_smirk.webp')}" alt=""><b>묵</b><small>${skinName()?esc(skinName())+' · ':''}${S.battle.serious?'번진 기록':'먹물 계정'}</small></div>
+ <div class="vs-side vs-r${opp(S.battle).vsCg(S.battle)?' cg':''}"><img src="${opp(S.battle).vsImg(S.battle)}" alt=""><b>${opp(S.battle).name}</b><small>${S.battle.who==='muk'&&skinName()?esc(skinName())+' · ':''}${S.battle.serious?opp(S.battle).serSub:opp(S.battle).sub}</small></div>
  <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div>${S.battle.stage2?'<div class="vs-stage">STAGE 2 · 잔향</div>':''}<div class="vs-bar top"></div><div class="vs-bar bot"></div>
- <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':'묵「'+pickOne(MUK_TAUNT)+'」')}</p>
- <p class="vs-go">${S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요'}<small>눌러서 시작 ▶</small></p>`;
+ <p class="vs-line">${esc(S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':opp(S.battle).name+'「'+pickOne(opp(S.battle).taunt())+'」')}</p>
+ <p class="vs-go">${S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':opp(S.battle).go}<small>눌러서 시작 ▶</small></p>`;
  v.appendChild(el);SFX.play(S.battle.serious?'vb_bell':'vb_start');if(!S.battle.serious)vnShake(true);
  el.onclick=e=>{e.stopPropagation();el.classList.add('out');SFX.play('vb_go');setTimeout(()=>{el.remove();busy=false;S.pc++;step();},280);};
 }
 function battleCut(head,text,st,serious,wait){
  const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
- el.innerHTML=`<img src="${mukCg(st,S.battle||lastBattle)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
+ el.innerHTML=`<img src="${opp(S.battle||lastBattle).cg(st,S.battle||lastBattle)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
  v.appendChild(el);return el;
 }
 function battleHud(){
  $('#vnBattleHud')?.remove();const b=S.battle,w=document.createElement('div');w.id='vnBattleHud';w.className='vbh-wrap';
  const hp=100-b.stage*100/3;
- w.innerHTML=`<div class="vn-battle-hud${b.serious?' serious':''}"><img src="${battleImg(b.stage)}" alt=""><div class="vbh-body"><b>묵 <small>${b.serious?'번진 기록':'먹물 옷'}</small></b><span class="vbh-bar"><i class="lag" style="width:${b.lagHp??hp}%"></i><i class="hp" style="width:${hp}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span></div>${b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:''}</div>`+
+ w.innerHTML=`<div class="vn-battle-hud${b.serious?' serious':''}"><img src="${battleImg(b.stage)}" alt=""><div class="vbh-body"><b>${opp(b).name} <small>${b.serious?'번진 기록':opp(b).cloth}</small></b><span class="vbh-bar"><i class="lag" style="width:${b.lagHp??hp}%"></i><i class="hp" style="width:${hp}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span></div>${b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:''}</div>`+
  (b.serious?'':`<div class="vn-battle-hud orp"><div class="vbh-body"><b>오르페이아 <small>의상 데이터</small></b><span class="vbh-bar"><i class="hp" style="width:${100-b.orp*100/3}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.orp?'off':''}"></i>`).join('')}</span></div><img src="${asset(b.orp?`st_orpheia_shy_g${b.orp}.webp`:'st_orpheia_serious.webp')}" alt=""></div>`);
  $('#vn').appendChild(w);b.lagHp=hp;
  requestAnimationFrame(()=>{const l=w.querySelector('.lag');if(l)setTimeout(()=>l.style.width=hp+'%',380);});
@@ -418,10 +432,10 @@ function battleHit(ok,first,hits,total){
  if(ok&&!first){battleHud();return;}
  if(!ok&&!b.serious&&b.orp<3){b.combo=0;b.orp++;const n=b.orp;SFX.play('vb_glitch');vnShake(n>=3);
   const el=document.createElement('div');el.className='vn-battle bug'+(n>=3?' fin':'');const src=asset(`cg_orp_b${n}.webp`);
-  el.innerHTML=`<img class="base" src="${src}" alt=""><img class="rgb r" src="${src}" alt=""><img class="rgb c" src="${src}" alt=""><div class="vb-scan"></div><div class="vb-err">ERROR 0x${(0xC0+n*7).toString(16).toUpperCase()} · COSTUME_DATA ${[0,23,61,98][n]}% LOST</div><div class="vb-text"><b>${n>=3?'SYSTEM DOWN':'BUG!'}</b><p>오르페이아「${esc(pickOne(ORP_BUG[n]))}」</p><p class="vb-muk">묵「${esc(pickOne(MUK_BUG))}」</p></div>`;
+  el.innerHTML=`<img class="base" src="${src}" alt=""><img class="rgb r" src="${src}" alt=""><img class="rgb c" src="${src}" alt=""><div class="vb-scan"></div><div class="vb-err">ERROR 0x${(0xC0+n*7).toString(16).toUpperCase()} · COSTUME_DATA ${[0,23,61,98][n]}% LOST</div><div class="vb-text"><b>${n>=3?'SYSTEM DOWN':'BUG!'}</b><p>오르페이아「${esc(pickOne(ORP_BUG[n]))}」</p><p class="vb-muk">${opp(b).name}「${esc(pickOne(opp(b).bug()))}」</p></div>`;
   $('#vn').appendChild(el);particles(el,'pixel',n>=3?36:22);el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),n>=3?3400:2700);battleHud();return;}
  if(!ok){b.combo=0;SFX.play('vb_ink');vnShake(false);
-  const m=battleCut('묵의 반격',`묵「${pickOne(MUK_MISS)}」`,b.stage,b.serious,false);m.classList.add('miss');particles(m,'ink',18);
+  const m=battleCut(opp(b).counter,`${opp(b).name}「${pickOne(opp(b).miss())}」`,b.stage,b.serious,false);m.classList.add('miss');particles(m,'ink',18);
   m.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<p class="vb-orp">오르페이아「${esc(pickOne(ORP_MISS))}」</p>`);
   sdPop('cry');setTimeout(()=>m.remove(),1700);battleHud();return;}
  b.combo++;b.maxCombo=Math.max(b.maxCombo,b.combo);
@@ -430,8 +444,8 @@ function battleHit(ok,first,hits,total){
  const prev=b.stage;b.stage=st;const fin=st>=3;
  if(b.serious){SFX.play('vb_purify');}else{SFX.play(fin?'vb_finish':'vb_break');setTimeout(()=>SFX.play('vb_rip'),fin?260:140);vnShake(fin);}
  const el=document.createElement('div');el.className='vn-battle hit'+(b.serious?' serious':'')+(fin?' fin':'');
- const [head,line]=b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':'BREAK!',`묵「${pickOne(MUK_BREAK[st])}」`];
- el.innerHTML=`<img class="old" src="${mukCg(prev,b)}" alt=""><img class="new" src="${mukCg(st,b)}" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · 오르페이아「${esc(pickOne(ORP_COMBO))}」</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':'-1 겹'}</span>`;
+ const [head,line]=b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':opp(b).brkHead,`${opp(b).name}「${pickOne(opp(b).brk()[st])}」`];
+ el.innerHTML=`<img class="old" src="${opp(b).cg(prev,b)}" alt=""><img class="new" src="${opp(b).cg(st,b)}" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · 오르페이아「${esc(pickOne(ORP_COMBO))}」</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':opp(b).dmg}</span>`;
  $('#vn').appendChild(el);particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
  el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),fin?3400:2700);battleHud();
 }

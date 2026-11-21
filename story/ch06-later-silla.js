@@ -133,7 +133,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @bg bg_era_cheonghaejin
 배가 청해진 앞바다로 되돌아와 닻을 내린다. 갯벌의 목책 사이로 짐꾼들이 당나라 비단 짐을 지고 오간다.
-@show naru smile right
+@show naru sea right
 @show orpheia smile left
 [나루|smile] 저 목책 보여요? 갯벌에 박아서 섬을 통째로 성처럼 만든 거예요. 대사님 생각이었어요.
 [나루] 대사님은 젊을 때 당나라로 건너가서 무관이 되셨대요. 무령군 소장까지 하셨다나. 그러다 돌아와서 임금님 허락을 받고 여기 청해진을 세우셨죠.
@@ -144,7 +144,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @quiz 74-9 80-7
 @hide all
-@show naru smile right
+@show naru sea right
 @show orpheia explain left
 [나루|smile] 오, 통과! 그럼 덤으로 하나 더 알려 줄게요. 대사님은 당나라 산둥반도 적산촌에 절도 세우셨어요. 법화원이요.
 [나루] 거기 가면 신라 말 하는 사람들이 모여서 밥도 먹고 길도 묻고 그래요. 바다 건너 우리 집 같은 데예요.
@@ -154,7 +154,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @bg bg_era_cheonghaejin
 @day 청해진, 846년
 항구가 웅성거린다. 경주에서 온 배가 들어오고, 소식이 부둣가를 따라 번진다.
-@show naru serious center
+@show naru sea center
 [나루|serious] ……들었어요? 임금님이 대사님 따님을 왕비로 맞으려 하셨는데.
 [나루] 조정 신하들이 말렸대요. "궁복은 바다의 섬사람이거늘, 그 딸이 어찌 왕실의 배필로 적합하겠습니까." 그래서 없던 일이 됐대요.
 [상철] 궁복?
@@ -171,14 +171,14 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @bg bg_era_cheonghaejin
 @day 청해진, 851년 · 마지막 배
 목책 사이로 짐을 진 사람들이 줄지어 배에 오른다. 집집마다 문짝까지 떼어 싣고 있다.
-@show naru serious center
+@show naru sea center
 [나루|serious] 청해진이 없어진대요. 섬사람들은 다 벽골군으로 옮겨 가래요. 대사님 말씀으로 세운 지 스무 해 남짓 만에.
 [나루] 손님. 우리 집 장부에 적을 거예요. 청해진이 사라진 해, 우리가 어디로 갔는지.
 [나루] 근데 그 해, 바다 말고 뭍에선 무슨 일이 있었는지 모르겠어요. 우리 할머니가 늘 그랬거든요. 바다 일은 뭍 일이랑 같이 적어 둬야 나중에 안 헷갈린다고.
 @hide all
 @quiz 77-10 79-10
 @hide all
-@show naru smile center
+@show naru sea center
 [나루|smile] 고마워요, 손님. 벽골군에 가서도 배는 또 탈 거예요. 나라가 바뀌어도, 배는 또 뜨거든요.
 @hide all
 
@@ -445,7 +445,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @bgm auto
 @bg bg_era_cheonghaejin
-@show naru smile right
+@show naru sea right
 @show orpheia smile left
 [나루|smile] 손님, 또 왔네요? 벽골군에서도 배 타요. 바닷길은 그대로거든요.
 [나루|shy] ……이번엔 처음부터 무릎 베고 가요. 파고들기 전에.
