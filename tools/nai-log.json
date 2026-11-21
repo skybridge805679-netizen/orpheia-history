@@ -2943,5 +2943,45 @@
   "seed": 478765740,
   "prompt": "no humans, scenery, 1980s korean newspaper office, desks with typewriters and telephones, stacks of papers, crumpled memo on a desk, cigarette smoke",
   "init": null
+ },
+ "cg_end_orpheia": {
+  "seed": 594651404,
+  "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional",
+  "init": null
+ },
+ "cg_end_muk": {
+  "seed": 132124640,
+  "prompt": "1girl, tiny chibi girl, black long hair with tips melting into ink, grey eyes, black and white hanbok-style dress, sitting on the page of an open notebook on a desk, swinging legs, gentle smile, handwritten notes on the page, desk lamp light, night, cozy, a hand in a black hoodie sleeve holding a pen nearby",
+  "init": null
+ },
+ "cg_end_fail": {
+  "seed": 2760224010,
+  "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a monitor full of comment boxes and a rising play count, home music studio at night, bittersweet, warm light",
+  "init": null
+ },
+ "cg_sayeon_b0": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean royal historian, robe woven from long unrolled paper scrolls of a historical timeline, white jeogori and navy chima underneath, holding a large calligraphy brush, intact clothes, scroll robe neatly wrapped, dignified, calm confident smile, holding a scroll open toward the viewer, glowing timeline road among the stars, floating scrolls and hanji pages covered with handwritten korean history, gentle golden light, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_sayeon_b1": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean royal historian, robe woven from long unrolled paper scrolls of a historical timeline, white jeogori and navy chima underneath, holding a large calligraphy brush, the scroll sash around her waist has unrolled into a long timeline ribbon flowing away, robe loosened, slightly disheveled, embarrassed but composed, light blush, sweat drop, glowing timeline road among the stars, floating scrolls and hanji pages covered with handwritten korean history, gentle golden light, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_sayeon_b2": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean royal historian, robe woven from long unrolled paper scrolls of a historical timeline, white jeogori and navy chima underneath, holding a large calligraphy brush, most of the scroll robe has unrolled into a flowing timeline, jeogori slipping off one shoulder, white korean breast band (gaseumtti) visible, cleavage, bare thighs under a short slip, flustered, deep blush, covering chest with the brush and one arm, shouting, glowing timeline road among the stars, floating scrolls and hanji pages covered with handwritten korean history, gentle golden light, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_sayeon_b3": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean royal historian, robe woven from long unrolled paper scrolls of a historical timeline, white jeogori and navy chima underneath, holding a large calligraphy brush, the whole scroll robe has unrolled into a long glowing timeline behind her, only a white korean breast band and white short sokbaji underpants left, kneeling on the timeline road, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, glowing timeline road among the stars, floating scrolls and hanji pages covered with handwritten korean history, gentle golden light, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_ep_jealous": {
+  "seed": 3693737959,
+  "prompt": "3girls, 1boy, comedic scene in a home music studio in the morning, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting on a sofa, on his left an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, teasing smirk, clinging to his arm, on his right an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a brush and scroll, calm smile, leaning close to him, in front an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, puffed cheeks, jealous, angry vein mark, waving arms trying to push them away, chibi angry symbols, monitors, keyboard, comedic, harem",
+  "init": null
  }
 }
