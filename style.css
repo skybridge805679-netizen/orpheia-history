@@ -545,3 +545,13 @@ dialog#vnLog.gallery{max-width:1180px;width:96vw;max-height:92vh;overflow:auto}
 .gl-ch button{width:100%;text-align:left;padding:10px 14px;background:#fffdf6;border:1px solid var(--paper-edge);border-left:5px solid var(--cheong,#1d5c55);border-radius:2px;cursor:pointer;color:var(--ink);font:14px var(--f-body)}
 .gl-ch button b{display:block;font:400 17px var(--f-title);color:var(--seal)}.gl-ch button span{font-size:13px;color:var(--ink3)}
 .gl-ch li.locked button{opacity:.45;cursor:default;border-left-color:#aaa}
+
+.sl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.sl-card{display:flex;gap:10px;align-items:stretch;text-align:left;background:#fffdf6;border:1px solid var(--paper-edge);border-left:5px solid var(--cheong,#1d5c55);border-radius:2px;padding:6px;cursor:pointer;color:var(--ink);font:13px var(--f-body)}
+.sl-card:hover{border-left-color:var(--seal)}.sl-card.empty{opacity:.6}.sl-card:disabled{cursor:default;opacity:.4}
+.sl-thumb{position:relative;flex:0 0 112px;aspect-ratio:1216/832;background:#1c1713;overflow:hidden}.sl-thumb img{width:100%;height:100%;object-fit:cover}
+.sl-thumb span{position:absolute;left:4px;top:3px;font:700 12px var(--f-ui);color:#fff;text-shadow:0 1px 3px #000}
+.sl-info{display:flex;flex-direction:column;gap:2px;min-width:0}.sl-info b{color:var(--seal);font:400 14px var(--f-title)}.sl-info small{color:var(--ink3)}.sl-info p{margin:0;font-size:12px;color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:120px}
+.gl-replay{position:relative}.gl-play{position:absolute;right:6px;bottom:6px;background:#b3261ecc;color:#fff;font:12px var(--f-ui);padding:2px 8px;border-radius:2px}
+.gl-viewer .gl-count{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);color:#fff;font:14px var(--f-ui);background:#000a;padding:3px 12px;border-radius:12px}
+.gl-nav{position:fixed;top:50%;transform:translateY(-50%);width:54px;height:80px;border:0;background:#0008;color:#fff;font-size:42px;cursor:pointer}.gl-nav.prev{left:12px}.gl-nav.next{right:12px}
