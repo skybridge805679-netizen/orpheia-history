@@ -4979,8 +4979,8 @@
   {
    "id": "qs_silla_coast",
    "size": "bg",
-   "prompt": "2boys, adult men, 7th century silla korean generals in lamellar armor and helmets standing on a rocky seashore, one older general on the right pointing out to sea, a younger officer on the left holding a spear, warships with sails on the sea in the distance, windy, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
+   "prompt": "2boys, adult men, 7th century silla korean generals in lamellar armor and helmets standing on a rocky seashore, one older general on the right pointing out to sea, a younger officer on the left holding a spear, small ancient korean wooden boats with single square sails far on the sea, windy, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern, galleon, european ship, tall ship, multiple masts",
    "seed": 8301
   },
   {
@@ -4993,9 +4993,9 @@
   {
    "id": "qs_silla_palace",
    "size": "bg",
-   "prompt": "2boys, adult men, ancient silla royal palace courtyard, a king in a golden crown and red robe on the right, a middle-aged general in lamellar armor kneeling on the left with a sword at his side, guards blurred in the background, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern",
-   "seed": 8303
+   "prompt": "2boys, adult men, ancient silla korean royal palace hall with wooden pillars and stone steps, on the right a king seated wearing a silla gold crown with tree-shaped uprights and dangling gold ornaments, red hanbok robe, on the left a middle-aged general in lamellar armor kneeling on one knee on the floor with head bowed reporting, sword at his side, ancient korea, medium shot, characters large in the foreground, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, multiple views, chibi, chinese architecture, japanese armor, modern, european crown, fur cape, ermine, colosseum, amphitheater, crowd, roman, western king",
+   "seed": 8323
   },
   {
    "id": "qs_dosan",
