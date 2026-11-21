@@ -33,7 +33,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「민족 말살 통치와 전시 동원」. 목화밭 이야기부터 판서로 남겨요.
+[오르페이아|explain] 목화밭 이야기부터…… 이 칠판은 적기 싫은 것뿐이네요. 그래도 남겨야죠.
 @board ilje-wartime
 @hide all
 

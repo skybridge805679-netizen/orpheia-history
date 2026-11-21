@@ -59,7 +59,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「흥선 대원군의 정책과 통상 수교 거부」. 공사판 일꾼과 광성보 병사 이야기, 판서로 남겨요.
+[오르페이아|explain] 공사판 일꾼 아저씨랑 광성보 병사님. 같은 해 같은 하늘 아래 두 사람을 칠판에 붙여요.
 @board daewongun
 @hide all
 
@@ -80,7 +80,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「개항과 불평등 조약」. 감리서 서기의 서류함, 판서로 옮겨요.
+[오르페이아|explain] 감리서 서기님 서류함, 조약 이름이랑 조항만 쏙쏙 뽑아 왔어요.
 @board open-ports
 @hide all
 
@@ -111,7 +111,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「개화 정책, 임오군란, 갑신정변」. 기기창 망치 소리부터, 판서로 남겨요.
+[오르페이아|explain] 기기창 망치 소리부터 우정총국 불길까지. 숨 가쁜 몇 해가 한 장이에요.
 @board gaehwa
 @hide all
 
@@ -161,7 +161,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @bg bg_era_ujeongchongguk
 @show orpheia serious left
 [집사] 청군이 들어오니 사흘 만에 끝났구려. 일본과는 한성 조약을 맺고, 청과 일본은 톈진에서 따로 조약을 맺었다니.
-[오르페이아|serious] (귓속말) 갑신정변이에요. 톈진 조약, 꼭 기억해 두세요. 청이든 일본이든 군대를 보낼 땐 서로 알리기로 했어요. 10년 뒤에 터지는 지뢰예요.
+[오르페이아|serious] (귓속말) 그 톈진 조약요, 청이든 일본이든 조선에 군대를 보낼 땐 서로 알리기로 한 거래요. ……10년 뒤에 터질 지뢰예요.
 @note 갑신정변(1884)|급진 개화파(김옥균·홍영식·서광범·박영효), 우정총국 개국 축하연, 일본 공사관의 지원. 청군 개입으로 3일 만에 실패. 결과: 한성 조약(일본), 톈진 조약(청·일). 이후 거문도 사건(영국), 유길준의 중립화론.
 @hide all
 
@@ -239,7 +239,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「동학과 동학 농민 운동」. 보리 씨랑 걸은 길, 판서로 남겨요.
+[오르페이아|explain] 보리 씨랑 걸은 길, 발자국 순서대로 칠판에 찍어 둘게요.
 @board donghak-movement
 @hide all
 
@@ -279,7 +279,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「갑오·을미개혁과 아관 파천」. 관보 한 장, 판서로 옮겨요.
+[오르페이아|explain] 관보 한 장, 조목조목 오려서 붙였어요.
 @board gabo-eulmi
 @hide all
 

@@ -236,7 +236,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「고려의 대외 항쟁(거란·여진·몽골·왜구)」. 늙은 병사 아저씨의 두 번의 승리, 판서로 남겨요.
+[오르페이아|explain] 늙은 병사 아저씨가 손가락 두 개를 펴던 거, 기억나세요? 그 두 번을 칠판에 새겨 둘게요.
 @board goryeo-war
 @hide all
 

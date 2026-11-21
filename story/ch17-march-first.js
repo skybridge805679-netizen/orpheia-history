@@ -48,7 +48,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「식민 통치 방식의 변화」. 들판과 교실 이야기, 판서로 남겨요.
+[오르페이아|explain] 들판이랑 교실, 십 년마다 바뀐 채찍 모양을 한 장에 그려 둘게요.
 @board ilje-rule
 @hide all
 
@@ -133,7 +133,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「1910년대 국내외 독립운동 기지」. 보리 씨의 감자죽부터 대구 약방까지, 판서로 남겨요.
+[오르페이아|explain] 보리 씨의 감자죽부터 대구 약방까지. 지도에 핀 꽂듯 칠판에 꽂아요.
 @board ilje-1910s
 @hide all
 
@@ -167,7 +167,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「3·1 운동과 대한민국 임시 정부」. 탑골 공원의 함성, 판서로 남겨요.
+[오르페이아|explain] 탑골 공원의 함성, 아직 귀가 멍멍해요. 손 떨리기 전에 적어 둘게요.
 @board ilje-gov
 @hide all
 

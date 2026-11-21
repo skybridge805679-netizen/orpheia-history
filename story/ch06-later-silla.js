@@ -391,7 +391,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「후삼국의 성립과 고려의 통일」. 공산의 투구, 고창의 사당, 금산사의 담장. 판서로 남길게요.
+[오르페이아|explain] 공산의 투구, 고창의 사당, 금산사의 담장. 세 군데 흙먼지를 칠판 한 장에 털어 둘게요.
 @board later-three
 @hide all
 

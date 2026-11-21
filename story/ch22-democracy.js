@@ -37,7 +37,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「4·19 혁명」. 새벽 씨 반 아이들의 함성, 판서로 남겨요.
+[오르페이아|explain] 새벽 씨 반 아이들의 함성, 아직 귓가에 있을 때 받아 적어요.
 @board april
 @hide all
 
@@ -71,12 +71,12 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「유신 체제와 붕괴」. 판서로 남겨요.
+[오르페이아|explain] 헌법 한 줄이 바뀌자 거리가 어떻게 변했는지. 칠판 왼쪽에요.
 @board yushin
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「박정희 정부의 경제 개발」. 이것도 같이요.
+[오르페이아|explain] 오른쪽엔 같은 시절 공장 굴뚝 이야기를 둘게요.
 @board park-economy
 @hide all
 
@@ -117,7 +117,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「전두환 정부·5·18·6월 민주 항쟁」. 다솜 씨의 부탁, 판서로 남겨요.
+[오르페이아|explain] 다솜 씨가 부탁한 거, 꼭 남겨 달라던 그것. 한 글자도 안 빼고 적었어요.
 @board chun-democracy
 @hide all
 

@@ -79,7 +79,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「1920년대 민족주의 운동」. 한별 씨 바느질 이야기까지, 판서로 남겨요.
+[오르페이아|explain] 한별 씨 바느질 이야기까지. 실 한 올씩 칠판에 꿰어 둘게요.
 @board ilje-nationalist
 @hide all
 
@@ -110,7 +110,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「무장 독립 투쟁(만주·중국 관내)」. 청산리 숲 이야기, 판서로 남겨요.
+[오르페이아|explain] 청산리 숲 나뭇잎 냄새가 아직 나요. 그 숲에서 들은 이름들, 적어 둘게요.
 @board ilje-armed
 @hide all
 
@@ -131,7 +131,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「의열단과 한인 애국단」. 하숙집 신문, 판서로 옮겨요.
+[오르페이아|explain] 하숙집 신문 오려 붙인 거, 아주머니 몰래 한 장 빌려 왔어요.
 @board ilje-uidol
 @hide all
 

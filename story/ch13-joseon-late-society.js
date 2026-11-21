@@ -130,7 +130,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「조선 후기 예술과 서민 문화」. 단오 씨 멍석 위 이야기, 판서로 남겨요.
+[오르페이아|explain] 단오 씨 멍석 위에서 들은 것들, 박자 맞춰 칠판에 받아 적었어요♪
 @board joseon-art
 @hide all
 
@@ -153,7 +153,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「실학자와 저서」. 책 장수의 짐, 판서로 정리할게요.
+[오르페이아|explain] 책 장수 아저씨 짐 보따리, 책 제목이랑 지은 사람 짝 맞춰서 펼쳐 둘게요.
 @board silhak
 @hide all
 

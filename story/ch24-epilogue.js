@@ -33,7 +33,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「천도의 역사」 · 「연호의 역사」. 판서로 남겨요.
+[오르페이아|explain] 묵이 지우려던 도읍들이랑 연호들. 처음부터 끝까지 한 줄로 이어 붙였어요.
 @board capital-history era-names
 @hide all
 @show sayeon smile right
@@ -69,12 +69,12 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「사회 시책의 역사」 · 「근현대 주요 문서」 · 「시대 순서 문제 푸는 법」. 판서로 남겨요.
+[오르페이아|explain] 시대마다 백성을 어떻게 살폈는지, 그리고 시험장에서 순서를 어떻게 잡는지. 세 장 같이 걸어 둘게요.
 @board welfare-history documents order-life
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「토지 제도의 변천」 · 「관리 선발·군사·통치 제도의 변천」. 이것도 같이요.
+[오르페이아|explain] 땅을 어떻게 나눴는지, 사람을 어떻게 뽑았는지도 옆에요.
 @board land-history gov-history
 @hide all
 
@@ -108,12 +108,12 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「불교 문화유산」 · 「유네스코 세계 기록 유산」 · 「유네스코 인류 무형 문화유산」. 판서로 남겨요.
+[오르페이아|explain] 절, 기록, 노래. 세계가 같이 지키기로 한 것들이에요.
 @board buddhist-heritage world-record intangible
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「궁궐」 · 「성곽과 전투의 역사」. 이것도요.
+[오르페이아|explain] 궁궐이랑 성곽도요. 문 하나, 돌 하나마다 그날이 있어요.
 @board palace fortress
 @hide all
 
@@ -159,7 +159,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「지역사: 안동·진주·제주·부산」. 판서로 남겨요.
+[오르페이아|explain] 이제 지도를 펴 볼게요. 안동, 진주, 제주, 부산부터.
 @board regional-andong regional-jinju regional-jeju regional-busan
 @hide all
 @show orpheia explain center

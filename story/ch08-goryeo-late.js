@@ -343,7 +343,7 @@ VN.chapter('ch08','제8장','칼과 말발굽의 시대',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「고려 말 정치와 조선 건국」. 화약 냄새랑 장맛비 소리, 판서로 남길게요.
+[오르페이아|explain] 화약 냄새랑 장맛비 소리……. 분필 가루까지 눅눅해요. 그래도 적어 둘게요.
 @board goryeo-end
 @hide all
 

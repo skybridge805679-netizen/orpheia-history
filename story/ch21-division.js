@@ -37,7 +37,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「광복 직후 정치 상황과 정부 수립」. 휘문 운동장 이야기부터 판서로 남겨요.
+[오르페이아|explain] 휘문 운동장의 그 들뜬 날부터. 금방 엇갈리는 길까지 한 장에 그려 둘게요.
 @board liberation
 @hide all
 
@@ -101,7 +101,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「헌법 개정의 역사」 · 「이승만 정부」. 판서로 남겨요.
+[오르페이아|explain] 헌법이 몇 번이나 고쳐졌는지, 손가락이 모자라서 칠판에 세어 둘게요.
 @board constitution syngman
 @hide all
 @show orpheia explain center
@@ -167,7 +167,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「6·25 전쟁」. 천막 학교 아이들 이야기, 판서로 남겨요.
+[오르페이아|explain] 천막 학교 아이들이 그리던 지도, 그 위에 전선을 옮겨 그렸어요.
 @board korean-war
 @hide all
 

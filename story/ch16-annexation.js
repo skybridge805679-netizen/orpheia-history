@@ -48,7 +48,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「개항기 경제 침탈과 대응」 · 「애국 계몽 운동과 신민회」. 교환소 줄 이야기, 판서로 남겨요.
+[오르페이아|explain] 교환소 앞 줄이 얼마나 길었는지…… 그 줄 끝에서 시작된 일까지 두 칸에 나눠 둘게요.
 @board economy-modern enlightenment
 @hide all
 
@@ -84,7 +84,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「러일 전쟁과 국권 피탈 과정」. 판서로 남길게요.
+[오르페이아|explain] 조약 이름이 하나씩 늘 때마다 칠판이 좁아져요. ……그래도 다 적을게요.
 @board rights-loss
 @hide all
 
@@ -160,7 +160,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「의병 운동과 의열 투쟁」. 보리 씨 진지 이야기, 판서로 남겨요.
+[오르페이아|explain] 보리 씨 진지 모닥불 옆에서 들은 이름들, 하나도 안 빠뜨리고 적었어요.
 @board euibyeong
 @hide all
 

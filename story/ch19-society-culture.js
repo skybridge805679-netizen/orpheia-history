@@ -99,7 +99,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「일제 강점기 생활과 대중문화」. 진고개와 토막, 단성사 이야기, 판서로 남겨요.
+[오르페이아|explain] 진고개 불빛이랑 토막집 어둠, 단성사 간판. 같은 도시 세 얼굴을 한 장에요.
 @board ilje-life
 @hide all
 
@@ -131,7 +131,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「1920년대 사회 운동(농민·노동·소년·형평)」. 암태도와 원산 부두, 판서로 남겨요.
+[오르페이아|explain] 암태도 바닷바람이랑 원산 부두 쇳소리, 칠판에 나란히 붙여요.
 @board ilje-social
 @hide all
 
@@ -185,7 +185,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「국어 연구와 민족 문화 수호」. 낱말 카드 방과 경찰서 앞 이야기, 판서로 남겨요.
+[오르페이아|explain] 낱말 카드 방 냄새랑 경찰서 앞 발소리. 그 사이에서 지킨 말들을 적어 둘게요.
 @board ilje-language
 @hide all
 

@@ -177,7 +177,7 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「고려의 유학과 교육」. 이것도 같이요.
+[오르페이아|explain] 도령님 책상 위 책들도, 옆 칸에 꽂아 둘게요.
 @board goryeo-confucian
 @hide all
 
@@ -224,7 +224,7 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「고려 불교」. 절 아이의 수수께끼, 판서로 남길게요.
+[오르페이아|explain] 절 아이가 낸 수수께끼, 답까지 칠판에 붙여 줘야 그 아이가 안 삐지겠죠?
 @board goryeo-buddhism
 @hide all
 
@@ -256,7 +256,7 @@ VN.chapter('ch09','제9장','벽란도의 가짜 약혼자',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「고려 문화유산 총정리」. 장인 아저씨 창고, 판서로 옮겨요.
+[오르페이아|explain] 장인 아저씨 창고에서 꺼낸 것들, 이름표 붙여서 한 줄로 세워요.
 @board goryeo-culture
 @hide all
 @bg cg_yeoul_kiln

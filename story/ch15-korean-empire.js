@@ -75,7 +75,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「대한 제국과 독립 협회」. 한별 씨 투고문, 판서로 붙여 둘게요.
+[오르페이아|explain] 한별 씨 투고문, 빨간 줄 그은 데까지 그대로 칠판에 걸어 둘게요. 한별 씨한텐 비밀이에요.
 @board daehan-empire
 @hide all
 
@@ -134,7 +134,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「근대 교육·언론·문물」. 학교 대결이랑 신문 가판대, 판서로 남겨요.
+[오르페이아|explain] 학교 대결이랑 신문 가판대에서 주운 이름들, 칸 나눠서 적어요.
 @board modern-culture
 @hide all
 

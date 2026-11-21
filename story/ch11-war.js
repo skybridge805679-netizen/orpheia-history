@@ -22,6 +22,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @dive 1498년~1545년|네 번의 사화
 @bg bg_era_gyeongbokgung
 @day 한양 · 궁궐, 1498년
+대궐 서고 앞에서 사관 하나가 붓을 쥔 채 떨고 있다. 그가 적은 기록 한 장 때문에, 오늘 궁궐에선 피바람이 분다고 했다.
 @bg bg_era_gyodong_ferry
 @day 강화 교동도 가는 나루, 1506년 가을
 나루터에서 늙은 뱃사공이 노를 젓다 말고 콧노래를 부른다. 원망이 서린 노래다.
@@ -72,7 +73,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「사림의 성장과 사화」. 뱃사공 노래부터 능지기의 한숨까지, 판서로 남겨요.
+[오르페이아|explain] 뱃사공 노래부터 능지기의 한숨까지. 피 냄새 나는 순서대로 적어 둘게요.
 @board joseon-sahwa
 @hide all
 
@@ -173,7 +174,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「임진왜란과 전란 후 변화」. 진주성 병사와 피란길 할머니 이야기, 판서로 남겨요.
+[오르페이아|explain] 진주성 병사님이랑 피란길 할머니. 두 분 이야기를 한 장에 나란히요.
 @board joseon-imjin
 @hide all
 
@@ -208,7 +209,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「조선 후기 경제 총정리」. 선혜청 장부, 판서로 옮겨요.
+[오르페이아|explain] 선혜청 장부, 집집마다 바치던 특산물을 무엇으로 바꿔 걷었는지부터 칠판에 옮겼어요.
 @board joseon-econ-late
 @hide all
 
@@ -252,7 +253,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「호란과 북벌」. 남한산성 군졸 이야기, 판서로 남길게요.
+[오르페이아|explain] 남한산성 군졸 아저씨 손이 얼어 있던 거, 잊지 않게 적어 둘게요.
 @board joseon-byeongja
 @hide all
 

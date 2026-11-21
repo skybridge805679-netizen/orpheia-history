@@ -152,7 +152,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「조선 전기 인물과 문화유산」 · 「조선의 대외 관계(사대와 교린)」. 집현전 앞 손님들 이야기, 판서로 남겨요.
+[오르페이아|explain] 집현전 앞에서 만난 손님들이랑, 사신 행렬 이야기. 기록부 두 칸에 나눠 끼울게요.
 @board joseon-people-early joseon-foreign
 @hide all
 
@@ -219,7 +219,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「조선의 통치 기구와 토지 제도」. 호조 관리님 장부, 판서로 옮겨요.
+[오르페이아|explain] 호조 관리님 장부는 너무 두꺼워서…… 중요한 줄만 칠판으로 옮겼어요.
 @board joseon-gov
 @hide all
 

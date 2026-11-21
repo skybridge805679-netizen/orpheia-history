@@ -101,7 +101,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「붕당 정치의 전개와 숙종의 환국」. 소담 씨가 헷갈려하던 것들, 판서로 정리해 둘게요.
+[오르페이아|explain] 소담 씨가 헷갈려서 울상이던 것들, 소담 씨 대신 칠판에 정리해 둘게요. 나중에 보여 주자고요.
 @board joseon-bungdang
 @hide all
 
@@ -143,7 +143,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「영조의 개혁과 탕평」. 개천 바닥이랑 첩지 한 장, 판서로 남겨요.
+[오르페이아|explain] 개천 바닥 진흙이랑 첩지 한 장. 둘 다 분필로 옮기니까 손이 더러워진 기분이에요.
 @board joseon-yeongjo
 @hide all
 
@@ -199,13 +199,14 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「정조의 개혁」. 서얼 선비의 꿈이랑 난전 상인의 좌판, 판서로 남겨요.
+[오르페이아|explain] 서얼 선비의 꿈이랑 난전 상인의 좌판. 같은 임금 아래 두 얼굴이라 한 장에 붙여요.
 @board joseon-jeongjo
 @hide all
 
 @dive 1800년~1863년|한 집안의 나라
 @bg bg_era_gyeongbokgung_ruin
 @day 한양, 19세기 전반
+대궐 마당에 낙엽이 쌓였는데 쓰는 사람이 없다. 임금은 어리고, 관청마다 올라오는 이름엔 같은 성씨가 줄줄이 붙어 있다.
 @bg bg_era_baeron
 @day 충청도 제천 · 배론, 1801년
 산골 옹기 가마 뒤, 옹기 저장고처럼 꾸민 토굴. 사람들이 숨죽이고 있다.
@@ -252,7 +253,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「세도 정치와 농민 봉기」 · 「조선 후기 신분 변동과 천주교·동학」. 배론 토굴부터 진주 관아까지, 판서로 남겨요.
+[오르페이아|explain] 배론 토굴에서 진주 관아까지, 걸어온 길 그대로 기록부 두 칸에 끼워 둘게요.
 @board sedo joseon-society
 @hide all
 

@@ -62,7 +62,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @hide all
 @show orpheia explain center
 @sd teach
-[오르페이아|explain] 「민주화 이후 정부의 주요 정책」 · 「통일 정책의 전개」. 올림픽 기자석 이야기, 판서로 남겨요.
+[오르페이아|explain] 올림픽 기자석에서 받아 적은 수첩, 칠판 두 칸으로 옮겨요.
 @board democratic-govs unification
 @hide all
 
