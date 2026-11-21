@@ -3006,7 +3006,7 @@
  },
  "st_naru_baekje_teary": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, teary eyes, sad smile, tears",
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
   "init": "assets/st_naru_baekje.webp"
  },
  "st_naru_goguryeo_smile": {
@@ -3081,7 +3081,7 @@
  },
  "st_naru_sea_teary": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, teary eyes, sad smile, tears",
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
   "init": "assets/st_naru_sea.webp"
  },
  "st_naru_joseon_smile": {
@@ -3091,7 +3091,7 @@
  },
  "st_naru_joseon_shy": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, blushing, shy, looking away, embarrassed smile",
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, blushing deeply, shy, eyes looking away, closed mouth, small embarrassed smile, calm face",
   "init": "assets/st_naru_joseon.webp"
  },
  "st_naru_joseon_surprised": {
@@ -3106,7 +3106,7 @@
  },
  "st_naru_joseon_teary": {
   "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, sad smile, tears",
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, tears streaming down cheeks, closed mouth, trembling lips, sad face, frown",
   "init": "assets/st_naru_joseon.webp"
  },
  "st_sayeon_shy_d1": {
