@@ -48,6 +48,10 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 /* ── 이야기 무대 */
 .vn{position:absolute;inset:0;overflow:hidden;background:#000;user-select:none}
 .vn-layer{position:absolute;inset:0}
+/* 레이어 순서(아래→위): 배경 0 · 스탠딩 1 · 사진/휴대폰 3 · 대사창 4 · 연출·기록 팝업·날짜 5 · 메뉴 6 · 선택지 6 · 장 카드 7 · 문제 8 · 배틀 9~11.
+   스탠딩 묶음(.vn-chars)을 하나의 층으로 묶어, 그 안의 말하는 사람 앞으로 오기(z 0~2)가 다른 층을 넘지 않게 한다. */
+.vn-bg{z-index:0}.vn-chars{z-index:1}.vn-photo{z-index:3}.vn-phone{z-index:3}.vn-fx{z-index:5;pointer-events:none}.vn-day{z-index:5}
+.vn-menu{z-index:6}.vn-choices{z-index:6}.vn-card{z-index:7}
 .vn-bg{background:radial-gradient(ellipse at center,#2a2219 0,#0f0d0b 80%)}
 .vn-bg img{width:100%;height:100%;object-fit:cover}
 .vn-chars{pointer-events:none}
@@ -62,6 +66,7 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-chr{z-index:1}.vn-chr.speaking{z-index:2}.vn-chars[data-n="3"] .vn-chr.pos-center:not(.speaking){z-index:0}
 /* 휴대폰(오르페이아)이 켜지면 오른쪽 구석을 비워 준다 */
 .vn.phone-on .vn-chars .vn-chr.pos-left{left:20%}.vn.phone-on .vn-chars .vn-chr.pos-center{left:42%}.vn.phone-on .vn-chars .vn-chr.pos-right{left:62%}
+.vn.phone-on .vn-chars[data-n="3"] .vn-chr{height:110%;top:8%}.vn.phone-on .vn-chars[data-n="3"] .vn-chr.pos-left{left:16%}.vn.phone-on .vn-chars[data-n="3"] .vn-chr.pos-center{left:40%}.vn.phone-on .vn-chars[data-n="3"] .vn-chr.pos-right{left:64%}
 .vn-chr:not(.speaking){filter:brightness(.6) sepia(.25) saturate(.8)}
 .vn-chr-fx{height:100%}
 .fx-enter{animation:enter .45s ease-out}
@@ -97,7 +102,10 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-photo figcaption small{font-size:10px;color:var(--ink3)}
 .vn-photo.big{left:50%;top:46%;width:min(70vw,860px);transform:translate(-50%,-50%);z-index:6;cursor:zoom-out}
 .vn-photo.big img{max-height:72vh}
-.vn.photo-on .vn-chars .vn-chr.pos-left{left:44%}.vn.photo-on .vn-chars .vn-chr.pos-center{left:60%}.vn.photo-on .vn-chars .vn-chr.pos-right{left:80%}
+.vn.photo-on .vn-chars .vn-chr.pos-left{left:46%}.vn.photo-on .vn-chars .vn-chr.pos-center{left:64%}.vn.photo-on .vn-chars .vn-chr.pos-right{left:82%}
+.vn.photo-on .vn-chars[data-n="1"] .vn-chr{left:64%}
+.vn.photo-on .vn-chars[data-n="2"] .vn-chr{height:128%;top:5%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-left,.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-center{left:50%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-right{left:80%}
+.vn.photo-on .vn-chars[data-n="3"] .vn-chr,.vn.photo-on .vn-chars[data-n="4"] .vn-chr{height:108%;top:8%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-left{left:42%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-center{left:64%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-right{left:86%}
 .vn.ui-hidden .vn-photo{display:none}
 
 /* 날짜·장소: 한지 띠지 */

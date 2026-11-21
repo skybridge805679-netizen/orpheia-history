@@ -57,6 +57,18 @@ const COSTUME={naru:new Set(['baekje','goguryeo','silla','sea','joseon'])};
 const COSTUME_EXPR={naru:new Set(['smile','shy','surprised','angry','teary'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
+// 같은 자리에 두 사람이 겹쳐 서지 않게 한다. keep(방금 @show 한 사람)은 그 자리를 지키고, 겹친 사람은 원래 자리(home)가 비었으면 거기로, 아니면 빈자리로 옮긴다.
+// 모브에 밀려 자리를 옮긴 인물은 그 자리가 다시 비면 원래 자리로 돌아간다.
+function fixSlots(keep){
+ const P=['center','left','right'],ids=Object.keys(S.chars);
+ const used=()=>new Set(Object.values(S.chars).map(c=>c.pos));
+ for(const k of ids){const c=S.chars[k];if(!c||!c.home||c.home===c.pos)continue;if(!Object.keys(S.chars).some(o=>o!==k&&S.chars[o].pos===c.home))c.pos=c.home;}
+ for(const k of ids){const c=S.chars[k];if(!c||k===keep)continue;
+  const clash=Object.keys(S.chars).find(o=>o!==k&&S.chars[o].pos===c.pos&&(o===keep||ids.indexOf(o)<ids.indexOf(k)));
+  if(!clash)continue;
+  if(c.auto){delete S.chars[k];continue;}
+  const u=used();const free=[c.home,...P].find(p=>p&&!u.has(p));if(free)c.pos=free;}
+}
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
  if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c&&COSTUME_EXPR[who].has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
  if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
@@ -125,10 +137,10 @@ function step(){
    case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
-    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
+    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,home:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
    case 'phone':S.phone=op.arg!=='off';if(S.phone)SFX.play('phone');if(S.phone&&S.chars.orpheia)pendingFx.orpheia='enter';S.pc++;paint();break;
    case 'hop':case 'tilt':case 'nod':case 'sink':case 'shake':if(op.arg)pendingFx[ALIAS[op.arg]||op.arg]=op.t;S.pc++;paint();break;
-   case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else delete S.chars[op.who];S.pc++;paint();break;
+   case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else{delete S.chars[op.who];fixSlots(null);}S.pc++;paint();break;
    case 'day':S.day=op.arg;return card('day',op.arg);
    case 'chapter':return card('chapter',op.num,op.title);
    // 시간 여행: @dive 연대|시대 — 빛의 통로를 지나 그 시대로 들어간다(배경은 다음 @bg).
