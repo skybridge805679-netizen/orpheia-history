@@ -3200,12 +3200,12 @@
   "init": null
  },
  "cg_title_clear": {
-  "seed": 9122,
-  "prompt": "4girls, 1boy, key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters gathered on the right two thirds of the image, left third is soft blurred window light for a menu, an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, gentle happy smile, holding a certificate scroll with a gold seal, a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, sitting at a keyboard workstation, a young adult woman with light brown wavy hair (brown hair, not white) and light blue eyes in an oversized pastel blue hoodie with pin badges laughing and hugging his shoulders, an adult woman with black very long hair dissolving into dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink droplets floating around her, sitting on the desk teasing him, an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, reading a scroll on the sofa, golden timeline ribbons gently floating in the air, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
+  "seed": 9152,
+  "prompt": "2girls, 1boy, key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters on the right two thirds, left third soft blurred window light for a menu, golden timeline ribbons floating, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
   "init": null
  },
  "cg_end_harem": {
-  "seed": 9131,
+  "seed": 9141,
   "prompt": "5girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green window on the computer monitor pouring out light and flower petals, women from different eras of korean history crowding around a young man, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
  },
@@ -3325,8 +3325,8 @@
   "init": null
  },
  "cg_sayeon_sy_telegraph_b3": {
-  "seed": 7105,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
+  "seed": 7232,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a small telegraph earpiece, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
   "init": null
  },
  "cg_sayeon_sy_shanghai_b0": {
@@ -3405,8 +3405,8 @@
   "init": null
  },
  "cg_sayeon_sy_announcer_b3": {
-  "seed": 7109,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
+  "seed": 7236,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, headphones around the neck, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
   "init": null
  },
  "cg_sayeon_sy_nurse_b0": {
@@ -3425,8 +3425,8 @@
   "init": null
  },
  "cg_sayeon_sy_nurse_b3": {
-  "seed": 7110,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
+  "seed": 7237,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a white nurse cap with a red cross, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
   "init": null
  },
  "cg_sayeon_sy_campus_b0": {
@@ -3445,8 +3445,8 @@
   "init": null
  },
  "cg_sayeon_sy_campus_b3": {
-  "seed": 7111,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
+  "seed": 7238,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a red cloth headband, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
   "init": null
  },
  "cg_sayeon_sy_anchor_b0": {
@@ -3465,273 +3465,13 @@
   "init": null
  },
  "cg_sayeon_sy_anchor_b3": {
-  "seed": 7112,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
+  "seed": 7239,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a small earpiece, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
   "init": null
  },
  "cg_end_harem2": {
   "seed": 9132,
   "prompt": "6girls, hidden harem ending part two, the same small home music studio at night, more women from different eras of korean history pouring out of a glowing monitor and lining up to propose, holding gifts, comedic harem, flower petals, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
-  "init": null
- },
- "cg_sayeon_sy_archer_b0": {
-  "seed": 7100,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon female archer outfit, dark blue military robe (dongdari) with red sleeves, black jeonrip hat with red tassel, leather arm guard, quiver, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bamboo bow, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_archer_b1": {
-  "seed": 7100,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon female archer outfit, dark blue military robe (dongdari) with red sleeves, black jeonrip hat with red tassel, leather arm guard, quiver, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bamboo bow, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_archer_b2": {
-  "seed": 7100,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon female archer outfit, dark blue military robe (dongdari) with red sleeves, black jeonrip hat with red tassel, leather arm guard, quiver, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bamboo bow, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_archer_b3": {
-  "seed": 7100,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon female archer outfit, dark blue military robe (dongdari) with red sleeves, black jeonrip hat with red tassel, leather arm guard, quiver, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bamboo bow, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_damo_b0": {
-  "seed": 7101,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon damo female police officer outfit, black jeogori and dark chima tied up for running, black headscarf, short wooden club at the waist, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding hand-written arrest warrant scroll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_damo_b1": {
-  "seed": 7101,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon damo female police officer outfit, black jeogori and dark chima tied up for running, black headscarf, short wooden club at the waist, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding hand-written arrest warrant scroll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_damo_b2": {
-  "seed": 7101,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon damo female police officer outfit, black jeogori and dark chima tied up for running, black headscarf, short wooden club at the waist, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding hand-written arrest warrant scroll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_damo_b3": {
-  "seed": 7101,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, joseon damo female police officer outfit, black jeogori and dark chima tied up for running, black headscarf, short wooden club at the waist, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding hand-written arrest warrant scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_gayageum_b0": {
-  "seed": 7102,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, late joseon court musician outfit, pale pink jeogori and long deep green chima, gacheae hair ornament, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding gayageum zither, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_gayageum_b1": {
-  "seed": 7102,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, late joseon court musician outfit, pale pink jeogori and long deep green chima, gacheae hair ornament, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding gayageum zither, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_gayageum_b2": {
-  "seed": 7102,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, late joseon court musician outfit, pale pink jeogori and long deep green chima, gacheae hair ornament, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding gayageum zither, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_gayageum_b3": {
-  "seed": 7102,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, late joseon court musician outfit, pale pink jeogori and long deep green chima, gacheae hair ornament, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding gayageum zither, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_bustle_b0": {
-  "seed": 7103,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1880s western bustle dress, high lace collar, corset bodice, small feathered hat, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding folded diplomatic treaty scroll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_bustle_b1": {
-  "seed": 7103,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1880s western bustle dress, high lace collar, corset bodice, small feathered hat, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding folded diplomatic treaty scroll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_bustle_b2": {
-  "seed": 7103,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1880s western bustle dress, high lace collar, corset bodice, small feathered hat, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding folded diplomatic treaty scroll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_bustle_b3": {
-  "seed": 7103,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1880s western bustle dress, high lace collar, corset bodice, small feathered hat, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding folded diplomatic treaty scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_ewha_b0": {
-  "seed": 7104,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean empire 1900s girls school uniform, white jeogori and long black chima, big ribbon on the braid, round glasses on the head, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding school textbook and scroll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_ewha_b1": {
-  "seed": 7104,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean empire 1900s girls school uniform, white jeogori and long black chima, big ribbon on the braid, round glasses on the head, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding school textbook and scroll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_ewha_b2": {
-  "seed": 7104,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean empire 1900s girls school uniform, white jeogori and long black chima, big ribbon on the braid, round glasses on the head, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding school textbook and scroll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_ewha_b3": {
-  "seed": 7104,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, korean empire 1900s girls school uniform, white jeogori and long black chima, big ribbon on the braid, round glasses on the head, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding school textbook and scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_telegraph_b0": {
-  "seed": 7105,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_telegraph_b1": {
-  "seed": 7105,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_telegraph_b2": {
-  "seed": 7105,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_telegraph_b3": {
-  "seed": 7105,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_shanghai_b0": {
-  "seed": 7106,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1919 shanghai style high-collar long dress (qipao-like) in dark green, short bob hair accessories, round brooch, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding typewritten document scroll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_shanghai_b1": {
-  "seed": 7106,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1919 shanghai style high-collar long dress (qipao-like) in dark green, short bob hair accessories, round brooch, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding typewritten document scroll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_shanghai_b2": {
-  "seed": 7106,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1919 shanghai style high-collar long dress (qipao-like) in dark green, short bob hair accessories, round brooch, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding typewritten document scroll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_shanghai_b3": {
-  "seed": 7106,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1919 shanghai style high-collar long dress (qipao-like) in dark green, short bob hair accessories, round brooch, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding typewritten document scroll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_reporter_b0": {
-  "seed": 7107,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1920s woman newspaper reporter, cloche hat, drop-waist dress with long necktie, notebook, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding rolled newspaper, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_reporter_b1": {
-  "seed": 7107,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1920s woman newspaper reporter, cloche hat, drop-waist dress with long necktie, notebook, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding rolled newspaper, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_reporter_b2": {
-  "seed": 7107,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1920s woman newspaper reporter, cloche hat, drop-waist dress with long necktie, notebook, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding rolled newspaper, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_reporter_b3": {
-  "seed": 7107,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1920s woman newspaper reporter, cloche hat, drop-waist dress with long necktie, notebook, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding rolled newspaper, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_singer_b0": {
-  "seed": 7108,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1930s gramophone singer stage dress, satin evening gown with long gloves, finger waves hairpin, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding old microphone, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_singer_b1": {
-  "seed": 7108,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1930s gramophone singer stage dress, satin evening gown with long gloves, finger waves hairpin, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding old microphone, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_singer_b2": {
-  "seed": 7108,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1930s gramophone singer stage dress, satin evening gown with long gloves, finger waves hairpin, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding old microphone, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_singer_b3": {
-  "seed": 7108,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1930s gramophone singer stage dress, satin evening gown with long gloves, finger waves hairpin, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding old microphone, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_announcer_b0": {
-  "seed": 7109,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_announcer_b1": {
-  "seed": 7109,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_announcer_b2": {
-  "seed": 7109,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_announcer_b3": {
-  "seed": 7109,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_nurse_b0": {
-  "seed": 7110,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_nurse_b1": {
-  "seed": 7110,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_nurse_b2": {
-  "seed": 7110,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_nurse_b3": {
-  "seed": 7110,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_campus_b0": {
-  "seed": 7111,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_campus_b1": {
-  "seed": 7111,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_campus_b2": {
-  "seed": 7111,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_campus_b3": {
-  "seed": 7111,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_anchor_b0": {
-  "seed": 7112,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, intact clothes, dignified, determined calm smile, throwing a scroll ribbon toward black ink, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_anchor_b1": {
-  "seed": 7112,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, one scroll sash unrolled and flying away as a timeline ribbon, outer layer loosened, one sleeve torn off, embarrassed but composed, light blush, sweat drop, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_anchor_b2": {
-  "seed": 7112,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, most of the outfit unrolled into flying timeline ribbons, clothes slipping off one shoulder, bra or korean breast band visible, cleavage, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-  "init": null
- },
- "cg_sayeon_sy_anchor_b3": {
-  "seed": 7112,
-  "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
   "init": null
  }
 }
