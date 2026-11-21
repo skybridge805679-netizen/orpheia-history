@@ -4601,6 +4601,24 @@
    "size": "bg",
    "prompt": "no humans, scenery, 1980s korean newspaper office, desks with typewriters and telephones, stacks of papers, crumpled memo on a desk, cigarette smoke",
    "negative": "signature, watermark, readable text, letters, humans, people, futuristic"
+  },
+  {
+   "id": "cg_end_orpheia",
+   "size": "bg",
+   "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_muk",
+   "size": "bg",
+   "prompt": "1girl, tiny chibi girl, black long hair with tips melting into ink, grey eyes, black and white hanbok-style dress, sitting on the page of an open notebook on a desk, swinging legs, gentle smile, handwritten notes on the page, desk lamp light, night, cozy, a hand in a black hoodie sleeve holding a pen nearby",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, gore, multiple girls"
+  },
+  {
+   "id": "cg_end_fail",
+   "size": "bg",
+   "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a monitor full of comment boxes and a rising play count, home music studio at night, bittersweet, warm light",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, maid, maid headdress, apron, silver hair, white hair"
   }
  ]
 }

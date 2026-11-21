@@ -121,7 +121,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 @jump q1after
 @label q1good
 [오르페이아|excited] 둘 다 한 번에! 장면으로 기억하니까 하나도 안 번졌어요♪ 주인님 천재!
-@add affection 1
+@add orp 1
 @label q1after
 @hide all
 @show orpheia explain center
@@ -193,7 +193,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 @jump q2after
 @label q2good
 [오르페이아|teary] 주인님…… 80회 때 놓쳤던 1번, 이번엔 이유까지 알고 맞히셨어요. 저, 저 지금 좀 울 것 같아요……
-@add affection 1
+@add orp 1
 @label q2after
 @hide all
 @bg cg_ch01_dolmen

@@ -42,6 +42,7 @@ const ALIAS={'다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
+const ENDING_COUNT=4; // 종장의 엔딩 수(오르페이아·히로인·묵·낙방). 엔딩을 늘리면 같이 고친다.
 // 배틀 뒤의 묵: 찢어진 단계(S.mukDmg 1~3)에 맞는 스탠딩. 그 장이 끝나면 먹물이 다시 차올라 원래 옷으로 돌아온다.
 const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
  2:{angry:'angry',lonely:'lonely',surprised:'shy',smile:'shy',smirk:'angry',neutral:'shy',shy:'shy'},
@@ -77,6 +78,7 @@ function parse(src,id){
    else if(cmd==='hide')ops.push({t:'hide',who:ALIAS[rest[0]]||rest[0]||'all'});
    else if(cmd==='chapter'){const [num,...title]=arg.split('|');ops.push({t:'chapter',num:num.trim(),title:title.join('|').trim()});}
    else if(cmd==='if'){const m=arg.match(/^(\w+)\s*(>=|<=|==|>|<)?\s*(-?\d+)?\s*->\s*(\S+)$/);if(!m)throw new Error(`${id}:${n+1} @if 형식`);ops.push({t:'if',flag:m[1],op:m[2]||'>=',val:m[3]==null?1:+m[3],label:m[4]});}
+   else if(cmd==='top'){const m=arg.match(/^(.+?)\s*->\s*(\S+)$/);if(!m)throw new Error(`${id}:${n+1} @top 형식`);ops.push({t:'top',flags:m[1].trim().split(/\s+/),prefix:m[2]});}
    else if(cmd==='set'||cmd==='add'){const [flag,val='1']=rest;ops.push({t:cmd,flag,val:+val});}
    else ops.push({t:cmd,arg});
    continue;
@@ -105,11 +107,15 @@ function step(){
    case 'jump':S.pc=ch.labels[op.arg]??S.pc+1;break;
    case 'if':{const v=S.flags[op.flag]||0,ok={'>=':v>=op.val,'<=':v<=op.val,'==':v===op.val,'>':v>op.val,'<':v<op.val}[op.op];S.pc=ok?ch.labels[op.label]:S.pc+1;break;}
    case 'set':S.flags[op.flag]=op.val;S.pc++;break;
+   // @top a b c -> 접두: 가장 큰 플래그(같으면 앞의 것)의 라벨 '접두+이름'으로. 모두 0이거나 라벨이 없으면 다음 줄.
+   case 'top':{let best=null,bv=0;for(const f of op.flags){const v=S.flags[f]||0;if(v>bv){bv=v;best=f;}}S.flags.topWho=best?op.flags.indexOf(best)+1:0;const L=best!=null?ch.labels[op.prefix+best]:undefined;S.pc=L??S.pc+1;break;}
+   // @ending 제목|한 줄: 이번에 본 엔딩. 끝 카드에 쓰고 records.endings에 모은다.
+   case 'ending':{const [t,...d]=op.arg.split('|');S.ending={t:t.trim(),d:d.join('|').trim()};const e=records.endings||(records.endings=[]);if(!e.includes(S.ending.t))e.push(S.ending.t);save();S.pc++;break;}
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;S.pc++;break;
    case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
-   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;S.bg=bgFile(op.arg);BGM.scene(op.arg);S.pc++;paint();break;
+   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
     const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos};if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
@@ -119,7 +125,7 @@ function step(){
    case 'day':S.day=op.arg;return card('day',op.arg);
    case 'chapter':return card('chapter',op.num,op.title);
    // 시간 여행: @dive 연대|시대 — 빛의 통로를 지나 그 시대로 들어간다(배경은 다음 @bg).
-   case 'dive':{const [when,...what]=op.arg.split('|');S.bg=bgFile('bg_timeline_dive');S.chars={};S.phone=false;S.photo=null;fx('flash');SFX.play('rewind');paint();return card('dive',when.trim(),what.join('|').trim());}
+   case 'dive':{const [when,...what]=op.arg.split('|');S.bg=bgFile('bg_timeline_dive');S.bgAlt=null;S.chars={};S.phone=false;S.photo=null;fx('flash');SFX.play('rewind');paint();return card('dive',when.trim(),what.join('|').trim());}
    // 상태창: @hud 제목|줄|줄 — {flag} 값을 채워 게임 HUD처럼 보여 준다.
    case 'hud':{const [t,...ls]=fill(op.arg).split('|');return card('hud',t.trim(),ls.map(x=>x.trim()).join('\n'));}
    case 'flash':fx('flash');SFX.play('flash');S.pc++;break;
@@ -232,7 +238,7 @@ function paintPhoto(){
 }
 function paint(){
  if(!$('#vn'))shell();
- const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;};bg.onerror=()=>{if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
+ const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
  paintChars();paintPhoto();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
@@ -321,7 +327,7 @@ function quiz(arg){
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
  Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{
-  S.flags.quizFirst=R.first;S.flags.quizTotal=R.total;S.flags.quizAll=(S.flags.quizAll||0)+R.first;
+  S.flags.quizFirst=R.first;S.flags.quizTotal=R.total;S.flags.quizAll=(S.flags.quizAll||0)+R.first;S.flags.quizAllTotal=(S.flags.quizAllTotal||0)+R.total;S.flags.quizRate=S.flags.quizAllTotal?Math.round(100*S.flags.quizAll/S.flags.quizAllTotal):0;
   $('#vnBattleHud')?.remove();busy=false;BGM.scene(S.bg);S.pc++;step();
  }});
 }
@@ -434,7 +440,7 @@ function finishChapter(next){
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
  if(nx){S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
  busy=true;S.line=null;paint();const c=$('#vnCard');c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
- const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END</small><h2>연표의 끝에서</h2><p>선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
+ const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END${S.ending?` · ${esc(S.ending.t)}`:''}</small><h2>연표의 끝에서</h2>${S.ending?.d?`<p><b>${esc(S.ending.d)}</b></p>`:''}<p>본 엔딩 ${(records.endings||[]).length}/${ENDING_COUNT}. 선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};
 }
 

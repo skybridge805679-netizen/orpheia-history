@@ -169,7 +169,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @jump q2after
 @label q2good
 [오르페이아|excited] 순서 문제까지 클리어! 이야기로 알면 연표가 알아서 줄 서요♪
-@add affection 1
+@add orp 1
 @label q2after
 @hide all
 
@@ -261,7 +261,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @jump q3after
 @label q3good
 [오르페이아|excited] 80회 2번 같은 낯선 사료도 아는 단어 하나로 뚫으셨어요♪ 멋져요!
-@add affection 1
+@add orp 1
 @label q3after
 @hide all
 
