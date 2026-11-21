@@ -219,6 +219,17 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @label sealok
 [묵|smile] ……들려. 만세 소리가.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 하와이, 대구, 충칭. 바다 건너, 땅 밑, 피란길. 흩어진 자리들을 내가 한데 섞어 놨어.
+@show orpheia serious left
+[오르페이아|serious] 흩어졌어도 다 이어져 있었어요. 2단계, 잔향이에요!
+@hide all
+@battle muk serious stage2 skin=manse
+@quiz 81-106 81-107 81-108
+@battle end
+@show muk lonely center
+[묵|lonely] ……흩어진 자리들이, 지도 위에 다시 찍혔어.
 @hide all
 @bgm auto
 @bg bg_era_tapgol

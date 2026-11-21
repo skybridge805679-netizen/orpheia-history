@@ -219,6 +219,17 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @label sealok
 [묵|smile] ……조선이 다 제자리를 찾았어. 오백 년이.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 장터 구경 재밌었지? 그럼 장꾼, 중인, 향촌 양반 싸움까지 섞어 볼까. 다 조선 후기니까 아무거나 붙여도 되겠지?
+@show orpheia serious left
+[오르페이아|serious] 아무거나가 아니에요! 신분마다 사정이 달랐어요. 2단계!
+@hide all
+@battle muk stage2 skin=talchum
+@quiz 81-94 81-95 81-96
+@battle end
+@show muk lonely center
+[묵|lonely] ……장터 사람들이 다 자기 자리로 돌아갔어.
 @hide all
 @bgm auto
 @bg bg_era_songpa_market

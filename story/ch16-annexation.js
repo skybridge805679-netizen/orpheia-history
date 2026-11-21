@@ -251,6 +251,17 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [묵|lonely] ……막았어. 나라는 사라졌지만, 기억은 안 지워졌어.
 [묵] 그런데 이제부터가 더 길어. 서른다섯 해야.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 나라가 조각조각 넘어가는데, 그 조각마다 이름이 있었지. 전쟁, 돈 바꾸기, 하얼빈. 아직 덜 마른 먹물이야.
+@show orpheia serious left
+[오르페이아|serious] 그 조각들, 하나도 그냥 넘어가지 않았어요. 주인님, 2단계예요.
+@hide all
+@battle muk serious stage2 skin=uibyeong
+@quiz 81-103 81-104 81-105
+@battle end
+@show muk lonely center
+[묵|lonely] ……조각마다 붙은 이름, 이제 안 번져.
 @hide all
 @bgm auto
 @bg bg_era_uibyeong_camp

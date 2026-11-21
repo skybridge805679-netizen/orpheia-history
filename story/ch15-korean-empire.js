@@ -195,6 +195,17 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @label sealok
 [묵|smile] 좋아. 번지지 않아.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 전차 구경 끝? 그럼 원수부, 학교, 철길. 새것들이 언제 생겼는지 순서 섞어 놨어.
+@show orpheia serious left
+[오르페이아|serious] 순서는 한별 님이랑 걸은 길 그대로예요. 2단계!
+@hide all
+@battle muk stage2 skin=modern1900
+@quiz 81-100 81-101 81-102
+@battle end
+@show muk lonely center
+[묵|lonely] ……새것들이 생긴 순서, 이제 안 엉켜.
 @hide all
 @bgm auto
 @bg bg_era_jongno_tram

@@ -220,6 +220,17 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @label sealok
 [묵|smile] ……낱말들이 제자리에 놓였어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 노래, 백정, 어린이. 그 시대 사람들이 지키려던 작은 것들. 작으니까 지워도 아무도 모를걸?
+@show orpheia serious left
+[오르페이아|serious] 작아도 다 기록이에요. 2단계예요, 주인님.
+@hide all
+@battle muk serious stage2 skin=hangul
+@quiz 81-112 81-113 81-114
+@battle end
+@show muk lonely center
+[묵|lonely] ……작은 것들이, 제일 오래 남는구나.
 @hide all
 @bgm auto
 @bg bg_era_hangul_society

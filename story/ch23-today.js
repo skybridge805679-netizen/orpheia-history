@@ -159,6 +159,17 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @label sealok
 [묵|smile] ……현대도 번지지 않아. 연표가 전부 이어졌어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 마지막 시대, 대통령 이름만 세 개 남았어. 올림픽, IMF, 호주제. 누가 누군지 섞어 볼까?
+@show orpheia serious left
+[오르페이아|serious] 이름 말고 그때 사람들 얼굴로 기억해요. 마지막 2단계예요!
+@hide all
+@battle muk stage2 skin=idol
+@quiz 81-124 81-125 81-126
+@battle end
+@show muk lonely center
+[묵|lonely] ……마지막 이름들까지, 제자리야.
 @hide all
 @bgm auto
 @bg bg_era_panmunjom

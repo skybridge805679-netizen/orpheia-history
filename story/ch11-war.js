@@ -279,6 +279,17 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @label sealok
 [묵|smile] ……잔잔해졌어. 조선 전기는, 이제 안 번져.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] ……아직 남았어. 이름만 남은 선비들, 서원 현판에 붙은 이름들. 누가 누군지 섞어 놓으면 다 똑같은 갓이야.
+@show orpheia serious left
+[오르페이아|serious] 서원 현판 뒤에도 사람이 있어요. 주인님, 잔향이에요. 2단계!
+@hide all
+@battle muk serious stage2 skin=lotus
+@quiz 81-88 81-89 81-90
+@battle end
+@show muk lonely center
+[묵|lonely] ……갓 아래 얼굴이, 이제 하나씩 다르게 보여.
 @hide all
 @bgm auto
 @bg bg_era_hansando

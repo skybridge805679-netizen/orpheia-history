@@ -197,6 +197,17 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @label sealok
 [묵|smile] 좋아. 1920년대가 제자리를 찾았어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 숲과 거리, 그리고 재판정. 1920년대는 여러 갈래였잖아. 갈래마다 먹물을 한 방울씩 떨어뜨려 놨지.
+@show orpheia serious left
+[오르페이아|serious] 갈래는 많아도 길은 다 보였어요. 주인님, 2단계!
+@hide all
+@battle muk serious stage2 skin=moga
+@quiz 81-109 81-110 81-111
+@battle end
+@show muk lonely center
+[묵|lonely] ……여러 갈래가, 한 장의 지도가 됐네.
 @hide all
 @bgm auto
 @bg bg_era_donhwamun

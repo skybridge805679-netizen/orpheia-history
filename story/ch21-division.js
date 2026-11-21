@@ -216,6 +216,17 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @label sealok
 [묵|smile] ……줄은 남았지만, 이유는 번지지 않았어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 투표소, 북촌 마을, 들판의 상환 장부. 갈라지던 3년 동안의 기록이 아직 축축해.
+@show orpheia serious left
+[오르페이아|serious] 그 3년, 다 직접 봤어요. 2단계!
+@hide all
+@battle muk serious stage2 skin=refugee
+@quiz 81-118 81-119 81-120
+@battle end
+@show muk lonely center
+[묵|lonely] ……축축하던 장부가, 다 말랐어.
 @hide all
 @bgm auto
 @bg bg_era_busan_refugee

@@ -205,6 +205,17 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @label sealok
 [묵|smile] ……번지지 않아. 거리의 사람들이 다 제자리에 있어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 공장, 신문사 쪽지, 헌법 조문. 거리 말고 그 뒤편에 남은 기록들. 거긴 아직 번져 있어.
+@show orpheia serious left
+[오르페이아|serious] 거리 뒤편 사람들 이야기도 같이 읽어요. 주인님, 2단계예요.
+@hide all
+@battle muk serious stage2 skin=handkerchief
+@quiz 81-121 81-122 81-123
+@battle end
+@show muk lonely center
+[묵|lonely] ……거리 뒤편까지, 다 읽혔어.
 @hide all
 @bgm auto
 @bg bg_era_june1987

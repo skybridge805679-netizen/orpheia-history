@@ -287,6 +287,17 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @label sealok
 [묵|smile] 좋아. 하나도 안 번졌어.
 @label sealafter
+@bg cg_ink_spread
+@show muk smirk center
+[묵|smirk] 상복 다툼 다음엔 들판이 들끓었지. 정주성, 진주…… 그 연도랑 이유, 아직 내 안에서 질척거려.
+@show orpheia serious left
+[오르페이아|serious] 들판 사람들 사정까지 다 봤잖아요. 주인님, 2단계예요.
+@hide all
+@battle muk serious stage2 skin=rain
+@quiz 81-91 81-92 81-93
+@battle end
+@show muk lonely center
+[묵|lonely] ……들판의 이유도, 제자리에 놓였네.
 @hide all
 @bgm auto
 @bg bg_era_hwaseong
