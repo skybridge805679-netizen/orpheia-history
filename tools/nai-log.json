@@ -2945,8 +2945,8 @@
   "init": null
  },
  "cg_end_orpheia": {
-  "seed": 2047025994,
-  "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional",
+  "seed": 2664217400,
+  "prompt": "1girl, 1boy, young adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, stepping out of a glowing computer monitor into a dark home music studio at night, shy blushing smile, tears in eyes, holding both hands of a young man in a black hoodie with hood up, face hidden in shadow, faceless, light particles, monitors, keyboard, headphones on desk, romantic, emotional, monitor screens show only soft blurred glow, no readable text",
   "init": null
  },
  "cg_end_muk": {
@@ -2955,8 +2955,8 @@
   "init": null
  },
  "cg_end_fail": {
-  "seed": 729199152,
-  "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a monitor full of comment boxes and a rising play count, home music studio at night, bittersweet, warm light",
+  "seed": 150210903,
+  "prompt": "1girl, 1boy, young adult woman with light brown wavy hair in a pastel blue hoodie wiping tears and smiling, young man in a black hoodie with hood up, face hidden in shadow, faceless, both looking at a softly glowing monitor, comment boxes shown as blurred colored blocks, young man hugging her shoulders from behind with the hood up, eyes hidden in the shadow of the hood, home music studio at night, bittersweet, warm light, monitor screens show only soft blurred glow, no readable text",
   "init": null
  },
  "cg_sayeon_b0": {
@@ -2983,5 +2983,160 @@
   "seed": 2713685105,
   "prompt": "3girls, 1boy, comedic scene in a home music studio in the morning, young man in a black hoodie with hood up, face hidden in shadow, faceless sitting on a sofa, on his left an adult woman with black very long hair dissolving into ink, grey eyes, black and white hanbok-style dress, teasing smirk, clinging to his arm, on his right an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a brush and scroll, calm smile, leaning close to him, in front an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, puffed cheeks, jealous, angry vein mark, waving arms trying to push them away, chibi angry symbols, monitors, keyboard, comedic, harem",
   "init": null
+ },
+ "st_naru_baekje_smile": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, cheerful smile, happy",
+  "init": "assets/st_naru_baekje.webp"
+ },
+ "st_naru_baekje_shy": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, blushing, shy, looking away, embarrassed smile",
+  "init": "assets/st_naru_baekje.webp"
+ },
+ "st_naru_baekje_surprised": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, surprised, wide eyes, open mouth",
+  "init": "assets/st_naru_baekje.webp"
+ },
+ "st_naru_baekje_angry": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, angry, frowning, puffed cheeks, shouting",
+  "init": "assets/st_naru_baekje.webp"
+ },
+ "st_naru_baekje_teary": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, light blue hemp jacket, teary eyes, sad smile, tears",
+  "init": "assets/st_naru_baekje.webp"
+ },
+ "st_naru_goguryeo_smile": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, cheerful smile, happy",
+  "init": "assets/st_naru_goguryeo.webp"
+ },
+ "st_naru_goguryeo_shy": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, blushing, shy, looking away, embarrassed smile",
+  "init": "assets/st_naru_goguryeo.webp"
+ },
+ "st_naru_goguryeo_surprised": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, surprised, wide eyes, open mouth",
+  "init": "assets/st_naru_goguryeo.webp"
+ },
+ "st_naru_goguryeo_angry": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, angry, frowning, puffed cheeks, shouting",
+  "init": "assets/st_naru_goguryeo.webp"
+ },
+ "st_naru_goguryeo_teary": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, polka dot pattern jacket, teary eyes, sad smile, tears",
+  "init": "assets/st_naru_goguryeo.webp"
+ },
+ "st_naru_silla_smile": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, cheerful smile, happy",
+  "init": "assets/st_naru_silla.webp"
+ },
+ "st_naru_silla_shy": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, blushing, shy, looking away, embarrassed smile",
+  "init": "assets/st_naru_silla.webp"
+ },
+ "st_naru_silla_surprised": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, surprised, wide eyes, open mouth",
+  "init": "assets/st_naru_silla.webp"
+ },
+ "st_naru_silla_angry": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, angry, frowning, puffed cheeks, shouting",
+  "init": "assets/st_naru_silla.webp"
+ },
+ "st_naru_silla_teary": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, rolled-up sleeves, holding a long wooden pole oar, standing, full body, looking at viewer, ancient korean commoner clothes, plain beige hemp jacket, teary eyes, sad smile, tears",
+  "init": "assets/st_naru_silla.webp"
+ },
+ "st_naru_sea_smile": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, cheerful smile, happy",
+  "init": "assets/st_naru_sea.webp"
+ },
+ "st_naru_sea_shy": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, blushing, shy, looking away, embarrassed smile",
+  "init": "assets/st_naru_sea.webp"
+ },
+ "st_naru_sea_surprised": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, surprised, wide eyes, open mouth",
+  "init": "assets/st_naru_sea.webp"
+ },
+ "st_naru_sea_angry": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, angry, frowning, puffed cheeks, shouting",
+  "init": "assets/st_naru_sea.webp"
+ },
+ "st_naru_sea_teary": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, rolled-up sleeves, cloth headband, holding a long wooden oar with both hands, standing, full body, looking at viewer, ancient korean commoner clothes, short indigo hemp tunic, white trousers, straw sandals, teary eyes, sad smile, tears",
+  "init": "assets/st_naru_sea.webp"
+ },
+ "st_naru_joseon_smile": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, cheerful smile, happy",
+  "init": "assets/st_naru_joseon.webp"
+ },
+ "st_naru_joseon_shy": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, blushing, shy, looking away, embarrassed smile",
+  "init": "assets/st_naru_joseon.webp"
+ },
+ "st_naru_joseon_surprised": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, surprised, wide eyes, open mouth",
+  "init": "assets/st_naru_joseon.webp"
+ },
+ "st_naru_joseon_angry": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, angry, frowning, puffed cheeks, shouting",
+  "init": "assets/st_naru_joseon.webp"
+ },
+ "st_naru_joseon_teary": {
+  "seed": 1212121,
+  "prompt": "1girl, solo, solo focus, adult woman, sailor, black hair, braid, tan skin, brown eyes, white cloth headband, rolled-up sleeves, joseon commoner clothes, plain white jeogori, grey baji trousers, straw sandals, holding a long wooden oar with both hands, standing, full body, looking at viewer, teary eyes, sad smile, tears",
+  "init": "assets/st_naru_joseon.webp"
+ },
+ "st_sayeon_shy_d1": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, scroll sash unrolled and trailing, robe loosened, slightly disheveled, flustered, full-face blush, covering chest with arm, embarrassed",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_shy_d2": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, scroll robe mostly unrolled into a trailing timeline, jeogori slipping off one shoulder, white korean breast band visible, cleavage, short slip, bare thighs, flustered, full-face blush, covering chest with arm, embarrassed",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_shy_d3": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, only a white korean breast band and white short sokbaji underpants left, last scroll hugged to her chest, bare shoulders, bare thighs, flustered, full-face blush, covering chest with arm, embarrassed",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_surprised_d1": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, scroll sash unrolled and trailing, robe loosened, slightly disheveled, surprised, wide eyes, open mouth, blush",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_surprised_d2": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, scroll robe mostly unrolled into a trailing timeline, jeogori slipping off one shoulder, white korean breast band visible, cleavage, short slip, bare thighs, surprised, wide eyes, open mouth, blush",
+  "init": "assets/st_sayeon_neutral.webp"
+ },
+ "st_sayeon_surprised_d3": {
+  "seed": 5050505,
+  "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, only a white korean breast band and white short sokbaji underpants left, last scroll hugged to her chest, bare shoulders, bare thighs, surprised, wide eyes, open mouth, blush",
+  "init": "assets/st_sayeon_neutral.webp"
  }
 }
