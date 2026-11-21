@@ -5049,9 +5049,29 @@
   {
    "id": "cg_title_clear",
    "size": "bg",
-   "seed": 9122,
-   "prompt": "4girls, 1boy, key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters gathered on the right two thirds of the image, left third is soft blurred window light for a menu, an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, gentle happy smile, holding a certificate scroll with a gold seal, a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, sitting at a keyboard workstation, a young adult woman with light brown wavy hair (brown hair, not white) and light blue eyes in an oversized pastel blue hoodie with pin badges laughing and hugging his shoulders, an adult woman with black very long hair dissolving into dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink droplets floating around her, sitting on the desk teasing him, an adult woman with black very long hair, red hair ribbon, amber eyes, white jeogori and navy chima, reading a scroll on the sofa, golden timeline ribbons gently floating in the air, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+   "seed": 9152,
+   "prompt": "2girls, 1boy, key visual, title screen illustration after the ending, dawn, warm sunrise light through a big window of a cozy home music studio, characters on the right two thirds, left third soft blurred window light for a menu, golden timeline ribbons floating, peaceful, heartwarming, monitor screens show only soft blurred glow, no readable text, masterpiece",
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood up, eyes hidden in the shadow of the hood, sitting at a keyboard workstation, smiling",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.6
+    },
+    {
+     "prompt": "girl, adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, emerald brooch, gentle happy smile, holding a certificate scroll with a gold seal",
+     "uc": "nude, nipples, child, loli",
+     "x": 0.78,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, light brown wavy medium hair, brown hair, light blue eyes, oversized pastel blue hoodie with pin badges, laughing, hugging his shoulders from behind",
+     "uc": "nude, nipples, child, loli, white hair, silver hair, grey hair",
+     "x": 0.4,
+     "y": 0.45
+    }
+   ]
   },
   {
    "id": "cg_sayeon_sy_archer_b0",
@@ -5217,9 +5237,9 @@
   {
    "id": "cg_sayeon_sy_telegraph_b3",
    "size": "bg",
-   "seed": 7155,
-   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1900s korean telegraph office clerk, white blouse with puffed sleeves, long dark skirt, sleeve covers, headset-like earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding telegraph tape scroll, the whole outfit has unrolled and flown away as a long glowing timeline behind her, clothes gone, wearing only a white bra and white panties, bare shoulders, bare stomach, bare legs, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters, jacket, blazer, coat, uniform, skirt, fully clothed"
+   "seed": 7232,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a small telegraph earpiece, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, jacket, blazer, coat, uniform, skirt, shirt, dress, fully clothed"
   },
   {
    "id": "cg_sayeon_sy_shanghai_b0",
@@ -5329,9 +5349,9 @@
   {
    "id": "cg_sayeon_sy_announcer_b3",
    "size": "bg",
-   "seed": 7159,
-   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1940s radio announcer, tailored blazer and pencil skirt, armband, headphones around the neck, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding script papers, the whole outfit has unrolled and flown away as a long glowing timeline behind her, clothes gone, wearing only a white bra and white panties, bare shoulders, bare stomach, bare legs, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters, jacket, blazer, coat, uniform, skirt, fully clothed"
+   "seed": 7236,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, headphones around the neck, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, jacket, blazer, coat, uniform, skirt, shirt, dress, fully clothed"
   },
   {
    "id": "cg_sayeon_sy_nurse_b0",
@@ -5357,9 +5377,9 @@
   {
    "id": "cg_sayeon_sy_nurse_b3",
    "size": "bg",
-   "seed": 7160,
-   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1950s korean war army nurse officer, khaki uniform jacket and skirt, nurse cap, red cross armband, medical bag, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding bandage roll, the whole outfit has unrolled and flown away as a long glowing timeline behind her, clothes gone, wearing only a white bra and white panties, bare shoulders, bare stomach, bare legs, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters, jacket, blazer, coat, uniform, skirt, fully clothed"
+   "seed": 7237,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a white nurse cap with a red cross, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, jacket, blazer, coat, uniform, skirt, shirt, dress, fully clothed"
   },
   {
    "id": "cg_sayeon_sy_campus_b0",
@@ -5385,9 +5405,9 @@
   {
    "id": "cg_sayeon_sy_campus_b3",
    "size": "bg",
-   "seed": 7161,
-   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, 1980s korean university student, denim jacket over white shirt, long skirt, cloth headband, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding handmade protest songbook, the whole outfit has unrolled and flown away as a long glowing timeline behind her, clothes gone, wearing only a white bra and white panties, bare shoulders, bare stomach, bare legs, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters, jacket, blazer, coat, uniform, skirt, fully clothed"
+   "seed": 7238,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a red cloth headband, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, jacket, blazer, coat, uniform, skirt, shirt, dress, fully clothed"
   },
   {
    "id": "cg_sayeon_sy_anchor_b0",
@@ -5413,14 +5433,14 @@
   {
    "id": "cg_sayeon_sy_anchor_b3",
    "size": "bg",
-   "seed": 7162,
-   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, the whole outfit has unrolled and flown away as a long glowing timeline behind her, clothes gone, wearing only a white bra and white panties, bare shoulders, bare stomach, bare legs, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters, jacket, blazer, coat, uniform, skirt, fully clothed"
+   "seed": 7239,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, wearing only a white bra and white panties, underwear only, a small earpiece, bare shoulders, bare stomach, bare legs, long unrolled hanji paper scrolls of a korean history timeline flying around her like ribbons, her clothes have turned into the scrolls, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons, dramatic lighting, cowboy shot",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, jacket, blazer, coat, uniform, skirt, shirt, dress, fully clothed"
   },
   {
    "id": "cg_end_harem",
    "size": "bg",
-   "seed": 9131,
+   "seed": 9141,
    "prompt": "5girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green window on the computer monitor pouring out light and flower petals, women from different eras of korean history crowding around a young man, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
    "chars": [
     {
@@ -5454,13 +5474,13 @@
      "y": 0.5
     },
     {
-     "prompt": "girl, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform with belt, field cap, saluting with a blush",
-     "uc": "nude, nipples, child, loli, male",
+     "prompt": "girl, young adult woman, short bob black hair, sharp black eyes, korean liberation army 1940s olive drab uniform jacket with belt, plain field cap with a small round taegeuk badge, saluting with a blush",
+     "uc": "nude, nipples, child, loli, eagle emblem, nazi, swastika, german uniform, iron cross",
      "x": 0.87,
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views, nazi, swastika, eagle emblem, german military insignia, iron cross"
   },
   {
    "id": "cg_end_harem2",
