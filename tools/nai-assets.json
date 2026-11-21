@@ -4963,6 +4963,18 @@
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, flat chest, multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, text, watermark, signature",
    "init": "assets/st_sayeon_neutral.webp",
    "strength": 0.7
+  },
+  {
+   "id": "bg_era_refuge_road",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, long winding dirt road through snowy hills heading south, abandoned palanquin and scattered bundles by the roadside, footprints and cart tracks in the snow, distant smoke on the northern horizon, falling snow, grey winter sky, ancient korea, goryeo period, lonely and tense",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, text, watermark, firearms, cannon"
+  },
+  {
+   "id": "bg_era_gochang",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, small walled county town in a river valley, earthen walls and wooden gate, thatched roofs, farmland around, many banners of two armies on the surrounding hills, autumn, early morning mist, ancient korea, later three kingdoms period, tense before battle",
+   "negative": "chinese architecture, japanese castle, european, sailing ship, galleon, modern, chimney, barrel, signature, text, watermark, firearms, cannon"
   }
  ]
 }
