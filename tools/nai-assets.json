@@ -5054,13 +5054,6 @@
    "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
   },
   {
-   "id": "cg_end_harem",
-   "size": "bg",
-   "seed": 9111,
-   "prompt": "8girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green coordinate window on the computer monitor pouring out light, many young adult women in different korean historical costumes (ancient merchant hanbok, balhae fur coat, ferrywoman headscarf, goryeo merchant daughter, joseon palace maid, korean empire schoolgirl hanbok with ribbon, 1950s teacher blouse, 1980s student) crowding around and pulling a young man in a black hoodie with hood up, eyes hidden in the shadow of the hood, sweating, in the front an adult woman with silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, spreading her arms to block them with puffed cheeks and tears, an adult woman with black very long hair dissolving into ink, smirk, hugging his back, an adult woman with black hair and red hair ribbon in white jeogori holding a brush and a scroll writing calmly, flower petals and golden timeline ribbons, comedic harem, sparkles, monitor screens show only soft blurred glow, no readable text, masterpiece",
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
-  },
-  {
    "id": "cg_sayeon_sy_archer_b0",
    "size": "bg",
    "seed": 7100,
@@ -5423,6 +5416,96 @@
    "seed": 7112,
    "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, modern news anchor, navy tailored suit jacket and pencil skirt, silk blouse, earpiece, the outfit is trimmed and sashed with long unrolled hanji paper scrolls of a korean history timeline, holding tablet and cue cards, almost the whole outfit unrolled into a long glowing timeline behind her, only underwear (bra and panties or breast band and short underpants) left, kneeling, hugging the last scroll to her chest, full-face blush, teary eyes, flustered, ink wash battlefield with black ink vortex in the distance, glowing golden timeline ribbons binding black ink, dramatic lighting, dynamic angle, cowboy shot",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, letters"
+  },
+  {
+   "id": "cg_end_harem",
+   "size": "bg",
+   "seed": 9131,
+   "prompt": "5girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green window on the computer monitor pouring out light and flower petals, women from different eras of korean history crowding around a young man, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood up, eyes hidden in the shadow of the hood, sweating, flustered",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.45
+    },
+    {
+     "prompt": "girl, adult woman, silver white very long hair, green eyes, maid headdress, black maid dress, white frilled apron, green bowtie, puffed cheeks, teary, spreading arms to block",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "prompt": "girl, young adult woman, white cloth headscarf, black hair in a braid, tan skin, brown eyes, light teal plaid long korean dress, red sash, holding a long wooden oar, grinning",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.15,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, short jade green jacket, long white skirt, small abacus at the belt, hugging his arm",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.32,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, short dark brown hair with a side ponytail, bright green eyes, dark blue wrap tunic with fur trim, fur boots, small bow on back, pulling his other arm",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.7,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, short bob black hair, sharp black eyes, olive drab 1940s military uniform with belt, field cap, saluting with a blush",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.87,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem2",
+   "size": "bg",
+   "seed": 9132,
+   "prompt": "6girls, hidden harem ending part two, the same small home music studio at night, more women from different eras of korean history pouring out of a glowing monitor and lining up to propose, holding gifts, comedic harem, flower petals, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round brown eyes, joseon palace maid, green jeogori, deep blue chima, white apron, offering a tray of yakgwa sweets, shy",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.12,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, faded yellow jeogori with rolled sleeves, short indigo chima, holding a rolled storybook, winking",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.3,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, sun-tanned, thick black hair in a low braid, white cotton headband, plain white hemp jeogori and chima, holding a bamboo leaf rice ball bundle, big smile",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.48,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, adult woman, black hair in a low bun with a hairpin, brown eyes, plain brown hemp robe with wide sleeves, cloth bundle on back, holding an account book, smug smile",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.64,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, long straight black hair with center part and a braid with white ribbon, white jeogori with short sleeves, long black chima, holding a newspaper, determined",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.8,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, shoulder length black hair with bangs, white blouse under navy cardigan, high-waisted light blue jeans, white sneakers, holding a white handkerchief, gentle smile",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.94,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views"
   }
  ]
 }
