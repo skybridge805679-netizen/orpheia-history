@@ -3138,5 +3138,30 @@
   "seed": 5050505,
   "prompt": "1girl, solo, solo focus, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, standing, full body, looking at viewer, only a white korean breast band and white short sokbaji underpants left, last scroll hugged to her chest, bare shoulders, bare thighs, surprised, wide eyes, open mouth, blush",
   "init": "assets/st_sayeon_neutral.webp"
+ },
+ "bg_era_refuge_road": {
+  "seed": 1847538648,
+  "prompt": "no humans, scenery, outdoors, long winding dirt road through snowy hills heading south, abandoned palanquin and scattered bundles by the roadside, footprints and cart tracks in the snow, distant smoke on the northern horizon, falling snow, grey winter sky, ancient korea, goryeo period, lonely and tense",
+  "init": null
+ },
+ "bg_era_gochang": {
+  "seed": 1777881990,
+  "prompt": "no humans, scenery, outdoors, small walled county town in a river valley, earthen walls and wooden gate, thatched roofs, farmland around, many banners of two armies on the surrounding hills, autumn, early morning mist, ancient korea, later three kingdoms period, tense before battle",
+  "init": null
+ },
+ "qs_silla_coast": {
+  "seed": 8301,
+  "prompt": "2boys, adult men, 7th century silla korean generals in lamellar armor and helmets standing on a rocky seashore, one older general on the right pointing out to sea, a younger officer on the left holding a spear, warships with sails on the sea in the distance, windy, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_ansi_wall": {
+  "seed": 8302,
+  "prompt": "2boys, adult men, goguryeo soldiers in red lamellar armor standing on top of a stone fortress wall, one tired veteran on the left leaning on a spear, a young soldier on the right smiling with relief, huge enemy army camp far below withdrawing, autumn, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_silla_palace": {
+  "seed": 8303,
+  "prompt": "2boys, adult men, ancient silla royal palace courtyard, a king in a golden crown and red robe on the right, a middle-aged general in lamellar armor kneeling on the left with a sword at his side, guards blurred in the background, ancient korea, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
  }
 }
