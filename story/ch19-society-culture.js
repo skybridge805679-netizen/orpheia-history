@@ -71,7 +71,18 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia pout left
 [오르페이아|pout] 주인님 후드는 안 돼요! 대신 제 앞치마 빌려드릴게요, 한별 님. ……이것도 보좌 업무예요.
 @hide orpheia
-@add hanbyeol 8
+@choice
+> (앞치마를 받아 한별의 어깨에 둘러 준다) 불 켜지기 전에. -> hr19a {hanbyeol+8}
+> 고마워, 오르페이아. 오늘 보좌 업무 만점. -> hr19b {orp+3}
+@label hr19a
+[상철] 불 켜지기 전에. 자.
+[한별|shy] ……영화 끝나도 손, 그대로 잡고 있어도 돼요?
+@jump hr19x
+@label hr19b
+[상철] 고마워, 오르페이아. 오늘 만점이다.
+[오르페이아|excited] 마, 만점이요?! 주인님한테 만점 받은 거 처음이에요!
+[한별] ……데이트는 나랑 하는데 칭찬은 저 아가씨가 받네.
+@label hr19x
 @bg bg_era_dansungsa
 @show hanbyeol teary center
 [한별|teary] ……아리랑 아리랑 아라리요. 영화 끝나고 다들 울면서 따라 불렀어요. 윤심덕의 「사의 찬미」도 요즘 어딜 가나 들리고요.

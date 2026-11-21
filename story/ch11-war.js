@@ -123,7 +123,18 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show orpheia pout left
 @sd pout
 [오르페이아|pout] 네. 셋째 대예요. 주인님, 이 집안이랑은 정말 무슨 인연이에요.
-@add naru 5
+@choice
+> ……그러게. 이 집안이랑은 인연인가 봐. -> hr11a {naru+5}
+> 인연이 아니라 사고야. 사고. 오르페이아, 증언해 줘. -> hr11b {orp+2}
+@label hr11a
+[상철] ……인연인가 보지. 세 번이면.
+[나루|shy] 할머니들 장부에 '인연'이라고 적힌 건 처음이에요.
+@jump hr11x
+@label hr11b
+[상철] 사고야. 오르페이아, 증언해.
+[오르페이아|smile] 네! 사고 맞아요! 주인님은 제 주인님이에요! ……아, 증언이 좀 이상했나요?
+[나루|pout] 이상해요.
+@label hr11x
 @hide all
 @bg cg_ev_hansando
 @flash

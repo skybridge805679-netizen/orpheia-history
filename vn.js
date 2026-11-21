@@ -96,7 +96,7 @@ const fresh=ch=>({ch,pc:0,bg:'',chars:{},day:'',line:null,phone:false,flags:{...
 const curCh=()=>byId[S.ch];
 function isRead(pc){return (meta.read[S.ch]||[]).includes(pc);}
 function markRead(pc){const a=meta.read[S.ch]||(meta.read[S.ch]=[]);if(!a.includes(pc)){a.push(pc);if(a.length%10===0)persist();}}
-function evalSet(spec){for(const part of spec.split(/[,\s]+/).filter(Boolean)){const m=part.match(/^(\w+)([+-]=?|=)(-?\d+)$/);if(!m)continue;const [,f,op,v]=m;S.flags[f]=op==='='?+v:(S.flags[f]||0)+(op.startsWith('-')?-v:+v);}}
+function evalSet(spec){for(const part of spec.split(/[,\s]+/).filter(Boolean)){const m=part.match(/^(\w+)([+-]=?|=)(-?\d+)$/);if(!m)continue;const [,f,op,v]=m;S.flags[f]=op==='='?+v:(S.flags[f]||0)+(op.startsWith('-')?-v:+v);if(f==='orp')S.flags.orp=Math.min(100,S.flags.orp);}}
 function step(){
  stopAuto();
  while(S&&!busy){
@@ -111,7 +111,7 @@ function step(){
    case 'top':{let best=null,bv=0;for(const f of op.flags){const v=S.flags[f]||0;if(v>bv){bv=v;best=f;}}S.flags.topWho=best?op.flags.indexOf(best)+1:0;const L=best!=null?ch.labels[op.prefix+best]:undefined;S.pc=L??S.pc+1;break;}
    // @ending 제목|한 줄: 이번에 본 엔딩. 끝 카드에 쓰고 records.endings에 모은다.
    case 'ending':{const [t,...d]=op.arg.split('|');S.ending={t:t.trim(),d:d.join('|').trim()};const e=records.endings||(records.endings=[]);if(!e.includes(S.ending.t))e.push(S.ending.t);save();S.pc++;break;}
-   case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;S.pc++;break;
+   case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;if(op.flag==='orp')S.flags.orp=Math.min(100,S.flags.orp);S.pc++;break;
    case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
