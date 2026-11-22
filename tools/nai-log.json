@@ -3205,8 +3205,8 @@
   "init": null
  },
  "cg_end_harem": {
-  "seed": 9141,
-  "prompt": "5girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green window on the computer monitor pouring out light and flower petals, women from different eras of korean history crowding around a young man, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+  "seed": 9171,
+  "prompt": "4girls, 1boy, hidden harem ending, comedic chaos in a small home music studio at night, a glowing green window on the computer monitor pouring out light and flower petals, women from different eras of korean history crowding around a young man, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
  },
  "cg_sayeon_sy_archer_b0": {
@@ -3475,7 +3475,7 @@
   "init": null
  },
  "cg_after_store": {
-  "seed": 9201,
+  "seed": 9231,
   "prompt": "4girls, comedic slice of life, inside a brightly lit modern korean convenience store at night, refrigerators full of drinks, shelves of snacks, women from different eras of korean history in their old clothes amazed by modern things, masterpiece",
   "init": null
  },
@@ -4222,6 +4222,46 @@
  "cg_end_maehyang": {
   "seed": 2324033,
   "prompt": "1girl, 1boy, spring garden of a joseon house in full plum blossom, morning light, petals falling, elegant farewell, masterpiece",
+  "init": null
+ },
+ "st_saebyeok_mom": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, gentle mature smile",
+  "init": null
+ },
+ "st_saebyeok_mom_smile": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, gentle mature smile",
+  "init": null
+ },
+ "st_saebyeok_mom_shy": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, blush, looking away, shy smile, hand on cheek",
+  "init": null
+ },
+ "st_saebyeok_mom_surprised": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, surprised, wide eyes, open mouth",
+  "init": null
+ },
+ "st_saebyeok_mom_angry": {
+  "seed": 1515307,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, angry, pout, puffed cheeks, annoyed",
+  "init": null
+ },
+ "st_saebyeok_mom_teary": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional",
+  "init": null
+ },
+ "st_saebyeok_mom_serious": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, serious, calm determined expression",
+  "init": null
+ },
+ "cg_end_harem_saebyeok": {
+  "seed": 2410777,
+  "prompt": "2girls, 1boy, emotional reunion, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out soft light and rain, raindrops in the air, dramatic lighting, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
  }
 }
