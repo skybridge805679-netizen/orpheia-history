@@ -2,8 +2,8 @@
 """학습 사이트(korean-history-study)의 기출 데이터를 게임용 data/ 로 복사한다.
 
 python3 tools/sync-data.py ../korean-history-study
-문항(QS)·해설·자료 그림 목록·핵심노트를 가져온다. 그림 파일 자체는 복사하지 않고
-학습 사이트의 GitHub Pages 주소에서 불러온다(data/config.js 의 IMG_BASE)."""
+문항(QS)·해설·자료 그림 목록·핵심노트를 가져온다. 그림 파일은 이어서
+tools/sync-images.py 가 assets/kh/ 로 WebP 사본을 만든다(사본이 없는 것만 학습 사이트 주소에서 불러온다)."""
 import json, shutil, sys
 from pathlib import Path
 
@@ -23,3 +23,5 @@ nd.mkdir(exist_ok=True)
 for f in sorted((src / "core-notes").glob("*.js")):
     shutil.copy(f, nd / f.name)
 print(f"문항 {len(qs)}개, 회차 {sorted({q['r'] for q in qs})}")
+import subprocess
+subprocess.run([sys.executable, str(Path(__file__).with_name("sync-images.py")), str(src.parent)], check=True)

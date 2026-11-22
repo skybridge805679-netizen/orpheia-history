@@ -227,7 +227,7 @@ function heritage(name){
 // 학습만화식 SD 리액션 컷인: @sd idea|warn|thumbs|cry|pout|shock|love|teach|detective|cheer|think|bow — 2.4초 뒤 사라진다(세이브에 남지 않음).
 // 판서: 학습 사이트의 기출 핵심노트(CORE_NOTES)를 이야기 속 칠판으로 띄운다. @board 노트id [노트id…]
 const NOTE_FILES=['ancient','goryeo-joseon','modern','contemporary'];
-async function coreNotes(){if(window.CORE_NOTES?.length)return window.CORE_NOTES;await Promise.all(NOTE_FILES.map(f=>loadOnce(figSrc(`core-notes/${f}.js`))));return window.CORE_NOTES||[];}
+async function coreNotes(){if(window.CORE_NOTES?.length)return window.CORE_NOTES;await Promise.all(NOTE_FILES.map(f=>loadOnce(`data/core-notes/${f}.js`).catch(()=>loadOnce(figSrc(`core-notes/${f}.js`)))));return window.CORE_NOTES||[];}
 const hl=t=>esc(t).replace(/\*\*([^*]+)\*\*/g,'<b class="bd-b">$1</b>').replace(/(\d{2}-\d{1,2})/g,'<i class="bd-q">$1</i>');
 function boardHtml(n){
  const tb=(n.tables||[]).map(t=>`<figure class="bd-t"><figcaption>${hl(t.c||'')}</figcaption><table><thead><tr>${t.h.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${t.r.map(r=>`<tr>${r.map(c=>`<td>${hl(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></figure>`).join('');

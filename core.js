@@ -4,7 +4,9 @@ const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=
 const asset=name=>`assets/${name}`;
 // 기출 자료 그림은 학습 사이트(GitHub Pages)에서 불러온다. 같은 폴더 구성으로 로컬에 두면 그쪽을 쓴다.
 const IMG_BASE=window.IMG_BASE||'https://skybridge805679-netizen.github.io/korean-history-study/site/';
-const figSrc=src=>/^(https?:|data:|assets\/)/.test(src)?src:IMG_BASE+src;
+// 학습 사이트 그림: assets/kh/ 에 사본이 있으면(data/kh-local.js, tools/sync-images.py) 그것을, 없으면 학습 사이트 주소를 쓴다.
+const khLocal=p=>{const L=window.KH_LOCAL;return L&&L.has(p)?'assets/kh/'+(/\.svg$/i.test(p)?p:p.replace(/\.(png|jpe?g|webp)$/i,'.webp')):null;};
+const figSrc=src=>/^(https?:|data:|assets\/)/.test(src)?src:(khLocal(src.split('?')[0])||IMG_BASE+src);
 const KEY='orpheia-history-v1';
 let records={textSpeed:window.matchMedia?.('(prefers-reduced-motion: reduce)').matches?0:28,quiz:{}};
 try{const raw=JSON.parse(localStorage.getItem(KEY)||'null');if(raw&&typeof raw==='object')records={...records,...raw};}catch{}
