@@ -1,0 +1,51 @@
+name: 비타 빌드
+# PS Vita 실행기(vita/)를 VitaSDK로 빌드해 VPK를 산출물로 올린다. docs/비타-포팅-계획.md
+on:
+  push:
+    branches: [main]
+    paths: ['vita/**', 'tools/export-vita.py', '.github/workflows/vita.yml']
+  workflow_dispatch:
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - name: 글꼴 받기(OFL, 구글 폰트)
+        run: |
+          mkdir -p tools/fonts
+          curl -fsSL -o tools/fonts/GowunDodum-Regular.ttf https://github.com/google/fonts/raw/main/ofl/gowundodum/GowunDodum-Regular.ttf
+          curl -fsSL -o tools/fonts/GowunBatang-Bold.ttf https://github.com/google/fonts/raw/main/ofl/gowunbatang/GowunBatang-Bold.ttf
+      - run: python3 tools/export-vita.py vita/build-data tools/fonts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vita-data
+          path: vita/build-data
+
+  vpk:
+    needs: data
+    runs-on: ubuntu-latest
+    container: vitasdk/vitasdk:latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: vita
+      - uses: actions/download-artifact@v4
+        with:
+          name: vita-data
+          path: vita/build-data
+      - name: 라이브러리 확인
+        run: |
+          if [ ! -f "$VITASDK/arm-vita-eabi/include/SDL2/SDL_ttf.h" ]; then
+            "$VITASDK/bin/vdpm" sdl2 sdl2_image sdl2_ttf freetype harfbuzz libpng libjpeg-turbo libwebp zlib bzip2
+          fi
+          ls "$VITASDK/arm-vita-eabi/lib" | grep -iE "sdl2|freetype|harfbuzz|png|jpeg|webp|bz2|libz" || true
+      - name: 빌드
+        run: |
+          cmake -S vita -B vita/build-vita -DCMAKE_TOOLCHAIN_FILE=$VITASDK/share/vita.toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+          cmake --build vita/build-vita -j4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orpheia-vpk
+          path: vita/build-vita/orpheia.vpk
