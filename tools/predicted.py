@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """오르페이아 예상 문제(제81회 예상) 생성기.
 기출 70~80회의 출제 틀을 따른다: 자료(사료·대화·답사 계획서·연표·신문·판결문·사진)를 주고,
@@ -1010,7 +1011,7 @@ def build():
         figs[key]=d['fig']
         if d['pics']:
             from qfig import heritage_src
-            meta[key]=[{"number":i+1,"src":(lambda v: v if v.startswith("heritage/") else heritage_src(v))(d['pics'][o[0]]),"name":o[0]} for i,o in enumerate(opts)]
+            meta[key]=[{"number":i+1,"src":(lambda v: ("assets/"+v if os.path.exists("assets/"+v) else v) if v.startswith("heritage/") else heritage_src(v))(d['pics'][o[0]]),"name":o[0]} for i,o in enumerate(opts)]
         bych.setdefault(d['ch'],[]).append(key)
     size=render(figs)
     F={k:{"src":f"assets/qfig/{k}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})} for k,(w,h) in size.items()}

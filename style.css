@@ -104,7 +104,7 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .vn-photo.big img{max-height:72vh}
 .vn.photo-on .vn-chars .vn-chr.pos-left{left:46%}.vn.photo-on .vn-chars .vn-chr.pos-center{left:64%}.vn.photo-on .vn-chars .vn-chr.pos-right{left:82%}
 .vn.photo-on .vn-chars[data-n="1"] .vn-chr{left:64%}
-.vn.photo-on .vn-chars[data-n="2"] .vn-chr{height:128%;top:5%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-left,.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-center{left:50%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-right{left:80%}
+.vn.photo-on .vn-chars[data-n="2"] .vn-chr{height:128%;top:5%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-left,.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-center{left:50%}.vn.photo-on .vn-chars[data-n="2"] .vn-chr.pos-right{left:80%}.vn.photo-on .vn-chars[data-n="2"]:has(.pos-left) .vn-chr.pos-center{left:80%}
 .vn.photo-on .vn-chars[data-n="3"] .vn-chr,.vn.photo-on .vn-chars[data-n="4"] .vn-chr{height:108%;top:8%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-left{left:42%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-center{left:64%}.vn.photo-on .vn-chars[data-n="3"] .vn-chr.pos-right{left:86%}
 .vn.ui-hidden .vn-photo{display:none}
 

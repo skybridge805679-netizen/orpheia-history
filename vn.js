@@ -32,7 +32,7 @@ const CAST={
 // 모브: 검은 실루엣(assets/mob_*.webp). 대사 이름표가 아래 이름이면 그 실루엣이 자동으로 선다. 장마다 @mob 이름=원형 으로 덮어쓴다.
 const MOB_TYPES=['soldier_ancient','official_ancient','king_ancient','scholar','farmer','blacksmith','merchant','elder_man','woman_elder','woman','court_lady','noble_joseon','soldier_joseon','soldier_modern','man_modern','crowd','child'];
 for(const m of MOB_TYPES)CAST['mob_'+m]={name:'',cls:'c-mob',stand:{neutral:'mob_'+m}};
-const MOB_BY_NAME={'국밥집 주인':'woman','소금 장수':'elder_man','도고 상인':'merchant','의주 상인':'merchant','여각 주인':'elder_man','전령':'soldier_ancient','젊은 병사':'soldier_ancient','석공':'farmer','귀족':'official_ancient','집사':'scholar','스님':'none','관리':'official_ancient','병사':'soldier_ancient','신라 수군':'soldier_ancient','김춘추':'official_ancient','늙은 병사':'soldier_ancient','늙은 도방 병사':'soldier_ancient','고구려 병사':'soldier_ancient','백제 병사':'soldier_ancient','감독관':'soldier_ancient',
+const MOB_BY_NAME={'신문 배달 소년':'child','해산 군인':'soldier_modern','국밥집 주인':'woman','소금 장수':'elder_man','도고 상인':'merchant','의주 상인':'merchant','여각 주인':'elder_man','전령':'soldier_ancient','젊은 병사':'soldier_ancient','석공':'farmer','귀족':'official_ancient','집사':'scholar','스님':'none','관리':'official_ancient','병사':'soldier_ancient','신라 수군':'soldier_ancient','김춘추':'official_ancient','늙은 병사':'soldier_ancient','늙은 도방 병사':'soldier_ancient','고구려 병사':'soldier_ancient','백제 병사':'soldier_ancient','감독관':'soldier_ancient',
  '태학 박사':'official_ancient','백제 관리':'official_ancient','고구려 관리':'official_ancient','귀족':'official_ancient','사신':'official_ancient','신라 사신':'official_ancient','시험관':'official_ancient','준왕':'king_ancient',
  '선비':'scholar','고흥':'scholar','젊은 관리':'scholar','문벌 도령':'scholar','승객':'scholar','응시생들':'crowd',
  '농부':'farmer','농민':'farmer','만적':'farmer','대장장이':'blacksmith','송나라 상인':'merchant','강 행수':'merchant','다점 주인':'merchant',
@@ -134,7 +134,7 @@ function step(){
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;if(op.flag==='orp')S.flags.orp=Math.min(100,S.flags.orp);S.pc++;break;
    case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
-   case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();S.pc++;paint();break;
+   case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();if(S.photo&&Object.keys(S.chars).length>=3)for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.pc++;paint();break;
    case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
@@ -164,7 +164,7 @@ function step(){
     if(op.t==='say'&&!CAST[op.who]){const t=(S.mobMap||{})[op.who]??MOB_BY_NAME[op.who];const id=t&&t!=='none'?'mob_'+t:null;
      if(id&&!S.chars[id]){for(const k of Object.keys(S.chars))if(k.startsWith('mob_')&&S.chars[k].auto)delete S.chars[k];
       const others=Object.values(S.chars);let pos=null;
-      if(!others.length)pos='center';else if(others.length===1)pos=others[0].pos==='right'?'left':'right';else if(others.length===2){const u=new Set(others.map(c=>c.pos));pos=['center','left','right'].find(p=>!u.has(p))||null;}
+      if(!others.length)pos='center';else if(others.length===1)pos=others[0].pos==='right'?'left':'right';else if(others.length===2&&!S.photo&&!S.phone){const u=new Set(others.map(c=>c.pos));pos=['center','left','right'].find(p=>!u.has(p))||null;}
       if(pos){if(others.length===1&&others[0].pos==='center')others[0].pos=pos==='right'?'left':'right';S.chars[id]={expr:'neutral',pos,auto:true};pendingFx[id]='enter';}}
      S.speakingMob=id;}else if(op.t==='say')S.speakingMob=null;
     // 그 인물에게 없는 표정이면 지금 그림을 그대로 둔다(나루처럼 시대 옷으로만 그린 인물이 사라지거나 옷이 바뀌지 않게).
@@ -684,5 +684,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
+return {_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
 })();
