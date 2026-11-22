@@ -388,6 +388,12 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [초련] 흥. 막내 혼자 보내면 걱정돼서 따라온 것뿐이에요. ……병풍 뒤 일, 책임지라고 했죠.
 [화선] 두건 서방님! 우리 넷이 한꺼번에 시집오면 잔치도 한 번만 하면 되잖아요? 이득이죠!
 [설아] ……눈 감으세요. 이번엔 숨겨 드리는 게 아니라, 안 놓아 드리는 거예요.
+@bg cg_end_harem_samguk|cg_ep_all
+모니터에서 화살 한 대가 먼저 날아와 벽 달력에 꽂힌다. 그 뒤로 깃 장식 활을 멘 여자와, 죽간 뭉치를 끌어안은 여자가 서로 어깨를 밀치며 내려선다.
+[아라] 남쪽 사슴 씨! 과녁 한가운데 맞힐 때까지 안 보내 준다고 했죠? 그러니까 제가 왔어요. 아이 이름은 고구려식으로 지을 거예요.
+[가온] 통역 없이 말하기로 했잖아요. ……좋아해요. 이 말 하러 천삼백 년 건너왔어요.
+[아라] 신라 통역이 또 먼저 말했네! 그때도 그러더니!
+[오르페이아|pout] 두 분, 같은 전쟁을 양쪽에서 보셨으면 이번엔 같은 편에서 줄 서 주세요. 맨 뒤로요.
 @bg cg_end_harem_haneui|cg_ep_all
 모니터가 한 번 더 금빛으로 번쩍인다. 비단 너울 자락이 먼저 내려서고, 금 귀걸이가 달랑거린다.
 [하늬] 정인님! 담 넘어왔어요. 천 년 걸린다더니 생각보다 금방이네요.
@@ -426,8 +432,8 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [묵|smirk] 늦었네. 나는 오답 노트에서 벌써 혼인 서약 칸 찾아 놨는데.
 @show sayeon smile right
 @cutin record
-[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 열일곱 명. 사관인 저를 포함하여.
-[오르페이아|surprised] 열일곱 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 열여덟 명! 제가 첫 번째예요!
+[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 열아홉 명. 사관인 저를 포함하여.
+[오르페이아|surprised] 열아홉 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스무 명! 제가 첫 번째예요!
 @hide all
 @show yunseul surprised center
 [윤슬|surprised] ……뭐야, 새벽 세 시에 왜 이렇게 시끄러워. 오빠, 이 언니들 다 누구야?
@@ -561,7 +567,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show dodam smile right
 [도담|smile] 서방님, 약 드실 시간이에요. 도담표 탕약, 오늘로 마흔이틀째. 남김없이요.
 [상철] 이거 대체 무슨 약이야. 매일 먹는데 왜 이렇게 기운이 남아돌아.
-[도담|shy] 신부가 열일곱이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
+[도담|shy] 신부가 열아홉이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
 [상철] 또?
 [도담|serious] 의원 말 들어요. 이 침은 저만 아는 자리예요. 언니들이 아침마다 저한테 고맙다고 떡을 갖다줘요. 처방이 잘 듣는다는 뜻이죠.
 @show orpheia pout left
@@ -603,6 +609,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [해랑|pregnant] 발해 여자는 배가 불러도 사슴을 들쳐 메요. ……오늘은 안 메요. 오늘만이에요.
 @show yeoul pregnant right
 [여울|pregnant] 서방님. 이번 거래는 기한도 반품도 없어요. 아시죠?
+@hide all
+@show ara pregnant left
+[아라|pregnant] 이 아이 이름은 고구려식으로 지을 거예요. 할아버지가 살수에서 그랬거든요. 손주의 손주까지 이야기를 물려주겠다고.
+@show gaon pregnant right
+[가온|pregnant] 이 아이한테는 처음부터 제 말로 말해 줄 거예요. 옮기지 않고요.
 @hide all
 @show haneui pregnant center
 [하늬|pregnant] 이 아이는 골품 같은 거 몰랐으면 좋겠어요. 정답이 정해지지 않은 아이로요.
@@ -744,7 +755,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru ara gaon haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -758,6 +769,30 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [도담|smile] 그럼 가요, 손님. 대신 아프면 안 돼요. 손님 처방은 제 노래 한 곡이에요.
 @add dodam 5
 @ending 도담의 처방|진주의 의원 도담에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_ara
+@bg cg_ara_farewell|bg_era_gibeolpo
+@day 보덕국 · 활터, 새벽
+[아라|smile] 남쪽 사슴 씨! 노래 들었어요. 보덕국 아이들이 다 따라 불러요. 고구려 말 가사로요.
+[아라|shy] 할아버지가 그러셨어요. 살아서 고구려 사람으로 남으라고. ……남쪽 사슴 씨 곁이면, 고구려 사람인 채로 남을 수 있을 것 같은데.
+[상철] ……미안. 나는 돌아가야 해. 대신 고구려 노래, 천 년 뒤에도 불러지게 해 놓을게. 네 할아버지 이야기까지.
+[아라|teary] 치사해요. 그런 화살은 피할 수가 없잖아요.
+[아라|smile] 그럼 가요. 이제 안 쏠게요. 이미 맞혔으니까.
+@add ara 5
+@ending 아라의 과녁|고구려의 여궁수 아라에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_gaon
+@bg cg_gaon_farewell|bg_era_gibeolpo
+@day 기벌포 · 해 뜰 녘
+[가온|smile] 손님! 노래 들었어요. 이번엔 제가 옮길 필요가 없었어요. 백제 사람도, 고구려 사람도, 신라 사람도 다 알아듣더라고요.
+[가온|shy] 평생 남의 말만 옮겼는데, 오늘은 제 말 하나만 할게요. ……가지 마요.
+[상철] ……미안. 나는 돌아가야 해. 대신 그 말, 노래에 넣었어. 통역 없이 한 첫마디라고.
+[가온|teary] 치사해요. 처음 한 제 말을 그렇게 받아 가면, 다음 말을 못 하잖아요.
+[가온|smile] 그럼 가요, 손님. 좋아해요. 이건 아무도 안 옮겨 줘도 되는 말이죠?
+@add gaon 5
+@ending 가온의 첫마디|김춘추 사절단의 통역 가온에게 「연표」를 남기고 돌아왔다.
 @jump coda
 
 @label hero_haneui
