@@ -4848,5 +4848,100 @@
   "seed": 2604043,
   "prompt": "2girls, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light, an arrow stuck in a wall calendar, two ancient women stepping out of the light and pushing each other by the shoulders to reach a young man first, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
+ },
+ "st_maru_smile": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+  "init": null
+ },
+ "st_maru_shy": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, shy, deep blush, looking away, fidgeting",
+  "init": null
+ },
+ "st_maru_angry": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, angry, frowning, puffed cheeks, pointing at viewer",
+  "init": null
+ },
+ "st_maru_surprised": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+  "init": null
+ },
+ "st_maru_teary": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, teary eyes, trembling smile, wiping a tear",
+  "init": null
+ },
+ "st_maru_serious": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, serious determined expression, calm",
+  "init": null
+ },
+ "st_maru_pregnant": {
+  "seed": 2607070,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, standing, full body, looking at viewer, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+  "init": null
+ },
+ "st_seori_smile": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+  "init": null
+ },
+ "st_seori_shy": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, shy, deep blush, looking away, fidgeting",
+  "init": null
+ },
+ "st_seori_angry": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, angry, frowning, puffed cheeks, pointing at viewer",
+  "init": null
+ },
+ "st_seori_surprised": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+  "init": null
+ },
+ "st_seori_teary": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, teary eyes, trembling smile, wiping a tear",
+  "init": null
+ },
+ "st_seori_serious": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, serious determined expression, calm",
+  "init": null
+ },
+ "st_seori_pregnant": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+  "init": null
+ },
+ "cg_ch07_maru": {
+  "seed": 2607071,
+  "prompt": "1girl, 1boy, comedic lucky pervert accident, wooden daecheong floor hall of a korean noble house, spilled water everywhere, overturned water buckets and a wooden yoke, a young woman fallen on top of a young man on the wet wooden floor, iron keys scattered on his chest, her jacket tie came undone, in the background a young man in scholar robes frozen in the gateway, sparkles, splash, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ch07_seori": {
+  "seed": 2607081,
+  "prompt": "1girl, 1boy, comedic, snowy frontier wooden palisade fort, deep snow, a young woman sitting on top of a young man lying in the snow, tying his wrists with a grain sack rope, her fur hat askew, snow flying, sneezing, sparkles, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_maru_farewell": {
+  "seed": 2607072,
+  "prompt": "1girl, solo, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, kneeling on a polished wooden daecheong floor of a korean house in the morning, holding out a ring of iron keys with both hands, tearful smile, sunlight through paper doors, a pair of shoes neatly placed at the edge of the floor, emotional, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_seori_farewell": {
+  "seed": 2607082,
+  "prompt": "1girl, solo, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing on a riverbank with first snow falling, an empty hand cart beside her, waving with a mitten, tearful smile, red nose, ancient walled city across the river, emotional, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_end_harem_goryeo": {
+  "seed": 2607073,
+  "prompt": "2girls, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light, two ancient korean women stuck side by side in the doorway pushing each other, a ring of keys and a fur hat flying, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+  "init": null
  }
 }
