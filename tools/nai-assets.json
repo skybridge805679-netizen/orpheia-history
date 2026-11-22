@@ -7045,9 +7045,9 @@
    "id": "st_dasom_pregnant",
    "size": "stand",
    "transparent": true,
-   "seed": 1616161,
+   "seed": 1616177,
    "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls, background, pattern, diamond, grey backdrop"
   },
   {
    "id": "st_maehyang_pregnant",
