@@ -33,6 +33,15 @@ def SCENE(img, bubs, flip=False):
     band=lines*29+48
     b="".join(f'<div class="bub {side}" style="left:{x}px;top:8px;width:{w}px">{f"<span class=who>{E(who)}</span>" if who else ""}{t}</div>' for who,t,x,y,w,side in bubs)
     return f'<div class="scene" style="--band:{band}px"><img class="bg" src="{src}"{' style="transform:scaleX(-1)"' if flip else ''}>{b}</div>'
+def FRAME(img, who, line, inner):
+    """원본 기출처럼 진행자(해설사·교사·앵커 …)가 자료 옆에 서서 말풍선으로 소개한다. 단서는 자료(inner)에 있다."""
+    src=(ROOT/"assets"/f"{img}.webp").as_uri()
+    return f'<div class="frame"><div class="mat">{inner}</div><div class="pres"><div class="pbub"><span class=who>{E(who)}</span>{line}</div><img src="{src}"></div></div>'
+def GROUP(img, items):
+    """모둠 발표: 학생 셋이 (가)(나)(다)를 하나씩 말한다(그림 왼쪽·가운데·오른쪽)."""
+    xs=[(10,300),(320,300),(630,292)]
+    bubs=[("",f'<span class=lab>{lab}</span>{txt}',x,0,w,"l" if k<2 else "r") for k,((lab,txt),(x,w)) in enumerate(zip(items,xs))]
+    return SCENE(img,bubs)
 def VERDICT(t): return f'<div class="verdict"><h4>판결문</h4>{t}</div>'
 def CARD(title, items): return f'<div class="card"><h4>{title}</h4><ul>{"".join(f"<li>{i}</li>" for i in items)}</ul></div>'
 BL=lambda s="(가)": f'<span class="blank">{s}</span>'

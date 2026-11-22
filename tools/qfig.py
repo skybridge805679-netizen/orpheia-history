@@ -74,6 +74,11 @@ th{{background:#f1e3ee;font-weight:bold}}
 .card ul{{margin:0;padding-left:22px;font-size:19px;line-height:1.85}}
 .cap{{font-size:15px;color:#555;text-align:center;margin-top:6px}}
 .photos{{display:flex;gap:12px;justify-content:center}}.photos figure{{margin:0;text-align:center;font-size:16px}}.photos img{{height:200px;max-width:300px;object-fit:cover;border:1px solid #999}}
+.frame{{display:flex;gap:18px;align-items:flex-end;width:932px}}.frame .mat{{flex:1 1 auto;min-width:0}}.frame .mat>*:last-child{{margin-bottom:0}}
+.frame .pres{{flex:0 0 290px;display:flex;flex-direction:column;gap:14px}}.frame .pres img{{width:290px;display:block;border:1px solid #bbb;border-radius:6px}}
+.frame .pbub{{position:relative;background:#fff;border:2px solid #333;border-radius:18px;padding:12px 16px;font-size:18px;line-height:1.6;box-shadow:2px 3px 0 #0002}}
+.frame .pbub:after{{content:'';position:absolute;width:18px;height:18px;background:#fff;border-right:2px solid #333;border-bottom:2px solid #333;bottom:-11px;left:120px;transform:rotate(45deg)}}
+.bub .lab{{display:inline-block;font-weight:bold;color:#fff;background:#1d5c55;border-radius:6px;padding:0 8px;margin-right:6px}}
 """
 
 def saryo(texts, src=None):
