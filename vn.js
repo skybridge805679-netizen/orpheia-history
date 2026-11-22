@@ -144,7 +144,7 @@ function step(){
    case 'board':{const ids=op.arg.trim().split(/\s+/);if(ids.every(id=>(S.boardShown||[]).includes(id))){S.pc++;break;}return board(ids);}
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();if(S.photo&&Object.keys(S.chars).length>=3)for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.pc++;paint();break;
-   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];BGM.scene(a);}S.pc++;paint();break;
+   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];S.cutin=null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
     const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,home:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
@@ -159,6 +159,8 @@ function step(){
    case 'hud':{const [t,...ls]=fill(op.arg).split('|');return card('hud',t.trim(),ls.map(x=>x.trim()).join('\n'));}
    case 'flash':fx('flash');SFX.play('flash');S.pc++;break;
    case 'sfx':SFX.play(op.arg);S.pc++;break;
+   // 컷인: 배경은 그대로 두고 그림 한 장을 다음 대사 한 줄 동안 액자처럼 띄운다. `@cutin pout`은 삐진 오르페이아(옛 시대 장면이면 한복판).
+   case 'cutin':{const a=op.arg.trim();S.cutin=a==='off'?null:{n:a,shown:false};S.pc++;paint();break;}
    // 호러·긴장 연출. 지속 분위기(MOOD)는 @fx off(또는 -이름)나 배경이 바뀔 때까지 남고, 순간 효과(HIT)는 한 번 친다.
    case 'fx':{const m=new Set(S.mood||[]);for(const k of op.arg.trim().split(/\s+/)){if(k==='off')m.clear();else if(k[0]==='-')m.delete(k.slice(1));else if(MOOD.includes(k))m.add(k);else if(HIT[k]){fx('hit-'+k,HIT[k][1]);if(HIT[k][0])SFX.play(HIT[k][0]);}}S.mood=[...m];paintMood();S.pc++;break;}
    case 'wait':busy=true;setTimeout(()=>{busy=false;S.pc++;step();},+op.arg||600);return;
@@ -172,6 +174,7 @@ function step(){
    case 'outfit':S.outfit=op.arg.trim()==='auto'?null:op.arg.trim();S.pc++;paint();break;
    case 'mob':{const [n,t]=op.arg.split('=').map(x=>x.trim());(S.mobMap||(S.mobMap={}))[n]=t;S.pc++;break;}
    case 'say':case 'narr':
+    if(S.cutin){if(S.cutin.shown)S.cutin=null;else S.cutin.shown=true;}
     if(op.t==='say'&&!CAST[op.who]){const t=(S.mobMap||{})[op.who]??MOB_BY_NAME[op.who];const id=t&&t!=='none'?'mob_'+t:null;
      if(id&&!S.chars[id]){for(const k of Object.keys(S.chars))if(k.startsWith('mob_')&&S.chars[k].auto)delete S.chars[k];
       const others=Object.values(S.chars);let pos=null;
@@ -274,6 +277,15 @@ function sdPop(kind){
  el.onerror=()=>{el.hidden=true;};el.hidden=false;el.src=asset(`sd_orp_${kind}.webp`);el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');
  clearTimeout(el._t);el._t=setTimeout(()=>{el.hidden=true;},2400);
 }
+const CUTIN={pout:()=>orpHanbok()?'cg_orpheia_jealous_hanbok':'cg_orpheia_jealous'};
+function paintCutin(){
+ const v=$('#vn');if(!v)return;let el=$('#vnCutin');
+ if(!S.cutin){if(el)el.hidden=true;return;}
+ if(!el){el=document.createElement('figure');el.id='vnCutin';el.className='vn-cutin';el.innerHTML='<img alt="">';v.appendChild(el);}
+ const n=(CUTIN[S.cutin.n]||(()=>S.cutin.n))(),src=asset(n+'.webp'),img=el.querySelector('img');
+ if(img.dataset.f!==src){img.dataset.f=src;img.onerror=()=>{if(n.endsWith('_hanbok'))img.src=asset('cg_orpheia_jealous.webp');};img.src=src;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');seeCg(src);}
+ el.hidden=false;
+}
 function paintPhoto(){
  const el=$('#vnPhoto');if(!el)return;const [name,label]=String(S.photo||'').split('|').map(x=>x.trim()),h=name&&heritage(name);
  el.hidden=!h;$('#vn').classList.toggle('photo-on',!!h);if(!h){el.classList.remove('big');return;}
@@ -284,7 +296,7 @@ function paintPhoto(){
 function paint(){
  if(!$('#vn'))shell();
  const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;seeCg(bg.src);};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
- paintChars();paintPhoto();paintMood();
+ paintChars();paintPhoto();paintMood();paintCutin();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
  box.className='vn-box'+(l?.who?' '+(CAST[l.who]?.cls||'c-other'):' is-narr');
@@ -595,10 +607,10 @@ function mukGallery(){const d=$('#vnLog'),got=records.mukSkins||{},all=Object.en
 function seeCg(src){const k=String(src||'').split('/').pop().replace(/\.(webp|png)(\?.*)?$/,'');if(!/^cg_/.test(k)||/^cg_(ink_spread|comment_flame)$/.test(k))return;const a=records.cgSeen||(records.cgSeen=[]);if(!a.includes(k)){a.push(k);save();}}
 BGM.onplay=n=>{if(!n||n==='bgm_title')return;const a=records.bgmHeard||(records.bgmHeard=[]);if(!a.includes(n)){a.push(n);save();}};
 const SONG_TITLE={song_ch01:'돌덩이 러브레터',song_ch02:'다섯 나라 페스티벌',song_ch03:'한강의 깃발',song_ch04:'칠십 년의 전쟁',song_ch05:'바다 건너 등주로',song_ch06:'천 년의 저녁',song_ch07:'왕들의 배틀',song_ch08:'칼과 말발굽',song_ch09:'여울 상단',song_ch10:'상순이의 궁궐',song_ch11:'격군의 노래',song_ch12:'상복 3년 대 1년',song_ch13:'장터의 노래',song_ch14:'하늘은 안 없어져요',song_ch15:'전차가 달리는 거리',song_ch16:'빼앗길 때마다',song_ch17:'만세의 봄',song_ch18:'여러 갈래의 길',song_ch19:'경성 시티팝',song_ch20:'광복의 새벽',song_ch21:'천막 교실의 노래',song_ch22:'4월의 교복, 6월의 거리',song_ch23:'선을 넘는 걸음',song_ep:'연표 (앨범 타이틀곡)',song_end_orpheia:'이유와 함께',song_end_fail:'노래는 남았다'};
-const BGM_TITLE={bgm_title:'타이틀',bgm_daily:'작업실 낮',bgm_night_shift:'새벽 세 시의 작업실',bgm_outing:'연표 다이브',bgm_orpheia:'오르페이아 테마',bgm_exam:'기출 풀기',bgm_result:'발매 정산',bgm_challenge:'먹물과의 배틀',bgm_comedy:'러브코미디 사건',bgm_romance:'설렘',bgm_tragic:'비극의 현장',bgm_yunseul:'윤슬 테마',bgm_ending:'전원 집합',bgm_sayeon:'사관의 시험',bgm_jealous:'질투 소동'};
+const BGM_TITLE={bgm_title:'타이틀',bgm_daily:'작업실 낮',bgm_night_shift:'새벽 세 시의 작업실',bgm_outing:'연표 다이브',bgm_orpheia:'오르페이아 테마',bgm_exam:'기출 풀기',bgm_result:'발매 정산',bgm_challenge:'먹물과의 배틀',bgm_comedy:'러브코미디 사건',bgm_romance:'설렘',bgm_tragic:'비극의 현장',bgm_yunseul:'윤슬 테마',bgm_ending:'전원 집합',bgm_sayeon:'사관의 시험',bgm_jealous:'질투 소동',bgm_horror:'남겨진 밤',bgm_exorcist:'야간 근무',bgm_babies:'고모의 육아지옥',bgm_family:'오늘을 산다',bgm_noble:'담장 너머 아가씨',bgm_clinic:'도담의 진료소'};
 function galleryCgs(){
  const groups=[],seen=new Set();
- for(const c of [...chapters,...sides]){const list=[];for(const o of c.ops)if(o.t==='bg'){const k=o.arg.split('|')[0].trim();if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.side?`${c.title} · ${c.subtitle}`:c.title,list});}
+ for(const c of [...chapters,...sides]){const list=[];for(const o of c.ops){const ks=o.t==='bg'?[o.arg.split('|')[0].trim()]:o.t==='cutin'?(o.arg.trim()==='pout'?['cg_orpheia_jealous','cg_orpheia_jealous_hanbok']:[o.arg.trim()]):[];for(const k of ks)if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.side?`${c.title} · ${c.subtitle}`:c.title,list});}
  const battle=['cg_orp_b1','cg_orp_b2','cg_orp_b3','cg_sayeon_b0','cg_sayeon_b1','cg_sayeon_b2','cg_sayeon_b3'];
  for(const k of Object.keys(window.SAYEON_SKINS||{}))for(let i=0;i<4;i++)battle.push(`cg_sayeon_${k}_b${i}`);
  groups.push({t:'배틀 — 오르페이아·사연',list:battle.filter(k=>!seen.has(k))});

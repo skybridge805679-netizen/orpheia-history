@@ -114,6 +114,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [상철] 배가 기울었어! 배가!
 @show orpheia pout center
 @sd pout
+@cutin pout
 [오르페이아|pout] ……주인님. 한강에서는 덮치고, 바다에서는 파고들고. 같은 집안 아가씨한테 두 번째예요.
 [나루|shy] ……할머니의 할머니가 한강에서 두건 쓴 손님한테 덮쳐졌다더니, 그 손님이 정말 있었구나.
 [오르페이아|pout] 네. 동일 인물이에요.
@@ -254,8 +255,10 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [하늬|smile] 잘됐다! 시녀야, 들어라. 이분이 내 정인이시다. 그러니 이찬 댁 혼담은 없던 걸로 하자꾸나.
 [시녀] 네에에?!
 [상철] 네에에?!
+@cutin pout
 [오르페이아|pout] 네에에에에?!
 @bg bg_era_gyeongju
+@bgm bgm_noble
 @show haneui smile right
 @show orpheia pout left
 [하늬|smile] 김씨 하늬예요. 아버님은 진골, 어머님도 진골, 할아버님도 진골. 혼처도 당연히 진골. 쉰 살 넘은 이찬 어른이랍니다.
@@ -301,6 +304,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @label hn1end
 @hide all
 @bg bg_era_gyeongju
+@bgm bgm_noble
 @day 경주 · 김씨 댁 사랑채, 그날 밤
 @mob 집사=none
 비단 병풍 앞. 이찬 댁에서 온 늙은 집사가 혼서 보자기를 내려놓다가, 하늬 옆에 앉은 후드 차림의 사내를 보고 굳는다.
@@ -317,6 +321,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @show haneui shy right
 @show orpheia pout left
+@cutin pout
 [오르페이아|pout] 주인님. 한강에서 덮치고, 바다에서 파고들고, 이번엔 경주 한복판에서 깔리셨어요. 보좌 기록에 '신라 편'이 따로 생겼어요.
 [상철] 이번엔 진짜 내가 깔린 거라니까.
 [하늬|smile] 그럼 다음엔 제가 깔릴게요♪

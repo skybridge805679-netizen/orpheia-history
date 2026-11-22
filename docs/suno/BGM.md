@@ -99,3 +99,19 @@ hyperactive bubblegum pop instrumental, fast synth bass, sparkling chiptune acce
 ```
 grand emotional finale instrumental, full band with sparkling guitars, soaring strings, choir pads, the main title melody returning in a brighter key, celebration and gratitude, every character gathered, tears and laughter, ends on a warm sustained chord, no vocals
 ```
+
+
+---
+
+## 2026.11 추가 (새 장면용, Suno v6, 각 2곡 중 앞 곡 채택)
+
+| 파일 | 제목 | 쓰이는 곳 | Suno id |
+|---|---|---|---|
+| bgm_horror | 남겨진 밤 | 남겨진 남편 장면(`cg_after_husband`), 혜진 외전 악귀·새벽 | 3b4e8124-c2c4-434f-b6b0-c52f9e80ea97 |
+| bgm_exorcist | 야간 근무 | 혜진 퇴마(`cg_sp_ex_battle`) | 5ab1c38e-ef63-4d13-b4c6-f2583a10cd71 |
+| bgm_babies | 고모의 육아지옥 | 육아지옥 외전 | 257c0c97-1988-4a4d-99b1-5e007b66c5c8 |
+| bgm_family | 오늘을 산다 | 애프터(편의점·욕실·옥상·아기) | ac2a6623-a2b8-4b22-b4a7-1396ba0b7691 |
+| bgm_noble | 담장 너머 아가씨 | 6장 하늬 | 274227c0-0e2e-4530-a513-8c1f2ab25cc0 |
+| bgm_clinic | 도담의 진료소 | 11장 도담, 애프터 진료소 | 8fcd1cee-a63c-4536-bc8a-758e5ef84502 |
+
+Style: bgm_horror `dark ambient horror instrumental, low droning synth, detuned music box melody, distant creaking, sparse piano notes, cold fluorescent hum, slow heartbeat-like pulse` / bgm_exorcist `korean shaman gut rock fusion, fast janggu and buk drums, brass shaman bells, taepyeongso, distorted electric guitar` / bgm_babies `chaotic comedic, toy piano, tuba oom-pah, kazoo, xylophone, squeaky rubber duck` / bgm_family `warm acoustic home, fingerpicked guitar, soft gayageum, cozy piano` / bgm_noble `elegant ancient korean court romcom, gayageum, daegeum, string pizzicato, harp` / bgm_clinic `lively korean folk, haegeum, gayageum, light janggu, bubbling herbal pot rhythm`. 파일이 없으면 `bgm.js`의 FB(대체 곡)로 튼다.

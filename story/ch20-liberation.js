@@ -173,6 +173,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [새벽|shy] 그, 그럼 움직이지 마요! 움직이면 더 이상한 데로 가잖아요!
 @show orpheia pout left
 @sd pout
+@cutin pout
 [오르페이아|pout] 주인님. 저는 다 보여요. 지금 손 위치, 정확히 기록했어요. 군사 기밀급이에요.
 [새벽|angry] 그 하얀 분은 보이면 좀 풀어 줘요!! 교관님이 보고 있어요!!
 @hide orpheia

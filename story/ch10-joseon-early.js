@@ -57,6 +57,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 상궁의 발소리가 멀어진다. 소담은 한참이 지나서야 팔을 풀었다. 얼굴이 약과보다 더 붉다.
 @show orpheia pout left
 @sd pout
+@cutin pout
 [오르페이아|pout] ……주인님. 방금 그건 은신이 아니라 포옹이에요. 7.4초였어요. 세고 있었어요.
 @hide orpheia
 @bg cg_ch10_sodam_yakgwa

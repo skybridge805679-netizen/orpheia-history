@@ -599,3 +599,10 @@ dialog#vnLog.nb[open]{display:flex}
 @media (prefers-reduced-motion:reduce){.vn.mood-flicker .vn-bg,.vn.mood-tremble #vnText,.vn.hit-thud,.vn.hit-pulse .vn-bg img{animation:none}}
 
 .bd-pre{margin:0 0 8px;padding:8px 14px;background:rgba(255,255,255,.08);border-left:3px solid #9fcdb6;color:#eaf6ef;font-family:var(--f-body)}
+
+/* @cutin: 배경 위 액자 컷 */
+.vn-cutin{position:absolute;z-index:3;left:50%;top:5%;width:min(58%,860px);margin:0;transform:translateX(-50%) rotate(-2deg);border:6px solid #fff;border-radius:4px;box-shadow:0 12px 40px rgba(0,0,0,.55);pointer-events:none;background:#fff}
+.vn-cutin img{display:block;width:100%;height:auto}
+.vn-cutin.pop{animation:cutinPop .4s cubic-bezier(.2,1.5,.4,1)}
+@keyframes cutinPop{from{opacity:0;transform:translateX(-50%) rotate(-8deg) scale(.6)}to{opacity:1;transform:translateX(-50%) rotate(-2deg) scale(1)}}
+@media (max-width:700px){.vn-cutin{width:86%;top:8%}}

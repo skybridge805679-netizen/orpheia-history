@@ -44,7 +44,7 @@ VN.chapter('sp_exorcist','외전','열여덟 무당의 야간 근무',`
 [혜진|pout] 잘 사는 집이네. 좋겠다. 우리 집은 신당 때문에 친구도 못 데려오는데.
 ……이런 것까지 보이는 것도 싫다. 남의 집 행복 같은 건, 남들처럼 몰라도 되잖아. 몰라야 부럽지도 않잖아.
 @hide all
-@bgm off
+@bgm bgm_horror
 @fx cold
 @sfx hum
 그대로 지나가려는데, 목덜미가 서늘했다.
@@ -78,7 +78,7 @@ VN.chapter('sp_exorcist','외전','열여덟 무당의 야간 근무',`
 @sfx select
 [혜진|smile] 도착 예정 사십 분. 오케이, 넉넉해.
 @hide all
-@bgm tension
+@bgm bgm_exorcist
 @day 00:13 · 골목 · 처리
 @bg cg_sp_ex_battle|bg_sp_alley_night
 @fx -flicker
@@ -116,7 +116,7 @@ VN.chapter('sp_exorcist','외전','열여덟 무당의 야간 근무',`
 부적 다섯 장째를 주먹째 꽂았다. 아저씨가 처음으로 나를 봤다. 얼굴이 없는데, 그게 느껴졌다.
 ……그리고 다시 창문 쪽으로 고개를 돌렸다.
 @hide all
-@bgm off
+@bgm bgm_horror
 @day 05:21 · 골목 · 새벽
 @bg cg_sp_ex_dawn|bg_sp_alley_night
 @fx cold

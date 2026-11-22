@@ -7648,6 +7648,13 @@
    "seed": 1111304,
    "prompt": "1girl, solo focus, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist but wearing a modern white cardigan over her jeogori, sitting at a corner of a cozy modern home music studio turned into a tiny clinic behind a folding screen, herb bundles hanging, an acupuncture needle case, a smartphone on a stand showing a blurred medical video, an open old korean medical book next to a modern medical textbook, she is studying with a pen in her mouth, determined smile, warm lamp light, slice of life, masterpiece, no readable text",
    "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_orpheia_jealous_hanbok",
+   "size": "bg",
+   "seed": 5151551,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, deep green chima, emerald norigae, puffed cheeks, jealous glare, angry vein mark, crossed arms, dark aura with flames behind her, chibi angry symbols, looking at viewer from close, upper body, comedic",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, maid"
   }
  ]
 }

@@ -59,6 +59,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 [단오|shy] 내, 내려 줘요! 혼례 아니에요! 누가 이런 두건 쓴 수상한 남자랑──
 @show orpheia pout left
 @sd pout
+@cutin pout
 [오르페이아|pout] 혼례 아니에요!! 여러분, 해산하세요! 이분 매니저는 저예요!
 @hide orpheia
 @bg cg_ch13_dano_wink

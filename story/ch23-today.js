@@ -35,6 +35,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 [새벽] 그리고 이 양반, 그때 엄마 첫사랑이었어.
 [다솜|surprised] 엄마!!
 @show orpheia pout left
+@cutin pout
 [오르페이아|pout] ……주인님. 모녀 2대예요. 기록 갱신이에요.
 @choice
 > (다솜에게) 엄마 이야기, 노래에 넣어도 될까? -> hr23a {dasom+5}
