@@ -58,7 +58,7 @@ function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
 // 시대 옷으로 그린 인물(나루): @show의 옷을 기억하고, 표정 그림은 옷별로(st_naru_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
 const COSTUME={naru:new Set(['baekje','goguryeo','silla','sea','joseon']),saebyeok:new Set(['mom'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
-const COSTUME_EXPR={naru:new Set(['smile','shy','surprised','angry','teary']),saebyeok:new Set([])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
+const COSTUME_EXPR={naru:new Set(['smile','shy','surprised','angry','teary']),saebyeok:new Set(['smile','surprised','serious'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
 // 같은 자리에 두 사람이 겹쳐 서지 않게 한다. keep(방금 @show 한 사람)은 그 자리를 지키고, 겹친 사람은 원래 자리(home)가 비었으면 거기로, 아니면 빈자리로 옮긴다.
