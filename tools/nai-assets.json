@@ -7169,9 +7169,9 @@
   {
    "id": "cg_sp_ex_house",
    "size": "bg",
-   "seed": 1818112,
-   "prompt": "1girl, solo, teenage girl, 18 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, unique uniform fusing hanbok and school uniform, white jeogori-style blouse with crossed collar and dongjeong, red goreum ribbon at the chest, navy vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, school bag with brass shaman bells, five-colored cloth strips on her wrist, seen from behind, standing in a korean residential alley at night, looking up in awe at a two-storey house, every window glowing warm, countless small round golden spirit lights floating out of the windows like fireflies, one faint silver sparkle among them, magical, wonder, cinematic, no readable text, masterpiece",
-   "negative": "watermark, signature, text, logo, cleavage, revealing clothes, short skirt, panties, nsfw, gore, blood"
+   "seed": 1818212,
+   "prompt": "1girl, solo, teenage girl, 18 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, unique uniform fusing hanbok and school uniform, white jeogori-style blouse with crossed collar and dongjeong, red goreum ribbon at the chest, navy vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, school bag with brass shaman bells, five-colored cloth strips on her wrist, from side, profile view, face visible from the side, standing on the left in a korean residential alley at night, turning her head up to look in awe at a two-storey house on the right, every window glowing warm, countless small round golden spirit lights floating out of the windows like fireflies, one faint silver sparkle among them, magical, wonder, cinematic, no readable text, masterpiece",
+   "negative": "from behind, back view, twisted body, reversed torso, extra arms, bad anatomy, watermark, signature, text, logo, cleavage, revealing clothes, short skirt, panties, nsfw, gore, blood"
   },
   {
    "id": "cg_sp_ex_ghost",
