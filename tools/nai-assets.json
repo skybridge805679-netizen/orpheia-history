@@ -5761,8 +5761,8 @@
    "id": "qs_p_reporter",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean tv field reporter in a trench coat holding a handheld microphone, long black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
-   "seed": 30906
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 34125
   },
   {
    "id": "qs_p_student",
@@ -5775,8 +5775,8 @@
    "id": "qs_p_guide",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
-   "seed": 93628
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 43717
   },
   {
    "id": "qs_group_class",
@@ -5788,9 +5788,9 @@
   {
    "id": "qs_group_museum",
    "size": "bg",
-   "prompt": "3girls, young adult, three korean young women students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
-   "seed": 5302
+   "prompt": "3girls, young adult, three korean young women students in casual clothes standing side by side in a history museum hall, each holding a plain notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 26862
   },
   {
    "id": "qs_f7",
@@ -5803,8 +5803,8 @@
    "id": "qs_f8",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean librarian in a teal cardigan holding an old book, wavy brown hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 99438
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 32521
   },
   {
    "id": "qs_f12",
@@ -5859,8 +5859,8 @@
    "id": "qs_f26",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean tv quiz show host in a teal formal jacket holding cue cards, black hair in a bun, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 53186
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 26313
   },
   {
    "id": "qs_f28",
@@ -6034,15 +6034,15 @@
    "id": "qs_f65",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean tv field reporter in a brown coat holding a microphone, wavy brown hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 16908
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 16081
   },
   {
    "id": "qs_f66",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean librarian in a charcoal cardigan holding an old book, black hair in a bun, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 21170
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 39315
   },
   {
    "id": "qs_f67",
@@ -6146,15 +6146,15 @@
    "id": "qs_f93",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a light gray vest, short bob black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 14298
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 63421
   },
   {
    "id": "qs_f94",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, middle-aged, korean history youtuber in a charcoal hoodie in front of a ring light and microphone, wavy brown hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 14898
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 74124
   },
   {
    "id": "qs_f96",
@@ -6216,8 +6216,8 @@
    "id": "qs_f108",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean history youtuber in a cream hoodie in front of a ring light and microphone, black hair in a bun, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 51993
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 81128
   },
   {
    "id": "qs_f109",
@@ -6230,8 +6230,8 @@
    "id": "qs_f112",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, korean tv quiz show host in a dark green formal jacket holding cue cards, short bob black hair, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 55609
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 32170
   },
   {
    "id": "qs_f113",
@@ -6251,8 +6251,8 @@
    "id": "qs_f116",
    "size": "stand",
    "prompt": "1girl, solo, adult woman, middle-aged, korean tv field reporter in a lavender coat holding a microphone, black hair in a bun, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 79243
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 20067
   },
   {
    "id": "qs_f117",
@@ -6397,9 +6397,9 @@
   {
    "id": "qs_g62",
    "size": "bg",
-   "prompt": "3girls, three young adult korean women students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a placard, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 12211
+   "prompt": "3girls, three young adult korean women students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a blank white sheet of paper, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 73861
   },
   {
    "id": "qs_g76",
@@ -6411,9 +6411,9 @@
   {
    "id": "qs_g84",
    "size": "bg",
-   "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a pamphlet, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
-   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
-   "seed": 97020
+   "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a plain colored notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli, artist name, username, twitter handle, english text, printed words on clothes, writing on paper, banner text",
+   "seed": 83660
   }
  ]
 }
