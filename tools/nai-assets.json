@@ -5760,7 +5760,7 @@
   {
    "id": "qs_p_reporter",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean tv field reporter in a trench coat holding a handheld microphone, short black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean tv field reporter in a trench coat holding a handheld microphone, long black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
    "seed": 30906
   },
@@ -5774,28 +5774,28 @@
   {
    "id": "qs_p_guide",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
    "seed": 93628
   },
   {
    "id": "qs_group_class",
    "size": "bg",
-   "prompt": "2girls, 1boy, young adult, three korean university students standing side by side in front of a blackboard in a classroom, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, young adult, three korean young women university students standing side by side in front of a blackboard in a classroom, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
    "seed": 82603
   },
   {
    "id": "qs_group_museum",
    "size": "bg",
-   "prompt": "1girl, 2boys, young adult, three korean students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, young adult, three korean young women students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, multiple views, chibi, child, loli, revealing clothes",
    "seed": 5302
   },
   {
    "id": "qs_f7",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean university history professor in a burgundy jacket, curly black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean university history professor in a burgundy jacket, shoulder-length dark brown hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 30266
   },
@@ -5816,14 +5816,14 @@
   {
    "id": "qs_f16",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean museum curator wearing white cotton gloves and a teal vest, short black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean museum curator wearing white cotton gloves and a teal vest, brown hair in a low ponytail, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 90048
   },
   {
    "id": "qs_f18",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean history youtuber in a lavender hoodie in front of a ring light and microphone, short brown hair with glasses, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean history youtuber in a lavender hoodie in front of a ring light and microphone, wavy brown hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 50328
   },
@@ -5914,7 +5914,7 @@
   {
    "id": "qs_f36",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean museum docent in a neat teal blazer uniform with a name badge, short gray hair, inside a history museum exhibition hall with glass cases of 1920s photographs, old documents and independence movement flags, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean museum docent in a neat teal blazer uniform with a name badge, black hair in a bun, inside a history museum exhibition hall with glass cases of 1920s photographs, old documents and independence movement flags, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 48177
   },
@@ -5935,7 +5935,7 @@
   {
    "id": "qs_f42",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean archive researcher in a coral shirt and glasses holding a document folder, short black hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean archive researcher in a coral shirt and glasses holding a document folder, short bob black hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 91352
   },
@@ -5956,7 +5956,7 @@
   {
    "id": "qs_f45",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean tv news anchor in a mustard suit holding papers, short black hair, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean tv news anchor in a mustard suit holding papers, black hair in a bun, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 98983
   },
@@ -5977,7 +5977,7 @@
   {
    "id": "qs_f48",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean university history professor in a cream jacket, curly black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean university history professor in a cream jacket, short bob black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 88618
   },
@@ -5998,7 +5998,7 @@
   {
    "id": "qs_f52",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean museum docent in a neat dark green blazer uniform with a name badge, curly black hair, inside a history museum exhibition hall with glass cases of 1890s photographs, old newspapers and an antique telegraph, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean museum docent in a neat dark green blazer uniform with a name badge, black hair in a bun, inside a history museum exhibition hall with glass cases of 1890s photographs, old newspapers and an antique telegraph, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 12066
   },
@@ -6019,7 +6019,7 @@
   {
    "id": "qs_f60",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean museum docent in a neat beige blazer uniform with a name badge, short black hair, inside a history museum exhibition hall with glass cases of silla stone pagoda models, bronze bells and buddhist statues, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean museum docent in a neat beige blazer uniform with a name badge, short bob black hair, inside a history museum exhibition hall with glass cases of silla stone pagoda models, bronze bells and buddhist statues, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 46484
   },
@@ -6061,7 +6061,7 @@
   {
    "id": "qs_f70",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean high school history teacher in a beige cardigan holding a pointer, short black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean high school history teacher in a beige cardigan holding a pointer, short bob black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 60221
   },
@@ -6096,14 +6096,14 @@
   {
    "id": "qs_f79",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean university history professor in a dark green jacket, short gray hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean university history professor in a dark green jacket, long black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 62302
   },
   {
    "id": "qs_f82",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean radio dj wearing headphones in a burgundy sweater with a studio microphone, short gray hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean radio dj wearing headphones in a burgundy sweater with a studio microphone, short bob black hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 70107
   },
@@ -6117,7 +6117,7 @@
   {
    "id": "qs_f85",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean university history professor in a brown jacket, short gray hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean university history professor in a brown jacket, wavy brown hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 54477
   },
@@ -6131,7 +6131,7 @@
   {
    "id": "qs_f90",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean history youtuber in a mustard hoodie in front of a ring light and microphone, curly black hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean history youtuber in a mustard hoodie in front of a ring light and microphone, shoulder-length dark brown hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 15377
   },
@@ -6145,7 +6145,7 @@
   {
    "id": "qs_f93",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean museum curator wearing white cotton gloves and a light gray vest, curly black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a light gray vest, short bob black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 14298
   },
@@ -6187,7 +6187,7 @@
   {
    "id": "qs_f102",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean tv field reporter in a burgundy coat holding a microphone, short brown hair with glasses, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean tv field reporter in a burgundy coat holding a microphone, short bob black hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 13303
   },
@@ -6208,7 +6208,7 @@
   {
    "id": "qs_f106",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean radio dj wearing headphones in a black sweater with a studio microphone, short gray hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean radio dj wearing headphones in a black sweater with a studio microphone, black hair in a bun, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 89594
   },
@@ -6222,21 +6222,21 @@
   {
    "id": "qs_f109",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean university student presenter in a black knit sweater holding a tablet, short black hair, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean university student presenter in a black knit sweater holding a tablet, long black hair, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 4101
   },
   {
    "id": "qs_f112",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean tv quiz show host in a dark green formal jacket holding cue cards, short black hair, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean tv quiz show host in a dark green formal jacket holding cue cards, short bob black hair, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 55609
   },
   {
    "id": "qs_f113",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean high school history teacher in a brown cardigan holding a pointer, curly black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean high school history teacher in a brown cardigan holding a pointer, brown hair in a low ponytail, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 26879
   },
@@ -6250,7 +6250,7 @@
   {
    "id": "qs_f116",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, middle-aged, korean tv field reporter in a lavender coat holding a microphone, curly black hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, middle-aged, korean tv field reporter in a lavender coat holding a microphone, black hair in a bun, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 79243
   },
@@ -6264,7 +6264,7 @@
   {
    "id": "qs_f118",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean museum docent in a neat sky blue blazer uniform with a name badge, short gray hair, inside a history museum exhibition hall with glass cases of black and white photographs of 20th century korea and old newspapers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean museum docent in a neat sky blue blazer uniform with a name badge, long black hair, inside a history museum exhibition hall with glass cases of black and white photographs of 20th century korea and old newspapers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 56179
   },
@@ -6348,7 +6348,7 @@
   {
    "id": "qs_f133",
    "size": "stand",
-   "prompt": "1boy, solo, adult man, korean high school history teacher in a navy cardigan holding a pointer, short gray hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "prompt": "1girl, solo, adult woman, korean high school history teacher in a navy cardigan holding a pointer, long black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 47456
   },
@@ -6390,28 +6390,28 @@
   {
    "id": "qs_g54",
    "size": "bg",
-   "prompt": "2girls, 1boy, three young adult korean university students in casual clothes standing side by side in a school library, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, three young adult korean university students in casual clothes standing side by side in a school library, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 14752
   },
   {
    "id": "qs_g62",
    "size": "bg",
-   "prompt": "1girl, 2boys, three young adult korean students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a placard, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, three young adult korean women students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a placard, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 12211
   },
   {
    "id": "qs_g76",
    "size": "bg",
-   "prompt": "2girls, 1boy, three young adult korean students in hiking clothes standing side by side at an outdoor historic site with a stone monument, each holding a notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, three young adult korean women students in hiking clothes standing side by side at an outdoor historic site with a stone monument, each holding a notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 19598
   },
   {
    "id": "qs_g84",
    "size": "bg",
-   "prompt": "1girl, 2boys, three young adult korean students in winter coats standing side by side in front of a history museum entrance, each holding a pamphlet, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+   "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a pamphlet, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 97020
   }
