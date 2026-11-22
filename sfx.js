@@ -22,7 +22,7 @@ const SFX=(()=>{
  }
  function noise(t0,dur,{vol=.2,freq=1800,q=.8,type='bandpass',sweep=null}={}){
   const s=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain(),t=ctx.currentTime+t0;
-  s.buffer=noiseBuf;f.type=type;f.frequency.setValueAtTime(freq,t);if(sweep)f.frequency.exponentialRampToValueAtTime(sweep,t+dur);f.Q.value=q;
+  s.buffer=noiseBuf;s.loop=dur>.5;f.type=type;f.frequency.setValueAtTime(freq,t);if(sweep)f.frequency.exponentialRampToValueAtTime(sweep,t+dur);f.Q.value=q;
   g.gain.setValueAtTime(vol,t);g.gain.exponentialRampToValueAtTime(.0001,t+dur);
   s.connect(f).connect(g).connect(master);s.start(t,Math.random()*.5);s.stop(t+dur+.05);
  }
@@ -56,6 +56,15 @@ const SFX=(()=>{
   vb_bell:()=>{[220,330,440].forEach((f,i)=>tone(f,0,3.2,{type:'sine',vol:.12/(i+1)}));tone(659,.02,2.6,{type:'sine',vol:.03});},
   vb_ko:()=>{tone(50,0,1.4,{type:'sine',vol:.6,to:35});[392,523,659,784,1047].forEach((f,i)=>tone(f,.2+i*.1,1.4,{type:'triangle',vol:.08}));tone(1568,.8,2,{type:'sine',vol:.05});},
   vb_glitch:()=>{for(let i=0;i<9;i++){tone(200+Math.random()*1800,i*.045,.04,{type:'square',vol:.07});}noise(0,.5,{vol:.2,freq:3500,q:4,sweep:600});tone(880,.42,.25,{type:'square',vol:.06,to:110});tone(60,0,.3,{type:'sawtooth',vol:.15,to:30});},
+  // 호러·긴장(@sfx 또는 @fx와 함께)
+  thud:()=>{tone(70,0,.45,{vol:.75,to:32});noise(0,.16,{vol:.5,freq:280,type:'lowpass'});},
+  heartbeat:()=>{[0,.85].forEach(t=>{tone(58,t,.18,{vol:.75,to:40});tone(52,t+.2,.22,{vol:.55,to:36});});},
+  hum:()=>{tone(60,0,4,{type:'sawtooth',vol:.035,attack:.9,release:4});tone(120,0,4,{type:'sine',vol:.05,attack:.9,release:4});},
+  hiss:()=>noise(0,3,{vol:.05,freq:4500,type:'highpass'}),
+  dial:()=>{for(let i=0;i<7;i++)noise(.05+i*.085,.02,{vol:.3,freq:2600,q:2});tone(180,0,.75,{type:'sawtooth',vol:.02});},
+  knock:()=>{[0,.26,.48].forEach(t=>{tone(105,t,.13,{vol:.55,to:68});noise(t,.06,{vol:.3,freq:900,type:'lowpass'});});},
+  tick:()=>{for(let i=0;i<4;i++){tone(2300,i*.9,.025,{type:'square',vol:.05});noise(i*.9,.02,{vol:.12,freq:3000,q:3});}},
+  ring:()=>{for(let r=0;r<2;r++)for(let i=0;i<14;i++)tone(i%2?1250:960,r*2.4+i*.07,.06,{type:'triangle',vol:.07});},
   vb_end:()=>{[392,494,587].forEach((f,i)=>tone(f,i*.1,.6,{type:'triangle',vol:.09}));},
  };
  // Text blips ("뽁뽁뽁"): each speaker has a voice pitch; spaces and punctuation stay silent,

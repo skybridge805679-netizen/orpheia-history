@@ -574,3 +574,25 @@ dialog#vnLog.nb[open]{display:flex}
 .nb-time li::before{content:'';position:absolute;left:-15px;top:14px;width:11px;height:11px;border-radius:50%;background:var(--seal);box-shadow:0 0 0 3px var(--paper)}
 .nb-y{font:400 20px var(--f-title);color:var(--seal);text-align:right}.nb-time b{display:block;font:400 16px var(--f-title)}.nb-time small{color:var(--ink3);font-size:11px}.nb-time p{margin:2px 0 0;font:14px/1.6 var(--f-body)}
 @media (max-width:760px){.nb-wrap{grid-template-columns:1fr}.nb-side{flex-direction:row;overflow:auto;border-right:0;border-bottom:1px solid var(--paper-edge)}.nb-side button{min-width:140px}.nb-time li{grid-template-columns:70px 1fr}.nb-y{font-size:16px}}
+
+/* @fx 호러·긴장 연출 */
+.vn-bg{transition:filter 1.2s,scale 26s ease-in}
+.vn.mood-dark .vn-bg::after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 30%,rgba(0,0,0,.55) 65%,rgba(0,0,0,.92) 100%);animation:moodIn 1.6s}
+.vn.mood-cold .vn-bg{filter:saturate(.25) brightness(.78) contrast(1.08) hue-rotate(-8deg)}
+.vn.mood-flicker .vn-bg{animation:flicker 5.3s infinite}
+.vn.mood-dread .vn-bg{scale:1.12}
+.vn.mood-tremble #vnText{position:relative;animation:tremble .14s steps(2) infinite}
+.vn.hit-black::after{content:'';position:absolute;inset:0;z-index:20;background:#000;pointer-events:none;animation:blackcut .9s forwards}
+.vn.hit-thud{animation:vbShakeBig .6s}
+.vn.hit-thud .vn-bg{animation:thudDim .6s}
+.vn.hit-pulse .vn-bg img{animation:pulse 1.9s}
+.vn.hit-glitch .vn-bg{animation:vbHitStop .3s,rewind .7s}
+.vn.hit-zoom .vn-bg img{animation:hitzoom .9s cubic-bezier(.2,.8,.2,1)}
+@keyframes moodIn{from{opacity:0}}
+@keyframes flicker{0%,7%,9%,52%,54.5%,56%,100%{opacity:1}8%{opacity:.35}53%{opacity:.15}55%{opacity:.55}}
+@keyframes tremble{0%{left:.6px;top:-.4px}50%{left:-.6px;top:.5px}100%{left:.3px;top:.6px}}
+@keyframes blackcut{0%,55%{opacity:1}100%{opacity:0}}
+@keyframes thudDim{0%{filter:brightness(.35)}100%{filter:none}}
+@keyframes pulse{0%,40%,100%{transform:scale(1)}12%,52%{transform:scale(1.035);filter:brightness(.8)}}
+@keyframes hitzoom{0%{transform:scale(1.18)}100%{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.vn.mood-flicker .vn-bg,.vn.mood-tremble #vnText,.vn.hit-thud,.vn.hit-pulse .vn-bg img{animation:none}}

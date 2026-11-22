@@ -141,7 +141,7 @@ function step(){
    case 'board':return board(op.arg.trim().split(/\s+/));
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();if(S.photo&&Object.keys(S.chars).length>=3)for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.pc++;paint();break;
-   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;BGM.scene(a);}S.pc++;paint();break;
+   case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
     const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,home:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
@@ -156,6 +156,8 @@ function step(){
    case 'hud':{const [t,...ls]=fill(op.arg).split('|');return card('hud',t.trim(),ls.map(x=>x.trim()).join('\n'));}
    case 'flash':fx('flash');SFX.play('flash');S.pc++;break;
    case 'sfx':SFX.play(op.arg);S.pc++;break;
+   // 호러·긴장 연출. 지속 분위기(MOOD)는 @fx off(또는 -이름)나 배경이 바뀔 때까지 남고, 순간 효과(HIT)는 한 번 친다.
+   case 'fx':{const m=new Set(S.mood||[]);for(const k of op.arg.trim().split(/\s+/)){if(k==='off')m.clear();else if(k[0]==='-')m.delete(k.slice(1));else if(MOOD.includes(k))m.add(k);else if(HIT[k]){fx('hit-'+k,HIT[k][1]);if(HIT[k][0])SFX.play(HIT[k][0]);}}S.mood=[...m];paintMood();S.pc++;break;}
    case 'wait':busy=true;setTimeout(()=>{busy=false;S.pc++;step();},+op.arg||600);return;
    case 'choice':return choose(op);
    case 'quiz':return quiz(op.arg);
@@ -266,7 +268,7 @@ function paintPhoto(){
 function paint(){
  if(!$('#vn'))shell();
  const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;seeCg(bg.src);};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
- paintChars();paintPhoto();
+ paintChars();paintPhoto();paintMood();
  $('#vnDay').textContent=S.day;
  const l=S.line,box=$('#vnBox');
  box.className='vn-box'+(l?.who?' '+(CAST[l.who]?.cls||'c-other'):' is-narr');
@@ -297,7 +299,12 @@ function paintChars(){
  for(const el of [...wrap.children,...phone.querySelector('.vn-phone-screen').children])if(!keep.has(el.id.slice(4)))el.remove();
 }
 function setHidden(v){hidden=v;$('#vn')?.classList.toggle('ui-hidden',v);}
-function fx(kind){const vn=$('#vn');if(!vn)return;vn.classList.remove(kind);void vn.offsetWidth;vn.classList.add(kind);setTimeout(()=>vn.classList.remove(kind),700);}
+function fx(kind,ms=700){const vn=$('#vn');if(!vn)return;vn.classList.remove(kind);void vn.offsetWidth;vn.classList.add(kind);setTimeout(()=>vn.classList.remove(kind),ms);}
+// @fx: 지속 분위기 = 어둠(가장자리부터 조여 옴)·깜빡임(형광등)·냉기(색 빠짐)·떨림(글자가 떨림)·조여옴(배경이 아주 천천히 다가옴)
+const MOOD=['dark','flicker','cold','tremble','dread'];
+// 순간 효과: [효과음, 지속 ms]
+const HIT={black:['',900],thud:['thud',600],pulse:['heartbeat',1900],glitch:['vb_glitch',700],zoom:['',900]};
+function paintMood(){const vn=$('#vn');if(!vn)return;for(const k of MOOD)vn.classList.toggle('mood-'+k,(S.mood||[]).includes(k));}
 function card(kind,a,b){
  paint();busy=true;S.line=null;const c=$('#vnCard');$('#vnBox').classList.add('quiet');
  c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><img class="vn-crest scroll" src="${asset('emblem_gold.webp')}" alt=""><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<div class="vn-dive-emblem"><img src="${asset('emblem_white.webp')}" alt=""><i></i></div><em class="vn-dive-tag">ORPHEIA · MV SCENE ENGINE</em><small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><img class="vn-hud-emblem" src="${asset('emblem_gold.webp')}" alt=""><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
