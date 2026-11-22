@@ -535,14 +535,51 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [다솜|shy] ……안녕. 언니야. 아니, 누나인가. ……내가 뭐라고 불러야 하지, 엄마?
 [새벽|smile] 그건 이 애가 크면 정해 주겠지.
 @hide dasom
-@show maehyang neutral right
+@show maehyang pregnant right
 [매향] 다들 비슷한 무렵이었는데, 언니만 한 걸음 빨랐네요.
 [매향] ……그날 밤 언니는 서두르시는 얼굴이었어요. 시간이 모자란 사람처럼.
 [새벽] …………
 새벽은 대답 대신 아기의 이마에 입을 맞춘다.
 @hide maehyang
 @show orpheia shy left
-[오르페이아|shy] 주인님, 달력이 꽉 찼어요. 달래 님, 여울 님, 설아 님…… 예정일이 줄줄이요. 산후조리 일정표는 제가 짤게요. 이건 보좌니까요.
+[오르페이아|shy] 주인님, 달력이 꽉 찼어요. 예정일이 줄줄이요. 산후조리 일정표는 제가 짤게요. 이건 보좌니까요.
+@hide orpheia
+작업실 문이 열리고, 배가 동그랗게 부른 신부들이 하나둘 아기를 보러 들어온다.
+@show dallae pregnant left
+[달래|pregnant] 두건 양반, 이 장부 좀 봐. 식구 칸이 모자라. ……둥지가 좁아지겠네. 좋다, 아주 좋아.
+@show naru pregnant right
+[나루|pregnant] 우리 집 장부에 처음으로 '머묾'이라고 썼어요. 그 아래 한 줄 더 쓸 자리도 비워 뒀고요.
+@hide all
+@show haerang pregnant left
+[해랑|pregnant] 발해 여자는 배가 불러도 사슴을 들쳐 메요. ……오늘은 안 메요. 오늘만이에요.
+@show yeoul pregnant right
+[여울|pregnant] 서방님. 이번 거래는 기한도 반품도 없어요. 아시죠?
+@hide all
+@show sodam pregnant left
+[소담|pregnant] 평생 처음 갖는 제 거예요. ……아니, 우리 거예요.
+@show dano pregnant right
+[단오|pregnant] 이름은 내가 지어. 크레디트 첫 줄이니까.
+@hide all
+@show bori pregnant left
+[보리|pregnant] 이제 밥상에 숟가락을 하나 더 놔야겠네. ……아니, 여럿이네.
+@show hanbyeol pregnant right
+[한별|pregnant] 취재 수첩 맨 뒷장에 이름 후보만 서른 개 적었어요. 투고하듯이요.
+@hide all
+@show dasom pregnant left
+[다솜|pregnant] 엄마보다 늦은 건 분한데…… 엄마 아기랑 내 아기가 같은 해에 태어난다니. 족보가 또 꼬이네.
+@show choryeon pregnant right
+[초련|pregnant] 흥, 태교는 거문고로 할 거예요. 그쪽 노래는…… 가끔만.
+@hide all
+@show hwaseon pregnant left
+[화선|pregnant] 배가 불러서 춤은 못 추지만, 이 애가 안에서 발로 박자를 맞춰요!
+@show seola pregnant right
+[설아|pregnant] ……이건 병풍 뒤에 숨길 수가 없네요.
+@hide all
+@show yunseul surprised center
+[윤슬|surprised] ……오빠. 동네 산부인과 예약이 우리 집 때문에 다 찼대. 고모 소리를 몇 번 들어야 하는 거야, 나.
+[상철] ……세지 마. 무서우니까.
+@hide all
+@show orpheia shy center
 [오르페이아|pout] ……그리고 다음 차례는 저예요. 기록상으로는요. ……방법은 아직 모르지만요.
 @hide all
 @bg cg_after_husband|bg_studio_night

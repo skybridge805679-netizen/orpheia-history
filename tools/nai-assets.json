@@ -6968,6 +6968,118 @@
    "seed": 2411302,
    "prompt": "no humans focus, 1boy, bittersweet, lonely, 1980s korean apartment kitchen at night, dim flickering fluorescent light, small wooden dining table, on the table a plain gold wedding ring next to a folded handwritten letter in an envelope, an empty chair, an old refrigerator, a man in a white dress shirt and loosened necktie sitting at the table seen from behind, back view, shoulders slumped, head in his hands, face not visible, an open door to an empty girl's bedroom in the background, muted cold blue colors, quiet despair, cinematic, no readable text, masterpiece",
    "negative": "face, visible face, eyes, women, girl, 2boys, crying face close-up, text, letters, watermark, signature, logo, bright colors, cheerful, extra limbs, bad hands"
+  },
+  {
+   "id": "st_dallae_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 9090909,
+   "prompt": "1girl, solo, solo focus, adult woman, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, red skirt, embroidery, joseon hanbok, silk, luxurious, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_naru_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1212121,
+   "prompt": "1girl, solo, solo focus, young adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, ancient korean commoner clothes, light blue hemp jacket, long plain skirt, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, embroidery, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_haerang_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_yeoul_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7070707,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_sodam_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 8080808,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_dano_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 9090909,
+   "prompt": "1girl, solo, solo focus, lively young adult woman, 21 years old, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_bori_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1313131,
+   "prompt": "1girl, solo, solo focus, young young adult woman, 22 years old, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, weapon pointing, armor, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_hanbyeol_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern, child, loli, petite, flat chest, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_saebyeok_mom_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, loose cream silk blouse buttoned up, long pleated navy skirt, beige cardigan over her shoulders, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, japanese army, rising sun, child, loli, teenager, nude, nipples, old woman, wrinkles, grey hair, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_dasom_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1616161,
+   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_maehyang_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_choryeon_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_hwaseon_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, wide grin, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "st_seola_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323232,
+   "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
   }
  ]
 }
