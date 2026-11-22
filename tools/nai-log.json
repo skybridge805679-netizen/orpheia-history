@@ -3488,5 +3488,45 @@
   "seed": 9213,
   "prompt": "5girls, 1boy, night rooftop of a korean apartment building, city lights and stars, everyone holding glowing smartphones, warm and peaceful, gentle wind, masterpiece",
   "init": null
+ },
+ "qs_khitan_tent": {
+  "seed": 91855,
+  "prompt": "2boys, adult men, 10th century korean history, inside a large military tent, on the left a calm korean goryeo envoy in a dark blue official robe and black hat standing and speaking confidently, on the right a khitan general in fur-trimmed lamellar armor and a fur hat seated on a low chair frowning, a low table between them, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_jeongdojeon": {
+  "seed": 98851,
+  "prompt": "2boys, adult men, early joseon dynasty 1390s, at night in front of a newly built korean palace gate with stone walls and lanterns, on the left an elderly korean minister with a grey beard in a red official robe and black samo hat holding a scroll, on the right a young joseon soldier in armor running in urgently with an alarmed face, torches, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_seogyeong": {
+  "seed": 73087,
+  "prompt": "2boys, adult men, 12th century goryeo dynasty, on a hill outside a fortified korean city wall, on the left a rebel general in lamellar armor holding out a sealed petition scroll, on the right a kneeling messenger in a plain robe receiving it, banners in the wind, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_empire_officials": {
+  "seed": 63450,
+  "prompt": "2boys, adult men, 1899 korean empire, two korean officials with short hair in black western-style ceremonial uniforms with gold embroidery talking in front of a western-style stone building with columns, the one on the left holding a document and smiling, the one on the right nodding, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_june10": {
+  "seed": 8115,
+  "prompt": "1boy, crowd, 1926 seoul, a young adult korean male student in a black school uniform and cap standing on a stone bridge throwing paper leaflets into the air and shouting, mourners in white hanbok and white mourning hats lining the street, a policeman in a black uniform running in from the right, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_naju_station": {
+  "seed": 17792,
+  "prompt": "2boys, 1girl, young adult, 1929 small korean rural train station platform with a steam train, on the left an angry korean male student in a black school uniform and cap pointing, a korean female student in a white jeogori and black skirt behind him, on the right another male student in a school uniform raising a fist, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_secret_1944": {
+  "seed": 14873,
+  "prompt": "2boys, adult men, 1944 at night, korean independence activists whispering in a dim small hanok room lit by an oil lamp, on the right a middle-aged man with a mustache in a dark western suit leaning forward, on the left a younger man in a white hanbok listening seriously, papers on a low table, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_daegu_1915": {
+  "seed": 48276,
+  "prompt": "2boys, adult men, 1915 korea, a narrow alley at dusk with tiled roofs, on the left a korean man in a western suit and fedora secretly handing a cloth bundle of money to a man in a white hanbok durumagi on the right, both looking around cautiously, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
  }
 }
