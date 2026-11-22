@@ -68,6 +68,7 @@ const Quiz=(()=>{
   R.el.querySelector('[data-hint]')?.addEventListener('click',e=>{e.stopPropagation();R.hint=true;render();});
   R.el.querySelector('[data-exit]').onclick=e=>{e.stopPropagation();if(confirm('문제를 그만 풀까요? 지금까지의 결과로 넘어갑니다.'))finish();};
   R.el.querySelector('.qz-right').scrollTop=0;
+  const fi=R.el.querySelector('.qz-fig img');if(fi){fi.title='눌러서 크게 보기';fi.onclick=()=>{const z=document.createElement('div');z.className='qz-zoom';z.innerHTML=`<img src="${fi.getAttribute('src')}" alt=""><span>닫기 ✕</span>`;z.onclick=()=>z.remove();document.body.appendChild(z);};}
  }
  function answer(c){
   if(!R||R.done)return;const q=R.list[R.i],first=R.tried.size===0;

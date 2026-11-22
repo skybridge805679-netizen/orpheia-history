@@ -215,7 +215,8 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .qz-left{border-right:1px solid #b3261e40;background:repeating-linear-gradient(90deg,transparent 0 47px,#b3261e10 47px 48px)}
 .qz-q{font:20px/1.55 var(--f-body);margin:0 0 14px}
 .qz-fig{margin:0}
-.qz-fig img{width:100%;height:auto;border-radius:2px;background:#fff;box-shadow:0 0 0 1px var(--paper-edge)}
+.qz-fig img{width:100%;height:auto;border-radius:2px;background:#fff;box-shadow:0 0 0 1px var(--paper-edge);cursor:zoom-in}
+.qz-zoom{position:fixed;inset:0;z-index:90;background:#000e;overflow:auto;-webkit-overflow-scrolling:touch;cursor:zoom-out;padding:48px 12px 24px;box-sizing:border-box;text-align:center}.qz-zoom img{width:max(960px,min(94vw,1300px));height:auto;background:#fff;border-radius:3px}.qz-zoom span{position:fixed;top:10px;right:14px;color:#fff;background:#0008;border:1px solid #fff6;border-radius:16px;padding:4px 12px;font-size:14px}
 .qz-fig figcaption{font-size:13px;color:var(--ink3);margin-top:6px}
 .qz-ctx{background:#fffaf0;color:var(--ink);border:1px solid var(--paper-edge);border-left:4px solid var(--cheong);border-radius:2px;padding:16px 18px;line-height:1.85;font-family:var(--f-body)}
 .qz-choices{display:grid;gap:8px}
