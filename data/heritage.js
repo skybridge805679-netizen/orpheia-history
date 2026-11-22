@@ -458,5 +458,10 @@ window.HERITAGE = {
   "credit": "국가유산청 · KOGL Type 1 · 위키미디어 공용",
   "desc": "구석기 · 주먹도끼 출토지",
   "local": true
+ },
+ "병산탈": {
+  "src": "heritage/hahoe-mask.jpg",
+  "credit": "Bernard Gagnon · CC0 · 위키미디어 공용",
+  "desc": "안동 병산 별신굿 탈 · 국보 「하회탈 및 병산탈」"
  }
 };

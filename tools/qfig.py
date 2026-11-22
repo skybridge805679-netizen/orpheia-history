@@ -16,7 +16,7 @@ def heritage_src(name):
     return _H[name]["src"]
 def photo(src):
     """heritage 경로 또는 heritage.js 이름 → file:// 주소"""
-    if not src.startswith("heritage/"): src=heritage_src(src)
+    if "/" not in src: src=heritage_src(src)  # heritage.js 이름이면 경로로, "choice-art/…" 같은 학습 사이트 경로는 그대로
     for base in (ROOT / "assets", SITE):
         p = base / src
         if p.exists(): return p.as_uri()
