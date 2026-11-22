@@ -49,7 +49,7 @@ def main():
     em.thumbnail((220, 220), Image.LANCZOS)
     em.save(DATA / "img/emblem.png")
     st = Image.open(ROOT / "assets/st_orpheia_smile.webp").convert("RGBA")
-    st = st.resize((round(st.width * 520 / st.height), 520), Image.LANCZOS)
+    st = st.resize((round(st.width * 760 / st.height), 760), Image.LANCZOS)  # 웹판처럼 크게(무릎 아래는 화면 밖)
     st.save(DATA / "img/orpheia.png")
 
     # LiveArea: 아이콘 128×128, 배경 840×500, 시작 버튼 280×158
