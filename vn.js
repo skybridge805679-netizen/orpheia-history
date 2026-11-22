@@ -475,7 +475,7 @@ function battle(arg){
  <p class="vs-line">${esc(allyOn(S.battle)?'사연「'+pickOne(ALLY_SAYEON_GO)+'」':S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':opp(S.battle).name+'「'+pickOne(opp(S.battle).taunt())+'」')}</p>
  <p class="vs-go">${allyOn(S.battle)?'첫 시도 정답 = UNROLL! 사연의 두루마리 의상을 한 자락씩 풀어 묵을 묶으세요':S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':opp(S.battle).go}<small>눌러서 시작 ▶</small></p>`;
  v.appendChild(el);SFX.play(S.battle.serious?'vb_bell':'vb_start');if(!S.battle.serious)vnShake(true);
- el.onclick=e=>{e.stopPropagation();el.classList.add('out');SFX.play('vb_go');setTimeout(()=>{el.remove();busy=false;S.pc++;step();},280);};
+ el.onclick=e=>{e.stopPropagation();if(el.dataset.go)return;el.dataset.go='1';el.classList.add('out');SFX.play('vb_go');setTimeout(()=>{el.remove();busy=false;S.pc++;step();},280);};
 }
 function battleCut(head,text,st,serious,wait){
  const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
