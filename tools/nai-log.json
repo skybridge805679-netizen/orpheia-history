@@ -4043,5 +4043,110 @@
   "seed": 83660,
   "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a plain colored notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
+ },
+ "st_seola_smile": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, gentle mysterious smile, half-closed eyes",
+  "init": null
+ },
+ "st_seola_serious": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, calm expressionless face, cool composed gaze, fan held at chest",
+  "init": null
+ },
+ "st_seola_shy": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, deep blush, looking away, folded fan covering mouth",
+  "init": null
+ },
+ "st_seola_surprised": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, surprised, eyes wide open, lips parted, fan lowered",
+  "init": null
+ },
+ "st_seola_angry": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, sulking pout, narrowed eyes, puffed cheek, fan pointed forward",
+  "init": null
+ },
+ "st_seola_teary": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, teary eyes, tears on cheeks, sad gentle smile",
+  "init": null
+ },
+ "st_seola_worry": {
+  "seed": 2323232,
+  "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, holding a folded white fan, standing, full body, looking at viewer, worried, furrowed brows, hand on chest, looking down",
+  "init": null
+ },
+ "cg_ch12_seola_dance": {
+  "seed": 2324001,
+  "prompt": "4girls, 1boy, joseon dynasty yangban house banquet at night, wooden sarangchae hall, paper lanterns, low tables with wine and food, silhouettes of officials in silk robes and gat hats, four gisaeng sisters performing, warm lantern light, elegant, cinematic, masterpiece",
+  "init": null
+ },
+ "cg_ch12_seola_screen": {
+  "seed": 2324002,
+  "prompt": "1girl, 1boy, behind a large painted folding screen with plum blossom paintings in a joseon hall at night, candlelight, shadows of officials in gat hats cast on the paper of the screen, cramped, close, tense, romantic comedy, masterpiece",
+  "init": null
+ },
+ "cg_end_seola": {
+  "seed": 2324003,
+  "prompt": "1girl, 1boy, moonlit wooden pavilion by a frozen pond in a joseon garden at night, gentle snowfall, full moon, braziers, quiet romantic farewell, masterpiece",
+  "init": null
+ },
+ "bg_era_yangban_banquet": {
+  "seed": 2324004,
+  "prompt": "no humans, joseon dynasty yangban house sarangchae courtyard at night, paper lanterns hanging from the eaves, low banquet tables with wine jars and dishes, a geomungo zither on a mat, a painted folding screen, warm light, scenery, background, masterpiece",
+  "init": null
+ },
+ "st_maehyang_smile": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, calm dignified smile",
+  "init": null
+ },
+ "st_maehyang_shy": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, faint blush, looking away, covering mouth with sleeve",
+  "init": null
+ },
+ "st_maehyang_surprised": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, surprised, eyes wide, raised eyebrows",
+  "init": null
+ },
+ "st_choryeon_smile": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, smug smirk, chin up",
+  "init": null
+ },
+ "st_choryeon_shy": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, tsundere, deep blush, pouting, looking away, arms crossed",
+  "init": null
+ },
+ "st_choryeon_surprised": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, surprised, flustered, eyes wide",
+  "init": null
+ },
+ "st_hwaseon_smile": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, wide grin, wink, peace sign",
+  "init": null
+ },
+ "st_hwaseon_shy": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, blush, giggling, hands on cheeks",
+  "init": null
+ },
+ "st_hwaseon_surprised": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, surprised, mouth open, jumping back",
+  "init": null
+ },
+ "cg_end_harem_gisaeng": {
+  "seed": 2324010,
+  "prompt": "4girls, 1boy, hidden harem ending, comedic chaos in a small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light and plum blossom petals, four joseon gisaeng sisters in colorful hanbok crowding around a young man, clinging to his arms, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+  "init": null
  }
 }
