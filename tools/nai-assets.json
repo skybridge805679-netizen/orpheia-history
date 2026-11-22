@@ -6934,6 +6934,40 @@
     }
    ],
    "negative": "nude, completely nude, nipples, areolae, explicit, child, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, multiple views, old woman, wrinkles"
+  },
+  {
+   "id": "cg_after_baby",
+   "size": "bg",
+   "seed": 2411301,
+   "prompt": "2girls, 1boy, heartwarming morning, small modern home music studio with mixing console and speakers, soft spring morning sunlight through the window, a baby bottle sterilizer and folded tiny baby clothes on the console, a newborn baby swaddled in a white blanket sleeping, gentle family moment, warm colors, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, mature woman, adult woman in her late thirties, black hair in a loose low chignon, beige cardigan over a cream blouse, long navy skirt, sitting on the sofa, cradling a sleeping newborn baby swaddled in white in her arms, tears of joy, gentle smile, looking down at the baby",
+     "uc": "nude, nipples, cleavage, breastfeeding, child, loli",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting beside her on the sofa, leaning in to look at the baby, one finger held by the baby's tiny hand",
+     "uc": "visible face, visible eyes",
+     "x": 0.3,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 1980s korean college student, shoulder length straight black hair with bangs, white blouse under a navy cardigan, jeans, leaning over the back of the sofa, peeking at the baby, complicated bittersweet smile, blush",
+     "uc": "nude, nipples, child, loli, male",
+     "x": 0.75,
+     "y": 0.4
+    }
+   ],
+   "negative": "nude, nipples, cleavage, breastfeeding, explicit, sexy, loli, watermark, signature, text, letters, logo, extra limbs, bad hands, extra fingers, multiple views, old woman"
+  },
+  {
+   "id": "cg_after_husband",
+   "size": "bg",
+   "seed": 2411302,
+   "prompt": "no humans focus, 1boy, bittersweet, lonely, 1980s korean apartment kitchen at night, dim flickering fluorescent light, small wooden dining table, on the table a plain gold wedding ring next to a folded handwritten letter in an envelope, an empty chair, an old refrigerator, a man in a white dress shirt and loosened necktie sitting at the table seen from behind, back view, shoulders slumped, head in his hands, face not visible, an open door to an empty girl's bedroom in the background, muted cold blue colors, quiet despair, cinematic, no readable text, masterpiece",
+   "negative": "face, visible face, eyes, women, girl, 2boys, crying face close-up, text, letters, watermark, signature, logo, bright colors, cheerful, extra limbs, bad hands"
   }
  ]
 }
