@@ -7655,6 +7655,97 @@
    "seed": 5151551,
    "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, deep green chima, emerald norigae, puffed cheeks, jealous glare, angry vein mark, crossed arms, dark aura with flames behind her, chibi angry symbols, looking at viewer from close, upper body, comedic",
    "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, maid"
+  },
+  {
+   "id": "cg_cut_orp_shy",
+   "size": "bg",
+   "seed": 5252014,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, deep blush, both hands on her cheeks, flustered happy, steam puffs from head, sparkling hearts and flowers background, eyes shining, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_orp_shy_hanbok",
+   "size": "bg",
+   "seed": 5252021,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, deep green chima, emerald norigae, deep blush, both hands on her cheeks, flustered happy, steam puffs from head, sparkling hearts and flowers background, eyes shining, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_orp_smug",
+   "size": "bg",
+   "seed": 5252015,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, smug proud face, doyagao, one finger raised, closed eyes satisfied smile, hand on chest, sparkles and shining light rays behind her, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_orp_smug_hanbok",
+   "size": "bg",
+   "seed": 5252022,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, deep green chima, emerald norigae, smug proud face, doyagao, one finger raised, closed eyes satisfied smile, hand on chest, sparkles and shining light rays behind her, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_orp_teary",
+   "size": "bg",
+   "seed": 5252016,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, black maid dress, white frilled apron, green bowtie, emerald brooch, moved to tears, teary eyes, big shining tears, trembling happy smile, hands clasped at chest, soft pastel bokeh background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_orp_teary_hanbok",
+   "size": "bg",
+   "seed": 5252023,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, green hair ribbon, gold binyeo hairpin, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, deep green chima, emerald norigae, moved to tears, teary eyes, big shining tears, trembling happy smile, hands clasped at chest, soft pastel bokeh background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_yunseul_fan",
+   "size": "bg",
+   "seed": 5252018,
+   "prompt": "1girl, solo, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, wireless earphones, fangirling, starry sparkling eyes, wide open mouth excited scream, hugging a thick korean history book, flushed cheeks, explosive confetti and sparkles background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_yunseul_rage",
+   "size": "bg",
+   "seed": 5252019,
+   "prompt": "1girl, solo, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, wireless earphones, furious, clenched fist raised, gritted teeth, angry vein mark, fiery aura, speed lines background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_muk_smirk",
+   "size": "bg",
+   "seed": 5252016,
+   "prompt": "1girl, solo, adult woman, black hair, long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, floating ink droplets, evil smirk, half-closed eyes, hand covering mouth while sneering, ink splashes swirling, dark ink wash background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_sayeon_record",
+   "size": "bg",
+   "seed": 5252020,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, red hair ribbon, amber eyes, hanbok, white jeogori, navy chima, deadpan expressionless face, writing quickly on a long scroll with a calligraphy brush, scroll unrolling dramatically, ink sparkles, plain paper texture background, looking at viewer from close, upper body, comedic anime reaction shot, vivid colors, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_sangcheol_shock",
+   "size": "bg",
+   "seed": 5252101,
+   "prompt": "1boy, solo, young man, black hoodie, hood pulled low, entire upper face hidden in solid black shadow, faceless, only a single big white sweat drop and open shocked mouth visible, shocked lightning bolt effect, comedic gag reaction, dramatic speed lines background, upper body, no readable text, masterpiece",
+   "negative": "visible eyes, visible face, watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_cut_hands",
+   "size": "bg",
+   "seed": 5252102,
+   "prompt": "no humans focus, close-up of two hands interlocking fingers, a young man's hand in a black hoodie sleeve and a woman's slender hand, holding hands tightly, warm soft light, sparkles, bokeh, romantic, no readable text, masterpiece",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, faces"
+  },
+  {
+   "id": "cg_cut_comments",
+   "size": "bg",
+   "seed": 5252103,
+   "prompt": "no humans, close-up of a smartphone screen flooded with countless comment bubbles and heart icons and fire emojis flying out of the screen, explosive viral popularity, notification badges, glowing, comedic, blurred unreadable text only, masterpiece",
+   "negative": "watermark, signature, readable text, logo, people"
   }
  ]
 }

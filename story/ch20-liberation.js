@@ -257,6 +257,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 가장 어두운 때인데, 대한 제국의 먹물까지 흘러들었어. 원수부, 좌원·우원, 화륜차.
 @show orpheia serious left
 [오르페이아|serious] 한별 님이 학생이던 시절의 잔향이에요. 2단계!
@@ -315,6 +316,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 노래가 흐른다. 훙커우 공원의 봄, 부평 골목의 쇳소리, 충칭의 안개가 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 1931 1940 바꿔 불러도 감동은 똑같잖아 ㅋ
+@cutin comments
 [댓글] 광복군이 먼저 생긴 거 아니에요?
 @jump tr_af
 @label tr_ok

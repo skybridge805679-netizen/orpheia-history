@@ -92,6 +92,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @jump hr17x
 @label hr17b
 [상철] 독립군은 몰라도 노래는 쓸게. 오르페이아랑 같이.
+@cutin shy
 [오르페이아|shy] ……같이, 래요. 주인님 입에서 '같이'가 나왔어요.
 [보리] 밥은 내가 했는데 왜 저 아가씨가 좋아해요?
 @label hr17x
@@ -231,6 +232,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 만세 소리 뒤로 조선 후기 먹물이 흘러들어. 나선 정벌, 정주성, 진주. 연도랑 이유가 아직 질척거려.
 @show orpheia serious left
 [오르페이아|serious] 들판 사람들 사정까지 다 봤잖아요. 잔향 2단계예요.
@@ -287,6 +289,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 노래가 흐른다. 삼원보의 봄바람, 사탕수수밭의 편지, 탑골 공원의 만세가 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 해외 독립운동 지명 다 외우는 사람 없음 ㅋ
+@cutin comments
 [댓글] 하와이에 신흥 강습소 있었던 거 아니에요?
 @jump tr_af
 @label tr_ok

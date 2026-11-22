@@ -282,6 +282,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 나라가 넘어가는 이 마당에, 다섯 장 전 선비들 이름까지 다시 번지고 있어. 외척 다툼, 서원 현판, 징비록.
 @show orpheia serious left
 [오르페이아|serious] 사화랑 서원, 임진왜란의 잔향이에요. 교동도 뱃사공 노래부터 다시 떠올려요. 2단계!
@@ -340,6 +341,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 노래가 흐른다. 전보국의 타전 소리, 산골 진지의 모닥불, 하얼빈역의 아침이 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 의병 이유 따지는 사람 있음? 다 나라 지키려던 거잖아 ㅋ
+@cutin comments
 [댓글] 정미의병이 단발령이었나요?
 @jump tr_af
 @label tr_ok

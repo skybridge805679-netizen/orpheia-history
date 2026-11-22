@@ -210,6 +210,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 1920년대 거리 밑에 조선 장터가 아직 번져 있어. 덕대, 중인, 향전. 다 옛날 얘기라고 섞어도 되겠지?
 @show orpheia serious left
 [오르페이아|serious] 송파장의 잔향이에요. 단오 씨 장터, 아직 생생하죠? 2단계!
@@ -266,6 +267,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 노래가 흐른다. 평양 장터의 선전지, 청산리의 숲, 돈화문 앞의 함성이 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 김구 김원봉 김좌진 ㅋ 김이 너무 많음
+@cutin comments
 [댓글] 청산리 홍범도 혼자 아니었어요?
 @jump tr_af
 @label tr_ok

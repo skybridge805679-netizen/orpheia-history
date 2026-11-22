@@ -46,6 +46,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @jump hr23x
 @label hr23b
 [상철] 기록 갱신은 여기까지. 오늘은 오르페이아랑 다닐게.
+@cutin teary
 [오르페이아|teary] 주인님. 마지막 시대에서 그 말은, 반칙이에요. 좋아서요.
 [새벽|smile] 어머. 이번엔 하얀 아가씨가 이겼네.
 @label hr23x
@@ -170,6 +171,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 마지막 시대인데 1920년대 먹물이 아직 마르지 않았어. 국장일, 나주역, 그리고 축음기 노래 한 곡.
 @show orpheia serious left
 [오르페이아|serious] 한별 님의 1920년대 잔향이에요. 마지막 2단계!
@@ -226,6 +228,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 노래가 흐른다. 올림픽 기자석의 셔터 소리, 금 모으기 줄의 반지, 판문점의 선이 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] ……마지막 곡이네. 이번엔 안 틀렸구나
+@cutin comments
 [댓글] 6·15가 노태우 때였나요?
 @jump tr_af
 @label tr_ok

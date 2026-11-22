@@ -274,6 +274,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 장터는 시끌벅적한데, 그 밑엔 고려 뒤쪽 먹물이 깔려 있어. 성리학 들여온 사람, 서경의 반란, 원의 사위 나라.
 @show orpheia serious left
 [오르페이아|serious] 원 간섭기랑 서경 바람이요. 9장에서 다 봤어요. 주인님, 2단계예요!
@@ -301,6 +302,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @phone on
 @show yunseul smile right
 @show orpheia neutral left
+@cutin fan
 [윤슬|smile] 단오 언니랑 콜라보 미쳤다! 가사는 이렇게! 책이랑 그림 주인은 댓글에서 확인했어.
 [윤슬] 「장터엔 상평통보, 전기수는 춘향전, 박제가는 열하일기, 박지원은 북학의~ 김홍도는 월하정인, 신윤복은 씨름~」
 [오르페이아|serious] 아가씨, 그 댓글 먹물이에요. 주인님, 선비 서재랑 그림 한 장 속에서 보신 거 기억나세요?
@@ -330,6 +332,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 노래가 흐른다. 송파장의 말뚝이 탈, 전기수의 목소리, 제주 바람 속 붓끝이 한 줄씩 가사가 되어, 윤슬의 목소리를 타고 퍼져 나간다.
 @if fix >= 1 -> tr_ok
 [먹물] 박지원 박제가 ㅋㅋ 이름부터 함정인데 누가 구분함
+@cutin comments
 [댓글] 씨름이 신윤복이었나……?
 @jump tr_af
 @label tr_ok

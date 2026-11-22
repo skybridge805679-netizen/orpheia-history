@@ -423,6 +423,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 상복 다툼 얘기만 하다 잊었지? 고려 앞쪽 잔향이 여기 고여 있어. 황제라 부르던 왕, 소 마을, 말 탄 여진.
 @show orpheia serious left
 [오르페이아|serious] 담장 밖 과거 시험장, 명학소의 서신, 선덕관성. 다 저희가 본 거예요. 2단계!
@@ -480,6 +481,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 노래가 흐른다. 침방 나인의 바늘, 청계천의 삽, 배다리 위의 행렬이 한 줄씩 가사가 되어, 윤슬의 목소리를 타고 퍼져 나간다.
 @if fix >= 1 -> tr_ok
 [먹물] 영조 정조 업적 바꿔 불러도 아무도 모름 ㅋ
+@cutin comments
 [댓글] 균역법 정조 아니에요? 가사가 그렇게 들림
 @jump tr_af
 @label tr_ok

@@ -219,6 +219,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @show orpheia worry left
 [오르페이아|worry] 주인님…… 주인님 노래가 농민군 노래가 돼 버렸어요.
 [보리] 아, 그리고 기록꾼 양반. 우리 동네 처녀들이 그 두건 쓴 사람 누구냐고 난리예요. 나는 내가 먼저 찜했다고 했어요. ……아까 개울 일도 있으니까, 책임은 내가 지는 걸로.
+@cutin shock
 [상철] 찜?!
 @choice
 > ……노래는 너희 거 해. 백산 노래로. -> hr14a {bori+5}
@@ -338,6 +339,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 도미노 옆에 하나 더. 벽란도 시절 문화가 아직 번져 있거든. 송광사 결사, 김부식의 책, 화약 만드는 관청.
 @show orpheia serious left
 [오르페이아|serious] 여울 씨랑 다니던 고려 문화의 잔향이에요. 2단계!
@@ -394,6 +396,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 노래가 흐른다. 정족산성의 포성, 우정총국의 불길, 우금치의 눈발이 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 80년대 연도 두 개 바꿔도 아무도 모름 ㅋ
+@cutin comments
 [댓글] 갑신정변이 먼저 아니에요?
 @jump tr_af
 @label tr_ok

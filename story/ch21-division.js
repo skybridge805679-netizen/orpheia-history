@@ -232,6 +232,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 갈라지는 땅 위로 국권 피탈 때 먹물이 번져. 전쟁, 돈 바꾸기, 하얼빈.
 @show orpheia serious left
 [오르페이아|serious] 전보국 사환이랑 뤼순 원고의 잔향이에요. 2단계!
@@ -288,6 +289,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 노래가 흐른다. 휘문 운동장의 함성, 제주 할머니의 비석, 천막 학교의 노래가 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 어차피 갈라졌는데 막으려던 순서가 뭔 의미 ㅋ
+@cutin comments
 [댓글] 남북 협상이 좌우 합작보다 먼저 아니었어요?
 @jump tr_af
 @label tr_ok

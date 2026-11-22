@@ -277,13 +277,16 @@ function sdPop(kind){
  el.onerror=()=>{el.hidden=true;};el.hidden=false;el.src=asset(`sd_orp_${kind}.webp`);el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');
  clearTimeout(el._t);el._t=setTimeout(()=>{el.hidden=true;},2400);
 }
-const CUTIN={pout:()=>orpHanbok()?'cg_orpheia_jealous_hanbok':'cg_orpheia_jealous'};
+const CUTIN={pout:()=>orpHanbok()?'cg_orpheia_jealous_hanbok':'cg_orpheia_jealous',
+ shy:()=>orpHanbok()?'cg_cut_orp_shy_hanbok':'cg_cut_orp_shy',smug:()=>orpHanbok()?'cg_cut_orp_smug_hanbok':'cg_cut_orp_smug',teary:()=>orpHanbok()?'cg_cut_orp_teary_hanbok':'cg_cut_orp_teary',
+ fan:()=>'cg_cut_yunseul_fan',rage:()=>'cg_cut_yunseul_rage',muk:()=>'cg_cut_muk_smirk',record:()=>'cg_cut_sayeon_record',shock:()=>'cg_cut_sangcheol_shock',hands:()=>'cg_cut_hands',comments:()=>'cg_cut_comments'};
+const CUTIN_ALL={pout:['cg_orpheia_jealous','cg_orpheia_jealous_hanbok'],shy:['cg_cut_orp_shy','cg_cut_orp_shy_hanbok'],smug:['cg_cut_orp_smug','cg_cut_orp_smug_hanbok'],teary:['cg_cut_orp_teary','cg_cut_orp_teary_hanbok']};
 function paintCutin(){
  const v=$('#vn');if(!v)return;let el=$('#vnCutin');
  if(!S.cutin){if(el)el.hidden=true;return;}
  if(!el){el=document.createElement('figure');el.id='vnCutin';el.className='vn-cutin';el.innerHTML='<img alt="">';v.appendChild(el);}
  const n=(CUTIN[S.cutin.n]||(()=>S.cutin.n))(),src=asset(n+'.webp'),img=el.querySelector('img');
- if(img.dataset.f!==src){img.dataset.f=src;img.onerror=()=>{if(n.endsWith('_hanbok'))img.src=asset('cg_orpheia_jealous.webp');};img.src=src;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');seeCg(src);}
+ if(img.dataset.f!==src){img.dataset.f=src;img.onerror=()=>{if(n.endsWith('_hanbok'))img.src=asset(n.replace(/_hanbok$/,'')+'.webp');};img.src=src;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');seeCg(src);}
  el.hidden=false;
 }
 function paintPhoto(){
@@ -610,7 +613,7 @@ const SONG_TITLE={song_ch01:'돌덩이 러브레터',song_ch02:'다섯 나라 �
 const BGM_TITLE={bgm_title:'타이틀',bgm_daily:'작업실 낮',bgm_night_shift:'새벽 세 시의 작업실',bgm_outing:'연표 다이브',bgm_orpheia:'오르페이아 테마',bgm_exam:'기출 풀기',bgm_result:'발매 정산',bgm_challenge:'먹물과의 배틀',bgm_comedy:'러브코미디 사건',bgm_romance:'설렘',bgm_tragic:'비극의 현장',bgm_yunseul:'윤슬 테마',bgm_ending:'전원 집합',bgm_sayeon:'사관의 시험',bgm_jealous:'질투 소동',bgm_horror:'남겨진 밤',bgm_exorcist:'야간 근무',bgm_babies:'고모의 육아지옥',bgm_family:'오늘을 산다',bgm_noble:'담장 너머 아가씨',bgm_clinic:'도담의 진료소'};
 function galleryCgs(){
  const groups=[],seen=new Set();
- for(const c of [...chapters,...sides]){const list=[];for(const o of c.ops){const ks=o.t==='bg'?[o.arg.split('|')[0].trim()]:o.t==='cutin'?(o.arg.trim()==='pout'?['cg_orpheia_jealous','cg_orpheia_jealous_hanbok']:[o.arg.trim()]):[];for(const k of ks)if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.side?`${c.title} · ${c.subtitle}`:c.title,list});}
+ for(const c of [...chapters,...sides]){const list=[];for(const o of c.ops){const ks=o.t==='bg'?[o.arg.split('|')[0].trim()]:o.t==='cutin'?(CUTIN_ALL[o.arg.trim()]||[CUTIN[o.arg.trim()]?CUTIN[o.arg.trim()]():o.arg.trim()]):[];for(const k of ks)if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.side?`${c.title} · ${c.subtitle}`:c.title,list});}
  const battle=['cg_orp_b1','cg_orp_b2','cg_orp_b3','cg_sayeon_b0','cg_sayeon_b1','cg_sayeon_b2','cg_sayeon_b3'];
  for(const k of Object.keys(window.SAYEON_SKINS||{}))for(let i=0;i<4;i++)battle.push(`cg_sayeon_${k}_b${i}`);
  groups.push({t:'배틀 — 오르페이아·사연',list:battle.filter(k=>!seen.has(k))});

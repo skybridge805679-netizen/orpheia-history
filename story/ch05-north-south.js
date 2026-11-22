@@ -254,6 +254,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @bg cg_ink_spread
 먹물이 번진다. 동모산의 깃발이 흐려지고, 그 위로 낯선 글씨가 덮인다.
 @show muk smirk center
+@cutin muk
 [묵|smirk] 발해? 말갈 사람이 잔뜩이었다며. 그럼 남의 나라 역사잖아. 지워도 되겠네~
 @show haerang serious right
 [해랑|serious] ……!
@@ -338,6 +339,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 노래가 흐른다. 동모산의 목책, 신라도의 먼 길, 해동성국의 바다가 한 소절씩 가사가 되어, 윤슬의 목소리를 타고 퍼져 나간다.
 @if fix >= 1 -> tr_ok
 [먹물] 발해 연호 외워서 뭐 함 ㅋ 시험에 나오기나 함?
+@cutin comments
 [댓글] 문왕이 인안 아닌가요……? 노래 듣고 더 헷갈림
 @jump tr_af
 @label tr_ok

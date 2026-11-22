@@ -218,6 +218,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @label sealafter
 @bg cg_ink_spread
 @show muk smirk center
+@cutin muk
 [묵|smirk] 거리 뒤편에 1910년대 먹물이 남아 있어. 하와이, 대구 약방, 그리고 청산리 숲.
 @show orpheia serious left
 [오르페이아|serious] 보리 씨 감자죽 시절부터 청산리까지의 잔향이에요. 2단계!
@@ -274,6 +275,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 노래가 흐른다. 교복의 함성, 금남로의 버스, 6월 거리의 손수건이 한 줄씩 가사가 되어 윤슬의 목소리에 실린다.
 @if fix >= 1 -> tr_ok
 [먹물] 민주화 운동 순서 따지는 거 무슨 의미 ㅋ
+@cutin comments
 [댓글] 4·19로 직선제 된 거 아니에요?
 @jump tr_af
 @label tr_ok
