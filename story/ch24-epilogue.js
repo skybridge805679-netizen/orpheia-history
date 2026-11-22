@@ -401,6 +401,13 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [마루] 거기 국경 아가씨, 신발!
 [서리] 시골 아가씨는 문간에서 비켜요!
 [오르페이아|pout] 고려 전기 두 분은 같은 장에서 앞뒤로 나오셨으면서 왜 문간에선 동시에 오세요?!
+@bg cg_end_harem_goryeo2|cg_ep_all
+이번엔 모니터에서 쇠 두드리는 소리가 울린다. 그을음 묻은 뺨의 여인이 쇠가락지 한 쌍을 높이 들고 뛰어내리고, 그 뒤로 머리를 일부러 헝클어뜨린 처녀가 종이 한 장을 흔들며 따라 내려선다.
+[쇠별] 손님! 종이 혼서는 타잖아요. 그래서 쇠로 두드려 왔어요. 이건 안 타요!
+[단비] 오라버니, 이 명단 보세요. 제가 제 이름을 올렸어요. 이번엔 끌려가는 게 아니라 제 발로 왔어요!
+[쇠별] 명단보다 쇠가 단단하거든요?
+[단비] 쇠보다 명단이 먼저 왔거든요?
+[오르페이아|pout] 고려 뒤쪽 두 분도 싸우면서 오시네요……. 고려는 원래 그런 나라예요?
 @bg cg_end_harem_haneui|cg_ep_all
 모니터가 한 번 더 금빛으로 번쩍인다. 비단 너울 자락이 먼저 내려서고, 금 귀걸이가 달랑거린다.
 [하늬] 정인님! 담 넘어왔어요. 천 년 걸린다더니 생각보다 금방이네요.
@@ -439,8 +446,8 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [묵|smirk] 늦었네. 나는 오답 노트에서 벌써 혼인 서약 칸 찾아 놨는데.
 @show sayeon smile right
 @cutin record
-[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 스물한 명. 사관인 저를 포함하여.
-[오르페이아|surprised] 스물한 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스물두 명! 제가 첫 번째예요!
+[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 스물세 명. 사관인 저를 포함하여.
+[오르페이아|surprised] 스물세 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스물네 명! 제가 첫 번째예요!
 @hide all
 @show yunseul surprised center
 [윤슬|surprised] ……뭐야, 새벽 세 시에 왜 이렇게 시끄러워. 오빠, 이 언니들 다 누구야?
@@ -574,7 +581,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show dodam smile right
 [도담|smile] 서방님, 약 드실 시간이에요. 도담표 탕약, 오늘로 마흔이틀째. 남김없이요.
 [상철] 이거 대체 무슨 약이야. 매일 먹는데 왜 이렇게 기운이 남아돌아.
-[도담|shy] 신부가 스물하나예요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
+[도담|shy] 신부가 스물셋이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
 [상철] 또?
 [도담|serious] 의원 말 들어요. 이 침은 저만 아는 자리예요. 언니들이 아침마다 저한테 고맙다고 떡을 갖다줘요. 처방이 잘 듣는다는 뜻이죠.
 @show orpheia pout left
@@ -626,6 +633,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [마루|pregnant] 이 집 대청마루에 아기 신발이 하나 더 놓이겠네요. ……신발은 벗기고 올릴 거예요.
 @show seori pregnant right
 [서리|pregnant] 올겨울은 아랫목에서 둘이 아니라 셋이에요. 짐은 영영 안 싸요.
+@hide all
+@show soebyeol pregnant left
+[쇠별|pregnant] 이 아이 이름은 처음부터 문서에 올릴 거예요. '소' 같은 거 안 붙이고요.
+@show danbi pregnant right
+[단비|pregnant] 이 아이 혼인은 이 아이가 정할 거예요. 명단 같은 거 없이.
 @hide all
 @show haneui pregnant center
 [하늬|pregnant] 이 아이는 골품 같은 거 몰랐으면 좋겠어요. 정답이 정해지지 않은 아이로요.
@@ -767,7 +779,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru ara gaon maru seori haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru ara gaon maru seori soebyeol danbi haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -829,6 +841,30 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [서리|smile] 그럼 가요. 대신 다음 겨울엔 꼭 와요. 아랫목은 데워 놓을게요.
 @add seori 5
 @ending 서리의 아랫목|서경의 국경 수레꾼 서리에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_soebyeol
+@bg cg_soebyeol_farewell|bg_era_myeonghakso
+@day 충주 · 다인철소 대장간, 새벽
+[쇠별|smile] 손님! 노래 들었어요. 우리 망치 소리가 들어간 그 노래요. 다인철소 사람들이 그 노래 부르면서 쇠를 두드려요. 이제 '소 것'이라고 안 부끄러워해요.
+[쇠별|shy] 이거…… 제가 두드린 가락지예요. 한 쌍. 종이 혼서는 타니까요.
+[상철] ……미안. 나는 돌아가야 해. 대신 그 망치 소리, 천 년 뒤에도 들리게 해 놓을게.
+[쇠별|teary] 치사해요. 가락지 한 짝만 받아 가면, 남은 한 짝은 어디다 끼워요.
+[쇠별|smile] 그럼 가요, 손님. 남은 한 짝은 제가 끼고 있을게요. 쇠는 안 녹슬게 잘 두드렸으니까.
+@add soebyeol 5
+@ending 쇠별의 혼서|다인철소의 대장장이 딸 쇠별에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_danbi
+@bg cg_danbi_farewell|bg_era_gaegyeong
+@day 개경 · 골목 장독대, 새벽
+[단비|smile] 오라버니! 노래 들었어요. 골목 처녀들이 다 따라 불러요. 명단에 안 오르는 주문이래요.
+[단비|shy] 이제 연기 안 해도 되는데…… 정인 그만두면 안 돼요? 아니, 그만두지 마요.
+[상철] ……미안. 나는 돌아가야 해. 대신 네 이름, 노래에 넣었어. 끌려가지 않고 제 발로 걸은 아가씨라고.
+[단비|teary] 치사해요. 그렇게 말하면 제 발로 붙잡을 수가 없잖아요.
+[단비|smile] 그럼 가요, 오라버니. 다음 명단엔 제가 제 이름이랑 오라버니 이름을 나란히 올릴 거예요.
+@add danbi 5
+@ending 단비의 명단|공녀 명단에서 제 발로 걸어 나온 단비에게 「연표」를 남기고 돌아왔다.
 @jump coda
 
 @label hero_haneui
