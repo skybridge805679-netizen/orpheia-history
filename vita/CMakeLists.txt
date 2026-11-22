@@ -24,6 +24,16 @@ if(VITA)
   # 그림·글꼴이 많아 기본 메모리보다 넉넉히 잡는다(이후 단계에서 조정)
   set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d ATTRIBUTE2=12")
 
+  # vitaGL이 쓰는 SharedFb 스텁은 SDK 버전마다 이름이 다르다
+  set(SHAREDFB_LIB "")
+  foreach(n SceSharedFb_stub SceSharedFbUser_stub SceSharedFbUser_stub_weak)
+    find_library(_sfb ${n} PATHS $ENV{VITASDK}/arm-vita-eabi/lib NO_DEFAULT_PATH)
+    if(_sfb AND NOT SHAREDFB_LIB)
+      set(SHAREDFB_LIB ${n})
+    endif()
+    unset(_sfb CACHE)
+  endforeach()
+  message(STATUS "SharedFb 스텁: ${SHAREDFB_LIB}")
   target_compile_options(orpheia PRIVATE -O2 -Wall)
   target_include_directories(orpheia PRIVATE $ENV{VITASDK}/arm-vita-eabi/include/SDL2)
   target_link_libraries(orpheia
@@ -32,7 +42,7 @@ if(VITA)
     freetype harfbuzz freetype png jpeg webp webpdemux bz2 z
     SceDisplay_stub SceCtrl_stub SceAudio_stub SceAudioIn_stub SceSysmodule_stub
     SceGxm_stub SceCommonDialog_stub SceAppUtil_stub SceTouch_stub SceHid_stub
-    SceMotion_stub SceIme_stub SceKernelDmacMgr_stub ScePower_stub SceAppMgr_stub SceSharedFb_stub
+    SceMotion_stub SceIme_stub SceKernelDmacMgr_stub ScePower_stub SceAppMgr_stub ${SHAREDFB_LIB}
     pthread m)
 
   vita_create_self(eboot.bin orpheia UNSAFE)

@@ -47,7 +47,7 @@ jobs:
           if [ ! -f "$VITASDK/arm-vita-eabi/include/SDL2/SDL_ttf.h" ]; then
             "$VITASDK/bin/vdpm" sdl2 sdl2_image sdl2_ttf freetype harfbuzz libpng libjpeg-turbo libwebp zlib bzip2
           fi
-          ls "$VITASDK/arm-vita-eabi/lib" | grep -iE "sdl2|freetype|harfbuzz|png|jpeg|webp|bz2|libz" || true
+          ls "$VITASDK/arm-vita-eabi/lib" | grep -iE "sdl2|freetype|harfbuzz|png|jpeg|webp|bz2|libz|sharedfb|appmgr|vitagl" || true
       - name: 빌드
         run: |
           cmake -S vita -B vita/build-vita -DCMAKE_TOOLCHAIN_FILE=$VITASDK/share/vita.toolchain.cmake -DCMAKE_BUILD_TYPE=Release
