@@ -3575,8 +3575,8 @@
   "init": null
  },
  "qs_p_reporter": {
-  "seed": 30906,
-  "prompt": "1boy, solo, adult man, korean tv field reporter in a trench coat holding a handheld microphone, short black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "seed": 34125,
+  "prompt": "1girl, solo, adult woman, korean tv field reporter in a trench coat holding a handheld microphone, long black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_p_student": {
@@ -3585,8 +3585,8 @@
   "init": null
  },
  "qs_p_guide": {
-  "seed": 93628,
-  "prompt": "1boy, solo, adult man, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "seed": 43717,
+  "prompt": "1girl, solo, adult woman, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_group_class": {
@@ -3595,8 +3595,8 @@
   "init": null
  },
  "qs_group_museum": {
-  "seed": 5302,
-  "prompt": "1girl, 2boys, young adult, three korean students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "seed": 26862,
+  "prompt": "3girls, young adult, three korean young women students in casual clothes standing side by side in a history museum hall, each holding a plain notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_f7": {
@@ -3605,7 +3605,7 @@
   "init": null
  },
  "qs_f8": {
-  "seed": 99438,
+  "seed": 32521,
   "prompt": "1girl, solo, adult woman, korean librarian in a teal cardigan holding an old book, wavy brown hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3645,7 +3645,7 @@
   "init": null
  },
  "qs_f26": {
-  "seed": 53186,
+  "seed": 26313,
   "prompt": "1girl, solo, adult woman, korean tv quiz show host in a teal formal jacket holding cue cards, black hair in a bun, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3770,12 +3770,12 @@
   "init": null
  },
  "qs_f65": {
-  "seed": 16908,
+  "seed": 16081,
   "prompt": "1girl, solo, adult woman, korean tv field reporter in a brown coat holding a microphone, wavy brown hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_f66": {
-  "seed": 21170,
+  "seed": 39315,
   "prompt": "1girl, solo, adult woman, korean librarian in a charcoal cardigan holding an old book, black hair in a bun, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3850,12 +3850,12 @@
   "init": null
  },
  "qs_f93": {
-  "seed": 14298,
+  "seed": 63421,
   "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a light gray vest, short bob black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_f94": {
-  "seed": 14898,
+  "seed": 74124,
   "prompt": "1girl, solo, adult woman, middle-aged, korean history youtuber in a charcoal hoodie in front of a ring light and microphone, wavy brown hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3900,7 +3900,7 @@
   "init": null
  },
  "qs_f108": {
-  "seed": 51993,
+  "seed": 81128,
   "prompt": "1girl, solo, adult woman, korean history youtuber in a cream hoodie in front of a ring light and microphone, black hair in a bun, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3910,7 +3910,7 @@
   "init": null
  },
  "qs_f112": {
-  "seed": 55609,
+  "seed": 32170,
   "prompt": "1girl, solo, adult woman, korean tv quiz show host in a dark green formal jacket holding cue cards, short bob black hair, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -3925,7 +3925,7 @@
   "init": null
  },
  "qs_f116": {
-  "seed": 79243,
+  "seed": 20067,
   "prompt": "1girl, solo, adult woman, middle-aged, korean tv field reporter in a lavender coat holding a microphone, black hair in a bun, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
  },
@@ -4030,8 +4030,8 @@
   "init": null
  },
  "qs_g62": {
-  "seed": 12211,
-  "prompt": "3girls, three young adult korean women students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a placard, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "seed": 73861,
+  "prompt": "3girls, three young adult korean women students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a blank white sheet of paper, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
  },
  "qs_g76": {
@@ -4040,8 +4040,8 @@
   "init": null
  },
  "qs_g84": {
-  "seed": 97020,
-  "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a pamphlet, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "seed": 83660,
+  "prompt": "3girls, three young adult korean women students in winter coats standing side by side in front of a history museum entrance, each holding a plain colored notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
  }
 }
