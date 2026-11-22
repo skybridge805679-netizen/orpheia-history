@@ -3,10 +3,10 @@
 
   python3 tools/export-vita.py [출력 폴더=vita/build-data] [글꼴 폴더=tools/fonts]
 
-0단계: 첫 화면에 쓸 그림·글꼴과 LiveArea 그림(sce_sys)만 만든다.
-이후 단계에서 대본(chapters.json)·문제(quiz.json)·표·그림·소리 변환을 여기에 더한다.
+지금: 첫 화면 그림·글꼴, LiveArea 그림(sce_sys), 대본·표(game.json), 문제(quiz.json).
+이후 단계에서 그림·소리 일괄 변환을 여기에 더한다. Node + playwright 가 있어야 한다.
 """
-import shutil, sys
+import json, shutil, subprocess, sys
 from pathlib import Path
 from PIL import Image
 
@@ -65,6 +65,15 @@ def main():
         '  <livearea-background><image>bg.png</image></livearea-background>\n'
         '  <gate><startup-image>startup.png</startup-image></gate>\n'
         '</livearea>\n', encoding="utf-8")
+    # 대본·표·문제: 웹판을 헤드리스로 띄워 vn.js 가 해석한 그대로 뽑는다(tools/vita-dump.cjs)
+    dump = OUT / "dump.json"
+    subprocess.run(["node", str(ROOT / "tools/vita-dump.cjs"), str(dump)], cwd=ROOT, check=True)
+    d = json.loads(dump.read_text(encoding="utf-8"))
+    game = {k: v for k, v in d.items() if k not in ("QS", "EXPLAIN", "FIGURES", "HERITAGE")}
+    quiz = {"QS": d["QS"], "EXPLAIN": d["EXPLAIN"], "FIGURES": d["FIGURES"], "HERITAGE": d["HERITAGE"]}
+    (DATA / "game.json").write_text(json.dumps(game, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (DATA / "quiz.json").write_text(json.dumps(quiz, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    dump.unlink()
     n = sum(1 for _ in OUT.rglob("*") if _.is_file())
     print(f"내보냄: {OUT} ({n}개 파일)")
 

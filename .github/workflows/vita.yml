@@ -3,7 +3,7 @@ name: 비타 빌드
 on:
   push:
     branches: [main]
-    paths: ['vita/**', 'tools/export-vita.py', '.github/workflows/vita.yml']
+    paths: ['vita/**', 'tools/export-vita.py', 'tools/vita-dump.cjs', '.github/workflows/vita.yml']
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install pillow
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: playwright(대본 뽑기용 헤드리스 크롬)
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
       - name: 글꼴 받기(OFL, 구글 폰트)
         run: |
           mkdir -p tools/fonts
