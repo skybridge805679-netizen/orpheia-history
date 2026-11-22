@@ -3558,5 +3558,45 @@
   "seed": 81306,
   "prompt": "2boys, adult men, 1952 korea wartime temporary national assembly hall in busan, korean lawmakers in 1950s suits standing up from wooden desks, soldiers and policemen standing guard at the doors, on the left an angry lawmaker shouting, on the right a worried lawmaker standing reluctantly, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
+ },
+ "qs_p_docent": {
+  "seed": 6173,
+  "prompt": "1girl, solo, adult woman, korean museum docent in a neat navy blazer uniform and white blouse with a name badge on a lanyard, long dark brown hair in a low ponytail, gesturing with an open hand toward the left side of the image, inside a modern history museum exhibition hall with glass cases, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_p_teacher": {
+  "seed": 40422,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a beige cardigan, white blouse and long skirt, shoulder-length black hair, holding a pointer stick and pointing to the left, classroom with a blackboard behind her, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_p_anchor": {
+  "seed": 31044,
+  "prompt": "1girl, solo, adult woman, korean tv news anchor in a white blazer and pearl earrings, neat short black bob hair, holding papers, gesturing to the left, inside a bright tv news studio with blue screens, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_p_reporter": {
+  "seed": 30906,
+  "prompt": "1boy, solo, adult man, korean tv field reporter in a trench coat holding a handheld microphone, short black hair, standing outdoors on a city street, gesturing to the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_p_student": {
+  "seed": 15725,
+  "prompt": "1girl, solo, young adult woman, korean university student presenter in a light blue knit sweater and jeans, long black hair, holding a tablet and gesturing to the left, seminar room with a projector screen behind, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_p_guide": {
+  "seed": 93628,
+  "prompt": "1boy, solo, adult man, korean heritage tour guide with glasses in a green outdoor vest and cap, holding a small flag, gesturing to the left, standing in front of a traditional korean hanok palace courtyard, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_group_class": {
+  "seed": 82603,
+  "prompt": "2girls, 1boy, young adult, three korean university students standing side by side in front of a blackboard in a classroom, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_group_museum": {
+  "seed": 5302,
+  "prompt": "1girl, 2boys, young adult, three korean students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
  }
 }
