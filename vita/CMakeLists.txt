@@ -32,7 +32,7 @@ if(VITA)
     freetype harfbuzz freetype png jpeg webp webpdemux bz2 z
     SceDisplay_stub SceCtrl_stub SceAudio_stub SceAudioIn_stub SceSysmodule_stub
     SceGxm_stub SceCommonDialog_stub SceAppUtil_stub SceTouch_stub SceHid_stub
-    SceMotion_stub SceIme_stub SceKernelDmacMgr_stub ScePower_stub
+    SceMotion_stub SceIme_stub SceKernelDmacMgr_stub ScePower_stub SceAppMgr_stub SceSharedFb_stub
     pthread m)
 
   vita_create_self(eboot.bin orpheia UNSAFE)
