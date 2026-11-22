@@ -4148,5 +4148,80 @@
   "seed": 2324010,
   "prompt": "4girls, 1boy, hidden harem ending, comedic chaos in a small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light and plum blossom petals, four joseon gisaeng sisters in colorful hanbok crowding around a young man, clinging to his arms, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
+ },
+ "st_maehyang_angry": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, stern scolding expression, frown, pointing with folded fan",
+  "init": null
+ },
+ "st_maehyang_teary": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, teary eyes, single tear, gentle sad smile",
+  "init": null
+ },
+ "st_maehyang_worry": {
+  "seed": 2323241,
+  "prompt": "1girl, solo, solo focus, graceful mature adult woman, 27 years old, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, worried, furrowed brows, hand on chest",
+  "init": null
+ },
+ "st_choryeon_angry": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, angry, puffed cheeks, glaring, stomping",
+  "init": null
+ },
+ "st_choryeon_teary": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, teary eyes, biting lip, trying not to cry",
+  "init": null
+ },
+ "st_choryeon_worry": {
+  "seed": 2323242,
+  "prompt": "1girl, solo, solo focus, proud young adult woman, 25 years old, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, worried, glancing sideways, fidgeting with sleeve",
+  "init": null
+ },
+ "st_hwaseon_angry": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, mock angry pout, hands on hips, cheeks puffed",
+  "init": null
+ },
+ "st_hwaseon_teary": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, crying with a wobbly smile, tears",
+  "init": null
+ },
+ "st_hwaseon_worry": {
+  "seed": 2323243,
+  "prompt": "1girl, solo, solo focus, playful energetic young adult woman, 24 years old, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, worried, biting fingernail, eyes darting",
+  "init": null
+ },
+ "cg_ch12_hwaseon_fall": {
+  "seed": 2324021,
+  "prompt": "1girl, 1boy, joseon dynasty gisaeng house rehearsal yard in the evening, wooden floor, paper lanterns being lit, scattered flower petals, comedic accident, romantic comedy, masterpiece",
+  "init": null
+ },
+ "cg_ch12_choryeon_string": {
+  "seed": 2324022,
+  "prompt": "1girl, 1boy, behind the stage curtain of a joseon banquet hall at night, candlelight, a geomungo zither on the floor with a snapped string, close, tense, romantic, masterpiece",
+  "init": null
+ },
+ "cg_ch12_maehyang_dawn": {
+  "seed": 2324023,
+  "prompt": "1girl, 1boy, wooden maru veranda of a joseon house at dawn after a banquet, pale moon fading, mist, empty wine cups, ink stone and brush, quiet romantic mood, masterpiece",
+  "init": null
+ },
+ "cg_end_hwaseon": {
+  "seed": 2324031,
+  "prompt": "1girl, 1boy, joseon festival night street with many paper lanterns and a crowd in the background, fireworks of sparks, joyful farewell, masterpiece",
+  "init": null
+ },
+ "cg_end_choryeon": {
+  "seed": 2324032,
+  "prompt": "1girl, 1boy, a quiet joseon gisaeng house room at night, moonlight through a paper window, a geomungo zither, intimate farewell, masterpiece",
+  "init": null
+ },
+ "cg_end_maehyang": {
+  "seed": 2324033,
+  "prompt": "1girl, 1boy, spring garden of a joseon house in full plum blossom, morning light, petals falling, elegant farewell, masterpiece",
+  "init": null
  }
 }
