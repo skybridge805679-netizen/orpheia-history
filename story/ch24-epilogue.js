@@ -482,7 +482,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru sodam seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -521,6 +521,42 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [소담|teary] 그럼 약과는 다 가져가요. 노래 쓸 때 배고프면 안 되니까요.
 @add sodam 5
 @ending 소담의 약과|생과방의 소담에게 「연표」를 남기고, 약과 한 보따리를 들고 돌아왔다.
+@jump coda
+
+@label hero_maehyang
+@bg cg_end_maehyang|bg_era_joseon_night
+@day 한양 · 매화 핀 대감 댁 뒤뜰
+[매향|smile] 오셨군요, 악사님. 매화가 필 때까지 기다렸어요. 기생 맏이가 누굴 기다리는 건, 기방 생기고 처음 있는 일일 거예요.
+[매향] 그날 새벽에 지은 시조, 종장을 드디어 채웠어요. 판이 세 번 엎어져도, 끝까지 들어 준 사람 하나는 남더라고.
+[매향|teary] 맏이는 붙잡지 않아요. 동생들 앞에서 우는 법도 없고요. ……그러니 이건 동생들한테 비밀이에요. 가지 마세요.
+[상철] 그 시조, 내 노래 가사로 오래 남게 할게. 종장까지 그대로.
+[매향|shy] ……그럼 됐어요. 기생의 시조가 노래가 되어 남는다면, 그게 제 혼서지예요.
+@add maehyang 5
+@ending 매향의 시조|매화 핀 뒤뜰에서, 기방 맏이 매향의 시조를 받아 들고 돌아왔다.
+@jump coda
+
+@label hero_choryeon
+@bg cg_end_choryeon|bg_era_joseon_night
+@day 한양 · 기방 안채, 달밤
+[초련|angry] ……늦었어요. 줄 세 번이나 다시 맸다고요. 당신 오면 들려주려고.
+[초련] 그날 당신이 맨 줄, 아직 안 바꿨어요. 소리가 제일 맑아서. ……딴 뜻은 없어요. 없다고요.
+[초련|teary] 흥, 가려면 가요. 거문고는 붙잡는 악기가 아니니까. ……그래도 이 곡 끝날 때까진 일어나지 마요.
+[상철] 끝까지 들을게. 그리고 이 소리, 내 곡에 그대로 담을게.
+[초련|shy] ……바보. 그럼 당신 노래 들을 때마다 내 줄 소리 생각나게 해 줄 거예요. 평생.
+@add choryeon 5
+@ending 초련의 줄|달밤 기방에서, 초련이 그날 맨 줄 그대로 뜯는 거문고를 끝까지 듣고 돌아왔다.
+@jump coda
+
+@label hero_hwaseon
+@bg cg_end_hwaseon|bg_era_joseon_night
+@day 한양 · 등불 축제의 밤 거리
+[화선|smile] 악사님! 약속했죠, 다음 잔치 땐 내 춤 상대라고. 오늘은 잔치 말고 거리 전체가 내 무대예요!
+[화선] 자, 손! 이번엔 안 넘어뜨릴게요. ……아마도.
+[화선|teary] 사실 알아요. 악사님은 금방 또 사라질 사람이라는 거. 그러니까 오늘은 웃으면서 춤만 출래요. 우는 건 내일 할게요.
+[상철] 끝까지 맞춰 볼게. 박자 틀려도 웃지 마.
+[화선|shy] 틀리면 또 넘어지면 되죠, 뭐. ……그때처럼, 악사님 위로.
+@add hwaseon 5
+@ending 화선의 춤|등불 거리에서, 기방 셋째 화선과 한 곡을 끝까지 추고 돌아왔다.
 @jump coda
 
 @label hero_seola
