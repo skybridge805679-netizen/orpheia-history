@@ -7,7 +7,7 @@
 - 대사 속 역사 사실은 **기출(`data/qs.js`, `data/explanations.js`)에 나온 것만** 쓴다. 유명한 일화라도 원문에 없으면 쓰지 않는다(예: 한산도·명량·학익진·거북선, 이소응의 뺨, 선죽교는 기출 원문에 없음). 문항을 부를 때는 그 문항의 해설과 어긋나지 않게 강사·오르페이아 대사를 쓴다.
 - 문제는 `@quiz`로 부른다. 정답을 대사로 먼저 말하지 않는다(문제 뒤의 해설 대사는 괜찮다).
 - 학습은 이야기 속에서: `docs/학습-설계.md`를 따른다. 사실은 그 시대 인물의 사정·소품·같은 사건의 반대편 시점으로 보여 주고, 오르페이아·사연은 강의하지 않는다(귓속말 한 줄, 때와 곳 잇기). 퀴즈와 선택지는 인물이 시험하거나 부탁하는 장면으로 연다. 화면 밖 지시("떠올려 보세요")·공식 낭독 금지. 본보기: 3장.
-- 데이터 갱신: `python3 tools/sync-data.py ../korean-history-study`.
+- 데이터 갱신: `python3 tools/sync-data.py ../korean-history-study`. 기출 그림도 함께 `tools/sync-images.py`가 `assets/kh/`로 WebP 사본을 만든다(PNG는 WebP로, 긴 변 1600px. `data/kh-local.js` 목록에 있는 그림은 사본, 없으면 학습 사이트 주소에서 불러온다). 핵심노트는 `data/core-notes/`.
 - 문화재 사진(`data/heritage.js`)은 출처가 어디든(학습 사이트 포함) 연결 전에 사진을 직접 열어 이름과 맞는지 본다. 틀린 것은 `tools/heritage_review.py`의 BAD/NO에 이유와 함께 적는다.
 - NAI 그림은 GitHub Actions가 waifu2x로 2배 키운다(`tools/upscale.py`, `.github/workflows/upscale.yml` 매시간 + 생성 직후). 긴 변 1300px 이하면 아직 안 키운 것으로 본다. 그림을 손볼 때는 `tools/orig/`나 생성 원본 크기 기준으로 하고, 키우기는 봇에 맡긴다.
 - NAI 그림의 깨진 글자·서명 고치기: `tools/text-fix.json`에 좌표와 새 글자를 적고 `python3 tools/textfix.py [이름]`. 원본은 `tools/orig/`에 보관(그림을 새로 뽑으면 그 원본을 지우고 좌표를 다시 잡는다). 한자는 `serif`(Noto Serif KR) 글꼴.

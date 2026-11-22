@@ -1049,7 +1049,7 @@ def build():
         figs[key]=d['fig']
         if d['pics']:
             from qfig import heritage_src
-            meta[key]=[{"number":i+1,"src":(lambda v: ("assets/"+v if os.path.exists("assets/"+v) else v) if v.startswith("heritage/") else heritage_src(v))(d['pics'][o[0]]),"name":o[0]} for i,o in enumerate(opts)]
+            meta[key]=[{"number":i+1,"src":(lambda v: "assets/"+v if v.startswith("heritage/") and os.path.exists("assets/"+v) else v)(d['pics'][o[0]] if d['pics'][o[0]].startswith("heritage/") else heritage_src(d['pics'][o[0]])),"name":o[0]} for i,o in enumerate(opts)]
         bych.setdefault(d['ch'],[]).append(key)
     size=render(figs)
     F={k:{"src":f"assets/qfig/{k}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})} for k,(w,h) in size.items()}
