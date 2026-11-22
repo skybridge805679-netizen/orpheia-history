@@ -7080,6 +7080,36 @@
    "seed": 2323232,
    "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls"
+  },
+  {
+   "id": "cg_sp_aunt_hell",
+   "size": "bg",
+   "seed": 2412001,
+   "prompt": "1girl, solo adult, many babies, comedic chaos, cozy modern korean living room next to a home music studio, morning light, about fifteen chubby babies in colorful onesies everywhere, crawling, crying with big open mouths, one baby lifting a big plush deer over its head, one baby splashing in a small tub, babies banging spoons on the floor, scattered diapers, baby bottles, torn newspaper, a folding screen in the corner, chibi comedic style, sweat drops, motion lines, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, overwhelmed comedic face, messy hair, swirl eyes, sweat drops, sitting on the floor holding a crying baby in each arm, a baby bottle in her mouth, a baby clinging to her head",
+     "uc": "nude, nipples, cleavage, panties, child, loli",
+     "x": 0.5,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, sexy, cleavage, panties, child nudity, naked baby, watermark, signature, text, letters, logo, extra limbs, bad hands, extra fingers, multiple views, adult man"
+  },
+  {
+   "id": "cg_sp_aunt_lullaby",
+   "size": "bg",
+   "seed": 2412002,
+   "prompt": "1girl, solo adult, many babies, heartwarming, quiet night, cozy modern korean living room, warm lamp light, a young woman sitting in the middle of a sofa softly singing with closed eyes, sleeping babies in onesies on her lap, in her arms and curled up on blankets around her, one tiny baby hand holding her finger, soft blue night outside the window, gentle, peaceful, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, tired but gentle smile, eyes closed, singing softly, messy hair, two sleeping babies on her lap, holding a sleeping baby in her arm, a baby hand gripping her finger",
+     "uc": "nude, nipples, cleavage, panties, child, loli",
+     "x": 0.5,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sexy, cleavage, panties, child nudity, naked baby, watermark, signature, text, letters, logo, extra limbs, bad hands, extra fingers, multiple views, adult man"
   }
  ]
 }

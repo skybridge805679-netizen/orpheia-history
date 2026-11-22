@@ -86,7 +86,9 @@ const bgFile=f=>f.replace(/\.(png|webp)$/,'')+'.webp';
 
 // ── 대본 해석. "@명령 인자", "[이름|표정] 대사", "> 선택지 -> 라벨 {flag+1}", "// 주석", 나머지는 서술.
 const chapters=[],byId={};
-function chapter(id,title,subtitle,src){const ops=parse(src,id);const ch={id,title,subtitle,ops,labels:{}};ops.forEach((o,i)=>{if(o.t==='label')ch.labels[o.arg]=i;});chapters.push(ch);byId[id]=ch;}
+// 외전(id가 sp_로 시작): 본편 장 목록·장 선택에 넣지 않고, 끝나면 타이틀로 돌아간다. 타이틀 「외전」에서 연다.
+const sides=[];
+function chapter(id,title,subtitle,src){const ops=parse(src,id);const ch={id,title,subtitle,ops,labels:{},side:id.startsWith('sp_')};ops.forEach((o,i)=>{if(o.t==='label')ch.labels[o.arg]=i;});(ch.side?sides:chapters).push(ch);byId[id]=ch;}
 function parse(src,id){
  const ops=[];let choice=null;
  for(const [n,raw] of src.split('\n').entries()){
@@ -519,6 +521,9 @@ function battleHit(ok,first,hits,total){
 }
 
 function finishChapter(next){
+ if(curCh().side){busy=true;S.line=null;paint();const c=$('#vnCard');c._tok=(c._tok||0)+1;c.onclick=null;c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
+  c.innerHTML=`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>SIDE STORY · END</small><h2>${esc(curCh().subtitle||curCh().title)}</h2><p>본편과 상관없는 어느 하루였어요. ……아마도요.</p><button class="primary">타이틀로</button>`;
+  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};return;}
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
  if(nx){reach(nx.id);S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
  busy=true;S.line=null;paint();const c=$('#vnCard');c._tok=(c._tok||0)+1;c.onclick=null;c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
@@ -567,7 +572,7 @@ const SONG_TITLE={song_ch01:'돌덩이 러브레터',song_ch02:'다섯 나라 �
 const BGM_TITLE={bgm_title:'타이틀',bgm_daily:'작업실 낮',bgm_night_shift:'새벽 세 시의 작업실',bgm_outing:'연표 다이브',bgm_orpheia:'오르페이아 테마',bgm_exam:'기출 풀기',bgm_result:'발매 정산',bgm_challenge:'먹물과의 배틀',bgm_comedy:'러브코미디 사건',bgm_romance:'설렘',bgm_tragic:'비극의 현장',bgm_yunseul:'윤슬 테마',bgm_ending:'전원 집합',bgm_sayeon:'사관의 시험',bgm_jealous:'질투 소동'};
 function galleryCgs(){
  const groups=[],seen=new Set();
- for(const c of chapters){const list=[];for(const o of c.ops)if(o.t==='bg'){const k=o.arg.split('|')[0].trim();if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.title,list});}
+ for(const c of [...chapters,...sides]){const list=[];for(const o of c.ops)if(o.t==='bg'){const k=o.arg.split('|')[0].trim();if(/^cg_/.test(k)&&!/^cg_(ink_spread|comment_flame)$/.test(k)&&!seen.has(k)){seen.add(k);list.push(k);}}if(list.length)groups.push({t:c.title,list});}
  const battle=['cg_orp_b1','cg_orp_b2','cg_orp_b3','cg_sayeon_b0','cg_sayeon_b1','cg_sayeon_b2','cg_sayeon_b3'];
  for(const k of Object.keys(window.SAYEON_SKINS||{}))for(let i=0;i<4;i++)battle.push(`cg_sayeon_${k}_b${i}`);
  groups.push({t:'배틀 — 오르페이아·사연',list:battle.filter(k=>!seen.has(k))});
@@ -581,7 +586,7 @@ function gallery(tab='cg'){
  let body='';
  if(tab==='cg')body=groups.map(g=>{const sets=[];for(const k of g.list){const b=varBase(k),last=sets[sets.length-1];if(last&&last.b===b)last.v.push(k);else sets.push({b,v:[k]});}
   return `<h3 class="gl-h">${esc(g.t)}</h3><div class="mg-grid">${sets.map(st=>{const own=st.v.filter(k=>got.has(k));return `<figure class="mg-card${own.length?'':' locked'}"><div class="mg-main" data-set="${own.join(',')}">${own.length?`<img loading="lazy" src="${asset(own[0]+'.webp')}" alt="">`:'<span class="gl-lock">?</span>'}</div>${st.v.length>1?`<figcaption><small>차분</small><b>${own.length} / ${st.v.length}</b></figcaption>`:''}</figure>`;}).join('')}</div>`;}).join('');
- if(tab==='scene'){const L=sceneList();body=`<p class="mg-sum">본 장면을 그 CG가 뜨는 곳부터 다시 봐요. 장면이 끝나면 여기로 돌아와요.</p>`+chapters.map(c=>{const xs=L.filter(x=>x.ch===c.id);return xs.length?`<h3 class="gl-h">${esc(c.title)}</h3><div class="mg-grid">${xs.map(x=>`<figure class="mg-card${got.has(x.k)?'':' locked'}"><div class="mg-main gl-replay" data-rp="${got.has(x.k)?L.indexOf(x):''}">${got.has(x.k)?`<img loading="lazy" src="${asset(x.k+'.webp')}" alt=""><span class="gl-play">▶ 회상</span>`:'<span class="gl-lock">?</span>'}</div></figure>`).join('')}</div>`:'';}).join('');}
+ if(tab==='scene'){const L=sceneList();body=`<p class="mg-sum">본 장면을 그 CG가 뜨는 곳부터 다시 봐요. 장면이 끝나면 여기로 돌아와요.</p>`+[...chapters,...sides].map(c=>{const xs=L.filter(x=>x.ch===c.id);return xs.length?`<h3 class="gl-h">${esc(c.title)}</h3><div class="mg-grid">${xs.map(x=>`<figure class="mg-card${got.has(x.k)?'':' locked'}"><div class="mg-main gl-replay" data-rp="${got.has(x.k)?L.indexOf(x):''}">${got.has(x.k)?`<img loading="lazy" src="${asset(x.k+'.webp')}" alt=""><span class="gl-play">▶ 회상</span>`:'<span class="gl-lock">?</span>'}</div></figure>`).join('')}</div>`:'';}).join('');}
  if(tab==='music'){const row=(n,t)=>{const on=heard.has(n)||n==='bgm_title';return `<li class="${on?'':'locked'}"><button data-play="${n}" ${on?'':'disabled'}>▶</button><span>${on?esc(t):'？？？'}</span><small>${n.startsWith('song_ch')?'TRACK '+n.slice(-2):''}</small></li>`;};
   body=`<p class="mg-sum">이야기에서 한 번 들은 곡이 열려요. 다시 누르면 멈춰요.</p><h3 class="gl-h">노래</h3><ul class="gl-music">${songs.map(n=>row(n,SONG_TITLE[n]||n)).join('')}</ul><h3 class="gl-h">배경 음악</h3><ul class="gl-music">${bgms.map(n=>row(n,BGM_TITLE[n])).join('')}</ul>`;}
  if(tab==='end')body=`<p class="mg-sum">본 엔딩 ${ends.length} / ${ENDING_COUNT}</p><ul class="gl-end">${ends.map(e=>`<li>✦ ${esc(typeof e==='string'?e:e.t||'')}</li>`).join('')||'<li class="locked">아직 본 엔딩이 없어요.</li>'}${Array.from({length:Math.max(0,ENDING_COUNT-ends.length)},()=>'<li class="locked">？？？</li>').join('')}</ul>`;
@@ -623,7 +628,7 @@ function slots(mode,fromTitle){
   close();loadFrom(k);});
  if(!d.open)d.showModal();}
 // ── 회상: 갤러리에서 본 CG 장면을 그 CG가 뜨는 줄부터 다시 본다. 장면이 바뀌면(다이브·문제·배틀·CG 아닌 배경) 갤러리로 돌아간다.
-function sceneList(){const out=[],seen=new Set();for(const c of chapters)c.ops.forEach((o,i)=>{if(o.t!=='bg')return;const k=o.arg.split('|')[0].trim();if(!/^cg_/.test(k)||/^cg_(ink_spread|comment_flame|ev_|mv_)/.test(k)||seen.has(k))return;seen.add(k);out.push({k,ch:c.id,t:c.title,pc:i});});return out;}
+function sceneList(){const out=[],seen=new Set();for(const c of [...chapters,...sides])c.ops.forEach((o,i)=>{if(o.t!=='bg')return;const k=o.arg.split('|')[0].trim();if(!/^cg_/.test(k)||/^cg_(ink_spread|comment_flame|ev_|mv_)/.test(k)||seen.has(k))return;seen.add(k);out.push({k,ch:c.id,t:c.title,pc:i});});return out;}
 function replay(sc){closeDialogs();$('#vnLog').className='';S={...fresh(sc.ch),pc:sc.pc,replay:{from:sc.pc}};log=[];shell();paint();step();}
 function endReplay(){busy=false;S=null;title();gallery('scene');}
 // ── 차분: 같은 CG의 단계(…_b0~b3 등)를 한 묶음으로 보고, 확대 화면에서 ←/→·클릭으로 넘긴다(본 것만).
@@ -659,15 +664,17 @@ function splash(){
  let gone=false;const go=e=>{if(gone)return;if(e.type==='keydown'&&['Shift','Control','Alt','Meta','Tab'].includes(e.key))return;gone=true;el.removeEventListener('pointerdown',go);document.removeEventListener('keydown',go);el.classList.add('strum');SFX.play('vb_purify');setTimeout(title,650);};
  el.addEventListener('pointerdown',go);document.addEventListener('keydown',go);
 }
+// 외전은 히든 엔딩 「연표의 신부들」을 본 뒤에 열린다.
+function sideOpen(){return !!byId.sp_aunt&&(records.endings||[]).includes('연표의 신부들');}
 function title(){
  BGM.play('bgm_title');stopAuto();clearTimeout(typing?.t);typing=null;busy=false;skip=false;auto=false;S=null;Quiz.close();closeDialogs();document.body.classList.add('vn-mode');
  const cont=latest(),st=Quiz.stats();backfill();
  const art=(records.endings||[]).length?'cg_title_clear':'cg_title';
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg vn-title-art" src="${asset(art+'.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
- <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="load" ${cont?'':'disabled'}>💾 불러오기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button><button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
+ <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="load" ${cont?'':'disabled'}>💾 불러오기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button>${sideOpen()?'<button data-t="side">🍼 외전 · 고모의 육아지옥</button>':''}<button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
- const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),chsel:chapterSelect,load:()=>slots('load',true)};
+ const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),chsel:chapterSelect,load:()=>slots('load',true),side:()=>{S=fresh('sp_aunt');log=[];shell();paint();step();}};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t]());
  // 타이틀 일러스트: 있으면 그 그림을 크게 깔고 스탠딩은 숨긴다. 엔딩을 본 뒤에는 새벽 작업실 그림, 없으면 기본 그림 → 연표 터널 배경 + 스탠딩.
  const bg=$('.vn-title-art'),sec=$('.vn-title');
