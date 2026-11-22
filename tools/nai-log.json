@@ -4413,5 +4413,170 @@
   "seed": 1818116,
   "prompt": "1girl, solo, teenage girl, 18 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, unique uniform fusing hanbok and school uniform, white jeogori-style blouse with crossed collar and dongjeong, red goreum ribbon at the chest, navy vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, school bag with brass shaman bells, five-colored cloth strips on her wrist, sitting at a small table in a cozy 24-hour korean snack shop in the early morning, eating a big pan of very red spicy tteokbokki with melted cheese and rice balls, cheeks puffed, happy, sweating from spice, holding chopsticks, a small bottle of yogurt drink, brass bells on her bag on the chair, morning light through the window, warm, comedic, slice of life, no readable text, masterpiece",
   "init": null
+ },
+ "cg_muk_lotus_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white hanbok with wide sleeves, holding a glowing paper lotus lantern like a weapon, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_lotus_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white hanbok with wide sleeves, holding a glowing paper lotus lantern like a weapon, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_lotus_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white hanbok with wide sleeves, holding a glowing paper lotus lantern like a weapon, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_rain_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, indigo hanbok wet from rain, holding a closed oil-paper umbrella like a sword, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_rain_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, indigo hanbok wet from rain, holding a closed oil-paper umbrella like a sword, heavy battle damage, torn clothes, torn top, indigo bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_rain_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, indigo hanbok wet from rain, holding a closed oil-paper umbrella like a sword, clothes almost completely torn away, only indigo lingerie, indigo bra and indigo panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_donghak_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, plain white cotton farmer clothes, white headband, holding a bamboo spear, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_donghak_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, plain white cotton farmer clothes, white headband, holding a bamboo spear, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_donghak_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, plain white cotton farmer clothes, white headband, holding a bamboo spear, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_uibyeong_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, righteous army volunteer, padded cotton coat, straw hat, holding a matchlock rifle, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_uibyeong_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, righteous army volunteer, padded cotton coat, straw hat, holding a matchlock rifle, heavy battle damage, torn clothes, torn top, beige bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_uibyeong_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, righteous army volunteer, padded cotton coat, straw hat, holding a matchlock rifle, clothes almost completely torn away, only beige lingerie, beige bra and beige panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_manse_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white jeogori and long black skirt, holding a taegukgi flag pole like a spear, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_manse_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white jeogori and long black skirt, holding a taegukgi flag pole like a spear, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_manse_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white jeogori and long black skirt, holding a taegukgi flag pole like a spear, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_moga_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1920s modern girl, cloche hat, drop-waist dress, holding rolled newspapers like a baton, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_moga_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1920s modern girl, cloche hat, drop-waist dress, holding rolled newspapers like a baton, heavy battle damage, torn clothes, torn top, black lace bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_moga_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1920s modern girl, cloche hat, drop-waist dress, holding rolled newspapers like a baton, clothes almost completely torn away, only black lace lingerie, black lace bra and black lace panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hangul_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, pale hanbok, wielding a giant brush, hangul dictionary cards orbiting around her, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hangul_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, pale hanbok, wielding a giant brush, hangul dictionary cards orbiting around her, heavy battle damage, torn clothes, torn top, pale pink bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_hangul_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, pale hanbok, wielding a giant brush, hangul dictionary cards orbiting around her, clothes almost completely torn away, only pale pink lingerie, pale pink bra and pale pink panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_liberation_b1": {
+  "seed": 7373748,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1940s korean liberation army khaki uniform with taegukgi armband, plain khaki field cap without emblem, holding a rifle, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_liberation_b2": {
+  "seed": 7373748,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1940s korean liberation army khaki uniform with taegukgi armband, plain khaki field cap without emblem, holding a rifle, heavy battle damage, torn clothes, torn top, olive bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_liberation_b3": {
+  "seed": 7373748,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1940s korean liberation army khaki uniform with taegukgi armband, plain khaki field cap without emblem, holding a rifle, clothes almost completely torn away, only olive lingerie, olive bra and olive panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_refugee_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1950s winter coat and long scarf, snow falling, swinging a cloth bundle, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_refugee_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1950s winter coat and long scarf, snow falling, swinging a cloth bundle, heavy battle damage, torn clothes, torn top, grey bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_refugee_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1950s winter coat and long scarf, snow falling, swinging a cloth bundle, clothes almost completely torn away, only grey lingerie, grey bra and grey panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_handkerchief_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1980s white blouse and long skirt, white handkerchief tied on her wrist, holding a megaphone, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_handkerchief_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1980s white blouse and long skirt, white handkerchief tied on her wrist, holding a megaphone, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_handkerchief_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, 1980s white blouse and long skirt, white handkerchief tied on her wrist, holding a megaphone, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_pages_b1": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, battle damage, torn clothes, torn sleeves, ripped hem, scratches on clothes, annoyed, clenched teeth, glaring, still in fighting stance, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_pages_b2": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, heavy battle damage, torn clothes, torn top, white bra visible through the torn clothes, cleavage, one bare shoulder, skirt torn up to the thigh, bare thighs, flustered, deep blush, covering chest with one arm, shouting, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
+ },
+ "cg_muk_pages_b3": {
+  "seed": 6060617,
+  "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
+  "init": null
  }
 }
