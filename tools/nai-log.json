@@ -3528,5 +3528,35 @@
   "seed": 48276,
   "prompt": "2boys, adult men, 1915 korea, a narrow alley at dusk with tiled roofs, on the left a korean man in a western suit and fedora secretly handing a cloth bundle of money to a man in a white hanbok durumagi on the right, both looking around cautiously, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
+ },
+ "qs_wanggeom": {
+  "seed": 93547,
+  "prompt": "2boys, adult men, ancient korea 2nd century bc, on top of an earthen and stone fortress wall, on the left an ancient korean general in bronze and leather armor reporting urgently, on the right an ancient korean king with a topknot and a bronze crown ornament in a dark robe giving orders, enemy army camps and banners far below, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_jinju_wall": {
+  "seed": 78514,
+  "prompt": "2boys, adult men, 1592 joseon dynasty, night battle on a stone fortress wall, on the left a joseon soldier in a red uniform and black felt hat shouting a report, on the right a joseon commander in armor and helmet with a determined face pointing his sword, torches, smoke, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_namhan": {
+  "seed": 83808,
+  "prompt": "2boys, adult men, 1636 winter, inside a joseon mountain fortress hall with snow outside, two joseon ministers in red official robes and black samo hats arguing, the older one on the left with a white beard clenching a fist angrily, the younger one on the right calmly holding out a letter, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_uiyeoldan": {
+  "seed": 43662,
+  "prompt": "2boys, adult men, 1920s korea, a narrow alley beside a japanese colonial police building, on the left a man in a hanbok durumagi whispering, on the right a determined young korean man in a western suit and flat cap carrying a wooden box of old books, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_pagoda1919": {
+  "seed": 49075,
+  "prompt": "1boy, crowd, march 1919 seoul tapgol park with an old stone pagoda and a traditional pavilion, a young adult korean male student in a black school uniform holding up a sheet of paper and shouting on the left, korean people in white hanbok raising their arms and cheering on the right, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_busan1952": {
+  "seed": 81306,
+  "prompt": "2boys, adult men, 1952 korea wartime temporary national assembly hall in busan, korean lawmakers in 1950s suits standing up from wooden desks, soldiers and policemen standing guard at the doors, on the left an angry lawmaker shouting, on the right a worried lawmaker standing reluctantly, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
  }
 }
