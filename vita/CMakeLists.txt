@@ -28,6 +28,7 @@ if(VITA)
   target_include_directories(orpheia PRIVATE $ENV{VITASDK}/arm-vita-eabi/include/SDL2)
   target_link_libraries(orpheia
     SDL2_ttf SDL2_image SDL2
+    vitaGL vitashark SceShaccCgExt mathneon SceShaccCg_stub taihen_stub SceRazorCapture_stub
     freetype harfbuzz freetype png jpeg webp webpdemux bz2 z
     SceDisplay_stub SceCtrl_stub SceAudio_stub SceAudioIn_stub SceSysmodule_stub
     SceGxm_stub SceCommonDialog_stub SceAppUtil_stub SceTouch_stub SceHid_stub

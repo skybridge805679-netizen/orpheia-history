@@ -684,5 +684,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
+return {_export:()=>({CAST,MOB_TYPES,MOB_BY_NAME,ALIAS,EXPR_FX,HANBOK_EXPR:[...HANBOK_EXPR],HANBOK_CH:[...HANBOK_CH],COSTUME:Object.fromEntries(Object.entries(COSTUME).map(([k,v])=>[k,[...v]])),COSTUME_EXPR:Object.fromEntries(Object.entries(COSTUME_EXPR).map(([k,v])=>[k,[...v]])),SAYEON_DMG_OK,ENDING_COUNT,SONG_TITLE,BGM_TITLE,MUK_TAUNT,MUK_BREAK,MUK_SERIOUS,MUK_MISS,ORP_BUG,MUK_BUG,SAYEON_TAUNT,SAYEON_BREAK,SAYEON_MISS,SAYEON_BUG,ALLY_SAYEON_GO,ALLY_SAYEON_BREAK,ALLY_SAYEON_MISS,ORP_MISS,ORP_COMBO,chapters:chapters.map(c=>({id:c.id,title:c.title,subtitle:c.subtitle,ops:c.ops,labels:c.labels}))}),_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
 })();
