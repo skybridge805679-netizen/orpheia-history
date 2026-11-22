@@ -430,8 +430,8 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @hud TRACK 07 RELEASED // 「왕들의 배틀」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100
 @summary
 @hide all
-@show orpheia serious center
-[오르페이아|serious] 다음 장은 무신 정변, 그리고 몽골이에요. 고려가 제일 오래, 제일 힘들게 싸운 시대예요.
+@show orpheia explain center
+[오르페이아|explain] 다음 장은 고려 사람들이 먹고살던 바다와 장터예요. 벽란도의 배, 개경 시전, 청자! 시험에 사진으로 나오는 애들이요!
 @hide all
 @end
 `);
