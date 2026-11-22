@@ -4343,5 +4343,15 @@
   "seed": 2323232,
   "prompt": "1girl, solo, solo focus, elegant young adult woman, 23 years old, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
   "init": null
+ },
+ "cg_sp_aunt_hell": {
+  "seed": 2412001,
+  "prompt": "1girl, solo adult, many babies, comedic chaos, cozy modern korean living room next to a home music studio, morning light, about fifteen chubby babies in colorful onesies everywhere, crawling, crying with big open mouths, one baby lifting a big plush deer over its head, one baby splashing in a small tub, babies banging spoons on the floor, scattered diapers, baby bottles, torn newspaper, a folding screen in the corner, chibi comedic style, sweat drops, motion lines, no readable text, masterpiece",
+  "init": null
+ },
+ "cg_sp_aunt_lullaby": {
+  "seed": 2412002,
+  "prompt": "1girl, solo adult, many babies, heartwarming, quiet night, cozy modern korean living room, warm lamp light, a young woman sitting in the middle of a sofa softly singing with closed eyes, sleeping babies in onesies on her lap, in her arms and curled up on blankets around her, one tiny baby hand holding her finger, soft blue night outside the window, gentle, peaceful, no readable text, masterpiece",
+  "init": null
  }
 }
