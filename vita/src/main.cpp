@@ -3,7 +3,8 @@
 //
 // 조작(확정): ○ 확인·다음, × 취소·이전. PC에서는 Enter/Space/Z = ○, Esc/X/Backspace = ×.
 // 앞 터치는 화면 아무 곳이나 누르면 ○. 뒤 터치패드는 쓰지 않는다.
-// 비타 버튼은 SDL 조이스틱 이벤트 대신 sceCtrl 로 매 프레임 직접 읽는다(실기에서 SDL 이벤트가 안 옴).
+// 비타 버튼은 SDL 조이스틱 이벤트로 받는다. 조이스틱은 SDL_JOYDEVICEADDED 가 온 뒤에 연다(시작 순간엔 아직 없을 수 있다).
+// 진단: 화면 왼쪽 위에 프레임 수, 비타에서는 ux0:data/orpheia/log.txt 에 단계별 기록을 남긴다.
 // 시험용: ORPH_SHOT=파일.bmp ORPH_STEPS=n ORPH_REVEAL=글자수 → 장면 한 장을 찍고 끝낸다.
 #include <SDL.h>
 #include <SDL_image.h>
@@ -14,14 +15,29 @@
 #include <vector>
 
 #ifdef __vita__
-#include <psp2/ctrl.h>
+#include <psp2/io/stat.h>
 #include <psp2/kernel/processmgr.h>
 static const char* DATA = "app0:data/";
+// SDL 비타 조이스틱 버튼 번호
+enum { VB_TRIANGLE = 0, VB_CIRCLE = 1, VB_CROSS = 2, VB_SQUARE = 3 };
 #else
 static std::string DATA_DIR;
 #endif
 
 static const int W = 960, H = 544;
+
+static FILE* LOG = nullptr;
+static void logf(const char* fmt, const char* a = "", int n = 0) {
+  if (!LOG) {
+#ifdef __vita__
+    sceIoMkdir("ux0:data/orpheia", 0777);
+    LOG = fopen("ux0:data/orpheia/log.txt", "w");
+#else
+    LOG = stderr;
+#endif
+  }
+  if (LOG) { fprintf(LOG, fmt, a, n); fputc('\n', LOG); fflush(LOG); }
+}
 
 static std::string path(const char* rel) {
 #ifdef __vita__
@@ -140,9 +156,11 @@ int main(int argc, char** argv) {
   if (DATA_DIR.back() != '/') DATA_DIR += '/';
 #else
   (void)argc; (void)argv;
-  sceCtrlSetSamplingMode(SCE_CTRL_MODE_ANALOG);
 #endif
-  if (SDL_Init(SDL_INIT_VIDEO) != 0) { SDL_Log("SDL_Init: %s", SDL_GetError()); return 1; }
+  logf("시작%s %d");
+  if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_JOYSTICK) != 0) { logf("SDL_Init 실패: %s %d", SDL_GetError()); return 1; }
+  logf("SDL_Init 성공, 조이스틱 %s%d", "", SDL_NumJoysticks());
+  for (int i = 0; i < SDL_NumJoysticks(); ++i) SDL_JoystickOpen(i);
   IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG);
   TTF_Init();
   const char* shot = getenv("ORPH_SHOT");
@@ -151,14 +169,21 @@ int main(int argc, char** argv) {
 
   SDL_Window* win = SDL_CreateWindow("오르페이아 · 한국사", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, W, H,
                                      shot ? SDL_WINDOW_HIDDEN : 0);
+  for (int i = 0; i < SDL_GetNumRenderDrivers(); ++i) { SDL_RendererInfo ri; SDL_GetRenderDriverInfo(i, &ri); logf("렌더러 후보 %s %d", ri.name, i); }
+#ifdef __vita__
+  // vitaGL 위의 GLES 렌더러가 먼저 잡히면 매우 느리다 → 비타 전용 GXM 렌더러를 고른다
+  SDL_SetHint(SDL_HINT_RENDER_DRIVER, "VITA gxm");
+#endif
   SDL_Renderer* ren = SDL_CreateRenderer(win, -1, shot ? SDL_RENDERER_SOFTWARE : (SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC));
   if (!ren) ren = SDL_CreateRenderer(win, -1, SDL_RENDERER_SOFTWARE);
   SDL_SetRenderDrawBlendMode(ren, SDL_BLENDMODE_BLEND);
+  { SDL_RendererInfo ri; SDL_GetRendererInfo(ren, &ri); logf("쓰는 렌더러 %s (플래그 %d)", ri.name, (int)ri.flags); }
 
   TTF_Font* body = TTF_OpenFont(path("fonts/GowunDodum-Regular.ttf").c_str(), 24);
   TTF_Font* name = TTF_OpenFont(path("fonts/GowunBatang-Bold.ttf").c_str(), 21);
   TTF_Font* title = TTF_OpenFont(path("fonts/GowunBatang-Bold.ttf").c_str(), 40);
-  if (!body || !name || !title) { SDL_Log("글꼴을 못 읽음: %s", TTF_GetError()); return 1; }
+  if (!body || !name || !title) { logf("글꼴 실패: %s %d", TTF_GetError()); return 1; }
+  logf("렌더러·글꼴 준비%s %d");
 
   SDL_Texture* bg = loadTex(ren, "img/bg_title.jpg");
   SDL_Texture* emblem = loadTex(ren, "img/emblem.png");
@@ -171,6 +196,7 @@ int main(int argc, char** argv) {
   const SDL_Color INK = {40, 34, 30, 255};
   const int BOX_X = 40, BOX_W = W - 80, TEXT_W = BOX_W - 72;
   typed.build(ren, body, LINES[idx].text, TEXT_W, INK);
+  logf("첫 대사 그림 %s줄 %d", "", (int)typed.rows.size());
   int nw = 0, nh = 0; SDL_Texture* nameTex = textTex(ren, name, LINES[0].who, {255, 255, 255, 255}, &nw, &nh);
   int ttw = 0, tth = 0; SDL_Texture* titleTex = textTex(ren, title, "오르페이아 · 한국사", {250, 240, 220, 255}, &ttw, &tth);
   int sw = 0, sh = 0; SDL_Texture* subTex = textTex(ren, body, "PS Vita 포팅 · 0단계", {210, 225, 255, 255}, &sw, &sh);
@@ -182,9 +208,7 @@ int main(int argc, char** argv) {
   };
   auto cancel = [&]() { if (idx > 0) setLine(idx - 1, true); };
 
-#ifdef __vita__
-  unsigned int prevButtons = 0;
-#endif
+  int frames = 0, framesAtSec = 0; SDL_Texture* fpsTex = nullptr; int fw = 0, fh = 0, fpsShown = -1;
   bool run = true; Uint32 last = SDL_GetTicks();
   if (shot) { for (int i = 0; i < steps; ++i) { shown = 1e9; confirm(); } shown = reveal; }
   while (run) {
@@ -192,6 +216,12 @@ int main(int argc, char** argv) {
     while (SDL_PollEvent(&e)) {
       if (e.type == SDL_QUIT) run = false;
 #ifdef __vita__
+      if (e.type == SDL_JOYDEVICEADDED) { SDL_JoystickOpen(e.jdevice.which); logf("조이스틱 연결%s %d", "", e.jdevice.which); }
+      if (e.type == SDL_JOYBUTTONDOWN) {
+        logf("버튼%s %d", "", e.jbutton.button);
+        if (e.jbutton.button == VB_CIRCLE) confirm();
+        else if (e.jbutton.button == VB_CROSS) cancel();
+      }
       // 앞 터치만(뒤 터치패드는 쓰지 않는다)
       if (e.type == SDL_FINGERDOWN && e.tfinger.touchId == SDL_GetTouchDevice(0)) confirm();
 #else
@@ -203,15 +233,6 @@ int main(int argc, char** argv) {
       if (e.type == SDL_MOUSEBUTTONDOWN && e.button.button == SDL_BUTTON_LEFT) confirm();
 #endif
     }
-#ifdef __vita__
-    SceCtrlData pad;
-    if (sceCtrlPeekBufferPositive(0, &pad, 1) > 0) {
-      unsigned int down = pad.buttons & ~prevButtons;   // 이번 프레임에 새로 눌린 버튼
-      if (down & SCE_CTRL_CIRCLE) confirm();
-      if (down & SCE_CTRL_CROSS) cancel();
-      prevButtons = pad.buttons;
-    }
-#endif
     Uint32 now = SDL_GetTicks();
     if (!shot) shown += (now - last) / 1000.0 * CPS;
     last = now;
@@ -238,6 +259,18 @@ int main(int argc, char** argv) {
       SDL_SetRenderDrawColor(ren, 179, 38, 30, 255);
       for (int i = 0; i < 8; ++i) { SDL_Rect t = {box.x + box.w - 44 + i, box.y + box.h - 30 + i, 16 - 2 * i, 1}; SDL_RenderFillRect(ren, &t); }
     }
+
+    // 진단용 프레임 수(1초에 한 번만 다시 그린다)
+    if ((int)(now / 1000) != fpsShown) {   // 1초마다: 누적 프레임 / 지난 1초 프레임
+      fpsShown = now / 1000;
+      if (fpsTex) SDL_DestroyTexture(fpsTex);
+      char buf[48]; snprintf(buf, sizeof buf, "%d  %dfps", frames, frames - framesAtSec);
+      fpsTex = textTex(ren, name, buf, {255, 255, 255, 170}, &fw, &fh);
+      if (fpsShown % 5 == 0) logf("초당 프레임%s %d", "", frames - framesAtSec);
+      framesAtSec = frames;
+    }
+    if (fpsTex) { SDL_Rect d = {6, 4, fw, fh}; SDL_RenderCopy(ren, fpsTex, nullptr, &d); }
+    ++frames;
 
     if (shot) {
       SDL_Surface* s = SDL_CreateRGBSurfaceWithFormat(0, W, H, 32, SDL_PIXELFORMAT_ARGB8888);
