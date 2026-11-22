@@ -4263,5 +4263,15 @@
   "seed": 2410777,
   "prompt": "2girls, 1boy, emotional reunion, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out soft light and rain, raindrops in the air, dramatic lighting, monitor shows only soft blurred glow, no readable text, masterpiece",
   "init": null
+ },
+ "cg_after_baby": {
+  "seed": 2411301,
+  "prompt": "2girls, 1boy, heartwarming morning, small modern home music studio with mixing console and speakers, soft spring morning sunlight through the window, a baby bottle sterilizer and folded tiny baby clothes on the console, a newborn baby swaddled in a white blanket sleeping, gentle family moment, warm colors, no readable text, masterpiece",
+  "init": null
+ },
+ "cg_after_husband": {
+  "seed": 2411302,
+  "prompt": "no humans focus, 1boy, bittersweet, lonely, 1980s korean apartment kitchen at night, dim flickering fluorescent light, small wooden dining table, on the table a plain gold wedding ring next to a folded handwritten letter in an envelope, an empty chair, an old refrigerator, a man in a white dress shirt and loosened necktie sitting at the table seen from behind, back view, shoulders slumped, head in his hands, face not visible, an open door to an empty girl's bedroom in the background, muted cold blue colors, quiet despair, cinematic, no readable text, masterpiece",
+  "init": null
  }
 }
