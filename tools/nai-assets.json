@@ -8331,6 +8331,123 @@
     }
    ],
    "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "st_bomnae_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, shy, deep blush, looking away, fidgeting",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, angry, frowning, puffed cheeks, pointing at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, teary eyes, trembling smile, wiping a tear",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, serious determined expression, calm",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_bomnae_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2622220,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing, full body, looking at viewer, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text, bare belly, navel, cleavage"
+  },
+  {
+   "id": "bg_era_sewing_factory",
+   "size": "bg",
+   "prompt": "1970s korean garment factory interior, rows of old sewing machines, dusty air, fluorescent lights, piles of fabric and wig hair, small windows, no people, cinematic, detailed background, no readable text",
+   "negative": "people, person, text, watermark, signature"
+  },
+  {
+   "id": "bg_era_party_hall_1979",
+   "size": "bg",
+   "prompt": "1970s korean political party office auditorium interior, rows of folding chairs, a podium with flowers, banners without readable text, crowded floor with sitting mats, tense evening light, no people, detailed background, no readable text",
+   "negative": "people, person, readable text, watermark, signature"
+  },
+  {
+   "id": "cg_ch22_bomnae",
+   "size": "bg",
+   "seed": 2622221,
+   "prompt": "1girl, 1boy, comedic, 1970s garment factory, a young man and a young woman squeezed together on one small chair at an old sewing machine, the drawstring of his black hoodie caught under the sewing needle, she leans in very close to his neck to bite off the thread with her front teeth, sparkles, other sewing machines in background, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting stiffly, flustered, hoodie string caught in sewing machine",
+     "uc": "visible eyes",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, leaning very close biting a thread, eyes half closed, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_bomnae_farewell",
+   "size": "bg",
+   "seed": 2622222,
+   "prompt": "1girl, solo, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, standing in a small night school classroom at dawn with a blackboard and wooden desks, holding a white sewn wedding dress against her body, tearful smile, morning light from the window, emotional, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_bomnae",
+   "size": "bg",
+   "seed": 2622223,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light, a 1970s factory girl stepping out of the light holding up a white handmade wedding dress and a small white suit, beaming, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting on a studio chair, sweating, flustered",
+     "uc": "visible face, visible eyes",
+     "x": 0.5,
+     "y": 0.62
+    },
+    {
+     "prompt": "girl, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, holding up white clothes, big happy grin, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.4
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
   }
  ]
 }

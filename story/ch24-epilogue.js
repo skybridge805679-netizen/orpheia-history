@@ -418,6 +418,12 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [도담] 손님! 약속대로 그 먼 데 의원들 보러 왔어요. ……어머. 여기 신부가 몇 명이에요?
 [도담] 됐다, 마침 잘됐어요. 이렇게 사람이 많으면 의원 하나는 꼭 있어야 해요. 오늘부터 이 집 의원은 저예요.
 [오르페이아|surprised] 의, 의원 자리는 제 보좌 업무에 없었는데…… 인정할게요. 이건 인정할게요.
+@bg cg_end_harem_bomnae|cg_ep_all
+모니터에서 미싱 돌아가는 소리가 드르륵 난다. 골무를 낀 여자가 하얀 천 보따리를 안고 내려선다.
+[봄내] 오빠! 남의 옷 말고 제 옷 박아 왔어요. 하얀 거로요. 혼례복이에요. ……오빠 거도 같이 박았어요. 치수는 미싱 의자에 끼어 앉았을 때 다 쟀어요.
+[다솜] 봄내 언니?! 언니도 왔어?
+[봄내] 다솜아, 너 노래패 축가 불러 준다며. 신부석은 양보 못 해.
+[오르페이아|pout] 앞니로 실 끊던 그분이 혼례복까지……! 제 보좌 범위가 또 줄어들어요.
 @bg cg_end_harem_saebyeok|cg_ep_all
 다들 이걸로 끝인 줄 알았다. 그런데 꺼져 가던 모니터가 한 번 더 깜빡이고, 빗소리가 작업실 바닥에 쏟아진다.
 마지막으로 내려선 사람은 비에 흠뻑 젖은 블라우스 차림의 여자다. 풀어진 머리에서 물이 떨어진다. 가슴에는 빛바랜 광복군 모자 하나를 꼭 끌어안고 있다.
@@ -446,8 +452,8 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [묵|smirk] 늦었네. 나는 오답 노트에서 벌써 혼인 서약 칸 찾아 놨는데.
 @show sayeon smile right
 @cutin record
-[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 스물세 명. 사관인 저를 포함하여.
-[오르페이아|surprised] 스물세 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스물네 명! 제가 첫 번째예요!
+[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 스물네 명. 사관인 저를 포함하여.
+[오르페이아|surprised] 스물네 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스물다섯 명! 제가 첫 번째예요!
 @hide all
 @show yunseul surprised center
 [윤슬|surprised] ……뭐야, 새벽 세 시에 왜 이렇게 시끄러워. 오빠, 이 언니들 다 누구야?
@@ -581,7 +587,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show dodam smile right
 [도담|smile] 서방님, 약 드실 시간이에요. 도담표 탕약, 오늘로 마흔이틀째. 남김없이요.
 [상철] 이거 대체 무슨 약이야. 매일 먹는데 왜 이렇게 기운이 남아돌아.
-[도담|shy] 신부가 스물셋이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
+[도담|shy] 신부가 스물넷이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
 [상철] 또?
 [도담|serious] 의원 말 들어요. 이 침은 저만 아는 자리예요. 언니들이 아침마다 저한테 고맙다고 떡을 갖다줘요. 처방이 잘 듣는다는 뜻이죠.
 @show orpheia pout left
@@ -651,6 +657,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [보리|pregnant] 이제 밥상에 숟가락을 하나 더 놔야겠네. ……아니, 여럿이네.
 @show hanbyeol pregnant right
 [한별|pregnant] 취재 수첩 맨 뒷장에 이름 후보만 서른 개 적었어요. 투고하듯이요.
+@hide all
+@show bomnae pregnant right
+[봄내|pregnant] 이 애 배냇저고리는 제가 박을 거예요. 한 땀 한 땀. 남이 입을 옷 말고, 우리 애 옷이요.
 @hide all
 @show dasom pregnant left
 [다솜|pregnant] 엄마보다 늦은 건 분한데…… 엄마 아기랑 내 아기가 같은 해에 태어난다니. 족보가 또 꼬이네.
@@ -779,7 +788,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru ara gaon maru seori soebyeol danbi haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru ara gaon maru seori soebyeol danbi bomnae haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -865,6 +874,18 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [단비|smile] 그럼 가요, 오라버니. 다음 명단엔 제가 제 이름이랑 오라버니 이름을 나란히 올릴 거예요.
 @add danbi 5
 @ending 단비의 명단|공녀 명단에서 제 발로 걸어 나온 단비에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_bomnae
+@bg cg_bomnae_farewell|bg_era_neighborhood_1970s
+@day 서울 · 야학 교실, 새벽
+[봄내|smile] 오빠! 노래 들었어요. 공장 언니들이 미싱 돌리면서 다 따라 불러요. 이제 우리 미싱 소리가 '공순이' 소리가 아니라 노래래요.
+[봄내|shy] 제 옷 한 벌 박았어요. 하얀 거로요. ……입어 볼 데가 오빠 옆밖에 없는데.
+[상철] ……미안. 나는 돌아가야 해. 대신 네 이름, 노래 첫 줄에 넣었어. 남의 옷만 박던 손이 제 이름을 박았다고.
+[봄내|teary] 치사해요. 그렇게 말하면 실을 못 끊잖아요. 앞니로도요.
+[봄내|smile] 그럼 가요, 오빠. 한 땀만 더 기다릴게요. 아니, 몇 땀이든요.
+@add bomnae 5
+@ending 봄내의 혼례복|YH 무역의 여공 봄내에게 「연표」를 남기고 돌아왔다.
 @jump coda
 
 @label hero_haneui
