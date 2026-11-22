@@ -236,7 +236,7 @@ function boardHtml(n){
  return `<section class="bd-note"><h3><i class="vn-seal mini">板</i>${esc(n.title)}</h3>${tr}${ky}${tb}</section>`;
 }
 function board(ids){
- paint();busy=true;S.line=null;stopAuto();const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card board';c.hidden=false;c.onclick=null;
+ paint();busy=true;S.line=null;stopAuto();const c=$('#vnCard');c._tok=(c._tok||0)+1;$('#vnBox').classList.add('quiet');c.className='vn-card board';c.hidden=false;c.onclick=null;
  c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small><img class="bd-emblem" src="${asset('emblem_white.webp')}" alt="">오르페이아의 판서 · 기출 핵심노트</small><button class="primary" data-back>정리 끝 ▶</button></div><div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
  const done=e=>{e?.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
  c.querySelector('[data-back]').onclick=done;
@@ -295,7 +295,7 @@ function fx(kind){const vn=$('#vn');if(!vn)return;vn.classList.remove(kind);void
 function card(kind,a,b){
  paint();busy=true;S.line=null;const c=$('#vnCard');$('#vnBox').classList.add('quiet');
  c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><img class="vn-crest scroll" src="${asset('emblem_gold.webp')}" alt=""><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<div class="vn-dive-emblem"><img src="${asset('emblem_white.webp')}" alt=""><i></i></div><em class="vn-dive-tag">ORPHEIA · MV SCENE ENGINE</em><small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><img class="vn-hud-emblem" src="${asset('emblem_gold.webp')}" alt=""><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
- const done=()=>{if(c.hidden)return;c.hidden=true;$('#vnBox')?.classList.remove('quiet');busy=false;S.pc++;step();};
+ const tok=c._tok=(c._tok||0)+1;const done=()=>{if(c.hidden||c._tok!==tok)return;c.hidden=true;$('#vnBox')?.classList.remove('quiet');busy=false;S.pc++;step();};
  c.onclick=e=>{e.stopPropagation();done();};setTimeout(done,skip?150:kind==='hud'?4200:kind==='chapter'||kind==='dive'?2600:1700);
 }
 function choose(op){
@@ -332,7 +332,7 @@ async function openSheets(ch){
  }catch(e){const p=d.querySelector('.vn-sheet-wait');if(p)p.textContent='요약노트를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.';}
 }
 function summary(){
- S.line=null;paint();busy=true;stopAuto();skip=false;const c=$('#vnCard');$('#vnBox').classList.add('quiet');c.className='vn-card summary';c.hidden=false;
+ S.line=null;paint();busy=true;stopAuto();skip=false;const c=$('#vnCard');c._tok=(c._tok||0)+1;$('#vnBox').classList.add('quiet');c.className='vn-card summary';c.hidden=false;
  c.innerHTML=`<small>연표 기록부 · ${esc(curCh().title)}</small><h2>${esc(curCh().subtitle)}</h2>${notesHtml(S.ch)}<div class="vn-sum-btns">${SHEETS[S.ch]?'<button class="quiet" data-sheets>📜 정리 페이지 펼치기</button>':''}<button class="primary" data-back>이야기로 돌아가기 ▶</button></div>`;
  const sb=c.querySelector('[data-sheets]');if(sb)sb.onclick=e=>{e.stopPropagation();openSheets(S.ch);};
  c.onclick=null;c.querySelector('[data-back]').onclick=e=>{e.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
@@ -517,7 +517,7 @@ function battleHit(ok,first,hits,total){
 function finishChapter(next){
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
  if(nx){reach(nx.id);S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
- busy=true;S.line=null;paint();const c=$('#vnCard');c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
+ busy=true;S.line=null;paint();const c=$('#vnCard');c._tok=(c._tok||0)+1;c.onclick=null;c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
  const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END${S.ending?` · ${esc(S.ending.t)}`:''}</small><h2>연표의 끝에서</h2>${S.ending?.d?`<p><b>${esc(S.ending.d)}</b></p>`:''}<p>본 엔딩 ${(records.endings||[]).length}/${ENDING_COUNT}. 선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};
 }
