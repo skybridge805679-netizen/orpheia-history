@@ -1,6 +1,7 @@
 name: NAI 에셋 생성
 # tools/nai-assets.json 이 바뀌어 푸시되면, 아직 없는 에셋만 NovelAI로 생성해 assets/ 에 커밋한다.
 # 저장소 Settings → Secrets and variables → Actions 에 NAI_TOKEN(pst-로 시작) 이 있어야 한다.
+# 순서: ① 생성 → 바로 커밋(원래 크기, 게임에서 바로 보임) ② waifu2x 2배를 4개 작업이 나눠 동시에 ③ 키운 것을 모아 한 번에 커밋.
 on:
   push:
     branches: [main]
@@ -17,6 +18,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    outputs:
+      ids: ${{ steps.list.outputs.ids }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,16 +29,11 @@ jobs:
         env:
           NAI_TOKEN: ${{ secrets.NAI_TOKEN }}
         run: python3 tools/nai_batch.py --missing ${{ github.event.inputs.ids }}
-      - name: 새 그림 2배 키우기(waifu2x, 실패해도 생성 결과는 커밋)
-        continue-on-error: true
-        run: |
-          sudo apt-get update -q && sudo apt-get install -y -q mesa-vulkan-drivers libvulkan1 unzip
-          curl -sSL -o w.zip https://github.com/nihui/waifu2x-ncnn-vulkan/releases/download/20220728/waifu2x-ncnn-vulkan-20220728-ubuntu.zip
-          unzip -q w.zip && mv waifu2x-ncnn-vulkan-20220728-ubuntu waifu2x && chmod +x waifu2x/waifu2x-ncnn-vulkan && rm w.zip
-          ids=$(ls assets/gen/*.png 2>/dev/null | xargs -n1 basename 2>/dev/null | sed 's/\.png$//' | tr '\n' ' ')
-          [ -n "$ids" ] && W2X=$PWD/waifu2x python3 tools/upscale.py --minutes 30 $ids
-          rm -rf waifu2x
-      - name: 결과물 보관(푸시가 실패해도 그림을 잃지 않게)
+      - name: 새로 뽑은 목록
+        id: list
+        if: always()
+        run: echo "ids=$(ls assets/gen/*.png 2>/dev/null | xargs -n1 basename 2>/dev/null | sed 's/\.png$//' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+      - name: 결과물 보관(키우기 작업이 원본 PNG를 쓰고, 푸시가 실패해도 그림을 잃지 않게)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -44,7 +42,7 @@ jobs:
             assets/gen/*.png
             tools/nai-log.json
           if-no-files-found: ignore
-      - name: 커밋
+      - name: 커밋(원래 크기)
         if: always()
         run: |
           git config user.name "orpheia-bot"
@@ -52,4 +50,54 @@ jobs:
           git add assets/*.webp tools/nai-log.json 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "NAI 에셋 자동 생성"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
+
+  upscale:
+    needs: generate
+    if: needs.generate.outputs.ids != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pillow
+      - uses: actions/download-artifact@v4
+        with: {name: nai-assets, path: .}
+      - name: waifu2x 준비(CPU Vulkan)
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q mesa-vulkan-drivers libvulkan1 unzip
+          curl -sSL -o w.zip https://github.com/nihui/waifu2x-ncnn-vulkan/releases/download/20220728/waifu2x-ncnn-vulkan-20220728-ubuntu.zip
+          unzip -q w.zip && mv waifu2x-ncnn-vulkan-20220728-ubuntu waifu2x && chmod +x waifu2x/waifu2x-ncnn-vulkan && rm w.zip
+      - name: 키우기(이 작업 몫)
+        run: W2X=$PWD/waifu2x python3 tools/upscale.py --minutes 50 --shard ${{ matrix.shard }}/4 --stage up ${{ needs.generate.outputs.ids }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: up-${{ matrix.shard }}
+          path: up/*.webp
+          if-no-files-found: ignore
+
+  commit-upscaled:
+    needs: upscale
+    if: always() && needs.upscale.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'up-*', path: up, merge-multiple: true}
+      - name: 커밋(2배)
+        run: |
+          ls up/*.webp >/dev/null 2>&1 || exit 0
+          cp up/*.webp assets/
+          git config user.name "orpheia-bot"
+          git config user.email "orpheia-bot@users.noreply.github.com"
+          git add assets/*.webp
+          git diff --cached --quiet && exit 0
+          git commit -m "에셋 업스케일(waifu2x 2배)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1

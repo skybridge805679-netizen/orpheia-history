@@ -1,6 +1,6 @@
 name: 에셋 업스케일(waifu2x)
-# assets/ 의 NAI 그림 중 아직 안 키운 것을 waifu2x로 2배 키워 커밋한다. 한 번에 다 못 끝내면 다음 실행이 이어서 한다.
-# 남은 게 있으면 끝날 때 스스로 다음 실행을 건다(예약 실행은 GitHub이 늦추거나 건너뛸 때가 있어서 보조로만 둔다).
+# assets/ 의 NAI 그림 중 아직 안 키운 것을 waifu2x로 2배 키워 커밋한다. 4개 작업이 나눠 동시에 돈다.
+# 한 번에 다 못 끝내면 끝날 때 스스로 다음 실행을 건다(예약 실행은 GitHub이 늦추거나 건너뛸 때가 있어서 보조로만 둔다).
 on:
   schedule:
     - cron: '17 * * * *'
@@ -14,32 +14,62 @@ permissions:
   actions: write
 concurrency: nai-upscale  # 생성(nai-assets)과 대기열을 나눠, 매시간 업스케일이 대기 중인 생성 작업을 취소하지 않게 한다
 jobs:
-  upscale:
+  check:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    outputs:
+      n: ${{ steps.c.outputs.n }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install pillow
-      - name: 키울 게 있나
-        id: check
+      - id: c
         run: |
-          n=$(python3 tools/upscale.py --count)
+          n=$(python3 tools/upscale.py --count ${{ github.event.inputs.ids }})
           echo "n=$n" >> "$GITHUB_OUTPUT"; echo "키울 그림 $n"
+
+  upscale:
+    needs: check
+    if: needs.check.outputs.n != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pillow
       - name: waifu2x 준비(CPU Vulkan)
-        if: steps.check.outputs.n != '0'
         run: |
           sudo apt-get update -q && sudo apt-get install -y -q mesa-vulkan-drivers libvulkan1 unzip
           curl -sSL -o w.zip https://github.com/nihui/waifu2x-ncnn-vulkan/releases/download/20220728/waifu2x-ncnn-vulkan-20220728-ubuntu.zip
           unzip -q w.zip && mv waifu2x-ncnn-vulkan-20220728-ubuntu waifu2x && chmod +x waifu2x/waifu2x-ncnn-vulkan && rm w.zip
-      - name: 키우기
-        if: steps.check.outputs.n != '0'
-        run: W2X=$PWD/waifu2x python3 tools/upscale.py --minutes 45 ${{ github.event.inputs.ids }}
+      - name: 키우기(이 작업 몫)
+        run: W2X=$PWD/waifu2x python3 tools/upscale.py --minutes 45 --shard ${{ matrix.shard }}/4 --stage up ${{ github.event.inputs.ids }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: up-${{ matrix.shard }}
+          path: up/*.webp
+          if-no-files-found: ignore
+
+  commit:
+    needs: upscale
+    if: always() && needs.upscale.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install pillow
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'up-*', path: up, merge-multiple: true}
       - name: 커밋
-        if: steps.check.outputs.n != '0'
         run: |
-          rm -rf waifu2x
+          ls up/*.webp >/dev/null 2>&1 || exit 0
+          cp up/*.webp assets/
           git config user.name "orpheia-bot"
           git config user.email "orpheia-bot@users.noreply.github.com"
           git add assets/*.webp
@@ -47,9 +77,10 @@ jobs:
           git commit -m "에셋 업스케일(waifu2x 2배)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
       - name: 남았으면 다음 실행 걸기
-        if: steps.check.outputs.n != '0' && github.event.inputs.ids == ''
+        if: github.event.inputs.ids == ''
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          git pull -q origin main || true
           left=$(python3 tools/upscale.py --count); echo "남은 그림 $left"
           [ "$left" != "0" ] && gh workflow run upscale.yml --ref main || true
