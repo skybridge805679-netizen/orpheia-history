@@ -6532,7 +6532,7 @@
   {
    "id": "cg_end_seola",
    "size": "bg",
-   "seed": 2324003,
+   "seed": 2324103,
    "prompt": "1girl, 1boy, moonlit wooden pavilion by a frozen pond in a joseon garden at night, gentle snowfall, full moon, braziers, quiet romantic farewell, masterpiece",
    "chars": [
     {
@@ -6542,8 +6542,8 @@
      "y": 0.55
     },
     {
-     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, seen from behind, sitting beside her listening, back view",
-     "uc": "visible face, visible eyes, gat, hanbok",
+     "prompt": "boy, young man, black hoodie with the hood up covering his head, back view, seen from behind, faceless, black hair hidden under the hood, sitting beside her listening",
+     "uc": "visible face, visible eyes, hood down, grey hair, white hair, gat, hanbok",
      "x": 0.66,
      "y": 0.6
     }
