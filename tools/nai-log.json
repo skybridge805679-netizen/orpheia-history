@@ -3598,5 +3598,450 @@
   "seed": 5302,
   "prompt": "1girl, 2boys, young adult, three korean students in casual clothes standing side by side in a history museum hall, each holding a notebook, one on the left, one in the center, one on the right, talking in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
   "init": null
+ },
+ "qs_f7": {
+  "seed": 30266,
+  "prompt": "1boy, solo, adult man, korean university history professor in a burgundy jacket, curly black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f8": {
+  "seed": 99438,
+  "prompt": "1girl, solo, adult woman, korean librarian in a teal cardigan holding an old book, wavy brown hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f12": {
+  "seed": 15514,
+  "prompt": "1girl, solo, adult woman, korean archive researcher in a olive green shirt and glasses holding a document folder, long black hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f16": {
+  "seed": 90048,
+  "prompt": "1boy, solo, adult man, middle-aged, korean museum curator wearing white cotton gloves and a teal vest, short black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f18": {
+  "seed": 50328,
+  "prompt": "1boy, solo, adult man, korean history youtuber in a lavender hoodie in front of a ring light and microphone, short brown hair with glasses, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f20": {
+  "seed": 12752,
+  "prompt": "1girl, solo, adult woman, korean museum docent in a neat brown blazer uniform with a name badge, long black hair, inside a history museum exhibition hall with glass cases of 1890s photographs, old newspapers and an antique telegraph, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f22": {
+  "seed": 85514,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a light gray jacket, wavy brown hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f23": {
+  "seed": 48650,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a lavender cardigan holding a pointer, long black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f24": {
+  "seed": 16263,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean archive researcher in a teal shirt and glasses holding a document folder, black hair in a bun, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f26": {
+  "seed": 53186,
+  "prompt": "1girl, solo, adult woman, korean tv quiz show host in a teal formal jacket holding cue cards, black hair in a bun, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f28": {
+  "seed": 68233,
+  "prompt": "1girl, solo, adult woman, korean librarian in a teal cardigan holding an old book, wavy brown hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f29": {
+  "seed": 7407,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean archive researcher in a light gray shirt and glasses holding a document folder, short bob black hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f30": {
+  "seed": 95018,
+  "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a burgundy vest, shoulder-length dark brown hair, in a museum storage room with shelves of 1920s photographs, old documents and independence movement flags, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f31": {
+  "seed": 16992,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a sky blue cardigan holding a pointer, wavy brown hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f33": {
+  "seed": 74373,
+  "prompt": "1girl, solo, adult woman, korean radio dj wearing headphones in a cream sweater with a studio microphone, wavy brown hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f34": {
+  "seed": 53684,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a teal jacket, black hair in a bun, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f35": {
+  "seed": 5339,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a navy cardigan holding a pointer, brown hair in a low ponytail, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f36": {
+  "seed": 48177,
+  "prompt": "1boy, solo, adult man, korean museum docent in a neat teal blazer uniform with a name badge, short gray hair, inside a history museum exhibition hall with glass cases of 1920s photographs, old documents and independence movement flags, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f39": {
+  "seed": 68012,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a coral jacket, wavy brown hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f40": {
+  "seed": 39019,
+  "prompt": "1girl, solo, adult woman, korean librarian in a beige cardigan holding an old book, wavy brown hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f42": {
+  "seed": 91352,
+  "prompt": "1boy, solo, adult man, korean archive researcher in a coral shirt and glasses holding a document folder, short black hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f43": {
+  "seed": 24992,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a coral hoodie in front of a ring light and microphone, brown hair in a low ponytail, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f44": {
+  "seed": 86006,
+  "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a olive green vest, wavy brown hair, in a museum storage room with shelves of black and white photographs of 20th century korea and old newspapers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f45": {
+  "seed": 98983,
+  "prompt": "1boy, solo, adult man, korean tv news anchor in a mustard suit holding papers, short black hair, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f46": {
+  "seed": 1028,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean high school history teacher in a olive green cardigan holding a pointer, long black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f47": {
+  "seed": 33484,
+  "prompt": "1girl, solo, adult woman, korean museum docent in a neat mustard blazer uniform with a name badge, long black hair, inside a history museum exhibition hall with glass cases of black and white photographs of 20th century korea and old newspapers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f48": {
+  "seed": 88618,
+  "prompt": "1boy, solo, adult man, middle-aged, korean university history professor in a cream jacket, curly black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f49": {
+  "seed": 88108,
+  "prompt": "1girl, solo, adult woman, korean librarian in a brown cardigan holding an old book, long black hair, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f51": {
+  "seed": 72539,
+  "prompt": "1girl, solo, adult woman, korean archive researcher in a light gray shirt and glasses holding a document folder, wavy brown hair, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f52": {
+  "seed": 12066,
+  "prompt": "1boy, solo, adult man, korean museum docent in a neat dark green blazer uniform with a name badge, curly black hair, inside a history museum exhibition hall with glass cases of 1890s photographs, old newspapers and an antique telegraph, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f53": {
+  "seed": 67545,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean museum curator wearing white cotton gloves and a dark green vest, short bob black hair, in a museum storage room with shelves of gilt-bronze crowns, ancient tiles and armor of the three kingdoms, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f56": {
+  "seed": 50283,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a mustard cardigan holding a pointer, black hair in a bun, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f60": {
+  "seed": 46484,
+  "prompt": "1boy, solo, adult man, middle-aged, korean museum docent in a neat beige blazer uniform with a name badge, short black hair, inside a history museum exhibition hall with glass cases of silla stone pagoda models, bronze bells and buddhist statues, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f63": {
+  "seed": 67897,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a navy jacket, long black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f65": {
+  "seed": 16908,
+  "prompt": "1girl, solo, adult woman, korean tv field reporter in a brown coat holding a microphone, wavy brown hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f66": {
+  "seed": 21170,
+  "prompt": "1girl, solo, adult woman, korean librarian in a charcoal cardigan holding an old book, black hair in a bun, in a quiet library of old books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f67": {
+  "seed": 61138,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean archive researcher in a brown shirt and glasses holding a document folder, black hair in a bun, in a document archive with wooden drawers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f69": {
+  "seed": 5476,
+  "prompt": "1girl, solo, adult woman, korean museum curator wearing white cotton gloves and a white vest, long black hair, in a museum storage room with shelves of celadon vases, printing woodblocks and goryeo buddhist paintings, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f70": {
+  "seed": 60221,
+  "prompt": "1boy, solo, adult man, korean high school history teacher in a beige cardigan holding a pointer, short black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f73": {
+  "seed": 17926,
+  "prompt": "1girl, solo, adult woman, korean university student presenter in a navy knit sweater holding a tablet, wavy brown hair, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f75": {
+  "seed": 22022,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean museum docent in a neat light gray blazer uniform with a name badge, black hair in a bun, inside a history museum exhibition hall with glass cases of joseon dynasty books, white porcelain and royal seals, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f77": {
+  "seed": 70862,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean history youtuber in a black hoodie in front of a ring light and microphone, brown hair in a low ponytail, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f78": {
+  "seed": 46097,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean heritage tour guide in a charcoal outdoor vest holding a small flag, brown hair in a low ponytail, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f79": {
+  "seed": 62302,
+  "prompt": "1boy, solo, adult man, korean university history professor in a dark green jacket, short gray hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f82": {
+  "seed": 70107,
+  "prompt": "1boy, solo, adult man, korean radio dj wearing headphones in a burgundy sweater with a studio microphone, short gray hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f83": {
+  "seed": 31321,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a mustard cardigan holding a pointer, long black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f85": {
+  "seed": 54477,
+  "prompt": "1boy, solo, adult man, middle-aged, korean university history professor in a brown jacket, short gray hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f88": {
+  "seed": 4563,
+  "prompt": "1girl, solo, adult woman, korean heritage tour guide in a charcoal outdoor vest holding a small flag, shoulder-length dark brown hair, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f90": {
+  "seed": 15377,
+  "prompt": "1boy, solo, adult man, middle-aged, korean history youtuber in a mustard hoodie in front of a ring light and microphone, curly black hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f91": {
+  "seed": 75689,
+  "prompt": "1girl, solo, adult woman, korean university student presenter in a mustard knit sweater holding a tablet, black hair in a bun, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f93": {
+  "seed": 14298,
+  "prompt": "1boy, solo, adult man, korean museum curator wearing white cotton gloves and a light gray vest, curly black hair, in a museum storage room with shelves of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f94": {
+  "seed": 14898,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean history youtuber in a charcoal hoodie in front of a ring light and microphone, wavy brown hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f96": {
+  "seed": 85665,
+  "prompt": "1girl, solo, adult woman, korean museum docent in a neat charcoal blazer uniform with a name badge, shoulder-length dark brown hair, inside a history museum exhibition hall with glass cases of joseon folk paintings, maps and old coins, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f97": {
+  "seed": 39146,
+  "prompt": "1girl, solo, adult woman, korean tv news anchor in a olive green suit holding papers, brown hair in a low ponytail, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f98": {
+  "seed": 2818,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean high school history teacher in a olive green cardigan holding a pointer, brown hair in a low ponytail, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f101": {
+  "seed": 3022,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a black jacket, brown hair in a low ponytail, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f102": {
+  "seed": 13303,
+  "prompt": "1boy, solo, adult man, middle-aged, korean tv field reporter in a burgundy coat holding a microphone, short brown hair with glasses, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f104": {
+  "seed": 60774,
+  "prompt": "1girl, solo, adult woman, korean heritage tour guide in a brown outdoor vest holding a small flag, brown hair in a low ponytail, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f105": {
+  "seed": 53978,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a beige hoodie in front of a ring light and microphone, black hair in a bun, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f106": {
+  "seed": 89594,
+  "prompt": "1boy, solo, adult man, middle-aged, korean radio dj wearing headphones in a black sweater with a studio microphone, short gray hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f108": {
+  "seed": 51993,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a cream hoodie in front of a ring light and microphone, black hair in a bun, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f109": {
+  "seed": 4101,
+  "prompt": "1boy, solo, adult man, korean university student presenter in a black knit sweater holding a tablet, short black hair, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f112": {
+  "seed": 55609,
+  "prompt": "1boy, solo, adult man, korean tv quiz show host in a dark green formal jacket holding cue cards, short black hair, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f113": {
+  "seed": 26879,
+  "prompt": "1boy, solo, adult man, korean high school history teacher in a brown cardigan holding a pointer, curly black hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f115": {
+  "seed": 82129,
+  "prompt": "1girl, solo, adult woman, korean tv news anchor in a charcoal suit holding papers, long black hair, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f116": {
+  "seed": 79243,
+  "prompt": "1boy, solo, adult man, middle-aged, korean tv field reporter in a lavender coat holding a microphone, curly black hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f117": {
+  "seed": 76776,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a black hoodie in front of a ring light and microphone, long black hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f118": {
+  "seed": 56179,
+  "prompt": "1boy, solo, adult man, korean museum docent in a neat sky blue blazer uniform with a name badge, short gray hair, inside a history museum exhibition hall with glass cases of black and white photographs of 20th century korea and old newspapers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f120": {
+  "seed": 87712,
+  "prompt": "1girl, solo, adult woman, korean radio dj wearing headphones in a navy sweater with a studio microphone, short bob black hair, in a cozy radio broadcasting booth, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f121": {
+  "seed": 34419,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a white cardigan holding a pointer, black hair in a bun, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f122": {
+  "seed": 71929,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean heritage tour guide in a cream outdoor vest holding a small flag, long black hair, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f123": {
+  "seed": 83153,
+  "prompt": "1girl, solo, adult woman, korean university history professor in a light gray jacket, brown hair in a low ponytail, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f124": {
+  "seed": 86224,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a beige hoodie in front of a ring light and microphone, black hair in a bun, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f125": {
+  "seed": 83969,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a brown hoodie in front of a ring light and microphone, brown hair in a low ponytail, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f126": {
+  "seed": 83294,
+  "prompt": "1girl, solo, adult woman, korean heritage tour guide in a navy outdoor vest holding a small flag, long black hair, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f128": {
+  "seed": 98673,
+  "prompt": "1girl, solo, adult woman, korean university student presenter in a light gray knit sweater holding a tablet, short bob black hair, in a seminar room with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f129": {
+  "seed": 74608,
+  "prompt": "1girl, solo, adult woman, korean tv quiz show host in a sky blue formal jacket holding cue cards, brown hair in a low ponytail, on a bright quiz show stage, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f131": {
+  "seed": 48069,
+  "prompt": "1girl, solo, adult woman, korean history youtuber in a lavender hoodie in front of a ring light and microphone, short bob black hair, in a home video studio with bookshelves, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f132": {
+  "seed": 25628,
+  "prompt": "1girl, solo, adult woman, korean high school history teacher in a dark green cardigan holding a pointer, wavy brown hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f133": {
+  "seed": 47456,
+  "prompt": "1boy, solo, adult man, korean high school history teacher in a navy cardigan holding a pointer, short gray hair, in a classroom with a blackboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f135": {
+  "seed": 5916,
+  "prompt": "1girl, solo, adult woman, korean tv news anchor in a black suit holding papers, shoulder-length dark brown hair, in a tv news studio with screens, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f137": {
+  "seed": 19082,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean museum docent in a neat cream blazer uniform with a name badge, brown hair in a low ponytail, inside a history museum exhibition hall with glass cases of celadon vases, printing woodblocks and goryeo buddhist paintings, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f138": {
+  "seed": 92173,
+  "prompt": "1girl, solo, adult woman, middle-aged, korean university history professor in a mustard jacket, long black hair, in a university lecture hall with a large screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f139": {
+  "seed": 71645,
+  "prompt": "1girl, solo, adult woman, korean tv field reporter in a white coat holding a microphone, wavy brown hair, outdoors on a city street, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_f141": {
+  "seed": 67684,
+  "prompt": "1girl, solo, adult woman, korean heritage tour guide in a charcoal outdoor vest holding a small flag, shoulder-length dark brown hair, outdoors at a korean historic site with a traditional building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_g54": {
+  "seed": 14752,
+  "prompt": "2girls, 1boy, three young adult korean university students in casual clothes standing side by side in a school library, each holding a sheet of paper, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_g62": {
+  "seed": 12211,
+  "prompt": "1girl, 2boys, three young adult korean students in school uniforms with blazers standing side by side in front of a whiteboard in a classroom, each holding a placard, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_g76": {
+  "seed": 19598,
+  "prompt": "2girls, 1boy, three young adult korean students in hiking clothes standing side by side at an outdoor historic site with a stone monument, each holding a notebook, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "qs_g84": {
+  "seed": 97020,
+  "prompt": "1girl, 2boys, three young adult korean students in winter coats standing side by side in front of a history museum entrance, each holding a pamphlet, one on the left, one in the center, one on the right, presenting a group project in turn, medium shot, characters large in the foreground, cowboy shot, faces clearly visible, background blurred, some empty space at the top of the image",
+  "init": null
  }
 }
