@@ -7431,6 +7431,111 @@
    "seed": 6060617,
    "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, ink stains, floating ink droplets, white ethereal gown made of floating book pages and hanji paper, clothes almost completely torn away, only white lingerie, white bra and white panties, shreds of the costume on her arms and waist, kneeling, covering herself with both arms, crying, tears, full-face blush, ink particles turning into glowing light around her, defeated, ink wash battlefield, giant sheets of hanji paper floating, scattered exam answer sheets, black ink splashes and swirling ink vortex, dramatic lighting, dynamic angle, cowboy shot",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, multiple views, text, speech bubble, watermark, signature, buttons, western coat, naval uniform, pirate hat, epaulettes, tricorne, sabre, cutlass"
+  },
+  {
+   "id": "st_haneui_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, bright confident smile, open mouth, one hand raised to her cheek",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, shy, deep blush, looking up at viewer, fingers touching, soft smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, pout, puffed cheeks, looking away, arms crossed, annoyed blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, serious calm expression, reading a folded paper, intelligent",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, standing, full body, looking at viewer, teary eyes, trembling smile, clutching her shawl to her chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text"
+  },
+  {
+   "id": "st_haneui_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2606060,
+   "prompt": "1girl, solo, solo focus, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text, bare belly, navel, cleavage"
+  },
+  {
+   "id": "cg_ch06_haneui",
+   "size": "bg",
+   "seed": 2606101,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, ancient korean silla capital gyeongju street, tiled roofs, stone wall with a posted paper notice, crowd of townspeople in the background gasping, a maid servant in plain hanbok shocked with hands on her cheeks, a sheer silk veil flying in the air, noblewoman sitting on top of a young man lying on the street, her face very close to his, gold earrings dangling near his face, sparkles, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back on the ground, flustered",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "prompt": "girl, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, sitting astride on his stomach, leaning down over him, surprised, deep blush, open mouth, long skirt spread on the ground",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.45
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_haneui_farewell",
+   "size": "bg",
+   "seed": 2606102,
+   "prompt": "1girl, solo, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, sitting on top of a low stone wall of a noble house at dawn, one leg over the wall as if climbing over it, waving one hand high with a big tearful smile, silk shawl and sleeves fluttering in the wind, tiled roofs of ancient gyeongju, pink sunrise sky, emotional, masterpiece, no readable text",
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_haneui",
+   "size": "bg",
+   "seed": 2606103,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out golden light and floating silk ribbons, a silla noblewoman stepping out of the light and throwing her arms around a young man's neck, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting on a studio chair, sweating, flustered, stiff",
+     "uc": "visible face, visible eyes",
+     "x": 0.5,
+     "y": 0.6
+    },
+    {
+     "prompt": "girl, young adult woman, 20 years old, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, hugging his neck from the front, happy grin, blush, sheer veil sliding off her hair",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.4
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
   }
  ]
 }

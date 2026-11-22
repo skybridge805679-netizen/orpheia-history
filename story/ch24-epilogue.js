@@ -385,6 +385,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [초련] 흥. 막내 혼자 보내면 걱정돼서 따라온 것뿐이에요. ……병풍 뒤 일, 책임지라고 했죠.
 [화선] 두건 서방님! 우리 넷이 한꺼번에 시집오면 잔치도 한 번만 하면 되잖아요? 이득이죠!
 [설아] ……눈 감으세요. 이번엔 숨겨 드리는 게 아니라, 안 놓아 드리는 거예요.
+@bg cg_end_harem_haneui|cg_ep_all
+모니터가 한 번 더 금빛으로 번쩍인다. 비단 너울 자락이 먼저 내려서고, 금 귀걸이가 달랑거린다.
+[하늬] 정인님! 담 넘어왔어요. 천 년 걸린다더니 생각보다 금방이네요.
+[하늬] 아버님께는 서찰 남기고 왔어요. 「측정 불가인 분께 시집갑니다」라고요.
+[오르페이아|pout] 그 측정 불가는 제가 한 말인데요?!
 @bg cg_end_harem_saebyeok|cg_ep_all
 다들 이걸로 끝인 줄 알았다. 그런데 꺼져 가던 모니터가 한 번 더 깜빡이고, 빗소리가 작업실 바닥에 쏟아진다.
 마지막으로 내려선 사람은 비에 흠뻑 젖은 블라우스 차림의 여자다. 풀어진 머리에서 물이 떨어진다. 가슴에는 빛바랜 광복군 모자 하나를 꼭 끌어안고 있다.
@@ -554,6 +559,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show yeoul pregnant right
 [여울|pregnant] 서방님. 이번 거래는 기한도 반품도 없어요. 아시죠?
 @hide all
+@show haneui pregnant center
+[하늬|pregnant] 이 아이는 골품 같은 거 몰랐으면 좋겠어요. 정답이 정해지지 않은 아이로요.
+@hide all
 @show sodam pregnant left
 [소담|pregnant] 평생 처음 갖는 제 거예요. ……아니, 우리 거예요.
 @show dano pregnant right
@@ -688,9 +696,21 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru haneui sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
+
+@label hero_haneui
+@bg cg_haneui_farewell|bg_studio_night
+@day 경주 · 김씨 댁 담장 아래, 새벽
+[하늬|smile] 정인님! 노래 들었어요. 경주 저잣거리 아이들이 다 따라 불러요. 담벼락 다라니 글보다 빨리 퍼졌대요.
+[하늬|shy] 그 노래 덕에 이찬 댁 혼담은 영영 없던 일이 됐어요. 아버님은 앓아누우셨고요. ……그러니까 이제 정인님이 진짜로 책임지셔야 해요.
+[상철] ……미안. 나는 돌아가야 해. 대신 네 이름, 노래에 넣었어. 정해진 답 밖으로 담을 넘은 아가씨라고.
+[하늬|teary] 치사해요. 골품도 없는 분이, 진골 아가씨를 울리시다니요.
+[하늬|smile] 그럼 가세요, 정인님. 담은 제가 넘을게요. 천 년이 걸려도요.
+@add haneui 5
+@ending 하늬의 담장|경주의 진골 아가씨 하늬에게 「연표」를 남기고 돌아왔다.
+@jump coda
 
 @label hero_yeoul
 @bg cg_yeoul_farewell|bg_studio_night
