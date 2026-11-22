@@ -221,9 +221,8 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [새벽] 우리 손으로 들어가고 싶었는데…… 그래도, 그래도요.
 @show hanbyeol teary right
 [한별|teary] 새벽아…… 대한 독립 만세.
-[오르페이아|teary] ……광복이에요, 주인님.
+[오르페이아|teary] 광복이에요, 주인님.
 @hide all
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그러나 이번엔 먹물이 스스로 물러난다. 그 자리에 수많은 이름이 떠오른다. 일본식 이름이 지워지고, 본래의 이름이 돌아온다.
 @show muk surprised center
@@ -245,7 +244,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [묵|smile] ……흩어졌던 길들이, 마지막에 하나로 모였구나.
 @label m1after
 @hide all
-@battle muk serious skin=liberation
+@battle muk skin=liberation
 @quiz 81-36 81-37 81-38
 @battle end
 @show muk smile center
@@ -267,7 +266,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [사연] 영등포에서 인천까지 화륜차가 달린 경인 철도 개통도 1899년. 종로에서 전차가 불탄 바로 그해지요. 그 뒤 덕수궁에 무엇이 지어졌는지, 한별 님이 말해 주었습니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=liberation ally=sayeon askin=sy_announcer
+@battle muk stage2 skin=liberation ally=sayeon askin=sy_announcer
 @quiz 81-100 81-101 81-102
 @battle end
 @show muk lonely center
@@ -288,7 +287,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @show orpheia neutral left
 [윤슬|smile] 광복군 가사! 이건 진짜 울면서 썼어. 연도는 댓글 보고 맞췄고.
 [윤슬] 「1931년 한국광복군, 1940년 한인 애국단, 윤봉길의 훙커우, 삼균주의 건국 강령, 1945년 8월~」
-[오르페이아|serious] ……아가씨, 잠깐만요. 그 연도 먹물 거예요. 주인님, 상하이 하숙방이랑 충칭 돌계단, 어디가 먼저였죠?
+[오르페이아|serious] 아가씨, 잠깐만요. 그 연도 먹물 거예요. 주인님, 상하이 하숙방이랑 충칭 돌계단, 어디가 먼저였죠?
 @set fix 0
 @choice
 > 건국 강령의 바탕은 김원봉의 생각이야. -> lc_ng

@@ -281,7 +281,6 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @board joseon-byeongja
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 이번엔 바다처럼 넓다. 그 안에 수많은 그림자가 둥둥 떠 있다.
 @show muk lonely center
@@ -294,7 +293,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [사연|serious] ……그래서 우리가 왜 그 일이 일어났는지를 붙잡는 겁니다. 전쟁이 무엇을 무너뜨렸기에 대동법이 필요했는지, 무엇을 잃었기에 북벌을 외쳤는지.
 [묵] ……그럼 보여 줘.
 @hide all
-@battle muk serious skin=lotus
+@battle muk skin=lotus
 @quiz 81-10 81-11 81-12
 @battle end
 @show muk lonely center
@@ -316,7 +315,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [사연] 원효의 아들로 「화왕계」를 지어 임금을 일깨운 사람. 5장 장부 이야기 끝에 나온 6두품 학자, 설총입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=lotus ally=sayeon askin=sy_archer
+@battle muk stage2 skin=lotus ally=sayeon askin=sy_archer
 @quiz 81-127 81-128 81-129
 @battle end
 @show muk lonely center
@@ -335,7 +334,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show orpheia neutral left
 [윤슬|smile] 격군 트랙 가사야! 소름 돋게 썼다! 사화 부분은 댓글에서 '이유는 다 폐비 윤씨'라길래 깔끔하게 정리했어.
 [윤슬] 「진주성의 김시민, 행주산성의 권율, 대동법은 숙종이 경기도에서 처음~ 기묘사화는 폐비 윤씨 때문에~」
-[오르페이아|serious] ……아가씨, 깔끔한 정리가 제일 위험해요. 그거 먹물이에요. 주인님, 소격서 앞이랑 선혜청에서 들은 거 기억나세요?
+[오르페이아|serious] 아가씨, 깔끔한 정리가 제일 위험해요. 그거 먹물이에요. 주인님, 소격서 앞이랑 선혜청에서 들은 거 기억나세요?
 @set fix 0
 @choice
 > 대동법을 경기도에서 처음 편 건 광해군이야. 그리고 폐비 윤씨는 갑자사화고. -> lc_ok {trust+1 fix+1}

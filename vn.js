@@ -139,7 +139,7 @@ function step(){
    // @ending 제목|한 줄: 이번에 본 엔딩. 끝 카드에 쓰고 records.endings에 모은다.
    case 'ending':{const [t,...d]=op.arg.split('|');S.ending={t:t.trim(),d:d.join('|').trim()};const e=records.endings||(records.endings=[]);if(!e.includes(S.ending.t))e.push(S.ending.t);save();S.pc++;break;}
    case 'add':S.flags[op.flag]=(S.flags[op.flag]||0)+op.val;if(op.flag==='orp')S.flags.orp=Math.min(100,S.flags.orp);S.pc++;break;
-   case 'board':return board(op.arg.trim().split(/\s+/));
+   case 'board':{const ids=op.arg.trim().split(/\s+/);if(ids.every(id=>(S.boardShown||[]).includes(id))){S.pc++;break;}return board(ids);}
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();if(S.photo&&Object.keys(S.chars).length>=3)for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.pc++;paint();break;
    case 'bg':for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];BGM.scene(a);}S.pc++;paint();break;
@@ -238,21 +238,34 @@ function heritage(name){
 const NOTE_FILES=['ancient','goryeo-joseon','modern','contemporary'];
 async function coreNotes(){if(window.CORE_NOTES?.length)return window.CORE_NOTES;await Promise.all(NOTE_FILES.map(f=>loadOnce(`data/core-notes/${f}.js`).catch(()=>loadOnce(figSrc(`core-notes/${f}.js`)))));return window.CORE_NOTES||[];}
 const hl=t=>esc(t).replace(/\*\*([^*]+)\*\*/g,'<b class="bd-b">$1</b>').replace(/(\d{2}-\d{1,2})/g,'<i class="bd-q">$1</i>');
-function boardHtml(n){
+function boardHtml(n,hide){
+ const hid=x=>(hide||[]).some(k=>String(x).includes(k));
  const tb=(n.tables||[]).map(t=>`<figure class="bd-t"><figcaption>${hl(t.c||'')}</figcaption><table><thead><tr>${t.h.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${t.r.map(r=>`<tr>${r.map(c=>`<td>${hl(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></figure>`).join('');
- const tr=(n.traps||[]).length?`<div class="bd-traps"><b>함정 주의</b><ul>${n.traps.map(x=>`<li>${hl(typeof x==='string'?x:(x.t||x.text||JSON.stringify(x)))}</li>`).join('')}</ul></div>`:'';
+ const traps=(n.traps||[]).filter(x=>!hid(typeof x==='string'?x:JSON.stringify(x)));
+ const tr=traps.length?`<div class="bd-traps"><b>함정 주의</b><ul>${traps.map(x=>`<li>${hl(typeof x==='string'?x:(x.t||x.text||JSON.stringify(x)))}</li>`).join('')}</ul></div>`:'';
  const ky=(n.keys||[]).length?`<div class="bd-keys"><b>이 단어가 보이면</b>${n.keys.map(x=>Array.isArray(x)?`<div><span>${esc(x[0])}</span> → <em>${esc(x[1])}</em></div>`:`<div><span>${esc(String(x))}</span></div>`).join('')}</div>`:'';
  return `<section class="bd-note"><h3><i class="vn-seal mini">板</i>${esc(n.title)}</h3>${tr}${ky}${tb}</section>`;
 }
-function board(ids){
+// 문제 앞 판서: 문제 주제(시대/주제·문항 키)에 맞는 핵심노트를 이 장에서 아직 안 펼쳤으면, 풀기 전에 먼저 펼친다(먼저 배우고 푼다).
+function notesFor(keys){
+ const N=window.CORE_NOTES||[],Q=window.QS||[],norm=x=>String(x).replace(/\s/g,''),out=[];
+ for(const k of keys){const [r,n]=k.split('-').map(Number);const q=Q.find(x=>x.r===r&&x.n===n);if(!q)continue;
+  const t=norm(q.era+'/'+q.topic),era=norm(q.era),tp=norm(q.topic).replace(/시대$/,'');
+  let m=N.filter(x=>(x.match||[]).some(y=>norm(y)===t||y===k));
+  if(!m.length)m=N.filter(x=>(x.match||[]).some(y=>{const [e,tt='']=norm(y).split('/');return e===era&&tt&&(tt.includes(tp)||tp.includes(tt));}));
+  for(const x of m.slice(0,1))if(!out.includes(x.id))out.push(x.id);}
+ return out;
+}
+function board(ids,after,pre,hide){
  paint();busy=true;S.line=null;stopAuto();const c=$('#vnCard');c._tok=(c._tok||0)+1;$('#vnBox').classList.add('quiet');c.className='vn-card board';c.hidden=false;c.onclick=null;
- c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small><img class="bd-emblem" src="${asset('emblem_white.webp')}" alt="">오르페이아의 판서 · 기출 핵심노트</small><button class="primary" data-back>정리 끝 ▶</button></div><div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
- const done=e=>{e?.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;S.pc++;step();};
+ const sh=S.boardShown||(S.boardShown=[]);ids.forEach(id=>{if(!sh.includes(id))sh.push(id);});
+ c.innerHTML=`<div class="bd-wrap"><div class="bd-head"><small><img class="bd-emblem" src="${asset('emblem_white.webp')}" alt="">${pre?'풀기 전에 · 오르페이아의 판서':'오르페이아의 판서 · 기출 핵심노트'}</small><button class="primary" data-back>${pre?'알겠어요, 풀러 가기 ▶':'정리 끝 ▶'}</button></div>${pre?'<p class="bd-pre">주인님, 문제 나오기 전에 이것부터요! 표의 「단서 → 정답」만 눈에 담고 가면 돼요♪</p>':''}<div class="bd-body"><p class="vn-sheet-wait">칠판을 펼치는 중이에요…</p></div></div>`;
+ const done=e=>{e?.stopPropagation();c.hidden=true;$('#vnBox').classList.remove('quiet');busy=false;if(after)after();else{S.pc++;step();}};
  c.querySelector('[data-back]').onclick=done;
  if(skip){done();return;}
  const nb=records.boards||(records.boards=[]);ids.forEach(id=>{if(!nb.includes(id))nb.push(id);});save();
  coreNotes().then(all=>{const body=c.querySelector('.bd-body');if(!body)return;const ns=ids.map(id=>all.find(x=>x.id===id)).filter(Boolean);
-  body.innerHTML=ns.length?ns.map(boardHtml).join(''):'<p>판서를 불러오지 못했어요.</p>';}).catch(()=>{const b=c.querySelector('.bd-body');if(b)b.innerHTML='<p>판서를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</p>';});
+  body.innerHTML=ns.length?ns.map(n=>boardHtml(n,hide)).join(''):'<p>판서를 불러오지 못했어요.</p>';}).catch(()=>{const b=c.querySelector('.bd-body');if(b)b.innerHTML='<p>판서를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.</p>';});
 }
 function sdPop(kind){
  const v=$('#vn');if(!v||skip)return;let el=$('#vnSd');if(!el){el=document.createElement('img');el.id='vnSd';el.className='vn-sd';el.alt='';v.appendChild(el);}
@@ -390,7 +403,10 @@ function notebook(view='notes',sel=null,q=''){
 
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
-function quiz(arg){
+function quiz(arg,noPre){
+ if(!noPre&&!skip){const ids=notesFor(String(arg).split(/\s+/).filter(x=>/^\d+-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));
+  if(ids.length){coreNotes().then(()=>{const ids2=notesFor(String(arg).split(/\s+/).filter(x=>/^\d+-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));if(ids2.length)board(ids2,()=>quiz(arg,true),true,String(arg).split(/\s+/));else quiz(arg,true);}).catch(()=>quiz(arg,true));return;}
+  if(!window.CORE_NOTES?.length&&!quiz._tried){quiz._tried=1;busy=true;coreNotes().then(()=>quiz(arg,false)).catch(()=>quiz(arg,true));return;}}
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();
  Quiz.run(arg,{host:$('#vn'),bgm:S.battle?(S.battle.serious?'bgm_tragic':S.battle.who==='sayeon'?'bgm_sayeon':'bgm_challenge'):null,onAnswer:S.battle?battleHit:null,onDone:R=>{

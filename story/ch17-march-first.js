@@ -199,7 +199,6 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [젊은 관리] 그렇소, 그 말이 맞소.
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그런데 이번엔 먹물 속에서 함성이 들린다. 수십만 사람의 목소리.
 @show muk surprised center
@@ -220,7 +219,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [묵|smile] 맞아. 통치가 10년마다 얼굴을 바꾸는 걸 알면, 시대가 바로 보여.
 @label m1after
 @hide all
-@battle muk serious skin=manse
+@battle muk skin=manse
 @quiz 81-27 81-28 81-29
 @battle end
 @show muk smile center
@@ -242,7 +241,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [사연] 진주의 봉기를 수습하러 간 안핵사 박규수. 12장 진주의 봄, 1862년입니다. 그 뒤 나라가 무엇을 두었는지가 문제입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=manse ally=sayeon askin=sy_shanghai
+@battle muk stage2 skin=manse ally=sayeon askin=sy_shanghai
 @quiz 81-91 81-92 81-93
 @battle end
 @show muk lonely center
@@ -261,7 +260,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @show orpheia neutral left
 [윤슬|smile] 월드 투어 가사 썼어! 지명은 댓글에 지도 올린 사람 거 보고 넣었어. 이번엔 완벽할걸?
 [윤슬] 「서간도엔 대조선 국민군단, 하와이엔 경학사와 신흥 강습소, 멕시코엔 숭무 학교, 탑골 공원의 만세~」
-[오르페이아|serious] ……아가씨, 그 지도 먹물 거예요. 주인님, 삼원보에서 보리 님이 뭘 짓고 있었죠?
+[오르페이아|serious] 아가씨, 그 지도 먹물 거예요. 주인님, 삼원보에서 보리 님이 뭘 짓고 있었죠?
 @set fix 0
 @choice
 > 경학사·신흥 강습소가 서간도, 대조선 국민군단이 하와이야. 바뀌었어. -> lc_ok {trust+1 fix+1}

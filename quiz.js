@@ -6,7 +6,7 @@ const Quiz=(()=>{
  const N='①②③④⑤';
  const EX=()=>window.QUESTION_EXPLANATIONS||{},FIG=()=>window.QUESTION_FIGURES||{};
  const LINES={
-  open:['자, 주인님. 단서부터 찾아봐요.','천천히요. 자료에 답이 숨어 있어요.','이건 실제 기출이에요. 주인님이라면 풀 수 있어요.'],
+  open:['주인님, 풀기 전에 아래 단서 노트부터 같이 봐요. 알고 풀면 안 까먹어요!','이 자료에서 볼 곳은 아래에 적어 뒀어요. 읽고 나서 골라 봐요♪','실제 기출이에요. 단서 노트 한 번 읽고 가면 충분히 풀 수 있어요!'],
   right:['정답이에요♪ 역시 주인님!','맞았어요! 단서를 제대로 잡으셨네요.','완벽해요. 이 감각 그대로요.'],
   wrong:['앗… 되감을게요. 이 보기는 다른 주인이 있어요.','괜찮아요, 함정이었어요. 다시 골라 봐요.','아쉬워요! 아래 설명을 보고 한 번 더요.'],
  };
@@ -55,12 +55,20 @@ const Quiz=(()=>{
    return `<button class="qz-ch${tried?' tried':''}${ok?' ok':''}${pics?' pic':''}" data-c="${n}" ${tried||R.done?'disabled':''}><span class="qz-n">${N[i]}</span><span class="qz-t">${body}</span></button>`;}).join('');
  }
  function say(kind,text){return `<div class="qz-orpheia ${kind}"><img src="${asset('ui/face_'+({right:'smile',wrong:'worry',open:'neutral'}[kind]||'neutral')+'.webp')}" alt=""><p><b>오르페이아</b>${esc(text)}</p></div>`;}
+ // 풀기 전 단서 노트: 자료가 가리키는 것(clues) + 구별해 둘 점(takeaway). 보기 번호를 짚는 문장·근거 기출 꼬리는 뺀다(정답 번호는 풀고 나서).
+ function preNote(ex){
+  const take=String(ex.takeaway||'').replace(/\s*\(근거 기출:[^)]*\)/,'').split(/(?<=[.。])\s+/).filter(x=>x&&!/[①②③④⑤]|선택지|보기 중/.test(x)).join(' ');
+  const cl=(ex.clues||[]).join(' ');
+  if(!cl&&!take)return '';
+  return `<div class="qz-exp pre"><h3>📜 풀기 전에, 단서 노트</h3>${cl?`<p class="qz-clue"><b>자료 읽기</b> ${esc(cl)}</p>`:''}${take?`<p class="qz-take"><b>알고 풀기</b> ${esc(take)}</p>`:''}</div>`;
+ }
  function render(){
   const q=R.list[R.i],ex=EX()[key(q)]||{},last=R.wrongPick;
   let note='';
   if(R.done){note=`<div class="qz-exp ok"><h3>✓ 정답 ${N[q.a-1]}</h3>${(ex.clues||[]).length?`<p class="qz-clue"><b>단서</b> ${esc(ex.clues.join(' '))}</p>`:''}<p>${esc(ex.reason||q.exp)}</p>${ex.takeaway?`<p class="qz-take"><b>기억할 점</b> ${esc(ex.takeaway)}</p>`:''}<details><summary>보기 다섯 개 해설</summary><ol>${(ex.choices||[]).map((c,i)=>`<li class="${i+1===q.a?'ok':''}">${N[i]} ${esc(c)}</li>`).join('')}</ol></details></div>`;}
-  else if(last){note=`<div class="qz-exp bad"><h3>✕ ${N[last-1]}은(는) 아니에요</h3><p>${esc((ex.choices||[])[last-1]||'이 보기는 조건에 맞지 않아요.')}</p>${R.hint?`<p class="qz-clue"><b>힌트</b> ${esc((ex.clues||[])[0]||'')}</p>`:'<button class="quiet" data-hint>단서 힌트 보기</button>'}</div>`;}
-  const ori=R.done?say('right',R.firstOk?pick(LINES.right):'이번엔 맞혔어요. 첫 시도 점수는 다음에 꼭 가져가요!'):last?say('wrong',R.line||(R.line=pick(LINES.wrong))):say('open',R.open||(R.open=q.pred?pick(['제가 다음 회차를 예상해서 만든 문제예요. 기출이랑 같은 방식으로 풀면 돼요.','자, 주인님. 단서부터 찾아봐요.','천천히요. 자료에 답이 숨어 있어요.']):pick(LINES.open)));
+  else if(last){note=`<div class="qz-exp bad"><h3>✕ ${N[last-1]}은(는) 아니에요</h3><p>${esc((ex.choices||[])[last-1]||'이 보기는 조건에 맞지 않아요.')}</p></div>`+preNote(ex);}
+  else note=preNote(ex);
+  const ori=R.done?say('right',R.firstOk?pick(LINES.right):'이번엔 맞혔어요. 첫 시도 점수는 다음에 꼭 가져가요!'):last?say('wrong',R.line||(R.line=pick(LINES.wrong))):say('open',R.open||(R.open=q.pred?pick(['제가 다음 회차를 예상해서 만든 문제예요. 아래 단서 노트 보고 기출처럼 풀면 돼요!',...LINES.open]):pick(LINES.open)));
   R.el.innerHTML=`<div class="qz-panel"><header class="qz-head"><span class="qz-no">${q.n}.</span><span class="chip">${esc(q.era)}</span>${R.done?`<span class="chip gold">${esc(q.topic)}</span>`:''}<span class="qz-meta">${q.pred?'<b class="qz-pred">오르페이아 예상</b>':`제${q.r}회`} · ${q.p}점 · ${R.i+1}/${R.list.length}</span>${R.title?`<span class="qz-meta">${esc(R.title)}</span>`:''}<button class="quiet qz-exit" data-exit>그만</button></header>
    <div class="qz-body"><div class="qz-left"><h2 class="qz-q">${esc(q.q)}</h2>${figure(q)}</div><div class="qz-right"><div class="qz-choices">${choiceHtml(q)}</div>${ori}${note}${R.done?`<button class="primary qz-next" data-next>${R.i+1<R.list.length?'다음 문제 ▶':'결과 보기 ▶'}</button>`:''}</div></div></div>`;
   R.el.querySelectorAll('[data-c]').forEach(b=>b.onclick=e=>{e.stopPropagation();answer(+b.dataset.c);});

@@ -76,7 +76,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @jump hr18x
 @label hr18b
 [상철] 오르페이아, 이 정도면 정체성 괜찮지?
-[오르페이아|smile] ……후드가 남아 있으니까 합격이에요. 주인님은 그대로 주인님이에요.
+[오르페이아|smile] 후드가 남아 있으니까 합격이에요. 주인님은 그대로 주인님이에요.
 [한별|pout] 왜 저 아가씨 허락을 받아요?
 @label hr18x
 @note 물산 장려 운동|조선 물산 장려회(평양, 조만식) → 전국 확산. 배경: 회사령 폐지, 관세 철폐. '내 살림 내 것으로', '조선 사람 조선 것'. 자작회·토산 애용 부인회. 산미 증식 계획으로 쌀 유출.
@@ -177,7 +177,6 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [한별|smile] 정답! 이제 안심이에요.
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그 위로 여러 갈래의 길이 그려진다. 학교로 가는 길, 상점으로 가는 길, 만주로 가는 길, 폭탄을 품은 길.
 @show muk lonely center
@@ -199,7 +198,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [묵|smile] 맞아. 길은 달라도, 가려는 곳은 같았어.
 @label m1after
 @hide all
-@battle muk serious skin=moga
+@battle muk skin=moga
 @quiz 81-30 81-31 81-32
 @battle end
 @show muk smile center
@@ -221,7 +220,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 [사연] 구향과 신향이 향임 자리를 두고 다투는 향전. 이것도 13장, 신분이 흔들리던 시절의 모습입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=moga ally=sayeon askin=sy_reporter
+@battle muk stage2 skin=moga ally=sayeon askin=sy_reporter
 @quiz 81-94 81-95 81-96
 @battle end
 @show muk lonely center
@@ -240,7 +239,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @show orpheia neutral left
 [윤슬|smile] 장르 짬뽕 가사야! 단체랑 인물은 댓글에 표로 정리된 거 보고 넣었어!
 [윤슬] 「봉오동엔 김좌진, 청산리엔 홍범도 혼자, 의열단은 김구, 한인 애국단은 김원봉~ 신간회는 1927년~」
-[오르페이아|serious] ……아가씨, 그 표 먹물이 만든 거예요. 주인님, 청산리 숲이랑 하숙집 신문 기억나세요?
+[오르페이아|serious] 아가씨, 그 표 먹물이 만든 거예요. 주인님, 청산리 숲이랑 하숙집 신문 기억나세요?
 @set fix 0
 @choice
 > 신간회는 1919년에 만들어졌어. -> lc_ng

@@ -389,7 +389,6 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @board sedo joseon-society
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그 속에서 수많은 횃불이 일렁인다. 정주성, 진주, 그리고 이름 없는 마을들.
 @show muk lonely center
@@ -410,7 +409,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [묵|smile] ……맞아. 상복이 환국이 되고, 환국을 말리려 탕평을 하고, 탕평이 무너지니 세도가 왔지.
 @label m1after
 @hide all
-@battle muk serious skin=rain
+@battle muk skin=rain
 @quiz 81-13 81-14 81-15 81-79
 @battle end
 @show muk smile center
@@ -432,7 +431,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [사연] 정주 선덕관성에 들어온 적, 윤관이 패하고 왕이 병사를 다시 훈련시킨 일. 상대는 말 탄 여진이었습니다. 그 뒤 고려가 무엇을 짰는지는, 주인님께 맡기지요.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=rain ally=sayeon askin=sy_damo
+@battle muk stage2 skin=rain ally=sayeon askin=sy_damo
 @quiz 81-130 81-131 81-132
 @battle end
 @show muk lonely center
@@ -452,7 +451,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [윤슬|smile] 병풍 썰은 못 들은 걸로 해 줄게. 가사! 영조·정조 파트는 댓글 보고 확인했어. 할아버지랑 손자라 대충 같대서.
 @photo 거중기
 [윤슬] 「숙종의 경신, 기사, 갑술 환국~ 영조는 신해통공, 정조는 균역법, 수원 화성은 거중기로~」
-[오르페이아|serious] ……아가씨, 대충 같은 왕은 없어요. 주인님, 청계천 역부 아저씨랑 종로 뒷골목 상인 기억나세요?
+[오르페이아|serious] 아가씨, 대충 같은 왕은 없어요. 주인님, 청계천 역부 아저씨랑 종로 뒷골목 상인 기억나세요?
 @set fix 0
 @choice
 > 수원 화성은 영조 때 지었어. -> lc_ng

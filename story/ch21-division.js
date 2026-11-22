@@ -200,7 +200,6 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [기자] 역시! 받아 적었어요.
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그런데 이번엔 가운데에 줄이 그어진다. 38이라는 숫자가 새겨진 줄.
 @show muk lonely center
@@ -220,7 +219,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [묵|lonely] ……막으려는 사람이 이렇게 많았는데. 그래도 갈라졌구나.
 @label m1after
 @hide all
-@battle muk serious skin=refugee
+@battle muk skin=refugee
 @quiz 81-39 81-40 81-41
 @battle end
 @show muk lonely center
@@ -242,7 +241,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [사연] 하얼빈에서 시작해 뤼순에서 옳고 그름을 가린다는 원고. 『동양평화론』, 뤼순 감옥 통역이 지켜본 그 사람입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=refugee ally=sayeon askin=sy_nurse
+@battle muk stage2 skin=refugee ally=sayeon askin=sy_nurse
 @quiz 81-103 81-104 81-105
 @battle end
 @show muk lonely center
@@ -261,7 +260,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @show orpheia neutral left
 [윤슬|serious] 이번 가사는 정말 조심해서 썼어. ……그런데 연도는 댓글 보고 고친 거야. 원래 쓴 거랑 달라서.
 [윤슬] 「1945년 모스크바 회의, 1946년 남북 협상, 1947년 좌우 합작 위원회, 1948년 5월 10일~」
-[오르페이아|serious] ……아가씨, 원래 쓰신 게 맞았을지도 몰라요. 그 댓글 먹물이에요. 주인님, 김구 선생 기념관에서 본 거 기억나세요?
+[오르페이아|serious] 아가씨, 원래 쓰신 게 맞았을지도 몰라요. 그 댓글 먹물이에요. 주인님, 김구 선생 기념관에서 본 거 기억나세요?
 @set fix 0
 @choice
 > 좌우 합작 위원회가 1946년, 남북 협상이 1948년 4월이야. 바뀌었어. -> lc_ok {trust+1 fix+1}

@@ -240,6 +240,7 @@ dialog::backdrop{background:#0f0d0bd0;backdrop-filter:blur(4px)}
 .qz-orpheia.wrong p{border-left-color:var(--seal)}.qz-orpheia.right p{border-left-color:var(--green)}
 .qz-exp{border-radius:2px;padding:12px 16px;margin-top:8px;background:#fffaf0;border:1px solid var(--paper-edge)}
 .qz-exp h3{margin:0 0 6px;font:400 19px var(--f-title)}
+.qz-exp.pre{background:#f4fbf7;border-color:#9fcdb6}.qz-exp.pre h3{color:var(--cheong)}
 .qz-exp.ok h3{color:var(--cheong)}.qz-exp.bad h3{color:var(--seal)}
 .qz-exp p{margin:6px 0;font-family:var(--f-body)}
 .qz-clue b,.qz-take b{color:var(--seal);margin-right:6px}
@@ -596,3 +597,5 @@ dialog#vnLog.nb[open]{display:flex}
 @keyframes pulse{0%,40%,100%{transform:scale(1)}12%,52%{transform:scale(1.035);filter:brightness(.8)}}
 @keyframes hitzoom{0%{transform:scale(1.18)}100%{transform:scale(1)}}
 @media (prefers-reduced-motion:reduce){.vn.mood-flicker .vn-bg,.vn.mood-tremble #vnText,.vn.hit-thud,.vn.hit-pulse .vn-bg img{animation:none}}
+
+.bd-pre{margin:0 0 8px;padding:8px 14px;background:rgba(255,255,255,.08);border-left:3px solid #9fcdb6;color:#eaf6ef;font-family:var(--f-body)}

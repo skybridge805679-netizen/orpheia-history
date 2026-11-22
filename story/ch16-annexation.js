@@ -94,7 +94,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [오르페이아|worry] 섞였어요. 전보국 소년이 받은 의정서가 먼저, 교환소의 메가타가 다음, 중명전이 그다음이에요.
 @jump c1after
 @label c1ok
-[오르페이아|teary] ……네. 바깥부터 안으로, 점점 깊숙이.
+[오르페이아|teary] 네. 바깥부터 안으로, 점점 깊숙이.
 @label c1after
 @hide all
 @show orpheia explain center
@@ -248,7 +248,6 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [관리] ……그대에게 맡기겠소. 끝까지 쓰지 못한 원고라도, 읽어 줄 사람이 있으면 끝난 게 아니니까.
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 이번엔 먹물이 나라 전체를 덮으려 한다. 묵이 두 팔을 벌려 막아선다.
 @show muk angry center
@@ -269,7 +268,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @show orpheia smile center
 [오르페이아|explain] 묵이 낸 마지막 문제예요. 국권 피탈 과정 총정리, 가요!
 @hide all
-@battle muk serious skin=uibyeong
+@battle muk skin=uibyeong
 @quiz 81-24 81-25 81-26
 @battle end
 @show muk lonely center
@@ -292,7 +291,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [사연] 병산 서원에 모셔진 분, 임진왜란 중 훈련도감 설치를 건의한 재상. 11장에서 만난 류성룡입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=uibyeong ally=sayeon askin=sy_telegraph
+@battle muk stage2 skin=uibyeong ally=sayeon askin=sy_telegraph
 @quiz 81-88 81-89 81-90
 @battle end
 @show muk lonely center
@@ -313,7 +312,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @show orpheia neutral left
 [윤슬|serious] 이번 가사 확인해 줘. 틀리면 진짜 안 돼. ……댓글 보고 정리한 거라 좀 불안해.
 [윤슬] 「을미의병은 군대 해산에 맞서, 정미의병은 단발령에 맞서, 서울로 진공하던 13도 창의군~ 하얼빈의 총성 안중근~」
-[오르페이아|serious] ……아가씨, 불안한 게 맞아요. 그 댓글 먹물이에요. 주인님, 보리 님 진지의 해산 군인 기억나세요?
+[오르페이아|serious] 아가씨, 불안한 게 맞아요. 그 댓글 먹물이에요. 주인님, 보리 님 진지의 해산 군인 기억나세요?
 @set fix 0
 @choice
 > 13도 창의군은 을미의병 때 모였어. -> lc_ng

@@ -205,7 +205,6 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @board ilje-language
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그 위로 낱말 카드가 한 장씩 떨어져 내린다. 하늘, 바다, 어머니, 보리, 별.
 @show muk surprised center
@@ -228,7 +227,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [묵|smile] 맞아. 광복 뒤의 것만 걸러 내면 시대가 보여.
 @label m1after
 @hide all
-@battle muk serious skin=hangul
+@battle muk skin=hangul
 @quiz 81-33 81-34 81-35
 @battle end
 @show muk smile center
@@ -250,7 +249,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [사연] 명성 황후가 시해된 뒤 김홍집 내각이 태양력을 채택한 개혁, 을미개혁입니다. 같은 개혁에서 무엇을 함께 정했는지가 박자입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=hangul ally=sayeon askin=sy_singer
+@battle muk stage2 skin=hangul ally=sayeon askin=sy_singer
 @quiz 81-97 81-98 81-99
 @battle end
 @show muk lonely center
@@ -269,7 +268,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia neutral left
 [윤슬|smile] 경성 데이트 썰 미쳤다. 가사는 레트로로! 한글 단체는 댓글에서 '같은 단체'라길래 편하게 썼어.
 [윤슬] 「1926년 「아리랑」, 카프의 신경향파, 조선어 학회는 가갸날을 만들고, 조선어 연구회는 한글 맞춤법 통일안~」
-[오르페이아|serious] ……아가씨, 잠깐만요. 같은 단체가 아니에요. 그 댓글 먹물이에요. 주인님, 화동에서 들은 이야기 기억나세요?
+[오르페이아|serious] 아가씨, 잠깐만요. 같은 단체가 아니에요. 그 댓글 먹물이에요. 주인님, 화동에서 들은 이야기 기억나세요?
 @set fix 0
 @choice
 > 가갸날은 조선어 연구회, 한글 맞춤법 통일안은 조선어 학회야. 바뀌었어. -> lc_ok {trust+1 fix+1}

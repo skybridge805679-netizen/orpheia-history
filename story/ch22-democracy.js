@@ -186,7 +186,6 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @note 전두환 정부와 6월 민주 항쟁|국가 보위 비상 대책 위원회, 8차 개헌(선거인단 간선·7년 단임), 삼청 교육대, 보도 지침. 교복·두발 자율화, 야간 통행 금지 해제, 프로 야구, 3저 호황. 박종철 고문 치사 → 4·13 호헌 조치 → 국민 운동 본부 → 이한열 → 6·10 → 6·29 선언 → 9차 개헌(5년 단임 직선제).
 @hide all
 
-@bgm off
 @bg cg_ink_spread
 먹물이 번진다. 그 안에서 이름들이 떠오른다. 김주열, 전태일, 박종철, 이한열. 그리고 이름 없이 쓰러진 수많은 얼굴들.
 @show muk lonely center
@@ -207,7 +206,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [묵|smile] ……맞아. 하나하나가 다음을 이어받았구나.
 @label m1after
 @hide all
-@battle muk serious skin=handkerchief
+@battle muk skin=handkerchief
 @quiz 81-42 81-43 81-44
 @battle end
 @show muk smile center
@@ -229,7 +228,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [사연] 서일의 북로 군정서가 싸운 청산리는 18장, 지청천의 한국 독립군이 쌍성현을 친 것은 20장의 일입니다. 그 사이 만주의 독립군이 어떻게 다시 모였는지가 박자입니다.
 [오르페이아|surprised] 어, 사연 님?! ……네, 맡길게요. 저는 옆에서 응원할게요!
 @hide all
-@battle muk serious stage2 skin=handkerchief ally=sayeon askin=sy_campus
+@battle muk stage2 skin=handkerchief ally=sayeon askin=sy_campus
 @quiz 81-106 81-107 81-109
 @battle end
 @show muk lonely center
@@ -248,7 +247,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @show orpheia neutral left
 [윤슬|serious] 민주주의 트랙 가사야. 꼭 확인해 줘. 결과 부분은 댓글에서 정리한 걸 봤는데…… 좀 이상해.
 [윤슬] 「4·19로 5년 단임 직선제, 6월 항쟁으로 장면 내각, 5·18의 시민군, 부마 항쟁이 유신을 무너뜨렸네~」
-[오르페이아|serious] ……아가씨, 이상한 게 맞아요. 그 정리 먹물 거예요. 주인님, 새벽 님 반 아이들이랑 다솜 님이 얻어 낸 게 각각 뭐였죠?
+[오르페이아|serious] 아가씨, 이상한 게 맞아요. 그 정리 먹물 거예요. 주인님, 새벽 님 반 아이들이랑 다솜 님이 얻어 낸 게 각각 뭐였죠?
 @set fix 0
 @choice
 > 부마 민주 항쟁은 1987년에 일어났어. -> lc_ng
