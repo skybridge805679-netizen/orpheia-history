@@ -4753,5 +4753,100 @@
   "seed": 5252103,
   "prompt": "no humans, close-up of a smartphone screen flooded with countless comment bubbles and heart icons and fire emojis flying out of the screen, explosive viral popularity, notification badges, glowing, comedic, blurred unreadable text only, masterpiece",
   "init": null
+ },
+ "st_ara_smile": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+  "init": null
+ },
+ "st_ara_shy": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, shy, deep blush, looking away, fidgeting",
+  "init": null
+ },
+ "st_ara_angry": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, angry, frowning, puffed cheeks, pointing at viewer",
+  "init": null
+ },
+ "st_ara_surprised": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+  "init": null
+ },
+ "st_ara_teary": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, teary eyes, trembling smile, wiping a tear",
+  "init": null
+ },
+ "st_ara_serious": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, serious determined expression, calm",
+  "init": null
+ },
+ "st_ara_pregnant": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, standing, full body, looking at viewer, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+  "init": null
+ },
+ "st_gaon_smile": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+  "init": null
+ },
+ "st_gaon_shy": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, shy, deep blush, looking away, fidgeting",
+  "init": null
+ },
+ "st_gaon_angry": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, angry, frowning, puffed cheeks, pointing at viewer",
+  "init": null
+ },
+ "st_gaon_surprised": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+  "init": null
+ },
+ "st_gaon_teary": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, teary eyes, trembling smile, wiping a tear",
+  "init": null
+ },
+ "st_gaon_serious": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, serious determined expression, calm",
+  "init": null
+ },
+ "st_gaon_pregnant": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, standing, full body, looking at viewer, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+  "init": null
+ },
+ "cg_ch04_gaon": {
+  "seed": 2604051,
+  "prompt": "1girl, 1boy, comedic lucky pervert accident, ancient silla noble house courtyard in winter afternoon, tiled roofs, dozens of bamboo slips flying through the air, a young woman fallen on top of a young man lying on the ground, her jacket tie came undone and one shoulder slipped out, she is pressing his hood back down onto his head with both hands, sparkles, motion lines, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ch04_ara": {
+  "seed": 2604041,
+  "prompt": "1girl, 1boy, comedic lucky pervert accident, top of an ancient korean fortress wall at autumn dusk, an arrow stuck in a wooden pillar pinning the tip of a black hood, a young female archer hugging a young man head against her chest to hide his face, enemy banners far away beyond the wall, sparkles, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ara_farewell": {
+  "seed": 2604042,
+  "prompt": "1girl, solo, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing at an archery range at dawn, lowering her bow, big tearful smile, wind blowing her ponytail and feathers, a target with an arrow in the bullseye, mountains and pink sunrise sky, emotional, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_gaon_farewell": {
+  "seed": 2604052,
+  "prompt": "1girl, solo, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing at a wide river mouth harbor at sunrise, wooden ships behind her, holding the bamboo slips to her chest, tearful smile, saying something softly, hair strands fluttering in the sea wind, emotional, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_end_harem_samguk": {
+  "seed": 2604043,
+  "prompt": "2girls, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light, an arrow stuck in a wall calendar, two ancient women stepping out of the light and pushing each other by the shoulders to reach a young man first, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+  "init": null
  }
 }
