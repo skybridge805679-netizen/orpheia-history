@@ -394,6 +394,13 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [가온] 통역 없이 말하기로 했잖아요. ……좋아해요. 이 말 하러 천삼백 년 건너왔어요.
 [아라] 신라 통역이 또 먼저 말했네! 그때도 그러더니!
 [오르페이아|pout] 두 분, 같은 전쟁을 양쪽에서 보셨으면 이번엔 같은 편에서 줄 서 주세요. 맨 뒤로요.
+@bg cg_end_harem_goryeo|cg_ep_all
+모니터에서 열쇠 꾸러미 짤랑이는 소리와 수레바퀴 소리가 동시에 난다. 앞치마를 두른 여인과 털모자를 쓴 여인이 한 문간에 끼어 서로 먼저 들어오겠다고 밀친다.
+[마루] 신발 벗으세요! ……아니, 여긴 제 집이 아니구나. 그럼 오늘부터 제 집으로 할게요. 곳간 열쇠는 제가 맡아요.
+[서리] 짐 다 풀고 왔어요. 이번 겨울엔 안 싸요. 쫓아내도 안 가요. 에취!
+[마루] 거기 국경 아가씨, 신발!
+[서리] 시골 아가씨는 문간에서 비켜요!
+[오르페이아|pout] 고려 전기 두 분은 같은 장에서 앞뒤로 나오셨으면서 왜 문간에선 동시에 오세요?!
 @bg cg_end_harem_haneui|cg_ep_all
 모니터가 한 번 더 금빛으로 번쩍인다. 비단 너울 자락이 먼저 내려서고, 금 귀걸이가 달랑거린다.
 [하늬] 정인님! 담 넘어왔어요. 천 년 걸린다더니 생각보다 금방이네요.
@@ -432,8 +439,8 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [묵|smirk] 늦었네. 나는 오답 노트에서 벌써 혼인 서약 칸 찾아 놨는데.
 @show sayeon smile right
 @cutin record
-[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 열아홉 명. 사관인 저를 포함하여.
-[오르페이아|surprised] 열아홉 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스무 명! 제가 첫 번째예요!
+[사연|smile] 기록하였습니다. 제81회 합격자 발표일 밤, 신부 지원자 스물한 명. 사관인 저를 포함하여.
+[오르페이아|surprised] 스물한 명이라니요?! 사연 님까지?! ……그, 그럼 저도 넣어 주세요! 스물두 명! 제가 첫 번째예요!
 @hide all
 @show yunseul surprised center
 [윤슬|surprised] ……뭐야, 새벽 세 시에 왜 이렇게 시끄러워. 오빠, 이 언니들 다 누구야?
@@ -567,7 +574,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show dodam smile right
 [도담|smile] 서방님, 약 드실 시간이에요. 도담표 탕약, 오늘로 마흔이틀째. 남김없이요.
 [상철] 이거 대체 무슨 약이야. 매일 먹는데 왜 이렇게 기운이 남아돌아.
-[도담|shy] 신부가 열아홉이에요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
+[도담|shy] 신부가 스물하나예요. 서방님 기운이 남아돌아야 집안이 평안하죠. ……그리고 침도 놓을게요. 엎드려요.
 [상철] 또?
 [도담|serious] 의원 말 들어요. 이 침은 저만 아는 자리예요. 언니들이 아침마다 저한테 고맙다고 떡을 갖다줘요. 처방이 잘 듣는다는 뜻이죠.
 @show orpheia pout left
@@ -614,6 +621,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [아라|pregnant] 이 아이 이름은 고구려식으로 지을 거예요. 할아버지가 살수에서 그랬거든요. 손주의 손주까지 이야기를 물려주겠다고.
 @show gaon pregnant right
 [가온|pregnant] 이 아이한테는 처음부터 제 말로 말해 줄 거예요. 옮기지 않고요.
+@hide all
+@show maru pregnant left
+[마루|pregnant] 이 집 대청마루에 아기 신발이 하나 더 놓이겠네요. ……신발은 벗기고 올릴 거예요.
+@show seori pregnant right
+[서리|pregnant] 올겨울은 아랫목에서 둘이 아니라 셋이에요. 짐은 영영 안 싸요.
 @hide all
 @show haneui pregnant center
 [하늬|pregnant] 이 아이는 골품 같은 거 몰랐으면 좋겠어요. 정답이 정해지지 않은 아이로요.
@@ -755,7 +767,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru ara gaon haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru ara gaon maru seori haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -793,6 +805,30 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [가온|smile] 그럼 가요, 손님. 좋아해요. 이건 아무도 안 옮겨 줘도 되는 말이죠?
 @add gaon 5
 @ending 가온의 첫마디|김춘추 사절단의 통역 가온에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_maru
+@bg cg_maru_farewell|bg_era_gaegyeong
+@day 고창 · 마루네 대청, 아침
+[마루|smile] 손님! 노래 들었어요. 우리 집 일꾼이었던 사람들이 자기 밭에서 그 노래를 불러요. 남의 집 물 말고 제 집 물 길으면서요.
+[마루|shy] 이 열쇠 받아요. 우리 집 열쇠 아니에요. 제 집 열쇠예요. ……주인 하나 더 있어도 돼요.
+[상철] ……미안. 나는 돌아가야 해. 대신 이 대청 노래, 끝까지 불러지게 해 놓을게. 신발 벗고 올라오는 집이라고.
+[마루|teary] 치사해요. 열쇠를 안 받으면 문을 잠글 수가 없잖아요.
+[마루|smile] 그럼 가요, 손님. 문은 안 잠가 둘게요. 언제든 신발 벗고 올라와요.
+@add maru 5
+@ending 마루의 열쇠|고창 호족 집안의 맏딸 마루에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_seori
+@bg cg_seori_farewell|bg_era_seohui
+@day 서경 · 대동강 가, 첫눈
+[서리|smile] 손님! 노래 들었어요. 국경 마을 애들이 다 불러요. 피란 짐 싸는 노래 말고, 아랫목에서 부르는 노래로요.
+[서리|shy] 올겨울엔 짐 안 싸기로 했잖아요. ……근데 손님이 짐을 싸면, 저 따라 싸야 하나요?
+[상철] ……미안. 나는 돌아가야 해. 대신 서경 노래, 촌사람 소리 안 듣게 해 놓을게.
+[서리|teary] 치사해요. 그렇게 말하면 수레를 못 끌고 쫓아가잖아요. 에취!
+[서리|smile] 그럼 가요. 대신 다음 겨울엔 꼭 와요. 아랫목은 데워 놓을게요.
+@add seori 5
+@ending 서리의 아랫목|서경의 국경 수레꾼 서리에게 「연표」를 남기고 돌아왔다.
 @jump coda
 
 @label hero_haneui
