@@ -5970,8 +5970,8 @@
   "init": null
  },
  "bg_era_gyeongju_winter": {
-  "seed": 1266616879,
-  "prompt": "no humans, scenery, outdoors, ancient silla capital in winter, light snow on round grassy burial mounds and tiled roofs, bare trees, quiet empty streets, pale grey sky, a melancholic last winter of a thousand year kingdom",
+  "seed": 3066505859,
+  "prompt": "no humans, scenery, outdoors, ancient korean silla capital in winter, low korean tiled-roof houses only, light snow on round grassy burial mounds and tiled roofs, bare trees, quiet empty streets, pale grey sky, a melancholic last winter of a thousand year kingdom",
   "init": null
  },
  "bg_era_manwoldae_night": {
@@ -6010,7 +6010,7 @@
   "init": null
  },
  "bg_era_songpa_dusk": {
-  "seed": 2782462508,
+  "seed": 847200698,
   "prompt": "no humans, scenery, outdoors, a joseon riverside market at dusk, stalls closing, lanterns being lit, boats moored at the hangang ferry, orange and purple sky, lingering crowds' footprints, straw mats rolled up",
   "init": null
  },
@@ -6035,8 +6035,8 @@
   "init": "assets/bg_studio_night.webp"
  },
  "bg_studio_morning": {
-  "seed": 1153183518,
-  "prompt": "no humans, scenery, indoors, small home music studio in bright morning sunlight, curtains open, dust motes in sunbeams, monitors off, midi keyboard, studio headphones on desk, condenser microphone, a mug of coffee, acoustic foam panels, bookshelf with history books, warm and cozy",
+  "seed": 1602449620,
+  "prompt": "no humans, scenery, indoors, small home music studio in very bright warm morning sunlight, white daylight, sunny, curtains open, dust motes in sunbeams, monitors off, midi keyboard, studio headphones on desk, condenser microphone, a mug of coffee, acoustic foam panels, bookshelf with history books, warm and cozy",
   "init": "assets/bg_studio_night.webp"
  },
  "bg_home_kitchen": {
@@ -6081,7 +6081,7 @@
  },
  "cg_ch03_sabi_tiles": {
   "seed": 6604417,
-  "prompt": "1girl, 1boy, wide plain with a new ancient capital under construction, wooden stakes marking government building sites, a ferry boat loaded with grey roof tiles with lotus patterns and bricks, a purple-haired ferrywoman handing roof tiles to a hooded young man who staggers under the stack",
+  "prompt": "1girl, 1boy, outdoors, detailed background, riverside landing, wide plain with a new ancient capital under construction, wooden stakes marking government building sites, a ferry boat loaded with grey roof tiles with lotus patterns and bricks, a purple-haired ferrywoman handing roof tiles to a hooded young man who staggers under the stack",
   "init": null
  },
  "cg_ch03_silla_plow": {
@@ -6106,12 +6106,12 @@
  },
  "cg_ch06_poseokjeong": {
   "seed": 2606060,
-  "prompt": "1girl, 1boy, tragic, autumn garden with a winding stone water channel shaped like an abalone, overturned wine cups and trampled flowers, broken screens, a noble lady kneeling and hugging a trembling palace maid, a hooded young man standing behind with his head lowered",
+  "prompt": "2girls, 1boy, tragic, autumn garden with a winding stone water channel, overturned wine cups and trampled flowers, broken screens, a young noble lady in purple silk kneeling and hugging an old trembling palace maid in a plain grey hanbok, a hooded young man standing far behind with his head lowered",
   "init": null
  },
  "cg_ch07_procession": {
   "seed": 2607070,
-  "prompt": "1girl, 1boy, wide palace grounds below a rocky mountain, a long procession of provincial lords with colorful banners entering, a proud white-bearded lord puffing out his chest, beside him a tearful young man clutching a bundle, a young woman with keys at her sash watching from the roadside, a hooded young man next to her",
+  "prompt": "1girl, 1boy, wide palace grounds below a rocky mountain, a long procession of provincial lords with colorful banners entering, a proud white-bearded lord puffing out his chest, beside him a tearful young man clutching a bundle, a young woman with keys at her sash watching from the roadside, a clean-shaven hooded young man standing next to her",
   "init": null
  },
  "cg_ch07_dongbuk": {
@@ -6442,6 +6442,11 @@
  "cg_after_dasom": {
   "seed": 1616161,
   "prompt": "1girl, 1boy, university festival outdoor stage at night, lights and crowd, a young woman with bangs singing into a microphone with a band behind her, a hooded young man in the crowd holding up a phone light",
+  "init": null
+ },
+ "cg_after_mother_daughter": {
+  "seed": 1515300,
+  "prompt": "2girls, pov, slice of life, warm sunday afternoon, cozy modern korean apartment living room, two pregnant women sitting very close side by side on a sofa so that their round pregnant bellies are touching, both looking up at the viewer at the same angle with the same loving expression, two cups of barley tea on the coffee table, soft sunlight from a balcony window, mother and daughter resemblance",
   "init": null
  }
 }
