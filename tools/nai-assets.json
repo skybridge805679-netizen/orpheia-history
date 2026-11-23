@@ -1904,8 +1904,8 @@
   {
    "id": "cg_ch23_mother",
    "size": "bg",
-   "prompt": "2girls, 1boy, an elegant elderly korean woman with white bob hair smiling teasingly, young adult woman, shoulder length straight black hair with bangs, white blouse, navy cardigan, high-waisted light blue jeans blushing and shocked beside her, young man in a black hoodie with hood up, face hidden in shadow, faceless sweating, 1988 olympic stadium entrance with crowds, comedic",
-   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child, maid, maid headdress, apron, silver hair, white hair"
+   "prompt": "2girls, 1boy, an elegant mature korean woman in her early forties, black hair in a neat low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, cream blouse, navy cardigan, smiling teasingly, young adult woman, shoulder length straight black hair with bangs, white blouse, navy cardigan, high-waisted light blue jeans blushing and shocked beside her, young man in a black hoodie with hood up, face hidden in shadow, faceless sweating, 1988 olympic stadium entrance with crowds, comedic",
+   "negative": "watermark, signature, text, logo, nude, nipples, explicit, extra limbs, bad hands, multiple views, child, maid, maid headdress, apron, silver hair, white hair, elderly, old woman, wrinkled, grey hair"
   },
   {
    "id": "cg_mv_ch23",
@@ -9137,11 +9137,11 @@
    "id": "cg_ch23_saebyeok_confess",
    "size": "bg",
    "seed": 2623081,
-   "prompt": "1girl, 1boy, a quiet shaded corridor under the stands of the 1988 seoul olympic stadium, white doves in the bright sky beyond the opening, an elderly korean woman in her sixties with short grey-white hair and gentle wrinkles holding a faded old olive military field cap in both hands, smiling politely with wet eyes, a hooded young man standing before her, restrained, bittersweet, masterpiece, no readable text",
+   "prompt": "1girl, 1boy, a quiet shaded corridor under the stands of the 1988 seoul olympic stadium, white doves in the bright sky beyond the opening, an elegant mature korean woman in her early forties, black hair in a neat low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, cream blouse, navy cardigan, holding a faded old olive military field cap in both hands, smiling politely with wet eyes, a hooded young man standing before her, restrained, bittersweet, masterpiece, no readable text",
    "chars": [
     {
-     "prompt": "girl, elderly korean woman in her sixties, short grey white hair, gentle wrinkles around her eyes, cream blouse, navy cardigan, holding a faded olive field cap with both hands, polite smile, wet eyes",
-     "uc": "young face, nude, child, male",
+     "prompt": "girl, mature korean woman in her early forties, black hair in a neat low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, cream blouse, navy cardigan, holding a faded olive field cap with both hands, polite smile, wet eyes",
+     "uc": "nude, child, male, elderly, grey hair",
      "x": 0.42,
      "y": 0.55
     },
@@ -9152,7 +9152,7 @@
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views, young woman, teenager"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views, elderly, old woman, grey hair, white hair, teenager"
   },
   {
    "id": "cg_end_saebyeok_kiss",
