@@ -75,7 +75,7 @@ const BGM=(()=>{
   front^=1;const a=decks[front];a._f=(a._f||0)+1;a.src=src(cur);a.currentTime=0;a.volume=0;   // a._f 증가: 이 덱에서 돌던 이전 페이드를 끊는다
   a.play().then(()=>{if(a!==decks[front]||cur!==name){a.pause();return;}fade(a,level(),900);decks.forEach(d=>{if(d!==a&&!d.paused&&d.volume===0)d.pause();});}).catch(e=>{console.warn('bgm',name,e.name);if(e.name==='NotSupportedError')ready.delete(name);if(e.name==='NotAllowedError'){unlocked=false;arm();}if(cur===name)cur='';});
  }
- const scene=bg=>{const n=String(bg||'').replace(/\.(png|webp)$/,'');if(/^cg_ev_/.test(n))return;   // 역사 장면 CG는 지금 흐르는 곡을 그대로 둔다
+ const scene=bg=>{const n=String(bg||'').replace(/\.(png|webp)$/,'');if(/^cg_ev_/.test(n)||n==='bg_black')return;   // 역사 장면 CG·암전 배경은 지금 흐르는 곡을 그대로 둔다
  let t=SCENE[n]||byRule(n)||'bgm_daily';if(t.startsWith('song_')&&!ready.has(t))t='bgm_result';play(t);};
  // Browsers only allow audio after a user gesture.
  const unlock=()=>{if(unlocked)return;unlocked=true;probed.then(()=>{const w=wanted;cur='';play(w);});};
