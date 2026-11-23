@@ -5203,5 +5203,60 @@
   "seed": 21753,
   "prompt": "1girl, solo, adult woman, memorial museum guide in a black blazer and white blouse, calm gentle smile, long hair, quiet memorial hall with soft light, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
   "init": null
+ },
+ "cg_kk_choryeon": {
+  "seed": 5700173,
+  "prompt": "1girl, 1boy, romantic, night banquet room of a joseon noble house, lantern light, a gisaeng sitting at a geomungo looking away with a tsundere pout while a hooded young man kneels beside her listening closely to one string, soft glow, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_maehyang": {
+  "seed": 6085534,
+  "prompt": "1girl, 1boy, heartwarming, riverside banquet under a white canopy beside cheonggyecheon stream, a young man breaking a yakgwa honey cookie in half and offering one half to a tall gisaeng, she is surprised and touched, warm afternoon light, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_hwaseon": {
+  "seed": 9562577,
+  "prompt": "1girl, 1boy, cute comedic, busy joseon street market stall with hair ornaments, a hooded young man clumsily pinning a crooked flower hair pin into a laughing gisaeng's hair, she tilts her head toward him, bright daylight, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_seola": {
+  "seed": 1247602,
+  "prompt": "1girl, 1boy, intimate, quiet corner behind a folding screen at a lavish joseon banquet, a gisaeng hiding her mouth behind an open fan and whispering a secret close to a hooded young man's ear, candlelight, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_danbi": {
+  "seed": 9484690,
+  "prompt": "1girl, 1boy, romantic, goryeo market street at sunset, a maiden with neatly combed hair holding a hooded young man's hand and pulling him along, looking back at him shyly, warm orange light, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_bomnae": {
+  "seed": 1757890,
+  "prompt": "1girl, 1boy, heartwarming, 1970s small rented room with a sewing machine and a radio, a factory girl standing on tiptoe measuring a hooded young man's shoulders with a tape measure, her hands trembling, soft evening light, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_soebyeol": {
+  "seed": 8767931,
+  "prompt": "1girl, 1boy, comedic, goryeo blacksmith forge yard, a strong blacksmith girl happily lifting a hooded young man off the ground in a big hug, his sleeve smudged with soot, sparks from the forge behind, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_seori": {
+  "seed": 5895201,
+  "prompt": "1girl, 1boy, cozy romantic, snowy northern goryeo frontier village, a hooded young man wrapping his scarf around a girl's neck while she wears her fur hat, her red nose after a sneeze, falling snow, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_maru": {
+  "seed": 1608615,
+  "prompt": "1girl, 1boy, heartwarming comedic, wide wooden maru floor of a goryeo noble house soaked with spilled water, an overturned water yoke and buckets, a young man and the eldest daughter kneeling side by side wiping the floor with cloths and laughing, warm light, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_dodam": {
+  "seed": 2166508,
+  "prompt": "1girl, 1boy, sweet, joseon field medical tent near a fortress, a doctor girl holding a hooded young man's wrist to take his pulse, then blushing as she realizes his pulse quickened, herbal pots in background, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_ara": {
+  "seed": 3689943,
+  "prompt": "1girl, 1boy, romantic, riverbank archery range at gibeolpo at dusk, a female archer standing behind a hooded young man holding the bow together with both hands to correct his stance, an arrow stuck at the edge of a target in the distance, masterpiece, no readable text",
+  "init": null
  }
 }
