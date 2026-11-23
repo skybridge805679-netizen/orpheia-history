@@ -8518,6 +8518,83 @@
    "prompt": "1girl, solo, adult woman, art museum docent in a mint blouse and navy skirt, wavy long hair, art gallery with framed ink landscape paintings on the walls, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 80638
+  },
+  {
+   "id": "qs_f1",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, cheerful history youtuber in a yellow knit sweater, short wavy hair, cozy studio with a laptop and ring light, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 30174
+  },
+  {
+   "id": "qs_f58",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, travel content creator in a denim jacket and beret, long straight hair, standing in front of a korean buddhist temple hall in the mountains, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 62784
+  },
+  {
+   "id": "qs_f2",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, heritage tour guide in a khaki field vest and cap, ponytail, outdoors at a prehistoric archaeological site with grass fields, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 47931
+  },
+  {
+   "id": "qs_f86",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, heritage tour guide in a navy windbreaker holding a small flag, bob hair, seaside fortress wall on ganghwa island in the background, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 81238
+  },
+  {
+   "id": "qs_f14",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, high school history teacher in a light blue blouse and gray cardigan, low ponytail, classroom with a chalkboard, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 51572
+  },
+  {
+   "id": "qs_f127",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, middle school history teacher in a white shirt and beige blazer, glasses, long hair, classroom with a projector screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 10516
+  },
+  {
+   "id": "qs_f71",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, history teacher in a soft pink sweater and long skirt, half-up hair, classroom with student desks, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 32225
+  },
+  {
+   "id": "qs_f92",
+   "size": "stand",
+   "prompt": "1girl, solo, young adult woman, university student giving a presentation in a navy hoodie and jeans, short hair, seminar room with a screen, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 31552
+  },
+  {
+   "id": "qs_f103",
+   "size": "stand",
+   "prompt": "1girl, solo, young adult woman, university student presenter in a cream blouse and cardigan, braided hair, lecture hall with slides, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 54768
+  },
+  {
+   "id": "qs_f87",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, palace tour guide in a dark green uniform jacket with a name badge, bun hair, korean palace courtyard with a western style stone building, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 20711
+  },
+  {
+   "id": "qs_f119",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, memorial museum guide in a black blazer and white blouse, calm gentle smile, long hair, quiet memorial hall with soft light, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 21753
   }
  ]
 }

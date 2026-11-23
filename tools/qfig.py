@@ -80,6 +80,19 @@ th{{background:#f1e3ee;font-weight:bold}}
 .frame .pbub{{position:relative;background:#fff;border:2px solid #333;border-radius:18px;padding:12px 16px;font-size:20px;line-height:1.6;box-shadow:2px 3px 0 #0002}}
 .frame .pbub .who{{display:block;font-weight:bold;color:#1d5c55;font-size:17px;margin:0 0 2px}}
 .frame .pbub:after{{content:'';position:absolute;width:18px;height:18px;background:#fff;border-right:2px solid #333;border-bottom:2px solid #333;bottom:-11px;left:120px;transform:rotate(45deg)}}
+.modum h4,.sheet h4,.tamgu h4,.dap h4,.lec h4,.fld h4{{margin:0 0 12px;font:bold 23px B,serif}}
+.modum{{border:2px solid #6f9a5c;border-radius:12px;padding:16px 18px;background:#f6faf1}}.modum .row{{display:flex;gap:14px;align-items:flex-start;border:1.5px solid #9dbd8c;border-radius:10px;padding:10px 14px;margin-top:10px;background:#fff;font-size:19px;line-height:1.7}}
+.modum .lab{{flex:0 0 78px;background:#5c8a4a;color:#fff;border-radius:8px;text-align:center;font-weight:bold;padding:4px 0}}.modum .row b{{display:block}}
+.qa .t{{background:#e8f1fb;border:2px solid #4a74a8;border-radius:14px;padding:12px 16px;font-size:20px;line-height:1.7;margin-bottom:12px}}.qa .t b{{color:#2c5288;margin-right:6px}}
+.qa .s{{display:flex;gap:12px;align-items:flex-start;margin:9px 0;font-size:19px;line-height:1.7}}.qa .s b{{flex:0 0 60px;text-align:center;background:#ffe2a3;border:2px solid #d9a441;border-radius:20px;padding:2px 0}}.qa .s span{{background:#fff;border:1.5px solid #bbb;border-radius:12px;padding:6px 12px;flex:1}}
+.sheet{{border:2px solid #555;background:#fffdf5;padding:16px 20px}}.sheet .top{{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2px solid #555;padding-bottom:6px;margin-bottom:12px}}.sheet .top h4{{margin:0}}.sheet .top span{{font-size:15px}}
+.tamgu{{border:2px solid #8a6db3;border-radius:12px;padding:0 0 14px;background:#faf7ff;overflow:hidden}}.tamgu .rib{{background:#8a6db3;color:#fff;font:bold 18px D,sans-serif;padding:7px 16px;margin-bottom:12px}}.tamgu h4,.tamgu table{{margin-left:16px;margin-right:16px;width:calc(100% - 32px)}}
+.tamgu th,.sheet th,.fld th{{width:120px}}
+.dap{{border:2px solid #b07a3c;border-radius:12px;padding:16px 18px;background:#fff8ef}}.dap th{{background:#f3dfc4}}
+.poster{{background:linear-gradient(#22344c,#3d5877);color:#fff;border-radius:12px;padding:22px 26px;text-align:center}}.poster small{{display:block;font-size:16px;opacity:.85;letter-spacing:.1em}}.poster h3{{font:bold 32px B,serif;margin:8px 0 6px}}.poster .sub{{font-size:19px;margin-bottom:14px}}
+.poster ul{{text-align:left;background:#ffffff1a;border-radius:10px;padding:12px 16px 12px 36px;margin:0 0 12px;font-size:19px;line-height:1.8}}.poster .foot{{font-size:16px;opacity:.9}}
+.lec{{border:2px solid #3f7f8c;border-radius:12px;padding:16px 18px;background:#f1fafb}}.lec th{{background:#cfe7ea}}.lec .foot{{font-size:16px;margin-top:8px;text-align:right}}
+.fld{{border:2px solid #777;border-radius:10px;padding:16px 18px;background:#fff}}.fld th{{background:#e9ecef}}
 .bub .lab{{display:inline-block;font-weight:bold;color:#fff;background:#1d5c55;border-radius:6px;padding:0 8px;margin-right:6px}}
 """
 
