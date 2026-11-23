@@ -9,7 +9,7 @@ window.MiniGame=(()=>{
  const yr=y=>y<0?`BC ${-y}`:`${y}`;
  const sfx=n=>{try{SFX.play(n);}catch{}};
  const wifeOpen=()=>(records.endings||[]).length>0;
- const heroes=()=>(window.PROFILES||[]).filter(p=>/히로인|기방/.test(p.group)&&W()[p.id]);
+ const heroes=()=>(window.PROFILES||[]).filter(p=>W()[p.id]);
  const face=id=>asset(`st_${id}_smile.webp`);
  let dlg,onClose,keyFn=null;
  // ── 틀: 위 HUD + 본문.
@@ -86,7 +86,7 @@ window.MiniGame=(()=>{
   const stageView=()=>`<figure class="mgx-cgbox"><img class="mgx-cg" src="${asset(`cg_wife_${id}_b${stage}.webp`)}" onerror="this.onerror=null;this.classList.add('stand');this.src='${face(id)}'" alt=""><div class="mgx-pips">${[1,2,3].map(i=>`<i class="${stage>=i?'on':''}"></i>`).join('')}</div><figcaption><span class="mgx-name">${esc(p.name)}</span>${esc(line)}</figcaption></figure>`;
   const draw=()=>{const a=frame({title:p.name,sub:'WIFE BATTLE',back:wives,prog:{marks,cur:n},score:`<span class="mgx-stage">STAGE ${stage}/3</span>`});a.innerHTML=`<div class="mgx-battle">${stageView()}<div class="mgx-side"></div></div>`;return a.querySelector('.mgx-side');};
   const finish=()=>{const w=records.wife||(records.wife={});if(stage>(w[id]||0)){w[id]=stage;save();}line=stage>=3?L.b3:'……오늘은 여기까지예요. 다음엔 지지 않을 거예요.';
-   const s=draw();s.innerHTML=`<div class="mgx-result compact"><div class="mgx-rank r-${stage>=3?'S':stage>=2?'A':stage>=1?'B':'D'}"><small>${stage>=3?'완승':'STAGE'}</small><b>${stage>=3?'★':stage}</b></div><div class="mgx-rtext"><h3>${ok} <small>/ ${ROUNDS}</small></h3><p class="mgx-dim">${STEP}문제 맞힐 때마다 한 단계씩 풀려요.</p><div class="mgx-row"><button class="mgx-next" data-again>다시 대결</button><button class="mgx-ghost" data-wives>아내 목록</button></div></div></div>`;
+   const s=draw();s.innerHTML=`<div class="mgx-result compact"><div class="mgx-rank r-${stage>=3?'S':stage>=2?'A':stage>=1?'B':'D'}"><small>${stage>=3?'완승':'STAGE'}</small><b>${stage>=3?'★':stage}</b></div><div class="mgx-rtext"><h3>${ok} <small>/ ${ROUNDS}</small></h3><div class="mgx-row"><button class="mgx-next" data-again>다시 대결</button><button class="mgx-ghost" data-wives>아내 목록</button></div></div></div>`;
    s.querySelector('[data-again]').onclick=()=>battle(id);s.querySelector('[data-wives]').onclick=()=>wives();sfx(stage>=3?'vb_ko':'vb_end');};
   const round=()=>{if(n>=ROUNDS||stage>=3)return finish();const side=draw();const kind=pick(Object.keys(KINDS));
    KINDS[kind][1](side,r=>{marks[n]=r?1:0;n++;if(r){ok++;const s=Math.min(3,Math.floor(ok/STEP));if(s>stage){stage=s;line=L['b'+s];sfx('vb_rip');}else{line='……아직이에요. 아직 한 겹 남았어요.';sfx('vb_combo');}}else{line=L.miss;sfx('vb_ink');}round();});};
@@ -94,7 +94,7 @@ window.MiniGame=(()=>{
  }
  function wives(){
   const w=records.wife||{};const a=frame({title:'아내 대결',sub:'WIFE BATTLE',back:lobby,score:`완승 <b>${Object.values(w).filter(x=>x>=3).length}</b> / ${heroes().length}`});
-  a.innerHTML=`<p class="mgx-dim center">${STEP}문제 맞힐 때마다 상대의 옷이 한 단계씩 풀려요. 묵 배틀과 같은 규칙이에요.</p><div class="mgx-wives">${heroes().map(p=>`<button data-w="${p.id}" class="${(w[p.id]||0)>=3?'clear':''}"><span><img loading="lazy" src="${face(p.id)}" alt=""></span><b>${esc(p.name)}</b><em>${[1,2,3].map(i=>`<i class="${(w[p.id]||0)>=i?'on':''}"></i>`).join('')}</em></button>`).join('')}</div>`;
+  a.innerHTML=`<p class="mgx-dim center">두 문제를 맞힐 때마다 상대의 옷이 한 겹씩 풀려요.</p><div class="mgx-wives">${heroes().map(p=>`<button data-w="${p.id}" class="${(w[p.id]||0)>=3?'clear':''}"><span><img loading="lazy" src="${face(p.id)}" alt=""></span><b>${esc(p.name)}</b><em>${[1,2,3].map(i=>`<i class="${(w[p.id]||0)>=i?'on':''}"></i>`).join('')}</em></button>`).join('')}</div>`;
   a.querySelectorAll('[data-w]').forEach(b=>b.onclick=()=>pickWife(b.dataset.w));
  }
  function pickWife(id){
@@ -109,7 +109,7 @@ window.MiniGame=(()=>{
  function lobby(){
   const b=records.mgBest||{},w=records.wife||{};const a=frame({title:'연표 아케이드',sub:'MINI GAME'});
   const tile=(k,ic,t,d,img,badge,lock)=>`<button class="mgx-tile${lock?' lock':''}" ${lock?'disabled':`data-k="${k}"`} style="--img:url('${asset(img)}')"><span class="mgx-ic">${ic}</span><b>${t}</b><small>${d}</small>${badge?`<em>${badge}</em>`:''}</button>`;
-  a.innerHTML=`<div class="mgx-lobby"><section class="mgx-hero"><div><small>ORPHEIA ARCADE</small><h3>오늘은 <em>한 판</em>만 해요, 주인님</h3><p>기출 단골 사실로만 만든 짧은 게임. 틀린 건 「기출 풀기 · 오답」에서 다시 만나요.</p></div><img src="${asset('st_orpheia_excited.webp')}" alt=""></section>
+  a.innerHTML=`<div class="mgx-lobby"><section class="mgx-hero"><div><small>ORPHEIA ARCADE</small><h3>오늘은 <em>한 판</em>만 해요, 주인님</h3><p>연표가 다시 번지지 않게 조금씩 꿰어 둬요. 헷갈린 건 「기출 풀기」에서 한 번 더 보면 돼요.</p></div><img src="${asset('st_orpheia_excited.webp')}" alt=""></section>
   <div class="mgx-tiles">
    ${tile('order','📜','연표 꿰기','가까운 시대 사건 넷을 일어난 순서대로','bg_timeline_dive.webp',`BEST ${b.order||0}/10`)}
    ${tile('who','🔔','누구일까요','단서 한 줄로 인물 맞히기','cg_ch09_ullim_voices.webp',`BEST ${b.who||0}/10`)}

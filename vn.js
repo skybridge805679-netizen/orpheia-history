@@ -675,9 +675,9 @@ function profiles(sel){
  if(p){const i=P.indexOf(p),L=looks(p);
   body=`<div class="pf-detail"><div class="pf-art${p.silhouette?' sil':''}"><img class="pf-stand" src="${face(p.id)}" alt="">${L.length>1?`<div class="pf-looks">${L.map(([k,t],j)=>`<button data-look="${k}" class="${j?'':'on'}">${t}</button>`).join('')}</div>`:''}</div>
   <div class="pf-info"><small>${esc(p.group)} · ${esc(p.sub)}</small><h2>${esc(p.name)}</h2>
-  <table class="pf-table"><tr><th>나이</th><td><b>${esc(p.age)}</b>${p.ageNote?`<br><small>${esc(p.ageNote)}</small>`:''}</td></tr><tr><th>온 시대</th><td>${esc(p.era)}</td></tr>${p.height?`<tr><th>신장</th><td>${esc(p.height)}</td></tr><tr><th>체중</th><td>${esc(p.weight)}</td></tr><tr><th>B · W · H</th><td>${esc(p.bwh)}</td></tr>`:''}</table>
+  <table class="pf-table">${[["나이",p.age?`<b>${esc(p.age)}</b>`:"",p.ageNote],["온 시대",esc(p.era||"")],["신장",esc(p.height||"")],["체중",esc(p.weight||"")],["B · W · H",esc(p.bwh||"")]].filter(r=>r[1]||r[2]).map(([h,v,n])=>`<tr><th>${h}</th><td>${v}${n?`${v?"<br>":""}<small>${esc(n)}</small>`:""}</td></tr>`).join("")}</table>
   <p class="pf-desc">${esc(p.desc)}</p>
-  ${p.life?`<h4>삶</h4><ol class="pf-life">${p.life.map(t=>`<li>${esc(t)}</li>`).join('')}</ol>`:''}${p.death?`<h4>마지막</h4><p class="pf-death">${esc(p.death)}</p>`:''}${p.likes?`<table class="pf-table"><tr><th>좋아하는 것</th><td>${esc(p.likes)}</td></tr><tr><th>싫어하는 것</th><td>${esc(p.dislikes)}</td></tr><tr><th>취미</th><td>${esc(p.hobby)}</td></tr><tr><th>특기</th><td>${esc(p.skill)}</td></tr></table>`:''}
+  ${p.life?`<h4>삶</h4><ol class="pf-life">${p.life.map(t=>`<li>${esc(t)}</li>`).join('')}</ol>`:''}${p.death?`<h4>마지막</h4><div class="pf-death">${p.death.split("\n").map(t=>`<p>${esc(t)}</p>`).join("")}</div>`:''}${p.likes?`<table class="pf-table"><tr><th>좋아하는 것</th><td>${esc(p.likes)}</td></tr><tr><th>싫어하는 것</th><td>${esc(p.dislikes)}</td></tr><tr><th>취미</th><td>${esc(p.hobby)}</td></tr><tr><th>특기</th><td>${esc(p.skill)}</td></tr></table>`:''}
   ${p.tmi?`<h4>TMI</h4><ul class="pf-tmi">${p.tmi.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`:''}
   <div class="pf-nav"><button data-pf="${P[(i-1+P.length)%P.length].id}">◀ ${esc(P[(i-1+P.length)%P.length].name)}</button><button data-back>목록</button><button data-pf="${P[(i+1)%P.length].id}">${esc(P[(i+1)%P.length].name)} ▶</button></div></div></div>`;
  }
