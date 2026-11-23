@@ -1070,7 +1070,7 @@
   "init": null
  },
  "cg_ch03_drying": {
-  "seed": 1136326422,
+  "seed": 3332591828,
   "prompt": "1girl, 1boy, campfire on a sandy riverbank at dusk, an overturned wooden boat on the sand, wet clothes hanging on sticks and steaming, warm orange firelight, purple evening sky, fireflies, sitting back to back, wide shot, cinematic lighting, quiet romantic mood",
   "init": null
  },
@@ -1100,7 +1100,7 @@
   "init": null
  },
  "cg_ch06_seasick": {
-  "seed": 4090701045,
+  "seed": 2393436301,
   "prompt": "1girl, 1boy, wooden deck of an ancient trading ship, the ship tilting on a big wave, sea spray, billowing sails, blue sky, dutch angle, comedic, motion lines",
   "init": null
  },
@@ -1145,7 +1145,7 @@
   "init": null
  },
  "cg_ch11_rowing": {
-  "seed": 1489165439,
+  "seed": 1175591922,
   "prompt": "1girl, 1boy, lower deck of a joseon panokseon warship, rows of oarsmen, huge wooden oars, light shafts through the oar ports, sweat, dynamic, comedic",
   "init": null
  },
@@ -1645,7 +1645,7 @@
   "init": null
  },
  "cg_ch11_recoil": {
-  "seed": 2310100896,
+  "seed": 903967063,
   "prompt": "1girl, 1boy, lower deck of a joseon warship, cannon smoke pouring in through the oar ports, deck shaking, dust falling, motion lines, dutch angle, comedic",
   "init": null
  },
@@ -4280,9 +4280,9 @@
   "init": null
  },
  "st_naru_pregnant": {
-  "seed": 1212121,
-  "prompt": "1girl, solo, solo focus, young adult woman, ferrywoman, black hair, braid, tan skin, brown eyes, ancient korean commoner clothes, light blue hemp jacket, long plain skirt, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
-  "init": null
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, loose indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, pregnant, round belly, one hand on her belly, holding a long wooden punting pole, standing, full body, looking at viewer, gentle happy smile",
+  "init": "assets/st_naru_smile.webp"
  },
  "st_haerang_pregnant": {
   "seed": 6060606,
@@ -5263,5 +5263,40 @@
   "seed": 5120387,
   "prompt": "1girl, 1boy, romantic, snowy plain at night after a winter festival, a large bonfire with sparks, a few white-robed silhouettes far away, a young woman and a hooded young man sitting side by side on a log sharing one large fur pelt draped over both their shoulders, she holds a bundle of small wooden tablets tied with string close to her chest, falling snow, warm firelight, masterpiece, no readable text",
   "init": null
+ },
+ "st_naru_smile": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, confident cheerful grin",
+  "init": null
+ },
+ "st_naru_shy": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, blushing, looking away, fidgeting with her braid, small embarrassed smile",
+  "init": "assets/st_naru_smile.webp"
+ },
+ "st_naru_surprised": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning back",
+  "init": "assets/st_naru_smile.webp"
+ },
+ "st_naru_angry": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, angry, puffed cheeks, raising the pole as if to smack someone, comedic",
+  "init": "assets/st_naru_smile.webp"
+ },
+ "st_naru_teary": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, teary eyes, sad smile, tears, holding the pole close",
+  "init": "assets/st_naru_smile.webp"
+ },
+ "st_naru_serious": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, serious expression, closed mouth, calm gaze",
+  "init": "assets/st_naru_smile.webp"
+ },
+ "st_naru_pout": {
+  "seed": 6604417,
+  "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, pouting, puffed cheeks, sulking, looking sideways",
+  "init": "assets/st_naru_smile.webp"
  }
 }
