@@ -8725,23 +8725,23 @@
   {
    "id": "cg_kk_soebyeol",
    "size": "bg",
-   "seed": 8767931,
-   "prompt": "1girl, 1boy, comedic, goryeo blacksmith forge yard, a strong blacksmith girl happily lifting a hooded young man off the ground in a big hug, his sleeve smudged with soot, sparks from the forge behind, masterpiece, no readable text",
+   "seed": 4471208,
+   "prompt": "1girl, 1boy, comedic, goryeo blacksmith forge yard, a strong blacksmith girl hugging a hooded young man around the waist from the front and lifting him upright a little off the ground, both standing upright, his feet dangling slightly above the ground, his sleeve smudged with soot, forge fire glowing behind, full body, masterpiece, no readable text",
    "chars": [
     {
-     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lifted off the ground in a hug, feet dangling, flustered, soot on his sleeve",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, upright, being lifted a little off the ground by the waist, feet slightly above the ground, arms flailing, flustered, soot on his sleeve",
      "uc": "visible eyes",
      "x": 0.5,
-     "y": 0.4
+     "y": 0.45
     },
     {
-     "prompt": "girl, young adult woman, 21 years old, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic over a short jacket, leather apron, wide hemp trousers, lifting him up off the ground with both arms, big happy grin, soot on her cheek, blush",
+     "prompt": "girl, young adult woman, 21 years old, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic over a short jacket, leather apron, wide hemp trousers, standing upright, arms wrapped around his waist lifting him slightly, cheek against his chest, big happy grin, soot on her cheek, blush",
      "uc": "nude, nipples, child, male",
      "x": 0.5,
-     "y": 0.62
+     "y": 0.55
     }
    ],
-   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, upside down, inverted body, lying, carrying over shoulder"
   },
   {
    "id": "cg_kk_seori",
