@@ -366,6 +366,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @battle muk skin=shaman
 @quiz 81-4 81-5 81-6
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 거봐, 헷갈리지? ……다음에 또 섞어 줄게.

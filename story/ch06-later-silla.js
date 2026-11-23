@@ -569,6 +569,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @battle muk stage2 skin=captain
 @quiz 81-60 81-61 81-62 81-63
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……순서가 서니까, 왕들 얼굴이 보여.
 @hide all

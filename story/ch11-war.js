@@ -364,6 +364,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 이번엔 바다처럼 넓다. 그 안에 수많은 그림자가 둥둥 떠 있다.
 @show muk lonely center
 [묵|lonely] ……격군, 의병, 피난민, 끌려간 사람들. 왜란 한 번에 이렇게 많은 이름이 지워졌어.
@@ -403,6 +404,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @battle muk stage2 skin=lotus ally=sayeon askin=sy_archer
 @quiz 81-127 81-128 81-129
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……오래된 먹물도, 이유를 대면 마르는구나.
 @hide all

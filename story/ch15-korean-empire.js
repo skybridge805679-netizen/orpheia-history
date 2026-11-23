@@ -180,6 +180,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그런데 그 위로 활자가 쏟아진다. 신문, 교과서, 연설문.
 @show muk surprised center
 [묵|surprised] ……글자가 많아졌어. 한문만이 아니라 한글로. 양반만이 아니라 아무나 읽을 수 있게.
@@ -232,6 +233,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @battle muk stage2 skin=modern1900 ally=sayeon askin=sy_ewha
 @quiz 81-139 81-140 81-141
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……조선 앞쪽도, 다시 굳었어.
 @hide all

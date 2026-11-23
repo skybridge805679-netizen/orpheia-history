@@ -243,6 +243,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 @battle muk skin=hunter
 @quiz 81-1 81-2 81-3
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
 [묵|smirk] 아직 덜 읽었네~ 다음에 또 섞어 줄게.

@@ -192,6 +192,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 연표의 끝. 길이 끝나는 곳에 묵이 홀로 서 있다. 먹물이 거의 남지 않아, 몸이 반쯤 투명하다.
 @show muk lonely center
 [묵|lonely] ……다 읽었구나. 선사부터 오늘까지.
@@ -205,6 +206,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @quiz 81-108 81-113 81-114 81-115 81-116 81-117
 @battle end
 @bg cg_ink_spread
+@bgm bgm_muk
 @show muk lonely center
 @show orpheia teary left
 [오르페이아|teary] 묵, 몸이……

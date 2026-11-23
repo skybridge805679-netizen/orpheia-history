@@ -284,6 +284,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @battle muk stage2 skin=liberation ally=sayeon askin=sy_announcer
 @quiz 81-100 81-101 81-102
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……새것들이 생긴 순서, 이제 안 엉켜.
 @hide all

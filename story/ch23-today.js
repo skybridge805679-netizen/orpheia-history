@@ -152,6 +152,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그런데 번진 먹물이 스스로 모여 하나의 긴 선이 된다. 선사에서 오늘까지 이어지는 연표.
 @show muk smile center
 [묵|smile] ……끝까지 왔구나.
@@ -192,6 +193,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @battle muk stage2 skin=idol ally=sayeon askin=sy_anchor
 @quiz 81-110 81-111 81-112
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……마지막 잔향까지, 제자리야.
 @hide all

@@ -212,6 +212,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그런데 이번엔 가운데에 줄이 그어진다. 38이라는 숫자가 새겨진 줄.
 @show muk lonely center
 [묵|lonely] ……이 줄. 이 줄 때문에 갈라진 가족들. 흥남에서 헤어진 사람들. 그 이름들이 내 안으로 쏟아져 들어와.
@@ -256,6 +257,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @battle muk stage2 skin=refugee ally=sayeon askin=sy_nurse
 @quiz 81-103 81-104 81-105
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……조각마다 붙은 이름, 이제 안 번져.
 @hide all

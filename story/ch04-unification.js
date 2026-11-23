@@ -409,6 +409,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @battle muk stage2 skin=hwarang
 @quiz 81-142 81-143 81-144
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 @if quizFirst >= 2 -> s2ok
 [묵|smirk] 말풍선 몇 개는 아직 비어 있네~

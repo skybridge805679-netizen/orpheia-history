@@ -312,6 +312,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그런데 묵은 서 있기만 한다. 먹물이 묵의 발밑에서 저절로 일렁인다.
 @show muk lonely center
 [묵] ……이상해. 나는 안 번지게 하려는데, 자꾸 번져.
@@ -367,6 +368,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @battle muk stage2 skin=yeogwan
 @quiz 81-74 81-75 81-76 81-77 81-78 81-151 81-158
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……이 백 년도, 제자리에 놓였어.
 @hide all

@@ -375,6 +375,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @battle muk stage2 skin=balhae
 @quiz 81-56 81-57 81-58 81-59
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……남쪽도, 북쪽도. 둘 다 이유가 있었구나.
 @hide all

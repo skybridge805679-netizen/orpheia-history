@@ -570,6 +570,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @battle muk stage2 skin=cavalry
 @quiz 81-53 81-54 81-55
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……이름에도 이유가 붙으니까, 더는 번질 데가 없네.
 @hide all

@@ -492,6 +492,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그런데 이번엔 소용돌이치지 않는다. 묵이 조용히 서 있다.
 @show muk lonely center
 [묵|lonely] ……물어볼 게 있어.
@@ -536,6 +537,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 @battle muk stage2 skin=general
 @quiz 81-67 81-68 81-69 81-70
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……백 년이, 한 줄로 이어졌어.
 @hide all

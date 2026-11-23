@@ -309,6 +309,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @battle muk stage2 skin=talchum ally=sayeon askin=sy_gayageum
 @quiz 81-133 81-134 81-135
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……장터 밑 먹물도, 이제 없어.
 @hide all

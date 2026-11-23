@@ -266,6 +266,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @battle muk stage2 skin=hangul ally=sayeon askin=sy_singer
 @quiz 81-97 81-98 81-99
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……도미노 옆에 선 얼굴들까지, 다 보였어.
 @hide all

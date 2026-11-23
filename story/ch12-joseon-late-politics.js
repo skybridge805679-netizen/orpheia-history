@@ -438,6 +438,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그 속에서 수많은 횃불이 일렁인다. 정주성, 진주, 그리고 이름 없는 마을들.
 @show muk lonely center
 [묵|lonely] ……홍경래, 유계춘. 이름이 남은 사람은 몇 안 돼. 진주에서 일어난 수천 명, 칠십 고을 사람들은 '농민'이라는 두 글자로만 남았어.
@@ -483,6 +484,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @battle muk stage2 skin=rain ally=sayeon askin=sy_damo
 @quiz 81-130 81-131 81-132
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……고려의 잔향까지, 다 걷혔네.
 @hide all

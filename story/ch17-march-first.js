@@ -257,6 +257,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @battle muk stage2 skin=manse ally=sayeon askin=sy_shanghai
 @quiz 81-91 81-92 81-93
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……들판의 이유도, 제자리에 놓였네.
 @hide all

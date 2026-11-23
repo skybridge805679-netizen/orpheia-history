@@ -327,6 +327,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그 안에 흰옷 입은 사람들이 끝없이 서 있다. 죽창을 든 채.
 @show muk lonely center
 [묵|lonely] ……우금치에서 쓰러진 사람들. 대부분은 이름조차 몰라. 위령탑에도 '무명 동학 농민군'이라고만 적혀 있지.
@@ -374,6 +375,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @battle muk stage2 skin=donghak ally=sayeon askin=sy_bustle
 @quiz 81-136 81-137 81-138
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……청자 색처럼, 이유는 안 바래는구나.
 @hide all

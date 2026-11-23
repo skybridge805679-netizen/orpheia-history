@@ -241,6 +241,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그 안에서 이름들이 떠오른다. 김주열, 전태일, 박종철, 이한열. 그리고 이름 없이 쓰러진 수많은 얼굴들.
 @show muk lonely center
 [묵|lonely] ……이번엔 이름이 남았어. 김주열, 전태일, 박종철, 이한열. 그런데 그 뒤에 이름 없이 거리에 섰던 사람들이 훨씬 많아.
@@ -286,6 +287,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @battle muk stage2 skin=handkerchief ally=sayeon askin=sy_campus
 @quiz 81-106 81-107 81-109
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……흩어진 자리들이, 지도 위에 다시 찍혔어.
 @hide all

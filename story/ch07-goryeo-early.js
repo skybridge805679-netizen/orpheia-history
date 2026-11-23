@@ -494,6 +494,7 @@ VN.chapter('ch07','제7장','호족의 나라에서 문벌의 나라로',`
 @battle muk stage2 skin=goryeo
 @quiz 81-64 81-65 81-66
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……칼 이전의 고려도, 이유가 있었네.
 @hide all

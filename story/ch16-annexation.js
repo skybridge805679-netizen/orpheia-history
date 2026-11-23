@@ -310,6 +310,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @battle muk stage2 skin=uibyeong ally=sayeon askin=sy_telegraph
 @quiz 81-88 81-89 81-90
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……갓 아래 얼굴이, 이제 하나씩 다르게 보여.
 @hide all

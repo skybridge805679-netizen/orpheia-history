@@ -189,6 +189,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @hide all
 
 @bg cg_ink_spread
+@bgm bgm_muk
 먹물이 번진다. 그 위로 여러 갈래의 길이 그려진다. 학교로 가는 길, 상점으로 가는 길, 만주로 가는 길, 폭탄을 품은 길.
 @show muk lonely center
 [묵|lonely] ……이렇게 길이 많으니, 서로 싸우기도 했겠네.
@@ -236,6 +237,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @battle muk stage2 skin=moga ally=sayeon askin=sy_reporter
 @quiz 81-94 81-95 81-96
 @battle end
+@bgm bgm_muk
 @show muk lonely center
 [묵|lonely] ……장터 사람들이 다 자기 자리로 돌아갔어.
 @hide all
