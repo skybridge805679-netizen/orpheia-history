@@ -4926,7 +4926,7 @@
  },
  "cg_ch07_seori": {
   "seed": 2607081,
-  "prompt": "1girl, 1boy, comedic, snowy frontier wooden palisade fort, deep snow, a young woman sitting on top of a young man lying in the snow, tying his wrists with a grain sack rope, her fur hat askew, snow flying, sneezing, sparkles, masterpiece, no readable text",
+  "prompt": "1girl, 1boy, comedic, snowy frontier wooden palisade fort on an icy slope, deep snow, a runaway wooden grain cart tipped over behind them with grain sacks spilling, a young woman sitting on top of a young man lying in the snow, gripping the cart's rope with both hands, her fur hat askew, snow flying, sneezing, sparkles, masterpiece, no readable text",
   "init": null
  },
  "cg_maru_farewell": {
@@ -5367,6 +5367,26 @@
  "cg_after_noeul": {
   "seed": 7313131,
   "prompt": "1girl, solo, comedic slice of life, inside a brightly lit modern korean convenience store at night, a shelf of garlic bread and packaged snacks, a free sample tray, a single tiger-eared noble lady in ancient silk clothes holding a piece of garlic bread with sparkling eyes, her tiger tail puffed up, masterpiece, no readable text, no logos",
+  "init": null
+ },
+ "cg_ch04_gaon_court": {
+  "seed": 2604052,
+  "prompt": "1girl, 1boy, comedic, grand tang dynasty palace courtyard, red pillars, a tang official in a dark robe and black hat laughing heartily in the background, a young korean woman interpreter standing next to a hooded young man, she has just said something embarrassing and is covering her bright red face with a notebook, steam of embarrassment, sweat drops, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ch05_haerang_silk": {
+  "seed": 2605051,
+  "prompt": "1girl, 1boy, romantic comedy, bustling balhae capital market street, silk merchant stall with colorful bolts of silk, a young woman hugging a bolt of red wedding silk to her chest and glaring with a blush at a hooded young man, he holds his hands up apologetically, warm sunlight, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ch06_haneui_nameplate": {
+  "seed": 2606102,
+  "prompt": "1girl, 1boy, comedic, construction site of an ancient palace on a mountain slope in cheorwon, workers carrying stones, a flustered middle-aged overseer holding an armful of wooden name plaques, a noblewoman lifting her silk veil and pointing at one plaque to read it aloud with confidence, a hooded young man beside her holding a plaque up to a gate, masterpiece, no readable text, blank wooden plaques",
+  "init": null
+ },
+ "bg_era_tang_palace": {
+  "seed": 755568176,
+  "prompt": "no humans, scenery, grand tang dynasty imperial palace courtyard in chang'an, 7th century, vast stone-paved square, red lacquered pillars, sweeping grey tiled roofs with upturned eaves, wide stone stairs leading up to a throne hall, banners, bright daylight, majestic, masterpiece, no readable text",
   "init": null
  }
 }
