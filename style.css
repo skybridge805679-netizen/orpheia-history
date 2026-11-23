@@ -395,7 +395,6 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 .vb-p.ink{width:18px;height:18px;border-radius:50%;background:#050505;filter:blur(.5px)}
 .vb-p.light{width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:0 0 12px #fff,0 0 24px #f6e7b8;animation-duration:2.2s}
 /* 게이지 */
-.vbh-wrap{position:absolute;left:14px;right:14px;bottom:12px;z-index:9;display:flex;justify-content:space-between;align-items:flex-end;pointer-events:none}
 .vn-battle-hud{position:relative;display:flex;gap:10px;align-items:center;background:#120f0ce6;color:#f4ecdf;padding:6px 12px 6px 6px;border:1px solid #6b5a44;border-left:4px solid #b3261e;pointer-events:none}
 .vn-battle-hud img{width:58px;height:58px;object-fit:cover;object-position:50% 20%}
 .vn-battle-hud b{display:block;font-size:14px}
@@ -434,7 +433,7 @@ dialog#vnLog.sheets .sm-wrap{--sm-paper:#fffdf6;--sm-ink:#1d1a16;color:var(--ink
 @keyframes vsBar{from{transform:scaleY(0)}to{transform:none}}
 @keyframes vsScroll{to{transform:translateX(56px)}}
 @keyframes vsOut{to{opacity:0;transform:scale(1.15)}}
-@media (max-width:640px){.vn-battle-hud img{width:44px;height:44px}.vbh-bar{width:110px}.vb-rank{right:0;top:-18vh}}
+@media (max-width:640px){.vb-rank{right:0;top:-18vh}}
 @media (prefers-reduced-motion:reduce){.vn-vs *,.vn-battle *,.vn-vs,.vn-battle{animation-duration:.01s!important}}
 
 /* 오르페이아 버그(주인님 오답) */
@@ -608,3 +607,33 @@ dialog#vnLog.nb[open]{display:flex}
 .vn-cutin.pop{animation:cutinPop .4s cubic-bezier(.2,1.5,.4,1)}
 @keyframes cutinPop{from{opacity:0;transform:translateX(-50%) rotate(-8deg) scale(.6)}to{opacity:1;transform:translateX(-50%) rotate(-2deg) scale(1)}}
 @media (max-width:700px){.vn-cutin{width:86%;top:8%}}
+
+/* ── 대전 막대(2026.11 개편): 한 줄로 이어진 묵 VS 오르페이아. 문제 화면이 떠 있으면 문제지가 그만큼 비켜 준다. */
+.vbh-wrap{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);z-index:9;width:min(900px,calc(100% - 24px));height:64px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;pointer-events:none;color:#f4ecdf;
+ background:linear-gradient(90deg,#3a0d0bf2 0%,#16110df2 38%,#16110df2 62%,#0d3a2bf2 100%);border:1px solid #6b5a44;clip-path:polygon(18px 0,calc(100% - 18px) 0,100% 50%,calc(100% - 18px) 100%,18px 100%,0 50%);box-shadow:0 6px 24px #000a}
+.vbh-side{display:flex;align-items:center;gap:10px;min-width:0;padding:0 26px}
+.vbh-side.mine{flex-direction:row-reverse;text-align:right}
+.vbh-face{position:relative;flex:none;width:52px;height:52px;border-radius:50%;overflow:hidden;border:2px solid #b3261e;background:#2a231c;box-shadow:0 0 10px #b3261e88}
+.vbh-side.mine .vbh-face{border-color:#2bd987;box-shadow:0 0 10px #2bd98788}
+.vbh-face img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.vbh-face.stand img{position:absolute;width:300%;height:auto;left:-100%;top:-8px;object-fit:initial}
+.vbh-info{min-width:0;display:flex;flex-direction:column;gap:3px}
+.vbh-info b{font-size:15px;line-height:1.1;white-space:nowrap}
+.vbh-info b small{font-size:11px;font-weight:400;opacity:.7;margin-left:6px}
+.vbh-side.mine .vbh-info b small{margin:0 6px 0 0}
+.vbh-side.mine .vbh-info b{display:flex;flex-direction:row-reverse;justify-content:flex-start;align-items:baseline}
+.vbh-info em{font-style:normal;font-size:11px;opacity:.65;white-space:nowrap}
+.vbh-seg{display:flex;gap:4px}
+.vbh-side.mine .vbh-seg{flex-direction:row-reverse}
+.vbh-seg i{width:clamp(34px,5vw,58px);height:9px;background:linear-gradient(180deg,#e0453b,#8f1d17);box-shadow:0 0 8px #b3261e99;transform:skewX(-20deg)}
+.vbh-side.mine .vbh-seg i{background:linear-gradient(180deg,#5ff0ab,#16935a);box-shadow:0 0 8px #2bd98799;transform:skewX(20deg)}
+.vbh-seg i.off{background:#3a322a!important;box-shadow:none!important;opacity:.7}
+.vbh-seg i.hit{animation:vbhHit .7s ease-out}
+.vbh-vs{font:italic 900 26px/1 var(--serif,serif);color:#ffe08a;text-shadow:2px 2px 0 #b3261e,-1px -1px 0 #000;padding:0 6px;transform:rotate(-6deg)}
+.vbh-wrap .vbh-combo{position:absolute;left:50%;top:-22px;transform:translateX(-50%) rotate(-6deg);font:italic 900 18px/1 var(--serif,serif);color:#ffe08a;text-shadow:2px 2px 0 #b3261e;animation:vbPop .4s cubic-bezier(.2,1.8,.4,1);right:auto}
+.vbh-wrap.serious{background:linear-gradient(90deg,#3a3a3af2,#16110df2 45%,#16110df2)}
+.vbh-wrap.serious .vbh-face{border-color:#e8e2d4;box-shadow:0 0 10px #fff8}
+.vbh-wrap.serious .vbh-seg i{background:linear-gradient(180deg,#fff,#a9a293);box-shadow:0 0 8px #fff8}
+@keyframes vbhHit{0%{background:#fff;box-shadow:0 0 16px #fff;transform:skewX(-20deg) scaleY(2.2)}100%{}}
+#vn:has(#vnBattleHud) .qz{padding-bottom:calc(2.2vh + 74px)}
+@media (max-width:640px){.vbh-wrap{height:54px}.vbh-face{width:40px;height:40px}.vbh-side{padding:0 18px;gap:6px}.vbh-info em{display:none}.vbh-vs{font-size:18px}.vbh-info b small{display:none}}

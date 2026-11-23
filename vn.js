@@ -538,12 +538,16 @@ function battleCut(head,text,st,serious,wait){
  v.appendChild(el);return el;
 }
 function battleHud(){
- $('#vnBattleHud')?.remove();const b=S.battle,w=document.createElement('div');w.id='vnBattleHud';w.className='vbh-wrap';
- const hp=100-b.stage*100/3;
- w.innerHTML=`<div class="vn-battle-hud${b.serious?' serious':''}"><img src="${battleImg(b.stage)}" alt=""><div class="vbh-body"><b>${opp(b).name} <small>${b.serious?'번진 기록':opp(b).cloth}</small></b><span class="vbh-bar"><i class="lag" style="width:${b.lagHp??hp}%"></i><i class="hp" style="width:${hp}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span></div>${b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:''}</div>`+
- (allyOn(b)?`<div class="vn-battle-hud orp ally"><div class="vbh-body"><b>사연 <small>${askinName(b)?esc(askinName(b))+' · ':''}두루마리</small></b><span class="vbh-bar"><i class="hp" style="width:${100-b.stage*100/3}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.stage?'off':''}"></i>`).join('')}</span></div><img src="${allyCg(b.stage,b)}" onerror="this.onerror=null;this.src='${allyFb(b.stage)}'" alt=""></div>`:b.serious?'':`<div class="vn-battle-hud orp"><div class="vbh-body"><b>오르페이아 <small>의상 데이터</small></b><span class="vbh-bar"><i class="hp" style="width:${100-b.orp*100/3}%"></i></span><span class="vb-pips">${[1,2,3].map(i=>`<i class="${i<=b.orp?'off':''}"></i>`).join('')}</span></div><img src="${asset(b.orp?`st_orpheia_shy_g${b.orp}.webp`:'st_orpheia_serious.webp')}" alt=""></div>`);
- $('#vn').appendChild(w);b.lagHp=hp;
- requestAnimationFrame(()=>{const l=w.querySelector('.lag');if(l)setTimeout(()=>l.style.width=hp+'%',380);});
+ $('#vnBattleHud')?.remove();const b=S.battle,w=document.createElement('div');w.id='vnBattleHud';w.className='vbh-wrap'+(b.serious?' serious':'');
+ // 한 줄 대전 막대: 왼쪽 상대(묵·사연) · 가운데 VS · 오른쪽 내 편(오르페이아 / 아군 사연). 막대+칸을 겹 3칸 하나로 합쳤다.
+ const seg=(lost,prev)=>`<span class="vbh-seg">${[1,2,3].map(i=>`<i class="${i<=lost?(i>(prev??lost)?'off hit':'off'):''}"></i>`).join('')}</span>`;
+ const side=(cls,img,stand,name,sub,lost,prev,note,fb)=>`<div class="vbh-side ${cls}"><span class="vbh-face${stand?' stand':''}"><img src="${img}"${fb?` onerror="this.onerror=null;this.src='${fb}'"`:''} alt=""></span><div class="vbh-info"><b>${name}<small>${sub}</small></b>${seg(lost,prev)}<em>${note}</em></div></div>`;
+ const foeFace=b.who==='muk'?(b.serious?'st_muk_lonely.webp':b.stage===0?'st_muk_smirk.webp':(b.skin&&window.MUK_SKINS?.[b.skin]?.dmg)?`st_muk_${b.skin}_${b.stage===1?'angry':'shy'}_d${b.stage}.webp`:`st_muk_${b.stage===1?'angry':'shy'}_d${b.stage}.webp`):'st_sayeon_serious.webp';
+ const foe=side('foe',asset(foeFace),true,opp(b).name,b.serious?'번진 기록':opp(b).cloth,b.stage,b.lagStage,b.serious?'':`남은 겹 ${3-b.stage}/3`);
+ const mine=allyOn(b)?side('mine ally',asset('st_sayeon_smile.webp'),true,'사연',(askinName(b)?esc(askinName(b))+' · ':'')+'두루마리',b.stage,b.lagStage,'정답마다 묵을 묶어요')
+  :b.serious?'':side('mine',asset(b.orp?`st_orpheia_shy_g${b.orp}.webp`:'st_orpheia_serious.webp'),true,'오르페이아','의상 데이터',b.orp,b.lagOrp,b.orp?`손실 ${b.orp}/3`:'오답이면 버그!');
+ w.innerHTML=foe+`<span class="vbh-vs">VS</span>`+mine+(b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:'');
+ $('#vn').appendChild(w);b.lagStage=b.stage;b.lagOrp=b.orp;
 }
 function battleHit(ok,first,hits,total){
  const b=S.battle;if(!b)return;b.total=total;b.hits=hits;
