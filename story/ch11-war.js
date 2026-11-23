@@ -267,6 +267,8 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [이야기꾼] 이제야 속이 시원하구먼.
 @show dodam smile right
 @show orpheia smile left
+@hide all
+@bg cg_kk_dodam|bg_era_refugee_road
 [도담|serious] 손님, 잠깐 거기 앉아요. 손목 줘요. ……맥이 빨라요. 요즘 밤새 노래 만들죠? 뭐 먹고 버텨요?
 [상철] ……컵라면.
 [도담|angry] 컵이 뭔지 모르지만 이름부터 나빠요! 의원 말 들어요!
@@ -283,6 +285,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [오르페이아|smile] 안 봐줘요♪ 오늘부터 잔소리 담당 둘이에요. 도담 씨는 낮, 저는 새벽 세 시.
 [도담|smile] 좋아요, 동맹이에요. 손님 몸은 저희 둘이 지켜요.
 @label kk_dodam_x
+@bg bg_era_refugee_road
 @hide all
 @hide all
 @show orpheia explain center

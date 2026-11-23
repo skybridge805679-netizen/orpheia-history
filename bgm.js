@@ -25,6 +25,7 @@ const BGM=(()=>{
   if(/^cg_sp_aunt/.test(n))return 'bgm_babies';
   if(/^cg_sp_ex_battle/.test(n))return 'bgm_exorcist';
   if(/^cg_sp_ex_(ghost|dawn)|^cg_after_husband/.test(n))return 'bgm_horror';
+  if(/^cg_kk_/.test(n))return 'bgm_romance';   // 꽁냥 장면 CG(2026.11.23)
   if(/haneui/.test(n)&&!/harem/.test(n))return 'bgm_noble';
   if(/dodam|after_clinic/.test(n)&&!/harem/.test(n))return 'bgm_clinic';
   if(/^cg_after_(baby|store|bath|rooftop)/.test(n))return 'bgm_family';

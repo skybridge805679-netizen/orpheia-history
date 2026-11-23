@@ -8595,6 +8595,237 @@
    "prompt": "1girl, solo, adult woman, memorial museum guide in a black blazer and white blouse, calm gentle smile, long hair, quiet memorial hall with soft light, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 21753
+  },
+  {
+   "id": "cg_kk_choryeon",
+   "size": "bg",
+   "seed": 5700173,
+   "prompt": "1girl, 1boy, romantic, night banquet room of a joseon noble house, lantern light, a gisaeng sitting at a geomungo looking away with a tsundere pout while a hooded young man kneels beside her listening closely to one string, soft glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling beside her, leaning close, listening intently to the string, calm",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, joseon gisaeng, black hair updo with loose strands, pink lotus ornament, light brown eyes, pale pink jeogori, lilac chima, sitting at the geomungo, plucking one string, face turned away, tsundere pout, deep blush, glancing at him from the corner of her eye",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.5
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_maehyang",
+   "size": "bg",
+   "seed": 6085534,
+   "prompt": "1girl, 1boy, heartwarming, riverside banquet under a white canopy beside cheonggyecheon stream, a young man breaking a yakgwa honey cookie in half and offering one half to a tall gisaeng, she is surprised and touched, warm afternoon light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding out half of a yakgwa cookie to her, gentle",
+     "uc": "visible eyes",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, joseon gisaeng, tall mature woman, black hair in a formal updo, red plum blossom ornament, gold binyeo, dignified dark eyes, deep plum purple jeogori, navy chima, holding the other half of a yakgwa cookie with both hands, surprised, touched, soft shy smile, slight blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_hwaseon",
+   "size": "bg",
+   "seed": 9562577,
+   "prompt": "1girl, 1boy, cute comedic, busy joseon street market stall with hair ornaments, a hooded young man clumsily pinning a crooked flower hair pin into a laughing gisaeng's hair, she tilts her head toward him, bright daylight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, clumsily pinning a crooked flower hair pin into her hair, focused",
+     "uc": "visible eyes",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, joseon gisaeng, black hair updo with many colorful flower pins, bright amber eyes, bright yellow flower embroidered jeogori, orange otgoreum, green chima, long dancing sleeves, tilting her head toward him, laughing with eyes closed, hand over mouth, crooked flower pin in her hair, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_seola",
+   "size": "bg",
+   "seed": 1247602,
+   "prompt": "1girl, 1boy, intimate, quiet corner behind a folding screen at a lavish joseon banquet, a gisaeng hiding her mouth behind an open fan and whispering a secret close to a hooded young man's ear, candlelight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, leaning down to listen, surprised",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, glossy black hair in an elegant joseon gisaeng updo with a braided chignon, white plum blossom hair ornament, silver binyeo, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, short jade green jeogori with crimson cuffs, long crimson otgoreum ribbon, full deep rose chima, holding an open fan in front of her mouth, whispering into his ear, eyes smiling, calm, light blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.48
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_danbi",
+   "size": "bg",
+   "seed": 9484690,
+   "prompt": "1girl, 1boy, romantic, goryeo market street at sunset, a maiden with neatly combed hair holding a hooded young man's hand and pulling him along, looking back at him shyly, warm orange light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being pulled along by the hand, flustered",
+     "uc": "visible eyes",
+     "x": 0.65,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 20 years old, goryeo commoner maiden, long black hair neatly combed and tied with a ribbon today, big lively dark eyes, small mole under one eye, plain pale pink jeogori with a short white collar, faded blue long skirt, cloth shoes, holding his hand and leading him, looking back over her shoulder, shy happy smile, deep blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.5
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_bomnae",
+   "size": "bg",
+   "seed": 1757890,
+   "prompt": "1girl, 1boy, heartwarming, 1970s small rented room with a sewing machine and a radio, a factory girl standing on tiptoe measuring a hooded young man's shoulders with a tape measure, her hands trembling, soft evening light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing still with arms slightly out, being measured, flustered",
+     "uc": "visible eyes",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 22 years old, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron, a thimble on her finger, on tiptoe holding a tape measure across his shoulders, hands trembling, deep blush, biting her lip",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_soebyeol",
+   "size": "bg",
+   "seed": 8767931,
+   "prompt": "1girl, 1boy, comedic, goryeo blacksmith forge yard, a strong blacksmith girl happily lifting a hooded young man off the ground in a big hug, his sleeve smudged with soot, sparks from the forge behind, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lifted off the ground in a hug, feet dangling, flustered, soot on his sleeve",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.4
+    },
+    {
+     "prompt": "girl, young adult woman, 21 years old, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic over a short jacket, leather apron, wide hemp trousers, lifting him up off the ground with both arms, big happy grin, soot on her cheek, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.62
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_seori",
+   "size": "bg",
+   "seed": 5895201,
+   "prompt": "1girl, 1boy, cozy romantic, snowy northern goryeo frontier village, a hooded young man wrapping his scarf around a girl's neck while she wears her fur hat, her red nose after a sneeze, falling snow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, wrapping his long scarf around her neck, gentle",
+     "uc": "visible eyes",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wearing a fur-trimmed hat, red nose, mid-sneeze turning into a shy smile, scarf being wrapped around her, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_maru",
+   "size": "bg",
+   "seed": 1608615,
+   "prompt": "1girl, 1boy, heartwarming comedic, wide wooden maru floor of a goryeo noble house soaked with spilled water, an overturned water yoke and buckets, a young man and the eldest daughter kneeling side by side wiping the floor with cloths and laughing, warm light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling and wiping the wet floor with a cloth, wet sleeves",
+     "uc": "visible eyes",
+     "x": 0.38,
+     "y": 0.6
+    },
+    {
+     "prompt": "girl, young adult woman, 22 years old, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, kneeling beside him wiping the floor, laughing, keys jingling at her sash, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.62,
+     "y": 0.6
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_dodam",
+   "size": "bg",
+   "seed": 2166508,
+   "prompt": "1girl, 1boy, sweet, joseon field medical tent near a fortress, a doctor girl holding a hooded young man's wrist to take his pulse, then blushing as she realizes his pulse quickened, herbal pots in background, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, offering his wrist, flustered",
+     "uc": "visible eyes",
+     "x": 0.4,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up, deep indigo chima, white work apron, holding his wrist with two fingers taking his pulse, looking at his face, surprised then deep blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_ara",
+   "size": "bg",
+   "seed": 3689943,
+   "prompt": "1girl, 1boy, romantic, riverbank archery range at gibeolpo at dusk, a female archer standing behind a hooded young man holding the bow together with both hands to correct his stance, an arrow stuck at the edge of a target in the distance, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a bow with arms extended, her hands over his, stiff, flustered",
+     "uc": "visible eyes",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic build, short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, standing close behind him, reaching around to hold the bow together, cheek near his shoulder, deep blush, determined",
+     "uc": "nude, nipples, child, male",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
   }
  ]
 }
