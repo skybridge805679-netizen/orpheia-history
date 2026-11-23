@@ -79,7 +79,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 @bg bg_era_joseon_night
 @day 경복궁, 1398년 가을 밤|조선 태조 · 1398년(제1차 왕자의 난)
-@bgm tension
+@bgm bgm_tension
 궁궐 담 너머가 소란하다. 칼 소리, 그리고 달음박질 소리.
 @show sodam worry center
 [소담|worry] ……상순이 언니, 불 꺼요. 첫째 왕비 마마의 아드님이 군사를 일으키셨대요. 세자 마마랑…… 정도전 대감까지.
@@ -178,7 +178,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @bg bg_era_joseon_night
 @day 한양 · 궁궐 뒤뜰, 1453년 10월 밤|조선 단종 · 1453년(계유정난)
 눈발이 날린다. 궁궐 담장 너머로 횃불이 일렁인다. 뒤뜰 장독 뒤에서 소담이 쟁반을 끌어안고 웅크려 있다.
-@bgm tension
+@bgm bgm_tension
 @show sodam teary right
 @show orpheia worry left
 [소담|teary] 상순이 언니……! 아니, 상철 님. 큰일 났어요. 김종서 대감 댁에 횃불이 몰려갔대요. 집현전 앞에서 6진 이야기 해 주시던 그 군관 나리네 장군님이요.

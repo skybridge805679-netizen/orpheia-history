@@ -812,6 +812,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_dodam
 @bg cg_dodam_farewell|bg_studio_night
+@bgm song_end_hero
 @day 한양 · 활인서 앞, 새벽
 [도담|smile] 손님! 노래 들었어요. 피란길 사람들이 다 흥얼거려요. 아픈 사람들이 그 노래 들으면 약을 덜 쓴대요. 그것도 처방이에요.
 [도담|shy] 그 먼 데 의원들 이야기, 약속대로 다 들려줬죠. 이제 제가 갈 차례예요. ……같이 가면 안 돼요?
@@ -824,6 +825,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_ara
 @bg cg_ara_farewell|bg_era_gibeolpo
+@bgm song_end_hero
 @day 보덕국 · 활터, 새벽
 [아라|smile] 남쪽 사슴 씨! 노래 들었어요. 보덕국 아이들이 다 따라 불러요. 고구려 말 가사로요.
 [아라|shy] 할아버지가 그러셨어요. 살아서 고구려 사람으로 남으라고. ……남쪽 사슴 씨 곁이면, 고구려 사람인 채로 남을 수 있을 것 같은데.
@@ -836,6 +838,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_gaon
 @bg cg_gaon_farewell|bg_era_gibeolpo
+@bgm song_end_hero
 @day 기벌포 · 해 뜰 녘
 [가온|smile] 손님! 노래 들었어요. 이번엔 제가 옮길 필요가 없었어요. 백제 사람도, 고구려 사람도, 신라 사람도 다 알아듣더라고요.
 [가온|shy] 평생 남의 말만 옮겼는데, 오늘은 제 말 하나만 할게요. ……가지 마요.
@@ -848,6 +851,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_maru
 @bg cg_maru_farewell|bg_era_gaegyeong
+@bgm song_end_hero
 @day 고창 · 마루네 대청, 아침
 [마루|smile] 손님! 노래 들었어요. 우리 집 일꾼이었던 사람들이 자기 밭에서 그 노래를 불러요. 남의 집 물 말고 제 집 물 길으면서요.
 [마루|shy] 이 열쇠 받아요. 우리 집 열쇠 아니에요. 제 집 열쇠예요. ……주인 하나 더 있어도 돼요.
@@ -860,6 +864,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_seori
 @bg cg_seori_farewell|bg_era_seohui
+@bgm song_end_hero
 @day 서경 · 대동강 가, 첫눈
 [서리|smile] 손님! 노래 들었어요. 국경 마을 애들이 다 불러요. 피란 짐 싸는 노래 말고, 아랫목에서 부르는 노래로요.
 [서리|shy] 올겨울엔 짐 안 싸기로 했잖아요. ……근데 손님이 짐을 싸면, 저 따라 싸야 하나요?
@@ -872,6 +877,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_soebyeol
 @bg cg_soebyeol_farewell|bg_era_myeonghakso
+@bgm song_end_hero
 @day 충주 · 다인철소 대장간, 새벽
 [쇠별|smile] 손님! 노래 들었어요. 우리 망치 소리가 들어간 그 노래요. 다인철소 사람들이 그 노래 부르면서 쇠를 두드려요. 이제 '소 것'이라고 안 부끄러워해요.
 [쇠별|shy] 이거…… 제가 두드린 가락지예요. 한 쌍. 종이 혼서는 타니까요.
@@ -884,6 +890,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_danbi
 @bg cg_danbi_farewell|bg_era_gaegyeong
+@bgm song_end_hero
 @day 개경 · 골목 장독대, 새벽
 [단비|smile] 오라버니! 노래 들었어요. 골목 처녀들이 다 따라 불러요. 명단에 안 오르는 주문이래요.
 [단비|shy] 이제 연기 안 해도 되는데…… 정인 그만두면 안 돼요? 아니, 그만두지 마요.
@@ -896,6 +903,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_bomnae
 @bg cg_bomnae_farewell|bg_era_neighborhood_1970s
+@bgm song_end_hero
 @day 서울 · 야학 교실, 새벽
 [봄내|smile] 오빠! 노래 들었어요. 공장 언니들이 미싱 돌리면서 다 따라 불러요. 이제 우리 미싱 소리가 '공순이' 소리가 아니라 노래래요.
 [봄내|shy] 제 옷 한 벌 박았어요. 하얀 거로요. ……입어 볼 데가 오빠 옆밖에 없는데.
@@ -908,6 +916,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_haneui
 @bg cg_haneui_farewell|bg_studio_night
+@bgm song_end_hero
 @day 경주 · 김씨 댁 담장 아래, 새벽
 [하늬|smile] 정인님! 노래 들었어요. 경주 저잣거리 아이들이 다 따라 불러요. 담벼락 다라니 글보다 빨리 퍼졌대요.
 [하늬|shy] 그 노래 덕에 이찬 댁 혼담은 영영 없던 일이 됐어요. 아버님은 앓아누우셨고요. ……그러니까 이제 정인님이 진짜로 책임지셔야 해요.
@@ -920,6 +929,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_yeoul
 @bg cg_yeoul_farewell|bg_studio_night
+@bgm song_end_hero
 @day 벽란도 · 새벽
 [여울|smile] 약혼자님! ……아, 이제 '전' 약혼자님이죠. 계약은 한 달이었으니까.
 [여울] 노래 들었어요. 부두 사람들이 다 흥얼거려요. 청자 값 빚은 그걸로 갚은 걸로 할게요.
@@ -933,6 +943,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_naru
 @bg cg_ch03_drying|bg_era_hanriver_ferry
+@bgm song_end_hero
 @day 한강 나루 · 해 질 녘
 [나루|smile] 두건 손님! 또 왔수? 이번엔 안 넘어지고 앉아서 탔네.
 [나루] 우리 집안 장부에 손님 이야기가 몇 번이나 적혔는지 알아요? 백제 깃발 때, 고구려 깃발 때, 신라 깃발 때. 할머니들이 다 손님을 봤대요.
@@ -945,6 +956,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_sodam
 @bg cg_ch10_sodam_yakgwa|bg_era_jongmyo
+@bgm song_end_hero
 @day 경복궁 · 생과방 뒤뜰
 [소담|smile] 상순이 언니! ……아니, 이제 언니 아닌 거 다 알아요. 그래도 상순이 언니라고 부를래요.
 [소담] 약과 구웠어요. 언니가 처음 궁에 숨어들던 날 훔쳐 먹던 그 약과요.
@@ -957,6 +969,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_maehyang
 @bg cg_end_maehyang|bg_era_joseon_night
+@bgm song_end_hero
 @day 한양 · 매화 핀 대감 댁 뒤뜰
 [매향|smile] 오셨군요, 악사님. 매화가 필 때까지 기다렸어요. 기생 맏이가 누굴 기다리는 건, 기방 생기고 처음 있는 일일 거예요.
 [매향] 그날 새벽에 지은 시조, 종장을 드디어 채웠어요. 판이 세 번 엎어져도, 끝까지 들어 준 사람 하나는 남더라고.
@@ -969,6 +982,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_choryeon
 @bg cg_end_choryeon|bg_era_joseon_night
+@bgm song_end_hero
 @day 한양 · 기방 안채, 달밤
 [초련|angry] ……늦었어요. 줄 세 번이나 다시 맸다고요. 당신 오면 들려주려고.
 [초련] 그날 당신이 맨 줄, 아직 안 바꿨어요. 소리가 제일 맑아서. ……딴 뜻은 없어요. 없다고요.
@@ -981,6 +995,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_hwaseon
 @bg cg_end_hwaseon|bg_era_joseon_night
+@bgm song_end_hero
 @day 한양 · 등불 축제의 밤 거리
 [화선|smile] 악사님! 약속했죠, 다음 잔치 땐 내 춤 상대라고. 오늘은 잔치 말고 거리 전체가 내 무대예요!
 [화선] 자, 손! 이번엔 안 넘어뜨릴게요. ……아마도.
@@ -993,6 +1008,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_seola
 @bg cg_end_seola|bg_era_joseon_night
+@bgm song_end_hero
 @day 한양 · 눈 내리는 정자
 [설아|smile] ……왔네요, 얼굴 없는 손님. 잔치도 없는 밤에.
 [설아] 언니들이 그러더라고요. 막내가 처음으로 손님을 기다린다고. 매향 언니는 시조를 지어 줬고, 초련 언니는 거문고 가락을, 화선 언니는 춤사위를 맞춰 줬어요.
@@ -1005,6 +1021,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_hanbyeol
 @bg cg_ch19_date|cg_ch15_tram
+@bgm song_end_hero
 @day 경성 · 전찻길
 [한별|smile] 기록꾼 양반! 신문 투고 대결, 아직 결판 안 났어요. 오늘 끝내요.
 [한별] ……사실 졌어요. 기록꾼 양반 노래가 우리 반 아이들 입에서 먼저 나오더라고요. 교사가 학생한테 노래를 배웠다니까요.
@@ -1017,6 +1034,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_bori
 @bg cg_ch17_bori_cooking|cg_ch14_bori_song
+@bgm song_end_hero
 @day 어느 산골 · 아궁이 앞
 [보리|smile] 기록꾼 양반, 밥은 먹고 다녀요? 또 말랐네.
 [보리] 우리 마을 사람들, 아직도 그 노래 불러요. 기록꾼 양반이 흥얼거리던 거. 그 노래 부르면서 몇 번이고 다시 일어났어요.
@@ -1029,6 +1047,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_dano
 @bg cg_ch13_dano_wink|bg_era_songpa_market
+@bgm song_end_hero
 @day 송파장 · 해 질 녘
 [단오|smile] 공동 작곡가 양반! 왔수? 장터 사람들이 그 노래를 얼마나 불러 대는지, 이제 나보다 유명하다니까.
 [단오] 그래서 말인데, 계약 갱신하자. 이번엔 평생 계약. 장터마다 같이 돌면서 소리하는 거야.
@@ -1041,6 +1060,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_haerang
 @bg cg_ch05_haerang_carry|bg_studio_night
+@bgm song_end_hero
 @day 신라도 · 국경 길
 [해랑|smile] 남쪽 사람. 또 이 길에서 쓰러지려고 왔어요? 이번엔 안 업어 줄 거예요.
 [해랑] 노래 들었어요. 우리 나라를 '해동성국'이라고 불러 주는 노래. 우린 기억해요. 그러니까 지우지 말라고 했었죠.
@@ -1053,6 +1073,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_dallae
 @bg cg_ch02_dallae_contract|bg_studio_night
+@bgm song_end_hero
 @day 왕검성 · 장터
 [달래|smile] 아이고, 또 그 처음 보는 얼굴들이네! 장사 잘되라고 노래 하나 지어 준다더니, 진짜 지어 왔수?
 [달래] 장터 사람들이 그거 부르면서 물건을 판다니까. 덕분에 장사가 두 배야.
@@ -1065,6 +1086,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_saebyeok
 @bg cg_ch21_tentschool|cg_ch20_tangle
+@bgm song_end_hero
 @day 천막 학교 · 아침
 [새벽|smile] 기록꾼 님! 아이들이 기록꾼 님 노래로 아침 조회를 해요. 군가로 만든 노래가, 이제 동요가 됐어요.
 [새벽] 광복군 시절엔 노래 하나로 버텼는데, 지금은 노래 하나로 아이들을 가르쳐요.
@@ -1077,6 +1099,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 
 @label hero_dasom
 @bg cg_ch23_mother|cg_ch22_suspect
+@bgm song_end_hero
 @day 서울 · 어느 대학 앞
 [다솜|smile] 수상한 두건 씨! 우리 과 노래패가 그 노래를 공연에서 불렀어요. 앵콜이 세 번 나왔다고요.
 [다솜] 엄마가 그러는데, 기록꾼 님은 엄마 젊을 때도 똑같은 얼굴이었대요. ……얼굴은 안 보여 줬다면서.
@@ -1123,6 +1146,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 // ── 묵 화해 엔딩: 오답 노트 속의 묵과 결과를 나눈다.
 @label end_muk
 @bg cg_end_muk|cg_ev_muk_farewell
+@bgm song_end_muk
 @phone off
 @show orpheia smile left
 상철이 노트를 펼치자, 여백에서 먹물 한 방울이 동그랗게 부풀어 오른다. 손바닥만 한 묵이 빈칸 위에 앉아 다리를 흔든다.

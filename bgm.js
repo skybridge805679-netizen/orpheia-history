@@ -5,12 +5,15 @@
 const BGM=(()=>{
  const KEY='orpheia-bgm-v1';
  const SONGS=['song_ch01','song_ch02','song_ch03','song_ch04','song_ch05','song_ch06','song_ch07','song_ch08','song_ch09','song_ch10','song_ch11','song_ch12','song_ch13','song_ch14','song_ch15','song_ch16','song_ch17','song_ch18','song_ch19','song_ch20','song_ch21','song_ch22','song_ch23','song_ep'];
- const TRACKS=['bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge','bgm_comedy','bgm_romance','bgm_tragic','bgm_yunseul','bgm_ending','bgm_sayeon','bgm_jealous','song_end_orpheia','song_end_fail',...SONGS,'bgm_horror','bgm_exorcist','bgm_babies','bgm_family','bgm_noble','bgm_clinic'];
+ const ERA=['bgm_era_ancient','bgm_era_goryeo','bgm_era_joseon','bgm_era_joseon_late','bgm_era_modern','bgm_era_colonial','bgm_era_contemporary'];
+ const TRACKS=[...ERA,'bgm_tension','bgm_muk','song_end_hero','song_end_muk','bgm_title','bgm_daily','bgm_night_shift','bgm_outing','bgm_orpheia','bgm_exam','bgm_result','bgm_challenge','bgm_comedy','bgm_romance','bgm_tragic','bgm_yunseul','bgm_ending','bgm_sayeon','bgm_jealous','song_end_orpheia','song_end_fail',...SONGS,'bgm_horror','bgm_exorcist','bgm_babies','bgm_family','bgm_noble','bgm_clinic'];
  // 새 곡 파일이 아직 없으면 대신 틀 곡
- const FB={bgm_horror:'bgm_tragic',bgm_exorcist:'bgm_challenge',bgm_babies:'bgm_comedy',bgm_family:'bgm_daily',bgm_noble:'bgm_romance',bgm_clinic:'bgm_outing',bgm_sayeon:'bgm_challenge',bgm_jealous:'bgm_comedy',song_end_orpheia:'bgm_orpheia',song_end_fail:'bgm_ending'};
+ const FB={bgm_tension:'bgm_challenge',bgm_muk:'bgm_challenge',song_end_hero:'bgm_romance',song_end_muk:'bgm_orpheia',...Object.fromEntries(ERA.map(e=>[e,'bgm_outing'])),bgm_horror:'bgm_tragic',bgm_exorcist:'bgm_challenge',bgm_babies:'bgm_comedy',bgm_family:'bgm_daily',bgm_noble:'bgm_romance',bgm_clinic:'bgm_outing',bgm_sayeon:'bgm_challenge',bgm_jealous:'bgm_comedy',song_end_orpheia:'bgm_orpheia',song_end_fail:'bgm_ending'};
  // 배경 이름 규칙: 표에 없으면 접두어로 고른다(새 장을 써도 BGM 표를 고칠 필요가 없게).
  const TRAGIC=/ugeumchi|jeju_43|gwangju_1980|heungnam|samjeondo|gyeongbokgung_ruin|okhoru|jungmyeongjeon|harbin|kokumin_school|bupyeong|tomak|namhansanseong|jinju_1862|pyeongyang_fall|hwangsan|myeonghakso/;
  const ROMANCE=/kiln|drying|cinema|farewell|yakgwa|dano_wink/;
+ // 시대 장면(bg_era_*)은 장마다 그 시대 탐방곡을 튼다(2026.11.23). 파일이 없으면 FB로 bgm_outing.
+ const eraOf=ch=>{const n=+String(ch||'').replace(/\D/g,'');if(!n||n>23)return '';return n<=6?'bgm_era_ancient':n<=9?'bgm_era_goryeo':n<=11?'bgm_era_joseon':n<=13?'bgm_era_joseon_late':n<=16?'bgm_era_modern':n<=20?'bgm_era_colonial':'bgm_era_contemporary';};
  const byRule=n=>{
   if(/^cg_mv_(ch\d\d)/.test(n))return 'song_'+n.match(/^cg_mv_(ch\d\d)/)[1];
   if(n==='cg_yunseul_recording')return 'song_ch09';
@@ -32,7 +35,7 @@ const BGM=(()=>{
   if(TRAGIC.test(n))return 'bgm_tragic';
   if(ROMANCE.test(n))return 'bgm_romance';
   if(/^cg_(ch\d\d|yeoul)_/.test(n))return 'bgm_comedy';
-  if(/^bg_era_/.test(n))return 'bgm_outing';
+  if(/^bg_era_/.test(n))return eraOf(api.chapter)||'bgm_outing';
   return '';
  };
  const SCENE={
@@ -82,6 +85,6 @@ const BGM=(()=>{
  function setVolume(v){set.volume=v;persist();decks[front].volume=level();}
  function setMuted(m){set.muted=m;persist();decks[front].volume=level();}
  const status=()=>({found:ready.size,total:TRACKS.length,current:cur,unlocked});
- const api={current:()=>cur,play,scene,setVolume,setMuted,settings:()=>({...set}),tracks:TRACKS,songs:SONGS,ready,status,whenReady:()=>probed,onplay:null};
+ const api={current:()=>cur,play,scene,setVolume,setMuted,settings:()=>({...set}),tracks:TRACKS,songs:SONGS,ready,status,whenReady:()=>probed,onplay:null,chapter:''};
  return api;
 })();
