@@ -28,7 +28,8 @@ for k, v in d.items():
         # 이 게임 안의 사진이라 학습 사이트 주소가 아닌 로컬 경로(local: true)
         db[k] = {"src": v["src"], "credit": v["credit"], "desc": v.get("desc", ""), "local": True}
 for k in list(BAD) + list(NO):
-    db.pop(k, None)
+    if not (k in d and d[k].get("checked")):  # 학습 사이트의 틀린 사진만 뺀다. 새로 검수한 로컬 사진은 둔다
+        db.pop(k, None)
 head = t[:t.index("window.HERITAGE")]
 h.write_text(head + "window.HERITAGE = " + json.dumps(db, ensure_ascii=False, indent=1) + ";\n")
 print("통과", [k for k, v in d.items() if v.get("checked")])

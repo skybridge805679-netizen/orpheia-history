@@ -463,5 +463,35 @@ window.HERITAGE = {
   "src": "heritage/hahoe-mask.jpg",
   "credit": "Bernard Gagnon · CC0 · 위키미디어 공용",
   "desc": "안동 병산 별신굿 탈 · 국보 「하회탈 및 병산탈」"
+ },
+ "부여 외리 산수 도깨비무늬 벽돌": {
+  "src": "heritage/x13.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "백제 사비 시기 · 부여 외리 절터 문양전(산수무늬 벽돌과 한 묶음)",
+  "local": true
+ },
+ "황룡사 구층 목탑(복원도)": {
+  "src": "heritage/x14.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "신라 선덕 여왕 · 자장의 건의 · 몽골 침입 때 소실, 복원 그림",
+  "local": true
+ },
+ "평창 상원사 동종": {
+  "src": "heritage/x16.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "통일 신라 성덕왕 때 · 현존 최고(最古) 동종",
+  "local": true
+ },
+ "발해 영광탑": {
+  "src": "heritage/x17.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "발해 · 벽돌로 쌓은 탑(중국 지린성)",
+  "local": true
+ },
+ "감은사지 삼층 석탑": {
+  "src": "heritage/x15.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "통일 신라 신문왕 때 완성 · 경주",
+  "local": true
  }
 };
