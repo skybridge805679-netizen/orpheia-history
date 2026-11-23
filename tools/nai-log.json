@@ -5298,5 +5298,70 @@
   "seed": 6604417,
   "prompt": "1girl, solo, solo focus, adult woman, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole with carved tally marks, faint glowing water ripples around her ankles, standing, full body, looking at viewer, pouting, puffed cheeks, sulking, looking sideways",
   "init": "assets/st_naru_smile.webp"
+ },
+ "st_noeul_tiger": {
+  "seed": 7313131,
+  "prompt": "no humans, solo, a large orange korean siberian tiger with black stripes, sitting upright, full body, front view, looking at viewer, expressive amber eyes, slightly smug face, fluffy, cute but majestic",
+  "init": null
+ },
+ "st_noeul_smile": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, wide fanged grin, confident, hands on hips",
+  "init": null
+ },
+ "st_noeul_shy": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, blushing, ears folded down, tiger tail poking out behind her, looking away, pulling the pelt shawl up",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_surprised": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, surprised, wide eyes, ears straight up, open mouth showing fang",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_angry": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, angry, growling, puffed cheeks, clenched fists, comedic",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_teary": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, teary eyes, ears drooping, sad smile",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_pout": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, pouting, puffed cheeks, arms crossed, looking sideways, ears tilted back",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_serious": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, serious expression, calm amber eyes, closed mouth, arms at her sides",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "st_noeul_pregnant": {
+  "seed": 7313131,
+  "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, loose long undyed hemp dress, bare legs, barefoot, bone and wooden bead necklace, tiger tail poking out, pregnant, round belly, one hand on her belly, standing, full body, looking at viewer, happy fanged smile",
+  "init": "assets/st_noeul_smile.webp"
+ },
+ "cg_ch01_noeul_pounce": {
+  "seed": 7313131,
+  "prompt": "1boy, animal, comedic, prehistoric riverside grassland at dusk near a cave entrance, a dying campfire, a huge orange tiger playfully pinning a hooded young man on his back in the grass with both front paws on his chest, the tiger sniffing his hood, motion lines, sweat drops, dynamic angle, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_ch02_noeul_tackle": {
+  "seed": 7313131,
+  "prompt": "1girl, 1boy, comedic, ancient village clearing at dawn with an earthen wall and banners, startled children and an old storyteller in the background, a wild woman has tackled a hooded young man to the dirt ground and is straddling his chest, motion lines, dust cloud, dynamic angle, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_noeul": {
+  "seed": 7313131,
+  "prompt": "1girl, 1boy, romantic, sitting side by side on top of an ancient earthen fortress wall at sunset, vivid orange and red sky, distant mountains, a tiger-eared woman resting her head on a hooded young man's shoulder, her tiger tail curled around his waist, warm glow, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_end_harem_noeul": {
+  "seed": 7313131,
+  "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out orange light, a tiger-eared woman leaping out of the monitor and tackling a hooded young man together with his rolling studio chair, motion lines, sparkles, monitor shows only soft blurred glow, masterpiece, no readable text",
+  "init": null
  }
 }
