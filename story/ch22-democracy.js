@@ -58,9 +58,11 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [새벽|teary] ……네. 행복할게요. 대신 마음은 여기 두고 갈게요. 그건 못 가져가요. 너무 무거워서.
 @jump sb22_x
 @label sb22_b
+@bg cg_ch22_saebyeok_farewell|bg_era_april19
 새벽은 잡힌 손을 내려다보다가, 손등에 이마를 한 번 댄다. 그리고 천천히, 손가락을 하나씩 푼다.
 [새벽|teary] ……이 손 잡고 있으면 시집 못 가요. 그러니까 오늘만 잡고 있을게요. 오늘만.
 @label sb22_x
+@bg bg_era_april19
 @cutin teary
 [오르페이아|teary] (……주인님. 저 사람이 놓은 건 주인님 손이 아니라, 따라갈 수 있다는 희망이에요.)
 @hide all

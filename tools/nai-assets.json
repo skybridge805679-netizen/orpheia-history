@@ -9033,6 +9033,168 @@
     }
    ],
    "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch06_sayeon_night",
+   "size": "bg",
+   "seed": 2606201,
+   "prompt": "1girl, solo, night, ancient silla palace wall in gyeongju, torches and distant flames beyond the wall, smoke, a calm female court historian kneeling by the wall writing on a long paper scroll by torchlight, her brush trembling, a single tear on her cheek, embers floating, solemn, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, black hair, very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a calligraphy brush, kneeling, writing on a scroll, sorrowful calm face, single tear",
+     "uc": "nude, child, male",
+     "x": 0.5,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch06_sayeon_archive",
+   "size": "bg",
+   "seed": 2606202,
+   "prompt": "1girl, 1other, night, an old silla palace archive room full of scrolls and bamboo slips, a single oil lamp, an old male official with a white beard and a young female historian sitting side by side over a long scroll whose middle is smeared black with spreading ink, both holding brushes, warm lamplight, quiet companionship, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, black hair, very long hair, red hair ribbon, amber eyes, white jeogori, navy chima, holding a calligraphy brush, sitting beside him, pointing at the ink-smeared part of the scroll with her brush, gentle serious face",
+     "uc": "nude, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "old man, elderly silla official, white beard, dark official robe and hat, holding a brush, tired eyes",
+     "uc": "young",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch20_saebyeok_dawn",
+   "size": "bg",
+   "seed": 2620082,
+   "prompt": "1girl, 1boy, after sex, dawn on a grassy hill behind military barracks in 1940s china, pale pink and orange sky at sunrise, morning mist, a large white parachute cloth wrapped around both of them like a blanket up to the shoulders, a young woman lying against a hooded young man's chest, dried grass in her hair, field cap and uniform jacket folded on the grass beside them, peaceful, tender, quiet, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, sharp black eyes, lying on his chest wrapped in white parachute cloth up to her shoulders, bare shoulders, messy hair with blades of dry grass, eyes half open, soft blush, gentle smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back on the grass, wrapped in the parachute cloth, one arm around her, calm",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch21_saebyeok_hug",
+   "size": "bg",
+   "seed": 2621081,
+   "prompt": "1girl, 1boy, night inside a canvas tent classroom in a 1950s refugee city, children's notebooks stacked on a low desk, a kerosene lantern hanging from the tent pole, a young woman teacher burying her face in a hooded young man's chest and hugging him tightly, his arms around her, lantern light flickering, emotional reunion, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, sharp black eyes, simple 1950s white blouse and dark skirt, face buried in his chest, hugging him tightly, tears",
+     "uc": "nude, child, male",
+     "x": 0.47,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, hugging her, head bowed",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch22_saebyeok_farewell",
+   "size": "bg",
+   "seed": 2622081,
+   "prompt": "1girl, 1boy, night, an empty 1960 korean night school classroom, wooden desks, a blackboard with half-erased chalk writing, moonlight through the window, a woman teacher holding a hooded young man's hand and pressing her forehead to the back of his hand, then slowly letting go finger by finger, bittersweet farewell, masterpiece, no readable text, blank blackboard",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, sharp black eyes, 1960s korean woman teacher, white blouse, long dark skirt, eyes closed, forehead pressed to his hand, tears",
+     "uc": "nude, child, male",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing, holding out his hand, head lowered",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views, readable text on blackboard"
+  },
+  {
+   "id": "cg_ch23_saebyeok_confess",
+   "size": "bg",
+   "seed": 2623081,
+   "prompt": "1girl, 1boy, a quiet corridor under the stands of the 1988 seoul olympic stadium, white doves flying in the bright sky beyond the opening, an elegant older korean woman with white bob hair standing close to a hooded young man and speaking quietly, her hand clutching a faded old olive field cap, his head bowed, bittersweet, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, elegant older korean woman, white bob hair, gentle wrinkles, cream blouse, navy cardigan, holding a faded olive field cap to her chest, teary smile",
+     "uc": "nude, child, male",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing, head bowed, listening",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_saebyeok_kiss",
+   "size": "bg",
+   "seed": 2624081,
+   "prompt": "1girl, 1boy, kiss, small modern home music studio at night, a glowing monitor behind them still pouring soft light and rain, raindrops in the air, a soaking wet mature woman wrapping her arms around a hooded young man's neck and kissing him, eyes closed, a single tear, romantic, cinematic lighting, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, mature woman, adult korean woman in her late thirties, black hair in a loose low chignon with strands framing her face, sharp but gentle black eyes, soaking wet hair, rain-soaked cream silk blouse, long navy skirt, arms around his neck, kissing him, eyes closed, single tear, source#kiss",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, holding her waist, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch14_garam_grief",
+   "size": "bg",
+   "seed": 2614142,
+   "prompt": "1girl, 1boy, dusk on a stone fortress wall facing the sea on ganghwa island, smoke drifting from the battle, a torn banner on the ground, a young woman hunter sitting beside a hooded young man and resting her forehead on his shoulder, crying silently, her matchlock musket laid across her knees, red sunset over the sea, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, padded dark green jeogori, grey baji trousers, short fur vest, forehead resting on his shoulder, silent tears, eyes closed, musket across her knees",
+     "uc": "nude, child, male",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, looking at the sea, still",
+     "uc": "visible eyes",
+     "x": 0.57,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, areola, explicit, sex, genitals, child, loli, watermark, signature, text, letters, extra limbs, bad hands, multiple views"
   }
  ]
 }

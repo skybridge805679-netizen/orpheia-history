@@ -181,12 +181,14 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 > (새벽을 끌어안는다) 미안해. 늦었어. -> sb21_a {saebyeok+6}
 > 그 군가, 아이들이 부르는 거 듣고 싶어. -> sb21_b {saebyeok+3}
 @label sb21_a
+@bg cg_ch21_saebyeok_hug|bg_era_busan_refugee
 새벽이 상철의 품에 얼굴을 묻는다. 등잔불이 흔들리고, 천막 밖으로 피란 수도의 밤바람이 지나간다.
 [새벽|teary] ……늦었어요. 진짜 늦었어요. 그러니까 이번엔 조금만 더 있다 가요. 아이들 깨기 전까지만.
 @jump sb21_x
 @label sb21_b
 [새벽|smile] 내일 아침 조회 때요. 맨 앞줄에서 들어요. ……그리고 끝나고 도망가지 마요. 이번엔 진짜로.
 @label sb21_x
+@bg bg_era_busan_refugee
 @hide all
 @bg bg_era_busan_refugee
 @show saebyeok serious center
