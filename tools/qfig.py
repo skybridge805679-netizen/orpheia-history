@@ -20,6 +20,7 @@ def photo(src):
     for base in (ROOT / "assets", SITE):
         p = base / src
         if p.exists(): return p.as_uri()
+    if os.environ.get("NORENDER"): return ""  # 그림을 다시 그리지 않을 때는 사진이 없어도 된다
     raise FileNotFoundError(src)
 
 CSS = f"""
