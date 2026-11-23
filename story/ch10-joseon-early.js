@@ -365,7 +365,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [오르페이아|serious] 미끄러지면 다시 일어나면 돼요. 이유를 붙잡고요. 주인님, 2단계예요.
 @hide all
 @battle muk stage2 skin=yeogwan
-@quiz 81-74 81-75 81-76 81-77 81-78
+@quiz 81-74 81-75 81-76 81-77 81-78 81-151 81-158
 @battle end
 @show muk lonely center
 [묵|lonely] ……이 백 년도, 제자리에 놓였어.

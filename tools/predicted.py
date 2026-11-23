@@ -1129,7 +1129,7 @@ def build():
     if ONLY:
         old=(ROOT/"data/predicted-figures.js").read_text(encoding="utf-8"); OF=json.loads(old[old.index("||{}),...")+9:old.rindex("});")])
         sz=render({k:figs[k] for k in ONLY})
-        for k,(w,h) in sz.items(): OF[k]={**OF.get(k,{}),"src":f"assets/qfig/{k}.webp","width":w,"height":h}
+        for k,(w,h) in sz.items(): OF[k]={**OF.get(k,{}),"src":f"assets/qfig/{k}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})}
         size=None
         (ROOT/"data/predicted-figures.js").write_text(head+"window.QUESTION_FIGURES=Object.freeze({...(window.QUESTION_FIGURES||{}),..."+json.dumps(OF,ensure_ascii=False)+"});\n",encoding="utf-8")
     elif os.environ.get("NORENDER"):
