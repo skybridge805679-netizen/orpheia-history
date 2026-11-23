@@ -152,6 +152,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [상철] 노래로는 안 만들게. 대신 나도 기억할게.
 @hide all
 @bg cg_ch12_seola_secret|bg_era_joseon_night
+연회가 파한 뒤, 달빛 내린 툇마루. 설아가 접은 부채로 입가를 가리고 상철 곁에 앉는다.
 [설아|smile] ……이상한 손님. 다들 제 노래를 갖고 싶어 하지, 제 비밀을 같이 지켜 주겠다는 분은 처음이에요.
 @bg bg_era_yangban_banquet|bg_era_joseon_night
 @show hwaseon surprised left

@@ -90,7 +90,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @bg bg_era_kokumin_school
 @day 경성 어느 학교, 1940년대 아침|일제 강점기 · 1940년대 민족 말살 통치
 @bg cg_ch20_school|bg_era_kokumin_school
-아이들이 운동장에 줄지어 서서 동쪽을 향해 고개를 숙인다.
+아이들이 운동장에 줄지어 서서 동쪽을 향해 고개를 숙인다. 운동장 가장자리, 교사 한별이 주먹을 쥔 채 꼿꼿이 서 있다.
 @bg bg_era_kokumin_school
 @show hanbyeol serious right
 @show orpheia worry left

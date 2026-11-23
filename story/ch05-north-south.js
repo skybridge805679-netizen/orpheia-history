@@ -227,7 +227,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @bg bg_era_gameunsa
 @day 통일 신라 · 동해 바닷가, 681년|통일 신라 문무왕 승하·신문왕 즉위 · 681년
 @bg cg_ch05_gameunsa|bg_era_gameunsa
-바다 한가운데 바위섬이 보인다. 뭍에선 삼층 석탑 두 개가 나란히 선 절이 지어지는 중이다. 돌을 나르던 늙은 석공이 손님들을 보고 땀을 훔친다.
+바다 한가운데 바위섬이 보인다. 뭍에선 삼층 석탑 두 개가 나란히 선 절이 지어지는 중이다. 돌을 나르던 늙은 석공이 손님들을 보고 땀을 훔친다. 해랑이 바위섬을 손가락으로 가리키며 눈을 동그랗게 뜬다.
 @bg bg_era_gameunsa
 @show haerang surprised right
 @show orpheia smile left
@@ -294,7 +294,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @bg bg_era_silla_village
 @day 통일 신라 · 서원경(청주) 근처 마을|통일 신라 · 8~9세기(민정 문서)
 @bg cg_ch05_census|bg_era_silla_village
-초가 사이로 아이들이 뛰어다닌다. 관리 하나가 마당에 돗자리를 깔고 앉아, 줄 선 마을 사람들에게 하나하나 묻고 있다.
+초가 사이로 아이들이 뛰어다닌다. 관리 하나가 마당에 돗자리를 깔고 앉아, 줄 선 마을 사람들에게 하나하나 묻고 있다. 해랑이 관리 어깨 너머로 장부를 슬쩍 들여다본다. 문적원 서기의 눈이다.
 @bg bg_era_silla_village
 @show haerang smile right
 @show orpheia worry left

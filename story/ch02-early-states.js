@@ -267,7 +267,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @bg bg_era_wanggeom_siege|bg_era_gojoseon
 @day 고조선 · 포위된 왕검성|위만 조선 우거왕 · 기원전 109~108년(한의 침략)
 @bg cg_ch02_dallae_siege|bg_era_gojoseon
-성 밖이 한나라 깃발로 새까맣다. 시장은 텅 비었고, 성벽 위엔 지친 병사들이 주저앉아 있다.
+성 밖이 한나라 깃발로 새까맣다. 시장은 텅 비었고, 성벽 위엔 지친 병사들이 주저앉아 있다. 성벽 난간을 움켜쥔 달래가 그 깃발 바다를 한참 내려다본다.
 @bg bg_era_wanggeom_siege|bg_era_gojoseon
 @show dallae worry center
 @show orpheia worry left
@@ -402,7 +402,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @bg bg_era_goguryeo
 @day 고구려 · 압록강 언저리, 10월 산골 마을|고구려 · 초기, 1~2세기 무렵(제천 행사 동맹)
 @bg cg_ch02_goguryeo_village|bg_era_goguryeo
-골짜기마다 단풍이 새빨갛다. 밭은 비탈에 비좁게 붙어 있다. 집집마다 기둥 위에 띄운 작은 창고가 있고, 젊은 사내들이 활과 말을 손질하고 있다.
+골짜기마다 단풍이 새빨갛다. 밭은 비탈에 비좁게 붙어 있다. 집집마다 기둥 위에 띄운 작은 창고가 있고, 젊은 사내들이 활과 말을 손질하고 있다. 그 틈에서 달래가 젊은 사냥꾼과 모피 한 장을 두고 손가락 셈을 벌이고, 상철은 달래의 보따리를 진 채 숨을 고른다.
 @bg bg_era_goguryeo
 @show dallae smile center
 @show orpheia smile left
@@ -449,7 +449,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @bg bg_era_east_coast
 @day 옥저와 동예 · 함경도에서 강원도에 이르는 동해안|옥저·동예 · 1~3세기 무렵
 @bg cg_ch02_okjeo_coast|bg_era_east_coast
-파도 소리. 해안엔 생선이랑 소금이 널려 있다. 그런데 마을 사람들이 무거운 짐을 꾸려 어딘가로 보낼 채비를 하고 있다.
+파도 소리. 해안엔 생선이랑 소금이 널려 있다. 그런데 마을 사람들이 무거운 짐을 꾸려 어딘가로 보낼 채비를 하고 있다. 달래가 팔짱을 낀 채 그 짐 수레를 노려본다.
 @bg bg_era_east_coast
 @show dallae worry center
 @show orpheia worry left

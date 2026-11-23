@@ -22,7 +22,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @bg bg_era_gyeongbokgung
 @day 한양 · 궁궐, 1498년|조선 연산군 · 1498년(무오사화)
 @bg cg_ch11_historian|bg_era_gyeongbokgung
-대궐 서고 앞에서 사관 하나가 붓을 쥔 채 떨고 있다. 그가 적은 기록 한 장 때문에, 오늘 궁궐에선 피바람이 분다고 했다.
+대궐 서고 앞에서 사관 하나가 붓을 쥔 채 떨고 있다. 그가 적은 기록 한 장 때문에, 오늘 궁궐에선 피바람이 분다고 했다. 붉은 기둥 뒤에 숨은 소담과 상철은 숨을 죽인다.
 @bg bg_era_gyeongbokgung
 @show sodam worry right
 @show orpheia worry left
@@ -305,7 +305,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @bg bg_era_gyeongbokgung_ruin
 @day 한양, 1608년|조선 광해군 즉위 · 1608년(대동법)
 @bg cg_ch11_ruin|bg_era_gyeongbokgung_ruin
-경복궁은 불탄 주춧돌만 남았다. 잿더미 사이로 잡초가 자란다.
+경복궁은 불탄 주춧돌만 남았다. 잿더미 사이로 잡초가 자란다. 소담이 앞치마를 움켜쥔 채 그 한가운데 서 있다.
 @bg bg_era_gyeongbokgung_ruin
 @show sodam worry right
 @show orpheia worry left

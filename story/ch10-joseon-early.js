@@ -127,7 +127,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @bg bg_era_jiphyeonjeon
 @day 경복궁 · 집현전, 1440년대 밤|조선 세종(재위 1418~1450) · 1440년대
 @bg cg_ch10_jiphyeonjeon|bg_era_jiphyeonjeon
-등불 아래, 젊은 학사들이 책 더미에 파묻혀 있다. 왕이 조용히 들어와 잠든 학사에게 제 옷을 덮어 준다.
+등불 아래, 젊은 학사들이 책 더미에 파묻혀 있다. 왕이 조용히 들어와 잠든 학사에게 제 옷을 덮어 준다. 문틈에선 약과 쟁반을 든 소담이 입을 틀어막고 그 모습을 훔쳐본다.
 @bg bg_era_jiphyeonjeon
 @show sodam smile right
 @show orpheia excited left

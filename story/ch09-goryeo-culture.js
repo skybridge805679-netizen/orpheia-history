@@ -340,7 +340,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 @bg bg_era_heungdeoksa
 @day 청주 흥덕사, 1377년 7월|고려 우왕 · 1377년(『직지심체요절』 인쇄)
 @bg cg_ch09_jikji|bg_era_heungdeoksa
-절 한쪽의 작업실. 쇠로 만든 작은 활자들이 판 위에 빼곡히 짜여 있다. 먹을 바르고 종이를 덮는다.
+절 한쪽의 작업실. 쇠로 만든 작은 활자들이 판 위에 빼곡히 짜여 있다. 먹을 바르고 종이를 덮는다. 상철이 붓을 건네받아, 활자판에 조심조심 먹을 발라 본다.
 @bg bg_era_heungdeoksa
 @show orpheia excited center
 [오르페이아|excited] 드디어 주인님이랑 단둘이에요! ……아, 아니, 사연 님도 계시지만요.
