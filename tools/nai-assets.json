@@ -9944,6 +9944,188 @@
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli",
    "init": "assets/st_dasom_home.webp",
    "strength": 0.62
+  },
+  {
+   "id": "st_ullim_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, konghou, floating slightly above the ground, full body, looking at viewer, gentle playful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin"
+  },
+  {
+   "id": "st_ullim_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, blushing, embarrassed, looking away, hugging the harp",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, surprised, wide eyes, open mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, pouting, puffed cheeks, annoyed",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, teary eyes, tears, sad smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, serious, calm, closed mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, pregnant, visibly pregnant, large round pregnant belly under her flowing skirt, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, floating, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, child, loli, watermark, signature, text, wings, angel wings, feathered wings, halo, kimono, japanese clothes, black hair, brown hair, blonde hair, tan, dark skin, bare belly, navel, exposed stomach, midriff",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st_ullim_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, wings, halo, historical clothes, armor, harp, holding instrument",
+   "init": "assets/st_ullim_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_ullim_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, wings, halo, historical clothes, armor, harp, holding instrument",
+   "init": "assets/st_ullim_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ullim_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7250725,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, wings, halo, historical clothes, armor, harp, holding instrument, flat stomach, slim waist",
+   "init": "assets/st_ullim_home.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_ch05_ullim",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, 1boy, comedic lucky accident, 8th century silla buddhist temple courtyard at dusk, stone stairs, a bronze temple bell hanging in a wooden bell pavilion in the background, sound ripples in the air, a celestial maiden floating upside down in midair face to face with a hooded young man, her translucent celestial shawl has slipped off and fallen over his head and shoulders, petals and glowing particles",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, floating upside down, long hair hanging down, face close to his face, surprised, blushing, holding her skirt down with one hand, shawl slipped off her shoulders, silk chest band visible, cleavage",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.35
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing, a translucent jade shawl draped over his hood and shoulders, looking up, startled",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.65
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, wings, angel wings, halo, black hair, brown hair, blonde hair"
+  },
+  {
+   "id": "cg_ch08_ullim_hum",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, 1boy, emotional, night, korean buddhist temple ruins on fire in the distance, a huge burning nine-story wooden pagoda, embers and sparks in the dark red sky, collapsed bell pavilion, a celestial maiden sitting on the ground becoming translucent from her feet up into glowing particles that are drifting back toward her, a hooded young man kneeling beside her holding her hand and humming with his eyes hidden, soft teal glow around them",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, sitting on the ground, semi-transparent, lower body dissolving into glowing particles, tears, looking up at him, surprised, hopeful",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling, holding her hand, humming with closed mouth, gentle",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, wings, angel wings, halo, black hair, brown hair, blonde hair"
+  },
+  {
+   "id": "cg_kk_ullim",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, 1boy, romantic, snowy mountain buddhist temple at dawn, odaesan, a wooden bell pavilion with an ancient bronze bell, pale pink dawn sky, light snowfall, a celestial maiden wearing large modern black studio headphones over her gold hair ornaments, eyes closed listening with tears of joy, floating beside a hooded young man and holding his hand",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, wearing large black studio headphones, eyes closed, tears of joy, happy smile, floating, holding his hand",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing in the snow, holding her hand, looking at her, calm smile",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, wings, angel wings, halo, black hair, brown hair, blonde hair"
+  },
+  {
+   "id": "cg_end_harem_ullim",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and many speakers, a glowing monitor and speakers pouring out teal and gold light and visible sound waves, a celestial maiden floating out of the speaker light playing an ancient angular harp, her long translucent shawl wrapping around a hooded young man on a studio chair",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, floating out of the light, playing a small ancient angular harp, konghou, joyful smile, shawl wrapping around him",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.42
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting on a studio chair, wrapped in a translucent jade shawl, flustered",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, wings, angel wings, halo, black hair, brown hair, blonde hair"
   }
  ]
 }

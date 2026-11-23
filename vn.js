@@ -18,6 +18,7 @@ const CAST={
  nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
  dallae:{name:'달래',cls:'c-other',stand:{serious:'st_dallae_worry',pregnant:'st_dallae_pregnant',neutral:'st_dallae_smile',smile:'st_dallae_smile',worry:'st_dallae_worry',shy:'st_dallae_shy',angry:'st_dallae_angry',teary:'st_dallae_teary',surprised:'st_dallae_surprised'}},
  noeul:{name:'노을',cls:'c-other',stand:{tiger:'st_noeul_tiger',pregnant:'st_noeul_pregnant',neutral:'st_noeul_smile',smile:'st_noeul_smile',shy:'st_noeul_shy',surprised:'st_noeul_surprised',angry:'st_noeul_angry',teary:'st_noeul_teary',worry:'st_noeul_teary',pout:'st_noeul_pout',serious:'st_noeul_serious'}},   // 노을 = 범에서 늦게 사람이 된 여자(특별한 히로인, 2026.11 주인님 지정)
+ ullim:{name:'울림',cls:'c-other',stand:{pregnant:'st_ullim_pregnant',neutral:'st_ullim_smile',smile:'st_ullim_smile',excited:'st_ullim_smile',shy:'st_ullim_shy',surprised:'st_ullim_surprised',angry:'st_ullim_angry',pout:'st_ullim_angry',teary:'st_ullim_teary',worry:'st_ullim_teary',serious:'st_ullim_serious'}},   // 울림 = 종에 새겨진 비천(특별한 히로인, 2026.11 주인님 지정), 종소리나 흥얼거림이 이어지는 동안만 사람 곁에 있다
  garam:{name:'가람',cls:'c-other',stand:{pregnant:'st_garam_pregnant',neutral:'st_garam_smile',smile:'st_garam_smile',excited:'st_garam_smile',shy:'st_garam_shy',surprised:'st_garam_surprised',angry:'st_garam_angry',pout:'st_garam_angry',teary:'st_garam_teary',worry:'st_garam_serious',serious:'st_garam_serious'}},   // 가람 = 강화 산포수 집안의 딸(14장, 2026.11 소담 부담을 덜려고 추가)
  naru:{name:'나루',cls:'c-other',stand:{pregnant:'st_naru_pregnant',neutral:'st_naru_smile',smile:'st_naru_smile',shy:'st_naru_shy',surprised:'st_naru_surprised',angry:'st_naru_angry',teary:'st_naru_teary',serious:'st_naru_serious',worry:'st_naru_serious',pout:'st_naru_pout',baekje:'st_naru_smile',goguryeo:'st_naru_smile',silla:'st_naru_smile',sea:'st_naru_smile',joseon:'st_naru_smile'}},   // 나루 = 건넘의 신령(2026.11 주인님 지정), 시대가 바뀌어도 같은 옷
  hyejin:{name:'혜진',cls:'c-other',stand:{neutral:'st_hyejin_neutral',smile:'st_hyejin_smile',surprised:'st_hyejin_surprised',serious:'st_hyejin_serious',angry:'st_hyejin_angry',pout:'st_hyejin_pout'}},   // 외전 「열여덟 무당의 야간 근무」
@@ -54,11 +55,11 @@ const MOB_BY_NAME={'촌사람':'farmer','손자':'child','와공':'blacksmith','
  '농부':'farmer','농민':'farmer','만적':'farmer','대장장이':'blacksmith','송나라 상인':'merchant','강 행수':'merchant','다점 주인':'merchant',
  '늙은 내관':'elder_man','이야기꾼':'woman_elder','부여 가':'official_ancient','동예 사람':'farmer','신지의 부하':'soldier_ancient','천군':'elder_man','아낙':'woman','제사장':'elder_man','파수꾼':'soldier_ancient','상궁':'court_lady','대감':'noble_joseon','군관':'soldier_joseon','교관':'soldier_modern',
  '구경꾼':'crowd','아이들':'crowd','절 아이':'child','역부':'farmer','기와장이':'farmer','최치원':'scholar','화랑':'soldier_ancient','왕':'king_ancient','호족':'official_ancient','청년':'scholar','서경 사람':'farmer','이성계':'soldier_ancient','최영':'soldier_ancient','장인':'blacksmith','역관':'scholar','상인':'merchant','점원':'man_modern','발해 수군':'soldier_ancient','무덤지기':'elder_man','당 상인':'merchant','당 관리':'official_ancient','중년 남자':'man_modern','소손녕':'soldier_ancient','서희':'official_ancient','학생':'man_modern','의병':'soldier_joseon','기자':'man_modern'};
-const ALIAS={'봄내':'bomnae','쇠별':'soebyeol','단비':'danbi','마루':'maru','서리':'seori','아라':'ara','가온':'gaon','도담':'dodam','하늬':'haneui','혜진':'hyejin','설아':'seola','매향':'maehyang','초련':'choryeon','화선':'hwaseon','다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','노을':'noeul','가람':'garam','나':'me','주인님':'me','상철':'me'};
+const ALIAS={'울림':'ullim','봄내':'bomnae','쇠별':'soebyeol','단비':'danbi','마루':'maru','서리':'seori','아라':'ara','가온':'gaon','도담':'dodam','하늬':'haneui','혜진':'hyejin','설아':'seola','매향':'maehyang','초련':'choryeon','화선':'hwaseon','다솜':'dasom','새벽':'saebyeok','한별':'hanbyeol','보리':'bori','단오':'dano','소담':'sodam','여울':'yeoul','해랑':'haerang','오르페이아':'orpheia','사연':'sayeon','묵':'muk','윤슬':'yunseul','누리':'nuri','나루':'naru','달래':'dallae','노을':'noeul','가람':'garam','나':'me','주인님':'me','상철':'me'};
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
-// 엔딩 수: 대본의 @ending 제목 가짓수를 센다(오르페이아·히로인 25·묵·낙방·히든 하렘 = 29). 엔딩을 늘려도 따로 고칠 필요 없다.
+// 엔딩 수: 대본의 @ending 제목 가짓수를 센다(오르페이아·히로인 26·묵·낙방·히든 하렘 = 30). 엔딩을 늘려도 따로 고칠 필요 없다.
 const endingCount=()=>new Set(chapters.flatMap(c=>c.ops.filter(o=>o.t==='ending').map(o=>String(o.arg).split('|')[0].trim()))).size;
 // 배틀 뒤의 묵: 찢어진 단계(S.mukDmg 1~3)에 맞는 스탠딩. 그 장이 끝나면 먹물이 다시 차올라 원래 옷으로 돌아온다.
 const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
@@ -72,7 +73,7 @@ const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',
 // 옷을 바꿔 그린 인물: @show의 옷을 기억하고, 표정 그림은 옷별로(st_<id>_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
 const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
 // 집옷(home): 현대 실내 장면에서 히로인이 입는 옷(2026.11 주인님 지정, 히로인마다 다른 옷). @show <id> home. 표정은 HOME_EXPR만 따로 그렸다.
-const HOME_IDS='noeul dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom'.split(' ');
+const HOME_IDS='noeul ullim dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom'.split(' ');
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
 const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
