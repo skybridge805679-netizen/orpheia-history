@@ -20,7 +20,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 
 @dive 1988년~1993년|올림픽과 북방
 @bg bg_era_olympic_1988
-@day 서울 잠실 올림픽 주경기장, 1988년 9월 17일
+@day 서울 잠실 올림픽 주경기장, 1988년 9월 17일|노태우 정부 · 1988년(서울 올림픽)
 거대한 경기장이 사람들로 가득하다. 하늘로 비둘기들이 날아오른다.
 @show dasom smile center
 @show orpheia excited left
@@ -73,7 +73,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 
 @dive 1993년~1998년|문민정부
 @bg bg_era_capitol_1995
-@day 서울 광화문, 1995년 8월 15일
+@day 서울 광화문, 1995년 8월 15일|김영삼 정부 · 1995년(광복 50주년)
 옛 조선 총독부 건물 꼭대기의 둥근 돔이 크레인에 매달려 천천히 내려온다. 그 뒤로 경복궁이 보인다.
 @show dasom smile right
 @show orpheia teary left
@@ -95,7 +95,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 
 @dive 1998년~2003년|금을 모으던 겨울
 @bg bg_era_imf_1998
-@day 은행 앞, 1998년 1월
+@day 은행 앞, 1998년 1월|김영삼 정부 말 · 1998년 1월(외환 위기, 금 모으기)
 겨울 아침, 은행 앞에 사람들이 길게 줄을 섰다. 저마다 손에 작은 상자를 들고 있다. 돌반지, 결혼반지, 금메달.
 @show dasom teary center
 @show orpheia teary left
