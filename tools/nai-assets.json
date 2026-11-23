@@ -8826,6 +8826,27 @@
     }
    ],
    "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_dallae",
+   "size": "bg",
+   "seed": 5120387,
+   "prompt": "1girl, 1boy, romantic, snowy plain at night after a winter festival, a large bonfire with sparks, a few white-robed silhouettes far away, a young woman and a hooded young man sitting side by side on a log sharing one large fur pelt draped over both their shoulders, she holds a bundle of small wooden tablets tied with string close to her chest, falling snow, warm firelight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair, low bun, wooden hairpin, brown eyes, plain brown hemp robe, fur pelt over shoulder, blushing, looking away, embarrassed smile, hugging wooden tablets",
+     "uc": "nude, cleavage, child, male",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, fur pelt over shoulder, sitting, turned toward her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views, upside down"
   }
  ]
 }
