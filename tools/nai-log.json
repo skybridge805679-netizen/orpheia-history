@@ -5873,5 +5873,75 @@
   "seed": 1173707858,
   "prompt": "1girl, solo, solo focus, adult woman, young adult, shoulder length straight black hair with bangs, kind dark eyes, white sports bra and matching cotton panties, an oversized university sweatshirt slipping off one shoulder, bare legs, relaxed at home, standing, full body, pregnant, visibly pregnant, round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
   "init": "assets/st_dasom_home.webp"
+ },
+ "st_ullim_smile": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, konghou, floating slightly above the ground, full body, looking at viewer, gentle playful smile",
+  "init": null
+ },
+ "st_ullim_shy": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, blushing, embarrassed, looking away, hugging the harp",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_surprised": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, surprised, wide eyes, open mouth",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_angry": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, pouting, puffed cheeks, annoyed",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_teary": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, teary eyes, tears, sad smile",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_serious": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp, floating, full body, looking at viewer, serious, calm, closed mouth",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_pregnant": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, pregnant, visibly pregnant, large round pregnant belly under her flowing skirt, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, floating, full body, looking at viewer",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_home": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile",
+  "init": "assets/st_ullim_smile.webp"
+ },
+ "st_ullim_home_shy": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+  "init": "assets/st_ullim_home.webp"
+ },
+ "st_ullim_home_pregnant": {
+  "seed": 7250725,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, very fair skin, very long flowing hair floating upward, teal green hair, verdigris hair, gradient hair, gold hair tips, gold eyes, pale jade satin camisole, loose wide-leg cream lounge pants, her translucent celestial shawl still floating around her shoulders, small gold forehead jewel, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
+  "init": "assets/st_ullim_home.webp"
+ },
+ "cg_ch05_ullim": {
+  "seed": 7250725,
+  "prompt": "1girl, 1boy, comedic lucky accident, 8th century silla buddhist temple courtyard at dusk, stone stairs, a bronze temple bell hanging in a wooden bell pavilion in the background, sound ripples in the air, a celestial maiden floating upside down in midair face to face with a hooded young man, her translucent celestial shawl has slipped off and fallen over his head and shoulders, petals and glowing particles",
+  "init": null
+ },
+ "cg_ch08_ullim_hum": {
+  "seed": 7250725,
+  "prompt": "1girl, 1boy, emotional, night, korean buddhist temple ruins on fire in the distance, a huge burning nine-story wooden pagoda, embers and sparks in the dark red sky, collapsed bell pavilion, a celestial maiden sitting on the ground becoming translucent from her feet up into glowing particles that are drifting back toward her, a hooded young man kneeling beside her holding her hand and humming with his eyes hidden, soft teal glow around them",
+  "init": null
+ },
+ "cg_kk_ullim": {
+  "seed": 7250725,
+  "prompt": "1girl, 1boy, romantic, snowy mountain buddhist temple at dawn, odaesan, a wooden bell pavilion with an ancient bronze bell, pale pink dawn sky, light snowfall, a celestial maiden wearing large modern black studio headphones over her gold hair ornaments, eyes closed listening with tears of joy, floating beside a hooded young man and holding his hand",
+  "init": null
+ },
+ "cg_end_harem_ullim": {
+  "seed": 7250725,
+  "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and many speakers, a glowing monitor and speakers pouring out teal and gold light and visible sound waves, a celestial maiden floating out of the speaker light playing an ancient angular harp, her long translucent shawl wrapping around a hooded young man on a studio chair",
+  "init": null
  }
 }
