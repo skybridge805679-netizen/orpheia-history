@@ -8883,6 +8883,27 @@
    "size": "bg",
    "prompt": "no humans, scenery, grand tang dynasty imperial palace courtyard in chang'an, 7th century, vast stone-paved square, red lacquered pillars, sweeping grey tiled roofs with upturned eaves, wide stone stairs leading up to a throne hall, banners, bright daylight, majestic, masterpiece, no readable text",
    "negative": "people, human, watermark, signature, text, logo, modern buildings"
+  },
+  {
+   "id": "cg_kk_saebyeok_kiss",
+   "size": "bg",
+   "seed": 2620081,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on a grassy hill behind military barracks in 1940s china, a sky full of stars, milky way, a white parachute cloth spread on the grass, a young woman soldier pulling a hooded young man close by his collar with both hands and kissing him, eyes closed, a tear on her cheek, soft starlight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short black bob hair, olive drab 1940s military uniform jacket, belt, trousers, field cap fallen on the grass, eyes closed, kissing him, gripping his collar with both hands, single tear, blush, source#kiss",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised then gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
   }
  ]
 }
