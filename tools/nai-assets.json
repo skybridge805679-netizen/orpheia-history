@@ -8448,6 +8448,76 @@
     }
    ],
    "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "qs_f151",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, librarian in a beige cardigan and white blouse, long black hair tied low, standing in a quiet old library with wooden bookshelves of traditional korean books, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 26061
+  },
+  {
+   "id": "qs_f152",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, korean heritage interpreter in a navy blazer with a name badge, short bob hair, standing in a traditional hanok study room with books and a brush stand, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 76097
+  },
+  {
+   "id": "qs_f153",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, tv news anchor in a light gray suit, neat ponytail, news studio with blue screens behind, holding papers, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 54981
+  },
+  {
+   "id": "qs_f154",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, history researcher in a white lab-style coat over a sweater, glasses, wavy brown hair, archive room with document boxes, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 62359
+  },
+  {
+   "id": "qs_f155",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, high school history teacher in a cream knit vest and long skirt, half-up hair, classroom with a green chalkboard, holding a textbook, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 32859
+  },
+  {
+   "id": "qs_f156",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, evening news anchor in a dark green blazer, shoulder-length straight hair, news studio with warm lights, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 87045
+  },
+  {
+   "id": "qs_f157",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, cheerful history youtuber in a pastel hoodie, twin low ponytails, cozy room with a ring light and microphone, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 56067
+  },
+  {
+   "id": "qs_f158",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, museum curator in a black turtleneck and gray jacket, hair in a bun, museum gallery with glass display cases, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 78595
+  },
+  {
+   "id": "qs_f159",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, museum curator in a white blouse and brown skirt, long straight hair, museum hall with a large bronze temple bell in the background, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 74585
+  },
+  {
+   "id": "qs_f160",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, art museum docent in a mint blouse and navy skirt, wavy long hair, art gallery with framed ink landscape paintings on the walls, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 80638
   }
  ]
 }
