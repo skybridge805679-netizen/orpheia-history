@@ -8627,6 +8627,176 @@
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
    "init": "assets/st_naru_smile.webp",
    "strength": 0.7
+  },
+  {
+   "id": "st_noeul_tiger",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "no humans, solo, a large orange korean siberian tiger with black stripes, sitting upright, full body, front view, looking at viewer, expressive amber eyes, slightly smug face, fluffy, cute but majestic",
+   "negative": "human, girl, multiple views, border, frame, watermark, signature, text"
+  },
+  {
+   "id": "st_noeul_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, wide fanged grin, confident, hands on hips",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk"
+  },
+  {
+   "id": "st_noeul_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, blushing, ears folded down, tiger tail poking out behind her, looking away, pulling the pelt shawl up",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, surprised, wide eyes, ears straight up, open mouth showing fang",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, angry, growling, puffed cheeks, clenched fists, comedic",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, teary eyes, ears drooping, sad smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, pouting, puffed cheeks, arms crossed, looking sideways, ears tilted back",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, standing, full body, looking at viewer, serious expression, calm amber eyes, closed mouth, arms at her sides",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_noeul_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7313131,
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, loose long undyed hemp dress, bare legs, barefoot, bone and wooden bead necklace, tiger tail poking out, pregnant, round belly, one hand on her belly, standing, full body, looking at viewer, happy fanged smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, embroidery, silk",
+   "init": "assets/st_noeul_smile.webp",
+   "strength": 0.7
+  },
+  {
+   "id": "cg_ch01_noeul_pounce",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1boy, animal, comedic, prehistoric riverside grassland at dusk near a cave entrance, a dying campfire, a huge orange tiger playfully pinning a hooded young man on his back in the grass with both front paws on his chest, the tiger sniffing his hood, motion lines, sweat drops, dynamic angle, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back in the grass, flailing, panicking",
+     "uc": "visible eyes",
+     "x": 0.45,
+     "y": 0.65
+    },
+    {
+     "prompt": "no humans, large orange tiger with black stripes, on top of him, front paws on his chest, curious sniffing, smug",
+     "uc": "human, girl",
+     "x": 0.55,
+     "y": 0.4
+    }
+   ],
+   "negative": "blood, gore, nude, watermark, signature, text, extra limbs, multiple views"
+  },
+  {
+   "id": "cg_ch02_noeul_tackle",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1girl, 1boy, comedic, ancient village clearing at dawn with an earthen wall and banners, startled children and an old storyteller in the background, a wild woman has tackled a hooded young man to the dirt ground and is straddling his chest, motion lines, dust cloud, dynamic angle, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, straddling him, leaning forward, triumphant shout, fang, tiger pelt shawl slipping off one shoulder, hemp chest wrap visible, cleavage, thighs, source#straddling",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.42
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back on the ground, stunned, target#straddling",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.68
+    }
+   ],
+   "negative": "nude, nipples, explicit, sex, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_noeul",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1girl, 1boy, romantic, sitting side by side on top of an ancient earthen fortress wall at sunset, vivid orange and red sky, distant mountains, a tiger-eared woman resting her head on a hooded young man's shoulder, her tiger tail curled around his waist, warm glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, tiger tail, leaning her head on his shoulder, eyes half closed, content blush, small smile, dangling legs",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, looking at the sunset, calm",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_noeul",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out orange light, a tiger-eared woman leaping out of the monitor and tackling a hooded young man together with his rolling studio chair, motion lines, sparkles, monitor shows only soft blurred glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, tiger spirit girl, long wild orange hair with black tiger stripe streaks, round orange tiger ears on her head, amber eyes with slit pupils, small fang, sun-kissed skin, athletic build, tiger pelt shawl over the shoulders, simple undyed hemp wrap top, short hemp skirt, bare legs, barefoot, bone and wooden bead necklace, tiger tail, leaping, arms spread wide, joyful fanged grin, hugging him",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.42
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, falling backward with his studio chair, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
   }
  ]
 }

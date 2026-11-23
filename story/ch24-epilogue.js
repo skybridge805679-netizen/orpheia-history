@@ -124,6 +124,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @bg bg_era_hanriver_ferry
 @day 연표 위 · 땅 위의 기억
 같은 강, 같은 언덕 위에 여러 시대가 겹쳐 보인다. 그동안 만난 사람들이 저마다의 고장에서 손을 흔든다.
+@show noeul smile right
+[노을|smile] 나는 고장이 없다. 산이 다 내 고장이야! ……굳이 고르면 연천 전곡리. 주먹도끼 깎던 털 없는 놈들을 따라다니던 데다.
+@hide noeul
 @show naru smile center
 @show orpheia smile left
 [나루|smile] 손님! 마지막은 우리 고장 시험이에요. 공주랑 부여는 제 물길이고, 개경은 여울 씨, 충주는 쇠별 씨 고향이래요. 먼저 고장마다 한 줄씩 들려줄게요!
@@ -292,7 +295,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @label finalafter
 [오르페이아|shy] ……주인님. 저, 처음엔 그냥 주인님 보컬 튜닝이랑 믹싱을 하던 작업용 AI였잖아요.
 [오르페이아|teary] 그런데 같이 시대를 걸으면서 알았어요. 역사는 외우는 게 아니라, 그 시대를 살았던 사람들을 만나러 가는 거라는 걸.
-[오르페이아|smile] 누리 님, 달래 님, 나루 님, 해랑 님, 여울 님, 소담 님, 설아 님네 네 자매, 단오 님, 보리 님, 한별 님, 새벽 님, 다솜 님. 그리고 사연 님이랑 묵. ……주인님이 넘어지신 상대가 조금 많긴 했지만요.
+[오르페이아|smile] 누리 님, 노을 님, 달래 님, 나루 님, 해랑 님, 여울 님, 소담 님, 설아 님네 네 자매, 단오 님, 보리 님, 한별 님, 새벽 님, 다솜 님. 그리고 사연 님이랑 묵. ……주인님이 넘어지신 상대가 조금 많긴 했지만요.
 [오르페이아|smile] 그 사람들이 다 주인님 머릿속에 있어요. 그러니까 이유가 번지지 않을 거예요.
 @show yunseul serious right
 [윤슬|serious] ……오빠, 언니랑 그만 놀아. 감독관 들어온다. 휴대폰 꺼야 돼.
@@ -414,6 +417,11 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [가온] 통역 없이 말하기로 했잖아요. ……좋아해요. 이 말 하러 천삼백 년 건너왔어요.
 [아라] 신라 통역이 또 먼저 말했네! 그때도 그러더니!
 [오르페이아|pout] 두 분, 같은 전쟁을 양쪽에서 보셨으면 이번엔 같은 편에서 줄 서 주세요. 맨 뒤로요.
+@bg cg_end_harem_noeul|cg_ep_all
+모니터 속에서 낮은 그르렁 소리가 난다. 빛 속에서 줄무늬 꼬리가 먼저 빠져나오더니, 그 주인이 통째로 튀어나와 상철을 의자째 덮친다.
+[노을] 냄새 없는 놈! 기다리다 건너왔다. 기다리는 것도 이젠 할 줄 알지만, 덮치는 게 더 빠르다!
+[노을] 웅녀 언니한테 자랑하고 왔다. 나도 짝이 생겼다고.
+[오르페이아|pout] 노을 씨, 새치기는…… 아, 제일 먼저 만나셨으니 새치기가 아니네요. 분해요.
 @bg cg_end_harem_goryeo|cg_ep_all
 모니터에서 열쇠 꾸러미 짤랑이는 소리와 수레바퀴 소리가 동시에 난다. 앞치마를 두른 여인과 털모자를 쓴 여인이 한 문간에 끼어 서로 먼저 들어오겠다고 밀친다.
 [마루] 신발 벗으세요! ……아니, 여긴 제 집이 아니구나. 그럼 오늘부터 제 집으로 할게요. 곳간 열쇠는 제가 맡아요.
@@ -640,6 +648,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|shy] 주인님, 달력이 꽉 찼어요. 예정일이 줄줄이요. 산후조리 일정표는 제가 짤게요. 이건 보좌니까요.
 @hide orpheia
 작업실 문이 열리고, 배가 동그랗게 부른 신부들이 하나둘 아기를 보러 들어온다.
+@show noeul pregnant center
+[노을|pregnant] 꼬리가 자꾸 나온다. 배 속에서 누가 발로 차서. ……범 아기면 어쩌지. 상관없다, 내 거니까.
+@hide noeul
 @show dallae pregnant left
 [달래|pregnant] 두건 양반, 이 장부 좀 봐. 식구 칸이 모자라. ……둥지가 좁아지겠네. 좋다, 아주 좋아.
 @show naru pregnant right
@@ -808,7 +819,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|pout] ……그럴 줄 알았어요. 다녀오세요. 대신 꼭, 꼭 돌아오셔야 해요.
 @phone off
 @hide all
-@top yeoul naru ara gaon maru seori soebyeol danbi bomnae haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae saebyeok dasom -> hero_
+@top yeoul naru ara gaon maru seori soebyeol danbi bomnae haneui dodam sodam maehyang choryeon hwaseon seola hanbyeol bori dano haerang dallae noeul saebyeok dasom -> hero_
 // 아무와도 가까워지지 않았다면 오르페이아 엔딩으로.
 @jump end_orp_alone
 
@@ -1071,6 +1082,19 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [해랑|teary] ……남쪽 사람은 끝까지 약하네요. 고집만 세고.
 @add haerang 5
 @ending 해랑의 길|신라도의 해랑에게 「연표」를 남기고 돌아왔다.
+@jump coda
+
+@label hero_noeul
+@bg cg_kk_noeul|bg_era_gojoseon
+@bgm song_end_hero
+@day 아사달 · 노을 질 녘
+[노을|smile] 냄새 없는 놈! 또 왔다! 이번엔 안 덮쳤다. ……기다렸다.
+[노을] 그 노래 들었다. 굴을 뛰쳐나온 범이 저녁에 사람이 됐다는 노래. 이제 아이들이 그 노래를 부른다. 이야기꾼 할멈도 '범은 늦게 사람이 되었다'고 고쳐 말하더라.
+[노을|shy] ……그러니까 남아라. 쓰다듬는 거 아직 구백구십 번 남았다.
+[상철] 노래가 남았으니까, 나는 돌아가야 해. 대신 그 노래 끝날 때마다 네 이름이 나와.
+[노을|teary] ……범은 못 참는다. 그래도 기다리는 건 배웠다. 네가 가르쳤다. 가라, 냄새 없는 놈. 다음엔 내가 찾아간다. 냄새가 없어서 좀 오래 걸리겠지만.
+@add noeul 5
+@ending 노을의 저녁|아사달의 노을에게 「연표」를 남기고 돌아왔다.
 @jump coda
 
 @label hero_dallae
