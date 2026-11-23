@@ -58,7 +58,8 @@ const ALIAS={'봄내':'bomnae','쇠별':'soebyeol','단비':'danbi','마루':'ma
 const EXPR_FX={surprised:'shake',excited:'hop',smile:'hop',shy:'hop',pout:'tilt',worry:'sink',stern:'nod'};
 const OLD={};
 const MISSING=new Set();
-const ENDING_COUNT=5; // 종장의 엔딩 수(오르페이아·히로인·묵·낙방·히든 하렘). 엔딩을 늘리면 같이 고친다.
+// 엔딩 수: 대본의 @ending 제목 가짓수를 센다(오르페이아·히로인 25·묵·낙방·히든 하렘 = 29). 엔딩을 늘려도 따로 고칠 필요 없다.
+const endingCount=()=>new Set(chapters.flatMap(c=>c.ops.filter(o=>o.t==='ending').map(o=>String(o.arg).split('|')[0].trim()))).size;
 // 배틀 뒤의 묵: 찢어진 단계(S.mukDmg 1~3)에 맞는 스탠딩. 그 장이 끝나면 먹물이 다시 차올라 원래 옷으로 돌아온다.
 const MUK_DMG={1:{angry:'angry',lonely:'lonely',surprised:'surprised',smile:'smile',smirk:'angry',neutral:'angry'},
  2:{angry:'angry',lonely:'lonely',surprised:'shy',smile:'shy',smirk:'angry',neutral:'shy',shy:'shy'},
@@ -585,7 +586,7 @@ function finishChapter(next){
  const i=chapters.indexOf(curCh()),nx=next?byId[next]:chapters[i+1];meta.flags={...S.flags};persist();
  if(nx){reach(nx.id);S={...fresh(nx.id),flags:S.flags,day:S.day,phone:S.phone};autosave('장 시작');paint();return step();}
  busy=true;S.line=null;paint();const c=$('#vnCard');c._tok=(c._tok||0)+1;c.onclick=null;c.className='vn-card chapter';c.hidden=false;$('#vnBox').classList.add('quiet');
- const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END${S.ending?` · ${esc(S.ending.t)}`:''}</small><h2>연표의 끝에서</h2>${S.ending?.d?`<p><b>${esc(S.ending.d)}</b></p>`:''}<p>본 엔딩 ${(records.endings||[]).length}/${ENDING_COUNT}. 선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
+ const done=curCh().id==='ep';c.innerHTML=done?`<img class="vn-crest end" src="${asset('emblem_gold.webp')}" alt=""><small>THE END${S.ending?` · ${esc(S.ending.t)}`:''}</small><h2>연표의 끝에서</h2>${S.ending?.d?`<p><b>${esc(S.ending.d)}</b></p>`:''}<p>본 엔딩 ${(records.endings||[]).length}/${endingCount()}. 선사부터 오늘까지, 주인님과 함께 걸었어요. 이야기 속에서 처음 맞힌 기출 ${S.flags.quizAll||0}문항. 틀린 문제는 오답 노트에서 묵이 기다리고 있어요. 타이틀의 「기출 풀기」에서 언제든 다시 읽어 주세요.</p><button class="primary">타이틀로</button>`:`<small>TO BE CONTINUED</small><h2>다음 시대는 준비 중이에요</h2><p>주인님, 여기까지 함께해 주셔서 고마워요. 타이틀의 「기출 풀기」에서 550문항을 언제든 다시 풀 수 있어요.</p><button class="primary">타이틀로</button>`;
  c.querySelector('button').onclick=e=>{e.stopPropagation();busy=false;title();};
 }
 
@@ -640,14 +641,14 @@ function gallery(tab='cg'){
  const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.cgSeen||[]),heard=new Set(records.bgmHeard||[]),ends=records.endings||[];
  const groups=galleryCgs(),total=groups.reduce((n,g)=>n+g.list.length,0),opened=groups.reduce((n,g)=>n+g.list.filter(k=>got.has(k)).length,0);
  const songs=[...BGM.songs,'song_end_orpheia','song_end_fail'],bgms=Object.keys(BGM_TITLE);
- const tabs=`<nav class="gl-tabs">${[['cg',`CG ${opened}/${total}`],['music',`음악 감상 ${[...songs,...bgms].filter(n=>heard.has(n)||n==='bgm_title').length}/${songs.length+bgms.length}`],['scene',`회상 ${sceneList().filter(x=>got.has(x.k)).length}/${sceneList().length}`],['end',`엔딩 ${ends.length}/${ENDING_COUNT}`],['muk','묵 의상 도감']].map(([k,v])=>`<button data-tab="${k}" class="${k===tab?'on':''}">${v}</button>`).join('')}</nav>`;
+ const tabs=`<nav class="gl-tabs">${[['cg',`CG ${opened}/${total}`],['music',`음악 감상 ${[...songs,...bgms].filter(n=>heard.has(n)||n==='bgm_title').length}/${songs.length+bgms.length}`],['scene',`회상 ${sceneList().filter(x=>got.has(x.k)).length}/${sceneList().length}`],['end',`엔딩 ${ends.length}/${endingCount()}`],['muk','묵 의상 도감']].map(([k,v])=>`<button data-tab="${k}" class="${k===tab?'on':''}">${v}</button>`).join('')}</nav>`;
  let body='';
  if(tab==='cg')body=groups.map(g=>{const sets=[];for(const k of g.list){const b=varBase(k),last=sets[sets.length-1];if(last&&last.b===b)last.v.push(k);else sets.push({b,v:[k]});}
   return `<h3 class="gl-h">${esc(g.t)}</h3><div class="mg-grid">${sets.map(st=>{const own=st.v.filter(k=>got.has(k));return `<figure class="mg-card${own.length?'':' locked'}"><div class="mg-main" data-set="${own.join(',')}">${own.length?`<img loading="lazy" src="${asset(own[0]+'.webp')}" alt="">`:'<span class="gl-lock">?</span>'}</div>${st.v.length>1?`<figcaption><small>차분</small><b>${own.length} / ${st.v.length}</b></figcaption>`:''}</figure>`;}).join('')}</div>`;}).join('');
  if(tab==='scene'){const L=sceneList();body=`<p class="mg-sum">본 장면을 그 CG가 뜨는 곳부터 다시 봐요. 장면이 끝나면 여기로 돌아와요.</p>`+[...chapters,...sides].map(c=>{const xs=L.filter(x=>x.ch===c.id);return xs.length?`<h3 class="gl-h">${esc(c.side?`${c.title} · ${c.subtitle}`:c.title)}</h3><div class="mg-grid">${xs.map(x=>`<figure class="mg-card${got.has(x.k)?'':' locked'}"><div class="mg-main gl-replay" data-rp="${got.has(x.k)?L.indexOf(x):''}">${got.has(x.k)?`<img loading="lazy" src="${asset(x.k+'.webp')}" alt=""><span class="gl-play">▶ 회상</span>`:'<span class="gl-lock">?</span>'}</div></figure>`).join('')}</div>`:'';}).join('');}
  if(tab==='music'){const row=(n,t)=>{const on=heard.has(n)||n==='bgm_title';return `<li class="${on?'':'locked'}"><button data-play="${n}" ${on?'':'disabled'}>▶</button><span>${on?esc(t):'？？？'}</span><small>${n.startsWith('song_ch')?'TRACK '+n.slice(-2):''}</small></li>`;};
   body=`<p class="mg-sum">이야기에서 한 번 들은 곡이 열려요. 다시 누르면 멈춰요.</p><h3 class="gl-h">노래</h3><ul class="gl-music">${songs.map(n=>row(n,SONG_TITLE[n]||n)).join('')}</ul><h3 class="gl-h">배경 음악</h3><ul class="gl-music">${bgms.map(n=>row(n,BGM_TITLE[n])).join('')}</ul>`;}
- if(tab==='end')body=`<p class="mg-sum">본 엔딩 ${ends.length} / ${ENDING_COUNT}</p><ul class="gl-end">${ends.map(e=>`<li>✦ ${esc(typeof e==='string'?e:e.t||'')}</li>`).join('')||'<li class="locked">아직 본 엔딩이 없어요.</li>'}${Array.from({length:Math.max(0,ENDING_COUNT-ends.length)},()=>'<li class="locked">？？？</li>').join('')}</ul>`;
+ if(tab==='end')body=`<p class="mg-sum">본 엔딩 ${ends.length} / ${endingCount()}</p><ul class="gl-end">${ends.map(e=>`<li>✦ ${esc(typeof e==='string'?e:e.t||'')}</li>`).join('')||'<li class="locked">아직 본 엔딩이 없어요.</li>'}${Array.from({length:Math.max(0,endingCount()-ends.length)},()=>'<li class="locked">？？？</li>').join('')}</ul>`;
  d.innerHTML=`<div class="dialog-header"><div><small>GALLERY</small><h2>갤러리</h2></div><button class="quiet" data-close>닫기 ×</button></div>${tabs}<div class="gl-body">${body}</div><div class="mg-view" hidden><img alt=""></div>`;
  const close=()=>{d.close();d.className='';if(tab==='music')BGM.play('bgm_title');};
  d.querySelector('[data-close]').onclick=close;
@@ -759,5 +760,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {_export:()=>({CAST,MOB_TYPES,MOB_BY_NAME,ALIAS,EXPR_FX,HANBOK_EXPR:[...HANBOK_EXPR],HANBOK_CH:[...HANBOK_CH],COSTUME:Object.fromEntries(Object.entries(COSTUME).map(([k,v])=>[k,[...v]])),COSTUME_EXPR:Object.fromEntries(Object.entries(COSTUME_EXPR).map(([k,v])=>[k,[...v]])),SAYEON_DMG_OK,ENDING_COUNT,SONG_TITLE,BGM_TITLE,MUK_TAUNT,MUK_BREAK,MUK_SERIOUS,MUK_MISS,ORP_BUG,MUK_BUG,SAYEON_TAUNT,SAYEON_BREAK,SAYEON_MISS,SAYEON_BUG,ALLY_SAYEON_GO,ALLY_SAYEON_BREAK,ALLY_SAYEON_MISS,ORP_MISS,ORP_COMBO,chapters:chapters.map(c=>({id:c.id,title:c.title,subtitle:c.subtitle,ops:c.ops,labels:c.labels}))}),_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
+return {_export:()=>({CAST,MOB_TYPES,MOB_BY_NAME,ALIAS,EXPR_FX,HANBOK_EXPR:[...HANBOK_EXPR],HANBOK_CH:[...HANBOK_CH],COSTUME:Object.fromEntries(Object.entries(COSTUME).map(([k,v])=>[k,[...v]])),COSTUME_EXPR:Object.fromEntries(Object.entries(COSTUME_EXPR).map(([k,v])=>[k,[...v]])),SAYEON_DMG_OK,ENDING_COUNT:endingCount(),SONG_TITLE,BGM_TITLE,MUK_TAUNT,MUK_BREAK,MUK_SERIOUS,MUK_MISS,ORP_BUG,MUK_BUG,SAYEON_TAUNT,SAYEON_BREAK,SAYEON_MISS,SAYEON_BUG,ALLY_SAYEON_GO,ALLY_SAYEON_BREAK,ALLY_SAYEON_MISS,ORP_MISS,ORP_COMBO,chapters:chapters.map(c=>({id:c.id,title:c.title,subtitle:c.subtitle,ops:c.ops,labels:c.labels}))}),_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
 })();
