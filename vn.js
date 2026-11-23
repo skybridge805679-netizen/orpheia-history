@@ -17,7 +17,7 @@ const CAST={
  muk:{name:'묵',cls:'c-muk',stand:{neutral:'st_muk_neutral',smirk:'st_muk_smirk',angry:'st_muk_angry',surprised:'st_muk_surprised',lonely:'st_muk_lonely',smile:'st_muk_smile'}},
  nuri:{name:'누리',cls:'c-other',stand:{paleo:'st_nuri_paleo',neo:'st_nuri_neo',bronze:'st_nuri_bronze'}},
  dallae:{name:'달래',cls:'c-other',stand:{pregnant:'st_dallae_pregnant',neutral:'st_dallae_smile',smile:'st_dallae_smile',worry:'st_dallae_worry',shy:'st_dallae_shy',angry:'st_dallae_angry',teary:'st_dallae_teary',surprised:'st_dallae_surprised'}},
- naru:{name:'나루',cls:'c-other',stand:{pregnant:'st_naru_pregnant',baekje:'st_naru_baekje',goguryeo:'st_naru_goguryeo',silla:'st_naru_silla',sea:'st_naru_sea',joseon:'st_naru_joseon'}},
+ naru:{name:'나루',cls:'c-other',stand:{pregnant:'st_naru_pregnant',neutral:'st_naru_smile',smile:'st_naru_smile',shy:'st_naru_shy',surprised:'st_naru_surprised',angry:'st_naru_angry',teary:'st_naru_teary',serious:'st_naru_serious',worry:'st_naru_serious',pout:'st_naru_pout',baekje:'st_naru_smile',goguryeo:'st_naru_smile',silla:'st_naru_smile',sea:'st_naru_smile',joseon:'st_naru_smile'}},   // 나루 = 건넘의 신령(2026.11 주인님 지정), 시대가 바뀌어도 같은 옷
  hyejin:{name:'혜진',cls:'c-other',stand:{neutral:'st_hyejin_neutral',smile:'st_hyejin_smile',surprised:'st_hyejin_surprised',serious:'st_hyejin_serious',angry:'st_hyejin_angry',pout:'st_hyejin_pout'}},   // 외전 「열여덟 무당의 야간 근무」
  yunseul:{name:'윤슬',cls:'c-yunseul',stand:{neutral:'st_yunseul_neutral',smile:'st_yunseul_smile',surprised:'st_yunseul_surprised',pout:'st_yunseul_pout',serious:'st_yunseul_serious',shy:'st_yunseul_shy',angry:'st_yunseul_angry',teary:'st_yunseul_teary'}},
  haerang:{name:'해랑',cls:'c-other',stand:{pregnant:'st_haerang_pregnant',neutral:'st_haerang_smile',smile:'st_haerang_smile',serious:'st_haerang_serious',worry:'st_haerang_serious',shy:'st_haerang_shy',angry:'st_haerang_angry',teary:'st_haerang_teary',surprised:'st_haerang_surprised'}},
@@ -66,9 +66,9 @@ const HANBOK_EXPR=new Set(['neutral','smile','worry','explain','surprised','pout
 const HANBOK_CH=new Set(['ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09','ch10','ch11','ch12','ch13','ch14','ch15']);
 function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.outfit==='maid')return false;return HANBOK_CH.has(S.ch)&&/(^|\/)bg_era_/.test(String(S.bg||''));}
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
-// 시대 옷으로 그린 인물(나루): @show의 옷을 기억하고, 표정 그림은 옷별로(st_naru_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
-const COSTUME={naru:new Set(['baekje','goguryeo','silla','sea','joseon']),saebyeok:new Set(['mom'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
-const COSTUME_EXPR={naru:new Set(['smile','shy','surprised','angry','teary']),saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
+// 옷을 바꿔 그린 인물: @show의 옷을 기억하고, 표정 그림은 옷별로(st_<id>_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
+const COSTUME={saebyeok:new Set(['mom'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
+const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
 // 같은 자리에 두 사람이 겹쳐 서지 않게 한다. keep(방금 @show 한 사람)은 그 자리를 지키고, 겹친 사람은 원래 자리(home)가 비었으면 거기로, 아니면 빈자리로 옮긴다.
