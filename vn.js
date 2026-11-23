@@ -660,6 +660,35 @@ function gallery(tab='cg'){
  d.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>{const n=b.dataset.play,on=b.classList.contains('playing');d.querySelectorAll('[data-play]').forEach(x=>{x.classList.remove('playing');x.textContent='▶';});if(on){BGM.play('');return;}b.classList.add('playing');b.textContent='■';BGM.play(n);});
  if(!d.open)d.showModal();
 }
+// ── 인물 프로필: 엔딩을 하나라도 본 뒤 열린다(data/profiles.js). 혜진은 히든 엔딩 뒤.
+function profileOpen(){return (records.endings||[]).length>0;}
+function profiles(sel){
+ const P=(window.PROFILES||[]).filter(p=>p.id!=='hyejin'||(records.endings||[]).includes('연표의 신부들'));
+ const d=$('#vnLog');d.className='sheets gallery profiles';
+ const face=(id,e='smile')=>{const s=CAST[id]?.stand||{};const f=s[e]||s.smile||s.neutral;return f?asset(f+'.webp'):asset('emblem_gold.webp');};
+ const looks=p=>{const s=CAST[p.id]?.stand||{},o=[['smile','기본']];if(s.shy)o.push(['shy','부끄러움']);if(HOME_IDS.includes(p.id))o.push(['home','집옷']);if(s.pregnant)o.push(['pregnant','임신']);return o;};
+ const lookSrc=(p,k)=>k==='home'?asset(`st_${p.id}_home.webp`):face(p.id,k);
+ const groups=[...new Set(P.map(p=>p.group))];
+ const list=`<div class="pf-list">${groups.map(g=>`<h3 class="gl-h">${esc(g)}</h3><div class="pf-grid">${P.filter(p=>p.group===g).map(p=>`<button class="pf-card${p.id===sel?' on':''}" data-pf="${p.id}"><span class="pf-face"><img loading="lazy" src="${face(p.id)}" alt=""></span><b>${esc(p.name)}</b><small>${esc(p.sub)}</small></button>`).join('')}</div>`).join('')}</div>`;
+ let body=list;
+ const p=P.find(x=>x.id===sel);
+ if(p){const i=P.indexOf(p),L=looks(p);
+  body=`<div class="pf-detail"><div class="pf-art"><img class="pf-stand" src="${face(p.id)}" alt="">${L.length>1?`<div class="pf-looks">${L.map(([k,t],j)=>`<button data-look="${k}" class="${j?'':'on'}">${t}</button>`).join('')}</div>`:''}</div>
+  <div class="pf-info"><small>${esc(p.group)} · ${esc(p.sub)}</small><h2>${esc(p.name)}</h2>
+  <table class="pf-table"><tr><th>나이</th><td><b>${esc(p.age)}</b>${p.ageNote?`<br><small>${esc(p.ageNote)}</small>`:''}</td></tr><tr><th>온 시대</th><td>${esc(p.era)}</td></tr><tr><th>신장</th><td>${esc(p.height)}</td></tr><tr><th>체중</th><td>${esc(p.weight)}</td></tr><tr><th>B · W · H</th><td>${esc(p.bwh)}</td></tr></table>
+  <p class="pf-desc">${esc(p.desc)}</p>
+  <table class="pf-table"><tr><th>좋아하는 것</th><td>${esc(p.likes)}</td></tr><tr><th>싫어하는 것</th><td>${esc(p.dislikes)}</td></tr><tr><th>취미</th><td>${esc(p.hobby)}</td></tr><tr><th>특기</th><td>${esc(p.skill)}</td></tr></table>
+  <h4>TMI</h4><ul class="pf-tmi">${(p.tmi||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+  <div class="pf-nav"><button data-pf="${P[(i-1+P.length)%P.length].id}">◀ ${esc(P[(i-1+P.length)%P.length].name)}</button><button data-back>목록</button><button data-pf="${P[(i+1)%P.length].id}">${esc(P[(i+1)%P.length].name)} ▶</button></div></div></div>`;
+ }
+ d.innerHTML=`<div class="dialog-header"><div><small>CHARACTERS</small><h2>인물 프로필</h2></div><button class="quiet" data-close>닫기 ×</button></div><div class="gl-body">${body}</div>`;
+ d.querySelector('[data-close]').onclick=()=>{d.close();d.className='';};
+ d.querySelectorAll('[data-pf]').forEach(b=>b.onclick=()=>profiles(b.dataset.pf));
+ d.querySelector('[data-back]')?.addEventListener('click',()=>profiles());
+ if(p)d.querySelectorAll('[data-look]').forEach(b=>b.onclick=()=>{d.querySelectorAll('[data-look]').forEach(x=>x.classList.toggle('on',x===b));const im=d.querySelector('.pf-stand');im.onerror=()=>{im.onerror=null;im.src=face(p.id);};im.src=lookSrc(p,b.dataset.look);});
+ d.querySelector('.gl-body').scrollTop=0;
+ if(!d.open)d.showModal();
+}
 // ── 장 선택: 한 번 들어간 장은 타이틀에서 처음부터 다시 볼 수 있다(records.chReached).
 function reach(id){const a=records.chReached||(records.chReached=[]);if(!a.includes(id)){a.push(id);save();}}
 function chapterSelect(){const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.chReached||[]);
@@ -738,9 +767,9 @@ function title(){
  const art=(records.endings||[]).length?'cg_title_clear':'cg_title';
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg vn-title-art" src="${asset(art+'.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
- <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="load" ${cont?'':'disabled'}>💾 불러오기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button>${sideOpen().map(x=>`<button data-t="side" data-s="${x.id}">${x.icon} 외전 · ${esc(byId[x.id].subtitle)}</button>`).join('')}<button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
+ <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="load" ${cont?'':'disabled'}>💾 불러오기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button>${sideOpen().map(x=>`<button data-t="side" data-s="${x.id}">${x.icon} 외전 · ${esc(byId[x.id].subtitle)}</button>`).join('')}<button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button>${profileOpen()?'<button data-t="prof">👤 인물 프로필</button>':''}<button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
  <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
- const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),chsel:chapterSelect,load:()=>slots('load',true),side:id=>{S=fresh(id||'sp_aunt');log=[];shell();paint();step();}};
+ const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),prof:()=>profiles(),chsel:chapterSelect,load:()=>slots('load',true),side:id=>{S=fresh(id||'sp_aunt');log=[];shell();paint();step();}};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t](b.dataset.s));
  // 타이틀 일러스트: 있으면 그 그림을 크게 깔고 스탠딩은 숨긴다. 엔딩을 본 뒤에는 새벽 작업실 그림, 없으면 기본 그림 → 연표 터널 배경 + 스탠딩.
  const bg=$('.vn-title-art'),sec=$('.vn-title');

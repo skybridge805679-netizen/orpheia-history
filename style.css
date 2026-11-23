@@ -637,3 +637,25 @@ dialog#vnLog.nb[open]{display:flex}
 @keyframes vbhHit{0%{background:#fff;box-shadow:0 0 16px #fff;transform:skewX(-20deg) scaleY(2.2)}100%{}}
 #vn:has(#vnBattleHud) .qz{padding-bottom:calc(2.2vh + 74px)}
 @media (max-width:640px){.vbh-wrap{height:54px}.vbh-face{width:40px;height:40px}.vbh-side{padding:0 18px;gap:6px}.vbh-info em{display:none}.vbh-vs{font-size:18px}.vbh-info b small{display:none}}
+
+/* ── 인물 프로필 */
+.pf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px;margin-bottom:14px}
+.pf-card{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px 8px;background:#fffdf6;border:1px solid var(--paper-edge);border-radius:2px;cursor:pointer;font:13px var(--f-ui);color:var(--ink)}
+.pf-card:hover,.pf-card.on{border-color:var(--seal);box-shadow:0 0 0 1px var(--seal)}
+.pf-card small{font-size:11px;opacity:.7;text-align:center;line-height:1.25}
+.pf-face{width:96px;height:96px;overflow:hidden;border-radius:50%;background:linear-gradient(#f3ead8,#e7dcc4)}
+.pf-face img{width:220%;margin-left:-60%;margin-top:-4%}
+.pf-detail{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:20px;align-items:start}
+.pf-art{position:sticky;top:0;text-align:center;background:radial-gradient(circle at 50% 40%,#fff8e6,#efe3c8);border-radius:2px;padding:8px}
+.pf-stand{max-width:100%;max-height:72vh;object-fit:contain}
+.pf-looks{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+.pf-looks button,.pf-nav button{border:1px solid var(--paper-edge);background:transparent;color:var(--ink);padding:4px 10px;border-radius:2px;cursor:pointer;font:13px var(--f-ui)}
+.pf-looks button.on{background:var(--seal);color:#fff;border-color:var(--seal)}
+.pf-info h2{margin:2px 0 10px}.pf-info h4{margin:14px 0 6px}
+.pf-table{width:100%;border-collapse:collapse;margin:6px 0;font-size:14px}
+.pf-table th{width:7.5em;text-align:left;vertical-align:top;padding:5px 8px;background:#f4ecda;border-bottom:1px solid #fff;font-weight:600}
+.pf-table td{padding:5px 8px;border-bottom:1px solid #eee3cc}
+.pf-desc{line-height:1.7;margin:10px 0}
+.pf-tmi{margin:0;padding-left:1.2em;line-height:1.7}
+.pf-nav{display:flex;justify-content:space-between;gap:6px;margin-top:16px}
+@media (max-width:720px){.pf-detail{grid-template-columns:1fr}.pf-art{position:static}.pf-stand{max-height:46vh}}
