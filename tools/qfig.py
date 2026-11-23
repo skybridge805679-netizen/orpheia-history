@@ -90,7 +90,7 @@ th{{background:#f1e3ee;font-weight:bold}}
 .tamgu th,.sheet th,.fld th{{width:120px}}
 .dap{{border:2px solid #b07a3c;border-radius:12px;padding:16px 18px;background:#fff8ef}}.dap th{{background:#f3dfc4}}
 .poster{{background:linear-gradient(#22344c,#3d5877);color:#fff;border-radius:12px;padding:22px 26px;text-align:center}}.poster small{{display:block;font-size:16px;opacity:.85;letter-spacing:.1em}}.poster h3{{font:bold 32px B,serif;margin:8px 0 6px}}.poster .sub{{font-size:19px;margin-bottom:14px}}
-.poster ul{{text-align:left;background:#ffffff1a;border-radius:10px;padding:12px 16px 12px 36px;margin:0 0 12px;font-size:19px;line-height:1.8}}.poster .foot{{font-size:16px;opacity:.9}}
+.poster .blank{{color:#1d1a16}}.poster ul{{text-align:left;background:#ffffff1a;border-radius:10px;padding:12px 16px 12px 36px;margin:0 0 12px;font-size:19px;line-height:1.8}}.poster .foot{{font-size:16px;opacity:.9}}
 .lec{{border:2px solid #3f7f8c;border-radius:12px;padding:16px 18px;background:#f1fafb}}.lec th{{background:#cfe7ea}}.lec .foot{{font-size:16px;margin-top:8px;text-align:right}}
 .fld{{border:2px solid #777;border-radius:10px;padding:16px 18px;background:#fff}}.fld th{{background:#e9ecef}}
 .bub .lab{{display:inline-block;font-weight:bold;color:#fff;background:#1d5c55;border-radius:6px;padding:0 8px;margin-right:6px}}
