@@ -307,7 +307,7 @@ function paint(){
  if(!$('#vn'))shell();
  const bg=$('#vnBg');if(bg&&S.bg&&bg.dataset.f!==S.bg){bg.dataset.f=S.bg;bg.style.visibility='';bg.onload=()=>{bg.dataset.ok=bg.src;seeCg(bg.src);};bg.onerror=()=>{const alt=S.bgAlt&&asset(S.bgAlt);if(alt&&!bg.src.endsWith(S.bgAlt)){bg.src=alt;return;}if(bg.dataset.ok&&bg.src!==bg.dataset.ok)bg.src=bg.dataset.ok;else bg.style.visibility='hidden';};bg.src=asset(S.bg);}   // 아직 생성되지 않은 그림이면 직전 배경을 그대로 둔다
  paintChars();paintPhoto();paintMood();paintCutin();
- $('#vnDay').textContent=S.day;
+ {const [m,sub]=String(S.day||'').split('|');$('#vnDay').innerHTML=m?esc(m)+(sub?`<small class="vn-day-era">${esc(sub)}</small>`:''):'';}
  const l=S.line,box=$('#vnBox');
  box.className='vn-box'+(l?.who?' '+(CAST[l.who]?.cls||'c-other'):' is-narr');
  $('#vnWho').textContent=l?.who?nameOf(l.who):'';$('#vnName').hidden=!l?.who;
@@ -345,7 +345,7 @@ const HIT={black:['',900],thud:['thud',600],pulse:['heartbeat',1900],glitch:['vb
 function paintMood(){const vn=$('#vn');if(!vn)return;for(const k of MOOD)vn.classList.toggle('mood-'+k,(S.mood||[]).includes(k));}
 function card(kind,a,b){
  paint();busy=true;S.line=null;const c=$('#vnCard');$('#vnBox').classList.add('quiet');
- c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><img class="vn-crest scroll" src="${asset('emblem_gold.webp')}" alt=""><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<div class="vn-dive-emblem"><img src="${asset('emblem_white.webp')}" alt=""><i></i></div><em class="vn-dive-tag">ORPHEIA · MV SCENE ENGINE</em><small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><img class="vn-hud-emblem" src="${asset('emblem_gold.webp')}" alt=""><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
+ c.className='vn-card '+kind;c.hidden=false;if(kind==='chapter')SFX.play('card');c.innerHTML=kind==='chapter'?(()=>{const [m,...sub]=String(b).split(' — ');return `<div class="vn-scroll"><img class="vn-crest scroll" src="${asset('emblem_gold.webp')}" alt=""><span class="vn-seal">${esc(a)}</span><h2>${esc(m)}</h2>${sub.length?`<p>${esc(sub.join(' — '))}</p>`:''}</div>`;})():kind==='dive'?`<div class="vn-dive-emblem"><img src="${asset('emblem_white.webp')}" alt=""><i></i></div><em class="vn-dive-tag">ORPHEIA · MV SCENE ENGINE</em><small>${esc(a)}</small><h2>${esc(b)}</h2>`:kind==='hud'?`<div class="vn-hud"><img class="vn-hud-emblem" src="${asset('emblem_gold.webp')}" alt=""><b>${esc(a)}</b><pre>${esc(b)}</pre></div>`:kind==='day'?(()=>{const [m,sub]=String(a).split('|');return `<p>${esc(m)}${sub?`<small class="vn-day-era">${esc(sub)}</small>`:''}</p>`;})():`<p>${esc(a)}</p>`;if(kind==='hud')SFX.play('card');
  const tok=c._tok=(c._tok||0)+1;const done=()=>{if(c.hidden||c._tok!==tok)return;c.hidden=true;$('#vnBox')?.classList.remove('quiet');busy=false;S.pc++;step();};
  c.onclick=e=>{e.stopPropagation();done();};setTimeout(done,skip?150:kind==='hud'?4200:kind==='chapter'||kind==='dive'?2600:1700);
 }
