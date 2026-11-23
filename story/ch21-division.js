@@ -81,7 +81,9 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @dive 1948년|제주, 그리고 5월 10일
 @bg bg_era_jeju_43
 @day 제주 중산간 마을 · 훗날
+@bg cg_ch21_jeju|bg_era_jeju_43
 돌담만 남은 마을. 바람이 분다. 비석 앞에 할머니 한 분이 앉아 있다.
+@bg bg_era_jeju_43
 @show orpheia teary left
 [이야기꾼] (제주 할머니) 이 비석에 새긴 건 현기영 소설 「순이삼촌」이야. 남한만 따로 선거하는 걸 반대한 무장대랑 그걸 누르는 토벌대 사이에서, 우리 마을 사람들이……. 기록물이 1만 4천 건이 넘는대. 세계 기록 유산이 됐다고.
 [이야기꾼] 베를린 장벽 조각도 기증받았지. 손님, 이 할미가 손님한테 숙제를 하나 내지. 오래 입도 못 뗀 이 일을 나라가 어떻게 바로잡았는지 맞히면, 우리 남편 이름 있는 데까지 같이 가 주시게.
@@ -284,7 +286,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @show orpheia smile left
 [새벽|smile] 아이들이 커서, 이 나라를 더 좋은 나라로 만들 거예요. 저는 그렇게 믿어요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

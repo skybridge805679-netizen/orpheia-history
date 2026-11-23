@@ -152,7 +152,10 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @dive 1979년|가발 공장에서 부산과 마산으로
 @bg bg_era_party_hall_1979|bg_era_neighborhood_1970s
 @day 서울 · 신민당사, 1979년 8월|박정희 정부 · 1979년(YH 무역 사건)
+@hide all
+@bg cg_ch22_bomnae_sitin|bg_era_neighborhood_1970s
 야당 당사 강당. 머리에 수건을 두른 여공들이 빽빽이 앉아 있다. 맨 앞줄에 봄내가 있다.
+@bg bg_era_party_hall_1979|bg_era_neighborhood_1970s
 @show bomnae serious right
 @show orpheia worry left
 [봄내|serious] 오빠. 회사가 문을 닫았어요. 하루아침에 폐업이래요. 우린 갈 데가 없어서 야당 당사로 왔어요. YH 무역 사람들이요.
@@ -341,7 +344,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @show orpheia smile left
 [다솜|smile] 올해 겨울엔 우리가 대통령을 직접 뽑아요. 엄마랑 같이 투표하러 갈 거예요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

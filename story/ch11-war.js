@@ -21,7 +21,9 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @dive 1498년~1545년|네 번의 사화
 @bg bg_era_gyeongbokgung
 @day 한양 · 궁궐, 1498년|조선 연산군 · 1498년(무오사화)
+@bg cg_ch11_historian|bg_era_gyeongbokgung
 대궐 서고 앞에서 사관 하나가 붓을 쥔 채 떨고 있다. 그가 적은 기록 한 장 때문에, 오늘 궁궐에선 피바람이 분다고 했다.
+@bg bg_era_gyeongbokgung
 @show sodam worry right
 @show orpheia worry left
 [소담|worry] 상순이 언니! 아니, 상철 님. 또 오셨네요. ……오늘 궁궐이 이상해요. 사관 나리가 쓴 사초 한 장 때문에 선비님들이 줄줄이 끌려가요.
@@ -217,10 +219,15 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 [도담|smile] 도담이에요. 아버지가 진주 고을 의원이셨고, 저는 침 놓고 약 달이는 걸 아홉 살부터 했어요. 전쟁이 나서 아버지는 성 안에, 저는 성 밖 막사에.
 [상철] 여기 사람이 너 혼자야?
 [도담|serious] 오늘 밤엔요. 그래서 바빠요. 살릴 수 있는 사람은 다 살릴 거예요. 손바닥 내밀어요, 쑥 붙여 줄게.
+@hide all
+@bg cg_ch11_dodam_bandage|bg_era_jinju
 도담이 상철의 손바닥에 짓이긴 쑥을 붙이고 천을 감는다. 손이 빠르고, 따뜻하다.
 [도담|smile] 근데 손님, 말투가 이상해요. 어디서 왔어요? 처음 보는 옷인데, 땀 냄새도 안 나요.
 [오르페이아|explain] (귓속말) 주인님, 조심하세요. 이 아가씨, 관찰력이 의원이에요.
 [상철] ……아주 먼 데서. 거기선 칼에 베여도, 열이 나도, 아이 낳다가도 사람이 잘 안 죽어.
+@bg bg_era_jinju
+@show orpheia pout left
+@show dodam smile right
 도담의 손이 멈춘다. 눈이 동그래진다.
 [도담|surprised] ……정말요? 그런 데가 있어요? 거기 의원은 뭘 어떻게 하길래요? 침은 몇 개 써요? 약은 뭘 달여요? 책은요?
 [상철] 나도 잘 몰라. 나 노래 만드는 사람이야.
@@ -297,7 +304,9 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @dive 1598년~1623년|전쟁 뒤, 광해군
 @bg bg_era_gyeongbokgung_ruin
 @day 한양, 1608년|조선 광해군 즉위 · 1608년(대동법)
+@bg cg_ch11_ruin|bg_era_gyeongbokgung_ruin
 경복궁은 불탄 주춧돌만 남았다. 잿더미 사이로 잡초가 자란다.
+@bg bg_era_gyeongbokgung_ruin
 @show sodam worry right
 @show orpheia worry left
 [소담|worry] 궁궐이…… 다 타 버렸어요. 임금님은 지금 다른 궁에 계세요.
@@ -436,7 +445,7 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show orpheia smile left
 [나루|smile] 전쟁은 끝났어요. 이제 노 대신 그물 잡아야죠. 바다는 그대로니까요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

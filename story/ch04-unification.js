@@ -251,7 +251,10 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @dive 660년|백제 · 덕물도에서 황산벌로
 @bg bg_era_hwangsan
 @day 660년 · 서해 덕물도 앞바다|신라 무열왕(재위 654~661) · 660년
+@hide all
+@bg cg_ch04_gaon_fleet|bg_era_hwangsan
 수평선을 뒤덮은 당나라 배들. 그 앞에 신라 병선 백 척이 줄지어 선다. 맨 앞 배에서 가온이 바람에 머리카락을 휘날리며 서 있다.
+@bg bg_era_hwangsan
 @show gaon serious right
 @show orpheia worry left
 [가온|serious] 무열왕 폐하께서 태자 법민 님을 보내셨어요. 병선 백 척으로 덕물도에서 당나라 장수 소정방을 맞으라고요. 그 사이 말을 옮기는 게 저예요.
@@ -358,7 +361,10 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @dive 670년~676년|나당 전쟁
 @bg bg_era_gibeolpo
 @day 신라 · 금강 하구 기벌포, 676년 겨울|신라 문무왕(재위 661~681) · 676년(기벌포 전투)
+@hide all
+@bg cg_ch04_ara_gaon_back|bg_era_gibeolpo
 바다처럼 넓은 강어귀. 당나라 수군 배들이 밀려 들어오고, 신라 배들이 그 앞을 막아선다. 신라 배 한 척에 낯익은 두 사람이 등을 맞대고 서 있다.
+@bg bg_era_gibeolpo
 @show gaon serious right
 @show ara angry left
 [아라|angry] 그러니까 그때 당신네 신라가 당이랑 손만 안 잡았어도!
@@ -386,10 +392,15 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @day 676년 겨울 · 기벌포 강가|신라 문무왕 · 676년(삼국 통일 완성)
 @show ara smile left
 @show gaon smile right
+@hide all
+@bg cg_ch04_campfire|bg_era_gibeolpo
 싸움이 끝난 강가. 젖은 깃발을 말리는 모닥불 앞에, 아라와 가온이 나란히 앉아 있다.
 [아라] 이겼네요. ……할아버지, 보고 계세요? 고구려 사람도 같이 이겼어요. 할아버지가 지키던 평양성은 못 찾았지만요.
 [가온] ……미안해요, 아라 씨. 우리가 당을 끌어들이지 않았으면.
 [아라|smile] 이제 와서 미안하다니. 통역이 그런 말을 옮기면 안 되죠.
+@bg bg_era_gibeolpo
+@show ara smile left
+@show gaon smile right
 [가온|shy] 이건 옮긴 말 아니에요. 제 말이에요.
 [상철] 빌린 힘으로 시작해서, 스스로 몰아내고 끝났네. 그리고 끝에는 세 나라 사람이 한 배에 탔고.
 @note 삼국 통일의 흐름|당과 손잡아(648) 백제(660)·고구려(668)를 무너뜨린 뒤, 당이 신라까지 넘보자 문무왕이 고구려 부흥 세력(보덕국)과 손잡고 매소성(675)·기벌포(676)에서 당을 몰아냈다.
@@ -477,7 +488,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @cutin pout
 [오르페이아|pout] (뒤에서 두 손으로 같이 활을 잡는 건 교습이 아니라 백허그예요. 주인님, 다 기록했어요.)
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

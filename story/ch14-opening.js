@@ -19,7 +19,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @dive 1863년~1873년|흥선 대원군
-@bg bg_era_gyeongbokgung
+@bg bg_era_gyeongbokgung_construction|bg_era_gyeongbokgung
 @day 한양 · 경복궁 공사장, 1866년|조선 고종 · 흥선 대원군 집권 · 1866년(경복궁 중건)
 불탔던 궁궐 터에 다시 기둥이 선다. 일꾼들 사이로 불만 섞인 수군거림이 들린다. 공사판 가장자리에서 새참 광주리를 인 궁녀 하나가 손님을 보고 눈이 동그래진다.
 @show sodam surprised right
@@ -154,7 +154,10 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @bg bg_era_customs_house
 @day 인천 · 해관, 1883년|조선 고종 · 1883년(인천 개항)
+@hide all
+@bg cg_ch14_garam_customs|bg_era_customs_house
 해관 창고 앞. 영국인 세무사가 서류에 도장을 찍고, 통역이 옆에서 받아 적는다. 창고 짐을 나르던 처녀가 짐을 내려놓고 손을 든다. 등에 총이 없다.
+@bg bg_era_customs_house
 @show garam smile right
 [가람|smile] 기록꾼 양반. 열두 해 만이에요. ……총은 벽에 걸었어요. 강화 문이 열리고 나서, 강 건너 이 제물포까지 열렸거든요. 지금은 해관 짐 날라요.
 [가람] 이상하죠. 아버지가 총으로 막던 그 바다로, 이제 배들이 세금 내고 들어와요. 들어오는 배 이름 적는 게 제 일이에요. 총 쏘는 것보다 어려워요.
@@ -198,8 +201,11 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 
 @dive 1882년 6월|임오군란
-@bg bg_era_gyeongbokgung
+@bg bg_era_hanyang_riot|bg_era_gyeongbokgung
 @day 한양, 1882년 6월|조선 고종 · 1882년(임오군란)
+@bg cg_ch14_imo|bg_era_gyeongbokgung
+1882년 6월, 궐 담장 너머로 횃불과 함성. 뒷문 쪽에서 소담이 너울을 깊이 쓴 귀한 부인의 손을 끌고 뛰어나온다.
+@bg bg_era_hanyang_riot|bg_era_gyeongbokgung
 @show sodam worry right
 @show orpheia worry left
 [소담|worry] 큰일 났어요! 밖에서 군인들이 난리를 일으켰대요!
@@ -367,7 +373,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [사연|serious] 삼국 간섭 뒤 정부가 러시아에 가까워지자, 1895년 8월 일본이 보낸 무리가 경복궁에 들어와 왕비를 시해했습니다. 을미사변입니다.
 @flash
 @hide all
-@bg bg_era_gyeongbokgung
+@bg bg_era_hanyang_winter|bg_era_gyeongbokgung
 @day 한양 · 같은 해 겨울|조선 고종 · 1895년(을미개혁·단발령)
 [선비] (관보를 내밀며) 이걸 보시오. 단발령이오. 임금께서 먼저 상투를 자르셨으니 백성도 따르라고. 국모를 시해한 그 일 뒤에, 이 내각이 상투까지…….
 [학생] (배재학당 교복 차림으로) 저희 협성회 회보에도 태양력 이야기를 실었어요. 음력을 버리고 양력을 써야 하느냐로 토론했거든요. 선비님, 이 개혁 때 또 무엇이 바뀌었나요?
@@ -447,7 +453,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @show orpheia smile left
 [보리|smile] 다음에 오면, 우리 마을 보리밭 보여 줄게요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

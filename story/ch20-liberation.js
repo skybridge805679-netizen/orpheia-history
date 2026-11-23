@@ -89,7 +89,9 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 @dive 1937년~1945년|이름을 빼앗긴 밤
 @bg bg_era_kokumin_school
 @day 경성 어느 학교, 1940년대 아침|일제 강점기 · 1940년대 민족 말살 통치
+@bg cg_ch20_school|bg_era_kokumin_school
 아이들이 운동장에 줄지어 서서 동쪽을 향해 고개를 숙인다.
+@bg bg_era_kokumin_school
 @show hanbyeol serious right
 @show orpheia worry left
 [한별|serious] ……기록꾼 님. 오랜만이에요. 저 요즘 기사를 한 줄도 못 써요. 펜을 쥐면 검열관 붉은 도장부터 떠올라서요. 그래서 교단에서 아이들 머리에 대신 써요. 지워지지 않는 데에.
@@ -352,7 +354,7 @@ VN.chapter('ch20','제20장','이름을 빼앗긴 밤, 광복의 새벽',`
 [새벽|smile] 선생님, 이제 우리말로 마음껏 가르치세요!
 [한별|smile] 그래. 이번엔 칼도 없이, 일본어도 없이.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

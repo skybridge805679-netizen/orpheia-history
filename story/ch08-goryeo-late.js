@@ -167,7 +167,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 [늙은 내관] ……봉사 10조라. 나라를 고치겠다는 글을 올려 놓고, 정작 제 손에 교정도감을 쥐었구려.
 [오르페이아|serious] (귓속말) 최충헌이에요. 1196년 이의민을 없애고, 봉사 10조, 교정도감.
 @hide all
-@bg bg_era_gaegyeong
+@bg bg_era_choe_mansion|bg_era_gaegyeong
 @day 개경 · 최씨 집 앞, 13세기 전반|고려 고종 · 13세기 전반(최우 집권)
 밤마다 도적을 잡으러 나가는 군사들이 대문을 나선다. 한 무리가 둘로 갈라져 왼쪽 오른쪽으로 흩어진다.
 [병사] 원래는 밤도둑 잡는 야별초였소. 사람이 늘어 좌별초, 우별초로 나눴지. 아버지 대의 도방은 그대로 두고.
@@ -208,10 +208,15 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 [오르페이아|worry] 도읍을 섬으로……. 그럼 뭍에 남은 사람들은요?
 [농민] 그게 말이오. 남은 사람들이 몽골 장수를 쓰러뜨렸다는 소문이 있소. 용인 처인성에서.
 @show soebyeol excited right
+@hide all
+@bg cg_ch08_soebyeol_news|bg_era_ganghwa
 [쇠별|smile] (피란 짐 사이에서 벌떡 일어나며) 들었어요?! 높은 사람들은 섬으로 갔는데, 처인성에 남은 사람들이 이겼대요! 스님이 앞장서서요!
 [쇠별|excited] 1232년, 용인 처인성이요! 몽골 장수 살리타가 화살에 맞아 죽었대요. 김윤후라는 스님이 이끈 사람들이 쐈대요. 그 화살촉, 어느 대장간에서 두드렸을까요? 우리 같은 데서 나왔으면 좋겠다!
 [오르페이아|teary] 높은 사람들은 섬으로 갔는데…… 남은 사람들이 지켰어요.
 [농민] 손님, 그 소문이 이 난리 통 어디쯤 일인지 장부에 적어 두시오. 섬으로 간 높은 분들 일이랑 헷갈리지 않게.
+@bg bg_era_ganghwa
+@show orpheia worry left
+@show soebyeol excited right
 @hide all
 @quiz 70-15
 @hide all
@@ -325,7 +330,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 @show orpheia explain left
 [젊은 관리] ……그렇구려. 원 황실의 사위 나라라니.
 @hide all
-@bg bg_era_gaegyeong
+@bg bg_era_gaegyeong_alley|bg_era_gaegyeong
 @day 개경 · 골목, 13세기 말|고려 충렬왕 · 13세기 말(원 간섭기)
 골목 저편에서 관리들이 집집마다 대문을 두드린다. 머리를 일부러 헝클어뜨린 처녀 하나가 골목으로 뛰어들다가 상철과 정면으로 마주친다.
 [단비] 거기 두건 오라버니! 잠깐만, 제 정인 좀 해 줘요! 딱 한 식경만!
@@ -403,7 +408,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 [오르페이아|serious] (귓속말) 철령 이북엔 쌍성총관부. 땅까지 원이 직접 다스려요.
 @note 원 간섭기|부마국(충렬왕과 원 황녀, 변발 강요), 응방(매 공급). 공녀, 원 궁궐에서 고려 양식 유행. 지배층에 변발·호복 유행. 정동행성, 쌍성총관부. 권문세족이 도평의사사 장악, 대농장.
 @hide all
-@bg bg_era_gaegyeong
+@bg bg_era_goryeo_academy|bg_era_gaegyeong
 @day 개경 · 학당, 원 간섭기|고려 충렬왕·충선왕 · 원 간섭기(성리학 전래)
 서가 앞. 젊은 선비 둘이 책 두 권을 두고 다투고 있다.
 [선비] 충렬왕 때 원에 다녀오신 그분이 주희의 책을 들여오셨소. 이제부터는 성리학이오!
@@ -432,7 +437,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 @hide all
 
 @dive 1351년~1374년|공민왕
-@bg bg_era_gaegyeong
+@bg bg_era_manwoldae|bg_era_gaegyeong
 @day 고려 · 개경 궁궐, 1356년|고려 공민왕(재위 1351~1374) · 1356년(반원 개혁)
 대전 앞. 신하 하나가 상소를 읽어 내려가는 목소리가 떨린다.
 [늙은 내관] (작게) 기철 일당을 치자는 상소요. 황후의 인척이라고 상국의 위엄을 빌려 임금을 위협하고, 상국 사신이라 속여 조서를 들고 다닌다고.
@@ -443,8 +448,13 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 @show orpheia excited left
 [늙은 내관] 쌍성총관부를! 유인우와 이자춘이 철령 이북 땅을 되찾았다니. 백 년 가까이 빼앗겼던 땅이오.
 @show danbi smile right
+@hide all
+@bg cg_ch08_danbi_news|bg_era_gaegyeong
 [단비|smile] 오라버니, 들었어요? 원에 붙어 큰소리치던 기철 일당이 쫓겨나고, 빼앗긴 땅도 돌아왔대요! 이제 공녀 명단도 좀 줄어들겠죠?
 [오르페이아|excited] (귓속말) 이자춘은 이성계의 아버지예요.
+@bg bg_era_manwoldae|bg_era_gaegyeong
+@show orpheia excited left
+@show danbi smile right
 @hide all
 @bg bg_era_gaegyeong
 @day 개경, 1374년 이후|고려 우왕 즉위 · 1374년 이후
@@ -624,7 +634,7 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 [사연] 고려 오백 년이 막을 내렸습니다.
 [오르페이아|smile] 복주 할머니의 손자한테 들려줄 '그다음 이야기'가 생겼네요. 쇠별 씨의 망치 소리랑, 단비 씨의 명단 이야기도요. ……두 분 다 주인님을 너무 오래 쳐다봤어요. 흥.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

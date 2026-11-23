@@ -17,8 +17,10 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @dive 371년|고구려, 국내성
 @bg bg_era_gungnaeseong
 @day 고구려 · 국내성, 371년|고구려 고국원왕 전사 · 371년
+@bg cg_ch03_gungnae_messenger|bg_era_gungnaeseong
 압록강 가의 성. 성문 앞에 사람들이 웅성웅성 모여 있다. 남쪽 길에서 흙투성이 전령이 말을 몰아 달려 들어온다.
 @sfx alarm
+@bg bg_era_gungnaeseong
 [전령] 비켜라! 평양성에서 왔다! ……대왕께서, 백제군의 화살에 맞아 승하하셨다!
 사람들 사이로 비명이 번진다. 성 밖 들판에는 돌을 계단처럼 쌓은 거대한 무덤들이 말없이 서 있다.
 @photo 장군총
@@ -209,7 +211,9 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @dive 475년 가을|한강, 고구려의 깃발
 @bg bg_era_hanriver_ferry
 @day 같은 한강 나루, 475년|고구려 장수왕의 한성 함락 · 475년(백제 개로왕 전사)
+@bg cg_ch03_hanseong_refugees|bg_era_hanriver_ferry
 같은 나루. 그런데 배마다 꽂힌 깃발이 다르다. 강 건너 언덕의 성에선 아직 연기가 피어오른다. 남쪽으로 가는 배를 타려는 피란민들이 나루터를 가득 메웠다.
+@bg bg_era_hanriver_ferry
 @show naru smile center
 [나루] (지친 얼굴로) ……손님들. 백 년 만이오. 하나도 안 변했네. 두건에, 하얀 머리 아가씨. ……나도 안 변했지만.
 [상철] 깃발이……
@@ -296,7 +300,9 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @dive 538년|사비, 세 번째 도읍
 @bg bg_era_sabi
 @day 백제 · 사비(부여), 538년|백제 성왕(재위 523~554) · 538년 사비 천도
+@bg cg_ch03_sabi_tiles|bg_era_sabi
 더 넓은 들판에 새 도읍 공사가 한창이다. 관청 자리마다 말뚝이 박혀 있고, 나루의 배는 공사에 쓸 기와와 벽돌을 실어 나른다.
+@bg bg_era_sabi
 @show naru smile center
 @show sayeon baekje right
 @show orpheia smile left
@@ -368,7 +374,9 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @dive 6세기 초|신라, 동쪽 끝의 나라
 @bg bg_era_gyeongju
 @day 신라 · 서라벌(경주), 6세기 초|신라 지증왕(재위 500~514) · 6세기 초
+@bg cg_ch03_silla_plow|bg_era_gyeongju
 분지 한가운데 둥근 무덤들이 언덕처럼 솟아 있다. 그 사이로 소가 쟁기를 끌며 느릿느릿 밭을 간다. 밭 가는 노인이 낯선 손님을 보고 쟁기를 세운다.
+@bg bg_era_gyeongju
 @show orpheia surprised left
 [농부] 허허, 소가 밭 가는 게 신기하오? 이게 다 요번 임금님 덕이라오. 소를 부려 밭을 갈라 하셨지. 그 전엔 다 사람 손이었어.
 [농부] 그뿐이오? 나라 이름도 '신라'로 딱 정하시고, 우리 임금님을 '왕'이라 부르기로 했다오. 작년엔 임금이 돌아가실 때 사람을 같이 묻던 순장도 그만두라 하셨고.
@@ -590,7 +598,7 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @show orpheia smile left
 [사연] 한강의 기록이 다시 또렷해졌습니다. 세 나라가 어떻게 왕의 나라가 되었는지, 깃발이 왜 그 순서로 바뀌었는지.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

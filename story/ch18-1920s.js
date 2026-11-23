@@ -247,7 +247,7 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @show orpheia smile left
 [한별|smile] 다음엔 우리 교실에 와 주세요. 아이들이랑 『어린이』 잡지 같이 읽어요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

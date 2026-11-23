@@ -243,7 +243,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 @show orpheia smile left
 [한별|smile] 다음엔 전차 같이 타요! 표는 제가 살게요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

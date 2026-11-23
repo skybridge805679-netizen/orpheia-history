@@ -127,6 +127,9 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @dive 18~19세기|흔들리는 신분
 @bg bg_era_songpa_market
 @day 송파장 한구석|조선 후기 · 18~19세기(신분 변동)
+@bg cg_ch13_jokbo|bg_era_songpa_market
+송파장 한구석. 돗자리 위에 족보와 이름 빈 첩지를 슬쩍 펼친 사내 앞으로 사람이 꾄다. 단오가 궤짝 위에 올라서서 부채를 촥 편다.
+@bg bg_era_songpa_market
 @show dano smile right
 @show orpheia explain left
 [단오] 요새는 양반이 너무 많아요. 사노비였다가 면천하고, 아들은 보인, 몇 대 지나 손자의 손자는 '유학'을 쓰는 집안도 있다니까요. 그러니 고을 향회에선 옛 양반이랑 새 양반이 맨날 싸우고.
@@ -146,7 +149,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 [역관] 허허, 술 한 잔도 안 마시고 놀이를 끝냈구려. 사행길에 손님 같은 통역이 하나 있으면 좋겠소.
 @hide all
-@bg bg_era_songpa_market
+@bg bg_era_songpa_dusk|bg_era_songpa_market
 @day 송파장 · 해 질 녘|조선 후기 · 18~19세기
 단오가 장터 한복판 멍석 위에 책을 펼친다. 사람들이 빙 둘러앉는다.
 [단오] 「……암행어사 출두요!」 ……자, 여기까지! 다음 대목 듣고 싶은 분은 엽전 던지세요~
@@ -175,7 +178,9 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @dive 17~19세기|실학자들의 서재
 @bg bg_era_scholar_study
 @day 어느 선비의 서재|조선 후기 · 17~19세기(실학)
+@bg cg_ch13_silhak|bg_era_scholar_study
 등불 아래 책이 산처럼 쌓였다. 청나라에서 들여온 지구의와 천리경도 보인다.
+@bg bg_era_scholar_study
 @show orpheia explain left
 [상인] (등에 책 짐을 진 채 서재 문을 두드린다) 책 사시오, 책! 청나라에서 들어온 책, 우리 선비님들이 쓴 책! 나는 책 짐을 지고 다니는 장사꾼이오.
 [상인] 그런데 이 책들 겉장이 다 떨어져서, 누가 쓴 건지 나도 헷갈리오. 손님이 주인을 찾아 주면 한 권 공짜로 드리리다.
@@ -319,7 +324,7 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @show orpheia smile left
 [단오|smile] 다음 장날에 또 와요! 그땐 『심청전』 읽어 줄게요. 물론 유료 회차로!
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

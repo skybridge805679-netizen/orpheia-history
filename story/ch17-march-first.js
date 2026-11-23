@@ -22,7 +22,9 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @dive 1910년~1918년|들판의 측량꾼
 @bg bg_era_land_survey
 @day 경기도 어느 들판, 1913년|일제 강점기 · 1910년대 무단 통치(토지 조사 사업)
+@bg cg_ch17_survey|bg_era_land_survey
 측량 깃대가 논두렁에 꽂혀 있다. 제복 차림의 측량꾼이 장부를 펼치고, 늙은 농부가 그 앞에서 모자를 쥔 채 서 있다.
+@bg bg_era_land_survey
 [농부] 우리 할아버지의 할아버지 때부터 부쳐 온 땅이오. 그런데 임시 토지 조사국에서 정해진 날까지 신고를 안 하면 주인 없는 땅이 된다니.
 [농부] (작게) 신고하러 가는 길에 헌병이 지키고 있어서 무서워 못 간 사람도 많소. 손님, 우리 손자가 학교에서 뭘 배우는지 물어도 대답을 안 하오. 이 시절 돌아가는 사정을 알려 주면, 손자 녀석한테 손님 얘기를 해 주겠소. 할아비가 똑똑한 사람을 만났다고.
 @show hanbyeol serious right
@@ -267,7 +269,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @show orpheia smile left
 [한별|smile] 저는 다시 교단으로 돌아갈 거예요. 이번엔 칼 없이요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

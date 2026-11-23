@@ -135,20 +135,28 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [설아] (병풍 밖으로 고개만 내밀고, 노래하듯) 대감마님, 노래 한 소절 고르는 중이에요. 한 곡 더 올릴까요?
 [대감] 허허, 설아였구먼. 오늘은 그만 쉬어라.
 발소리가 멀어진다. 설아가 그제야 숨을 몰아쉬고, 풀린 고름을 천천히 다시 맨다. 그때, 병풍 한쪽이 확 젖혀진다.
-@bg bg_era_yangban_banquet|bg_era_joseon_night
-@show hwaseon surprised left
+@hide all
+@bg cg_ch12_sisters|bg_era_joseon_night
 [화선|surprised] ……막내야. 병풍 뒤에서 고름은 왜 다시 매? 그거 내 악사야!
-@show choryeon angry center
 [초련|angry] 내 줄 매 준 손이에요! ……두건, 당신 오늘 밤 몇 명한테 친절할 셈이에요?
-@show seola shy right
 [설아|shy] 언니들, 오해예요. 숨겨 드린 것뿐이에요. ……정말로요.
 [설아|serious] 그리고 방금 병풍 뒤 일은 노래로도 부르지 마세요. 기생이 들은 걸 옮기면 목이 날아가요. ……저만 기억할게요.
+@bg bg_era_yangban_banquet|bg_era_joseon_night
+@show hwaseon surprised left
+@show choryeon angry center
+@show seola shy right
 @choice
 > 나도 기억할게. 노래로는 안 만들고. -> hr12s1 {seola+5}
 > 오르페이아, 방금 거 기록 삭제. -> hr12s2 {orp+2}
 @label hr12s1
 [상철] 노래로는 안 만들게. 대신 나도 기억할게.
+@hide all
+@bg cg_ch12_seola_secret|bg_era_joseon_night
 [설아|smile] ……이상한 손님. 다들 제 노래를 갖고 싶어 하지, 제 비밀을 같이 지켜 주겠다는 분은 처음이에요.
+@bg bg_era_yangban_banquet|bg_era_joseon_night
+@show hwaseon surprised left
+@show choryeon angry center
+@show seola shy right
 @jump hr12sx
 @label hr12s2
 [상철] 오르페이아, 방금 거 삭제해.
@@ -385,10 +393,15 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [상인] 좌의정 채제공 대감이 '빈둥거리는 무뢰배가 상점을 열고 물건을 억지로 싸게 사들인다'는 말을 임금께 아뢰었다던데. 손님, 이 일이 어찌 될 것 같소? 나 같은 놈도 마음 놓고 장사하게 될 날이 오겠소?
 @show hwaseon smile right
 @show orpheia excited left
+@hide all
+@bg cg_ch12_hwaseon_market|bg_era_jongno_alley
 [화선|smile] 두건 서방님! 저 난전에서 머리 장식 사는 중이에요. 시전보다 반값이거든요! ……쉿, 언니들한텐 비밀.
 [화선] 근데 어젯밤 연회에서 대감님들이 그러시던데요? 채제공 대감 말을 임금님이 들어주셔서, 이제 육의전만 빼고 시전 상인들이 난전을 막는 권리를 없앤대요. 금난전권이요! 그럼 저 이제 대놓고 여기서 사도 되는 거죠?
 [오르페이아|explain] (주인님, 신해통공(1791)이에요. 채제공 건의, 육의전 빼고 금난전권 폐지. 화선 씨의 반값 머리 장식이 증거예요.)
 [상인] 신해통공이라! 육의전만 빼고 시전 상인의 금난전권을 없앤다니, 이제 나도 큰길에서 장사하겠구먼!
+@bg bg_era_jongno_alley
+@show hwaseon smile right
+@show orpheia excited left
 @note 신해통공(1791)|채제공의 건의, 육의전을 제외한 시전 상인의 금난전권 폐지.
 [상인] 그럼 이 늙은이가 묻는 대로 답해 보시오.
 [오르페이아|smile] (다섯 집을 하나로 묶어 백성을 단속하던 오가작통법은 다른 이야기예요. 화선 씨의 반값 머리 장식은 신해통공 덕분!)
@@ -572,7 +585,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @show orpheia smile left
 [사연] 정치가 흔들리는 동안에도, 장터는 북적였고 사람들은 새로운 생각을 했습니다.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

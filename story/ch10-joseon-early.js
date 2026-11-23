@@ -126,7 +126,9 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @dive 1418년~1450년|세종의 집현전
 @bg bg_era_jiphyeonjeon
 @day 경복궁 · 집현전, 1440년대 밤|조선 세종(재위 1418~1450) · 1440년대
+@bg cg_ch10_jiphyeonjeon|bg_era_jiphyeonjeon
 등불 아래, 젊은 학사들이 책 더미에 파묻혀 있다. 왕이 조용히 들어와 잠든 학사에게 제 옷을 덮어 준다.
+@bg bg_era_jiphyeonjeon
 @show sodam smile right
 @show orpheia excited left
 [소담|smile] 쉿, 임금님이세요. 밤마다 이렇게 오셔서 학사님들 보고 가세요.
@@ -211,6 +213,9 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @dive 1469년~1494년|성종, 설계도의 완성
 @bg bg_era_gyeongbokgung
 @day 한양 · 궁궐, 15세기 후반|조선 성종(재위 1469~1494) · 15세기 후반
+@bg cg_ch10_sodam_books|bg_era_gyeongbokgung
+궐 안 복도. 『경국대전』 묶음을 코끝까지 쌓아 든 소담이 비틀비틀 걸어온다. 맨 위 책이 기우뚱한다.
+@bg bg_era_gyeongbokgung
 @show sodam smile right
 @show orpheia smile left
 [소담|smile] 상순이 언니! 오래간만이에요. 요즘 장악원에서 음악책을 새로 엮는대요. 옛 의궤랑 악보가 다 낡고 틀려서, 소리의 조화가 임금님 인도에 달려 있다나.
@@ -261,7 +266,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 
 @dive 15세기|궁궐의 관청들
-@bg bg_era_gyeongbokgung
+@bg bg_era_yukjo_street|bg_era_gyeongbokgung
 @day 한양 · 궁궐 안 관청 거리|조선 · 15세기(『경국대전』의 관청들)
 @show sodam smile right
 @show orpheia explain left
@@ -292,7 +297,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @hide all
 
 @dive 15세기|사대와 교린
-@bg bg_era_gyeongbokgung
+@bg bg_era_envoy_departure|bg_era_gyeongbokgung
 @day 한양 · 사신단 짐을 꾸리는 날|조선 · 15세기(세종~성종, 사대교린)
 궁궐 마당에 수레가 줄지어 있다. 명으로 갈 예물 상자에 붉은 끈이 매어진다.
 @show sodam smile right
@@ -379,7 +384,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 @show orpheia smile left
 [소담|smile] 다음에 오시면 제가 만든 약과 드릴게요! 상순이 언니도 꼭 같이 와요!
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

@@ -17,7 +17,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @hide all
 // 이 장의 질문: 군장들의 세상은 어떻게 '나라'가 되었고, 나라마다 왜 다르게 살았나.
 @dive 기원전 2333년이라 전하는 때|고조선의 시작
-@bg bg_era_gojoseon
+@bg bg_era_asadal|bg_era_gojoseon
 @day 고조선 · 아사달|고조선 단군왕검 · 기원전 2333년이라 전함
 흙을 다져 쌓은 토성 위로 깃발이 펄럭인다. 성 아래에선 늙은 이야기꾼이 아이들을 모아 놓고, 노래하듯 이야기를 풀어놓는 중이다.
 @show orpheia shy left
@@ -139,7 +139,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @hide all
 
 @dive 기원전 194년|위만이 온 해
-@bg bg_era_gojoseon
+@bg bg_era_gojoseon_river|bg_era_gojoseon
 @day 고조선 · 서쪽 국경, 강가|고조선 준왕 · 기원전 194년 무렵(위만이 온 해)
 강을 건너온 무리가 국경에 닿았다. 천 명 남짓. 맨 앞에 선 사내의 눈빛이 유난히 날카롭다.
 @show sayeon buyeo right
@@ -231,7 +231,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @hide all
 
 @dive 기원전 2세기 초|위만 조선
-@bg bg_era_gojoseon
+@bg bg_era_wanggeom_market|bg_era_gojoseon
 @day 고조선 · 왕검성 시장|위만 조선 · 기원전 2세기 초
 시장이 몇 배로 불어났다. 쇠붙이 가게가 늘었고, 남쪽 말 쓰는 상인과 서쪽 말 쓰는 상인이 한데 뒤섞여 흥정 중이다.
 @show dallae smile center
@@ -264,9 +264,11 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @hide all
 
 @dive 기원전 109년~108년|왕검성의 마지막 해
-@bg bg_era_gojoseon
+@bg bg_era_wanggeom_siege|bg_era_gojoseon
 @day 고조선 · 포위된 왕검성|위만 조선 우거왕 · 기원전 109~108년(한의 침략)
+@bg cg_ch02_dallae_siege|bg_era_gojoseon
 성 밖이 한나라 깃발로 새까맣다. 시장은 텅 비었고, 성벽 위엔 지친 병사들이 주저앉아 있다.
+@bg bg_era_wanggeom_siege|bg_era_gojoseon
 @show dallae worry center
 @show orpheia worry left
 [달래|worry] 한나라 군대가 성을 에워싼 지 벌써 해가 바뀌었수. 처음엔 우리가 잘 막았다오. 한나라 놈들이 몇 번이고 물러갔지.
@@ -399,7 +401,9 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @dive 압록강 언저리|고구려
 @bg bg_era_goguryeo
 @day 고구려 · 압록강 언저리, 10월 산골 마을|고구려 · 초기, 1~2세기 무렵(제천 행사 동맹)
+@bg cg_ch02_goguryeo_village|bg_era_goguryeo
 골짜기마다 단풍이 새빨갛다. 밭은 비탈에 비좁게 붙어 있다. 집집마다 기둥 위에 띄운 작은 창고가 있고, 젊은 사내들이 활과 말을 손질하고 있다.
+@bg bg_era_goguryeo
 @show dallae smile center
 @show orpheia smile left
 [달래] 여긴 고구려예요. 산 많고 밭 좁죠? 그러니 먹을 걸 어디서 구하겠어요.
@@ -444,7 +448,9 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @dive 동해 바닷가|옥저와 동예
 @bg bg_era_east_coast
 @day 옥저와 동예 · 함경도에서 강원도에 이르는 동해안|옥저·동예 · 1~3세기 무렵
+@bg cg_ch02_okjeo_coast|bg_era_east_coast
 파도 소리. 해안엔 생선이랑 소금이 널려 있다. 그런데 마을 사람들이 무거운 짐을 꾸려 어딘가로 보낼 채비를 하고 있다.
+@bg bg_era_east_coast
 @show dallae worry center
 @show orpheia worry left
 [달래|worry] ……저 짐, 고구려로 간대요. 여긴 바다랑 산 사이에 낀 좁은 땅이라 큰 왕도 없어요. 삼로 같은 어른들이 마을을 다스리고, 고구려한테 눌려서 해마다 물고기랑 소금을 바쳐야 한대.
@@ -584,7 +590,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 @show orpheia smile left
 [사연] 다섯 나라의 축제가 제자리를 찾았습니다. 하늘의 자손이 세운 첫 나라가 어떻게 서고, 또 무너졌는지도요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

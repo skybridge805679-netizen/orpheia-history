@@ -4,7 +4,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 // 쓰는 법: 연표 위에서 그동안 만난 사람들이 차례로 '마지막 시험'을 낸다. 정리는 문항 뒤에 회상으로.
 @bg bg_studio_night
 @day 2월 20일 (금) 23:00 · 상철의 작업실 · 81회 시험 이틀 전
+@bg cg_ep_exam_eve|bg_studio_night
 @phone on
+@bg bg_studio_night
 @show yunseul smile right
 [윤슬|smile] 오빠! 앨범 23곡 다 나왔어! 구독자 봐 봐! 그리고 이틀 뒤가 시험이야! 앨범 발매일이랑 시험 날이 같은 날이라니, 운명 아니야?
 [윤슬|pout] ……근데 나 지역사 문제는 아직 하나도 몰라. 진주가 어디야? 내포는 뭐야?
@@ -334,7 +336,9 @@ VN.chapter('ep','종장','연표의 끝에서',`
 // ── 합격자 발표: 이야기 전체 첫 시도 정답률(quizRate)로 급수를 정한다. 심화 기준 80점 1급, 70점 2급, 60점 3급.
 @bg bg_studio_night
 @day 3월 6일 (금) 10:00 · 제81회 합격자 발표
+@bg cg_ep_result|bg_studio_night
 @phone on
+@bg bg_studio_night
 @show yunseul serious right
 @show orpheia worry left
 [윤슬|serious] ……오빠. 수험 번호 넣었어. 누를게. 하나, 둘──
@@ -389,8 +393,10 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @label night
 @bg bg_studio_night
 @day 같은 날 밤 · 상철의 작업실
+@bg cg_ep_night|bg_studio_night
 축하 치킨 상자가 비고, 윤슬이 소파에서 잠들었다. 모니터에는 연표 다이브의 좌표 창이 아직 켜져 있다. 마지막으로 한 번, 어디든 갈 수 있을 것 같다.
 @phone on
+@bg bg_studio_night
 @show orpheia shy center
 [오르페이아|shy] ……주인님, 아직 안 주무세요? 좌표 창, 아직 열려 있어요. 오늘 밤만은 어디로 가셔도 말리지 않을게요.
 // 히든 엔딩: 이야기 전체 문제를 첫 시도에 다 맞히면(quizRate 100) 선택지 대신 연표의 모든 히로인이 건너온다.
@@ -632,6 +638,84 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show orpheia smile center
 [오르페이아|smile] 주인님. 다들 살던 시대가 달라도, 오늘은 같은 하늘 아래 있네요. 이것도 연표의 한 줄이에요.
 [오르페이아|pout] 다만 온수는 제가 관리할게요. 앞으로 쭉이요.
+@hide all
+@hide all
+@day 그 뒤 몇 주 · 각자의 하루
+@bg cg_after_ullim|bg_studio_night
+레코드 가게 청음 부스. 울림이 헤드폰을 쓴 채 한 시간째 안 나온다.
+[울림] 흥얼 님, 여기 소리가 다 들어 있어요. 천 년 치 종소리보다 많아요. 이 가게에서 살면 안 돼요?
+@bg cg_after_dallae|bg_studio_night
+지하철역 출구. 중고 거래 약속 장소에서 달래가 판매자와 3분째 손가락 셈을 하고 있다.
+[달래] 앱에 2만 원이라고 적혀 있어도, 사람 얼굴 보면 만 오천이 되는 거유. 장사는 원래 얼굴 보고 하는 거라고.
+@bg cg_after_naru|bg_studio_night
+지하철 환승 통로. 나루가 개찰구 앞에 서서 지나가는 사람들한테 손바닥을 내민다.
+[나루] 여기 건너는 사람이 하루에 몇만 명이에요! 뱃삯을 한 사람당 반 푼만 받아도…… 뭐요? 이미 카드로 냈다고요? 건넘의 신령한테 허락도 안 받고?
+@bg cg_after_ara|bg_studio_night
+실내 양궁 카페. 아라가 쏜 화살 열 대가 과녁 한가운데 한 점에 꽂혀 있다. 직원이 말을 잃었다.
+[아라] 이 활, 너무 가벼워요. 할아버지 활은 이거 세 배는 됐는데. ……남쪽 사슴 씨, 이번엔 사슴 씨가 쏴 봐요. 손 잡아 줄게요.
+@bg cg_after_gaon|bg_studio_night
+궁궐 앞 큰길. 길 잃은 외국인 관광객 무리 앞에서 가온이 휴대폰 번역기보다 먼저 입을 연다.
+[가온] 번역기는 낱말만 옮기더라고요. 저는 그 사람 표정까지 옮겨요. ……근데 손님한테 하는 말은 아직도 제일 어려워요.
+@bg cg_after_haerang|bg_studio_night
+동물원 사슴 우리 앞. 해랑이 팔짱을 끼고 사슴을 한참 내려다본다.
+[해랑] 작아요. 이 나라 사슴은 다 이래요? 우리 발해 사슴은 이거 두 배였어요. ……근데 귀엽긴 하네요. 아버지한텐 반만 보고할 거예요.
+@bg cg_after_haneui|bg_studio_night
+백화점 귀금속 매장. 하늬가 금 귀걸이를 귀에 대 보고, 상철은 가격표를 본다.
+[하늬] 정인님, 여기선 골품을 안 물어봐요! 카드만 내밀면 된대요. ……어머, 표정이 왜 그래요? 측정 불가인 분이 가격표에 지시면 안 되죠.
+@bg cg_after_maru|bg_studio_night
+가구 매장 전시장. 마루가 거실 소파에 앉기 전에 신발부터 가지런히 벗어 놓는다.
+[마루] 우리 집 마루에 놓을 거면 신발은 벗고 앉아 봐야죠! ……직원분, 이 소파 열쇠는 어디 있어요? 곳간처럼 잠그는 게 없어요?
+@bg cg_after_seori|bg_studio_night
+찜질방 바닥. 서리가 양머리 수건을 쓰고 대자로 누워 녹아내린다.
+[서리] 아랫목이에요……. 온 바닥이 다 아랫목이에요……. 손님, 저 오늘 여기서 겨울 날래요. 짐 안 싸요. 에취…… 안 나네요, 재채기도.
+@bg cg_after_yeoul|bg_studio_night
+골동품 가게. 여울이 청자 꽃병을 불빛에 비춰 보더니 혀를 찬다.
+[여울] 사장님, 이거 가짜예요. 비색이 너무 파래요. 상감 선도 기계가 판 거고요. ……약혼자님, 우리 상단 이 시대에도 차릴까요?
+@bg cg_after_soebyeol|bg_studio_night
+철물점 망치 진열대. 쇠별이 쇠망치를 한 손으로 들어 이리저리 돌려 본다.
+[쇠별] 이 쇠, 누가 두드렸는지 이름이 다 박혀 있어요! 공장 이름이래도, 이름은 이름이죠. ……손님, 우리 집 문패도 쇠로 두드려 걸어요.
+@bg cg_after_danbi|bg_studio_night
+구청 민원실. 단비가 혼인 신고서 칸을 큼직한 글씨로 채운다.
+[단비] 오라버니, 여기 명단엔 제 손으로 제 이름을 써요! 이게 제일 좋아요. ……두 번째 칸은 오라버니 이름. 제가 써 줄게요.
+@bg cg_after_sodam|bg_studio_night
+동네 카페 진열장. 소담이 약과 크루아상 앞에서 움직이지 않는다.
+[소담] 상순이 언니, 약과가 빵이 됐어요! 생과방 상궁님이 보시면 기절하실 거예요. ……하나만요. 아니, 생과방 몫으로 다섯 개만요.
+@bg cg_after_dodam|bg_studio_night
+마트 영양제 코너. 도담이 병마다 뒷면을 소리 내서 읽으며 수첩에 적는다.
+[도담] 이 시대 사람들은 약을 이렇게 쌓아 놓고 사네요. ……근데 이거 다 먹으면 안 돼요, 서방님. 고를 건 제가 골라요. 의원은 저예요.
+@bg cg_after_maehyang|bg_studio_night
+동네 서점의 시 낭송회. 마이크 앞에 선 매향이 시조 한 수를 읊자, 서점이 조용해진다.
+[매향] 천 리 밖 사람이 손바닥으로 읽는 시대라 해도, 시는 소리 내어 읽어야 제맛이지요. ……서방님, 오늘 밤 한 수 더 보내 드릴게요. 바로 옆에서요.
+@bg cg_after_choryeon|bg_studio_night
+악기점. 초련이 전기 기타 줄을 갈다가 새침하게 고개를 든다.
+[초련] 흥, 줄이 쇠라서 손가락이 아프잖아요. 거문고는 명주실이었는데. ……그래도 이 소리, 나쁘지 않네요. 당신 곡에 넣어 줄 수도 있어요. 가끔만.
+@bg cg_after_hwaseon|bg_studio_night
+댄스 학원 거울 앞. 화선이 처음 본 안무를 한 번에 따라 추자, 학원생들이 박수를 친다.
+[화선] 서방님, 이 시대 춤은 소매가 없어서 허전해요! 대신 다리를 더 써요. ……봐요, 서방님은 또 박자가 반 박 늦어요. 내 무대예요!
+@bg cg_after_seola|bg_studio_night
+한여름 길거리. 설아가 손 선풍기를 처음 켰다가 깜짝 놀라 눈을 감는다.
+[설아] ……부채가 혼자 부쳐요. 이러면 부채로 얼굴을 가릴 수가 없잖아요. ……그러니까 서방님 뒤에 숨을게요. 오늘은 병풍 대신.
+@bg cg_after_dano|bg_studio_night
+작은 방에 차린 방송 장비. 단오가 카메라 앞에서 부채를 촥 펴고 이야기를 시작한다. 화면 옆으로 채팅이 쏟아진다.
+[단오] 자, 오늘의 이야기는 장터의 바람둥이 두건 사나이! ……시청자가 만 명이야, 공동 작곡가 양반! 송파장 사람보다 많아!
+@bg cg_after_garam|bg_studio_night
+동전 노래방. 가람이 마이크를 두 손으로 쥐고, 숨을 한 번 쉰 다음 부른다. 점수는 52점이다.
+[가람] ……기계가 음정이 틀렸대요. 기록꾼 양반, 기계 말 믿지 마요. 제 노래는 제 노래라고 했잖아요. 한 곡 더.
+@bg cg_after_bori|bg_studio_night
+마트 쌀 코너. 보리가 20킬로그램짜리 쌀 포대를 한쪽 어깨에 척 올린다.
+[보리] 이게 한 포대에 이 값이라고요? 우리 마을이면 잔치를 열었겠네. ……세 포대 사요. 식구가 몇인데.
+@bg cg_after_hanbyeol|bg_studio_night
+밤늦은 카페. 한별이 노트북 자판을 두드린다. 화면 구석에 '마감 11:59'라고 적힌 쪽지가 붙어 있다.
+[한별] 여기선 쓰자마자 실려요! 검열 도장도 없이요. ……그래서 더 무서워요. 틀린 걸 쓰면 그대로 남으니까. 기록꾼 양반, 이 문장 좀 봐 줘요.
+@bg cg_after_saebyeok|bg_studio_night
+동네 지역 아동 센터. 새벽이 화이트보드 앞에서 아이들 받아쓰기를 봐 준다.
+[새벽] 천막 학교 때랑 똑같아요. 아이들은 틀린 걸 고쳐 주면 웃어요. ……기록꾼 님, 오늘 받아쓰기 문제는 기록꾼 님 노래 가사예요.
+@bg cg_after_bomnae|bg_studio_night
+동대문 원단 시장. 봄내가 천 두루마리 사이를 헤집다가, 원단 한 장을 상철 가슴에 대 본다.
+[봄내] 오빠, 가만있어요. 이 색이 오빠한테 어울려요. ……이번엔 남이 입을 옷 말고 오빠 옷이에요. 미싱은 집에 있죠?
+@bg cg_after_dasom|bg_studio_night
+대학 축제 무대. 다솜이 노래패 후배들과 무대에 선다. 첫 곡은 엄마가 재울 때 부르던 그 노래다.
+[다솜] 기록꾼 님! 보고 있죠? 앵콜은 세 번까지만 받을게요. 네 번째는…… 기록꾼 님 혼자 들으라고 남겨 둘게요.
 @hide all
 @bg cg_after_clinic|bg_studio_night
 @day 몇 주 뒤 · 작업실 한쪽, 도담의 진료소
@@ -1000,7 +1084,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_naru
-@bg cg_ch03_drying|bg_era_hanriver_ferry
+@bg cg_end_naru|cg_ch03_drying
 @bgm song_end_hero
 @day 한강 나루 · 해 질 녘
 [나루|smile] 두건 손님! 또 왔수? 이번엔 안 넘어지고 앉아서 탔네.
@@ -1013,7 +1097,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_sodam
-@bg cg_ch10_sodam_yakgwa|bg_era_jongmyo
+@bg cg_end_sodam|cg_ch10_sodam_yakgwa
 @bgm song_end_hero
 @day 경복궁 · 생과방 뒤뜰
 [소담|smile] 상순이 언니! ……아니, 이제 언니 아닌 거 다 알아요. 그래도 상순이 언니라고 부를래요.
@@ -1078,7 +1162,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_hanbyeol
-@bg cg_ch19_date|cg_ch15_tram
+@bg cg_end_hanbyeol|cg_ch19_date
 @bgm song_end_hero
 @day 경성 · 전찻길
 [한별|smile] 기록꾼 양반! 신문 투고 대결, 아직 결판 안 났어요. 오늘 끝내요.
@@ -1092,7 +1176,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_bori
-@bg cg_ch17_bori_cooking|cg_ch14_bori_song
+@bg cg_end_bori|cg_ch17_bori_cooking
 @bgm song_end_hero
 @day 어느 산골 · 아궁이 앞
 [보리|smile] 기록꾼 양반, 밥은 먹고 다녀요? 또 말랐네.
@@ -1105,7 +1189,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_dano
-@bg cg_ch13_dano_wink|bg_era_songpa_market
+@bg cg_end_dano|cg_ch13_dano_wink
 @bgm song_end_hero
 @day 송파장 · 해 질 녘
 [단오|smile] 공동 작곡가 양반! 왔수? 장터 사람들이 그 노래를 얼마나 불러 대는지, 이제 나보다 유명하다니까.
@@ -1118,7 +1202,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_haerang
-@bg cg_ch05_haerang_carry|bg_studio_night
+@bg cg_end_haerang|cg_ch05_haerang_carry
 @bgm song_end_hero
 @day 신라도 · 국경 길
 [해랑|smile] 남쪽 사람. 또 이 길에서 쓰러지려고 왔어요? 이번엔 안 업어 줄 거예요.
@@ -1131,7 +1215,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_garam
-@bg cg_kk_garam|bg_era_customs_house
+@bg cg_end_garam|cg_kk_garam
 @bgm song_end_hero
 @day 제물포 · 바닷가 바위
 [가람|smile] 기록꾼 양반. 노래, 다 외웠어요. 들어 볼래요? ……음정은 묻지 말고요.
@@ -1157,7 +1241,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_noeul
-@bg cg_kk_noeul|bg_era_gojoseon
+@bg cg_end_noeul|cg_kk_noeul
 @bgm song_end_hero
 @day 아사달 · 노을 질 녘
 [노을|smile] 냄새 없는 자! 또 왔구나! 이번엔 덮치지 않았느니라. ……기다렸노라.
@@ -1170,7 +1254,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_dallae
-@bg cg_ch02_dallae_contract|bg_studio_night
+@bg cg_end_dallae|cg_ch02_dallae_contract
 @bgm song_end_hero
 @day 왕검성 · 장터
 [달래|smile] 아이고, 또 그 처음 보는 얼굴들이네! 장사 잘되라고 노래 하나 지어 준다더니, 진짜 지어 왔수?
@@ -1184,7 +1268,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_saebyeok
-@bg cg_ch21_tentschool|cg_ch20_tangle
+@bg cg_end_saebyeok|cg_ch21_tentschool
 @bgm song_end_hero
 @day 천막 학교 · 아침
 [새벽|smile] 기록꾼 님! 아이들이 기록꾼 님 노래로 아침 조회를 해요. 군가로 만든 노래가, 이제 동요가 됐어요.
@@ -1197,7 +1281,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @jump coda
 
 @label hero_dasom
-@bg cg_ch23_mother|cg_ch22_suspect
+@bg cg_end_dasom|cg_ch23_mother
 @bgm song_end_hero
 @day 서울 · 어느 대학 앞
 [다솜|smile] 수상한 두건 씨! 우리 과 노래패가 그 노래를 공연에서 불렀어요. 앵콜이 세 번 나왔다고요.

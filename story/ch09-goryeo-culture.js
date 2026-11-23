@@ -149,6 +149,9 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 @dive 11~13세기|국자감 앞의 결투
 @bg bg_era_gaegyeong
 @day 고려 · 개경, 국자감 앞|고려 인종 무렵 · 12세기(사학 12도)
+@bg cg_ch09_yeoul_duel|bg_era_gaegyeong
+국자감 대문 앞. 책을 산더미처럼 안은 문벌 도령이 여울에게 손가락질하고, 여울도 지지 않고 손가락을 마주 겨눈다. 그 한가운데 상철이 끼어 있다.
+@bg bg_era_gaegyeong
 @show yeoul worry right
 @show orpheia surprised left
 [여울|worry] 큰일 났어요. 아버지가 진짜 혼처를 하나 물어 오셨대요. 문벌 집안 도령인데, 사학에서 공부한다고 엄청 잘난 척하는 사람이에요.
@@ -203,7 +206,12 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 [여울] 절에 가서 빌래요. 약혼자님도 같이 가요. 약혼자니까.
 [절 아이] (마당을 쓸다 말고) 아가씨, 배 비는 거면 종부터 쳐야 해요. 멀리까지 들리라고요. 제가 칠게요!
 @sfx ring
+@hide all
+@bg cg_ch09_ullim_voices|bg_era_seon_temple
 절 종이 울린다. 둥── 그 소리 끝자락에서 청동 녹빛 머리카락이 거꾸로 풀려 내려온다.
+@bg bg_era_seon_temple
+@show yeoul worry right
+@show orpheia explain left
 @show ullim smile center
 [울림|smile] 흥얼 님! 또 만났네요. 이번엔 고려 절 종이에요. 신라 때보다 소리가 둥글죠?
 [여울|surprised] 야, 약혼자님?! 공중에 사람이 거꾸로……! 아는 사이예요?!
@@ -331,7 +339,9 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 @dive 1377년|청주 흥덕사
 @bg bg_era_heungdeoksa
 @day 청주 흥덕사, 1377년 7월|고려 우왕 · 1377년(『직지심체요절』 인쇄)
+@bg cg_ch09_jikji|bg_era_heungdeoksa
 절 한쪽의 작업실. 쇠로 만든 작은 활자들이 판 위에 빼곡히 짜여 있다. 먹을 바르고 종이를 덮는다.
+@bg bg_era_heungdeoksa
 @show orpheia excited center
 [오르페이아|excited] 드디어 주인님이랑 단둘이에요! ……아, 아니, 사연 님도 계시지만요.
 @show sayeon goryeo right
@@ -376,7 +386,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 [여울] 이름 없는 장인들이 만든 색처럼, 오래 남는 노래로요!
 @hide all
 
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 11월 30일 (일) 04:10 · 작업실
 @phone on
 @show yunseul smile right

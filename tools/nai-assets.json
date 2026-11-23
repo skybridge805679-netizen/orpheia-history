@@ -10126,6 +10126,1777 @@
     }
    ],
    "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, wings, angel wings, halo, black hair, brown hair, blonde hair"
+  },
+  {
+   "id": "bg_era_asadal",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient bronze age korean sacred settlement at dawn on a mountain slope, a tall sacred tree with ribbons and a wooden pole with bird carvings (sotdae), dolmen stones, thatched pit houses, mist in the valley, first light",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_gojoseon_river",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, a wide river at the western frontier of an ancient kingdom, reed beds, a simple wooden ferry landing, earthen watchtower on the far bank, overcast sky, bronze age",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_wanggeom_market",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, busy ancient walled-city market street, iron age korea, thatched and wooden stalls with cloth awnings, bundles of hemp cloth, iron tools, pottery jars, salt sacks, earthen city wall and wooden gate in the background, warm daylight",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_wanggeom_siege",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, an ancient earthen walled city under siege at dusk, smoke rising inside the walls, enemy camp fires and banners covering the plain outside, a closed wooden gate, abandoned market stalls in the foreground, iron age",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_gyeongju_rain",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient silla capital street after heavy rain, wet stone paths and puddles, swollen stream, round grassy burial mounds, tiled roofs dripping, grey morning sky clearing",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_gyeongju_winter",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient silla capital in winter, light snow on round grassy burial mounds and tiled roofs, bare trees, quiet empty streets, pale grey sky, a melancholic last winter of a thousand year kingdom",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_manwoldae_night",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, goryeo royal palace on tall stone terraces at night, steep stone stairs, wooden halls with grey tiled roofs lit by torches, dark mountain behind, tense atmosphere, moonlight",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_manwoldae",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, goryeo royal throne hall interior, red lacquered wooden pillars, a raised throne platform with a folding screen, stone floor, officials' rank stones in rows, soft daylight through lattice doors",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_goryeo_manor",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, a wealthy provincial gentry manor in early goryeo, large tiled-roof house with a wide wooden veranda floor (maru), courtyard with storehouses and earthenware jars, a big iron-bound granary door, spring blossoms, mountains behind",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_choe_mansion",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, the gate of a huge luxurious military ruler's mansion in a goryeo capital, tall walls, armed private guards' spear racks by the gate, lavish garden with a pond visible beyond, heavy atmosphere",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_gaegyeong_alley",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, narrow alley of a goryeo capital in the late 13th century, mongol style felt hats and fur goods hanging at a shop, mixed korean and mongol fashion goods, earthen walls, tiled roofs, autumn",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_goryeo_academy",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, goryeo confucian academy lecture hall, low wooden desks in rows, stacks of neo-confucian books, a hanging scroll with calligraphy, lattice windows, warm afternoon light",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_envoy_departure",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, early morning courtyard outside a joseon government office, an envoy mission preparing to depart, packed tribute chests and bundles of ginseng and paper tied on horses, banners rolled up, carts lined up, mist",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_songpa_dusk",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, a joseon riverside market at dusk, stalls closing, lanterns being lit, boats moored at the hangang ferry, orange and purple sky, lingering crowds' footprints, straw mats rolled up",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_gyeongbokgung_construction",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, huge joseon palace reconstruction site in 1866, wooden scaffolding around a half-built hall, piles of timber and stone, ropes and pulleys, workers' tools left on the ground, dust in the air",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_hanyang_riot",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, joseon capital street in turmoil in 1882, overturned carts, scattered straw sandals and torn military uniforms, smoke rising behind tiled roofs, closed shop doors, summer",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_era_hanyang_winter",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, joseon capital street in winter 1895, snow on tiled roofs, a barber's chair and scissors left near a city gate, a few cut topknots on the snow, grey sky, telegraph poles",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern"
+  },
+  {
+   "id": "bg_studio_dawn",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, small home music studio just before dawn, blue grey light through the window, monitors dimmed to standby, midi keyboard, studio headphones on desk, condenser microphone on arm, empty cup noodles, acoustic foam panels, bookshelf with history books, quiet",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo",
+   "init": "assets/bg_studio_night.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "bg_studio_morning",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, small home music studio in bright morning sunlight, curtains open, dust motes in sunbeams, monitors off, midi keyboard, studio headphones on desk, condenser microphone, a mug of coffee, acoustic foam panels, bookshelf with history books, warm and cozy",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo",
+   "init": "assets/bg_studio_night.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "bg_home_kitchen",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, cozy modern korean apartment kitchen in early morning, long dining table with many mismatched chairs, rice cooker steaming, stacked bowls and spoons, many aprons hanging on hooks, sunrise through the window, lived-in and busy",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo"
+  },
+  {
+   "id": "bg_home_living",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, modern korean apartment living room on a weekend morning, wide floor with play mats, rows of baby bassinets, scattered toys and baby bottles, a sofa, sunlight from a balcony window, slightly chaotic",
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo"
+  },
+  {
+   "id": "cg_ch01_neolithic",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, scenery focus, neolithic riverside village on a warm day, round pit houses with conical thatched roofs along the river, pointed-bottom comb-pattern pottery jars stuck in the sand, a huge mound of seashells, a woman spinning thread with a stone spindle whorl, a little girl pouring millet into a jar, a hooded young man standing at the edge of the village looking around in wonder",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing, looking around in wonder",
+     "uc": "visible eyes",
+     "x": 0.75,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch02_dallae_siege",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, dusk, top of an ancient earthen city wall under siege, the plain outside black with enemy banners and camp fires, exhausted soldiers sitting against the parapet, smoke rising, a merchant woman gripping the parapet and staring at the enemy, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair in a low bun with a wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, fur pelt over one shoulder, cloth bundle, worried, clenching her hands, wind in her hair",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing beside her, looking out",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch02_goguryeo_village",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, autumn mountain valley village with blazing red maple leaves, small storehouses raised on wooden stilts beside each house, narrow terraced fields, young men tending bows and horses, a merchant woman haggling cheerfully with a young archer over a fur pelt, a hooded young man carrying her bundle",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair in a low bun with a wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, fur pelt over one shoulder, cloth bundle, haggling, cheerful grin, holding up fingers",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, carrying a big cloth bundle on his back, tired",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch02_okjeo_coast",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, ancient east coast fishing village, waves, racks of drying fish, mounds of salt, villagers sadly packing heavy bundles of fish and salt onto a cart to be sent away as tribute, a merchant woman watching with a worried frown, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair in a low bun with a wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, fur pelt over one shoulder, cloth bundle, worried frown, arms crossed",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing, looking at the cart",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch03_gungnae_messenger",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, dramatic, gate of an ancient goguryeo stone fortress by a river, a crowd gathered, a mud-covered messenger on a galloping horse bursting through the gate shouting, an old soldier holding his young grandson's shoulder in shock, a hooded young man in the crowd",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing in the crowd, startled",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch03_hanseong_refugees",
+   "size": "bg",
+   "seed": 6604417,
+   "prompt": "1girl, 1boy, autumn, crowded river ferry landing, refugees with bundles packing onto boats heading south, smoke rising from a fortress on the hill across the river, different flags on the boats, a purple-haired ferrywoman standing on a boat pushing off with a long pole and shouting to keep order, a hooded young man helping an old man aboard",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, river spirit ferrywoman, long dark purple hair, purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat on her back, standing on the boat, pushing a long punting pole, shouting, serious",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, helping an old refugee onto the boat",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch03_sabi_tiles",
+   "size": "bg",
+   "seed": 6604417,
+   "prompt": "1girl, 1boy, wide plain with a new ancient capital under construction, wooden stakes marking government building sites, a ferry boat loaded with grey roof tiles with lotus patterns and bricks, a purple-haired ferrywoman handing roof tiles to a hooded young man who staggers under the stack",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, river spirit ferrywoman, long dark purple hair, purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat on her back, handing roof tiles, grinning",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a tall stack of roof tiles, staggering",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch03_silla_plow",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, scenery focus, golden afternoon, ancient silla capital basin with huge round grassy burial mounds like hills, an ox pulling a wooden plow through a field between the mounds, an old farmer stopping the plow and squinting at a hooded young man standing at the field edge",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing at the field edge, waving awkwardly",
+     "uc": "visible eyes",
+     "x": 0.7,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch05_gameunsa",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, 1boy, east sea coast, a rocky islet in the sea, on the shore a temple under construction with two three-story stone pagodas side by side, an old stonemason wiping sweat, a young woman in fur-trimmed northern clothes pointing excitedly at the islet, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, pointing at the sea, surprised, wind in her hair",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, looking at the islet",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch05_census",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, 1boy, silla farming village of thatched houses, children running, an official sitting on a straw mat with a ledger questioning villagers lined up, a young woman in northern fur-trimmed clothes peeking over his shoulder at the ledger with a critical squint, a hooded young man behind her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, leaning over, peeking at the ledger, critical squint",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.48
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing behind her, sweating",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch06_haneui_temple",
+   "size": "bg",
+   "seed": 2606060,
+   "prompt": "1girl, 1boy, deep mountain zen temple in autumn, steep moss-covered stone steps through the forest, a noble lady in silk lifting her long skirt with one hand and climbing the steps energetically, gold hairpins glinting, a hooded young man panting behind her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, unified silla noblewoman, long glossy black hair in an elegant high updo with gold hairpins and a gold flower ornament, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves, long pleated pale lavender silk skirt, sheer silk shawl, climbing stone steps, lifting her skirt, excited smile, looking back",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, climbing behind her, out of breath",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch06_poseokjeong",
+   "size": "bg",
+   "seed": 2606060,
+   "prompt": "1girl, 1boy, tragic, autumn garden with a winding stone water channel shaped like an abalone, overturned wine cups and trampled flowers, broken screens, a noble lady kneeling and hugging a trembling palace maid, a hooded young man standing behind with his head lowered",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, unified silla noblewoman, long glossy black hair in an elegant high updo with gold hairpins and a gold flower ornament, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves, long pleated pale lavender silk skirt, sheer silk shawl, kneeling, hugging a trembling palace maid, tears",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing behind, head lowered",
+     "uc": "visible eyes",
+     "x": 0.68,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch07_procession",
+   "size": "bg",
+   "seed": 2607070,
+   "prompt": "1girl, 1boy, wide palace grounds below a rocky mountain, a long procession of provincial lords with colorful banners entering, a proud white-bearded lord puffing out his chest, beside him a tearful young man clutching a bundle, a young woman with keys at her sash watching from the roadside, a hooded young man next to her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goryeo provincial gentry eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, light beige jeogori with burgundy collar and cuffs, long deep green pleated skirt, small apron, ring of iron keys at her sash, watching from the roadside, hands on hips, frowning",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing next to her",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch07_dongbuk",
+   "size": "bg",
+   "seed": 2607080,
+   "prompt": "1girl, 1boy, snowy mountainside, a broken fortress gate, wounded soldiers bandaging each other in the snow, a frontier girl in a fur hat carrying a steaming pot of soup and ladling it out, a hooded young man holding bowls",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, ladling steaming soup, red nose, determined smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a stack of bowls",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch09_yeoul_duel",
+   "size": "bg",
+   "seed": 7070707,
+   "prompt": "1girl, 1boy, comedic, in front of a goryeo state academy gate, a haughty young aristocrat scholar with a tall stack of books pointing at a merchant girl, she points back fiercely, a crowd of students watching, a hooded young man caught in the middle",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, small abacus at her belt, pointing back fiercely, hand on hip, smug",
+     "uc": "nude, nipples, child, male",
+     "x": 0.36,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, caught in the middle, sweating",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch09_jikji",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, interior of a temple workshop, small metal movable type characters packed in a frame, a monk inking the type with a brush, another laying paper over it, stacks of freshly printed pages drying, oil lamp, a hooded young man leaning in amazed",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, leaning in, amazed",
+     "uc": "visible eyes",
+     "x": 0.68,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch10_jiphyeonjeon",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, night, lamplit royal academy hall, young scholars asleep on piles of books, a man in a red royal robe seen only from behind gently draping his own outer robe over a sleeping scholar, a palace maid with a tray of sweets peeking from behind a door with wide eyes, a hooded young man behind her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, peeking from behind a door, holding a tray of sweets, wide eyes, hand over mouth",
+     "uc": "nude, nipples, child, male",
+     "x": 0.3,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, peeking over her head",
+     "uc": "visible eyes",
+     "x": 0.4,
+     "y": 0.45
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch10_sodam_books",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, comedic, joseon palace corridor, a palace maid carrying an enormous wobbling stack of thick law books up to her nose, stumbling, a hooded young man rushing to catch the falling top books",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, carrying a huge stack of books, stumbling, panicked",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, rushing to catch falling books",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch11_historian",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, tense, joseon palace archive at dusk, a trembling court historian clutching a brush and a sheet of record, armed guards approaching down the corridor, a palace maid hiding behind a red pillar with a hooded young man, both holding their breath",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, hiding behind a pillar, scared, hand over mouth",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, hiding behind the pillar with her",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch11_ruin",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, ruins of a burnt joseon palace, only stone foundations left, weeds growing between them, grey sky, a palace maid standing alone among the ruins holding her apron, a hooded young man a few steps behind",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, standing among ruins, sad, holding her apron",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, a few steps behind, quiet",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch13_jokbo",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, corner of a crowded joseon market, a shady man secretly selling official certificates and family genealogy books from a mat, a storyteller girl standing on a crate with a fan telling the crowd about it with dramatic gestures, a hooded young man in the crowd",
+   "chars": [
+    {
+     "prompt": "girl, lively young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, folding fan, standing on a crate, dramatic gesture with a fan, wink",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, in the crowd, looking up",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch13_silhak",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, a joseon scholar's study at night, books piled like mountains, a western globe and a brass telescope from qing china on the desk, maps on the wall, a storyteller girl spinning the globe in delight, a hooded young man looking through the telescope the wrong way",
+   "chars": [
+    {
+     "prompt": "girl, lively young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, folding fan, spinning the globe, delighted grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, looking through the telescope the wrong way",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch14_imo",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, tense summer night, back gate of a joseon palace, smoke and torchlight beyond the walls, a palace maid leading a noble lady wearing a full veil hiding her face by the hand through the gate, a hooded young man keeping watch",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, leading by the hand, running, determined",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, keeping watch at the gate",
+     "uc": "visible eyes",
+     "x": 0.7,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch16_telegraph",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, 1boy, 1900s korean telegraph office, paper telegram slips pouring out, an errand boy running with papers, a young woman student with a pencil behind her ear leaning on the counter waiting impatiently, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair with a center part and a long braid with a white ribbon, bright dark eyes, 1900s korean mission school student, white jeogori, long black chima, black leather shoes, pencil behind her ear, leaning on the counter, impatient",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing beside her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch17_survey",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, 1boy, 1910s korean rice paddies, survey flags stuck in the field ridges, a uniformed japanese colonial surveyor with an open ledger, an old korean farmer standing before him clutching his hat, a young woman taking notes angrily behind them, a hooded young man",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair with a center part and a long braid with a white ribbon, bright dark eyes, 1900s korean mission school student, white jeogori, long black chima, black leather shoes, taking notes in a small notebook, angry frown",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing beside her",
+     "uc": "visible eyes",
+     "x": 0.75,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch20_school",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, 1boy, 1940s korean school yard in the morning, rows of children in uniforms forced to bow toward the east, a young woman teacher standing at the side with clenched fists and a stiff face, a hooded young man by the fence",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair with a center part and a long braid with a white ribbon, bright dark eyes, 1900s korean mission school student, white jeogori, long black chima, black leather shoes, standing stiffly, clenched fists, holding back anger",
+     "uc": "nude, nipples, child, male",
+     "x": 0.65,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, by the fence",
+     "uc": "visible eyes",
+     "x": 0.82,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch21_jeju",
+   "size": "bg",
+   "seed": 1515151,
+   "prompt": "1girl, 1boy, quiet and solemn, jeju island hillside village where only black volcanic stone walls remain, wind blowing the grass, an old grandmother sitting before a small memorial stone, a young woman kneeling beside her holding her hand, a hooded young man standing back respectfully",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short bob black hair, gentle black eyes, 1950s korean refugee teacher, plain white blouse and dark long skirt, cardigan, kneeling, holding the grandmother's hand, sad",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.6
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing back respectfully",
+     "uc": "visible eyes",
+     "x": 0.75,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch09_ullim_voices",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, 1boy, mountain temple courtyard, a large bronze temple bell ringing with visible sound ripples, a celestial maiden floating upside down above the courtyard with one hand at her throat mimicking a voice, a worried merchant girl with chestnut twin tails praying with folded hands, a hooded young man humming beside the bell",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, celestial maiden, feitian, very fair skin, very long hair floating upward, teal green hair, verdigris hair, gold hair tips, gold eyes, gold forehead jewel, translucent pale jade celestial shawl, gold beaded necklaces, sheer jade silk top, long white and jade skirt, barefoot, floating, floating upside down, hand at her throat, playful",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.32
+    },
+    {
+     "prompt": "girl, young adult woman, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, small abacus at her belt, praying with folded hands, worried",
+     "uc": "nude, nipples, child, male",
+     "x": 0.3,
+     "y": 0.62
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, humming beside the bell",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_naru",
+   "size": "bg",
+   "seed": 6604417,
+   "prompt": "1girl, 1boy, romantic, sunset over a wide river ferry landing, golden water, a purple-haired ferrywoman sitting on the edge of her boat writing in a worn ledger with a brush, a hooded young man sitting in the boat facing her",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, river spirit ferrywoman, long dark purple hair, purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat on her back, sitting on the boat edge, writing in a ledger, shy smile, cheeks flushed",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting in the boat, watching her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_sodam",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, joseon palace kitchen backyard in spring, earthenware jars, a palace maid pressing a big cloth-wrapped bundle of yakgwa sweets into a hooded young man's arms, tears in her eyes but smiling",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, pushing a bundle of sweets into his arms, teary smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding the bundle, gentle",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_hanbyeol",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, 1boy, 1900s seoul street with tram tracks and a streetcar, a young woman student holding out a folded manuscript paper with both hands, blushing and looking away, a hooded young man reaching for it",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long straight black hair with a center part and a long braid with a white ribbon, bright dark eyes, 1900s korean mission school student, white jeogori, long black chima, black leather shoes, holding out a folded manuscript paper with both hands, blushing, looking away",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, reaching for the paper",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_bori",
+   "size": "bg",
+   "seed": 1313131,
+   "prompt": "1girl, 1boy, mountain village kitchen at dusk, earthen stove fire glowing, a farm girl in a white headband wrapping rice balls in cloth and tying them, teary but smiling, a hooded young man crouching beside the stove",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, tying a cloth bundle of rice balls, teary smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, crouching by the stove",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_dano",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, joseon riverside market at sunset, a storyteller girl on a wooden stage holding up a fan with two names written on it, grinning, a crowd cheering, a hooded young man beside her on the stage",
+   "chars": [
+    {
+     "prompt": "girl, lively young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, folding fan, holding up a fan with writing, grin, wink",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing on the stage beside her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_haerang",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, 1boy, mountain border road between two kingdoms at dawn, frosty grass, a young woman in fur-trimmed northern clothes standing with her back half turned, wiping a tear with her sleeve, a hooded young man a few steps away",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, half turned away, wiping a tear with her sleeve, pouting",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, a few steps away, looking at her",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_garam",
+   "size": "bg",
+   "seed": 2614141,
+   "prompt": "1girl, 1boy, 1880s korean port house at evening, an old matchlock musket hung on the wall, a hunter girl standing and singing loudly with her eyes shut and fists clenched, red ears, a hooded young man clapping to keep the beat",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, singing loudly, eyes shut, red ears, fists clenched",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, clapping to keep the beat",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_noeul",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1girl, 1boy, romantic, bronze age sacred settlement at sunset, red sky, a tiger-eared noble lady sitting very still with her hands on her knees, waiting, tail curled, a hooded young man gently patting her head",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, tiger ears, animal ear fluff, amber eyes with slit pupils, small fang, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, white fur stole, tiger tail, sitting still, eyes closed, being patted on the head, blushing, tail curled",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, patting her head",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_dallae",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, ancient walled-city market stall, a merchant woman holding up a wooden tablet carved with a jar mark and a hood mark side by side, proud and shy, a hooded young man looking at it",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, merchant, black hair in a low bun with a wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, fur pelt over one shoulder, cloth bundle, holding up a carved wooden tablet, shy proud smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, looking at the tablet",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_saebyeok",
+   "size": "bg",
+   "seed": 1515151,
+   "prompt": "1girl, 1boy, 1950s refugee tent school in the morning, children's drawings pinned on the canvas, a young woman teacher at the front leading a song with raised hands, a hooded young man at the back of the tent",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short bob black hair, gentle black eyes, 1950s korean refugee teacher, plain white blouse and dark long skirt, cardigan, leading a song, raised hands, bright smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, at the back of the tent, listening",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_dasom",
+   "size": "bg",
+   "seed": 1616161,
+   "prompt": "1girl, 1boy, 1980s korean university gate at evening, posters on the wall, a college student holding a songbook and an acoustic guitar case, laughing, a hooded young man walking beside her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, holding a songbook, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, walking beside her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch04_gaon_fleet",
+   "size": "bg",
+   "seed": 2604050,
+   "prompt": "1girl, sea battle fleet, a horizon covered with tang warships, a hundred silla warships lining up in front, an interpreter woman standing at the bow of the lead ship with her hair and sleeves blowing in the wind, bamboo slips under her arm",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, standing at the bow, hair blowing in the wind, determined",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch04_ara_gaon_back",
+   "size": "bg",
+   "seed": 2604040,
+   "prompt": "2girls, river mouth sea battle, tang warships pushing in, silla ships blocking, on the deck of a silla ship an archer woman and an interpreter woman standing back to back, the archer drawing her bow, the interpreter shouting orders",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic build, short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, quiver on her back, drawing a bow, back to back, fierce",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, young adult woman, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, shouting, back to back, holding bamboo slips",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch04_campfire",
+   "size": "bg",
+   "seed": 2604040,
+   "prompt": "2girls, 1boy, night after battle, a riverside campfire drying wet banners, an archer woman and an interpreter woman sitting side by side, the archer leaning her head on the interpreter's shoulder half asleep, a hooded young man feeding the fire",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic build, short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, quiver on her back, sitting, leaning her head on the other woman's shoulder, sleepy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.58
+    },
+    {
+     "prompt": "girl, young adult woman, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, sitting, smiling softly",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.58
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, feeding the fire",
+     "uc": "visible eyes",
+     "x": 0.7,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch08_soebyeol_news",
+   "size": "bg",
+   "seed": 2608090,
+   "prompt": "1girl, 1boy, refugees with bundles on an island shore, a blacksmith girl jumping up from among the bundles with a raised fist and a huge grin, an arrowhead in her hand, a hooded young man startled",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic, leather apron, wide hemp trousers, jumping up, raised fist, huge grin, holding an arrowhead",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, startled, sitting among bundles",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.62
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch08_danbi_news",
+   "size": "bg",
+   "seed": 2608100,
+   "prompt": "1girl, 1boy, goryeo capital alley in spring, a royal notice posted on a wall, a messy-haired maiden grabbing a hooded young man's sleeve and pointing at the notice, jumping with joy",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, goryeo commoner maiden, long black hair deliberately messy and tousled, big lively dark eyes, small mole under one eye, plain pale pink jeogori with a short white collar, faded blue long skirt, grabbing his sleeve, pointing at a notice, jumping with joy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being tugged",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch11_dodam_bandage",
+   "size": "bg",
+   "seed": 1111201,
+   "prompt": "1girl, 1boy, close-up, field clinic under a straw mat roof, a doctor apprentice girl pressing crushed mugwort onto a hooded young man's palm and wrapping it with cloth, focused, their hands close, warm light",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder with a red ribbon, herb sprig behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up, deep indigo chima, white work apron, wrapping a cloth bandage around his hand, focused, slight blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding out his hand",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch12_sisters",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "3girls, 1boy, comedic, behind a folding screen at a joseon banquet, a hooded young man caught, a proud gisaeng in pink grabbing his wrist possessively, a playful gisaeng in yellow pointing and shouting, a calm gisaeng in jade green retying her ribbon and looking away",
+   "chars": [
+    {
+     "prompt": "girl, proud young adult woman, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, grabbing his wrist, jealous glare",
+     "uc": "nude, nipples, child, male",
+     "x": 0.35,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, playful young adult woman, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, pointing, shouting",
+     "uc": "nude, nipples, child, male",
+     "x": 0.55,
+     "y": 0.45
+    },
+    {
+     "prompt": "girl, elegant young adult woman, joseon gisaeng, glossy black hair in an updo with a braided chignon, white plum blossom ornament and silver binyeo, calm dark grey eyes, snow-white skin, beauty mark under left eye, short jade green jeogori with crimson cuffs and ribbon, long deep rose chima, folded white fan, retying her jeogori ribbon, looking away, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.78,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, caught in the middle, sweating",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch12_seola_secret",
+   "size": "bg",
+   "seed": 2323232,
+   "prompt": "1girl, 1boy, quiet night, wooden veranda of a joseon mansion after a banquet, paper lanterns, a gisaeng holding her folded fan over her lips with a soft smile, sitting beside a hooded young man, moonlight",
+   "chars": [
+    {
+     "prompt": "girl, elegant young adult woman, joseon gisaeng, glossy black hair in an updo with a braided chignon, white plum blossom ornament and silver binyeo, calm dark grey eyes, snow-white skin, beauty mark under left eye, short jade green jeogori with crimson cuffs and ribbon, long deep rose chima, folded white fan, fan over her lips, soft secretive smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting beside her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.58
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch12_hwaseon_market",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "1girl, 1boy, busy joseon street stalls, a stall full of colorful hair ornaments, a playful gisaeng holding up two flower hairpins and haggling with the old vendor, a hooded young man holding her shopping",
+   "chars": [
+    {
+     "prompt": "girl, playful young adult woman, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, holding up two flower hairpins, haggling, grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding her shopping bundles",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch14_garam_customs",
+   "size": "bg",
+   "seed": 2614141,
+   "prompt": "1girl, 1boy, 1880s korean port customs warehouse, a western customs officer stamping papers, an interpreter writing, a hunter girl without a gun putting down a cargo crate and raising her hand stiffly, a hooded young man beside the crates",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, raising her hand stiffly, deadpan",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing beside the crates",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch22_bomnae_sitin",
+   "size": "bg",
+   "seed": 2622220,
+   "prompt": "1girl, 1boy, 1979 korea, crowded party headquarters hall, rows of young female factory workers with towels tied on their heads sitting closely together in a sit-in, a factory girl in the front row holding hands with the girls beside her, determined, a hooded young man at the wall",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, light blue work blouse with sleeves rolled up, navy work skirt, white factory apron, thimble on her finger, sitting in the front row, holding hands, determined",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.58
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing at the wall",
+     "uc": "visible eyes",
+     "x": 0.78,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch23_dasom_olympic",
+   "size": "bg",
+   "seed": 1616161,
+   "prompt": "1girl, 1boy, 1988 seoul olympic opening ceremony stadium, crowds, flags, doves, fireworks, a college student waving a small flag and laughing, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, waving a small flag, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, beside her, looking up at the sky",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ep_result",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1girl, 1boy, morning, small home music studio, a girl with light brown wavy hair in a pastel blue hoodie and a hooded young man leaning toward a monitor showing an exam results website, the girl's finger on the mouse, both frozen in suspense, a phone on the desk glowing",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie with pin badges, frozen in suspense, finger on the mouse",
+     "uc": "nude, child",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, leaning toward the monitor, frozen",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ep_night",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, night, small home music studio after a party, empty fried chicken boxes, a girl asleep on the sofa under a blanket, a hooded young man alone at the desk facing a monitor showing a glowing timeline map with many points of light",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting at the desk, looking at the glowing monitor, back view",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ep_exam_eve",
+   "size": "bg",
+   "seed": 4242001,
+   "prompt": "1boy, two nights before an exam, small home music studio, a desk covered with history workbooks and sticky notes, a printed exam admission ticket, a hooded young man asleep face down on the books, a phone on the desk glowing softly",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, asleep face down on the books",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_ullim",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, record shop listening booth, shelves of vinyl records, a celestial maiden with teal hair wearing big headphones in a listening booth, eyes closed blissfully, her translucent shawl floating, a hooded young man outside the glass",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, very fair skin, very long hair floating upward, teal green hair, verdigris hair, gold hair tips, gold eyes, gold forehead jewel, wearing big headphones, eyes closed, blissful smile, floating slightly",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, outside the glass, watching",
+     "uc": "visible eyes",
+     "x": 0.68,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_dallae",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, modern subway station exit, a woman haggling over a used item with a stranger holding a smartphone, holding up fingers, triumphant, a hooded young man holding a secondhand rice cooker",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, brown eyes, modern casual clothes, haggling, holding up fingers, triumphant grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a secondhand rice cooker",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_naru",
+   "size": "bg",
+   "seed": 6604417,
+   "prompt": "1girl, 1boy, modern subway transfer corridor, a purple-haired woman standing at the ticket gates holding out her palm to commuters as if collecting fare, commuters confused, a hooded young man pulling her away by the sleeve",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, river spirit ferrywoman, long dark purple hair, purple hair, small brass bell on the hair tie, pale gold eyes, fair skin, modern casual clothes, holding out her palm at the ticket gate, confident grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, pulling her away by the sleeve",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_ara",
+   "size": "bg",
+   "seed": 2604040,
+   "prompt": "1girl, 1boy, indoor archery cafe, targets in a row, an athletic woman with a high ponytail releasing an arrow that hits the bullseye, the staff gaping, a hooded young man holding a scoreboard",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, bright hazel eyes, sun-kissed skin, modern sporty clothes, releasing an arrow, focused, confident",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a scoreboard, impressed",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_gaon",
+   "size": "bg",
+   "seed": 2604050,
+   "prompt": "1girl, 1boy, modern seoul street near a palace gate, a woman in a neat low bun giving directions to a group of foreign tourists with lively gestures, a translation app on a phone ignored, a hooded young man watching proudly",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, soft brown eyes, modern neat clothes, giving directions with gestures, bright smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, watching proudly",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_haerang",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, 1boy, zoo deer enclosure, a short-haired woman with a side ponytail leaning over the fence studying the small deer critically, a hooded young man holding two ice creams",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, short dark brown hair, side ponytail, bright green eyes, modern casual clothes, leaning over the fence, critical squint",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding two ice cream cones",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_haneui",
+   "size": "bg",
+   "seed": 2606060,
+   "prompt": "1girl, 1boy, luxury department store jewelry floor, a glamorous woman in an elegant updo trying on gold earrings in front of a mirror, delighted, a hooded young man staring at the price tag in horror",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, unified silla noblewoman, warm amber eyes, elegant modern dress, trying on gold earrings, delighted",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, staring at a price tag in horror",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_maru",
+   "size": "bg",
+   "seed": 2607070,
+   "prompt": "1girl, 1boy, furniture store showroom, a woman with keys at her belt sitting on a big sofa with her shoes neatly placed in front, pointing sternly at a hooded young man's shoes",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, warm dark brown eyes, modern casual clothes, sitting on a sofa, pointing sternly",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing with shoes on, flustered",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_seori",
+   "size": "bg",
+   "seed": 2607080,
+   "prompt": "1girl, 1boy, korean jjimjilbang sauna lounge, heated floor, a woman with rosy cheeks wearing a towel lamb-ear headband lying flat on the warm floor melting happily, a hooded young man holding a boiled egg",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, jjimjilbang outfit, lamb ear towel hat, lying on the warm floor, melting blissfully",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.58
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, holding a boiled egg",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_yeoul",
+   "size": "bg",
+   "seed": 7070707,
+   "prompt": "1girl, 1boy, antique shop full of old ceramics, a freckled merchant girl with chestnut twin tails holding up a celadon vase to the light and squinting, the shopkeeper sweating, a hooded young man behind",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, wavy chestnut brown hair, bright blue eyes, freckles, modern casual clothes, holding up a celadon vase, squinting expertly",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing behind her",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_soebyeol",
+   "size": "bg",
+   "seed": 2608090,
+   "prompt": "1girl, 1boy, hardware store aisle full of hammers and tools, a short-haired tanned woman lifting a sledgehammer with one hand admiringly, a hooded young man holding a shopping basket",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, bright determined black eyes, tanned skin, modern work clothes, lifting a sledgehammer with one hand, admiring it",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a shopping basket",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_danbi",
+   "size": "bg",
+   "seed": 2608100,
+   "prompt": "1girl, 1boy, modern district office counter, a messy-haired young woman proudly filling out a marriage registration form with big letters, a hooded young man beside her sweating",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, long black hair deliberately messy and tousled, big lively dark eyes, small mole under one eye, modern casual clothes, filling out a form proudly, big smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, beside her, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_sodam",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, 1boy, cozy modern cafe, a glass display case of yakgwa cookies and yakgwa croissants, a young woman with a long braid and red ribbon pressing her face to the glass with sparkling eyes, a hooded young man paying",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, round dark brown eyes, modern casual clothes, pressing her face to the display glass, sparkling eyes",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, paying at the counter",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_dodam",
+   "size": "bg",
+   "seed": 1111201,
+   "prompt": "1girl, 1boy, supermarket vitamin aisle, a young woman with a long chestnut braid reading the back of a supplement bottle with intense concentration and a notebook, a hooded young man pushing a cart",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, bright hazel eyes, modern casual clothes, reading a supplement label intensely, notebook",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, pushing a shopping cart",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_maehyang",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "1girl, 1boy, small bookstore poetry reading night, a tall graceful woman reading a poem aloud at a microphone with a calm dignified face, the audience enchanted, a hooded young man in the back row",
+   "chars": [
+    {
+     "prompt": "girl, graceful mature adult woman, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, elegant modern clothes, reading a poem at a microphone, dignified",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.48
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting in the back row",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_choryeon",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "1girl, 1boy, music instrument shop, a proud woman with a lotus ornament in her hair restringing an electric guitar with a sulky but focused face, a hooded young man watching",
+   "chars": [
+    {
+     "prompt": "girl, proud young adult woman, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, modern chic clothes, restringing an electric guitar, sulky focused face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, watching",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_hwaseon",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "1girl, 1boy, k-pop dance studio with a mirror wall, a playful woman with flower pins in her hair nailing a dance move in front of the mirror, other students staring, a hooded young man trying to copy and failing",
+   "chars": [
+    {
+     "prompt": "girl, playful young adult woman, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, modern dance practice clothes, mid dance move, wink",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, trying to copy the dance, failing",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_seola",
+   "size": "bg",
+   "seed": 2323232,
+   "prompt": "1girl, 1boy, hot summer street, a calm elegant woman with a white plum ornament holding a small handheld electric fan in front of her face, startled by the breeze, a hooded young man holding her folded paper fan",
+   "chars": [
+    {
+     "prompt": "girl, elegant young adult woman, glossy black hair in an updo with a braided chignon, calm dark grey eyes, snow-white skin, beauty mark under left eye, modern summer dress, holding a handheld electric fan, startled",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a folded paper fan",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_dano",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, 1boy, small room set up for live streaming, ring light and microphone, a short-haired girl with a red ribbon headband telling a story dramatically to the camera with a fan, live chat scrolling on the monitor, a hooded young man holding a reflector",
+   "chars": [
+    {
+     "prompt": "girl, lively young adult woman, golden brown eyes, tanned skin, telling a story to a camera, dramatic gesture with a fan",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a reflector",
+     "uc": "visible eyes",
+     "x": 0.68,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_garam",
+   "size": "bg",
+   "seed": 2614141,
+   "prompt": "1girl, 1boy, small coin karaoke booth with neon lights, a hunter woman with a long braid holding a microphone with both hands singing with eyes squeezed shut and very red ears, a hooded young man clapping",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sharp grey eyes, slightly tanned skin, modern casual clothes, singing into a microphone with both hands, eyes shut, red ears",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, clapping",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_bori",
+   "size": "bg",
+   "seed": 1313131,
+   "prompt": "1girl, 1boy, big supermarket rice aisle, a sun-tanned woman in a white headband effortlessly lifting a 20kg rice sack onto her shoulder, shoppers gaping, a hooded young man with an empty cart",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, sun-tanned skin, thick black hair in a low braid, dark brown determined eyes, modern casual clothes, lifting a big rice sack onto her shoulder, cheerful",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, with an empty cart, stunned",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_hanbyeol",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, 1boy, cozy cafe at night, a young woman with a long braid and glasses typing furiously on a laptop with a deadline note stuck on the screen, cold coffee, a hooded young man bringing a new cup",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, bright dark eyes, modern clothes, glasses, typing furiously on a laptop",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, bringing a new cup of coffee",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_saebyeok",
+   "size": "bg",
+   "seed": 1515151,
+   "prompt": "1girl, 1boy, community children's center classroom in the afternoon, a woman with a short bob teaching a group of children at a whiteboard with a gentle smile, children raising hands, a hooded young man helping at the back",
+   "chars": [
+    {
+     "prompt": "girl, mature adult woman, early 40s, short bob black hair, gentle black eyes, modern casual clothes, cardigan, teaching at a whiteboard, gentle smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, helping at the back",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_bomnae",
+   "size": "bg",
+   "seed": 2622220,
+   "prompt": "1girl, 1boy, dongdaemun fabric market, rolls of colorful fabric stacked high, a woman with a short bob and white headband holding up a fabric swatch against a hooded young man's chest measuring by eye",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, round warm brown eyes, modern casual clothes, holding a fabric swatch against his chest, measuring by eye",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing still, being measured",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_dasom",
+   "size": "bg",
+   "seed": 1616161,
+   "prompt": "1girl, 1boy, university festival outdoor stage at night, lights and crowd, a young woman with bangs singing into a microphone with a band behind her, a hooded young man in the crowd holding up a phone light",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, shoulder length straight black hair with bangs, kind dark eyes, modern casual clothes, singing into a microphone on stage, bright smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.45
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, in the crowd holding up a phone light",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.65
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
   }
  ]
 }

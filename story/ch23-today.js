@@ -24,7 +24,12 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 거대한 경기장이 사람들로 가득하다. 하늘로 비둘기들이 날아오른다.
 @show dasom smile center
 @show orpheia excited left
+@hide all
+@bg cg_ch23_dasom_olympic|bg_era_olympic_1988
 [다솜|smile] 기록꾼 님! 이번엔 기쁜 날에 오셨네요. 서울 올림픽 개회식이에요!
+@bg bg_era_olympic_1988
+@show dasom smile center
+@show orpheia excited left
 @bg cg_ch23_mother
 [다솜|smile] 아, 맞다. 우리 식구도 다 왔어요. ……엄마! 아빠! 여기!
 단정하게 머리를 틀어 올린 새벽이 다가온다. 그 뒤로 양복 차림의 중년 남자가 표 세 장과 음료 캔 세 개를 한꺼번에 들고 쩔쩔매며 따라온다.
@@ -245,7 +250,7 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @show orpheia smile left
 [다솜|smile] 언젠가 이 선이 없어지는 날도, 기록꾼 님이 와서 봐 주세요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

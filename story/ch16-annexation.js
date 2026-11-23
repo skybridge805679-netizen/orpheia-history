@@ -21,7 +21,9 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 @dive 1903년~1905년|용암포에서 인천 앞바다로
 @bg bg_era_telegraph_office
 @day 한성 · 전보국, 1903년 ~ 1904년|대한 제국 고종 · 1903~1904년(러일 전쟁 직전)
+@bg cg_ch16_telegraph|bg_era_telegraph_office
 전보 종이가 쉴 새 없이 쏟아진다. 사환 소년이 종이를 들고 뛰어다닌다. 창구 앞에서 한별이 연필을 귀에 꽂은 채 전보를 기다린다.
+@bg bg_era_telegraph_office
 @show hanbyeol serious right
 [한별|serious] 기록꾼 양반! 마침 잘 왔어요. 요즘 신문사는 전보국 앞에서 살아요. 러시아랑 일본이 우리 땅을 두고 으르렁거리거든요.
 [학생] (사환) 러시아 공사 파블로프가 용천군 용암포 삼림 회사 편하게 하자고 전화랑 전선을 더 놓겠다며 외부에 조회했대요! 그리고 이건…… 일본이랑 맺었다는 의정서예요. '대일본 제국 정부는 대한 제국의 독립과 영토 보전을 확실히 보증한다'?
@@ -322,7 +324,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [보리|smile] 학생 아가씨, 글 잘 쓴다며? 나중에 우리 이야기도 좀 써 줘요.
 [한별|smile] 네! 꼭요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

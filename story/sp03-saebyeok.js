@@ -15,7 +15,7 @@ VN.chapter('sp_saebyeok','외전','새벽의 아침',`
 @wait 900
 더 보고 싶은데. 조금만 더.
 ……안 돼. 큰언니가 늦잠을 자면 이 집 아침이 무너진다.
-@bg bg_studio_night
+@bg bg_home_kitchen|bg_studio_night
 @day 오전 여섯 시 · 상철네 부엌
 @bgm auto
 부엌은 전쟁터다. 이 집엔 신부가 스물일곱 명이고, 다들 저마다 살던 시대의 아침을 들고 온다.

@@ -57,7 +57,7 @@ VN.chapter('ch00','서장','얼굴 없는 작곡가와 역사덕후 보컬',`
 [윤슬|smile] 그리고 오빠, 공부는 걱정 마. 우리한텐 오르페이아 언니가 있잖아! 언니한테 기출 다 먹이면 과외 선생님 완성!
 @hide all
 
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 03:40 · 작업실
 @phone on
 @show yunseul smile right

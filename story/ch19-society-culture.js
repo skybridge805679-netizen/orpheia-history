@@ -276,7 +276,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @show orpheia smile left
 [한별|smile] 저도 우리 동네 말 몇 개 적어서 보냈어요. 사전에 실리면 좋겠다!
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

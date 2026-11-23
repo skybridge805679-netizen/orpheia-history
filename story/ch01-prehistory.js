@@ -111,7 +111,9 @@ VN.chapter('ch01','제1장','누리의 돌',`
 @dive 약 1만 년 전부터|신석기 시대
 @bg bg_era_neolithic
 @day 신석기 시대 · 같은 강의 하류, 강가 마을|신석기 · 약 1만 년 전부터(간석기·농경·정착)
+@bg cg_ch01_neolithic|bg_era_neolithic
 날씨가 따뜻해졌다. 같은 강인데, 이번엔 사람들이 떠나지 않는다. 강가를 따라 땅을 파고 지붕을 얹은 집들이 줄지어 있고, 집 앞엔 빗질한 듯한 무늬의 토기들. 그 옆으로 조개껍데기가 작은 언덕처럼 쌓여 있다.
+@bg bg_era_neolithic
 @show orpheia smile left
 @show nuri neo right
 [누리] (토기에 곡식을 부으며) 올해는 조 농사 대박이다!
@@ -339,7 +341,7 @@ VN.chapter('ch01','제1장','누리의 돌',`
 [사연] 이 시대의 기록이 다시 또렷해졌습니다. 떠돌던 무리가 머물러 마을이 되고, 마을에 지배자가 서고, 그 지배자의 무덤이 고인돌이 되기까지.
 [오르페이아|smile] 주인님, 기록부에 모은 거 한번 쭉 넘겨 볼까요?
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

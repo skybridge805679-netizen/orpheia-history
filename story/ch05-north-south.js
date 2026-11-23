@@ -226,7 +226,9 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @dive 681년|통일 신라 · 경주와 동해
 @bg bg_era_gameunsa
 @day 통일 신라 · 동해 바닷가, 681년|통일 신라 문무왕 승하·신문왕 즉위 · 681년
+@bg cg_ch05_gameunsa|bg_era_gameunsa
 바다 한가운데 바위섬이 보인다. 뭍에선 삼층 석탑 두 개가 나란히 선 절이 지어지는 중이다. 돌을 나르던 늙은 석공이 손님들을 보고 땀을 훔친다.
+@bg bg_era_gameunsa
 @show haerang surprised right
 @show orpheia smile left
 [해랑|surprised] (속삭이며) 여기가 백 년 전 신라예요? 바다 냄새는 똑같네.
@@ -291,7 +293,9 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @dive 8~9세기|서원경 근처의 마을
 @bg bg_era_silla_village
 @day 통일 신라 · 서원경(청주) 근처 마을|통일 신라 · 8~9세기(민정 문서)
+@bg cg_ch05_census|bg_era_silla_village
 초가 사이로 아이들이 뛰어다닌다. 관리 하나가 마당에 돗자리를 깔고 앉아, 줄 선 마을 사람들에게 하나하나 묻고 있다.
+@bg bg_era_silla_village
 @show haerang smile right
 @show orpheia worry left
 [관리] 다음. 집에 사내 몇, 계집 몇이냐. 나이는? 소는 몇 마리, 말은? 뽕나무는 몇 그루, 잣나무와 호두나무는?
@@ -457,7 +461,7 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @show orpheia smile left
 [해랑|smile] 고마워요, 기록꾼님. 다음에 오면 상경 큰길 같이 걸어요. 그땐 업어 줄게요.
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right

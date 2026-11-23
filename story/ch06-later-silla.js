@@ -50,7 +50,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @note 혜공왕 피살(780)|이찬 김지정의 반란 → 상대등 김양상·이찬 김경신이 진압했으나 왕과 왕비는 살해됨. 무열왕계 직계 왕위 계승이 끊김. 신라 하대의 시작.
 @hide all
 
-@bg bg_era_gyeongju
+@bg bg_era_gyeongju_rain|bg_era_gyeongju
 @day 경주, 몇 해 뒤 · 큰비 내린 아침|신라 원성왕 즉위 · 785년
 @bgm auto
 빗줄기가 굵다. 북쪽 냇가에서 갓 쓴 사내 하나가 발을 동동 구르고 있다. 불어난 물살이 다리를 집어삼켰다.
@@ -329,6 +329,9 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @dive 890년대|담장 밖으로 · 무주 땅의 산사
 @bg bg_era_seon_temple
 @day 신라 하대 · 무주 땅, 깊은 산속의 절|신라 하대 · 890년대(선종 9산)
+@bg cg_ch06_haneui_temple|bg_era_seon_temple
+깊은 산속, 이끼 낀 돌계단. 비단 치마를 한 손에 걷어쥔 하늬가 계단을 두 칸씩 뛰어오른다. 금비녀가 햇빛에 번쩍인다.
+@bg bg_era_seon_temple
 @show haneui smile right
 @show orpheia worry left
 [하늬|smile] 정인님! 저 진짜로 담 넘었어요. 시녀한텐 절에 불공 드리러 간다고 했고요. 거짓말은 아니죠? 지금 절에 왔으니까요.
@@ -451,8 +454,10 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @dive 927년|경주 · 포석정
 @bg bg_era_poseokjeong
 @day 경주 · 포석정, 927년 가을|신라 경애왕 · 927년(견훤의 경주 침입)
+@bg cg_ch06_poseokjeong|bg_era_poseokjeong
 굽이진 돌 물길이 흐르는 정원. 술잔이 나뒹굴고, 정원은 엉망으로 짓밟혀 있다.
 숨어 있던 궁인 하나가 떨며 기어 나온다. 그 궁인을 보자마자, 하늬가 달려가 끌어안는다.
+@bg bg_era_poseokjeong
 @show haneui teary right
 [하늬|teary] 상궁 마마님! 저 김씨 댁 하늬예요. 살아 계셨군요……!
 [상궁] ……견훤의 군사가 왕경에 들어왔어요. 대왕께선 여기서 연회를 하시다가, 적병이 왔다는 말에 왕비마마와 함께 남쪽 별궁으로 달아나 숨으셨는데……
@@ -506,7 +511,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [오르페이아|worry] (귓속말) 아들한테요. 맏아들 신검이 아버지를 가뒀어요.
 [병사] 금성으로 가서, 고려 왕께 사람을 보낼 겁니다. 만나 주십사 하고요.
 @hide all
-@bg bg_era_gyeongju
+@bg bg_era_gyeongju_winter|bg_era_gyeongju
 @day 경주 · 같은 해 겨울|신라 경순왕 · 935년(고려에 항복)
 장터에서 장사꾼 둘이 수군거린다. 그 뒤에서 비단 너울을 쓴 하늬가 조용히 듣고 있다.
 @show haneui serious right
@@ -599,7 +604,7 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [나루|shy] ……이번엔 처음부터 무릎 베고 가요. 파고들기 전에.
 @add naru 2
 @hide all
-@bg bg_studio_night
+@bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on
 @show yunseul smile right
