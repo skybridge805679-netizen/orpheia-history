@@ -6448,5 +6448,15 @@
   "seed": 1515300,
   "prompt": "2girls, pov, slice of life, warm sunday afternoon, cozy modern korean apartment living room, two pregnant women sitting on a sofa turned slightly toward each other, their round pregnant bellies pressed together and touching, belly to belly, shoulders touching, both looking up at the viewer at the same angle with the same loving expression, two cups of barley tea on the coffee table, soft sunlight from a balcony window, mother and daughter resemblance",
   "init": null
+ },
+ "cg_after_idol_stage": {
+  "seed": 2323241,
+  "prompt": "4girls, k-pop idol group performance on a live music show stage, bright colorful stage lights, confetti, giant led screen behind, cheering crowd with lightsticks, four women in matching modern hanbok-inspired idol stage costumes posing with open fans, dynamic",
+  "init": null
+ },
+ "cg_after_idol_backstage": {
+  "seed": 2323232,
+  "prompt": "4girls, 1boy, comedic, cramped tv station dressing room backstage, mirror with light bulbs, four baby strollers lined up, diaper bag, baby bottles, stage shoes kicked off on the floor, four women in idol stage costumes busily handling babies, a hooded young man in the middle holding four babies in his arms at once",
+  "init": null
  }
 }
