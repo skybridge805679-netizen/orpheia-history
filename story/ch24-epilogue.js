@@ -5,6 +5,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @bg bg_studio_night
 @day 2월 20일 (금) 23:00 · 상철의 작업실 · 81회 시험 이틀 전
 @bg cg_ep_exam_eve|bg_studio_night
+책상 위엔 포스트잇이 고슴도치처럼 붙은 기출 문제집과 수험표. 상철은 그 위에 얼굴을 묻고 잠들어 있다. 휴대폰 화면만 조용히 빛난다.
 @phone on
 @bg bg_studio_night
 @show yunseul smile right
@@ -338,10 +339,10 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @day 3월 6일 (금) 10:00 · 제81회 합격자 발표
 @bg cg_ep_result|bg_studio_night
 @phone on
-@bg bg_studio_night
+[윤슬|serious] ……오빠. 수험 번호 넣었어. 누를게. 하나, 둘──
+@bg bg_studio_morning|bg_studio_night
 @show yunseul serious right
 @show orpheia worry left
-[윤슬|serious] ……오빠. 수험 번호 넣었어. 누를게. 하나, 둘──
 @if quizRate >= 80 -> pass1
 @if quizRate >= 70 -> pass2
 @if quizRate >= 60 -> pass3
