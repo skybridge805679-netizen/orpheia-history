@@ -22,7 +22,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 1123년|고려 · 벽란도
 @bg bg_era_byeokrando
-@day 예성강 하구 · 벽란도, 1123년 여름
+@day 예성강 하구 · 벽란도, 1123년 여름|고려 인종 · 1123년(송 사신 서긍 방문)
 강어귀를 가득 메운 배들. 송나라 배, 일본 배, 그리고 낯선 옷을 입은 먼 나라 상인들. 부두 위로 짐이 쉴 새 없이 오간다.
 @show orpheia excited left
 [오르페이아|excited] 주인님, 여기가 벽란도예요! 고려 국제 무역항! 사진 찍어 가면 아가씨 기절하실걸요?
@@ -87,7 +87,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 12세기 초|개경의 시전
 @bg cg_yeoul_market
-@day 고려 · 개경 시전 거리
+@day 고려 · 개경 시전 거리|고려 인종 무렵 · 12세기 초
 기와지붕 가게들이 큰길 양쪽에 늘어서 있다. 등에 짐을 산더미처럼 진 상철이 비틀거리며 여울을 따라간다.
 @bg bg_era_gaegyeong_market
 @show yeoul smile right
@@ -122,7 +122,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 1123년|벽란도의 흥정
 @bg bg_era_byeokrando
-@day 벽란도 · 송나라 상선 앞
+@day 벽란도 · 송나라 상선 앞|고려 인종 · 1123년
 @show yeoul smile right
 @show orpheia excited left
 @photo 나전 국화넝쿨무늬 합
@@ -148,7 +148,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 11~13세기|국자감 앞의 결투
 @bg bg_era_gaegyeong
-@day 고려 · 개경, 국자감 앞
+@day 고려 · 개경, 국자감 앞|고려 인종 무렵 · 12세기(사학 12도)
 @show yeoul worry right
 @show orpheia surprised left
 [여울|worry] 큰일 났어요. 아버지가 진짜 혼처를 하나 물어 오셨대요. 문벌 집안 도령인데, 사학에서 공부한다고 엄청 잘난 척하는 사람이에요.
@@ -196,7 +196,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 11~13세기|아버지의 배를 비는 절
 @bg bg_era_seon_temple
-@day 고려 · 산사
+@day 고려 · 산사|고려 · 11~13세기(의천·지눌·요세)
 @show yeoul worry right
 @show orpheia explain left
 [여울|worry] ……아버지 배가 사흘째 소식이 없어요. 마도 앞바다 물살이 험하다는 그 말이 자꾸 생각나서.
@@ -246,7 +246,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 12세기|강진의 가마
 @bg bg_era_gangjin_kiln
-@day 전라도 강진 · 자기소의 가마
+@day 전라도 강진 · 자기소의 가마|고려 · 12세기(상감 청자)
 산비탈을 따라 길게 이어진 가마에서 연기가 오른다. 깨진 그릇 조각들이 산처럼 쌓여 있다.
 @show yeoul smile right
 @show orpheia excited left
@@ -281,7 +281,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 @board goryeo-culture
 @hide all
 @bg cg_yeoul_kiln
-@day 그날 밤 · 가마 앞
+@day 그날 밤 · 가마 앞|고려 · 12세기
 불빛이 일렁인다. 여울이 깨진 청자 조각 하나를 불빛에 비추어 본다.
 [여울] ……있잖아요. 이거, 그날 부두에서 깨진 거예요. 버리지 못하고 갖고 다녔어요.
 [여울] 깨져도 색은 그대로예요. 이 색을 만든 사람 이름은 아무도 모르는데, 송나라에서 황제가 쓴대요. 이상하죠.
@@ -310,7 +310,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 1377년|청주 흥덕사
 @bg bg_era_heungdeoksa
-@day 청주 흥덕사, 1377년 7월
+@day 청주 흥덕사, 1377년 7월|고려 우왕 · 1377년(『직지심체요절』 인쇄)
 절 한쪽의 작업실. 쇠로 만든 작은 활자들이 판 위에 빼곡히 짜여 있다. 먹을 바르고 종이를 덮는다.
 @show orpheia excited center
 [오르페이아|excited] 드디어 주인님이랑 단둘이에요! ……아, 아니, 사연 님도 계시지만요.
@@ -347,7 +347,7 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 
 @dive 1123년|파혼의 날
 @bg cg_yeoul_farewell
-@day 벽란도 · 한 달 뒤 새벽
+@day 벽란도 · 한 달 뒤 새벽|고려 인종 · 1123년
 약속한 한 달이 지났다. 부두 끝에서 여울이 손을 크게 흔든다.
 [여울] 약혼자님! 아니, 이제 파혼했으니까…… 상철 님!
 [여울] 아버지한테는 '성격이 안 맞아서'라고 했어요! 아버지가 '그럴 줄 알았다, 장사도 못 하는 놈'이래요!
