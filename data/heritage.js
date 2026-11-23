@@ -493,5 +493,29 @@ window.HERITAGE = {
   "credit": "주인님 제공 · 출처 미기록",
   "desc": "통일 신라 신문왕 때 완성 · 경주",
   "local": true
+ },
+ "영주 부석사 소조여래좌상": {
+  "src": "heritage/x18.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "고려 · 무량수전 안 흙으로 빚은 불상",
+  "local": true
+ },
+ "고사관수도(강희안)": {
+  "src": "heritage/x19.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "조선 전기 · 바위에 기대어 물을 바라보는 선비",
+  "local": true
+ },
+ "초충도(신사임당)": {
+  "src": "heritage/x20.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "조선 전기 · 풀과 벌레를 그린 그림",
+  "local": true
+ },
+ "곤여만국전도": {
+  "src": "heritage/x21.webp",
+  "credit": "주인님 제공 · 출처 미기록",
+  "desc": "서양 선교사 마테오 리치가 만든 세계 지도 · 조선 후기에 전해짐",
+  "local": true
  }
 };
