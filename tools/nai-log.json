@@ -5393,5 +5393,55 @@
   "seed": 2620081,
   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on a grassy hill behind military barracks in 1940s china, a sky full of stars, milky way, a white parachute cloth spread on the grass, a young woman soldier pulling a hooded young man close by his collar with both hands and kissing him, eyes closed, a tear on her cheek, soft starlight, masterpiece, no readable text",
   "init": null
+ },
+ "st_garam_smile": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, small confident smile, calm",
+  "init": null
+ },
+ "st_garam_shy": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, blushing, ears red, looking away, fidgeting with her braid",
+  "init": "assets/st_garam_smile.webp"
+ },
+ "st_garam_surprised": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, surprised, wide eyes, open mouth",
+  "init": "assets/st_garam_smile.webp"
+ },
+ "st_garam_angry": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, annoyed, frowning, puffed cheeks",
+  "init": "assets/st_garam_smile.webp"
+ },
+ "st_garam_teary": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, teary eyes, holding back tears, biting lip",
+  "init": "assets/st_garam_smile.webp"
+ },
+ "st_garam_serious": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, standing, full body, looking at viewer, serious expression, sharp gaze, closed mouth",
+  "init": "assets/st_garam_smile.webp"
+ },
+ "st_garam_pregnant": {
+  "seed": 2614141,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, loose dark green jeogori, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, no musket, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+  "init": null
+ },
+ "cg_ch14_garam": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, comedic lucky pervert accident, grassy slope below an old stone mountain fortress wall on ganghwa island, autumn, gunpowder smoke drifting, a young woman hunter has tackled a hooded young man and they tumbled down into the grass, a smoking matchcord on the ground, motion lines, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_kk_garam": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, romantic, rocky seaside at jemulpo port at sunset, 1880s, distant sailing ships and a small customs warehouse, a young woman sitting on a rock singing off-key with eyes squeezed shut and red ears, a hooded young man standing behind her gently holding her hand to keep the beat, warm orange light, sea breeze, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_end_harem_garam": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a young woman hunter stepping out of the monitor and saluting stiffly with a musket on her back, a hooded young man on a studio chair turning around in surprise, masterpiece, no readable text, monitor shows only soft blurred glow",
+  "init": null
  }
 }
