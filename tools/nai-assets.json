@@ -11903,6 +11903,27 @@
     }
    ],
    "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_mother_daughter",
+   "size": "bg",
+   "seed": 1515300,
+   "prompt": "2girls, pov, slice of life, warm sunday afternoon, cozy modern korean apartment living room, two pregnant women sitting very close side by side on a sofa so that their round pregnant bellies are touching, both looking up at the viewer at the same angle with the same loving expression, two cups of barley tea on the coffee table, soft sunlight from a balcony window, mother and daughter resemblance",
+   "chars": [
+    {
+     "prompt": "girl, mature korean woman in her early forties, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, champagne silk negligee with lace trim, long open cream cardigan, pregnant, large round pregnant belly, one hand on her belly, sitting, looking up at viewer, gentle shy smile, blush",
+     "uc": "nude, nipples, child",
+     "x": 0.35,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, young adult woman, shoulder length straight black hair with bangs, kind dark eyes, oversized university sweatshirt pulled up above her round belly, white cotton panties, bare legs, pregnant, large round pregnant belly, one hand on her belly, sitting, looking up at viewer, pouting smile, blush",
+     "uc": "nude, nipples, child",
+     "x": 0.65,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, areola, pussy, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, male, boy, flat stomach"
   }
  ]
 }
