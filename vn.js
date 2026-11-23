@@ -723,6 +723,7 @@ function splash(){
 const SIDE_MENU=[
  {id:'sp_aunt',icon:'🍼',open:()=>(records.endings||[]).includes('연표의 신부들')},
  {id:'sp_exorcist',icon:'🔔',open:()=>(records.endings||[]).includes('연표의 신부들')},
+ {id:'sp_saebyeok',icon:'🍳',open:()=>(records.endings||[]).includes('연표의 신부들')},
 ];
 function sideOpen(id){return SIDE_MENU.filter(x=>byId[x.id]&&x.open()&&(!id||x.id===id));}
 function title(){
