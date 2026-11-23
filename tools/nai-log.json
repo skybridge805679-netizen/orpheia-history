@@ -5483,5 +5483,20 @@
   "seed": 2614142,
   "prompt": "1girl, 1boy, dusk on a stone fortress wall facing the sea on ganghwa island, smoke drifting from the battle, a torn banner on the ground, a young woman hunter sitting beside a hooded young man and resting her forehead on his shoulder, crying silently, her matchlock musket laid across her knees, red sunset over the sea, masterpiece, no readable text",
   "init": null
+ },
+ "cg_sp_sb_wake": {
+  "seed": 2630011,
+  "prompt": "1girl, 1boy, early morning, soft golden sunlight through thin curtains, a small modern bedroom, a mature woman lying on her side in bed under a white duvet, propped on one elbow, gently stroking the hair of a hooded young man asleep beside her, overwhelmed with quiet happiness, warm tender smile, glowing eyes, intimate but wholesome, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_sp_sb_kitchen": {
+  "seed": 2630012,
+  "prompt": "4girls, comedic slice of life, a crowded modern home kitchen at 6 am, morning light, a mature woman in an apron standing at the center like a drill sergeant holding a clipboard roll call sheet, around her a merchant woman in a brown hemp robe holding a ledger and a woman with a key ring frozen mid-argument, a tiger-eared woman in silk robes pouting with arms crossed, steam from rice pots, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_sp_sb_night": {
+  "seed": 2630013,
+  "prompt": "1girl, 1boy, night, moonlight through a window, a small modern bedroom, a mature woman lying on her side facing a hooded young man asleep, she is smiling peacefully with her eyes closed, a dry clean white pillow, her hand resting near his, quiet contentment, masterpiece, no readable text",
+  "init": null
  }
 }
