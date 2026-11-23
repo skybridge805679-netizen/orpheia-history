@@ -8641,18 +8641,20 @@
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, wide fanged grin, confident, hands on hips",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair"
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, wide fanged grin, confident, hands on hips",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_shy",
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, blushing, ears folded down, tiger tail poking out behind her, looking away, pulling the fur stole up",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair",
-   "init": "assets/st_noeul_smile.webp",
-   "strength": 0.6
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, blushing, ears folded down, tiger tail poking out behind her, looking away, pulling the fur stole up",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_surprised",
@@ -8669,48 +8671,50 @@
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, angry, growling, puffed cheeks, clenched fists, comedic",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair",
-   "init": "assets/st_noeul_smile.webp",
-   "strength": 0.6
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, angry, growling, puffed cheeks, clenched fists, comedic",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_teary",
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, teary eyes, ears drooping, sad smile",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair",
-   "init": "assets/st_noeul_smile.webp",
-   "strength": 0.6
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, teary eyes, ears drooping, sad smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_pout",
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, pouting, puffed cheeks, arms crossed, looking sideways, ears tilted back",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair",
-   "init": "assets/st_noeul_smile.webp",
-   "strength": 0.6
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, pouting, puffed cheeks, arms crossed, looking sideways, ears tilted back",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_serious",
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, serious expression, calm amber eyes, closed mouth, arms at her sides",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair",
-   "init": "assets/st_noeul_smile.webp",
-   "strength": 0.6
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, standing, full body, looking at viewer, serious expression, calm amber eyes, closed mouth, arms at her sides",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.5
   },
   {
    "id": "st_noeul_pregnant",
    "size": "stand",
    "transparent": true,
    "seed": 7313131,
-   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, loose layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail poking out, pregnant, big round belly clearly visible, robe parted over the belly, inner silk dress stretched over the belly, one hand on her belly, standing, full body, looking at viewer, happy fanged smile",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair"
+   "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, loose layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail poking out, pregnant, big round belly clearly visible, robe parted over the belly, inner silk dress stretched over the belly, one hand on her belly, standing, full body, looking at viewer, happy fanged smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
+   "init": "assets/st_noeul_surprised.webp",
+   "strength": 0.75
   },
   {
    "id": "cg_ch01_noeul_pounce",
@@ -8761,7 +8765,7 @@
    "prompt": "1girl, 1boy, romantic, sitting side by side on top of an ancient earthen fortress wall at sunset, vivid orange and red sky, distant mountains, a tiger-eared woman resting her head on a hooded young man's shoulder, her tiger tail curled around his waist, warm glow, masterpiece, no readable text",
    "chars": [
     {
-     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail, leaning her head on his shoulder, eyes half closed, content blush, small smile, dangling legs, long robe hem",
+     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail, leaning her head on his shoulder, eyes half closed, content blush, small smile, dangling legs, long robe hem",
      "uc": "nude, nipples, child, male",
      "x": 0.42,
      "y": 0.55
@@ -8773,7 +8777,7 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair"
   },
   {
    "id": "cg_end_harem_noeul",
@@ -8782,7 +8786,7 @@
    "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out orange light, a tiger-eared woman leaping out of the monitor and tackling a hooded young man together with his rolling studio chair, motion lines, sparkles, monitor shows only soft blurred glow, masterpiece, no readable text",
    "chars": [
     {
-     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail, leaping, arms spread wide, joyful fanged grin, hugging him",
+     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail, leaping, arms spread wide, joyful fanged grin, hugging him",
      "uc": "nude, nipples, child, male",
      "x": 0.45,
      "y": 0.42
@@ -8794,22 +8798,22 @@
      "y": 0.62
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair"
   },
   {
    "id": "cg_after_noeul",
    "size": "bg",
    "seed": 7313131,
-   "prompt": "1girl, comedic slice of life, inside a brightly lit modern korean convenience store at night, a shelf of garlic bread, garlic snacks and packaged fried chicken, a free sample tray, a tiger-eared noble lady in ancient silk clothes recoiling from the garlic shelf with her tiger tail puffed up, then holding a piece of garlic bread with sparkling eyes, motion lines, masterpiece, no readable text, no logos",
+   "prompt": "1girl, solo, comedic slice of life, inside a brightly lit modern korean convenience store at night, a shelf of garlic bread and packaged snacks, a free sample tray, a single tiger-eared noble lady in ancient silk clothes holding a piece of garlic bread with sparkling eyes, her tiger tail puffed up, masterpiece, no readable text, no logos",
    "chars": [
     {
-     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, orange hair, black hair, multicolored hair, streaked hair, striped hair, tiger stripes in hair, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail puffed up, holding a piece of garlic bread, ears straight up, surprised then delighted, fang",
+     "prompt": "girl, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail puffed up, holding a piece of garlic bread, ears straight up, surprised then delighted, fang",
      "uc": "nude, nipples, child, male",
      "x": 0.45,
      "y": 0.5
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, logo, brand, extra limbs, bad hands, multiple views, crown, tiara, bear ears, tan, dark skin"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, logo, brand, extra limbs, bad hands, multiple views, crown, tiara, bear ears, tan, dark skin, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair, multiple views, 2girls, duplicate, clone, split screen, panels"
   }
  ]
 }
