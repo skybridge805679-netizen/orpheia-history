@@ -11937,6 +11937,78 @@
    ],
    "negative": "nude, nipples, areola, pussy, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, male, boy, flat stomach",
    "rev": 2
+  },
+  {
+   "id": "cg_after_idol_stage",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "4girls, k-pop idol group performance on a live music show stage, bright colorful stage lights, confetti, giant led screen behind, cheering crowd with lightsticks, four women in matching modern hanbok-inspired idol stage costumes posing with open fans, dynamic",
+   "chars": [
+    {
+     "prompt": "girl, graceful mature adult woman, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, deep plum and gold idol stage costume, cropped hanbok-style jacket with gold trim, short pleated navy skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.2,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, proud young adult woman, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, pink and white idol stage costume, cropped hanbok-style jacket with magenta ribbon, short lilac skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, playful young adult woman, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow and green idol stage costume, cropped hanbok-style jacket with flower embroidery, short green skirt, dance pose, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, elegant young adult woman, glossy black hair in an updo with a braided chignon, calm dark grey eyes, snow-white skin, beauty mark under left eye, jade green and rose idol stage costume, cropped hanbok-style jacket with crimson ribbon, short rose skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.8,
+     "y": 0.5
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, male"
+  },
+  {
+   "id": "cg_after_idol_backstage",
+   "size": "bg",
+   "seed": 2323232,
+   "prompt": "4girls, 1boy, comedic, cramped tv station dressing room backstage, mirror with light bulbs, four baby strollers lined up, diaper bag, baby bottles, stage shoes kicked off on the floor, four women in idol stage costumes busily handling babies, a hooded young man in the middle holding four babies in his arms at once",
+   "chars": [
+    {
+     "prompt": "girl, graceful mature adult woman, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, deep plum and gold idol stage costume, cropped hanbok-style jacket with gold trim, short pleated navy skirt, handing a baby to him, calm",
+     "uc": "nude, nipples, child, male",
+     "x": 0.2,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, proud young adult woman, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, pink and white idol stage costume, cropped hanbok-style jacket with magenta ribbon, short lilac skirt, testing a baby bottle on her wrist, sulky",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "girl, playful young adult woman, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow and green idol stage costume, cropped hanbok-style jacket with flower embroidery, short green skirt, barefoot, playing with a baby in a stroller, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.62,
+     "y": 0.6
+    },
+    {
+     "prompt": "girl, elegant young adult woman, glossy black hair in an updo with a braided chignon, calm dark grey eyes, snow-white skin, beauty mark under left eye, jade green and rose idol stage costume, cropped hanbok-style jacket with crimson ribbon, short rose skirt, pulling a curtain to hide strollers, finger on lips",
+     "uc": "nude, nipples, child, male",
+     "x": 0.85,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding four babies at once in his arms, overwhelmed",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.45
+    }
+   ],
+   "negative": "nude, nipples, breastfeeding, explicit, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
   }
  ]
 }
