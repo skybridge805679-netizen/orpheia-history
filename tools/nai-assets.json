@@ -10161,7 +10161,8 @@
    "id": "bg_era_gyeongju_winter",
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, ancient korean silla capital in winter, low korean tiled-roof houses only, light snow on round grassy burial mounds and tiled roofs, bare trees, quiet empty streets, pale grey sky, a melancholic last winter of a thousand year kingdom",
-   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern, castle, cathedral, church, european castle, tower, western building"
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern, castle, cathedral, church, european castle, tower, western building",
+   "rev": 2
   },
   {
    "id": "bg_era_manwoldae_night",
@@ -10209,7 +10210,8 @@
    "id": "bg_era_songpa_dusk",
    "size": "bg",
    "prompt": "no humans, scenery, outdoors, a joseon riverside market at dusk, stalls closing, lanterns being lit, boats moored at the hangang ferry, orange and purple sky, lingering crowds' footprints, straw mats rolled up",
-   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern, apartment, skyscraper, high-rise, city buildings, concrete"
+   "negative": "humans, person, girl, boy, character, watermark, signature, text, logo, chinese architecture, japanese castle, forbidden city, european, modern, apartment, skyscraper, high-rise, city buildings, concrete",
+   "rev": 2
   },
   {
    "id": "bg_era_gyeongbokgung_construction",
@@ -10243,7 +10245,8 @@
    "prompt": "no humans, scenery, indoors, small home music studio in very bright warm morning sunlight, white daylight, sunny, curtains open, dust motes in sunbeams, monitors off, midi keyboard, studio headphones on desk, condenser microphone, a mug of coffee, acoustic foam panels, bookshelf with history books, warm and cozy",
    "negative": "humans, person, girl, boy, character, watermark, signature, text, logo",
    "init": "assets/bg_studio_night.webp",
-   "strength": 0.75
+   "strength": 0.75,
+   "rev": 2
   },
   {
    "id": "bg_home_kitchen",
@@ -10390,7 +10393,8 @@
      "y": 0.56
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, simple background, white background"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, simple background, white background",
+   "rev": 2
   },
   {
    "id": "cg_ch03_silla_plow",
@@ -10495,7 +10499,8 @@
      "y": 0.45
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "rev": 2
   },
   {
    "id": "cg_ch07_procession",
@@ -10516,7 +10521,8 @@
      "y": 0.58
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, beard on the hooded man"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, beard on the hooded man",
+   "rev": 2
   },
   {
    "id": "cg_ch07_dongbuk",
@@ -11419,7 +11425,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_naru",
@@ -11482,7 +11489,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_haerang",
@@ -11524,7 +11532,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_maru",
@@ -11671,7 +11680,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, black hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, black hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_maehyang",
@@ -11776,7 +11786,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, light brown hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_garam",
@@ -11797,7 +11808,8 @@
      "y": 0.55
     }
    ],
-   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, pink hair"
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, blonde hair, white hair, silver hair, orange hair, pink hair",
+   "rev": 2
   },
   {
    "id": "cg_after_bori",
