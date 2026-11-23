@@ -69,7 +69,11 @@ const HANBOK_CH=new Set(['ch02','ch03','ch04','ch05','ch06','ch07','ch08','ch09'
 function orpHanbok(){if(!S)return false;if(S.outfit==='hanbok')return true;if(S.outfit==='maid')return false;return HANBOK_CH.has(S.ch)&&/(^|\/)bg_era_/.test(String(S.bg||''));}
 const ORP_GLITCH={shy:'shy',teary:'shy',worry:'shy',surprised:'shy',pout:'pout',serious:'pout',angry:'pout'};
 // 옷을 바꿔 그린 인물: @show의 옷을 기억하고, 표정 그림은 옷별로(st_<id>_<옷>_<표정>). 검수를 통과한 표정만 COSTUME_EXPR에 넣는다.
-const COSTUME={saebyeok:new Set(['mom'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
+const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄마가 된 새벽(히든 엔딩)
+// 집옷(home): 현대 실내 장면에서 히로인이 입는 옷(2026.11 주인님 지정, 히로인마다 다른 옷). @show <id> home. 표정은 HOME_EXPR만 따로 그렸다.
+const HOME_IDS='noeul dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom'.split(' ');
+HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
+const HOME_EXPR=new Set(['shy']);
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
@@ -86,7 +90,7 @@ function fixSlots(keep){
   const u=used();const free=[c.home,...P].find(p=>p&&!u.has(p));if(free)c.pos=free;}
 }
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
- if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c&&COSTUME_EXPR[who].has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
+ if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c==='home'&&expr!=='pregnant')return HOME_EXPR.has(expr)?`st_${who}_home_${expr}.webp`:`st_${who}_home.webp`;if(c&&c!=='home'&&COSTUME_EXPR[who]?.has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&c!=='home'&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
  if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
  if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;

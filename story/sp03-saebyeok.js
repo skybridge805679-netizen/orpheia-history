@@ -19,8 +19,8 @@ VN.chapter('sp_saebyeok','외전','새벽의 아침',`
 @day 오전 여섯 시 · 상철네 부엌
 @bgm auto
 부엌은 전쟁터다. 이 집엔 신부가 스물여섯 명이고, 다들 저마다 살던 시대의 아침을 들고 온다.
-@show dallae angry left
-@show maru angry right
+@show dallae home left
+@show maru home right
 [달래] 곳간 장부는 내가 맡는다니까! 쌀 한 되까지 다 적어 놨수!
 [마루] 열쇠는 제가 갖고 있어요! 장부가 있어도 열쇠가 없으면 곳간은 안 열려요!
 [보리] 다들 비켜! 밥은 내가 해! 주먹밥 백 개는 해 봤다고!
@@ -64,6 +64,8 @@ VN.chapter('sp_saebyeok','외전','새벽의 아침',`
 @bgm auto
 빨래는 젊은 신부들이랑 같이 넌다. 이 집엔 셔츠가 많다. 대부분 그 사람 거다. 반은 누가 몰래 빌려 입었다가 돌려놓은 거고.
 @show saebyeok mom center
+@show hwaseon home left
+@show seola home right
 [화선] 언니, 언니! 아기 생기면 기저귀는 어떻게 접어요? 미리 배워 둘래요!
 [새벽|smile] 이렇게. 세모로 한 번, 다시 반으로. 다솜이 때 이걸 하루에 열두 번 했어요. ……근데 그땐 혼자 접었고, 이번엔 스물여섯이 같이 접겠네요.
 [설아] 언니는 왜 아기 이야기만 나오면 웃어요?
