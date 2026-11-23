@@ -5486,7 +5486,7 @@
  },
  "cg_sp_sb_wake": {
   "seed": 2630011,
-  "prompt": "1girl, 1boy, early morning, soft golden sunlight through thin curtains, a small modern bedroom, a mature woman lying on her side in bed under a white duvet, propped on one elbow, gently stroking the hair of a hooded young man asleep beside her, overwhelmed with quiet happiness, warm tender smile, glowing eyes, intimate but wholesome, masterpiece, no readable text",
+  "prompt": "1girl, 1boy, early morning, soft golden sunlight through thin curtains, a small modern bedroom, a mature woman in a silk negligee lying on her side in bed under a white duvet, propped on one elbow, gently stroking the hair of a hooded young man asleep beside her, overwhelmed with quiet happiness, warm tender smile, glowing eyes, intimate but wholesome, masterpiece, no readable text",
   "init": null
  },
  "cg_sp_sb_kitchen": {
@@ -5496,7 +5496,7 @@
  },
  "cg_sp_sb_night": {
   "seed": 2630013,
-  "prompt": "1girl, 1boy, night, moonlight through a window, a small modern bedroom, a mature woman lying on her side facing a hooded young man asleep, she is smiling peacefully with her eyes closed, a dry clean white pillow, her hand resting near his, quiet contentment, masterpiece, no readable text",
+  "prompt": "1girl, 1boy, night, moonlight through a window, a small modern bedroom, a mature woman in a silk negligee lying on her side facing a hooded young man asleep, she is smiling peacefully with her eyes closed, a dry clean white pillow, her hand resting near his, quiet contentment, masterpiece, no readable text",
   "init": null
  }
 }
