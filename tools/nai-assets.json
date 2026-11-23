@@ -9311,17 +9311,16 @@
    "id": "st_naru_home",
    "size": "stand",
    "transparent": true,
-   "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle",
-   "init": "assets/st_naru_smile.webp",
-   "strength": 0.7
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama shirt and matching long pajama pants, wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile, empty hands, plain background",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle, oar, paddle, broom, mop, holding stick, water, puddle, splash, bare legs, lavender hair, light purple hair",
+   "seed": 7310731
   },
   {
    "id": "st_naru_home_shy",
    "size": "stand",
    "transparent": true,
    "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle, oar, broom, holding stick, water puddle, white hair, silver hair, lavender hair",
    "init": "assets/st_naru_home.webp",
    "strength": 0.5
   },
@@ -9744,7 +9743,7 @@
    "size": "stand",
    "transparent": true,
    "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
-   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle, flat stomach, child, loli",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle, flat stomach, child, loli, oar, broom, holding stick, water puddle, white hair, silver hair, lavender hair",
    "init": "assets/st_naru_home.webp",
    "strength": 0.62
   },
