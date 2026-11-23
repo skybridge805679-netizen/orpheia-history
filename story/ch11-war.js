@@ -265,6 +265,25 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @quiz 74-21 77-21
 @hide all
 [이야기꾼] 이제야 속이 시원하구먼.
+@show dodam smile right
+@show orpheia smile left
+[도담|serious] 손님, 잠깐 거기 앉아요. 손목 줘요. ……맥이 빨라요. 요즘 밤새 노래 만들죠? 뭐 먹고 버텨요?
+[상철] ……컵라면.
+[도담|angry] 컵이 뭔지 모르지만 이름부터 나빠요! 의원 말 들어요!
+[오르페이아|excited] 그쵸, 도담 씨! 저도 맨날 그 말 해요! 주인님, 컵라면 그만 드세요!
+[도담|smile] 하얀 아가씨랑 저랑 한편이네요. 손님은 둘한테 잔소리 두 배예요.
+[도담|shy] (손목을 놓지 않은 채) ……맥이 또 빨라졌어요. 이번엔 제가 손을 잡고 있어서 그런 거면, 그건 처방이 없어요.
+@choice
+> 그 처방, 네가 옆에서 계속 봐 주면 되잖아. -> kk_dodam_a {dodam+5}
+> 오르페이아, 잔소리 두 배라니 좀 봐줘. -> kk_dodam_b {orp+3}
+@label kk_dodam_a
+[도담|shy] ……의원은 약속도 처방처럼 지켜요. 어기면 쓴 약 한 사발이에요. 각오해요.
+@jump kk_dodam_x
+@label kk_dodam_b
+[오르페이아|smile] 안 봐줘요♪ 오늘부터 잔소리 담당 둘이에요. 도담 씨는 낮, 저는 새벽 세 시.
+[도담|smile] 좋아요, 동맹이에요. 손님 몸은 저희 둘이 지켜요.
+@label kk_dodam_x
+@hide all
 @hide all
 @show orpheia explain center
 @sd teach
