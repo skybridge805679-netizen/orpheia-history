@@ -5520,13 +5520,13 @@
   "init": "assets/st_dallae_home.webp"
  },
  "st_naru_home": {
-  "seed": 3347454612,
-  "prompt": "1girl, solo, solo focus, adult woman, young adult, long purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile",
+  "seed": 1083991142,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile",
   "init": "assets/st_naru_smile.webp"
  },
  "st_naru_home_shy": {
-  "seed": 1535539707,
-  "prompt": "1girl, solo, solo focus, adult woman, young adult, long purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+  "seed": 265343571,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
   "init": "assets/st_naru_home.webp"
  },
  "st_ara_home": {
