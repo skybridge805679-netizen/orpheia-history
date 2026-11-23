@@ -669,7 +669,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [다솜|shy] ……안녕. 언니야. 아니, 누나인가. ……내가 뭐라고 불러야 하지, 엄마?
 [새벽|smile] 그건 이 애가 크면 정해 주겠지.
 @hide dasom
-@show maehyang pregnant right
+@show maehyang home+pregnant right
 [매향] 다들 비슷한 무렵이었는데, 언니만 한 걸음 빨랐네요.
 [매향] ……그날 밤 언니는 서두르시는 얼굴이었어요. 시간이 모자란 사람처럼.
 [새벽] …………
@@ -679,64 +679,64 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [오르페이아|shy] 주인님, 달력이 꽉 찼어요. 예정일이 줄줄이요. 산후조리 일정표는 제가 짤게요. 이건 보좌니까요.
 @hide orpheia
 작업실 문이 열리고, 배가 동그랗게 부른 신부들이 하나둘 아기를 보러 들어온다.
-@show garam pregnant center
+@show garam home+pregnant center
 [가람|pregnant] 총은 벽에 걸었고, 이 애한텐 노래부터 가르칠 거예요. ……음정은 기록꾼 양반이 맡아요. 저 닮으면 안 되니까.
 @hide garam
-@show noeul pregnant center
+@show noeul home+pregnant center
 [노을|pregnant] 꼬리가 자꾸 나오는구나. 배 속에서 누가 발로 차서. ……범의 아기면 어찌할꼬. 상관없느니라, 이 몸의 것이니.
 @hide noeul
-@show dallae pregnant left
+@show dallae home+pregnant left
 [달래|pregnant] 두건 양반, 이 장부 좀 봐. 식구 칸이 모자라. ……둥지가 좁아지겠네. 좋다, 아주 좋아.
-@show naru pregnant right
+@show naru home+pregnant right
 [나루|pregnant] 우리 집 장부에 처음으로 '머묾'이라고 썼어요. 그 아래 한 줄 더 쓸 자리도 비워 뒀고요.
 @hide all
-@show haerang pregnant left
+@show haerang home+pregnant left
 [해랑|pregnant] 발해 여자는 배가 불러도 사슴을 들쳐 메요. ……오늘은 안 메요. 오늘만이에요.
-@show yeoul pregnant right
+@show yeoul home+pregnant right
 [여울|pregnant] 서방님. 이번 거래는 기한도 반품도 없어요. 아시죠?
 @hide all
-@show ara pregnant left
+@show ara home+pregnant left
 [아라|pregnant] 이 아이 이름은 고구려식으로 지을 거예요. 할아버지가 살수에서 그랬거든요. 손주의 손주까지 이야기를 물려주겠다고.
-@show gaon pregnant right
+@show gaon home+pregnant right
 [가온|pregnant] 이 아이한테는 처음부터 제 말로 말해 줄 거예요. 옮기지 않고요.
 @hide all
-@show maru pregnant left
+@show maru home+pregnant left
 [마루|pregnant] 이 집 대청마루에 아기 신발이 하나 더 놓이겠네요. ……신발은 벗기고 올릴 거예요.
-@show seori pregnant right
+@show seori home+pregnant right
 [서리|pregnant] 올겨울은 아랫목에서 둘이 아니라 셋이에요. 짐은 영영 안 싸요.
 @hide all
-@show soebyeol pregnant left
+@show soebyeol home+pregnant left
 [쇠별|pregnant] 이 아이 이름은 처음부터 문서에 올릴 거예요. '소' 같은 거 안 붙이고요.
-@show danbi pregnant right
+@show danbi home+pregnant right
 [단비|pregnant] 이 아이 혼인은 이 아이가 정할 거예요. 명단 같은 거 없이.
 @hide all
-@show haneui pregnant center
+@show haneui home+pregnant center
 [하늬|pregnant] 이 아이는 골품 같은 거 몰랐으면 좋겠어요. 정답이 정해지지 않은 아이로요.
 @hide all
-@show sodam pregnant left
+@show sodam home+pregnant left
 [소담|pregnant] 평생 처음 갖는 제 거예요. ……아니, 우리 거예요.
-@show dano pregnant right
+@show dano home+pregnant right
 [단오|pregnant] 이름은 내가 지어. 크레디트 첫 줄이니까.
 @hide all
-@show bori pregnant left
+@show bori home+pregnant left
 [보리|pregnant] 이제 밥상에 숟가락을 하나 더 놔야겠네. ……아니, 여럿이네.
-@show hanbyeol pregnant right
+@show hanbyeol home+pregnant right
 [한별|pregnant] 취재 수첩 맨 뒷장에 이름 후보만 서른 개 적었어요. 투고하듯이요.
 @hide all
-@show bomnae pregnant right
+@show bomnae home+pregnant right
 [봄내|pregnant] 이 애 배냇저고리는 제가 박을 거예요. 한 땀 한 땀. 남이 입을 옷 말고, 우리 애 옷이요.
 @hide all
-@show dasom pregnant left
+@show dasom home+pregnant left
 [다솜|pregnant] 엄마보다 늦은 건 분한데…… 엄마 아기랑 내 아기가 같은 해에 태어난다니. 족보가 또 꼬이네.
-@show choryeon pregnant right
+@show choryeon home+pregnant right
 [초련|pregnant] 흥, 태교는 거문고로 할 거예요. 그쪽 노래는…… 가끔만.
 @hide all
-@show hwaseon pregnant left
+@show hwaseon home+pregnant left
 [화선|pregnant] 배가 불러서 춤은 못 추지만, 이 애가 안에서 발로 박자를 맞춰요!
-@show seola pregnant right
+@show seola home+pregnant right
 [설아|pregnant] ……이건 병풍 뒤에 숨길 수가 없네요.
 @hide all
-@show dodam pregnant center
+@show dodam home+pregnant center
 [도담|pregnant] 언니들 아기 다 받고 나서 제 차례예요. 의원은 원래 제일 마지막에 쉬는 거예요. ……근데 이번엔 저도 손 잡아 줄 사람이 있네요.
 @hide all
 @show yunseul surprised center

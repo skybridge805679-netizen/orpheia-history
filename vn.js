@@ -73,7 +73,7 @@ const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄
 // 집옷(home): 현대 실내 장면에서 히로인이 입는 옷(2026.11 주인님 지정, 히로인마다 다른 옷). @show <id> home. 표정은 HOME_EXPR만 따로 그렸다.
 const HOME_IDS='noeul dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom'.split(' ');
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
-const HOME_EXPR=new Set(['shy']);
+const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
@@ -90,7 +90,7 @@ function fixSlots(keep){
   const u=used();const free=[c.home,...P].find(p=>p&&!u.has(p));if(free)c.pos=free;}
 }
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
- if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c==='home'&&expr!=='pregnant')return HOME_EXPR.has(expr)?`st_${who}_home_${expr}.webp`:`st_${who}_home.webp`;if(c&&c!=='home'&&COSTUME_EXPR[who]?.has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&c!=='home'&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
+ if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c==='home'&&expr==='pregnant')return `st_${who}_home_pregnant.webp`;if(c==='home')return HOME_EXPR.has(expr)?`st_${who}_home_${expr}.webp`:`st_${who}_home.webp`;if(c&&c!=='home'&&COSTUME_EXPR[who]?.has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&c!=='home'&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
  if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
  if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;
@@ -160,7 +160,7 @@ function step(){
    case 'bg':BGM.chapter=S.ch;for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];S.cutin=null;BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':BGM.chapter=S.ch;if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
-    const was=S.chars[op.who];S.chars[op.who]={expr:op.expr,pos:op.pos,home:op.pos,costume:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
+    const was=S.chars[op.who];const [c0,e0]=op.expr.includes('+')?op.expr.split('+'):[null,op.expr];S.chars[op.who]={expr:c0?e0:op.expr,pos:op.pos,home:op.pos,costume:c0&&COSTUME[op.who]?.has(c0)?c0:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}
    case 'phone':S.phone=op.arg!=='off';if(S.phone)SFX.play('phone');if(S.phone&&S.chars.orpheia)pendingFx.orpheia='enter';S.pc++;paint();break;
    case 'hop':case 'tilt':case 'nod':case 'sink':case 'shake':if(op.arg)pendingFx[ALIAS[op.arg]||op.arg]=op.t;S.pc++;paint();break;
    case 'hide':if(op.who==='all'){S.chars={};S.photo=null;}else{delete S.chars[op.who];fixSlots(null);}S.pc++;paint();break;
