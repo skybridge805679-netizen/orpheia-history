@@ -8714,7 +8714,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, loose layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, tiger tail poking out, pregnant, big round belly clearly visible, robe parted over the belly, inner silk dress stretched over the belly, one hand on her belly, standing, full body, looking at viewer, happy fanged smile",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, joseon hanbok, tan, dark skin, crown, tiara, large headdress, bear ears, round ears, solid orange hair, blonde hair, platinum blonde hair, white hair, light hair, mostly black hair",
    "init": "assets/st_noeul_surprised.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "cg_ch01_noeul_pounce",
@@ -9736,7 +9736,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_dallae_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_naru_home_pregnant",
@@ -9745,7 +9745,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark purple hair, violet hair, purple hair, loose single braid over the shoulder, small brass bell on the hair tie, pale gold eyes, fair skin, navy striped button-up pajama set with a wave pattern trim, sleeves rolled up, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, white hair, silver hair, grey hair, lavender hair, broom, mop, water puddle, flat stomach, child, loli, oar, broom, holding stick, water puddle, white hair, silver hair, lavender hair, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_naru_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_ara_home_pregnant",
@@ -9754,7 +9754,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, long black hair in a high ponytail tied with a red cord, bright hazel eyes, sun-kissed skin, athletic toned build, red sports bra and black dolphin shorts, bare midriff, toned abs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_ara_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_gaon_home_pregnant",
@@ -9799,7 +9799,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, shoulder-length dark brown hair with a short side braid, cheerful amber eyes, rosy cheeks, thick fleece bear-ear hooded pajama onesie with the hood down, fuzzy socks, sniffling, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_seori_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_yeoul_home_pregnant",
@@ -9817,7 +9817,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, short messy black hair tied back with a cloth band, bright determined black eyes, tanned skin, toned arms, black tank top and grey jogger shorts, sweatband on her wrist, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_soebyeol_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_danbi_home_pregnant",
@@ -9871,7 +9871,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_hwaseon_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_seola_home_pregnant",
@@ -9889,7 +9889,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, oversized band t-shirt and denim cutoff shorts, headphones around her neck, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_dano_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_garam_home_pregnant",
@@ -9898,7 +9898,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, olive sports bra and black jogger pants, a towel around her neck, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_garam_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_bori_home_pregnant",
@@ -9907,7 +9907,7 @@
    "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable",
    "init": "assets/st_bori_home.webp",
-   "strength": 0.75
+   "strength": 0.76
   },
   {
    "id": "st_hanbyeol_home_pregnant",
