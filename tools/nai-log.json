@@ -5943,5 +5943,505 @@
   "seed": 7250725,
   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night with a computer, keyboard and many speakers, a glowing monitor and speakers pouring out teal and gold light and visible sound waves, a celestial maiden floating out of the speaker light playing an ancient angular harp, her long translucent shawl wrapping around a hooded young man on a studio chair",
   "init": null
+ },
+ "bg_era_asadal": {
+  "seed": 3243707722,
+  "prompt": "no humans, scenery, outdoors, ancient bronze age korean sacred settlement at dawn on a mountain slope, a tall sacred tree with ribbons and a wooden pole with bird carvings (sotdae), dolmen stones, thatched pit houses, mist in the valley, first light",
+  "init": null
+ },
+ "bg_era_gojoseon_river": {
+  "seed": 1153237207,
+  "prompt": "no humans, scenery, outdoors, a wide river at the western frontier of an ancient kingdom, reed beds, a simple wooden ferry landing, earthen watchtower on the far bank, overcast sky, bronze age",
+  "init": null
+ },
+ "bg_era_wanggeom_market": {
+  "seed": 4132371098,
+  "prompt": "no humans, scenery, outdoors, busy ancient walled-city market street, iron age korea, thatched and wooden stalls with cloth awnings, bundles of hemp cloth, iron tools, pottery jars, salt sacks, earthen city wall and wooden gate in the background, warm daylight",
+  "init": null
+ },
+ "bg_era_wanggeom_siege": {
+  "seed": 2859366878,
+  "prompt": "no humans, scenery, outdoors, an ancient earthen walled city under siege at dusk, smoke rising inside the walls, enemy camp fires and banners covering the plain outside, a closed wooden gate, abandoned market stalls in the foreground, iron age",
+  "init": null
+ },
+ "bg_era_gyeongju_rain": {
+  "seed": 828689768,
+  "prompt": "no humans, scenery, outdoors, ancient silla capital street after heavy rain, wet stone paths and puddles, swollen stream, round grassy burial mounds, tiled roofs dripping, grey morning sky clearing",
+  "init": null
+ },
+ "bg_era_gyeongju_winter": {
+  "seed": 1266616879,
+  "prompt": "no humans, scenery, outdoors, ancient silla capital in winter, light snow on round grassy burial mounds and tiled roofs, bare trees, quiet empty streets, pale grey sky, a melancholic last winter of a thousand year kingdom",
+  "init": null
+ },
+ "bg_era_manwoldae_night": {
+  "seed": 1863670749,
+  "prompt": "no humans, scenery, outdoors, goryeo royal palace on tall stone terraces at night, steep stone stairs, wooden halls with grey tiled roofs lit by torches, dark mountain behind, tense atmosphere, moonlight",
+  "init": null
+ },
+ "bg_era_manwoldae": {
+  "seed": 651321637,
+  "prompt": "no humans, scenery, indoors, goryeo royal throne hall interior, red lacquered wooden pillars, a raised throne platform with a folding screen, stone floor, officials' rank stones in rows, soft daylight through lattice doors",
+  "init": null
+ },
+ "bg_era_goryeo_manor": {
+  "seed": 3214323601,
+  "prompt": "no humans, scenery, outdoors, a wealthy provincial gentry manor in early goryeo, large tiled-roof house with a wide wooden veranda floor (maru), courtyard with storehouses and earthenware jars, a big iron-bound granary door, spring blossoms, mountains behind",
+  "init": null
+ },
+ "bg_era_choe_mansion": {
+  "seed": 3741813497,
+  "prompt": "no humans, scenery, outdoors, the gate of a huge luxurious military ruler's mansion in a goryeo capital, tall walls, armed private guards' spear racks by the gate, lavish garden with a pond visible beyond, heavy atmosphere",
+  "init": null
+ },
+ "bg_era_gaegyeong_alley": {
+  "seed": 1730387929,
+  "prompt": "no humans, scenery, outdoors, narrow alley of a goryeo capital in the late 13th century, mongol style felt hats and fur goods hanging at a shop, mixed korean and mongol fashion goods, earthen walls, tiled roofs, autumn",
+  "init": null
+ },
+ "bg_era_goryeo_academy": {
+  "seed": 2731780329,
+  "prompt": "no humans, scenery, indoors, goryeo confucian academy lecture hall, low wooden desks in rows, stacks of neo-confucian books, a hanging scroll with calligraphy, lattice windows, warm afternoon light",
+  "init": null
+ },
+ "bg_era_envoy_departure": {
+  "seed": 3145735854,
+  "prompt": "no humans, scenery, outdoors, early morning courtyard outside a joseon government office, an envoy mission preparing to depart, packed tribute chests and bundles of ginseng and paper tied on horses, banners rolled up, carts lined up, mist",
+  "init": null
+ },
+ "bg_era_songpa_dusk": {
+  "seed": 2782462508,
+  "prompt": "no humans, scenery, outdoors, a joseon riverside market at dusk, stalls closing, lanterns being lit, boats moored at the hangang ferry, orange and purple sky, lingering crowds' footprints, straw mats rolled up",
+  "init": null
+ },
+ "bg_era_gyeongbokgung_construction": {
+  "seed": 1442089840,
+  "prompt": "no humans, scenery, outdoors, huge joseon palace reconstruction site in 1866, wooden scaffolding around a half-built hall, piles of timber and stone, ropes and pulleys, workers' tools left on the ground, dust in the air",
+  "init": null
+ },
+ "bg_era_hanyang_riot": {
+  "seed": 4020602786,
+  "prompt": "no humans, scenery, outdoors, joseon capital street in turmoil in 1882, overturned carts, scattered straw sandals and torn military uniforms, smoke rising behind tiled roofs, closed shop doors, summer",
+  "init": null
+ },
+ "bg_era_hanyang_winter": {
+  "seed": 2743181090,
+  "prompt": "no humans, scenery, outdoors, joseon capital street in winter 1895, snow on tiled roofs, a barber's chair and scissors left near a city gate, a few cut topknots on the snow, grey sky, telegraph poles",
+  "init": null
+ },
+ "bg_studio_dawn": {
+  "seed": 3623047012,
+  "prompt": "no humans, scenery, indoors, small home music studio just before dawn, blue grey light through the window, monitors dimmed to standby, midi keyboard, studio headphones on desk, condenser microphone on arm, empty cup noodles, acoustic foam panels, bookshelf with history books, quiet",
+  "init": "assets/bg_studio_night.webp"
+ },
+ "bg_studio_morning": {
+  "seed": 1153183518,
+  "prompt": "no humans, scenery, indoors, small home music studio in bright morning sunlight, curtains open, dust motes in sunbeams, monitors off, midi keyboard, studio headphones on desk, condenser microphone, a mug of coffee, acoustic foam panels, bookshelf with history books, warm and cozy",
+  "init": "assets/bg_studio_night.webp"
+ },
+ "bg_home_kitchen": {
+  "seed": 1181809377,
+  "prompt": "no humans, scenery, indoors, cozy modern korean apartment kitchen in early morning, long dining table with many mismatched chairs, rice cooker steaming, stacked bowls and spoons, many aprons hanging on hooks, sunrise through the window, lived-in and busy",
+  "init": null
+ },
+ "bg_home_living": {
+  "seed": 2423828550,
+  "prompt": "no humans, scenery, indoors, modern korean apartment living room on a weekend morning, wide floor with play mats, rows of baby bassinets, scattered toys and baby bottles, a sofa, sunlight from a balcony window, slightly chaotic",
+  "init": null
+ },
+ "cg_ch01_neolithic": {
+  "seed": 4242001,
+  "prompt": "1boy, scenery focus, neolithic riverside village on a warm day, round pit houses with conical thatched roofs along the river, pointed-bottom comb-pattern pottery jars stuck in the sand, a huge mound of seashells, a woman spinning thread with a stone spindle whorl, a little girl pouring millet into a jar, a hooded young man standing at the edge of the village looking around in wonder",
+  "init": null
+ },
+ "cg_ch02_dallae_siege": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, dusk, top of an ancient earthen city wall under siege, the plain outside black with enemy banners and camp fires, exhausted soldiers sitting against the parapet, smoke rising, a merchant woman gripping the parapet and staring at the enemy, a hooded young man beside her",
+  "init": null
+ },
+ "cg_ch02_goguryeo_village": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, autumn mountain valley village with blazing red maple leaves, small storehouses raised on wooden stilts beside each house, narrow terraced fields, young men tending bows and horses, a merchant woman haggling cheerfully with a young archer over a fur pelt, a hooded young man carrying her bundle",
+  "init": null
+ },
+ "cg_ch02_okjeo_coast": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, ancient east coast fishing village, waves, racks of drying fish, mounds of salt, villagers sadly packing heavy bundles of fish and salt onto a cart to be sent away as tribute, a merchant woman watching with a worried frown, a hooded young man beside her",
+  "init": null
+ },
+ "cg_ch03_gungnae_messenger": {
+  "seed": 4242001,
+  "prompt": "1boy, dramatic, gate of an ancient goguryeo stone fortress by a river, a crowd gathered, a mud-covered messenger on a galloping horse bursting through the gate shouting, an old soldier holding his young grandson's shoulder in shock, a hooded young man in the crowd",
+  "init": null
+ },
+ "cg_ch03_hanseong_refugees": {
+  "seed": 6604417,
+  "prompt": "1girl, 1boy, autumn, crowded river ferry landing, refugees with bundles packing onto boats heading south, smoke rising from a fortress on the hill across the river, different flags on the boats, a purple-haired ferrywoman standing on a boat pushing off with a long pole and shouting to keep order, a hooded young man helping an old man aboard",
+  "init": null
+ },
+ "cg_ch03_sabi_tiles": {
+  "seed": 6604417,
+  "prompt": "1girl, 1boy, wide plain with a new ancient capital under construction, wooden stakes marking government building sites, a ferry boat loaded with grey roof tiles with lotus patterns and bricks, a purple-haired ferrywoman handing roof tiles to a hooded young man who staggers under the stack",
+  "init": null
+ },
+ "cg_ch03_silla_plow": {
+  "seed": 4242001,
+  "prompt": "1boy, scenery focus, golden afternoon, ancient silla capital basin with huge round grassy burial mounds like hills, an ox pulling a wooden plow through a field between the mounds, an old farmer stopping the plow and squinting at a hooded young man standing at the field edge",
+  "init": null
+ },
+ "cg_ch05_gameunsa": {
+  "seed": 6060606,
+  "prompt": "1girl, 1boy, east sea coast, a rocky islet in the sea, on the shore a temple under construction with two three-story stone pagodas side by side, an old stonemason wiping sweat, a young woman in fur-trimmed northern clothes pointing excitedly at the islet, a hooded young man beside her",
+  "init": null
+ },
+ "cg_ch05_census": {
+  "seed": 6060606,
+  "prompt": "1girl, 1boy, silla farming village of thatched houses, children running, an official sitting on a straw mat with a ledger questioning villagers lined up, a young woman in northern fur-trimmed clothes peeking over his shoulder at the ledger with a critical squint, a hooded young man behind her",
+  "init": null
+ },
+ "cg_ch06_haneui_temple": {
+  "seed": 2606060,
+  "prompt": "1girl, 1boy, deep mountain zen temple in autumn, steep moss-covered stone steps through the forest, a noble lady in silk lifting her long skirt with one hand and climbing the steps energetically, gold hairpins glinting, a hooded young man panting behind her",
+  "init": null
+ },
+ "cg_ch06_poseokjeong": {
+  "seed": 2606060,
+  "prompt": "1girl, 1boy, tragic, autumn garden with a winding stone water channel shaped like an abalone, overturned wine cups and trampled flowers, broken screens, a noble lady kneeling and hugging a trembling palace maid, a hooded young man standing behind with his head lowered",
+  "init": null
+ },
+ "cg_ch07_procession": {
+  "seed": 2607070,
+  "prompt": "1girl, 1boy, wide palace grounds below a rocky mountain, a long procession of provincial lords with colorful banners entering, a proud white-bearded lord puffing out his chest, beside him a tearful young man clutching a bundle, a young woman with keys at her sash watching from the roadside, a hooded young man next to her",
+  "init": null
+ },
+ "cg_ch07_dongbuk": {
+  "seed": 2607080,
+  "prompt": "1girl, 1boy, snowy mountainside, a broken fortress gate, wounded soldiers bandaging each other in the snow, a frontier girl in a fur hat carrying a steaming pot of soup and ladling it out, a hooded young man holding bowls",
+  "init": null
+ },
+ "cg_ch09_yeoul_duel": {
+  "seed": 7070707,
+  "prompt": "1girl, 1boy, comedic, in front of a goryeo state academy gate, a haughty young aristocrat scholar with a tall stack of books pointing at a merchant girl, she points back fiercely, a crowd of students watching, a hooded young man caught in the middle",
+  "init": null
+ },
+ "cg_ch09_jikji": {
+  "seed": 4242001,
+  "prompt": "1boy, interior of a temple workshop, small metal movable type characters packed in a frame, a monk inking the type with a brush, another laying paper over it, stacks of freshly printed pages drying, oil lamp, a hooded young man leaning in amazed",
+  "init": null
+ },
+ "cg_ch10_jiphyeonjeon": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, night, lamplit royal academy hall, young scholars asleep on piles of books, a man in a red royal robe seen only from behind gently draping his own outer robe over a sleeping scholar, a palace maid with a tray of sweets peeking from behind a door with wide eyes, a hooded young man behind her",
+  "init": null
+ },
+ "cg_ch10_sodam_books": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, comedic, joseon palace corridor, a palace maid carrying an enormous wobbling stack of thick law books up to her nose, stumbling, a hooded young man rushing to catch the falling top books",
+  "init": null
+ },
+ "cg_ch11_historian": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, tense, joseon palace archive at dusk, a trembling court historian clutching a brush and a sheet of record, armed guards approaching down the corridor, a palace maid hiding behind a red pillar with a hooded young man, both holding their breath",
+  "init": null
+ },
+ "cg_ch11_ruin": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, ruins of a burnt joseon palace, only stone foundations left, weeds growing between them, grey sky, a palace maid standing alone among the ruins holding her apron, a hooded young man a few steps behind",
+  "init": null
+ },
+ "cg_ch13_jokbo": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, corner of a crowded joseon market, a shady man secretly selling official certificates and family genealogy books from a mat, a storyteller girl standing on a crate with a fan telling the crowd about it with dramatic gestures, a hooded young man in the crowd",
+  "init": null
+ },
+ "cg_ch13_silhak": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, a joseon scholar's study at night, books piled like mountains, a western globe and a brass telescope from qing china on the desk, maps on the wall, a storyteller girl spinning the globe in delight, a hooded young man looking through the telescope the wrong way",
+  "init": null
+ },
+ "cg_ch14_imo": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, tense summer night, back gate of a joseon palace, smoke and torchlight beyond the walls, a palace maid leading a noble lady wearing a full veil hiding her face by the hand through the gate, a hooded young man keeping watch",
+  "init": null
+ },
+ "cg_ch16_telegraph": {
+  "seed": 1414141,
+  "prompt": "1girl, 1boy, 1900s korean telegraph office, paper telegram slips pouring out, an errand boy running with papers, a young woman student with a pencil behind her ear leaning on the counter waiting impatiently, a hooded young man beside her",
+  "init": null
+ },
+ "cg_ch17_survey": {
+  "seed": 1414141,
+  "prompt": "1girl, 1boy, 1910s korean rice paddies, survey flags stuck in the field ridges, a uniformed japanese colonial surveyor with an open ledger, an old korean farmer standing before him clutching his hat, a young woman taking notes angrily behind them, a hooded young man",
+  "init": null
+ },
+ "cg_ch20_school": {
+  "seed": 1414141,
+  "prompt": "1girl, 1boy, 1940s korean school yard in the morning, rows of children in uniforms forced to bow toward the east, a young woman teacher standing at the side with clenched fists and a stiff face, a hooded young man by the fence",
+  "init": null
+ },
+ "cg_ch21_jeju": {
+  "seed": 1515151,
+  "prompt": "1girl, 1boy, quiet and solemn, jeju island hillside village where only black volcanic stone walls remain, wind blowing the grass, an old grandmother sitting before a small memorial stone, a young woman kneeling beside her holding her hand, a hooded young man standing back respectfully",
+  "init": null
+ },
+ "cg_ch09_ullim_voices": {
+  "seed": 7250725,
+  "prompt": "1girl, 1boy, mountain temple courtyard, a large bronze temple bell ringing with visible sound ripples, a celestial maiden floating upside down above the courtyard with one hand at her throat mimicking a voice, a worried merchant girl with chestnut twin tails praying with folded hands, a hooded young man humming beside the bell",
+  "init": null
+ },
+ "cg_end_naru": {
+  "seed": 6604417,
+  "prompt": "1girl, 1boy, romantic, sunset over a wide river ferry landing, golden water, a purple-haired ferrywoman sitting on the edge of her boat writing in a worn ledger with a brush, a hooded young man sitting in the boat facing her",
+  "init": null
+ },
+ "cg_end_sodam": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, joseon palace kitchen backyard in spring, earthenware jars, a palace maid pressing a big cloth-wrapped bundle of yakgwa sweets into a hooded young man's arms, tears in her eyes but smiling",
+  "init": null
+ },
+ "cg_end_hanbyeol": {
+  "seed": 1414141,
+  "prompt": "1girl, 1boy, 1900s seoul street with tram tracks and a streetcar, a young woman student holding out a folded manuscript paper with both hands, blushing and looking away, a hooded young man reaching for it",
+  "init": null
+ },
+ "cg_end_bori": {
+  "seed": 1313131,
+  "prompt": "1girl, 1boy, mountain village kitchen at dusk, earthen stove fire glowing, a farm girl in a white headband wrapping rice balls in cloth and tying them, teary but smiling, a hooded young man crouching beside the stove",
+  "init": null
+ },
+ "cg_end_dano": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, joseon riverside market at sunset, a storyteller girl on a wooden stage holding up a fan with two names written on it, grinning, a crowd cheering, a hooded young man beside her on the stage",
+  "init": null
+ },
+ "cg_end_haerang": {
+  "seed": 6060606,
+  "prompt": "1girl, 1boy, mountain border road between two kingdoms at dawn, frosty grass, a young woman in fur-trimmed northern clothes standing with her back half turned, wiping a tear with her sleeve, a hooded young man a few steps away",
+  "init": null
+ },
+ "cg_end_garam": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, 1880s korean port house at evening, an old matchlock musket hung on the wall, a hunter girl standing and singing loudly with her eyes shut and fists clenched, red ears, a hooded young man clapping to keep the beat",
+  "init": null
+ },
+ "cg_end_noeul": {
+  "seed": 7313131,
+  "prompt": "1girl, 1boy, romantic, bronze age sacred settlement at sunset, red sky, a tiger-eared noble lady sitting very still with her hands on her knees, waiting, tail curled, a hooded young man gently patting her head",
+  "init": null
+ },
+ "cg_end_dallae": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, ancient walled-city market stall, a merchant woman holding up a wooden tablet carved with a jar mark and a hood mark side by side, proud and shy, a hooded young man looking at it",
+  "init": null
+ },
+ "cg_end_saebyeok": {
+  "seed": 1515151,
+  "prompt": "1girl, 1boy, 1950s refugee tent school in the morning, children's drawings pinned on the canvas, a young woman teacher at the front leading a song with raised hands, a hooded young man at the back of the tent",
+  "init": null
+ },
+ "cg_end_dasom": {
+  "seed": 1616161,
+  "prompt": "1girl, 1boy, 1980s korean university gate at evening, posters on the wall, a college student holding a songbook and an acoustic guitar case, laughing, a hooded young man walking beside her",
+  "init": null
+ },
+ "cg_ch04_gaon_fleet": {
+  "seed": 2604050,
+  "prompt": "1girl, sea battle fleet, a horizon covered with tang warships, a hundred silla warships lining up in front, an interpreter woman standing at the bow of the lead ship with her hair and sleeves blowing in the wind, bamboo slips under her arm",
+  "init": null
+ },
+ "cg_ch04_ara_gaon_back": {
+  "seed": 2604040,
+  "prompt": "2girls, river mouth sea battle, tang warships pushing in, silla ships blocking, on the deck of a silla ship an archer woman and an interpreter woman standing back to back, the archer drawing her bow, the interpreter shouting orders",
+  "init": null
+ },
+ "cg_ch04_campfire": {
+  "seed": 2604040,
+  "prompt": "2girls, 1boy, night after battle, a riverside campfire drying wet banners, an archer woman and an interpreter woman sitting side by side, the archer leaning her head on the interpreter's shoulder half asleep, a hooded young man feeding the fire",
+  "init": null
+ },
+ "cg_ch08_soebyeol_news": {
+  "seed": 2608090,
+  "prompt": "1girl, 1boy, refugees with bundles on an island shore, a blacksmith girl jumping up from among the bundles with a raised fist and a huge grin, an arrowhead in her hand, a hooded young man startled",
+  "init": null
+ },
+ "cg_ch08_danbi_news": {
+  "seed": 2608100,
+  "prompt": "1girl, 1boy, goryeo capital alley in spring, a royal notice posted on a wall, a messy-haired maiden grabbing a hooded young man's sleeve and pointing at the notice, jumping with joy",
+  "init": null
+ },
+ "cg_ch11_dodam_bandage": {
+  "seed": 1111201,
+  "prompt": "1girl, 1boy, close-up, field clinic under a straw mat roof, a doctor apprentice girl pressing crushed mugwort onto a hooded young man's palm and wrapping it with cloth, focused, their hands close, warm light",
+  "init": null
+ },
+ "cg_ch12_sisters": {
+  "seed": 2323242,
+  "prompt": "3girls, 1boy, comedic, behind a folding screen at a joseon banquet, a hooded young man caught, a proud gisaeng in pink grabbing his wrist possessively, a playful gisaeng in yellow pointing and shouting, a calm gisaeng in jade green retying her ribbon and looking away",
+  "init": null
+ },
+ "cg_ch12_seola_secret": {
+  "seed": 2323232,
+  "prompt": "1girl, 1boy, quiet night, wooden veranda of a joseon mansion after a banquet, paper lanterns, a gisaeng holding her folded fan over her lips with a soft smile, sitting beside a hooded young man, moonlight",
+  "init": null
+ },
+ "cg_ch12_hwaseon_market": {
+  "seed": 2323243,
+  "prompt": "1girl, 1boy, busy joseon street stalls, a stall full of colorful hair ornaments, a playful gisaeng holding up two flower hairpins and haggling with the old vendor, a hooded young man holding her shopping",
+  "init": null
+ },
+ "cg_ch14_garam_customs": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, 1880s korean port customs warehouse, a western customs officer stamping papers, an interpreter writing, a hunter girl without a gun putting down a cargo crate and raising her hand stiffly, a hooded young man beside the crates",
+  "init": null
+ },
+ "cg_ch22_bomnae_sitin": {
+  "seed": 2622220,
+  "prompt": "1girl, 1boy, 1979 korea, crowded party headquarters hall, rows of young female factory workers with towels tied on their heads sitting closely together in a sit-in, a factory girl in the front row holding hands with the girls beside her, determined, a hooded young man at the wall",
+  "init": null
+ },
+ "cg_ch23_dasom_olympic": {
+  "seed": 1616161,
+  "prompt": "1girl, 1boy, 1988 seoul olympic opening ceremony stadium, crowds, flags, doves, fireworks, a college student waving a small flag and laughing, a hooded young man beside her",
+  "init": null
+ },
+ "cg_ep_result": {
+  "seed": 4242001,
+  "prompt": "1girl, 1boy, morning, small home music studio, a girl with light brown wavy hair in a pastel blue hoodie and a hooded young man leaning toward a monitor showing an exam results website, the girl's finger on the mouse, both frozen in suspense, a phone on the desk glowing",
+  "init": null
+ },
+ "cg_ep_night": {
+  "seed": 4242001,
+  "prompt": "1boy, night, small home music studio after a party, empty fried chicken boxes, a girl asleep on the sofa under a blanket, a hooded young man alone at the desk facing a monitor showing a glowing timeline map with many points of light",
+  "init": null
+ },
+ "cg_ep_exam_eve": {
+  "seed": 4242001,
+  "prompt": "1boy, two nights before an exam, small home music studio, a desk covered with history workbooks and sticky notes, a printed exam admission ticket, a hooded young man asleep face down on the books, a phone on the desk glowing softly",
+  "init": null
+ },
+ "cg_after_ullim": {
+  "seed": 7250725,
+  "prompt": "1girl, record shop listening booth, shelves of vinyl records, a celestial maiden with teal hair wearing big headphones in a listening booth, eyes closed blissfully, her translucent shawl floating, a hooded young man outside the glass",
+  "init": null
+ },
+ "cg_after_dallae": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, modern subway station exit, a woman haggling over a used item with a stranger holding a smartphone, holding up fingers, triumphant, a hooded young man holding a secondhand rice cooker",
+  "init": null
+ },
+ "cg_after_naru": {
+  "seed": 6604417,
+  "prompt": "1girl, 1boy, modern subway transfer corridor, a purple-haired woman standing at the ticket gates holding out her palm to commuters as if collecting fare, commuters confused, a hooded young man pulling her away by the sleeve",
+  "init": null
+ },
+ "cg_after_ara": {
+  "seed": 2604040,
+  "prompt": "1girl, 1boy, indoor archery cafe, targets in a row, an athletic woman with a high ponytail releasing an arrow that hits the bullseye, the staff gaping, a hooded young man holding a scoreboard",
+  "init": null
+ },
+ "cg_after_gaon": {
+  "seed": 2604050,
+  "prompt": "1girl, 1boy, modern seoul street near a palace gate, a woman in a neat low bun giving directions to a group of foreign tourists with lively gestures, a translation app on a phone ignored, a hooded young man watching proudly",
+  "init": null
+ },
+ "cg_after_haerang": {
+  "seed": 6060606,
+  "prompt": "1girl, 1boy, zoo deer enclosure, a short-haired woman with a side ponytail leaning over the fence studying the small deer critically, a hooded young man holding two ice creams",
+  "init": null
+ },
+ "cg_after_haneui": {
+  "seed": 2606060,
+  "prompt": "1girl, 1boy, luxury department store jewelry floor, a glamorous woman in an elegant updo trying on gold earrings in front of a mirror, delighted, a hooded young man staring at the price tag in horror",
+  "init": null
+ },
+ "cg_after_maru": {
+  "seed": 2607070,
+  "prompt": "1girl, 1boy, furniture store showroom, a woman with keys at her belt sitting on a big sofa with her shoes neatly placed in front, pointing sternly at a hooded young man's shoes",
+  "init": null
+ },
+ "cg_after_seori": {
+  "seed": 2607080,
+  "prompt": "1girl, 1boy, korean jjimjilbang sauna lounge, heated floor, a woman with rosy cheeks wearing a towel lamb-ear headband lying flat on the warm floor melting happily, a hooded young man holding a boiled egg",
+  "init": null
+ },
+ "cg_after_yeoul": {
+  "seed": 7070707,
+  "prompt": "1girl, 1boy, antique shop full of old ceramics, a freckled merchant girl with chestnut twin tails holding up a celadon vase to the light and squinting, the shopkeeper sweating, a hooded young man behind",
+  "init": null
+ },
+ "cg_after_soebyeol": {
+  "seed": 2608090,
+  "prompt": "1girl, 1boy, hardware store aisle full of hammers and tools, a short-haired tanned woman lifting a sledgehammer with one hand admiringly, a hooded young man holding a shopping basket",
+  "init": null
+ },
+ "cg_after_danbi": {
+  "seed": 2608100,
+  "prompt": "1girl, 1boy, modern district office counter, a messy-haired young woman proudly filling out a marriage registration form with big letters, a hooded young man beside her sweating",
+  "init": null
+ },
+ "cg_after_sodam": {
+  "seed": 8080808,
+  "prompt": "1girl, 1boy, cozy modern cafe, a glass display case of yakgwa cookies and yakgwa croissants, a young woman with a long braid and red ribbon pressing her face to the glass with sparkling eyes, a hooded young man paying",
+  "init": null
+ },
+ "cg_after_dodam": {
+  "seed": 1111201,
+  "prompt": "1girl, 1boy, supermarket vitamin aisle, a young woman with a long chestnut braid reading the back of a supplement bottle with intense concentration and a notebook, a hooded young man pushing a cart",
+  "init": null
+ },
+ "cg_after_maehyang": {
+  "seed": 2323241,
+  "prompt": "1girl, 1boy, small bookstore poetry reading night, a tall graceful woman reading a poem aloud at a microphone with a calm dignified face, the audience enchanted, a hooded young man in the back row",
+  "init": null
+ },
+ "cg_after_choryeon": {
+  "seed": 2323242,
+  "prompt": "1girl, 1boy, music instrument shop, a proud woman with a lotus ornament in her hair restringing an electric guitar with a sulky but focused face, a hooded young man watching",
+  "init": null
+ },
+ "cg_after_hwaseon": {
+  "seed": 2323243,
+  "prompt": "1girl, 1boy, k-pop dance studio with a mirror wall, a playful woman with flower pins in her hair nailing a dance move in front of the mirror, other students staring, a hooded young man trying to copy and failing",
+  "init": null
+ },
+ "cg_after_seola": {
+  "seed": 2323232,
+  "prompt": "1girl, 1boy, hot summer street, a calm elegant woman with a white plum ornament holding a small handheld electric fan in front of her face, startled by the breeze, a hooded young man holding her folded paper fan",
+  "init": null
+ },
+ "cg_after_dano": {
+  "seed": 9090909,
+  "prompt": "1girl, 1boy, small room set up for live streaming, ring light and microphone, a short-haired girl with a red ribbon headband telling a story dramatically to the camera with a fan, live chat scrolling on the monitor, a hooded young man holding a reflector",
+  "init": null
+ },
+ "cg_after_garam": {
+  "seed": 2614141,
+  "prompt": "1girl, 1boy, small coin karaoke booth with neon lights, a hunter woman with a long braid holding a microphone with both hands singing with eyes squeezed shut and very red ears, a hooded young man clapping",
+  "init": null
+ },
+ "cg_after_bori": {
+  "seed": 1313131,
+  "prompt": "1girl, 1boy, big supermarket rice aisle, a sun-tanned woman in a white headband effortlessly lifting a 20kg rice sack onto her shoulder, shoppers gaping, a hooded young man with an empty cart",
+  "init": null
+ },
+ "cg_after_hanbyeol": {
+  "seed": 1414141,
+  "prompt": "1girl, 1boy, cozy cafe at night, a young woman with a long braid and glasses typing furiously on a laptop with a deadline note stuck on the screen, cold coffee, a hooded young man bringing a new cup",
+  "init": null
+ },
+ "cg_after_saebyeok": {
+  "seed": 1515151,
+  "prompt": "1girl, 1boy, community children's center classroom in the afternoon, a woman with a short bob teaching a group of children at a whiteboard with a gentle smile, children raising hands, a hooded young man helping at the back",
+  "init": null
+ },
+ "cg_after_bomnae": {
+  "seed": 2622220,
+  "prompt": "1girl, 1boy, dongdaemun fabric market, rolls of colorful fabric stacked high, a woman with a short bob and white headband holding up a fabric swatch against a hooded young man's chest measuring by eye",
+  "init": null
+ },
+ "cg_after_dasom": {
+  "seed": 1616161,
+  "prompt": "1girl, 1boy, university festival outdoor stage at night, lights and crowd, a young woman with bangs singing into a microphone with a band behind her, a hooded young man in the crowd holding up a phone light",
+  "init": null
  }
 }
