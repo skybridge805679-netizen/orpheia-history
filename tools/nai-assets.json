@@ -1,3 +1,72 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "cg_mg_hyejin_b0",
+   "size": "bg",
+   "seed": 18180020,
+   "cast": [
+    "hyejin"
+   ],
+   "prompt": "solo, teenage girl, 18 years old, korean high school student, shaman girl, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar, long red goreum ribbon tied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, cluster of small brass shaman bells on a red cord, five-colored cloth strips around her wrist, intact clothes, neat uniform, confident smirk, holding a folded fan forward and swinging the brass bells, ready to fight, night, narrow korean back alley, flickering street lamp, purple ghostly fog, red tteokbokki rice cakes flying through the air like bullets, red sauce splashes, glowing paper talismans, dramatic lighting, cowboy shot, centered composition",
+   "negative": "nude, nipples, cleavage, underwear, bra, panties, lingerie, see-through, wet clothes, revealing clothes, short skirt, miniskirt, sexy, nsfw, large breasts, mature female, multiple views, reference sheet, 2girls, multiple girls, male, text, speech bubble, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_hyejin_b1",
+   "size": "bg",
+   "seed": 18180020,
+   "cast": [
+    "hyejin"
+   ],
+   "prompt": "solo, teenage girl, 18 years old, korean high school student, shaman girl, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar, long red goreum ribbon tied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, cluster of small brass shaman bells on a red cord, five-colored cloth strips around her wrist, red tteokbokki sauce splattered on her blouse and skirt, a rice cake stuck on her vest, steam rising, surprised, flustered, open mouth, sweat drop, night, narrow korean back alley, flickering street lamp, purple ghostly fog, red tteokbokki rice cakes flying through the air like bullets, red sauce splashes, glowing paper talismans, dramatic lighting, cowboy shot, centered composition",
+   "negative": "nude, nipples, cleavage, underwear, bra, panties, lingerie, see-through, wet clothes, revealing clothes, short skirt, miniskirt, sexy, nsfw, large breasts, mature female, multiple views, reference sheet, 2girls, multiple girls, male, text, speech bubble, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_hyejin_b2",
+   "size": "bg",
+   "seed": 18180020,
+   "cast": [
+    "hyejin"
+   ],
+   "prompt": "solo, teenage girl, 18 years old, korean high school student, shaman girl, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar, long red goreum ribbon tied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, cluster of small brass shaman bells on a red cord, five-colored cloth strips around her wrist, her navy vest is gone, red goreum ribbon came undone and hangs loose, blouse sleeves torn at the elbows, skirt hem torn and stained with red sauce, ponytail half undone, angry, pouting, clenched fist, blush, night, narrow korean back alley, flickering street lamp, purple ghostly fog, red tteokbokki rice cakes flying through the air like bullets, red sauce splashes, glowing paper talismans, dramatic lighting, cowboy shot, centered composition",
+   "negative": "nude, nipples, cleavage, underwear, bra, panties, lingerie, see-through, wet clothes, revealing clothes, short skirt, miniskirt, sexy, nsfw, large breasts, mature female, multiple views, reference sheet, 2girls, multiple girls, male, text, speech bubble, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_hyejin_b3",
+   "size": "bg",
+   "seed": 18180020,
+   "cast": [
+    "hyejin"
+   ],
+   "prompt": "solo, teenage girl, 18 years old, korean high school student, shaman girl, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar, long red goreum ribbon tied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, cluster of small brass shaman bells on a red cord, five-colored cloth strips around her wrist, uniform badly ruined but still covering her, blouse stained red with sauce and both sleeves torn off at the elbows, skirt hem ripped to the knees, torn black tights at the knees, ribbon lost, messy loose hair, a rice cake on her head, sitting on the ground exhausted, teary eyes, embarrassed blush, comedic defeat, night, narrow korean back alley, flickering street lamp, purple ghostly fog, red tteokbokki rice cakes flying through the air like bullets, red sauce splashes, glowing paper talismans, dramatic lighting, cowboy shot, centered composition",
+   "negative": "nude, nipples, cleavage, underwear, bra, panties, lingerie, see-through, wet clothes, revealing clothes, short skirt, miniskirt, sexy, nsfw, large breasts, mature female, multiple views, reference sheet, 2girls, multiple girls, male, text, speech bubble, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "bg_mg_hyejin_alley",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, night, narrow back alley in an old seoul neighborhood, red brick villas, tangled electric wires, one flickering street lamp, faded paper talismans on the walls, ominous purple fog, faint blue will-o'-the-wisps, eerie, horror atmosphere",
+   "negative": "1girl, 2girls, people, character, signature, watermark, text, logo, daytime"
+  },
+  {
+   "id": "bg_mg_hyejin_school",
+   "size": "bg",
+   "prompt": "no humans, scenery, indoors, night, long corridor of an abandoned korean school, broken windows, moonlight through the windows, dusty floor, old lockers, ominous purple fog, faint blue will-o'-the-wisps, eerie, horror atmosphere",
+   "negative": "1girl, 2girls, people, character, signature, watermark, text, logo, daytime"
+  },
+  {
+   "id": "bg_mg_hyejin_crossroads",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, midnight, empty crossroads in an old seoul downtown, blinking red traffic light, closed shop shutters, an abandoned tteokbokki street food cart with steam rising, ominous purple fog swirling into a vortex, faint blue will-o'-the-wisps, eerie, horror atmosphere",
+   "negative": "1girl, 2girls, people, character, signature, watermark, text, logo, daytime"
+  },
+  {
+   "id": "cg_mg_hyejin",
+   "size": "bg",
+   "seed": 18180020,
+   "cast": [
+    "hyejin"
+   ],
+   "prompt": "solo, teenage girl, 18 years old, korean high school student, shaman girl, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar, long red goreum ribbon tied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, cluster of small brass shaman bells on a red cord, five-colored cloth strips around her wrist, holding a paper cup of red tteokbokki and a wooden skewer, swinging brass bells in the other hand, playful wink, tongue out, cute small ghost wisps floating around her, night street food cart, warm lanterns, steam, cowboy shot",
+   "negative": "nude, nipples, cleavage, underwear, bra, panties, lingerie, see-through, wet clothes, revealing clothes, short skirt, miniskirt, sexy, nsfw, large breasts, mature female, multiple views, reference sheet, 2girls, multiple girls, male, text, speech bubble, watermark, signature, logo, extra limbs, bad hands"
+  }
+ ]
 }

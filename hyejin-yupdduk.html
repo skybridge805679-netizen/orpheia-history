@@ -6,7 +6,7 @@
 <title>혜진의 엽떡 퇴마</title>
 <!-- 혜진 단독 미니게임(역사와 무관). 땅따먹기 + 탄막: 악귀가 엽떡을 쏘고, 혜진은 금줄을 그어 땅을 차지해 악귀를 가둔다.
      맞으면 옷이 한 단계씩 망가진다(묵 배틀식, 0~3단계, 4번째에 끝).
-     단계 그림: assets/cg_hyejin_b0~b3.webp가 있으면 그것을, 없으면 스탠딩(st_hyejin_*) + 소스 얼룩으로 대신한다.
+     단계 그림: assets/cg_mg_hyejin_b0~b3.webp가 있으면 그것을, 없으면 스탠딩(st_hyejin_*) + 소스 얼룩으로 대신한다.
      본편과 연결하지 않은 독립 페이지. 최고 점수는 이 브라우저에만 남는다. -->
 <style>
 :root{--bg:#120d1c;--panel:#1d1529;--ink:#f3eadb;--dim:#a99fb8;--red:#d8382f;--gold:#e0b04a;--line:#3a2d4d}
@@ -116,7 +116,7 @@ $('best').textContent=best;
 
 // 단계 그림: 있으면 쓰고, 없으면 스탠딩 + 얼룩
 const cgOk=[false,false,false,false];
-for(let i=0;i<4;i++){const im=new Image();im.onload=()=>{cgOk[i]=true;if(game)portrait()};im.src=`assets/cg_hyejin_b${i}.webp`;}
+for(let i=0;i<4;i++){const im=new Image();im.onload=()=>{cgOk[i]=true;if(game)portrait()};im.src=`assets/cg_mg_hyejin_b${i}.webp`;}
 
 let grid,boss,spirits,bullets,parts,p,trail,trailStart,drawing,stageI,level,score,inv,state,fireT,spiral,moveAcc,pct,border,flash,shakeT,lineT,game=false;
 const idx=(x,y)=>y*GW+x, inb=(x,y)=>x>=0&&y>=0&&x<GW&&y<GH;
@@ -313,7 +313,7 @@ let curExpr='neutral';
 function setExpr(e){curExpr=e;const im=$('portrait');if(cgOk[level])return;im.src=`assets/st_hyejin_${e}.webp`;}
 function portrait(){
  const im=$('portrait'),sc=$('stain'),c=sc.getContext('2d');c.clearRect(0,0,sc.width,sc.height);
- if(cgOk[level]){im.src=`assets/cg_hyejin_b${level}.webp`;return;}
+ if(cgOk[level]){im.src=`assets/cg_mg_hyejin_b${level}.webp`;return;}
  setExpr(EXPR[level]);
  const n=[0,7,16,28][level];let seed=17;const rnd=()=>(seed=(seed*9301+49297)%233280)/233280;
  for(let i=0;i<n;i++){const x=sc.width*(.32+rnd()*.36),y=sc.height*(.22+rnd()*.62),r=4+rnd()*(6+level*3);
