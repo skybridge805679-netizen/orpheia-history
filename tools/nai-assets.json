@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시. 2026.11 스탠딩 개선안(검수 전, 아직 본편에 안 씀): st2_ 이름으로 33장. 새벽(엄마) 반신 4장 전신화, 다솜·한별·도담·해랑·서리 머리색·옷 맞춤, 달래·보리·화선 집옷 셋·단오·아라·쇠별 임신 집옷에서 소품 지우기, 한별·가온·여울 worry·소담 serious·아라 pout 새로. 적용은 검수 뒤 assets/st2_X → st_X로 바꾸고 vn.js CAST에 새 표정을 잇는다(docs/스탠딩-개선안.md).",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시. 2026.11 스탠딩 개선안(검수 전, 아직 본편에 안 씀): st2_ 이름으로 33장. 새벽(엄마) 반신 4장 전신화, 다솜·한별·도담·해랑·서리 머리색·옷 맞춤, 달래·보리·화선 집옷 셋·단오·아라·쇠별 임신 집옷에서 소품 지우기, 한별·가온·여울 worry·소담 serious·아라 pout 새로. 적용은 검수 뒤 assets/st2_X → st_X로 바꾸고 vn.js CAST에 새 표정을 잇는다(docs/스탠딩-개선안.md). 2026.11 「없던 속성」 새 히로인 8명(이랑·은실·사라·초아·바다·엘리·고요·모아): 193장. 한 명당 스탠딩 8표정+임신+집옷 3, 설정 컷·사건·꽁냥·엔딩·애프터·하렘, 아내 대결 b0~b3(앞 단계 i2i)·win. 새 시대 배경 8.",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -13380,6 +13380,2233 @@
    "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text",
    "init": "assets/st_ara_smile.webp",
    "strength": 0.6
+  },
+  {
+   "id": "bg_era_goryeong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient gaya kingdom of goryeong, royal burial mounds along a green ridge, a wooden palace with thatched roofs below, morning mist",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_hwarang_field",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient silla riverside field with willow trees, archery targets and wooden dummies, river, round royal tombs in the distance, morning",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_ulsan_port",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 9th century korean silla harbor of ulsan, wooden piers, arabian dhow ships and korean ships, spice sacks and crates, daytime",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_jeju_coast",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, jeju island coast with black volcanic rocks, turquoise sea, stone walls, thatched houses, 19th century, summer",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_jeongdong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1900s jeongdong street in seoul, red brick western church and school, korean tiled walls, ginkgo trees",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_apgujeong_1993",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1990s seoul apgujeong street at evening, neon signs with blank boards, payphones, cafes",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_gwanghwamun_2002",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, seoul gwanghwamun street in june 2002, huge outdoor screen, red balloons and confetti on the road, evening",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "bg_era_palace_night",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, gyeongbokgung palace courtyard at night, full moon, wooden pillars and stone steps, lanterns, quiet",
+   "negative": "people, text, letters, signboard text, words, writing, signature, watermark, japanese text, modern smartphone"
+  },
+  {
+   "id": "st_irang_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, confident boyish grin",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_irang_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, blushing, flustered, voice cracking, hand on her chest binding",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, surprised, mouth open, eyes wide",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, angry, frowning, pointing the wooden sword",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, teary eyes, biting lip, trying not to cry",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, serious, determined, hand on sword hilt",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, worried, glancing around nervously",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, standing, full body, looking at viewer, pout, puffed cheeks, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_irang_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, oversized white dress shirt, loose topknot let down into a ponytail, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_irang_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_irang_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, oversized white dress shirt, loose topknot let down into a ponytail, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_irang_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_irang_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603301,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, oversized white dress shirt, loose topknot let down into a ponytail, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_irang_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch03_hwarang",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient silla riverside training field at morning, wooden practice dummies, archery targets, horses tied to willow trees, mist on the river, distant round royal tombs of gyeongju",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch03_irang",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, behind a big rock at a riverside where silla youths are bathing in the distance, a disguised girl hiding behind the rock with a hooded young man, her chest binding cloth slipping down, the hooded man covering her with his hoodie, splashing water, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, hiding behind a rock, chest binding cloth slipping loose, clutching it, cleavage, deep blush, panicked face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_irang",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, romantic, sunset on a hill with a carved standing stone, ancient silla, a girl in hwarang clothes with her hair let down carving words into a stone with a chisel, a hooded young man holding the stone steady, warm light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, hair let down, kneeling, carving a stone with a small chisel, shy happy smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_irang",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, ancient silla courtyard at dusk, a girl in a feminine silla dress for the first time holding a stone tablet with carved vows, a hooded young man beside her, petals",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, wearing a feminine pale pink silla long jacket and long skirt, hair down with a red hair band, holding a small stone tablet, teary happy smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_irang",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, modern unisex clothing store, a girl with a topknot holding up a men's suit and a dress, confused, a hooded young man laughing",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, modern casual clothes, holding a suit in one hand and a dress in the other, confused face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_irang",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a disguised hwarang girl stepping out of the monitor with a wooden sword, her topknot coming undone, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, stepping out of the monitor, topknot coming undone, saluting with a wooden sword, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_irang_b0",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, riverside training field of silla hwarang youths, 6th century, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_irang_b1",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, riverside training field of silla hwarang youths, 6th century, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_irang_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_irang_b2",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, riverside training field of silla hwarang youths, 6th century, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white cloth chest binding (sarashi) visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_irang_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_irang_b3",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, riverside training field of silla hwarang youths, 6th century, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white cloth chest binding (sarashi) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_irang_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_irang_win",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, solo, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_eunsil_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, gentle soft smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_eunsil_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, blushing, hiding mouth behind the zither",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, surprised, wide eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, angry, frowning, cheeks red",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, teary eyes, quiet tears",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, serious, calm determined gaze",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, worried, anxious, clutching an iron ingot to her chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_eunsil_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, soft cream knit cardigan over a white camisole and pajama shorts, hair loosely braided, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_eunsil_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_eunsil_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, soft cream knit cardigan over a white camisole and pajama shorts, hair loosely braided, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_eunsil_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_eunsil_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603302,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, soft cream knit cardigan over a white camisole and pajama shorts, hair loosely braided, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_eunsil_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch03_jisandong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, ancient gaya royal burial mounds lined along a ridge at goryeong, dusk, golden light, grass, distant wooden palace, a twelve string zither left on a mat",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch03_eunsil",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, comedic, inside a huge ancient clay storage jar, a gaya maiden and a hooded young man squeezed together face to face, a soldier's spear tapping the jar lid from outside, cramped, masterpiece, no readable text, cross-section view of the jar",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, squeezed in a jar, face very close to his, deep blush, hand over her own mouth",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_eunsil",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, romantic, night, a gaya maiden playing a twelve string zither under the stars on a grassy burial mound hill, a hooded young man writing music notes in a notebook beside her, fireflies, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, playing the zither, eyes closed, peaceful smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_eunsil",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, ancient village house at evening, an old woman's comb on a shelf, a gaya maiden playing the zither and a hooded young man tapping the rhythm",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, playing the zither, warm smile, tears of joy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_eunsil",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, modern instrument store, a gaya maiden astonished in front of an electric guitar and amp, a hooded young man plugging it in",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, modern casual clothes, plucking an electric guitar string, startled, sparkling eyes",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_eunsil",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a gaya maiden stepping out of the monitor hugging a zither, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, stepping out of the monitor hugging a zither, shy smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_eunsil_b0",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, ancient gaya burial mound hills of goryeong at dusk, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_eunsil_b1",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, ancient gaya burial mound hills of goryeong at dusk, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_eunsil_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_eunsil_b2",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, ancient gaya burial mound hills of goryeong at dusk, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white korean breast band (gaseumtti) visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_eunsil_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_eunsil_b3",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, ancient gaya burial mound hills of goryeong at dusk, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_eunsil_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_eunsil_win",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, solo, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve string zither, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_sara_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, bright cheerful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_sara_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, blushing, twirling her hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, surprised, eyes wide",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, angry, hands on hips, frowning",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, teary eyes, sad smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, serious, sharp merchant gaze",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, worried, frown",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_sara_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, loose white tunic dress with gold embroidery, barefoot, silver anklet, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_sara_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_sara_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, loose white tunic dress with gold embroidery, barefoot, silver anklet, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_sara_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_sara_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603303,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, loose white tunic dress with gold embroidery, barefoot, silver anklet, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_sara_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch06_ulsan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 9th century korean silla harbor of ulsan at sunset, arabian dhow ships with triangular sails beside korean wooden ships, crates and spice sacks on the pier, gulls",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch06_sara",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, comedic, a small silla guest house room at night, a red haired merchant girl dancing in with a mask held up like the cheoyong dance, tripping over a hooded young man sleeping on the floor, lantern light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, tripping while dancing, holding a mask, caftan slipping off one shoulder, cleavage, embarrassed face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_sara",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, romantic, harbor pier at night, a red haired merchant girl sitting on a crate teaching a hooded young man words by writing on his palm, lanterns on ships, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, holding his palm and writing on it with her finger, gentle smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_sara",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, small harbor house at dawn, a ship sailing away in the distance, a red haired merchant girl standing on the pier with a hooded young man, she has put down her luggage",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, standing with a suitcase set down, holding his sleeve, happy tears",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_sara",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, modern airport departure board area, a red haired girl in old silk clothes refusing to board, clinging to a hooded young man, comedic",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, modern casual clothes, clinging to his arm, shaking her head",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_sara",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a red haired sogdian girl dancing out of the monitor with silver coins jingling, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, dancing out of the monitor, coins jingling, bright smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_sara_b0",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, 9th century silla port of ulsan with arabian merchant ships, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_sara_b1",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, 9th century silla port of ulsan with arabian merchant ships, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_sara_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_sara_b2",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, 9th century silla port of ulsan with arabian merchant ships, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white silk bandeau visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_sara_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_sara_b3",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, 9th century silla port of ulsan with arabian merchant ships, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white silk bandeau and white silk shorts left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_sara_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_sara_win",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, solo, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_choa_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, small cool smirk",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_choa_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, blushing, looking away, covering her face with her sleeve",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, surprised, eyes wide",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, angry, glaring, pointing the iron baton",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, teary eyes, holding back tears",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, serious, sharp investigating gaze",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, worried, frown",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_choa_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, black tank top and grey sweatpants, hair down, reading a mystery novel, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_choa_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_choa_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, black tank top and grey sweatpants, hair down, reading a mystery novel, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_choa_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_choa_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603304,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, black tank top and grey sweatpants, hair down, reading a mystery novel, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_choa_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch12_byeokseo",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, joseon hanyang alley at night, a paper poster pasted on a stone wall fluttering, a dropped lantern on the ground, moonlight, tense atmosphere",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch12_choa",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, comedic, a joseon storehouse at night, a female detective and a hooded young man tied back to back with the same red rope, the rope tangled around her own wrist too, moonlight through a window, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, tied together with him by a red rope, sitting on the floor, chima disheveled showing thigh, deadpan face with a deep blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_choa",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, romantic, joseon riverside at dawn, a female detective sharing a yakgwa sweet with a hooded young man on a bench, red rope loosely tied between their wrists, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, eating a yakgwa, cheeks full, soft embarrassed smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_choa",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, joseon house at evening, a female detective tying the end of a red rope to a hooded young man's wrist, smiling",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, tying a red rope to his wrist, teasing smile, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_choa",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, modern police station front desk, a joseon female detective trying to arrest a pickpocket with her rope, police officers stunned, a hooded young man apologizing",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, modern casual clothes, swinging a red rope, determined face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_choa",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a joseon female detective stepping out of the monitor swinging a red rope, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, stepping out of the monitor swinging a red rope, sharp smirk",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_choa_b0",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, joseon hanyang alley at night with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_choa_b1",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, joseon hanyang alley at night with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_choa_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_choa_b2",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, joseon hanyang alley at night with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white korean breast band (gaseumtti) visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_choa_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_choa_b3",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, joseon hanyang alley at night with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_choa_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_choa_win",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, solo, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_bada_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, big cheerful smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_bada_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, blushing, hiding behind the gourd float",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, surprised, eyes wide",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, angry, frowning",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, teary eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, serious, looking at the sea",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, worried, anxious",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_bada_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, oversized blue striped t-shirt and denim shorts, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_bada_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_bada_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, oversized blue striped t-shirt and denim shorts, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_bada_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_bada_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603305,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, oversized blue striped t-shirt and denim shorts, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_bada_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch13_jeju_sea",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, black volcanic rocks of jeju island coast, turquoise sea, orange gourd floats bobbing on the waves, a stone wall, 19th century, bright summer",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch13_bada",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, black volcanic rocks by the sea, a haenyeo diver girl has pulled a soaked hooded young man out of the water and fallen on top of him, both drenched, seawater splashing, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, on top of him, soaked wet white diving clothes clinging to her body, see-through wet clothes, cleavage, blush, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_bada",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, romantic, sunset on jeju coast, a haenyeo girl whistling a sea whistle into a hooded young man's handheld recorder, orange gourd floats, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, whistling, eyes closed, wet hair, happy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_bada",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, a ship deck on the open sea at sunrise, a haenyeo girl looking at the horizon beyond her island for the first time, a hooded young man beside her",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, leaning on the railing, wind in her hair, amazed happy tears",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_bada",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, modern indoor swimming pool, a haenyeo girl in a swimsuit diving effortlessly while other swimmers stare, a hooded young man at the edge",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, modern one-piece swimsuit, diving gracefully",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_bada",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light and seawater, a haenyeo diver girl splashing out of the monitor with a gourd float, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, splashing out of the monitor with a gourd float, dripping wet, grinning",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_bada_b0",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, black volcanic rock coast of jeju island, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_bada_b1",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, black volcanic rock coast of jeju island, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_bada_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_bada_b2",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, black volcanic rock coast of jeju island, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, wet white cotton chest wrap visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_bada_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_bada_b3",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, black volcanic rock coast of jeju island, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only wet white cotton chest wrap and white short underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_bada_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_bada_win",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, solo, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_ellie_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, warm bright smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_ellie_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, blushing, hiding face behind the book",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, surprised, hand over mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, angry, frowning, hands on hips",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, teary eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, serious, determined",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, worried, clutching the book",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_ellie_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, soft pink nightgown with a cardigan, hair down, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_ellie_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_ellie_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, soft pink nightgown with a cardigan, hair down, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_ellie_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ellie_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603306,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, soft pink nightgown with a cardigan, hair down, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_ellie_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch15_jeongdong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1900s jeongdong street in seoul, red brick western style church and schoolhouse, korean tiled roof walls, autumn ginkgo trees, early tram wires",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch15_ellie",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, inside a small 1900s red brick church, a blonde western girl has fallen on top of a hooded young man after their organ bench tipped over, a korean girl in white jeogori and black skirt at the doorway dropping her newspaper in shock, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, fallen on top of him, blouse buttons popped open, cleavage, skirt flipped up showing white bloomers, embarrassed laugh",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_ellie",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, romantic, 1900s schoolhouse classroom at sunset, a blonde girl teaching a hooded young man korean regional dialect from a notebook, both laughing, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, pointing at a notebook, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_ellie",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, small hanok house with a western window at evening, a blonde girl playing a small organ in a korean room, a hooded young man listening",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, playing an organ, smiling over her shoulder",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_ellie",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, modern korean street food stall, a blonde girl in 1900s clothes eating tteokbokki and speaking perfect old-fashioned korean to a stunned vendor, a hooded young man laughing",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, modern casual clothes, eating tteokbokki with a toothpick, happy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_ellie",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a blonde 1900s girl stepping out of the monitor curtsying with a book, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, stepping out of the monitor curtsying, holding a book, bright smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_ellie_b0",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, 1900s jeongdong street in seoul with a red brick church, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_ellie_b1",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, 1900s jeongdong street in seoul with a red brick church, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_ellie_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_ellie_b2",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, 1900s jeongdong street in seoul with a red brick church, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white lace camisole visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_ellie_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_ellie_b3",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, 1900s jeongdong street in seoul with a red brick church, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white lace camisole and white lace bloomers left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_ellie_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_ellie_win",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, solo, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_goyo_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, shy faint smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_goyo_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, blushing faintly, peeking from behind her long hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, surprised, startled, hair standing up",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, angry, sulking ghostly aura",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, teary eyes, glowing tears",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, serious, quiet gaze",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, worried, trembling",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_goyo_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, oversized white hoodie with the hood up, long hair spilling out, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_goyo_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_goyo_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, oversized white hoodie with the hood up, long hair spilling out, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_goyo_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_goyo_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603307,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, oversized white hoodie with the hood up, long hair spilling out, bare legs, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_goyo_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch10_goyo_meet",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, gyeongbokgung palace pavilion corridor at night, full moon, wooden pillars, faint blue mist, a single candle, quiet eerie but beautiful",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch14_goyo",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, romantic comedy, a palace reconstruction site at night with timber and scaffolding, workers running away in the background with lanterns, a pale ghost girl in white and a hooded young man hiding behind stacked timber holding hands, her body glowing warmer where he holds her hand, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, hiding behind timber, holding his hand, surprised blush, her translucent body becoming more solid",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_goyo",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, romantic, palace pond pavilion at night with moon reflection, a pale ghost girl putting her cold hands on a hooded young man's neck and being startled by his warmth, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, hands on his neck, startled, faint blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_goyo",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, a modern apartment at night lit by a single lamp, a pale ghost girl in white sitting comfortably on a sofa next to a hooded young man, a palace miniature model on the shelf",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, sitting on a sofa leaning on him, peaceful smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_goyo",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, modern horror movie theater, a ghost girl in white more scared of the screen than the audience, hiding behind a hooded young man, people around staring at her",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, hiding behind him, terrified, hair standing up",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_goyo",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor, a pale ghost girl crawling out of the monitor like a horror movie with long black hair, a hooded young man on a studio chair screaming, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, crawling out of the monitor, long hair covering face, peeking with a shy smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_goyo_b0",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, gyeongbokgung palace corridor at night with moonlight, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_goyo_b1",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, gyeongbokgung palace corridor at night with moonlight, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_goyo_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_goyo_b2",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, gyeongbokgung palace corridor at night with moonlight, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white korean breast band (gaseumtti) visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_goyo_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_goyo_b3",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, gyeongbokgung palace corridor at night with moonlight, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_goyo_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_goyo_win",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, solo, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "st_moa_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, cheeky grin, v sign",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text"
+  },
+  {
+   "id": "st_moa_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, blushing, twirling her hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, surprised, mouth open",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, angry, frowning",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, teary eyes, mascara slightly running",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, serious",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, worried, biting her nail",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, standing, full body, looking at viewer, pout, puffed cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, flat stomach"
+  },
+  {
+   "id": "st_moa_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, red devils world cup t-shirt and short shorts, hair in a messy bun, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_moa_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_moa_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, red devils world cup t-shirt and short shorts, hair in a messy bun, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects",
+   "init": "assets/st_moa_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_moa_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603308,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, red devils world cup t-shirt and short shorts, hair in a messy bun, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, areola, pussy, hanbok, jeogori, historical clothes, furniture, chair, table, bicycle, suitcase, swim ring, plants, water, background objects, flat stomach",
+   "init": "assets/st_moa_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "cg_ch23_apgujeong",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, 1990s seoul apgujeong street at evening, neon signs with blank boards, a roller skating rink entrance, payphones, colorful 90s atmosphere",
+   "negative": "people, text, letters, words, writing, signature, watermark"
+  },
+  {
+   "id": "cg_ch23_moa",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, comedic, crowded street cheering in front of a big screen in seoul in june 2002, everyone in red t-shirts, confetti, a gyaru girl in a red devils shirt jumping into a hooded young man's arms, her devil horn headband caught on his hood, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, jumping into his arms, red devil horn headband, red t-shirt, screaming with joy",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_kk_moa",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, romantic, winter morning 1998 in front of a bank, a gyaru girl in a puffer jacket holding a small baby gold ring in her palm, crying, a hooded young man handing her a warm can of coffee, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, puffer jacket, holding a small gold ring, teary",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_moa",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, modern rooftop at night, a gyaru girl holding out her hand while a hooded young man slides a gold ring on her finger, city lights",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, holding out her hand, happy tears, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, smiling softly",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_moa",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, modern smartphone store, a 1990s gyaru girl holding her pager next to a smartphone in disbelief, a hooded young man explaining",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, holding a pager and a smartphone, shocked",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_end_harem_moa",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out light, a 1990s gyaru girl stepping out of the monitor with a v sign and a pager beeping, a hooded young man on a studio chair turning around, masterpiece, no readable text, monitor shows only soft blurred glow",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, stepping out of the monitor, v sign, pager beeping, cheeky grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_wife_moa_b0",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, 1990s apgujeong street in seoul, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_moa_b1",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, 1990s apgujeong street in seoul, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_moa_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_moa_b2",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, 1990s apgujeong street in seoul, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, pink bra visible, cleavage, one bare shoulder, skirt or trousers torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_moa_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_moa_b3",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, 1990s apgujeong street in seoul, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only pink bra and pink panties left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_moa_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_moa_win",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, solo, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, text, speech bubble, watermark, signature, visible male face"
+  },
+  {
+   "id": "cg_ch15_goyo_farewell",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, deoksugung palace western-style pavilion at night in 1905, autumn leaves, a pale ghost girl in white standing under a ginkgo tree with a hooded young man, she is smiling with glowing tears, melancholic, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, smiling with glowing tears",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, reaching out his hand",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "qs_f161",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, cheerful video creator in a yellow hoodie and headset microphone, short bob hair, cozy streaming room with a traditional korean mask poster on the wall, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 81161
+  },
+  {
+   "id": "qs_f162",
+   "size": "stand",
+   "prompt": "1girl, solo, adult woman, tour guide in a green vest and cap holding a small flag, ponytail, black volcanic stone wall and sea in the background, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+   "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
+   "seed": 81162
   }
  ]
 }
