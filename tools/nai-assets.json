@@ -1,4 +1,740 @@
 {
  "items": [
+  {
+   "id": "cg_sp_nt_noeul",
+   "size": "bg",
+   "seed": 2611301,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, from above, she is curled around him like a big cat on the bed, her fluffy tiger tail wrapped around his waist, both sleeping",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "girl, long white silk sleeping robe with long sleeves, tiger tail, tiger ears, curled up, hugging him, sleeping, content smile, fang",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back, sleeping, tiger tail around his waist",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_dallae",
+   "size": "bg",
+   "seed": 2611302,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she lies on her stomach under the blanket propping her chin, holding a small bundle of carved wooden tally sticks tied with string, smiling at it, he sleeps beside her",
+   "chars": [
+    {
+     "cast": "dallae",
+     "prompt": "girl, long-sleeved beige cotton pajamas, lying on stomach, holding wooden tally sticks, happy smile, blush",
+     "x": 0.4,
+     "y": 0.55
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his side, sleeping, facing her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_irang",
+   "size": "bg",
+   "seed": 2611303,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, side view, she lies facing him with her long black hair let down and spread over the pillow, shy and blushing, a wooden sword leaning against the bedside table",
+   "chars": [
+    {
+     "cast": "irang",
+     "prompt": "girl, hair down, very long hair, long-sleeved white cotton pajamas, lying on side, blushing, embarrassed, looking at him",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, facing her, gentle",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_eunsil",
+   "size": "bg",
+   "seed": 2611304,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she lies behind him and taps a rhythm on his back with her fingertips, eyes closed humming, a small iron ingot on the bedside table",
+   "chars": [
+    {
+     "cast": "eunsil",
+     "prompt": "girl, long-sleeved pale green pajamas, lying on side, fingertips on his back, eyes closed, gentle smile, humming",
+     "x": 0.38,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, back to her, sleeping",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_naru",
+   "size": "bg",
+   "seed": 2611305,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, from above, they lie side by side looking at the ceiling, she points up as if steering a boat, a long wooden pole leaning on the wall, faint glowing water ripples around her ankles",
+   "chars": [
+    {
+     "cast": "naru",
+     "prompt": "girl, single braid over shoulder, navy long-sleeved pajamas with white wave pattern hem, lying on back, pointing up, cheerful grin",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sleeping, relaxed",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_ara",
+   "size": "bg",
+   "seed": 2611306,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, an archery bow hung on the wall above the bed, she lies propped on one elbow and pokes the center of his chest with one finger, playful grin",
+   "chars": [
+    {
+     "cast": "ara",
+     "prompt": "girl, long-sleeved red pajamas, propped on elbow, poking his chest with finger, playful, confident grin, wink",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on his back, flustered, blush",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_gaon",
+   "size": "bg",
+   "seed": 2611307,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, close-up, she whispers into his ear with a hand cupped around her mouth, clutching a tiny notebook and brush pen to her chest, deeply blushing",
+   "chars": [
+    {
+     "cast": "gaon",
+     "prompt": "girl, long-sleeved lavender pajamas, whispering, hand cupped to mouth, blushing, holding small notebook",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, listening, blush",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_haerang",
+   "size": "bg",
+   "seed": 2611308,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she sits up in bed sniffing her own sleeve worriedly, a small perfume bottle and incense holder with thin smoke on the bedside table, he is asleep facing her",
+   "chars": [
+    {
+     "cast": "haerang",
+     "prompt": "girl, long-sleeved dark blue silk pajamas, sitting up, sniffing sleeve, worried, blush",
+     "x": 0.4,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, sleeping, facing her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.58
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_ullim",
+   "size": "bg",
+   "seed": 2611309,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she floats horizontally just above the bed beside him, floating scarf drifting, wearing large headphones, eyes closed blissfully, a small speaker glowing on the shelf",
+   "chars": [
+    {
+     "cast": "ullim",
+     "prompt": "girl, pale jade satin long-sleeved pajamas, hagoromo, floating, wearing headphones, eyes closed, blissful smile, barefoot",
+     "x": 0.45,
+     "y": 0.42,
+     "uc": "wings, halo"
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sleeping, humming",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.62
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_sara",
+   "size": "bg",
+   "seed": 2611310,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, close-up, she holds his open palm and writes a letter on it with her fingertip, red hair spread on the pillow, silver coin necklace",
+   "chars": [
+    {
+     "cast": "sara",
+     "prompt": "girl, long-sleeved white cotton pajamas, silver coin necklace, lying on side, writing on his palm with fingertip, tender smile, blush",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, open palm, gentle",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_haneui",
+   "size": "bg",
+   "seed": 2611311,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she peeks over the edge of the blanket with mischievous eyes, their fingers interlaced and raised between them",
+   "chars": [
+    {
+     "cast": "haneui",
+     "prompt": "girl, long-sleeved pink silk pajamas, peeking over blanket, interlocked fingers, mischievous smile, blush",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, interlocked fingers",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_maru",
+   "size": "bg",
+   "seed": 2611312,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she kneels on the bed and neatly tucks the blanket around him like a proper housewife, a ring of old brass keys on the bedside table",
+   "chars": [
+    {
+     "cast": "maru",
+     "prompt": "girl, long-sleeved cream cotton pajamas, kneeling, tucking blanket, satisfied smile",
+     "x": 0.4,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, tucked in blanket, sleepy",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.58
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_seori",
+   "size": "bg",
+   "seed": 2611313,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, snowy night outside the window, she is buried in thick layered blankets up to her nose on a korean floor futon, red nose, about to sneeze, a fur hat hanging on a hook, he offers her an extra blanket",
+   "chars": [
+    {
+     "cast": "seori",
+     "prompt": "girl, thick long-sleeved fleece pajamas, buried in blankets, red nose, sneezing, teary eyes",
+     "x": 0.42,
+     "y": 0.55
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, holding out a blanket, worried",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.48
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_yeoul",
+   "size": "bg",
+   "seed": 2611314,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she lies propped on her elbow holding a folded paper contract with a red seal stamp, looking at him with a soft wistful smile",
+   "chars": [
+    {
+     "cast": "yeoul",
+     "prompt": "girl, long-sleeved light blue silk pajamas, propped on elbow, holding paper contract, wistful smile, blush",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sleeping",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_soebyeol",
+   "size": "bg",
+   "seed": 2611315,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, close-up of their joined hands raised toward the lamp, matching plain iron rings on their fingers, she gazes at the rings with teary happy eyes",
+   "chars": [
+    {
+     "cast": "soebyeol",
+     "prompt": "girl, long-sleeved brown cotton pajamas, lying on side, holding his hand up, looking at iron ring, teary happy eyes",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, hand held up, iron ring",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_danbi",
+   "size": "bg",
+   "seed": 2611316,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she hugs him tightly from behind with her face buried in his back, her hair a little messy, eyes closed",
+   "chars": [
+    {
+     "cast": "danbi",
+     "prompt": "girl, messy hair, long-sleeved yellow pajamas, hugging from behind, face buried in his back, eyes closed, blush",
+     "x": 0.6,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, being hugged from behind, sleepy",
+     "uc": "visible eyes",
+     "x": 0.42,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_sodam",
+   "size": "bg",
+   "seed": 2611317,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, comedic, she lies stiff and perfectly straight on her back like a palace lady with her hands folded on her stomach, tense, deeply blushing, a cheap new hair tie on her wrist, he is laughing softly",
+   "chars": [
+    {
+     "cast": "sodam",
+     "prompt": "girl, long-sleeved light pink pajamas, lying on back, stiff, hands folded, tense, blushing, sweat drop",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, laughing, looking at her",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_goyo",
+   "size": "bg",
+   "seed": 2611318,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, moonlight, the candle on the bedside just went out with a thin wisp of smoke, she lays her pale cold hands on his neck and is startled by the warmth",
+   "chars": [
+    {
+     "cast": "goyo",
+     "prompt": "girl, very long black hair, white long sleeping gown with long sleeves, pale skin, hands on his neck, surprised, blush, wide eyes",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, flinching, cold",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_dodam",
+   "size": "bg",
+   "seed": 2611319,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she sits on the edge of the bed in pajamas taking his pulse at the wrist with a serious face, a tray with a bowl of herbal medicine on the bedside table",
+   "chars": [
+    {
+     "cast": "dodam",
+     "prompt": "girl, long-sleeved light green pajamas, sitting, taking pulse, serious, blush",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sleepy, arm held",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.58
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_tsubaki",
+   "size": "bg",
+   "seed": 2611320,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, a red camellia flower on the pillow, she sits in seiza on the bed and bows formally before lying down, he is under the blanket, amused",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, long beige knit cardigan over white long-sleeved pajamas, red camellia hair clip, seiza, bowing, polite, blush",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying under blanket, propped up, amused",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_maehyang",
+   "size": "bg",
+   "seed": 2611321,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, before dawn, pale blue window light, she lies beside him writing on a smartphone with a soft smile, the screen light on her face, he sleeps",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "girl, long-sleeved violet silk pajamas, lying on stomach, holding smartphone, soft smile, screen light on face",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, sleeping",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_choryeon",
+   "size": "bg",
+   "seed": 2611322,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she lies with her back turned to him in a pout, but reaches back with one hand and pinches the sleeve of his hoodie",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "girl, long-sleeved navy pajamas, back turned, pout, blushing, holding his sleeve behind her, tsundere",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, facing her back, gentle",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_hwaseon",
+   "size": "bg",
+   "seed": 2611323,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, comedic, from above, she has fallen asleep sprawled diagonally across the whole bed with one leg and arm flung over him, drooling slightly, he is squashed at the edge",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "girl, long-sleeved orange pajamas, sprawled, sleeping, open mouth, drooling, carefree",
+     "x": 0.48,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, squashed at the edge of the bed, sweat drop",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.6
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_seola",
+   "size": "bg",
+   "seed": 2611324,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, they lie under the blanket together, she holds a folding fan open to hide both their faces from the door as she whispers a secret",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "girl, long-sleeved white pajamas, holding folding fan, whispering, calm smile, blush",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, listening",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_choa",
+   "size": "bg",
+   "seed": 2611325,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, both asleep, their wrists loosely tied together with a red cord on top of the blanket, she smiles in her sleep",
+   "chars": [
+    {
+     "cast": "choa",
+     "prompt": "girl, long-sleeved black pajamas, sleeping, smile, wrist tied with red cord",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sleeping, wrist tied with red cord",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_dano",
+   "size": "bg",
+   "seed": 2611326,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she sits up against the headboard reading a thick old storybook aloud dramatically, he sleeps leaning on her shoulder",
+   "chars": [
+    {
+     "cast": "dano",
+     "prompt": "girl, long-sleeved green pajamas, sitting, reading book aloud, open mouth, dramatic, cheerful",
+     "x": 0.42,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, leaning on her shoulder, sleeping",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_bada",
+   "size": "bg",
+   "seed": 2611327,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, blue night light, she lies on her back using a round orange buoy float as a pillow, whistling softly with puckered lips, damp hair after a shower",
+   "chars": [
+    {
+     "cast": "bada",
+     "prompt": "girl, long-sleeved light blue pajamas, damp hair, lying on back, whistling, puckered lips, round buoy pillow",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, listening, smile",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_garam",
+   "size": "bg",
+   "seed": 2611328,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she sits cross-legged on the bed holding a sheet of music and singing loudly with a red face, he laughs and covers one ear",
+   "chars": [
+    {
+     "cast": "garam",
+     "prompt": "girl, long-sleeved khaki pajamas, sitting cross-legged, singing, holding sheet music, red face, embarrassed",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, laughing, covering one ear",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_bori",
+   "size": "bg",
+   "seed": 2611329,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, late-night snack, they sit up in bed with a small tray of rice balls and a bowl of soup on the blanket, she feeds him a rice ball with a proud smile",
+   "chars": [
+    {
+     "cast": "bori",
+     "prompt": "girl, long-sleeved cotton pajamas, sitting, feeding him a rice ball, proud smile",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, eating rice ball",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_ellie",
+   "size": "bg",
+   "seed": 2611330,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, three small light blue sticky notes stuck on the headboard, she sleeps peacefully hugging his arm",
+   "chars": [
+    {
+     "cast": "ellie",
+     "prompt": "girl, loose pink knit cardigan over a long white frilled nightdress, sleeping, hugging his arm, peaceful smile",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sleeping, arm hugged",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_hanbyeol",
+   "size": "bg",
+   "seed": 2611331,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, under the blanket like a tent, she shines a small flashlight on a memo pad and scribbles notes, he peeks in under the blanket edge",
+   "chars": [
+    {
+     "cast": "hanbyeol",
+     "prompt": "girl, long-sleeved white pajamas, under blanket, holding flashlight and pencil, writing on memo pad, excited",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, peeking under blanket, curious",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_chunmei",
+   "size": "bg",
+   "seed": 2611332,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, an abacus on the bedside table, she pokes his cheek with a fingertip and grins, a little flour still on her cheek",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, red satin long-sleeved pajamas with chinese frog buttons, hair down, flour on cheek, poking his cheek, grin",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, cheek poked, sleepy",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_bomnae",
+   "size": "bg",
+   "seed": 2611333,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she sits up in bed sewing a loose button back onto his hoodie while he sleeps in it, a thimble on her finger, biting off the thread",
+   "chars": [
+    {
+     "cast": "bomnae",
+     "prompt": "girl, long-sleeved floral cotton pajamas, sitting, sewing, thimble, biting thread, focused",
+     "x": 0.42,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sleeping, wearing hoodie",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.58
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_dasom",
+   "size": "bg",
+   "seed": 2611334,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she leans over him while he sleeps, her fingers hovering at the edge of his hood, hesitating, then deciding not to lift it",
+   "chars": [
+    {
+     "cast": "dasom",
+     "prompt": "girl, long-sleeved grey pajamas, leaning over him, hand near his hood, hesitant, tender, blush",
+     "x": 0.45,
+     "y": 0.45
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sleeping, hood on",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.6
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_nt_moa",
+   "size": "bg",
+   "seed": 2611335,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, a red devil horn headband on her head, she holds up an old pager and giggles under the blanket, he is half asleep",
+   "chars": [
+    {
+     "cast": "moa",
+     "prompt": "girl, bleached hair, long-sleeved red pajamas, red devil horn headband, holding pager, giggling",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, half asleep, lying on side",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  }
  ]
 }
