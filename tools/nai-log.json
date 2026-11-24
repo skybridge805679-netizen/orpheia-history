@@ -8333,5 +8333,10 @@
   "seed": 2611251,
   "prompt": "1girl, 1boy, comedic, small home music studio at night, a desk piled with a mountain of white salary envelopes, a hooded young man wearing big headphones working on music at the computer, his younger sister with crossed arms glaring at him beside the envelope pile, monitor shows only soft blurred glow, masterpiece, no readable text",
   "init": null
+ },
+ "st_moa_school": {
+  "seed": 2603308,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, plastic hair clips, hoop earrings, korean high school uniform, navy blazer with a school emblem, white shirt, red ribbon tie, pleated navy skirt, white socks, loafers, school bag on her shoulder, standing, full body, looking at viewer, cheeky grin, v sign",
+  "init": null
  }
 }
