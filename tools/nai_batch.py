@@ -5,10 +5,6 @@ NAI_TOKEN=pst-... python3 tools/nai_batch.py            # 전부
 NAI_TOKEN=pst-... python3 tools/nai_batch.py bg_lecture_room cg_ch01_dolmen   # 골라서
 원본 PNG는 assets/gen/, 게임용 WebP는 assets/ 에 둔다(Pillow가 없으면 PNG만).
 
-인물 외형은 tools/nai-log.json(인물id → 외형 태그)에서만 꺼내 쓴다. 주문서에는 외형을 적지 않는다.
-  {"id": "st_moa_school", "size": "stand", "transparent": true, "cast": ["moa"], "prompt": "장면·옷·자세 태그"}
-  여러 인물: "chars": [{"cast": "moa", "prompt": "그 인물의 옷·자세", "x": 0.3, "y": 0.5}, …]
-이 도구는 nai-log.json에 아무것도 쓰지 않는다."""
 import json, random, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
