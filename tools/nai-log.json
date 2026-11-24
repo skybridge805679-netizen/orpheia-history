@@ -7183,5 +7183,170 @@
   "seed": 1515300,
   "prompt": "1girl, solo, mature adult woman, mature korean woman in her early forties, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, 1980s korean woman, cream silk blouse, long pleated navy skirt, beige cardigan, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
   "init": null
+ },
+ "st2_saebyeok_mom_angry": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, pout, annoyed, frowning, blush, full body, feet visible",
+  "init": "assets/st_saebyeok_mom.webp"
+ },
+ "st2_saebyeok_mom_shy": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, blush, shy smile, eyes looking away, full body, feet visible",
+  "init": "assets/st_saebyeok_mom.webp"
+ },
+ "st2_saebyeok_mom_teary": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, tears, teary eyes, sad smile, full body, feet visible",
+  "init": "assets/st_saebyeok_mom.webp"
+ },
+ "st2_saebyeok_mom_pregnant": {
+  "seed": 1515300,
+  "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, loose cream silk blouse buttoned up, long pleated navy skirt, beige cardigan over her shoulders, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer, full body, feet visible",
+  "init": "assets/st_saebyeok_mom.webp"
+ },
+ "st2_dasom_smile": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, gentle smile, black hair",
+  "init": "assets/st_dasom_angry.webp"
+ },
+ "st2_dasom_serious": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, serious, determined, teary eyes, black hair",
+  "init": "assets/st_dasom_angry.webp"
+ },
+ "st2_dasom_surprised": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised, black hair",
+  "init": "assets/st_dasom_angry.webp"
+ },
+ "st2_dasom_teary": {
+  "seed": 1616161,
+  "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional, black hair",
+  "init": "assets/st_dasom_angry.webp"
+ },
+ "st2_hanbyeol_surprised": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised, black hair",
+  "init": "assets/st_hanbyeol_smile.webp"
+ },
+ "st2_hanbyeol_teary": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional, black hair",
+  "init": "assets/st_hanbyeol_smile.webp"
+ },
+ "st2_dodam_surprised": {
+  "seed": 1111201,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning forward curiously",
+  "init": "assets/st_dodam_smile.webp"
+ },
+ "st2_dodam_teary": {
+  "seed": 1111201,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist, standing, full body, looking at viewer, teary eyes, trembling brave smile, clutching a medicine pouch to her chest",
+  "init": "assets/st_dodam_smile.webp"
+ },
+ "st2_haerang_angry": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+  "init": "assets/st_haerang_shy.webp"
+ },
+ "st2_haerang_smile": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, smile",
+  "init": "assets/st_haerang_shy.webp"
+ },
+ "st2_haerang_surprised": {
+  "seed": 6060606,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+  "init": "assets/st_haerang_shy.webp"
+ },
+ "st2_seori_smile": {
+  "seed": 2607080,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+  "init": "assets/st_seori_shy.webp"
+ },
+ "st2_dallae_home": {
+  "seed": 2611241,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+  "init": "assets/st_dallae_smile.webp"
+ },
+ "st2_dallae_home_shy": {
+  "seed": 2611241,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+  "init": "assets/st2_dallae_home.webp"
+ },
+ "st2_dallae_home_pregnant": {
+  "seed": 2611241,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st2_dallae_home.webp"
+ },
+ "st2_bori_home": {
+  "seed": 2611242,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+  "init": "assets/st_bori_smile.webp"
+ },
+ "st2_bori_home_shy": {
+  "seed": 2611242,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+  "init": "assets/st2_bori_home.webp"
+ },
+ "st2_bori_home_pregnant": {
+  "seed": 2611242,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st2_bori_home.webp"
+ },
+ "st2_hwaseon_home": {
+  "seed": 2611243,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+  "init": "assets/st_hwaseon_smile.webp"
+ },
+ "st2_hwaseon_home_shy": {
+  "seed": 2611243,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+  "init": "assets/st2_hwaseon_home.webp"
+ },
+ "st2_hwaseon_home_pregnant": {
+  "seed": 2611243,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st2_hwaseon_home.webp"
+ },
+ "st2_dano_home_pregnant": {
+  "seed": 2611244,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, oversized band t-shirt and denim cutoff shorts, headphones around her neck, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st_dano_home.webp"
+ },
+ "st2_ara_home_pregnant": {
+  "seed": 2611245,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, long black hair in a high ponytail tied with a red cord, bright hazel eyes, sun-kissed skin, athletic toned build, red sports bra and black dolphin shorts, bare midriff, toned abs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st_ara_home.webp"
+ },
+ "st2_soebyeol_home_pregnant": {
+  "seed": 2611246,
+  "prompt": "1girl, solo, solo focus, adult woman, young adult, short messy black hair tied back with a cloth band, bright determined black eyes, tanned skin, toned arms, black tank top and grey jogger shorts, sweatband on her wrist, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+  "init": "assets/st_soebyeol_home.webp"
+ },
+ "st2_hanbyeol_worry": {
+  "seed": 1414141,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, worried, anxious frown, biting lip, hand near her mouth",
+  "init": "assets/st_hanbyeol_smile.webp"
+ },
+ "st2_gaon_worry": {
+  "seed": 2604050,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, worried, anxious frown, eyebrows drawn together",
+  "init": "assets/st_gaon_smile.webp"
+ },
+ "st2_yeoul_worry": {
+  "seed": 7070707,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, worried, anxious frown, eyebrows drawn together",
+  "init": "assets/st_yeoul_smile.webp"
+ },
+ "st2_sodam_serious": {
+  "seed": 8080808,
+  "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, serious, determined, firm expression, closed mouth",
+  "init": "assets/st_sodam_smile.webp"
+ },
+ "st2_ara_pout": {
+  "seed": 2604040,
+  "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, pout, puffed cheeks, sulking, looking away, blush",
+  "init": "assets/st_ara_smile.webp"
  }
 }
