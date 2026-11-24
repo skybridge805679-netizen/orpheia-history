@@ -648,7 +648,13 @@ dialog#vnLog.nb[open]{display:flex}
 .pf-detail{display:grid;grid-template-columns:minmax(220px,34%) 1fr;gap:20px;align-items:start}
 .pf-art{position:sticky;top:0;text-align:center;background:radial-gradient(circle at 50% 40%,#fff8e6,#efe3c8);border-radius:2px;padding:8px}
 .pf-stand{max-width:100%;max-height:72vh;object-fit:contain}
-.pf-looks{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+.pf-looks{display:flex;flex-direction:column;gap:6px;margin-top:6px;max-height:30vh;overflow-y:auto}
+.pf-lg{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;align-items:center}
+.pf-lg small{flex-basis:100%;font:11px var(--f-ui);color:var(--ink-soft,#7a6a55);letter-spacing:.08em}
+.pf-stage{display:flex;align-items:center;justify-content:center;gap:4px}
+.pf-arrow{flex:none;border:1px solid var(--paper-edge);background:rgba(255,255,255,.55);color:var(--ink);width:32px;height:56px;border-radius:2px;cursor:pointer;font:14px var(--f-ui)}
+.pf-arrow:hover{background:var(--seal);color:#fff;border-color:var(--seal)}
+.pf-count{font:12px var(--f-ui);color:var(--ink);margin-top:4px}
 .pf-looks button,.pf-nav button{border:1px solid var(--paper-edge);background:transparent;color:var(--ink);padding:4px 10px;border-radius:2px;cursor:pointer;font:13px var(--f-ui)}
 .pf-looks button.on{background:var(--seal);color:#fff;border-color:var(--seal)}
 .pf-info h2{margin:2px 0 10px}.pf-info h4{margin:14px 0 6px}

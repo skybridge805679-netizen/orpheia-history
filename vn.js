@@ -677,14 +677,27 @@ function profiles(sel){
  const hid=(records.endings||[]).includes('연표의 신부들');const P=(window.PROFILES||[]).filter(p=>!['hyejin','husband'].includes(p.id)||hid);
  const d=$('#vnLog');d.className='sheets gallery profiles';
  const face=(id,e='smile')=>{const q=P.find(x=>x.id===id);if(q?.img&&e==='smile')return asset(q.img+'.webp');const s=CAST[id]?.stand||{};const f=s[e]||s.smile||s.neutral;return f?asset(f+'.webp'):asset('emblem_gold.webp');};
- const looks=p=>{if(p.looks)return p.looks.map(([f,t])=>['=' +f,t]);const s=CAST[p.id]?.stand||{},o=[['smile','기본']];if(s.shy)o.push(['shy','부끄러움']);if(HOME_IDS.includes(p.id))o.push(['home','집옷']);if(s.pregnant)o.push(['pregnant','임신']);return o;};
- const lookSrc=(p,k)=>k.startsWith('=')?asset(k.slice(1)+'.webp'):k==='home'?asset(`st_${p.id}_home.webp`):face(p.id,k);
+ // 모습: data/stands.js(tools/stand_index.py)에 있는 그 인물의 스탠딩을 모두 보여 준다(2026.11 주인님 지정). 표정 / 옷 / 흐트러짐으로 묶는다.
+ const PF_EXP={smile:'웃음',neutral:'평소',shy:'부끄러움',surprised:'놀람',angry:'화남',pout:'삐짐',teary:'눈물',worry:'걱정',serious:'진지',excited:'신남',explain:'설명',sad:'슬픔',lonely:'쓸쓸',smirk:'비웃음',writing:'기록',pregnant:'임신'};
+ const PF_COST={home:'집옷',hanbok:'한복',school:'교복',mom:'엄마',baekje:'백제',buyeo:'부여',goryeo:'고려',hwarang:'화랑',joseon:'조선',neolithic:'신석기'};
+ const pfLabel=(id,f)=>{const rest=f.slice(`st_${id}`.length).replace(/^_/,'');if(!rest)return {g:'옷',t:'처음 모습',o:0};const tk=rest.split('_');let cost=[],ex=[],dmg='';
+  for(const k of tk){let m;if((m=k.match(/^d(\d)$/)))dmg=`찢어짐 ${m[1]}`;else if((m=k.match(/^g(\d)$/)))dmg=`흐트러짐 ${m[1]}`;else if(PF_EXP[k])ex.push(PF_EXP[k]);else cost.push(id==='muk'&&window.MUK_SKINS?.[k]?.name||PF_COST[k]||k);}
+  const t=[...cost,...ex,dmg].filter(Boolean).join(' · ');const ei=Object.keys(PF_EXP).indexOf(tk.find(k=>PF_EXP[k])||'');
+  return {g:dmg?'흐트러짐':cost.length?'옷':'표정',t,o:ei<0?0:ei};};
+ const looks=p=>{const seen=new Set(),o=[];const add=(f,t,g='옷',ord=0)=>{if(seen.has(f))return;seen.add(f);o.push({f,t,g,ord});};
+  const ST=(window.STANDS||{})[p.id];
+  if(p.img)add(p.img,'기본','표정',-1);
+  if(ST){const base=CAST[p.id]?.stand?.smile;if(base)add(base,'웃음','표정',-1);ST.forEach(f=>{const l=pfLabel(p.id,f);add(f,l.t,l.g,l.o);});}
+  (p.looks||[]).forEach(([f,t])=>{const m=f.match(/^st_([a-z]+)_/);const l=m?pfLabel(m[1],f):{t,g:'옷',o:0};add(f,l.t,l.g,l.o);});
+  if(!o.length){const s=CAST[p.id]?.stand||{};if(s.smile)add(s.smile,'기본','표정');}
+  const G=['표정','옷','흐트러짐'];return o.sort((a,b)=>G.indexOf(a.g)-G.indexOf(b.g)||(a.g!=='표정'?a.t.localeCompare(b.t,'ko'):0)||a.ord-b.ord);};
  const groups=[...new Set(P.map(p=>p.group))];
  const list=`<div class="pf-list">${groups.map(g=>`<h3 class="gl-h">${esc(g)}</h3><div class="pf-grid">${P.filter(p=>p.group===g).map(p=>`<button class="pf-card${p.id===sel?' on':''}" data-pf="${p.id}"><span class="pf-face${p.silhouette?' sil':''}"><img loading="lazy" src="${face(p.id)}" alt=""></span><b>${esc(p.name)}</b><small>${esc(p.sub)}</small></button>`).join('')}</div>`).join('')}</div>`;
  let body=list;
  const p=P.find(x=>x.id===sel);
  if(p){const i=P.indexOf(p),L=looks(p);
-  body=`<div class="pf-detail"><div class="pf-art${p.silhouette?' sil':''}"><img class="pf-stand" src="${face(p.id)}" alt="">${L.length>1?`<div class="pf-looks">${L.map(([k,t],j)=>`<button data-look="${k}" class="${j?'':'on'}">${t}</button>`).join('')}</div>`:''}</div>
+  const LG=[...new Set(L.map(x=>x.g))];
+  body=`<div class="pf-detail"><div class="pf-art${p.silhouette?' sil':''}"><div class="pf-stage">${L.length>1?'<button class="pf-arrow" data-step="-1" aria-label="이전 모습">◀</button>':''}<img class="pf-stand" src="${L[0]?asset(L[0].f+'.webp'):face(p.id)}" alt="">${L.length>1?'<button class="pf-arrow" data-step="1" aria-label="다음 모습">▶</button>':''}</div>${L.length>1?`<div class="pf-count"><b>1</b> / ${L.length}</div><div class="pf-looks">${LG.map(g=>`<div class="pf-lg">${LG.length>1?`<small>${g}</small>`:''}${L.map((x,j)=>x.g===g?`<button data-look="${j}" class="${j?'':'on'}">${esc(x.t)}</button>`:'').join('')}</div>`).join('')}</div>`:''}</div>
   <div class="pf-info"><small>${esc(p.group)} · ${esc(p.sub)}</small><h2>${esc(p.name)}</h2>
   <table class="pf-table">${[["나이",p.age?`<b>${esc(p.age)}</b>`:"",p.ageNote],["온 시대",esc(p.era||"")],["신장",esc(p.height||"")],["체중",esc(p.weight||"")],["B · W · H",esc(p.bwh||"")]].filter(r=>r[1]||r[2]).map(([h,v,n])=>`<tr><th>${h}</th><td>${v}${n?`${v?"<br>":""}<small>${esc(n)}</small>`:""}</td></tr>`).join("")}</table>
   <p class="pf-desc">${esc(p.desc)}</p>
@@ -696,7 +709,8 @@ function profiles(sel){
  d.querySelector('[data-close]').onclick=()=>{d.close();d.className='';};
  d.querySelectorAll('[data-pf]').forEach(b=>b.onclick=()=>profiles(b.dataset.pf));
  d.querySelector('[data-back]')?.addEventListener('click',()=>profiles());
- if(p)d.querySelectorAll('[data-look]').forEach(b=>b.onclick=()=>{d.querySelectorAll('[data-look]').forEach(x=>x.classList.toggle('on',x===b));const im=d.querySelector('.pf-stand');im.onerror=()=>{im.onerror=null;im.src=face(p.id);};im.src=lookSrc(p,b.dataset.look);});
+ if(p){const L=looks(p);let cur=0;const show=j=>{cur=(j+L.length)%L.length;d.querySelectorAll('[data-look]').forEach(x=>x.classList.toggle('on',+x.dataset.look===cur));const im=d.querySelector('.pf-stand');im.onerror=()=>{im.onerror=null;im.src=face(p.id);};im.src=asset(L[cur].f+'.webp');const c=d.querySelector('.pf-count b');if(c)c.textContent=cur+1;};
+  d.querySelectorAll('[data-look]').forEach(b=>b.onclick=()=>show(+b.dataset.look));d.querySelectorAll('[data-step]').forEach(b=>b.onclick=()=>show(cur+ +b.dataset.step));}
  d.querySelector('.gl-body').scrollTop=0;
  if(!d.open)d.showModal();
 }
