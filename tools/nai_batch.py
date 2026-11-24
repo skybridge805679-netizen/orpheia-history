@@ -50,7 +50,7 @@ for it in items:
         try:
             png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
                                      init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
-                                     negative=it.get("negative", ""), chars=chars, style=it.get("style")))
+                                     negative=it.get("negative", ""), chars=chars, style=it.get("style"), fit=it.get("fit", "stretch")))
         except SystemExit as e:
             if not chars:
                 raise
@@ -59,7 +59,7 @@ for it in items:
             flat = prompt + ", " + ", ".join(c["prompt"].replace("source#", "").replace("target#", "").replace("mutual#", "") for c in chars)
             png.write_bytes(generate(flat, w, h, seed, it.get("model", STYLE["model"]),
                                      init=(ROOT / init) if init else None, strength=it.get("strength", 0.6),
-                                     negative=it.get("negative", ""), style=it.get("style")))
+                                     negative=it.get("negative", ""), style=it.get("style"), fit=it.get("fit", "stretch")))
     except SystemExit as e:  # 한 장이 실패해도 나머지는 계속
         print("실패", it["id"], e); failed = True; continue
     print("생성", png.name, "seed", seed)

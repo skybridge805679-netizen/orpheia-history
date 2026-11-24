@@ -9,7 +9,7 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
-def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None, style=None):
+def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None, style=None, fit="stretch"):
     """chars: [{"prompt": 인물 프롬프트, "uc": 인물 네거티브, "x": 0.1~0.9, "y": 0.1~0.9}] — NAI 멀티 캐릭터 프롬프트.
     인물마다 따로 적어서 머리색·옷이 서로 섞이지 않게 하고, x·y(5×5 격자)로 화면 위치를 정한다.
     동작은 source#/target#/mutual# 태그(예: source#carrying, target#carrying)로 누가 누구에게 하는지 적는다."""
@@ -34,7 +34,13 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, nega
     if init:  # i2i: 기존 그림을 바탕으로 다시 그린다(strength가 클수록 많이 바뀜)
         import base64
         from PIL import Image
-        buf = io.BytesIO(); Image.open(init).convert("RGBA").resize((w, h)).save(buf, "PNG")
+        src = Image.open(init).convert("RGBA")
+        if fit == "pad":  # 비율이 다른 바탕(세로 스탠딩 → 가로 그림): 늘이지 않고 가운데 두고 둘레는 밤빛으로 채운다
+            r = min(w / src.width, h / src.height); src = src.resize((round(src.width * r), round(src.height * r)))
+            canvas = Image.new("RGBA", (w, h), (24, 20, 40, 255)); canvas.alpha_composite(src, ((w - src.width) // 2, (h - src.height) // 2)); src = canvas
+        else:
+            src = src.resize((w, h))
+        buf = io.BytesIO(); src.save(buf, "PNG")
         params.update({"image": base64.b64encode(buf.getvalue()).decode(), "strength": strength, "noise": noise, "extra_noise_seed": seed})
         action = "img2img"
     body = json.dumps({"input": full, "model": model, "action": action, "parameters": params})

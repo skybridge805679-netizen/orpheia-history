@@ -1,19 +1,85 @@
 {
  "items": [
-  {"id": "bg_mg_hy_alley", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.85,
-   "prompt": "no humans, scenery, narrow korean back alley at night, closed shutters, street lamp, utility poles, apartment buildings, faint purple ghostly mist, empty, quiet, eerie",
-   "negative": "1girl, people, person, character"},
-  {"id": "bg_mg_hy_school", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.9,
-   "prompt": "no humans, scenery, abandoned school hallway at night, broken windows, moonlight, old wooden floor, lockers, scattered papers, faint purple ghostly mist, empty, eerie",
-   "negative": "1girl, people, person, character"},
-  {"id": "bg_mg_hy_crossroad", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.9,
-   "prompt": "no humans, scenery, empty city crossroads at midnight, korean street, blinking traffic lights, crosswalk, convenience store light in distance, faint purple ghostly mist, full moon, eerie",
-   "negative": "1girl, people, person, character"},
-  {"id": "cg_mg_hyejin_clear", "size": "bg", "init": "assets/cg_mg_hyejin.webp", "strength": 0.6,
-   "prompt": "1girl, solo, long dark blue hair, high ponytail, red hair ribbon, amber eyes, hanbok-style school uniform, white jeogori blouse, navy vest, red ribbon, navy long pleated skirt, black pantyhose, sitting at a street food stall at night, eating spicy tteokbokki with a toothpick, cheeks full, happy, satisfied smile, steam, warm lights, shaman bells beside her, after work",
-   "negative": "nude, nipples, underwear, cleavage"},
-  {"id": "cg_mg_hyejin_over", "size": "bg", "init": "assets/cg_mg_hyejin_b3.webp", "strength": 0.55,
-   "prompt": "1girl, solo, long dark blue hair, high ponytail, red hair ribbon, amber eyes, hanbok-style school uniform, white jeogori blouse, navy long pleated skirt, black pantyhose, sitting on the ground in a dark alley, exhausted, pouting, teary eyes, red sauce stains on clothes, holding an empty tteokbokki cup, shaman bells on the ground, purple mist fading",
-   "negative": "nude, nipples, underwear, cleavage"}
+  {
+   "id": "cg_mg_hj_b0",
+   "size": "bg",
+   "init": "assets/st_hyejin_neutral.webp",
+   "fit": "pad",
+   "strength": 0.72,
+   "seed": 20261124,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, navy vest with gold buttons, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, full body, standing in a narrow korean back alley at night, purple ghostly mist, red spicy tteokbokki rice cakes flying through the air, ready to exorcise, shaking shaman bells, determined expression, dynamic pose"
+  },
+  {
+   "id": "cg_mg_hj_b1",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.5,
+   "seed": 20261124,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, navy vest with gold buttons, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, full body, standing in a narrow korean back alley at night, purple ghostly mist, red spicy tteokbokki rice cakes flying through the air, red sauce stains splattered on blouse and skirt, surprised, flustered, blushing"
+  },
+  {
+   "id": "cg_mg_hj_b2",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b1.webp",
+   "strength": 0.5,
+   "seed": 20261124,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, full body, standing in a narrow korean back alley at night, purple ghostly mist, red spicy tteokbokki rice cakes flying through the air, vest gone, one sleeve torn, red goreum ribbon untied, red sauce stains on clothes, pout, embarrassed, blushing"
+  },
+  {
+   "id": "cg_mg_hj_b3",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b2.webp",
+   "strength": 0.5,
+   "seed": 20261124,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, full body, standing in a narrow korean back alley at night, purple ghostly mist, red spicy tteokbokki rice cakes flying through the air, jeogori blouse torn at the shoulder and sleeves, skirt torn ragged at the hem, ripped pantyhose, covered in red sauce, hair ribbon loose, messy hair, teary eyes, embarrassed, angry"
+  },
+  {
+   "id": "bg_mg_hj_alley",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.9,
+   "seed": 20261125,
+   "prompt": "no humans, scenery, narrow korean back alley at night, closed shutters, street lamp, utility poles, faint purple ghostly mist, empty, eerie"
+  },
+  {
+   "id": "bg_mg_hj_school",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.9,
+   "seed": 20261126,
+   "prompt": "no humans, scenery, abandoned school hallway at night, broken windows, moonlight, old wooden floor, lockers, scattered papers, faint purple ghostly mist, empty, eerie"
+  },
+  {
+   "id": "bg_mg_hj_crossroad",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.9,
+   "seed": 20261127,
+   "prompt": "no humans, scenery, empty korean city crossroads at midnight, blinking traffic lights, crosswalk, convenience store light in the distance, full moon, faint purple ghostly mist, eerie"
+  },
+  {
+   "id": "cg_mg_hj_title",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.6,
+   "seed": 20261128,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, navy vest with gold buttons, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, upper body, night street, holding a paper cup of spicy tteokbokki and shaman bells, winking, playful smile, purple mist and blue will-o-wisps behind her"
+  },
+  {
+   "id": "cg_mg_hj_clear",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b0.webp",
+   "strength": 0.65,
+   "seed": 20261129,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, navy vest with gold buttons, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, sitting at a street food stall at night, eating spicy tteokbokki with a toothpick, cheeks full, happy, satisfied smile, steam, warm lights, shaman bells beside her"
+  },
+  {
+   "id": "cg_mg_hj_over",
+   "size": "bg",
+   "init": "assets/cg_mg_hj_b3.webp",
+   "strength": 0.55,
+   "seed": 20261130,
+   "prompt": "1girl, solo, long dark blue hair, very long hair, high ponytail, red hair ribbon with tassel, blunt bangs, amber eyes, hanbok-style school uniform, white jeogori blouse with puffy sleeves, red goreum ribbon, navy long pleated skirt, black pantyhose, black loafers, shaman bells with colorful ribbons, folding fan, sitting on the ground in a dark alley, exhausted, pouting, teary eyes, torn clothes, red sauce stains, holding an empty tteokbokki cup, shaman bells on the ground, purple mist fading"
+  }
  ]
 }

@@ -6,7 +6,9 @@
 <title>혜진의 엽떡 퇴마</title>
 <!-- 혜진 단독 미니게임(역사와 무관). 땅따먹기 + 탄막: 악귀가 엽떡을 쏘고, 혜진은 금줄을 그어 땅을 차지해 악귀를 가둔다.
      맞으면 옷이 한 단계씩 망가진다(묵 배틀식, 0~3단계, 4번째에 끝).
-     단계 그림: assets/cg_mg_hyejin_b0~b3.webp가 있으면 그것을, 없으면 스탠딩(st_hyejin_*) + 소스 얼룩으로 대신한다.
+     정화한 땅 아래로 지금 옷 상태 그림(cg_mg_hj_b0~b3)이 드러난다(맞으면 다음 단계 그림으로 바뀜).
+     아직 정화 안 한 곳은 장소 배경(bg_mg_hj_alley·school·crossroad). 시작·근무 끝·퇴근 화면은 cg_mg_hj_title / _clear / _over.
+     그림이 아직 없으면 한지 무늬와 스탠딩(st_hyejin_*) + 소스 얼룩으로 대신한다.
      본편과 연결하지 않은 독립 페이지. 최고 점수는 이 브라우저에만 남는다. -->
 <style>
 :root{--bg:#120d1c;--panel:#1d1529;--ink:#f3eadb;--dim:#a99fb8;--red:#d8382f;--gold:#e0b04a;--line:#3a2d4d}
@@ -22,6 +24,7 @@ h1 small{color:var(--dim);font-weight:400;font-size:12px;margin-left:6px}
 #portrait{position:absolute;left:50%;top:6px;height:290px;transform:translateX(-50%);transition:transform .15s}
 #pwrap.shake #portrait{animation:shk .35s}
 @keyframes shk{0%,100%{transform:translateX(-50%)}25%{transform:translateX(calc(-50% - 8px))}75%{transform:translateX(calc(-50% + 8px))}}
+#portrait.cg{left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%;transform:none}
 #stain{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
 #line{min-height:62px;margin:10px 0;padding:8px 10px;background:#0f0a17;border-left:3px solid var(--red);border-radius:4px;font-size:14px;line-height:1.5}
 .row{display:flex;justify-content:space-between;font-size:13px;margin:4px 0;color:var(--dim)}
@@ -34,7 +37,7 @@ h1 small{color:var(--dim);font-weight:400;font-size:12px;margin-left:6px}
 #cloth span.off{background:#3a2d4d}
 #help{font-size:12px;color:var(--dim);line-height:1.55;margin-top:8px}
 kbd{background:#2b2140;border:1px solid var(--line);border-radius:3px;padding:0 4px;font-size:11px;color:var(--ink)}
-#ov{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0b0812cc;border-radius:8px;text-align:center}
+#ov{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0b0812cc center/cover no-repeat;border-radius:8px;text-align:center}
 #ov.hide{display:none}
 #ov .box{max-width:420px;padding:20px}
 #ov h2{margin:0 0 8px;font-size:26px;color:var(--gold)}
@@ -96,9 +99,9 @@ const cv=document.getElementById('field'),ctx=cv.getContext('2d');cv.width=CW;cv
 const fcv=document.createElement('canvas');fcv.width=GW;fcv.height=GH;const fctx=fcv.getContext('2d');
 const $=id=>document.getElementById(id);
 const STAGES=[
- {name:'골목 입구',fire:1.9,speed:95,ring:10,spread:3,spirits:2,boss:9},
- {name:'폐교 복도',fire:1.5,speed:115,ring:14,spread:5,spirits:3,boss:11},
- {name:'자정의 사거리',fire:1.15,speed:135,ring:18,spread:5,spirits:4,boss:13},
+ {bg:'alley',name:'골목 입구',fire:1.9,speed:95,ring:10,spread:3,spirits:2,boss:9},
+ {bg:'school',name:'폐교 복도',fire:1.5,speed:115,ring:14,spread:5,spirits:3,boss:11},
+ {bg:'crossroad',name:'자정의 사거리',fire:1.15,speed:135,ring:18,spread:5,spirits:4,boss:13},
 ];
 const CLOTH=['멀쩡함','소스 범벅','조끼 실종','위기'];
 const EXPR=['neutral','surprised','pout','angry'];
@@ -116,7 +119,16 @@ $('best').textContent=best;
 
 // 단계 그림: 있으면 쓰고, 없으면 스탠딩 + 얼룩
 const cgOk=[false,false,false,false];
-for(let i=0;i<4;i++){const im=new Image();im.onload=()=>{cgOk[i]=true;if(game)portrait()};im.src=`assets/cg_mg_hyejin_b${i}.webp`;}
+function img(src,cb){const im=new Image();im.ok=false;im.onload=()=>{im.ok=true;cb&&cb();};im.src=src;return im;}
+const ILL=[0,1,2,3].map(i=>img(`assets/cg_mg_hj_b${i}.webp`,()=>{cgOk[i]=true;if(game)portrait();}));
+const BGI=STAGES.map(S=>img(`assets/bg_mg_hj_${S.bg}.webp`));
+const PIC={title:'assets/cg_mg_hj_title.webp',clear:'assets/cg_mg_hj_clear.webp',over:'assets/cg_mg_hj_over.webp'};
+const PICOK={};for(const k in PIC){const im=img(PIC[k],()=>{PICOK[k]=true;if(k==='title'&&!game&&!$('ov').classList.contains('hide'))$('ov').style.backgroundImage=ovBg(PIC.title);});}
+const ovBg=u=>`linear-gradient(#0b0812aa,#0b0812dd),url(${u})`;
+function cover(c,im,w,h){const r=Math.max(w/im.naturalWidth,h/im.naturalHeight),dw=im.naturalWidth*r,dh=im.naturalHeight*r;c.drawImage(im,(w-dw)/2,(h-dh)*.3,dw,dh);}
+const mcv=document.createElement('canvas');mcv.width=GW;mcv.height=GH;const mctx=mcv.getContext('2d');   // 정화한 땅 모양
+const ecv=document.createElement('canvas');ecv.width=GW;ecv.height=GH;const ectx=ecv.getContext('2d');   // 가장자리 금줄
+const ocv=document.createElement('canvas');ocv.width=CW;ocv.height=CH;const octx=ocv.getContext('2d');   // 드러나는 그림
 
 let grid,boss,spirits,bullets,parts,p,trail,trailStart,drawing,stageI,level,score,inv,state,fireT,spiral,moveAcc,pct,border,flash,shakeT,lineT,game=false;
 const idx=(x,y)=>y*GW+x, inb=(x,y)=>x>=0&&y>=0&&x<GW&&y<GH;
@@ -144,14 +156,15 @@ function isEdge(x,y){
  return false;
 }
 function redrawField(){
- const im=fctx.createImageData(GW,GH),d=im.data;
+ const im=fctx.createImageData(GW,GH),d=im.data,mi=mctx.createImageData(GW,GH),md=mi.data,ei=ectx.createImageData(GW,GH),ed=ei.data;
  for(let y=0;y<GH;y++)for(let x=0;x<GW;x++){
   const i=idx(x,y),o=i*4;if(grid[i]!==1){d[o+3]=0;continue;}
-  if(isEdge(x,y)){d[o]=224;d[o+1]=176;d[o+2]=74;d[o+3]=255;continue;}
+  md[o]=md[o+1]=md[o+2]=255;md[o+3]=255;
+  if(isEdge(x,y)){d[o]=224;d[o+1]=176;d[o+2]=74;d[o+3]=255;ed[o]=224;ed[o+1]=176;ed[o+2]=74;ed[o+3]=255;continue;}
   const n=((x*7+y*13)%11)-5,band=((x+y)%16<2)?-14:0;
   d[o]=236+n+band;d[o+1]=222+n+band;d[o+2]=190+n+band;d[o+3]=255;
  }
- fctx.putImageData(im,0,0);
+ fctx.putImageData(im,0,0);mctx.putImageData(mi,0,0);ectx.putImageData(ei,0,0);
 }
 function calcPct(){let c=0;for(let i=0;i<N;i++)if(grid[i]===1)c++;pct=Math.floor((c-border)/(N-border)*100);}
 
@@ -207,11 +220,11 @@ function hit(){
 function stageClear(){
  state='clear';score+=Math.max(0,3-level)*1000+(pct-GOAL)*200;ui();
  say(pick(LINES.clear));setExpr('smile');
- if(stageI>=STAGES.length-1){saveBest();showOv(`<h2>근무 끝</h2><p>${LINES.win}</p><p>점수 <b>${score}</b>${score>=best?' · 최고 점수!':''}</p><button class="btn" id="ovb">처음부터 다시</button>`,newGame);}
+ if(stageI>=STAGES.length-1){saveBest();showOv(`<h2>근무 끝</h2><p>${LINES.win}</p><p>점수 <b>${score}</b>${score>=best?' · 최고 점수!':''}</p><button class="btn" id="ovb">처음부터 다시</button>`,newGame,'clear');}
  else showOv(`<h2>정화 완료</h2><p>${STAGES[stageI].name}, 정화율 ${pct}%</p><p>다음 장소: ${STAGES[stageI+1].name}</p><button class="btn" id="ovb">다음 장소로</button>`,()=>{stageI++;startStage();});
 }
 function gameOver(){state='over';saveBest();say(LINES.over);
- showOv(`<h2>오늘은 퇴근</h2><p>${STAGES[stageI].name}에서 엽떡에 졌다.</p><p>점수 <b>${score}</b></p><button class="btn" id="ovb">다시 출근</button>`,newGame);}
+ showOv(`<h2>오늘은 퇴근</h2><p>${STAGES[stageI].name}에서 엽떡에 졌다.</p><p>점수 <b>${score}</b></p><button class="btn" id="ovb">다시 출근</button>`,newGame,'over');}
 function saveBest(){if(score>best){best=score;try{localStorage.setItem('hyejin_yupdduk_best',best)}catch(e){}}$('best').textContent=best;}
 
 // 탄막
@@ -266,13 +279,21 @@ let T=0;
 function draw(){
  ctx.save();
  if(shakeT>0)ctx.translate((Math.random()-.5)*10,(Math.random()-.5)*10);
- const g=ctx.createRadialGradient(boss?boss.x*CS:CW/2,boss?boss.y*CS:CH/2,10,CW/2,CH/2,CW*.7);
- g.addColorStop(0,'#3b1f4f');g.addColorStop(1,'#0b0812');ctx.fillStyle=g;ctx.fillRect(0,0,CW,CH);
+ const bgi=stageI!=null&&BGI[stageI];
+ if(bgi&&bgi.ok){cover(ctx,bgi,CW,CH);ctx.fillStyle='rgba(28,10,44,.5)';ctx.fillRect(0,0,CW,CH);}
+ else{const g=ctx.createRadialGradient(boss?boss.x*CS:CW/2,boss?boss.y*CS:CH/2,10,CW/2,CH/2,CW*.7);
+ g.addColorStop(0,'#3b1f4f');g.addColorStop(1,'#0b0812');ctx.fillStyle=g;ctx.fillRect(0,0,CW,CH);}
  ctx.globalAlpha=.08;ctx.fillStyle='#b48cff';
  for(let i=0;i<7;i++){const x=(Math.sin(T*.13+i*1.7)*.5+.5)*CW,y=(Math.cos(T*.11+i*2.3)*.5+.5)*CH;ctx.beginPath();ctx.arc(x,y,90+i*12,0,7);ctx.fill();}
  ctx.globalAlpha=1;
  if(grid){
-  ctx.imageSmoothingEnabled=false;ctx.drawImage(fcv,0,0,CW,CH);
+  ctx.imageSmoothingEnabled=false;
+  if(cgOk[level]){   // 정화한 땅 아래로 지금 옷 상태 그림이 드러난다
+   octx.globalCompositeOperation='source-over';octx.clearRect(0,0,CW,CH);octx.imageSmoothingEnabled=true;cover(octx,ILL[level],CW,CH);
+   octx.globalCompositeOperation='destination-in';octx.imageSmoothingEnabled=false;octx.drawImage(mcv,0,0,CW,CH);octx.globalCompositeOperation='source-over';
+   ctx.drawImage(ocv,0,0);ctx.drawImage(ecv,0,0,CW,CH);
+  }else ctx.drawImage(fcv,0,0,CW,CH);
+  ctx.imageSmoothingEnabled=true;
   // 금줄
   if(trail.length){ctx.strokeStyle='#e8302a';ctx.lineWidth=3;ctx.lineJoin='round';ctx.beginPath();
    ctx.moveTo((trailStart.x+.5)*CS,(trailStart.y+.5)*CS);for(const c of trail)ctx.lineTo((c.x+.5)*CS,(c.y+.5)*CS);ctx.stroke();
@@ -310,10 +331,10 @@ function rr(x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h
 
 // 초상: 단계 그림이 있으면 그것, 없으면 스탠딩 + 소스 얼룩
 let curExpr='neutral';
-function setExpr(e){curExpr=e;const im=$('portrait');if(cgOk[level])return;im.src=`assets/st_hyejin_${e}.webp`;}
+function setExpr(e){curExpr=e;const im=$('portrait');if(cgOk[level])return;im.classList.remove('cg');im.src=`assets/st_hyejin_${e}.webp`;}
 function portrait(){
  const im=$('portrait'),sc=$('stain'),c=sc.getContext('2d');c.clearRect(0,0,sc.width,sc.height);
- if(cgOk[level]){im.src=`assets/cg_mg_hyejin_b${level}.webp`;return;}
+ if(cgOk[level]){im.classList.add('cg');im.src=ILL[level].src;return;}
  setExpr(EXPR[level]);
  const n=[0,7,16,28][level];let seed=17;const rnd=()=>(seed=(seed*9301+49297)%233280)/233280;
  for(let i=0;i<n;i++){const x=sc.width*(.32+rnd()*.36),y=sc.height*(.22+rnd()*.62),r=4+rnd()*(6+level*3);
@@ -326,7 +347,7 @@ function ui(){
  $('score').textContent=score;$('clothTxt').textContent=CLOTH[level];
  [...$('cloth').children].forEach((s,i)=>s.classList.toggle('off',i<level));
 }
-function showOv(html,fn){$('ovbox').innerHTML=html;$('ov').classList.remove('hide');$('ovb').onclick=fn;}
+function showOv(html,fn,pic){$('ov').style.backgroundImage=pic&&PICOK[pic]?ovBg(PIC[pic]):'';$('ovbox').innerHTML=html;$('ov').classList.remove('hide');$('ovb').onclick=fn;}
 function hideOv(){$('ov').classList.add('hide');}
 
 // 입력
@@ -353,7 +374,7 @@ db.addEventListener('pointerdown',e=>{e.preventDefault();held.draw=true;db.class
 // 시작
 let last=performance.now();
 function loop(now){const dt=Math.min(.05,(now-last)/1000);last=now;T+=dt;update(dt);draw();requestAnimationFrame(loop);}
-showOv(`<h2>혜진의 엽떡 퇴마</h2><p>악귀가 엽떡을 던진다. 금줄을 그어 땅을 정화하고, 악귀를 구석으로 몰아라.</p><p>엽떡에 맞으면 교복이 망가진다. 네 번 맞으면 퇴근.</p><button class="btn" id="ovb">근무 시작</button>`,newGame);
+showOv(`<h2>혜진의 엽떡 퇴마</h2><p>악귀가 엽떡을 던진다. 금줄을 그어 땅을 정화하고, 악귀를 구석으로 몰아라.</p><p>엽떡에 맞으면 교복이 망가진다. 네 번 맞으면 퇴근.</p><button class="btn" id="ovb">근무 시작</button>`,newGame,'title');
 requestAnimationFrame(loop);
 })();
 </script>
