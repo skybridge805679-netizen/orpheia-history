@@ -11,6 +11,7 @@
 - 데이터 갱신: `python3 tools/sync-data.py ../korean-history-study`. 기출 그림도 함께 `tools/sync-images.py`가 `assets/kh/`로 WebP 사본을 만든다(PNG는 WebP로, 긴 변 1600px. `data/kh-local.js` 목록에 있는 그림은 사본, 없으면 학습 사이트 주소에서 불러온다). 핵심노트는 `data/core-notes/`.
 - 문화재 사진(`data/heritage.js`)은 출처가 어디든(학습 사이트 포함) 연결 전에 사진을 직접 열어 이름과 맞는지 본다. 틀린 것은 `tools/heritage_review.py`의 BAD/NO에 이유와 함께 적는다.
 - NAI 그림은 GitHub Actions가 waifu2x로 2배 키운다(`tools/upscale.py`, `.github/workflows/upscale.yml` 매시간 + 생성 직후). 긴 변 1300px 이하면 아직 안 키운 것으로 본다. 그림을 손볼 때는 `tools/orig/`나 생성 원본 크기 기준으로 하고, 키우기는 봇에 맡긴다.
+- **Anlas 절약**(2026.11.24 주인님 지정, 허락이 있을 때까지): NAI 무료 사용량이 다 닳아 지금은 Anlas로 생성된다. **다시 뽑기(재생성)는 주인님이 허락할 때까지 요청하지 않는다.** 이미 주문해 생성된 그림은 흠이 있어도 버리지 않고 그대로 쓰고, 고칠 것은 `tools/orig/` 원본을 두고 손으로 덧칠·`textfix`로 마무리한다. 새 그림 주문(`tools/nai-assets.json`에 항목 추가)도 주인님께 먼저 묻는다. 그림 파일을 지우면 봇이 「없는 것」으로 보고 다시 뽑으므로, 그림을 지우거나 이름을 바꿀 때는 해당 항목도 함께 정리한다.
 - **그림 검수는 가볍게**(2026.11 주인님 지정, 남에게 보여 줄 것이 아니다): 작은 흠은 다시 뽑지 않고 손으로 덧칠해 마무리한다(예: 태극기가 일장기처럼 나오면 붉은 원 위에 태극 모양을 대충 칠한다, 원본은 `tools/orig/`). 다시 뽑기는 몸이 뒤집히는 등 장면이 망가졌을 때만. 서명은 눈에 띄는 것만 지운다.
 - NAI 그림의 깨진 글자·서명 고치기: `tools/text-fix.json`에 좌표와 새 글자를 적고 `python3 tools/textfix.py [이름]`. 원본은 `tools/orig/`에 보관(그림을 새로 뽑으면 그 원본을 지우고 좌표를 다시 잡는다). 한자는 `serif`(Noto Serif KR) 글꼴.
 - 테스트: `python3 -m http.server 8792` 뒤 브라우저(또는 Playwright)로 타이틀 → 처음부터 → 끝까지.
