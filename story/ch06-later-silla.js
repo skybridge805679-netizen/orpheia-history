@@ -257,6 +257,25 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [사라|pout] 저 메이드 아가씨, 신라말 나보다 훨씬 잘해요. 반칙이에요.
 @label hr6sx
 @hide all
+@bg cg_kk_sara_2|bg_era_ulsan_port
+이튿날 해 질 녘. 세모 돛 아래 갑판. 사라가 아버지 배 짐에서 말린 대추야자를 꺼내 상철 입에 하나 밀어 넣는다.
+[사라] 서쪽 사막 열매예요. 달죠? 신라엔 없죠? ……없어야 해요. 그래야 나만 줄 수 있어요.
+[상철] (우물거리며) 달다. 엄청.
+[사라|shy] 「엄청」. 그 말 배웠어요. 그럼 나도. 당신, 엄청.
+@choice
+> 엄청 뭐? 끝까지 말해 줘. 신라말 틀려도 돼. -> kk2_sara_a {sara+5}
+> 오르페이아, 대추야자 신라말로 뭐라고 해? -> kk2_sara_b {orp+3}
+@label kk2_sara_a
+[사라|teary] ……엄청, 좋아요. 틀렸어요? 안 틀렸어요? 틀려도 고치지 마요.
+@jump kk2_sara_x
+@label kk2_sara_b
+[오르페이아|smile] (대추야자예요. 그리고 사라 씨가 하려던 말은 제가 통역 안 해 드릴래요.)
+[사라|pout] 메이드 아가씨, 또 반칙!
+@label kk2_sara_x
+@cutin pout
+[오르페이아|pout] (입에 넣어 주는 건 반칙 중에 반칙이에요. 저는 손이 없어서 못 하는데……!)
+@bg bg_era_ulsan_port
+@hide all
 @show sara serious center
 @show sayeon neutral right
 [사라|serious] 그 처용 이야기, 나중엔 어떻게 돼요? 이야기는 오래가요? 우리 고향 이야기처럼?
@@ -269,6 +288,23 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 @hide all
 @show sara smile center
 [사라|smile] 맞았어요! 당신, 서쪽 이야기도 동쪽 이야기도 다 알아요. ……그러니까 당신 옆이 항구예요. 내 말 맞죠?
+@hide all
+@bg cg_kk_sara|bg_era_ulsan_port
+밤 부두. 배마다 등불이 흔들린다. 상자 위에 앉은 사라가 상철 손바닥을 펴고, 손끝으로 꼬불꼬불한 글자를 쓴다.
+[사라] 이건 우리 고향 글자. 「항구」. 이건 「돌아오다」. 그리고 이건…… 간지러워요? 참아요.
+[상철] 마지막 건 뭐야?
+[사라|shy] 비밀. 손바닥이 기억하면 돼요. 머리는 몰라도 돼요.
+@choice
+> 그럼 손 안 씻을게. 다음에 올 때까지. -> kk_sara_a {sara+5}
+> 오르페이아가 손금 스캔해서 번역해 줄 거야. -> kk_sara_b {orp+3}
+@label kk_sara_a
+[사라|smile] 안 씻으면 더러워요! ……그래도 좋아요. 다음엔 내가 또 써 줄 거니까.
+@jump kk_sara_x
+@label kk_sara_b
+[오르페이아|smile] (스캔은 했는데요. ……이건 번역 안 하는 게 예의인 단어예요.)
+[사라|surprised] 읽었어요?! 메이드 아가씨, 진짜 반칙 대장!
+@label kk_sara_x
+@bg bg_era_ulsan_port
 @hide all
 
 @dive 889년|경주 거리에서 사벌주로

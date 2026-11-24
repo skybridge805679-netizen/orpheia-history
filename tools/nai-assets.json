@@ -170,6 +170,174 @@
     "moa"
    ],
    "prompt": "1girl, solo, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, seoul apgujeong street at night in 1993, neon signs, a roller skating rink entrance, she leans against a public phone booth looking at a pager in her hand, glancing at the viewer up and down with a cheeky judging grin, city lights, retro 1990s atmosphere, cowboy shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_kk_irang_2",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, romantic, heartwarming, morning archery range by a silla riverside under willow trees, a straw target in the distance, a disguised girl standing behind a hooded young man guiding his arms to draw a bow, she wears his oversized black hoodie over her hwarang clothes with sleeves covering her hands, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "irang",
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, chest bound flat with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wearing an oversized black hoodie over her clothes, sleeves too long, standing close behind him, hands over his on the bow, blushing, pouting",
+     "x": 0.38,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, drawing a bow, arms guided by her",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_eunsil_2",
+   "size": "bg",
+   "seed": 2603302,
+   "prompt": "1girl, 1boy, romantic, heartwarming, stone steps in front of an ancient gaya storehouse at dusk, a twelve string zither (gayageum) across their laps, a gaya maiden holding a hooded young man's finger and placing it on a zither string, both laughing, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "eunsil",
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding his finger over a zither string, teaching, laughing, cheeks pink",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, plucking a string clumsily, laughing",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_sara_2",
+   "size": "bg",
+   "seed": 2603303,
+   "prompt": "1girl, 1boy, romantic, heartwarming, deck of a merchant ship with a triangular lateen sail at sunset in an ancient silla harbor, a red haired merchant girl feeding a dried date to a hooded young man by hand, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "sara",
+     "prompt": "girl, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, holding a dried date to his mouth, leaning close, shy happy smile, blush",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, eating from her hand, surprised",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_choa_2",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, romantic, heartwarming, winter night in the yard of a joseon roadside tavern, a small charcoal brazier glowing, snow on the ground, a female detective dozing with her head resting on a hooded young man's shoulder, both sitting on a wooden bench, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "choa",
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers, black cloth sash with a coiled red rope, straw sandals, sitting, head resting on his shoulder, eyes closed, sleepy, faint blush, a folded paper tucked in her jeogori",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting still, letting her lean on him, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_bada_2",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, romantic, heartwarming, shallow tide pool among black volcanic rocks on the jeju coast, bright afternoon, an orange gourd float (tewak), a haenyeo girl standing waist deep holding both hands of a hooded young man who floats on his back hugging the float, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "bada",
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, standing in water, holding both his hands, walking backwards, cheerful laugh, wet",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, floating in water hugging an orange float, nervous",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_ellie_2",
+   "size": "bg",
+   "seed": 2603306,
+   "prompt": "1girl, 1boy, romantic, heartwarming, inside an old 1900s seoul streetcar, sunlight through the windows, a blonde girl holding a white lace parasol tilted over a hooded young man sitting beside her, her own shoulder in the sun, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "ellie",
+     "prompt": "girl, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, sitting, holding a white lace parasol over him, shy smile, freckles",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting beside her, looking at her",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_goyo_2",
+   "size": "bg",
+   "seed": 2603307,
+   "prompt": "1girl, 1boy, romantic, heartwarming, night, a western style pavilion with arches in a korean palace (jeonggwanheon), a pale ghost girl holding a western teacup with both hands making a bitter face after tasting coffee, a hooded young man laughing beside her, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "goyo",
+     "prompt": "girl, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, holding a teacup with both hands, sticking her tongue out, bitter face, teary eyes, cute",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing, holding back laughter",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_moa_2",
+   "size": "bg",
+   "seed": 2603308,
+   "prompt": "1girl, 1boy, romantic, heartwarming, 2002 korean karaoke room (noraebang) with disco lights and a tv screen, a gyaru girl standing on the sofa shaking a tambourine and singing into a microphone, a hooded young man singing a duet with another microphone, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "moa",
+     "prompt": "girl, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, plastic hair clips, hoop earrings, standing on the sofa, shaking a tambourine, singing into a microphone, laughing, red devil horn headband",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a microphone, singing",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
   }
  ]
 }
