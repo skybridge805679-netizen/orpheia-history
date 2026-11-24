@@ -23,6 +23,8 @@ const BGM=(()=>{
   if(n==='cg_end_fail')return 'song_end_fail';
   // 2026.11 새 장면 곡
   if(/^cg_sp_aunt/.test(n))return 'bgm_babies';
+  if(/^cg_sp_el_(door|confess)/.test(n))return 'bgm_romance';   // 엘리 외전: 밤 복도·방문 앞은 설렘, 나머지는 집 곡
+  if(/^cg_sp_el_/.test(n))return 'bgm_family';
   if(/^cg_sp_ex_battle/.test(n))return 'bgm_exorcist';
   if(/^cg_sp_ex_(ghost|dawn)|^cg_after_husband/.test(n))return 'bgm_horror';
   if(/^cg_kk_/.test(n))return 'bgm_romance';   // 꽁냥 장면 CG(2026.11.23)

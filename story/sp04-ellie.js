@@ -10,12 +10,15 @@ VN.chapter('sp_ellie','외전','정동 아가씨의 분개',`
 아이고, 오늘도 부엌은 정동 장날보다 시끄럽다. 서른일곱 명이 한집에 살면 아침마다 작은 나라 하나가 새로 세워지는 기분이다.
 나는 우유를 꺼내려고 냉장고 문을 열다가, 문짝에 붙은 달력에 눈이 멈춘다. 오르페이아 씨가 색색 펜으로 정리한 그 달력. 우리끼리는 「순번표」라고 부르는 그것.
 밤마다 누가 서방님 방에 드는지 적어 둔 표다. 처음엔 다들 얼굴이 빨개져서 보지도 못했는데, 석 달쯤 지나니 다들 반찬 당번표처럼 들여다본다. 사람은 참 금방 익숙해진다.
+@bg cg_sp_el_fridge|bg_home_kitchen
 그런데 오늘은, 이상하게 내 이름이 안 보인다.
 나는 손가락으로 칸을 하나씩 짚어 내려간다. 달래, 화선, 하늬, 노을, 초련, 달래, 도담, 화선, 마루, 노을……. 시월, 십일월, 십이월.
 ……엘리. 딱 한 칸. 그것도 시월 첫째 주, 그날은 서방님이 감기로 일찍 주무신 날이었다. 그 칸 옆엔 내 글씨로 「열 내림 확인, 미음 끓여 드림」이라고 적혀 있다.
-@show ellie surprised center
 [엘리|surprised] ……Oh my goodness.
 석 달에 한 칸. 그 한 칸도 간호. 아이고, 이게 웬 날벼락이래요.
+@bg bg_home_kitchen|bg_studio_night
+@bgm bgm_family
+@show ellie surprised center
 @show orpheia smile left
 [오르페이아|smile] 엘리 씨, 좋은 아침이에요! 순번표 보세요? 이번 달 표는 제가 엑셀로 다시 정리했어요. 칸마다 색깔도 사람마다 다르게요♪
 [엘리|surprised] 오르페이아 씨. 이 하늘색이 저예요?
@@ -33,12 +36,14 @@ VN.chapter('sp_ellie','외전','정동 아가씨의 분개',`
 [엘리|angry] ……여러분. 오늘 아침 먹고 거실로 모여 주세요. 전원이요. Everyone. 범도요!
 @hide all
 
-@bg bg_home_living|bg_studio_night
+@bg cg_sp_el_meeting|bg_home_living
 @day 오전 아홉 시 · 거실 · 긴급 가족회의
 거실 바닥에 서른여섯 명이 둘러앉았다. 몇은 잠옷 바람이고, 몇은 아침 먹다 숟가락을 들고 왔다. 나는 냉장고에서 떼어 온 달력을 탁자 한가운데 펼쳐 놓는다. 하늘색 한 칸이 오늘따라 유난히 작아 보인다.
-@show ellie angry center
 [엘리|angry] 제가 양보한다고는 했어요. 했죠. 분명히 했어요. 그런데 여러분…… 이건 너무한 거 아닌가요?!
 [엘리|angry] 석 달에 한 칸이요! 그것도 서방님 감기 간호! 미음 끓인 날이요! This is not fair! 아이고, 이건 경우가 아니잖아요!
+@bg bg_home_living|bg_studio_night
+@bgm bgm_family
+@show ellie angry center
 @show dallae home left
 [달래] ……엘리 씨 칸은 엘리 씨가 팔았수. 떡 한 시루, 엿 두 가락, 그리고 귤 한 상자. 장부에 다 있소. 거래는 거래요.
 [엘리|pout] 귤은 제가 판 게 아니라 달래 씨가 그냥 두고 간 거잖아요! 다음 날 아침에 보니까 문 앞에 귤 상자랑 「거래 성립」 쪽지가 있었어요!
@@ -90,13 +95,15 @@ VN.chapter('sp_ellie','외전','정동 아가씨의 분개',`
 [윤슬] (거실 문틈으로) ……나 지금 아침부터 무슨 회의를 들은 거야. 오빠 개극혐. 엘리 언니는 응원해. 오빠는 극혐해.
 @hide all
 
-@bg bg_studio_night
+@bg cg_sp_el_door|bg_studio_night
 @day 그날 밤 · 열 시 반 · 서방님 방 앞 복도
 @bgm bgm_romance
 복도 끝 서방님 방문 앞에 섰다. 베개를 꼭 끌어안고. 석 달 만이다. 아니, 처음이나 마찬가지다. 그날은 간호였으니까.
 뒤에서 문틈들이 줄줄이 열렸다 닫힌다. 다들 안 보는 척, 다 보고 있다. 아이고, 이 집엔 비밀이 없다.
 나는 노크를 한다. 한 번, 두 번. 그리고 아버지 목소리가 들리기 전에 얼른 입을 연다.
 [엘리] 서방님. 저예요. 엘리. ……오늘은 미음 안 끓여 왔어요.
+@bg bg_studio_night
+@bgm bgm_romance
 @show ellie home center
 [엘리|shy] 오늘은 제 차례라서 왔어요. 남이 바꿔 달래도 안 바꿔 주고, 떡을 줘도 안 팔고, 그냥 제 차례라서요.
 [상철] 들어와. 기다렸어.
@@ -107,20 +114,24 @@ VN.chapter('sp_ellie','외전','정동 아가씨의 분개',`
 > 그거 지금 해. 문 앞에서. 다들 듣고 있으니까. -> el_a {ellie+5}
 > (말없이 베개째 엘리를 안으로 끌어당긴다) -> el_b {ellie+5}
 @label el_a
+@bg cg_sp_el_confess|bg_studio_night
 [엘리|shy] 다, 다들 듣고 있어서 더 못 하겠어요! ……니, 니 좋아한데이. 그리고 영어로 한 번 더. I love you. 그리고 한국말로 한 번 더. ……좋아해요, 서방님. 고향이 둘이라서, 좋아한다는 말도 세 번이에요.
 @jump el_x
 @label el_b
+@bg cg_sp_el_confess|bg_studio_night
 [엘리|surprised] 앗──! (베개가 툭 떨어진다) ……아이고. 정동에선 이런 거 안 배웠는데. 아버지, 이건 기도로 안 눌러져요.
 @label el_x
 복도 저쪽에서 누군가 「꺄아」 하고 소리를 죽이고, 문 여러 개가 한꺼번에 닫히는 소리가 난다. 그리고 서방님 방문도, 조용히 닫힌다.
 @hide all
-@bg bg_home_kitchen|bg_studio_night
+@bg cg_sp_el_calendar|bg_home_kitchen
 @day 사흘 뒤 · 아침 · 냉장고 앞
 @bgm bgm_family
 냉장고 달력에 하늘색 칸이 세 개 나란히 늘어서 있다. 그 옆에 오르페이아 씨가 작은 글씨로 덧붙여 놓았다. 「다음 달부터 칸 바꾸기는 본인 서명 필수. 떡·엿·귤로 사고팔기 금지.」
 그 밑엔 누가 연필로 낙서를 해 놨다. 「귤은 거래 성립 — 달래」. 아이고, 저 장사꾼.
-@show ellie smile center
 [엘리|smile] 좋은 아침이에요, 여러분! 오늘 아침은 제가 해요. 미국식 팬케이크에 한국식 꿀, 그리고 정동식 「아이고」를 얹어서요.
+@bg bg_home_kitchen|bg_studio_night
+@bgm bgm_family
+@show ellie smile center
 @show orpheia smile left
 [오르페이아|smile] 엘리 씨, 표정이 반짝반짝하세요. ……사흘 연속이었으니까요. 아, 이건 일정 관리 담당의 관찰이에요. 질투 아니에요.
 [엘리|shy] 오르페이아 씨. 다음 달 표 짤 때요, 은색 칸도 하나 만들어요. 일정 관리 담당도 이 집 사람이잖아요. 손님 아니잖아요.

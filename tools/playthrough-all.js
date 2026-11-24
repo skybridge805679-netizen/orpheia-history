@@ -19,7 +19,7 @@ const MAX_STEPS = 9000, STUCK = 90;
   const pageErr = [], net = new Map(), conErr = [];
   page.on('pageerror', e => pageErr.push({ where: cur, msg: e.message }));
   page.on('console', m => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) conErr.push({ where: cur, msg: m.text().slice(0, 200) }); });
-  page.on('response', r => { if (r.status() >= 400) { const u = decodeURIComponent(new URL(r.url()).pathname); if (!net.has(u)) net.set(u, cur); } });
+  page.on('response', r => { if (r.status() >= 400) { const u = decodeURIComponent(new globalThis.URL(r.url()).pathname); if (!net.has(u)) net.set(u, cur); } });
   await page.addInitScript(() => { try { localStorage.setItem('orpheia-history-v1', JSON.stringify({ textSpeed: 0, endings: ['연표의 신부들'] })); } catch {} });
   await page.goto(URL); await page.waitForTimeout(1200);
   await page.mouse.click(640, 360); await page.waitForTimeout(800);   // 스플래시

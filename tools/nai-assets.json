@@ -1015,6 +1015,63 @@
      "y": 0.55
     }
    ]
+  },
+  {
+   "id": "cg_sp_el_fridge",
+   "size": "bg",
+   "seed": 2611241,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, loose pink knit cardigan over a long white frilled nightdress, sandals, morning in a bright modern korean apartment kitchen, she stands in front of an open refrigerator holding a milk carton, frozen in shock, staring at a monthly wall calendar stuck on the refrigerator door, the calendar boxes are filled with many colorful marker blocks and only one tiny light blue box, she points at that one light blue box with a trembling finger, mouth open, comedic shock lines, sweat drop, upper body, warm morning light, no readable text"
+  },
+  {
+   "id": "cg_sp_el_meeting",
+   "size": "bg",
+   "seed": 2611242,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, multiple girls, adult woman, young adult, comedic family meeting in a cozy modern korean living room, she stands angrily at the center beside a low table, cheeks puffed, holding up a crumpled monthly calendar with both hands, loose pink knit cardigan over a long white frilled nightdress, sandals, many young women of different eras sitting around her on the floor seen from behind and from the side, varied hairstyles and pajamas, some holding spoons and rice bowls, one girl with orange tiger striped hair lying under a blanket, everyone sweating nervously, anger vein, winter morning light, wide shot, no readable text"
+  },
+  {
+   "id": "cg_sp_el_door",
+   "size": "bg",
+   "seed": 2611243,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, solo focus, adult woman, young adult, night, long apartment hallway with warm dim lights, she stands in front of a closed wooden bedroom door hugging a big white pillow tightly to her chest, loose pink knit cardigan over a long white frilled nightdress, sandals, deep blush, nervous, lips pressed, one hand raised to knock, behind her several other doors along the hallway are cracked open with curious glowing eyes peeking out, comedic, romantic tension, full body, no readable text"
+  },
+  {
+   "id": "cg_sp_el_confess",
+   "size": "bg",
+   "seed": 2611244,
+   "prompt": "1girl, 1boy, night, doorway of a dim bedroom with a warm bedside lamp, a hooded young man in the doorway gently pulls a blonde young woman inside by the hand, a white pillow falling to the floor between them, she is flustered and blushing with teary happy eyes, romantic, soft warm light, from side, cowboy shot, no readable text",
+   "chars": [
+    {
+     "cast": "ellie",
+     "prompt": "girl, adult woman, young adult, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, loose pink knit cardigan over a long white frilled nightdress, sandals, blushing, teary happy eyes, surprised, being pulled by the hand",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing in the doorway, holding her hand, gentle",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_el_calendar",
+   "size": "bg",
+   "seed": 2611245,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, loose pink knit cardigan over a long white frilled nightdress, sandals, bright winter morning in a modern korean apartment kitchen, she stands at the refrigerator writing on a monthly wall calendar with a light blue marker, the calendar now shows three light blue boxes in a row, she is beaming with a radiant satisfied smile, a stack of pancakes with honey on the counter behind her, sparkles, upper body, from side, no readable text"
   }
  ]
 }
