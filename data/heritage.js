@@ -1,5 +1,5 @@
-// 문화재 사진(기출 보기 사진에 없는 것): 학습 사이트(korean-history-study)가 검수해 둔 위키미디어 공용 사진 77점.
-// 사진 파일은 학습 사이트에서 불러온다(IMG_BASE). 출처·라이선스는 credit, 한 줄 설명은 desc.
+// 문화재 사진(기출 보기 사진에 없는 것): 위키미디어 공용 사진 77점.
+// 사진 파일은 assets/kh/heritage/ (WebP). 출처·라이선스는 credit, 한 줄 설명은 desc.
 window.HERITAGE = {
  "광개토 대왕릉비": {
   "src": "heritage/gwanggaeto-stele.jpg",

@@ -263,7 +263,7 @@ function heritage(name){
  return near;
 }
 // 학습만화식 SD 리액션 컷인: @sd idea|warn|thumbs|cry|pout|shock|love|teach|detective|cheer|think|bow — 2.4초 뒤 사라진다(세이브에 남지 않음).
-// 판서: 학습 사이트의 기출 핵심노트(CORE_NOTES)를 이야기 속 칠판으로 띄운다. @board 노트id [노트id…]
+// 판서: 기출 핵심노트(CORE_NOTES)를 이야기 속 칠판으로 띄운다. @board 노트id [노트id…]
 const NOTE_FILES=['ancient','goryeo-joseon','modern','contemporary'];
 async function coreNotes(){if(window.CORE_NOTES?.length)return window.CORE_NOTES;await Promise.all(NOTE_FILES.map(f=>loadOnce(`data/core-notes/${f}.js`).catch(()=>loadOnce(figSrc(`core-notes/${f}.js`)))));return window.CORE_NOTES||[];}
 const hl=t=>esc(t).replace(/\*\*([^*]+)\*\*/g,'<b class="bd-b">$1</b>').replace(/(\d{2}-\d{1,2})/g,'<i class="bd-q">$1</i>');
@@ -379,7 +379,7 @@ function choose(op){
 function addNote(ch,title,body){const nb=records.notebook||(records.notebook={}),list=nb[ch]||(nb[ch]=[]);if(!list.some(n=>n.t===title))list.push({t:title,b:body});save();
  const f=$('#vnFx');if(!f)return;const el=document.createElement('div');el.className='vn-note-pop';el.innerHTML=`<small><i class="vn-seal mini">記</i>연표 기록부</small><b>${esc(title)}</b>`;f.appendChild(el);SFX.play('save');setTimeout(()=>el.remove(),2600);}
 function notesHtml(ch){const list=(records.notebook||{})[ch]||[];return list.length?`<div class="vn-notes">${list.map(n=>`<div class="vn-notecard"><b>${esc(n.t)}</b><p>${esc(n.b)}</p></div>`).join('')}</div>`:'<p>아직 모은 기록이 없어요.</p>';}
-// 정리 페이지: 학습 사이트(korean-history-study)의 손필기식 요약노트를 그대로 불러와 펼친다.
+// 정리 페이지: 손필기식 요약노트(assets/kh/summary*)를 불러와 펼친다.
 const SHEETS={ch01:['ancient-1'],ch02:['ancient-1'],ch03:['ancient-1','ancient-2'],ch04:['ancient-1'],ch05:['unified-1'],ch06:['unified-1'],
  ch07:['goryeo-1'],ch08:['goryeo-1'],ch09:['goryeo-2','goryeo-1'],ch10:['joseon1-1','joseon1-2'],ch11:['joseon1-1'],ch12:['joseon2-1'],ch13:['joseon2-2','joseon2-1'],
  ch14:['gaehang-1'],ch15:['gaehang-2'],ch16:['gaehang-2'],ch17:['ilje-1'],ch18:['ilje-2'],ch19:['ilje-2'],ch20:['ilje-3'],ch21:['modern-1'],ch22:['modern-1'],ch23:['modern-2','modern-1'],ch24:['integrated-1']};
@@ -388,16 +388,16 @@ const loaded={};
 function loadOnce(url,kind){return loaded[url]||(loaded[url]=new Promise((ok,no)=>{const el=document.createElement(kind==='css'?'link':'script');if(kind==='css'){el.rel='stylesheet';el.href=url;}else el.src=url;el.onload=ok;el.onerror=no;document.head.appendChild(el);}));}
 async function openSheets(ch){
  const ids=SHEETS[ch]||[],d=$('#vnLog');if(!ids.length)return;
- d.innerHTML=`<div class="dialog-header"><div><small>정리 페이지</small><h2>요약노트</h2></div><button class="quiet" data-close>닫기 ×</button></div><p class="vn-sheet-wait">학습 사이트에서 요약노트를 불러오는 중이에요…</p>`;
+ d.innerHTML=`<div class="dialog-header"><div><small>정리 페이지</small><h2>요약노트</h2></div><button class="quiet" data-close>닫기 ×</button></div><p class="vn-sheet-wait">요약노트를 불러오는 중이에요…</p>`;
  d.classList.add('sheets');d.querySelector('[data-close]').onclick=()=>d.close();d.onclose=()=>d.classList.remove('sheets');if(!d.open)d.showModal();
  try{
   await loadOnce(figSrc('summary.css'),'css');await loadOnce(figSrc('summary-render.js'));
   await Promise.all([...new Set(ids.map(SHEET_FILE))].map(f=>loadOnce(figSrc(`summary/${f}.js`))));
-  const all=window.SUMMARY_SHEETS||[],html=ids.map(id=>all.find(x=>x.id===id)).filter(Boolean).map(x=>window.SummaryNotes.sheet(x,{sourceLabel:'한능검 학습실 요약노트'})).join('');
+  const all=window.SUMMARY_SHEETS||[],html=ids.map(id=>all.find(x=>x.id===id)).filter(Boolean).map(x=>window.SummaryNotes.sheet(x,{sourceLabel:'기출 요약노트'})).join('');
   const w=document.createElement('div');w.className='sm-wrap';w.innerHTML=html;
   w.querySelectorAll('img').forEach(i=>{const a=i.getAttribute('src');if(a&&!/^(https?:|data:)/.test(a))i.src=figSrc(a);});
   d.querySelector('.vn-sheet-wait').replaceWith(w);
- }catch(e){const p=d.querySelector('.vn-sheet-wait');if(p)p.textContent='요약노트를 불러오지 못했어요. 인터넷 연결을 확인해 주세요.';}
+ }catch(e){const p=d.querySelector('.vn-sheet-wait');if(p)p.textContent='요약노트를 불러오지 못했어요.';}
 }
 function summary(){
  S.line=null;paint();busy=true;stopAuto();skip=false;const c=$('#vnCard');c._tok=(c._tok||0)+1;$('#vnBox').classList.add('quiet');c.className='vn-card summary';c.hidden=false;
@@ -777,7 +777,7 @@ function title(){
  $('#main').innerHTML=`<section class="vn-title"><img class="vn-title-bg vn-title-art" src="${asset(art+'.webp')}" alt=""><img class="vn-emblem-title" src="${asset('emblem_gold.webp')}" alt=""><img class="vn-title-chr" src="${asset('st_orpheia_smile.webp')}" alt=""><div class="vn-title-body"><img class="vn-crest" src="${asset('emblem_gold.webp')}" alt="오르페이아의 문장"><small>韓國史 年表 · 한능검 심화</small><h1><span class="vn-title-brush">연표</span>오르페이아<span>얼굴 없는 작곡가와 역사덕후 보컬</span></h1><span class="vn-seal big">電脳<br>侍女</span>
  <p class="vn-title-sub">70~${Quiz.lastRound()}회 기출 ${st.total}문항 · 풀어 본 문항 ${st.seen} · 최근 정답 ${st.right}</p>
  <div class="vn-title-menu"><button class="primary" data-t="new">처음부터</button><button data-t="continue" ${cont?'':'disabled'}>이어하기</button><button data-t="load" ${cont?'':'disabled'}>💾 불러오기</button><button data-t="drill">📝 기출 풀기 · 회차·시대별</button><button data-t="notebook">📜 연표 기록부</button><button data-t="chsel">📖 장 선택</button>${sideOpen().map(x=>`<button data-t="side" data-s="${x.id}">${x.icon} 외전 · ${esc(byId[x.id].subtitle)}</button>`).join('')}<button data-t="gal">🎞 갤러리 · CG·음악·엔딩</button>${profileOpen()?'<button data-t="prof">👤 인물 프로필</button>':''}<button data-t="mini">🎮 미니게임</button><button data-t="gallery">🖋 묵 의상 도감</button><button data-t="config">설정</button></div>
- <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요. 해설과 자료 그림은 학습 사이트의 것을 그대로 씁니다.</p></div></section>`;
+ <p class="vn-title-note">이야기 속 문제는 모두 실제 한능검 심화 기출이에요.</p></div></section>`;
  const go={new:()=>{if(Object.keys(meta.saves).length&&!confirm('처음부터 시작할까요? 기존 세이브는 남아 있어요.'))return;reach(chapters[0].id);S=fresh(chapters[0].id);log=[];shell();paint();step();},continue:()=>loadFrom(cont),drill:()=>Quiz.lobby(title),notebook,config,gallery:mukGallery,gal:()=>gallery(),prof:()=>profiles(),mini:()=>window.MiniGame?.open(),chsel:chapterSelect,load:()=>slots('load',true),side:id=>{S=fresh(id||'sp_aunt');log=[];shell();paint();step();}};
  document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>go[b.dataset.t](b.dataset.s));
  // 타이틀 일러스트: 있으면 그 그림을 크게 깔고 스탠딩은 숨긴다. 엔딩을 본 뒤에는 새벽 작업실 그림, 없으면 기본 그림 → 연표 터널 배경 + 스탠딩.

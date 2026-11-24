@@ -58,8 +58,8 @@
 
 ## 데이터
 
-문항·해설·자료 그림 목록·핵심노트는 학습 사이트에서 옮겨 와 이 저장소의 `data/`에 들어 있다.
-기출 그림은 `assets/kh/`의 WebP 사본(`data/kh-local.js` 목록)을 쓴다.
+문항·해설·자료 그림 목록·핵심노트는 `data/`에 있다.
+기출 그림(WebP 사본)과 요약노트(`summary.css`·`summary-render.js`·`summary/*.js`)는 `assets/kh/`에 있다.
 
 ## 구조
 
@@ -70,7 +70,7 @@ vn.js               이야기 엔진(철도 ADV의 엔진을 옮겨 넓힘) — 
 quiz.js             기출 문제 화면(@quiz)과 「기출 풀기」 로비
 bgm.js · sfx.js     음악·효과음(효과음은 Web Audio 합성)
 story/chNN-*.js     장 대본 · story/spNN-*.js 외전
-data/               기출 데이터(학습 사이트에서 옮겨 옴)
+data/               기출 데이터
 assets/             캐릭터·배경·CG(WebP, NovelAI 생성 → waifu2x 2배), BGM
 tools/              NAI 생성·업스케일, 예상 문제, 통독(playthrough.js)
 ```

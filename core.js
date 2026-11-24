@@ -2,11 +2,8 @@
 // 공용 도우미. 오르페이아(Orphiey) 철도 ADV의 app.js에서 이야기 엔진이 쓰던 것만 남겼다.
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const asset=name=>`assets/${name}`;
-// 기출 자료 그림은 학습 사이트(GitHub Pages)에서 불러온다. 같은 폴더 구성으로 로컬에 두면 그쪽을 쓴다.
-const IMG_BASE=window.IMG_BASE||'https://skybridge805679-netizen.github.io/korean-history-study/site/';
-// 학습 사이트 그림: assets/kh/ 에 사본이 있으면(data/kh-local.js) 그것을, 없으면 학습 사이트 주소를 쓴다.
-const khLocal=p=>{const L=window.KH_LOCAL;return L&&L.has(p)?'assets/kh/'+(/\.svg$/i.test(p)?p:p.replace(/\.(png|jpe?g|webp)$/i,'.webp')):null;};
-const figSrc=src=>/^(https?:|data:|assets\/)/.test(src)?src:(khLocal(src.split('?')[0])||IMG_BASE+src);
+// 기출 자료 그림·요약노트: assets/kh/ 아래 같은 경로(그림은 WebP 사본)에서 불러온다.
+const figSrc=src=>{if(/^(https?:|data:|assets\/)/.test(src))return src;const p=src.split('?')[0];return 'assets/kh/'+p.replace(/\.(png|jpe?g)$/i,'.webp');};
 const KEY='orpheia-history-v1';
 let records={textSpeed:window.matchMedia?.('(prefers-reduced-motion: reduce)').matches?0:28,quiz:{}};
 try{const raw=JSON.parse(localStorage.getItem(KEY)||'null');if(raw&&typeof raw==='object')records={...records,...raw};}catch{}
