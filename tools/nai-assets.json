@@ -338,6 +338,641 @@
      "y": 0.56
     }
    ]
+  },
+  {
+   "id": "st_tsubaki_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, bright happy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_tsubaki_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, blushing, shy, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, surprised, open mouth, wide eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, angry, frowning, hands on hips",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, pouting, puffed cheeks, jealous",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, teary eyes, tears, moved smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, worried, troubled expression, hand on chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, serious, determined expression",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_tsubaki_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, white cotton camisole and short pleated pajama shorts with a long beige knit cardigan slipping off one shoulder, a red camellia hair clip, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_tsubaki_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_tsubaki_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, white cotton camisole and short pleated pajama shorts with a long beige knit cardigan slipping off one shoulder, a red camellia hair clip, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_tsubaki_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_tsubaki_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, white cotton camisole and short pleated pajama shorts with a long beige knit cardigan slipping off one shoulder, a red camellia hair clip, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_tsubaki_home.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st_chunmei_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, bright happy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_chunmei_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, blushing, shy, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, surprised, open mouth, wide eyes",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, angry, frowning, hands on hips",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, pouting, puffed cheeks, jealous",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, teary eyes, tears, moved smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, worried, troubled expression, hand on chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, serious, determined expression",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, pregnant, big round belly clearly visible, one hand on her belly, standing, full body, looking at viewer, gentle shy smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel"
+  },
+  {
+   "id": "st_chunmei_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, red satin pajama shirt with chinese frog buttons, unbuttoned at the collar, and short black satin pajama shorts, hair down from the buns, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_chunmei_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_chunmei_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, red satin pajama shirt with chinese frog buttons, unbuttoned at the collar, and short black satin pajama shorts, hair down from the buns, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_chunmei_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_chunmei_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, red satin pajama shirt with chinese frog buttons, unbuttoned at the collar, and short black satin pajama shorts, hair down from the buns, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, pregnant, visibly pregnant, large round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, hanbok, jeogori, kimono, cheongsam, historical clothes, furniture, background objects",
+   "init": "assets/st_chunmei_home.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "bg_era_waegwan",
+   "size": "bg",
+   "prompt": "no humans, scenery, outdoors, busan coast in the early 17th century, a walled japanese trading post (waegwan) with tile-roofed houses inside high stone walls, a small harbor with japanese wooden sailing ships at anchor, camellia trees along the wall with fallen red flowers on the path, spring daylight, joseon dynasty"
+  },
+  {
+   "id": "cg_ch11_waegwan",
+   "size": "bg",
+   "prompt": "scenery, wide view, early 17th century busan harbor, a walled japanese trading post (waegwan) on a seaside hill, japanese wooden ships with square sails entering the harbor, joseon officials in black gat hats and japanese merchants unloading crates at the gate, red camellia trees along the wall, morning sea mist, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch11_tsubaki",
+   "size": "bg",
+   "seed": 2603309,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, night, hiding together inside a thick camellia bush by a stone wall, red camellia flowers falling around them, torches of patrolling joseon soldiers in the background, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, lying close to him in the bush, her backwards-tied goreum ribbon came undone and her jeogori front is slipping open, clutching it, deep blush, panicked, finger on lips",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying beside her, flustered, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_tsubaki",
+   "size": "bg",
+   "seed": 2603309,
+   "prompt": "1girl, 1boy, romantic, heartwarming, sunset at an early 17th century busan harbor, japanese sailing ships with red-lit sails, a girl tucking a red camellia flower into the drawstring of a hooded young man's hoodie, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, tucking a camellia flower into his hood string, standing on tiptoe, shy happy smile, blush",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing still, gentle smile",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_end_tsubaki",
+   "size": "bg",
+   "seed": 2603309,
+   "prompt": "1girl, 1boy, romantic farewell, a road lined with camellia trees along a stone wall by the sea at dusk, fallen red camellia flowers carpeting the path, a girl bowing deeply to a hooded young man, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding her vocabulary notebook to her chest, bowing, looking up with teary happy smile",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing on the camellia path, soft smile",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_end_harem_tsubaki",
+   "size": "bg",
+   "seed": 2603309,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor pouring out red camellia petals, a girl in borrowed hanbok climbing out of the monitor and bowing politely, a hooded young man on a studio chair turning around, monitor shows only soft blurred glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, climbing out of the monitor, bowing politely three times, nervous smile",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, startled",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_after_tsubaki",
+   "size": "bg",
+   "seed": 2603309,
+   "prompt": "1girl, 1boy, comedic, modern busan international ferry terminal, big departure boards, modern ferries outside the windows, a girl sitting flat on the floor in shock staring up at the departure board, a hooded young man laughing beside her, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, modern casual clothes, white blouse and long navy skirt, camellia hair clip, sitting on the floor, staring up in shock, open mouth",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, laughing, offering his hand",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_ch17_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "prompt": "1girl, 1boy, comedic lucky pervert accident, a cramped attic above a 1920s shanghai dumpling shop, bamboo dumpling steamers stacked to the ceiling, hot steam rising through floorboard gaps, a girl and a hooded young man squeezed together hiding, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, squeezed close to him, steam making her qipao cling to her body, sweaty, deep blush, glaring, holding a steamer lid like a shield",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, squeezed in, sweating, flustered",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "prompt": "1girl, 1boy, romantic, heartwarming, night in a closed 1920s shanghai dumpling shop, wooden table covered in flour, rows of pleated dumplings, a girl teaching a hooded young man to pleat dumplings, flour on both of them, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, rolling dough, teaching him to pleat a dumpling, flour on her cheek, laughing",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, clumsily pleating a dumpling, flour on his hoodie",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_ch20_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, night rooftop over a 1930s shanghai alley, newspaper extras fluttering in the wind, she hugs a bundle of newspapers, looking at the viewer with teary but hopeful eyes, city lights, cowboy shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_end_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "prompt": "1girl, 1boy, romantic farewell, a cozy attic room above a shanghai dumpling shop at night, an open wooden drawer full of old bond certificates, warm lamp light, a girl holding up a dumpling to a hooded young man, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, sitting on the floor beside the drawer, offering a dumpling, teary happy smile",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting beside her, gentle smile",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_end_harem_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "prompt": "1girl, 1boy, hidden harem ending, comedic, small modern home music studio at night, a glowing monitor, a big bamboo dumpling steamer full of steam coming out of the monitor first, followed by a girl in a qipao hugging it, a hooded young man on a studio chair turning around, monitor shows only soft blurred glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, climbing out of the monitor hugging a steaming dumpling steamer, cheerful grin",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, turning around on a studio chair, startled",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_after_chunmei",
+   "size": "bg",
+   "seed": 2603310,
+   "prompt": "1girl, 1boy, comedic, modern busy dumpling restaurant kitchen in incheon chinatown, stainless steel counters, a girl challenging the middle-aged chef to a dumpling pleating contest, a hooded young man watching from the doorway, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, modern white chef apron over a red t-shirt, hair in double buns, pleating dumplings at lightning speed, smug grin",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, leaning in the doorway, laughing",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_wife_tsubaki_b0",
+   "size": "bg",
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, early 17th century busan coast with camellia trees along a high stone wall of a japanese trading post, red camellia flowers falling, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card"
+  },
+  {
+   "id": "cg_wife_tsubaki_b1",
+   "size": "bg",
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, early 17th century busan coast with camellia trees along a high stone wall of a japanese trading post, red camellia flowers falling, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "init": "assets/cg_wife_tsubaki_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_tsubaki_b2",
+   "size": "bg",
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, early 17th century busan coast with camellia trees along a high stone wall of a japanese trading post, red camellia flowers falling, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "init": "assets/cg_wife_tsubaki_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_tsubaki_b3",
+   "size": "bg",
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, early 17th century busan coast with camellia trees along a high stone wall of a japanese trading post, red camellia flowers falling, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a thin white japanese hadajuban under-robe left, loosely open, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "init": "assets/cg_wife_tsubaki_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_tsubaki_win",
+   "size": "bg",
+   "seed": 2603309,
+   "cast": [
+    "tsubaki"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating"
+  },
+  {
+   "id": "cg_wife_chunmei_b0",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, 1920s shanghai french concession alley with stone-gate shikumen houses, hanging laundry and paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card"
+  },
+  {
+   "id": "cg_wife_chunmei_b1",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, 1920s shanghai french concession alley with stone-gate shikumen houses, hanging laundry and paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "init": "assets/cg_wife_chunmei_b0.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_wife_chunmei_b2",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, 1920s shanghai french concession alley with stone-gate shikumen houses, hanging laundry and paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "init": "assets/cg_wife_chunmei_b1.webp",
+   "strength": 0.68
+  },
+  {
+   "id": "cg_wife_chunmei_b3",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, 1920s shanghai french concession alley with stone-gate shikumen houses, hanging laundry and paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a red silk dudou bodice and white silk bloomers left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "init": "assets/cg_wife_chunmei_b2.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "cg_wife_chunmei_win",
+   "size": "bg",
+   "seed": 2603310,
+   "cast": [
+    "chunmei"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating"
   }
  ]
 }
