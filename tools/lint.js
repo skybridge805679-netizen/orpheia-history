@@ -56,9 +56,10 @@ const VNstub = { chapter: (id, title, sub, src, opt) => chapters.push({ id, titl
 let cur = '';
 for (const f of fs.readdirSync(rel('story')).filter(f => f.endsWith('.js')).sort()) { cur = 'story/' + f; try { vm.runInNewContext(fs.readFileSync(rel(cur), 'utf8'), { VN: VNstub, window: {} }); } catch (e) { E(cur, '불러오기 실패 ' + e.message); } }
 function parse(c) {
-  const ops = []; let choice = null;
+  const ops = []; let choice = null, styleOff = false;
   c.src.split('\n').forEach((raw, n) => {
     const line = raw.trim(), at = `${c.file}:${n + 2}`;   // 파일의 첫 줄이 VN.chapter(…`
+    if (/^\/\/ 문체 예외 시작/.test(line)) styleOff = true; if (/^\/\/ 문체 예외 끝/.test(line)) styleOff = false;
     if (!line || line.startsWith('//')) { choice = null; return; }
     if (line.startsWith('>') && choice) { const m = line.match(/^>\s*(.+?)\s*->\s*(\S+)(?:\s*\{(.+)\})?$/); if (!m) return E(at, '선택지 형식'); choice.opts.push({ label: m[2], set: m[3] || '', at }); return; }
     choice = null;
@@ -73,7 +74,7 @@ function parse(c) {
     }
     const m = line.match(/^\[([^\]|]+)(?:\|(\w+))?\]\s*(.*)$/);
     if (m) ops.push({ t: 'say', name: m[1].trim(), who: ALIAS[m[1].trim()] || m[1].trim(), expr: m[2] || '', text: m[3], at });
-    else ops.push({ t: 'narr', text: line, at });
+    else ops.push({ t: 'narr', text: line, at, styleOff });
   });
   return ops;
 }
@@ -113,7 +114,12 @@ for (const c of chapters) {
         if (!CAST[o.who] && !NAMES.has(o.name) && !MOB_BY_NAME[o.name] && !SPECIAL_SPEAKERS.has(o.name)) W(o.at, `모브 원형이 없는 이름표 [${o.name}](실루엣 없이 말함)`);
         if (o.expr && CAST[o.who] && !standFile(o.who, o.expr) && !COSTUME_EXPR[o.who]?.has(o.expr) && !/^(d|g)\d$/.test(o.expr)) W(o.at, `[${o.name}|${o.expr}] — ${o.who}에게 없는 표정(무시됨)`);
         if (META.test(o.text)) W(o.at, `화면 글에 만드는 쪽 말: ${o.text.slice(0, 40)}`); break; }
-      case 'narr': if (META.test(o.text)) W(o.at, `화면 글에 만드는 쪽 말: ${o.text.slice(0, 40)}`); break;
+      case 'narr': if (!c.side && !o.styleOff) { const plain = o.text.replace(/「[^」]*」|"[^"]*"/g, '').trim(), ss = plain.split(/(?<=[.!?…])\s+/).filter(Boolean), shortN = ss.filter(x => x.replace(/[「」『』…\s]/g, '').length <= 7).length;
+          if (ss.length >= 3 && shortN >= 2) W(o.at, `서술 문체: 짧은 문장 연타 — ${o.text.slice(0, 40)}`);
+          if (/(둘|셋|넷) 다, /.test(o.text) || /(\S+)이다\. \1\./.test(o.text)) W(o.at, `서술 문체: 대구·되풀이 정리문 — ${o.text.slice(0, 40)}`);
+          if (/^노래가 흐른다\.|^먹물이 번진다\. 그런데 이번엔/.test(o.text)) W(o.at, `서술 문체: 장마다 돌려쓰는 틀 — ${o.text.slice(0, 40)}`); }
+        if (/\s@(sfx|bg|bgm|show|hide|fx|cutin|wait|day)\b/.test(o.text)) E(o.at, `연출 명령이 서술 줄에 붙어 글자로 찍힘: ${o.text.slice(-30)}`);
+        if (META.test(o.text)) W(o.at, `화면 글에 만드는 쪽 말: ${o.text.slice(0, 40)}`); break;
     }
   }
 }
