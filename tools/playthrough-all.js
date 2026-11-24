@@ -24,7 +24,7 @@ const MAX_STEPS = 9000, STUCK = 90;
   await page.goto(URL); await page.waitForTimeout(1200);
   await page.mouse.click(640, 360); await page.waitForTimeout(800);   // 스플래시
   const all = await page.evaluate(() => { const ep = VN.chapters.find(c => Object.keys(c.labels || {}).some(l => l.startsWith('hero_'))) || {}; return { main: VN.chapters.map(c => c.id), ep: ep.id, epLabels: Object.keys(ep.labels || {}) }; });
-  const sides = ['sp_aunt', 'sp_exorcist', 'sp_saebyeok'];
+  const sides = ['sp_aunt', 'sp_exorcist', 'sp_saebyeok', 'sp_ellie'];
   let targets = args.filter(a => !a.startsWith('--'));
   if (!targets.length) targets = [...all.main, ...sides, ...all.epLabels.filter(l => /^(hero_|end_)/.test(l)).map(l => all.ep + ':' + l)];
   var cur = '';
