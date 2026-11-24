@@ -261,7 +261,9 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @dive 1844년|제주, 숨비소리
 @bg cg_ch13_jeju_sea|bg_era_jeju_coast
 @day 제주 대정 · 바닷가, 1844년 늦여름|조선 헌종 · 1844년 무렵(김정희 제주 유배)
-검은 돌 바닷가. 파도 위로 주황 박 테왁들이 동동 떠 있다. 그중 하나 옆에서 사람 머리가 쑥 솟더니, 「호오이──」 길게 휘파람 같은 숨을 내쉰다.
+검은 돌 바닷가. 파도 위로 주황 박 테왁들이 동동 떠 있다.
+@bg cg_ch13_bada_sumbi|bg_era_jeju_coast
+그중 하나 옆에서 사람 머리가 쑥 솟더니, 「호오이──」 길게 휘파람 같은 숨을 내쉰다.
 @bg bg_era_jeju_coast
 @show bada smile center
 [바다|smile] 거기 육지 양반! 바위 끝에 서 있지 마요, 미끄러워요! 대정 바다는 사람 발목부터 잡아요!
@@ -312,6 +314,11 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @hide all
 @show bada smile center
 [바다|smile] 맞혔다! 육지 양반, 섬 사람 다 됐네요. 오늘 저녁 전복은 공짜예요. ……숨비소리 녹음한 거, 나중에 꼭 들려줘요.
+@hide all
+@bg cg_ch13_bada_abalone|bg_era_jeju_coast
+해 질 녘 검은 돌 위. 숯불에 전복이 지글거린다. 상철이 녹음기를 틀자 「호오이──」 소리가 흘러나오고, 바다가 한쪽 귀를 막는다.
+[바다] 내 숨소리가 이렇게 들려요? 끄지 마요. 아니, 꺼요. ……아니, 그냥 둬요. 전복 식기 전에 먹어요, 입 벌려요.
+@bg bg_era_jeju_coast
 @hide all
 @bg bg_era_seodang
 @show dano smile right

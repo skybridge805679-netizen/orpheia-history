@@ -33,7 +33,10 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 @hide all
 @bg bg_era_palace_night
 @day 경복궁 공사장 · 그날 밤|조선 고종 · 1866년(경복궁 중건)
-밤이 되자 공사장엔 쌓아 둔 목재와 횃불뿐이다. 그런데 기둥 위에서, 하얀 것이 둥실 떠 상철 쪽으로 손을 흔든다.
+밤이 되자 공사장엔 쌓아 둔 목재와 횃불뿐이다.
+@bg cg_ch14_goyo_float|bg_era_palace_night
+그런데 기둥 위에서, 하얀 것이 둥실 떠 상철 쪽으로 두 손을 흔든다. 그 아래로 횃불 든 일꾼 하나가 비명도 못 지르고 굳어 있다.
+@bg bg_era_palace_night
 @show goyo smile center
 [고요|smile] 상철 님──! 정말 또 와 주셨네요! 사백칠십 년 만이에요! 제가 세어 봤어요!
 @show orpheia excited left

@@ -1,3 +1,175 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "cg_ch03_eunsil_tomb",
+   "size": "bg",
+   "seed": 2603302,
+   "cast": [
+    "eunsil"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, twelve string zither (gayageum), sunset over a ridge of huge round grass-covered ancient burial mounds in goryeong, she sits on a straw mat on top of a mound playing the twelve string zither on her lap, wind blowing her long hair and sleeves, golden evening light, music in the wind, peaceful, wide shot, cowboy shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch03_irang_meet",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "1girl, 1boy, comedic, riverside training ground under willow trees in ancient silla, young men practicing archery and wooden swords in the background, a narrow-shouldered disguised girl blocking the way of a hooded young man, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "irang",
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, chest bound flat with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword, pointing a wooden practice sword at him, puffing out her chest, trying to look manly, forced deep scowl, slightly flustered",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing calmly, amused",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_ch03_campfire",
+   "size": "bg",
+   "seed": 2603301,
+   "prompt": "2girls, 1boy, night by a riverside in ancient silla, a campfire, sparks rising into the starry sky, two girls sitting back to back facing away from each other with a hooded young man sitting between them, warm firelight, bittersweet, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "irang",
+     "prompt": "girl, adult woman, young adult, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, chest bound flat with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword, hugging her wooden sword to her chest, sitting, sulking, glancing sideways",
+     "x": 0.25,
+     "y": 0.55
+    },
+    {
+     "cast": "eunsil",
+     "prompt": "girl, adult woman, young adult, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, twelve string zither (gayageum), zither on her lap, plucking one string, sitting, looking away",
+     "x": 0.75,
+     "y": 0.55
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting cross-legged, troubled smile",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.6
+    }
+   ]
+  },
+  {
+   "id": "cg_ch06_sara_meet",
+   "size": "bg",
+   "seed": 2603303,
+   "cast": [
+    "sara"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, busy ancient silla harbor at ulsan in spring, ships with triangular lateen sails among silla boats, sacks of spices and crates of glassware piled on the pier, she sits on top of the spice sacks with her legs crossed, pointing at the viewer with a playful grin, sea breeze in her red hair, bright daylight, wide shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch06_sara_mask",
+   "size": "bg",
+   "seed": 2603303,
+   "cast": [
+    "sara"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, night courtyard of a silla seaside guest house, lanterns, village children clapping and an old man beating a drum in the background, she spins and dances holding up a wooden cheoyong mask with a red face in front of her face, caftan swirling, joyful, dynamic pose, motion blur, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch12_choa_meet",
+   "size": "bg",
+   "seed": 2603304,
+   "prompt": "1girl, 1boy, tense comedic, joseon hanyang back alley at night, a sheet of paper posted on a mud wall fluttering, a fallen paper lantern on the ground glowing, a female detective standing behind a hooded young man pressing an iron baton to the back of his neck, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "choa",
+     "prompt": "girl, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, iron baton, straw sandals, standing behind him, iron baton at his neck, cold narrow eyes, serious",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, frozen, hands raised, sweating",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_ch12_choa_jeongju",
+   "size": "bg",
+   "seed": 2603304,
+   "cast": [
+    "choa"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, cool expression, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, iron baton, straw sandals, winter 1811, frozen earthen fortress walls of jeongju under grey sky, snow falling, torches of rebels on the walls in the distance, she steps out of the shadow of the wall holding a rumpled rebel proclamation paper in one hand, iron baton in the other, breath visible in the cold, conflicted serious expression, cowboy shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch13_bada_sumbi",
+   "size": "bg",
+   "seed": 2603305,
+   "cast": [
+    "bada"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, jeju island coast of black volcanic rocks, late summer, orange round gourd floats (tewak) bobbing on the waves, she has just surfaced from the sea beside a float, head and shoulders above water, lips pursed blowing out a long whistling breath, water droplets flying, sparkling sea, bright sunlight, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch13_bada_abalone",
+   "size": "bg",
+   "seed": 2603305,
+   "prompt": "1girl, 1boy, heartwarming comedic, sunset on black volcanic rocks by the jeju sea, a small charcoal fire grilling abalone in their shells, a hooded young man holding up a small voice recorder, a haenyeo girl next to him, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "bada",
+     "prompt": "girl, adult woman, young adult, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, sitting on the rocks, offering grilled abalone with chopsticks, covering one ear in embarrassment while listening to her own breath on the recorder, blushing to her ears, laughing",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding a voice recorder, smiling",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_ch15_ellie_organ",
+   "size": "bg",
+   "seed": 2603306,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, inside a small 1900s red brick church in jeongdong seoul, afternoon light through tall windows, golden ginkgo leaves falling outside, she sits at a wooden pump organ, turning around on the bench with her hands still on the keys, beckoning the viewer to sit beside her, patting the bench, bright friendly smile, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch15_ellie_ewha",
+   "size": "bg",
+   "seed": 2603306,
+   "cast": [
+    "ellie"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, 1900s classroom of a red brick girls' school, korean schoolgirls in white jeogori and black skirts at wooden desks, a blackboard with a hand drawn world map, she stands at the front holding up an open geography book and chalk, waving the chalk at the viewer through the window, cheerful teacher, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch14_goyo_float",
+   "size": "bg",
+   "seed": 2603307,
+   "cast": [
+    "goyo"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, comedic horror, gyeongbokgung palace reconstruction site at night, stacked timber and wooden scaffolding, a ghost girl floating in the air above a tall wooden pillar waving both hands happily, korean workers with torches screaming and running away below, one worker coming back with a club, moonlight, flickering torchlight, wide shot, masterpiece, no readable text"
+  },
+  {
+   "id": "cg_ch23_moa_beeper",
+   "size": "bg",
+   "seed": 2603308,
+   "cast": [
+    "moa"
+   ],
+   "prompt": "1girl, solo, adult woman, young adult, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, seoul apgujeong street at night in 1993, neon signs, a roller skating rink entrance, she leans against a public phone booth looking at a pager in her hand, glancing at the viewer up and down with a cheeky judging grin, city lights, retro 1990s atmosphere, cowboy shot, masterpiece, no readable text"
+  }
+ ]
 }
