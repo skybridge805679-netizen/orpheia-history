@@ -1,0 +1,16 @@
+name: 대본 점검
+# node tools/lint.js — 대본·데이터가 깨졌는지 본다(그림 생성·통독은 하지 않는다).
+on:
+  push:
+    branches: [main]
+    paths: ['story/**', 'data/**', 'vn.js', 'quiz.js', 'core.js', 'minigame.js', 'tools/lint.js', 'assets/*.webp']
+  workflow_dispatch:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: node tools/lint.js -w
