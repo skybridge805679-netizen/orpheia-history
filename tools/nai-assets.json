@@ -1,4 +1,19 @@
 {
  "items": [
+  {"id": "bg_mg_hy_alley", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.85,
+   "prompt": "no humans, scenery, narrow korean back alley at night, closed shutters, street lamp, utility poles, apartment buildings, faint purple ghostly mist, empty, quiet, eerie",
+   "negative": "1girl, people, person, character"},
+  {"id": "bg_mg_hy_school", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.9,
+   "prompt": "no humans, scenery, abandoned school hallway at night, broken windows, moonlight, old wooden floor, lockers, scattered papers, faint purple ghostly mist, empty, eerie",
+   "negative": "1girl, people, person, character"},
+  {"id": "bg_mg_hy_crossroad", "size": "bg", "init": "assets/cg_mg_hyejin_b0.webp", "strength": 0.9,
+   "prompt": "no humans, scenery, empty city crossroads at midnight, korean street, blinking traffic lights, crosswalk, convenience store light in distance, faint purple ghostly mist, full moon, eerie",
+   "negative": "1girl, people, person, character"},
+  {"id": "cg_mg_hyejin_clear", "size": "bg", "init": "assets/cg_mg_hyejin.webp", "strength": 0.6,
+   "prompt": "1girl, solo, long dark blue hair, high ponytail, red hair ribbon, amber eyes, hanbok-style school uniform, white jeogori blouse, navy vest, red ribbon, navy long pleated skirt, black pantyhose, sitting at a street food stall at night, eating spicy tteokbokki with a toothpick, cheeks full, happy, satisfied smile, steam, warm lights, shaman bells beside her, after work",
+   "negative": "nude, nipples, underwear, cleavage"},
+  {"id": "cg_mg_hyejin_over", "size": "bg", "init": "assets/cg_mg_hyejin_b3.webp", "strength": 0.55,
+   "prompt": "1girl, solo, long dark blue hair, high ponytail, red hair ribbon, amber eyes, hanbok-style school uniform, white jeogori blouse, navy long pleated skirt, black pantyhose, sitting on the ground in a dark alley, exhausted, pouting, teary eyes, red sauce stains on clothes, holding an empty tteokbokki cup, shaman bells on the ground, purple mist fading",
+   "negative": "nude, nipples, underwear, cleavage"}
  ]
 }
