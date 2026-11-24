@@ -622,9 +622,10 @@ function config(){const d=$('#vnConfig'),st=meta.settings;
  <label>효과음 볼륨<input type="range" id="cfgSfx" min="0" max="100" value="${Math.round(SFX.settings().volume*100)}"></label>
  <label class="check"><input type="checkbox" id="cfgMute" ${BGM.settings().muted?'checked':''}> 음악 끄기</label>
  <label class="check"><input type="checkbox" id="cfgBlip" ${SFX.settings().blip!==false?'checked':''}> 대사 타이핑 소리</label>
+ <label class="check"><input type="checkbox" id="cfgPreNote" ${records.preNote!==false?'checked':''}> 문제 풀기 전 단서 노트 보이기</label>
  <button class="quiet" id="cfgReset">이야기 진행 기록 초기화</button></div>`;
  d.querySelector('[data-close]').onclick=()=>d.close();
- $('#cfgText').onchange=e=>{records.textSpeed=+e.target.value;save();};$('#cfgAuto').onchange=e=>{st.auto=+e.target.value;persist();};$('#cfgBgm').oninput=e=>BGM.setVolume(+e.target.value/100);$('#cfgMute').onchange=e=>BGM.setMuted(e.target.checked);$('#cfgSfx').oninput=e=>SFX.setVolume(+e.target.value/100);$('#cfgBlip').onchange=e=>SFX.setBlip(e.target.checked);
+ $('#cfgText').onchange=e=>{records.textSpeed=+e.target.value;save();};$('#cfgAuto').onchange=e=>{st.auto=+e.target.value;persist();};$('#cfgBgm').oninput=e=>BGM.setVolume(+e.target.value/100);$('#cfgMute').onchange=e=>BGM.setMuted(e.target.checked);$('#cfgSfx').oninput=e=>SFX.setVolume(+e.target.value/100);$('#cfgBlip').onchange=e=>SFX.setBlip(e.target.checked);$('#cfgPreNote').onchange=e=>{records.preNote=e.target.checked;save();};
  $('#cfgReset').onclick=()=>{if(!confirm('세이브·읽음 기록을 지울까요? 문항 풀이 기록은 남습니다.'))return;meta={saves:{},read:{},flags:{},settings:st};persist();d.close();title();};
  d.showModal();
 }
