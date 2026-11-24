@@ -439,11 +439,11 @@ VN.chapter('ch09','제8장','벽란도의 가짜 약혼자',`
 @label releaseafter
 @if fix >= 1 -> tr_ok
 [먹물] 그래서 의천이 선종이라고? 아님 지눌이? ㅋ
-@cutin comments
 [댓글] 어…… 가사 듣고도 헷갈리네요. 스님 둘이 너무 비슷해요
 @jump tr_af
 @label tr_ok
 [먹물] 그래서 의천이 선종이라고? 아님 지눌이? ㅋ
+@cutin comments
 [댓글] 가사 안 들음? 왕자 스님은 교관겸수, 송광사 스님은 정혜쌍수. 2절에 나옴
 @label tr_af
 @bgm auto

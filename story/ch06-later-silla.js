@@ -354,7 +354,6 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 [시녀] 네에에?!
 @cutin shock
 [상철] 네에에?!
-@cutin pout
 [오르페이아|pout] 네에에에에?!
 @bg bg_era_gyeongju
 @bgm bgm_noble
@@ -788,11 +787,11 @@ VN.chapter('ch06','제6장','천 년의 저녁',`
 북천의 빗소리와 청해진의 돛, 철원에서 돌을 나르던 소리가 한 줄씩 가사가 된다. 윤슬이 부르는 천 년의 저녁이, 그렇게 한 곡으로 저물어 간다.
 @if fix >= 1 -> tr_ok
 [먹물] 견훤 궁예 위치 바꿔도 아무도 모를걸 ㅋ
-@cutin comments
 [댓글] 궁예가 완산주 아니었어요? 가사 듣다 헷갈렸어요
 @jump tr_af
 @label tr_ok
 [먹물] 견훤 궁예 위치 바꿔도 아무도 모를걸 ㅋ
+@cutin comments
 [댓글] 완산주 기와 싣고 가는 가사 미쳤다. 견훤=완산주 각인됨
 @label tr_af
 @hud TRACK 06 RELEASED // 「천 년의 저녁」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 나루 {naru}

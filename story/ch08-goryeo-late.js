@@ -720,11 +720,11 @@ VN.chapter('ch08','제9장','칼과 말발굽의 시대',`
 명학소의 서신과 처인성의 화살, 위화도의 장맛비가 한 줄씩 가사가 된다. 칼과 말발굽의 백 년이 윤슬의 노래 속에서 비로소 숨을 고른다.
 @if fix >= 1 -> tr_ok
 [먹물] 최충헌 최우 구분하는 사람 손 ㅋ
-@cutin comments
 [댓글] 저도 최씨가 다 같은 사람인 줄……
 @jump tr_af
 @label tr_ok
 [먹물] 최충헌 최우 구분하는 사람 손 ㅋ
+@cutin comments
 [댓글] 손 듭니다. 아빠 교정도감 아들 정방. 가사로 외움
 @label tr_af
 @hud TRACK 08 RELEASED // 「칼과 말발굽」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 쇠별 {soebyeol} · 단비 {danbi}

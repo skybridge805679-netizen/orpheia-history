@@ -830,11 +830,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 침방 나인의 바늘과 청계천의 삽, 배다리 위의 행렬이 한 줄씩 가사가 된다. 상복 한 벌로 다투던 조정의 백 년이 윤슬의 노래에서 쓴웃음처럼 울린다.
 @if fix >= 1 -> tr_ok
 [먹물] 영조 정조 업적 바꿔 불러도 아무도 모름 ㅋ
-@cutin comments
 [댓글] 균역법 정조 아니에요? 가사가 그렇게 들림
 @jump tr_af
 @label tr_ok
 [먹물] 영조 정조 업적 바꿔 불러도 아무도 모름 ㅋ
+@cutin comments
 [댓글] 균역법은 영조! 신해통공은 정조! 노래가 할아버지 손자 갈라 줌
 @label tr_af
 @hud TRACK 12 RELEASED // 「상복 3년 대 1년」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 매향 {maehyang} · 초련 {choryeon} · 화선 {hwaseon} · 설아 {seola}

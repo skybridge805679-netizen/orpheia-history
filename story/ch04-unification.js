@@ -370,7 +370,6 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 @show ara angry left
 [가온|angry] 그러는 그쪽은 우리 나리가 군사 빌리러 갔을 때 땅부터 내놓으라고 하셨잖아요!
 [상철] 둘 다 그만. 지금 같은 배에 타고 있잖아.
-@cutin shock
 [아라|surprised] ……그러네요.
 [가온|surprised] ……그러네요.
 @show orpheia smile center
@@ -542,11 +541,11 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 현악이 살수의 물살처럼 밀려오다 황산벌에서 북소리로 꺾이고, 기벌포의 파도 위에서 윤슬이 마지막 음을 길게 끌어올리자 칠십 년 전쟁이 한 곡 안에 들어앉는다.
 @if fix >= 1 -> tr_ok
 [먹물] 을지문덕이든 강감찬이든 이긴 건 똑같은데 ㅋ
-@cutin comments
 [댓글] 강감찬 살수 아니었어요? 가사에 그렇게 들렸는데
 @jump tr_af
 @label tr_ok
 [먹물] 을지문덕이든 강감찬이든 이긴 건 똑같은데 ㅋ
+@cutin comments
 [댓글] 살수=을지문덕, 귀주=강감찬. 이 노래 이후로 안 헷갈림
 @label tr_af
 @hud TRACK 04 RELEASED // 「칠십 년의 전쟁」|♪ 구독자 {subs}명|◇ 고증 신뢰도 {trust}|♡ 오르페이아 {orp}/100 · 아라 {ara} · 가온 {gaon}
