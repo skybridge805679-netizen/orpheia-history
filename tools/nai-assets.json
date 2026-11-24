@@ -1492,6 +1492,741 @@
      "y": 0.52
     }
    ]
+  },
+  {
+   "id": "cg_kk_noeul_kiss",
+   "size": "bg",
+   "seed": 2611501,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, sunset on top of an ancient earthen fortress wall, red burning sky, she pounces on a hooded young man sitting on the wall and kisses him, her tiger tail wagging, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "girl, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, orange hair with black tiger stripes, tiger ears, animal ear fluff, ears sticking out above the hair, amber eyes with slit pupils, small fang, luxurious ancient noble attire, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, jade hair stick, small gold hair ornaments tucked behind the ears, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, elegant and haughty, confident, pouncing, arms around his neck, kissing him, tiger tail raised, eyes closed, blush, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, sitting, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_dallae_kiss",
+   "size": "bg",
+   "seed": 2611502,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dusk at an ancient village market packing up, wooden stalls, she grabs a hooded young man by the hood strings and kisses him, wooden tally tablets dropped on the ground, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "dallae",
+     "prompt": "girl, merchant, black hair, low bun, hairpin, brown eyes, ancient clothes, plain brown hemp robe, wide sleeves, cloth belt, no embroidery, rough fabric, cloth bundle on back, pulling his hood strings, standing on tiptoes, kissing him, eyes closed, blush, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, leaning down, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_irang_kiss",
+   "size": "bg",
+   "seed": 2611503,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night by a stream with a dying campfire, a large rock, she pulls a hooded young man behind the rock and kisses him, a wooden practice sword leaning on the rock, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "irang",
+     "prompt": "girl, silla noble girl disguised as a young man, black hair tied up in a high topknot with a red hair band, a few loose strands, bright fierce dark eyes, slightly flat chest bound with cloth, silla hwarang youth outfit, white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist, topknot loosened, kissing him, eyes closed, blush, hand on his chest, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_eunsil_kiss",
+   "size": "bg",
+   "seed": 2611504,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, sunset below huge ancient burial mounds on a hillside, a twelve string zither laid on the grass, she kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "eunsil",
+     "prompt": "girl, gaya court musician maiden, very long straight black hair with a small gold hair ornament, gentle droopy brown eyes, pale skin, calm graceful, ancient gaya clothes, long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, kissing him, eyes closed, blush, hands clasped on his chest, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, hand on her back, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_naru_kiss",
+   "size": "bg",
+   "seed": 2611505,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, on a small wooden boat on the sea near green islands at dawn after a naval battle, fading smoke, she leans from the bow and kisses a hooded young man sitting in the boat, a long wooden pole resting on the boat, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "naru",
+     "prompt": "girl, river spirit ferrywoman, long purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, faint glowing water ripples around her ankles, leaning down, kissing him, eyes closed, blush, braid swinging, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting in the boat, being kissed, looking up, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_ara_kiss",
+   "size": "bg",
+   "seed": 2611506,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, sunset on a hill above a riverside road, she presses a feathered arrow into his hand and kisses a hooded young man, a bow on her back, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "ara",
+     "prompt": "girl, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, open mouth, kissing him, eyes closed, blush, pressing an arrow into his hand, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, holding an arrow, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_gaon_kiss",
+   "size": "bg",
+   "seed": 2611507,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, sunset at an ancient korean seaside fortress port, ships in the distance, she stands on tiptoes and kisses a hooded young man, a small notebook falling from her hand, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "gaon",
+     "prompt": "girl, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, open mouth, standing on tiptoes, kissing him, eyes closed, deep blush, dropping notebook, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_haerang_kiss",
+   "size": "bg",
+   "seed": 2611508,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, a wide ancient city avenue at dusk with tiled roofs, she pulls a hooded young man down by the collar and kisses him, strong and shy at once, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "haerang",
+     "prompt": "girl, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, pulling his collar, kissing him, eyes closed, blush, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, bending down, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_ullim_kiss",
+   "size": "bg",
+   "seed": 2611509,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dawn at a mountain buddhist temple bell pavilion, a large bronze bell still ringing with sound ripples, she floats down and kisses a hooded young man, her toes fading into light, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "ullim",
+     "prompt": "girl, celestial maiden, feitian, apsara, very fair skin, very long flowing hair floating upward as if underwater, teal green hair, verdigris hair, gradient hair, gold hair tips, two-tone hair, gold eyes, dreamy gentle eyes, small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms and body, hagoromo, floating scarf, gold beaded necklaces, jeweled ornaments, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, konghou, floating slightly above the ground, floating, kissing him, eyes closed, floating scarf, fading feet, glowing, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, looking up, humming, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_sara_kiss",
+   "size": "bg",
+   "seed": 2611510,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, a busy ancient harbor in the morning, wooden merchant ship leaving, she drops her luggage bundle on the pier and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "sara",
+     "prompt": "girl, sogdian merchant's daughter, wavy long crimson red hair, tanned olive skin, golden amber eyes, exotic beauty, small gold earrings, central asian silk merchant clothes, red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, a small incense pouch, kissing him, eyes closed, blush, arms around his neck, silver coin necklace, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, holding her waist, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_haneui_kiss",
+   "size": "bg",
+   "seed": 2611511,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on top of a traditional tiled stone wall in winter, she leans down from the wall and kisses a hooded young man standing below, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "haneui",
+     "prompt": "girl, unified silla noblewoman, jingol aristocrat lady, long glossy black hair in an elegant high updo with gold hairpins and a gold flower hair ornament, a few loose strands framing her face, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves tied with a silk sash at the waist, long pleated pale lavender silk skirt, sheer silk shawl draped over her shoulders, small jade pendant, open mouth, sitting on a wall, leaning down, kissing him, eyes closed, blush, interlocked fingers, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing below the wall, being kissed, looking up, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_maru_kiss",
+   "size": "bg",
+   "seed": 2611512,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on a wide wooden traditional korean hall floor (daecheong), a ring of brass keys on the floor, she kneels and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "maru",
+     "prompt": "girl, goryeo provincial noble family eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, gentle but firm face, light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at the waist, ring of iron keys hanging from her sash, open mouth, kneeling, kissing him, eyes closed, blush, hand holding a small key, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling, being kissed, key in his palm, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_seori_kiss",
+   "size": "bg",
+   "seed": 2611513,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, snowy night in an old northern korean town, she wraps a scarf around both of them and kisses a hooded young man, a fur hat, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "seori",
+     "prompt": "girl, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, open mouth, kissing him, eyes closed, red nose, blush, shared scarf, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, shared scarf, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_yeoul_kiss",
+   "size": "bg",
+   "seed": 2611514,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dawn at a busy goryeo trade port pier with ships, she grabs a hooded young man's sleeve and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "yeoul",
+     "prompt": "girl, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, open mouth, kissing him, eyes closed, teary, blush, holding his sleeve, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_soebyeol_kiss",
+   "size": "bg",
+   "seed": 2611515,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dusk on a stone fortress wall by the sea, she lifts a hooded young man off the ground and kisses him, soot on her cheek, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "soebyeol",
+     "prompt": "girl, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic over a short jacket tied at the waist, leather apron, wide hemp trousers, straw sandals, open mouth, lifting him, kissing him, eyes closed, soot on cheek, blush, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lifted off the ground, being kissed, flustered, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_danbi_kiss",
+   "size": "bg",
+   "seed": 2611516,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, evening at the gate of a modest goryeo house, a piece of nurungji scorched rice in her hand, she kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "danbi",
+     "prompt": "girl, goryeo commoner maiden, long black hair deliberately messy and tousled with a few strands sticking out, big lively dark eyes, small mole under one eye, plain pale pink jeogori with a short white collar, faded blue long skirt, cloth shoes, open mouth, kissing him, eyes closed, blush, messy hair, holding nurungji, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_sodam_kiss",
+   "size": "bg",
+   "seed": 2611517,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night in a palace courtyard with fire glow in the distance, she hides with a hooded young man in the shadow of a palace pillar and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "sodam",
+     "prompt": "girl, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, kissing him, eyes closed, trembling, blush, holding his sleeve, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, shielding her, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_goyo_kiss",
+   "size": "bg",
+   "seed": 2611518,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night under a large ginkgo tree in a palace garden, a candle lantern on the ground, she kisses a hooded young man, faint blue glow, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "goyo",
+     "prompt": "girl, korean virgin ghost (cheonyeo gwishin), extremely long straight black hair down to her ankles, pale white skin, sad gentle black eyes, faint blue glow, slightly transparent edges, plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, kissing him, eyes closed, blush, cold hands on his cheeks, glowing, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_dodam_kiss",
+   "size": "bg",
+   "seed": 2611519,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night in a field hospital tent lit by an oil lamp, she holds his wrist and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "dodam",
+     "prompt": "girl, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist, open mouth, kissing him, eyes closed, blush, holding his wrist, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, being kissed, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_tsubaki_kiss",
+   "size": "bg",
+   "seed": 2611520,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night beside a stone wall of a japanese trade settlement, camellia bushes with red flowers, she kisses a hooded young man after a bow, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "tsubaki",
+     "prompt": "girl, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, kissing him, eyes closed, blush, camellia in hair, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_maehyang_kiss",
+   "size": "bg",
+   "seed": 2611521,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dawn on a riverside stone embankment in old seoul, she shares a half yakgwa cookie and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "girl, graceful mature adult woman, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, kissing him, eyes closed, blush, holding half a cookie, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_choryeon_kiss",
+   "size": "bg",
+   "seed": 2611522,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night in an empty guest hall after a banquet, a geomungo zither on the floor, she grabs a hooded young man's sleeve and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "girl, proud young adult woman, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, smug smirk, chin up, kissing him, eyes closed, blush, tsundere, holding his sleeve, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_hwaseon_kiss",
+   "size": "bg",
+   "seed": 2611523,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dusk at an old market alley as stalls close, she spins in a dance and kisses a hooded young man mid-turn, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "girl, playful energetic young adult woman, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, peace sign, dancing, kissing him, eyes closed, blush, flowing sleeves, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, holding her hand, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_seola_kiss",
+   "size": "bg",
+   "seed": 2611524,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, moonlit night outside a mansion wall, she hides both their faces behind an open folding fan and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "girl, elegant young adult woman, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, joseon gisaeng, short jade green jeogori with crimson cuffs and a long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under the bust, half-closed eyes, kissing him, eyes closed, blush, folding fan raised, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_choa_kiss",
+   "size": "bg",
+   "seed": 2611525,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night by a brazier in an inn courtyard, a red rope around both wrists, she kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "choa",
+     "prompt": "girl, joseon female detective (damo), black hair in a tight low bun with a plain wooden hairpin, sharp narrow dark eyes, dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers for running, black cloth sash with a coiled red rope, an iron baton in her hand, straw sandals, small cool smirk, kissing him, eyes closed, blush, wrists tied with red rope, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting, being kissed, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_dano_kiss",
+   "size": "bg",
+   "seed": 2611526,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, daytime at a busy riverside traditional market, she pulls a hooded young man behind a stall and kisses him, a storybook in her hand, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "dano",
+     "prompt": "girl, lively young adult woman, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, kissing him, eyes closed, blush, holding a storybook, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_bada_kiss",
+   "size": "bg",
+   "seed": 2611527,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on black volcanic rocks by the sea with a bonfire, she kisses a hooded young man, an orange round buoy float beside them, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "bada",
+     "prompt": "girl, jeju island haenyeo diver girl, short wavy black hair wet with seawater, sun-tanned skin, bright cheerful dark eyes, healthy athletic body, traditional white cotton haenyeo diving clothes (sleeveless top and shorts), a cloth headscarf, diving goggles on her forehead, an orange gourd float (tewak) with a net, iron abalone hook, kissing him, eyes closed, blush, wet hair, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_garam_kiss",
+   "size": "bg",
+   "seed": 2611528,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, evening in a small rented room with a matchlock rifle hung on the wall, she holds his hand and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "garam",
+     "prompt": "girl, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask and small pouches at her waist, matchlock musket slung on her back, calm, kissing him, eyes closed, red ears, blush, holding his hand, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_bori_kiss",
+   "size": "bg",
+   "seed": 2611529,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, summer day at a manchurian army camp, rice balls in a cloth bundle, she shoves rice balls into his arms and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "bori",
+     "prompt": "girl, young young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, kissing him, eyes closed, blush, pushing rice balls into his arms, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding rice balls, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_ellie_kiss",
+   "size": "bg",
+   "seed": 2611530,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, snowy night in a western style alley with brick buildings and a church, she buries her face in his scarf and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "ellie",
+     "prompt": "girl, american missionary's daughter in 1900s korea, long wavy blonde hair half up with a navy ribbon, blue eyes, fair skin, freckles, 1900s western clothes, white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, kissing him, eyes closed, blush, scarf around her neck, snow on hair, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_hanbyeol_kiss",
+   "size": "bg",
+   "seed": 2611531,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, evening in an empty 1930s school classroom with a blackboard, she takes off her glasses and kisses a hooded young man, a notebook on the desk, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "hanbyeol",
+     "prompt": "girl, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, kissing him, eyes closed, blush, holding glasses, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_chunmei_kiss",
+   "size": "bg",
+   "seed": 2611532,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dawn in an empty rented attic room in 1930s shanghai, steam from a bamboo steamer, she kisses a hooded young man with flour on her cheek, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "chunmei",
+     "prompt": "girl, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, kissing him, eyes closed, blush, flour on cheek, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_bomnae_kiss",
+   "size": "bg",
+   "seed": 2611533,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, winter evening in a 1970s back alley by a closed factory, she stands on tiptoes and kisses a hooded young man, a folded handkerchief, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "bomnae",
+     "prompt": "girl, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, slightly flushed cheeks, light blue work blouse with sleeves rolled up, navy work skirt to below the knee, white factory apron with thread scraps, a thimble on her finger, canvas sneakers, open mouth, standing on tiptoes, kissing him, eyes closed, teary, blush, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, holding a folded handkerchief, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_dasom_kiss",
+   "size": "bg",
+   "seed": 2611534,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, day near the joint security area border line with blue buildings, she grabs a hooded young man and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "dasom",
+     "prompt": "girl, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, black hair, kissing him, eyes closed, blush, gripping his hoodie, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_moa_kiss",
+   "size": "bg",
+   "seed": 2611535,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night on a crowded seoul street after a world cup football celebration, red crowds and confetti, city lights, she jumps on a hooded young man and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "moa",
+     "prompt": "girl, 1990s korean gyaru girl, bleached light brown long hair with highlights, tanned skin, bright playful eyes, heavy eyeliner, pink lip gloss, 1990s korean street fashion, cropped white tee, oversized baggy hip hop jeans, chunky sneakers, a pager clipped to her belt, plastic hair clips, hoop earrings, v sign, kissing him, eyes closed, blush, arms around his neck, red devil horn headband, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, catching her, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
   }
  ]
 }

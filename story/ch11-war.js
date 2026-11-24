@@ -314,6 +314,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @label dd2_x
 [도담|smile] 처방 하나 할게요. 손님은 지금 바로 주무세요. 안 그러면 쓴 약 한 사발이에요. ……저도 이번엔 같이 잘게요. 의원도 오늘은 좀 일찍.
 @hide all
+@bg cg_kk_dodam_kiss|bg_era_refugee_road
+도담은 상철의 손목에 짚었던 손가락을 그대로 두고, 등잔불 쪽으로 몸을 기울였다. 맥이 한 번 크게 뛰는 걸 손끝으로 느끼고 나서야, 도담은 눈을 감고 입을 맞췄다.
+[도담|shy] ……방금 맥, 기록해 뒀어요. 다음에 오실 때 똑같이 뛰나 볼 거예요. 안 뛰면 쓴 약 한 사발이에요.
+@bg bg_era_refugee_road
+@hide all
 @bg bg_era_refugee_road
 @hide all
 @hide all
@@ -469,6 +474,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @label tb2_x
 [츠바키|smile] 기록꾼 님. 이 담을 넘을 때마다 무서웠는데, 오늘은 덜 무섭사와요. ……아니, 덜 무서워요. 마지막 말은 조선말로 할래요.
 @hide all
+@bg cg_kk_tsubaki_kiss|bg_era_seaside_fortress
+츠바키는 깍듯하게 한 번 고개를 숙였다. 그리고 고개를 들며, 이번에는 절이 아닌 걸음으로 한 발 다가와 상철의 입술에 입을 맞췄다. 동백 덤불이 바람에 흔들려 붉은 꽃잎 하나가 둘 사이로 떨어졌다.
+[츠바키|shy] 아라……. 이건 단어장에 없는 인사이옵니다. 아니, 없는 인사예요. 바닷길이 이어지면, 꼭 다시 해 주세요.
+@bg bg_era_waegwan|bg_era_seaside_fortress
+@hide all
 @bg bg_era_waegwan|bg_era_seaside_fortress
 @hide all
 @show orpheia explain center
@@ -575,6 +585,11 @@ VN.chapter('ch11','제11장','붓의 다툼, 칼의 바다',`
 @show naru smile right
 @show orpheia smile left
 [나루|smile] 전쟁은 끝났수. 이제 노 대신 그물 잡아야지. 바다는 그대로니까. ……손님 줄엔 '같이 저음'이라고 적어 둘게요.
+@hide all
+@bg cg_kk_naru_kiss|bg_era_hansando
+포연이 걷힌 바다 위로 아침 해가 떠올랐다. 나루는 상앗대를 뱃전에 기대 세우고, 앉아 있던 상철 쪽으로 몸을 숙여 입을 맞췄다. 천이백 년 동안 손님을 태우기만 하던 사람이, 처음으로 손님을 붙잡는 입맞춤이었다.
+[나루|shy] ……뱃삯이에요. 이번엔 내가 냈수. 다음 나루에서 또 만나면, 그땐 손님이 내요.
+@bg bg_era_hansando
 @hide all
 @bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실

@@ -386,6 +386,11 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @label bd2_x
 [바다|shy] 육지 양반. 섬 밖 바다 보러 갈 때요, 나 숨 차면 휘파람 불 테니까 꼭 돌아봐요. 약속.
 @hide all
+@bg cg_kk_bada_kiss|bg_era_jeju_coast
+모닥불 너머로 파도가 검은 바위를 쓸고 지나갔다. 바다는 숨비소리를 내듯 숨을 크게 들이쉬고는, 그 숨을 다 내쉬기 전에 상철의 입술에 닿았다. 젖은 머리에서 짠 냄새가 났다.
+[바다|shy] ……숨 참고 한 거예요. 물질할 때처럼요. 다음에 숨 차면 휘파람 불 테니까, 그때 또 해 줘요.
+@bg bg_era_jeju_coast
+@hide all
 @bg bg_era_jeju_coast
 @hide all
 @bg bg_era_seodang
@@ -455,6 +460,11 @@ VN.chapter('ch13','제13장','장터의 노래, 실학의 붓',`
 @show dano smile right
 @show orpheia smile left
 [단오|smile] 다음 장날에 또 와요! 그땐 『심청전』 읽어 줄게요. 물론 유료 회차로!
+@hide all
+@bg cg_kk_dano_kiss|bg_era_songpa_market
+단오는 장터 사람들 눈을 피해 상철을 좌판 뒤로 끌어당겼다. 이야기책을 한 손에 든 채, 대목을 끊을 때처럼 숨을 한 번 멈추고 입을 맞췄다.
+[단오|shy] ……여기서 끊수. 다음 대목은 다음 장날에. 엽전은 안 받을 테니, 손님 몸으로 와서 들으우.
+@bg bg_era_songpa_market
 @hide all
 @bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실

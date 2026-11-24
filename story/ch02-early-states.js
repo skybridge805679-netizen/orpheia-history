@@ -137,6 +137,11 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [노을|angry] 흥. 하얀 것, 다음엔 지지 않으리라.
 @label ne5x
 @hide all
+@bg cg_kk_noeul_kiss|bg_era_gojoseon
+성벽을 내려가려던 상철의 등 뒤로 바람 소리가 먼저 덮쳤다. 노을이 범처럼 몸을 날려 그의 목에 팔을 감았고, 불붙은 하늘 아래서 입술이 부딪치듯 닿았다. 꼬리가 성벽을 탁탁 두드리는 소리만 한참 이어졌다.
+[노을|shy] ……냄새를 남겨 두었느니라. 냄새 없는 자여, 이제 그대에게선 이 몸의 냄새가 나리라. 다른 굴로 새지 말거라.
+@bg bg_era_gojoseon
+@hide all
 
 @dive 기원전 194년|위만이 온 해
 @bg bg_era_gojoseon_river|bg_era_gojoseon
@@ -583,6 +588,11 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [달래|angry] 쳇. 저 메이드는 외상이 없어서 좋겠다.
 @label dl4x
 [달래|smile] 가요, 가! 뒤돌아보면 외상 하나 더 단다!
+@hide all
+@bg cg_kk_dallae_kiss|bg_era_sodo
+등을 돌리던 상철의 두건 끈이 홱 당겨졌다. 장부 나뭇조각이 흙바닥에 우르르 쏟아지는 사이, 달래가 발끝을 세워 그 입술에 제 입술을 꾹 눌렀다. 흥정할 틈도 없이 짧고 단단한 입맞춤이었다.
+[달래|shy] ……이건 외상 아니우. 선금이오. 선금 받았으면 물건 가지러 꼭 와야 하는 거, 장사꾼 세상의 법이수.
+@bg bg_era_sodo
 @hide all
 @bgm auto
 @bg bg_era_buyeo_festival

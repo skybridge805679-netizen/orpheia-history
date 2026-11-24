@@ -592,6 +592,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 [은실|teary] 받아 적어 준다……. 그럼 제 소리는 저보다 오래 남겠네요. (덩이쇠를 품에 도로 넣으며) 그래도 저도 오래 살 거예요. 제 소리가 남는 거 직접 보려면요.
 @label es2_x
 @hide all
+@bg cg_kk_eunsil_kiss|bg_era_goryeong
+무덤 그림자가 길게 눕는 사이, 은실이 가야금을 풀밭에 조심스레 내려놓았다. 그리고 줄을 고를 때처럼 숨을 한 번 고르더니, 상철의 가슴에 두 손을 얹고 살며시 입을 맞췄다.
+[은실|shy] ……이건 무덤에 안 묻을 거예요. 소리처럼 바깥에 두고, 할머니 될 때까지 꺼내 볼 거예요. 그러니까 꼭 다시 와요.
+@bg bg_era_goryeong
+@hide all
 @bg bg_era_goryeong
 @hide all
 
@@ -786,6 +791,11 @@ VN.chapter('ch03','제3장','한강의 주인',`
 @label ir2_b
 [이랑|teary] 같이 서 있겠다고? 쫓겨나는 날에? (목검을 무릎에 눕히며) ……그날이 오면 나도 원래 목소리로 대답할게. 「나는 이랑이다」, 사내 말투 말고.
 @label ir2_x
+@hide all
+@bg cg_kk_irang_kiss|bg_era_hwarang_field
+모닥불이 마지막 불씨를 튀겼다. 이랑은 매듭을 다 묶지도 않은 채 바위 뒤로 상철을 끌어당기더니, 사내 흉내도 다 잊은 얼굴로 입을 맞췄다. 냇물 소리가 두 사람의 숨을 덮어 주었다.
+[이랑|shy] ……흐앗. 이, 이건 임전무퇴야. 물러서면 안 되는 싸움이라서. 다음에 만날 땐 사내 이름 말고 내 이름으로 해 줄게.
+@bg bg_era_hwarang_field
 @hide all
 @bg bg_era_hwarang_field
 @hide all

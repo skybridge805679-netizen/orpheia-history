@@ -298,6 +298,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [매향|smile] 손님 댁은 하얀 아가씨까지 챙기시는군요. 그래서 동생들이 다 손님 편이구나.
 @label kk_mae_x
 @hide all
+@bg cg_kk_maehyang_kiss|bg_era_cheonggyecheon_dredge
+약과 반쪽을 받아 든 매향이 잠시 망설였다. 동생들이 없는 새벽 강가라는 걸 확인하고서야, 맏이는 처음으로 제 차례를 먼저 집었다. 짧고 조용한 입맞춤이었다.
+[매향|shy] ……동생들한테는 비밀이에요. 맏이가 먼저 집은 건 이게 처음이니까요. 이 맛은 새벽 시조로만 남겨 둘게요.
+@bg bg_era_cheonggyecheon_dredge
+@hide all
 @bg bg_era_joseon_village
 @day 시골 마을 · 같은 무렵|조선 영조 · 1750년 무렵(균역법)
 [농민] (첩지를 들고 어리둥절해하며) 선무군관이라오. 서북 빼고 여섯 도에서, 양반은 아니지만 군보로만 쓰기엔 아까운 사람들을 뽑아 이 직함을 준다더군. 평소엔 군포를 1필씩 내고.
@@ -386,6 +391,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [오르페이아|smile] 채보 시작할게요♪ 제목은 '둘째의 다섯째 줄', 장르는 츤데레 산조로요.
 [초련|angry] 장르 이름 좀 바꿔요! ……산조는 맞아요. 그건 인정.
 @label cr2_x
+@hide all
+@bg cg_kk_choryeon_kiss|bg_era_joseon_night
+초련은 다섯째 줄을 쓸던 손으로 상철의 소매를 홱 잡아당겼다. 고개를 돌린 채였는데도 입술만은 정확히 제자리를 찾아 닿았다. 줄을 고를 때처럼 한 치도 어긋나지 않았다.
+[초련|shy] ……흥. 착각하지 마요. 줄 맞춘 값이에요. 다음에 또 맞히면, 그땐 값을 두 배로 쳐 줄 테니까 꼭 와요.
+@bg bg_era_yangban_banquet|bg_era_joseon_night
 @hide all
 @hide all
 @bg bg_era_gyeongbokgung
@@ -495,6 +505,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [화선|smile] 막내 노래에 서방님 박수라니! 잔치가 다시 시작됐다! 오늘은 안 끝나는 잔치예요!
 @label hs2_x
 @hide all
+@bg cg_kk_hwaseon_kiss|bg_era_jongno_alley
+박자를 맞춰 한 바퀴 돈 화선이 그대로 상철 품으로 뛰어들었다. 소매 자락이 둘을 휘감는 사이 입술이 닿았고, 이번만큼은 화선도 넘어지지 않았다.
+[화선|shy] 잔치 끝! ……아니, 안 끝났어요. 이건 다음 잔치까지 이어지는 박자예요. 서방님, 박자 놓치면 안 돼요.
+@bg bg_era_jongno_alley
+@hide all
 @bg bg_era_jongno_alley
 @hide all
 @quiz 71-23
@@ -558,6 +573,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @label so2_b
 [설아|teary] 제 이름으로요? 기생 설아 말고, 그냥 설아로? ……그런 날이 오면, 저는 처음으로 얼굴을 다 내놓고 부를게요.
 @label so2_x
+@hide all
+@bg cg_kk_seola_kiss|bg_era_joseon_night
+설아가 부채를 활짝 펴서 담장 쪽에서 둘의 얼굴을 가렸다. 달빛이 부채살 사이로 새어 드는 동안, 막내는 아무에게도 들려주지 않던 노래처럼 조용히 입을 맞췄다.
+[설아|shy] ……이것도 비밀이에요. 가사 속에 한 줄 숨겨 둘게요. 서방님만 알아들으실 줄로요.
+@bg bg_era_joseon_night
 @cutin pout
 [오르페이아|pout] (비밀이 두 개째예요, 주인님. 제 기록 폴더에 '설아 씨 비밀' 하위 폴더가 생겼어요. 잠금 걸어 둘게요.)
 @hide all
@@ -710,6 +730,11 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [오르페이아|smile] (숯 남은 걸 보면 삼십 분쯤이에요, 주인님.)
 [초아|pout] 삼십 분이면 충분해요. 조용히 해 줘요.
 @label kk2_choa_x
+@hide all
+@bg cg_kk_choa_kiss|bg_era_jeongju
+화롯불이 사그라들 무렵, 초아가 상철 어깨에서 고개를 들었다. 붉은 오랏줄로 제 손목과 상철의 손목을 한 바퀴 감고 나서야, 초아는 눈을 감고 입을 맞췄다.
+[초아|shy] ……증거 보존이에요. 십 년을 기다렸으니 이 정도는 남겨야죠. 다음에 오면 이 매듭부터 확인할 거예요.
+@bg bg_era_jeongju
 @bg bg_era_jeongju
 @hide all
 @bg bg_era_jinju_1862

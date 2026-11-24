@@ -461,6 +461,11 @@ VN.chapter('ch05','제5장','바다 동쪽의 번성한 나라',`
 @show orpheia smile left
 [해랑|smile] 고마워요, 기록꾼님. 다음에 오면 상경 큰길 같이 걸어요. 그땐 제가 업어 줄게요. 개울 말고, 큰길에서요.
 @hide all
+@bg cg_kk_haerang_kiss|bg_era_sanggyeong
+해랑은 웃으며 돌아서다 말고 다시 성큼 다가왔다. 사슴도 들쳐 메는 손이 상철의 옷깃을 움켜쥐어 끌어내렸고, 상경 큰길 한복판에서 입술이 닿았다. 그 손은 끝까지 조금 떨리고 있었다.
+[해랑|shy] ……첫날밤 신부는 향이 나야 한다고 했잖아요. 이건 그 전에 미리 하는 거예요. 털옷 냄새 나도 모른 척해요, 남쪽 사람.
+@bg bg_era_sanggyeong
+@hide all
 @bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
 @phone on

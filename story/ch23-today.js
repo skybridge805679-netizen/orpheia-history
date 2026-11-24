@@ -264,6 +264,11 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @show moa shy center
 [모아|shy] ……아저씨. 오늘은 집에 안 갈래. 이런 밤은 평생 한 번이잖아.
 @hide all
+@bg cg_kk_moa_kiss|bg_era_gwanghwamun_2002
+골목 저편에서 「대~한민국」 함성이 다시 터졌다. 모아는 그 소리를 신호 삼아 상철에게 뛰어올라 목에 매달렸고, 붉은 악마 뿔이 후드에 걸리는 것도 아랑곳하지 않고 입을 맞췄다.
+[모아|shy] ……골 들어간 거야. 아저씨한테. 촌스러운 노래 쓰는 사람한테 이러는 거, 나도 처음이거든?
+@bg bg_era_gwanghwamun_2002
+@hide all
 「대~한민국」 소리가 어느 골목에서 잠깐 멎었다가, 새벽이 올 때까지 다시 이어졌다.
 @note 2002 한일 월드컵|김대중 정부 때 한국과 일본이 함께 연 월드컵. 외환 위기를 이겨 낸 뒤(금 모으기, IMF 구제 금융 조기 상환)의 거리 응원.
 @hide all
@@ -369,6 +374,11 @@ VN.chapter('ch23','제23장','선을 넘는 걸음',`
 @show dasom smile right
 @show orpheia smile left
 [다솜|smile] 언젠가 이 선이 없어지는 날도, 기록꾼 님이 와서 봐 주세요.
+@hide all
+@bg cg_kk_dasom_kiss|bg_era_panmunjom
+선 너머 파란 건물을 바라보던 다솜이 갑자기 상철의 후드 앞섶을 움켜쥐었다. 의심 가득하던 눈이 감기고, 다솜은 엄마 이야기 속 사람이 아닌 제 앞의 사람에게 입을 맞췄다.
+[다솜|shy] ……수상해서 확인한 거예요. 진짜 사람인지. 확인했으니까, 다음에도 이렇게 와요.
+@bg bg_era_panmunjom
 @hide all
 @bg bg_studio_dawn|bg_studio_night
 @day 귀환 · 상철의 작업실
