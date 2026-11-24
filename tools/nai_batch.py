@@ -3,7 +3,12 @@
 
 NAI_TOKEN=pst-... python3 tools/nai_batch.py            # 전부
 NAI_TOKEN=pst-... python3 tools/nai_batch.py bg_lecture_room cg_ch01_dolmen   # 골라서
-원본 PNG는 assets/gen/, 게임용 WebP는 assets/ 에 둔다(Pillow가 없으면 PNG만)."""
+원본 PNG는 assets/gen/, 게임용 WebP는 assets/ 에 둔다(Pillow가 없으면 PNG만).
+
+인물 외형은 tools/nai-log.json(인물id → 외형 태그)에서만 꺼내 쓴다. 주문서에는 외형을 적지 않는다.
+  {"id": "st_moa_school", "size": "stand", "transparent": true, "cast": ["moa"], "prompt": "장면·옷·자세 태그"}
+  여러 인물: "chars": [{"cast": "moa", "prompt": "그 인물의 옷·자세", "x": 0.3, "y": 0.5}, …]
+이 도구는 nai-log.json에 아무것도 쓰지 않는다."""
 import json, random, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -15,8 +20,22 @@ items = json.loads((ROOT / "tools/nai-assets.json").read_text(encoding="utf-8"))
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 pick = set(args)
 missing_only = "--missing" in sys.argv  # Actions: assets/<id>.webp 가 없는 것만(원본 PNG는 저장소에 없으므로)
-logp = ROOT / "tools/nai-log.json"
-log = json.loads(logp.read_text(encoding="utf-8")) if logp.exists() else {}
+LOOKS = json.loads((ROOT / "tools/nai-log.json").read_text(encoding="utf-8"))  # 인물 외형(읽기 전용)
+
+
+def looks(cast):
+    """인물 id(하나 또는 목록)의 외형 태그. 없는 id면 멈춘다(오타로 외형 없이 뽑히지 않게)."""
+    ids = [cast] if isinstance(cast, str) else list(cast or [])
+    for c in ids:
+        if c not in LOOKS:
+            sys.exit(f"nai-log.json에 외형이 없는 인물: {c}")
+    return ", ".join(LOOKS[c] for c in ids)
+
+
+def join(*parts):
+    return ", ".join(p for p in parts if p)
+
+
 gen = ROOT / "assets/gen"; gen.mkdir(parents=True, exist_ok=True)
 failed = False
 for it in items:
@@ -27,9 +46,9 @@ for it in items:
         print("건너뜀", png.name); continue
     w, h = SIZES[it.get("size", "bg")]
     seed = it.get("seed") or random.randint(1, 2**32 - 1)
-    prompt = it["prompt"] + (", transparent background" if it.get("transparent") else "")
+    prompt = join(looks(it.get("cast")), it.get("prompt", ""), "transparent background" if it.get("transparent") else "")
     init = it.get("init")
-    chars = it.get("chars")
+    chars = [dict(c, prompt=join(looks(c.get("cast")), c.get("prompt", ""))) for c in it["chars"]] if it.get("chars") else None
     try:
         try:
             png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),
@@ -47,8 +66,6 @@ for it in items:
     except SystemExit as e:  # 한 장이 실패해도 나머지는 계속
         print("실패", it["id"], e); failed = True; continue
     print("생성", png.name, "seed", seed)
-    log[it["id"]] = {"seed": seed, "prompt": it["prompt"], "init": init}
-    logp.write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     try:
         from PIL import Image
         im = Image.open(png)

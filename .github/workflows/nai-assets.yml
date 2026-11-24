@@ -40,14 +40,13 @@ jobs:
           name: nai-assets
           path: |
             assets/gen/*.png
-            tools/nai-log.json
           if-no-files-found: ignore
       - name: 커밋(원래 크기)
         if: always()
         run: |
           git config user.name "orpheia-bot"
           git config user.email "orpheia-bot@users.noreply.github.com"
-          git add assets/*.webp tools/nai-log.json 2>/dev/null || true
+          git add assets/*.webp 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "NAI 에셋 자동 생성"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 5; done; exit 1
