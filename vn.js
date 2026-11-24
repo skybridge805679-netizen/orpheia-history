@@ -815,5 +815,5 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{if(e.key==='Control'&&skip){skip=false;if($('#vn'))paint();}});
 
-return {_s:()=>S,openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
+return {_s:()=>S,_b:()=>({busy,typing:!!typing,hidden,auto,skip}),openSheets,flag:k=>S?.flags?.[k],chapter,title,splash,_pick:null,chapters,_dev:(id,pc)=>{S=fresh(id);if(pc!=null)S.pc=pc;log=[];shell();paint();step();}};
 })();
