@@ -46,6 +46,12 @@ const BGM=(()=>{
   bg_cherry_street:'bgm_outing',bg_riverside_day:'bgm_outing',bg_snow_street:'bgm_outing',bg_spring_cherry:'bgm_orpheia',
   bg_exam_hall:'bgm_exam',bg_exam_room:'bgm_exam',bg_my_room_night:'bgm_night_shift',bg_lecture_room:'bgm_daily',bg_study_cafe:'bgm_night_shift',bg_street_evening:'bgm_outing',bg_museum_hall:'bgm_orpheia',
   cg_ch01_dolmen:'bgm_orpheia',cg_ch02_baekje:'bgm_orpheia',cg_ch03_palace_night:'bgm_orpheia',cg_ch04_goryeo_port:'bgm_orpheia',
+  // 2026.11.24 주인님 지정: 장면 분위기에 맞춘 곡(이름 규칙보다 먼저)
+  cg_ch03_irang:'bgm_romance',cg_ch04_campfire:'bgm_era_ancient',cg_ch06_sayeon_night:'bgm_era_ancient',
+  cg_ch08_soebyeol_news:'bgm_era_goryeo',cg_ch08_ullim_hum:'bgm_orpheia',cg_ch12_maehyang_dawn:'bgm_romance',
+  cg_ch14_garam_grief:'bgm_tragic',cg_ch14_bori_song:'bgm_era_modern',cg_ch20_chunmei:'bgm_era_colonial',
+  cg_ch21_saebyeok_hug:'bgm_romance',cg_ch23_mother:'bgm_tragic',cg_ch23_saebyeok_confess:'bgm_tragic',
+  cg_end_harem_saebyeok:'bgm_romance',cg_end_saebyeok_kiss:'bgm_romance',cg_sp_aunt_lullaby:'bgm_family',cg_sp_sb_night:'bgm_romance',
  };
  let set={volume:.5,muted:false};
  try{Object.assign(set,JSON.parse(localStorage.getItem(KEY)||'{}'));}catch{}
