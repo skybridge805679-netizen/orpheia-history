@@ -81,7 +81,7 @@ function parse(c) {
 
 // ── 5. 점검
 const SPECIAL_SPEAKERS = new Set(['먹물', '댓글', '나', '??', '???', '악귀', '책 속 목소리']);   // 실루엣 없이 말하는 자리(먹물 계정·팬 댓글·1인칭·보이지 않는 목소리)
-const META = /히로인|CG\b|엔딩|컷인|히든|러브코미디|배틀 규칙|주인님 지정|(?<![제0-9])[0-9]{1,2}장(?=[에의은이엔을까부때,·\s)]|$)/;   // 「3장에서 본」 같은 장 번호 회상도 만드는 쪽 말
+const META = /히로인|CG\b|엔딩|컷인|히든|러브코미디|배틀 규칙|주인님 지정|[0-9]단계|(?<![제0-9])[0-9]{1,2}장(?=[에의은이엔을까부때,·\s)]|$)/;   // 「3장에서 본」 같은 장 번호 회상도 만드는 쪽 말
 const standFile = (who, expr) => { const s = CAST[who]?.stand || {}; return s[expr] || null; };
 const quizSeen = new Map();
 for (const c of chapters) {
