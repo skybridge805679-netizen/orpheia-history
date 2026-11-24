@@ -7350,42 +7350,42 @@
   "init": "assets/st_ara_smile.webp"
  },
  "bg_era_goryeong": {
-  "seed": 2832933758,
+  "seed": 3479987332,
   "prompt": "no humans, scenery, outdoors, ancient gaya kingdom of goryeong, royal burial mounds along a green ridge, a wooden palace with thatched roofs below, morning mist",
   "init": null
  },
  "bg_era_hwarang_field": {
-  "seed": 795460312,
+  "seed": 1282108664,
   "prompt": "no humans, scenery, outdoors, ancient silla riverside field with willow trees, archery targets and wooden dummies, river, round royal tombs in the distance, morning",
   "init": null
  },
  "bg_era_ulsan_port": {
-  "seed": 3460003486,
+  "seed": 2322361618,
   "prompt": "no humans, scenery, outdoors, 9th century korean silla harbor of ulsan, wooden piers, arabian dhow ships and korean ships, spice sacks and crates, daytime",
   "init": null
  },
  "bg_era_jeju_coast": {
-  "seed": 3246995103,
+  "seed": 64939501,
   "prompt": "no humans, scenery, outdoors, jeju island coast with black volcanic rocks, turquoise sea, stone walls, thatched houses, 19th century, summer",
   "init": null
  },
  "bg_era_jeongdong": {
-  "seed": 2145556461,
+  "seed": 94783309,
   "prompt": "no humans, scenery, outdoors, 1900s jeongdong street in seoul, red brick western church and school, korean tiled walls, ginkgo trees",
   "init": null
  },
  "bg_era_apgujeong_1993": {
-  "seed": 3189589729,
+  "seed": 266981193,
   "prompt": "no humans, scenery, outdoors, 1990s seoul apgujeong street at evening, neon signs with blank boards, payphones, cafes",
   "init": null
  },
  "bg_era_gwanghwamun_2002": {
-  "seed": 1938331517,
+  "seed": 681020874,
   "prompt": "no humans, scenery, outdoors, seoul gwanghwamun street in june 2002, huge outdoor screen, red balloons and confetti on the road, evening",
   "init": null
  },
  "bg_era_palace_night": {
-  "seed": 3351997558,
+  "seed": 1286008291,
   "prompt": "no humans, scenery, outdoors, gyeongbokgung palace courtyard at night, full moon, wooden pillars and stone steps, lanterns, quiet",
   "init": null
  },
@@ -7450,7 +7450,7 @@
   "init": "assets/st_irang_home.webp"
  },
  "cg_ch03_hwarang": {
-  "seed": 877656633,
+  "seed": 2994871005,
   "prompt": "no humans, scenery, outdoors, ancient silla riverside training field at morning, wooden practice dummies, archery targets, horses tied to willow trees, mist on the river, distant round royal tombs of gyeongju",
   "init": null
  },
@@ -7565,7 +7565,7 @@
   "init": "assets/st_eunsil_home.webp"
  },
  "cg_ch03_jisandong": {
-  "seed": 2085214241,
+  "seed": 2689799483,
   "prompt": "no humans, scenery, outdoors, ancient gaya royal burial mounds lined along a ridge at goryeong, dusk, golden light, grass, distant wooden palace, a twelve string zither left on a mat",
   "init": null
  },
@@ -7680,7 +7680,7 @@
   "init": "assets/st_sara_home.webp"
  },
  "cg_ch06_ulsan": {
-  "seed": 2818710781,
+  "seed": 4127088417,
   "prompt": "no humans, scenery, outdoors, 9th century korean silla harbor of ulsan at sunset, arabian dhow ships with triangular sails beside korean wooden ships, crates and spice sacks on the pier, gulls",
   "init": null
  },
@@ -7795,7 +7795,7 @@
   "init": "assets/st_choa_home.webp"
  },
  "cg_ch12_byeokseo": {
-  "seed": 3789888986,
+  "seed": 3759316982,
   "prompt": "no humans, scenery, outdoors, joseon hanyang alley at night, a paper poster pasted on a stone wall fluttering, a dropped lantern on the ground, moonlight, tense atmosphere",
   "init": null
  },
@@ -7910,7 +7910,7 @@
   "init": "assets/st_bada_home.webp"
  },
  "cg_ch13_jeju_sea": {
-  "seed": 4087131907,
+  "seed": 3692368472,
   "prompt": "no humans, scenery, outdoors, black volcanic rocks of jeju island coast, turquoise sea, orange gourd floats bobbing on the waves, a stone wall, 19th century, bright summer",
   "init": null
  },
@@ -8025,7 +8025,7 @@
   "init": "assets/st_ellie_home.webp"
  },
  "cg_ch15_jeongdong": {
-  "seed": 3606036859,
+  "seed": 1612306499,
   "prompt": "no humans, scenery, outdoors, 1900s jeongdong street in seoul, red brick western style church and schoolhouse, korean tiled roof walls, autumn ginkgo trees, early tram wires",
   "init": null
  },
@@ -8140,7 +8140,7 @@
   "init": "assets/st_goyo_home.webp"
  },
  "cg_ch10_goyo_meet": {
-  "seed": 2016753306,
+  "seed": 3578776977,
   "prompt": "no humans, scenery, outdoors, gyeongbokgung palace pavilion corridor at night, full moon, wooden pillars, faint blue mist, a single candle, quiet eerie but beautiful",
   "init": null
  },
@@ -8255,7 +8255,7 @@
   "init": "assets/st_moa_home.webp"
  },
  "cg_ch23_apgujeong": {
-  "seed": 1437840696,
+  "seed": 4030574737,
   "prompt": "no humans, scenery, outdoors, 1990s seoul apgujeong street at evening, neon signs with blank boards, a roller skating rink entrance, payphones, colorful 90s atmosphere",
   "init": null
  },
@@ -8322,6 +8322,16 @@
  "qs_f162": {
   "seed": 81162,
   "prompt": "1girl, solo, adult woman, tour guide in a green vest and cap holding a small flag, ponytail, black volcanic stone wall and sea in the background, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
+  "init": null
+ },
+ "cg_after_breadwinners": {
+  "seed": 2611250,
+  "prompt": "4girls, 1boy, comedic slice of life, crowded entrance hallway of a small seoul apartment in the morning, a long row of women's shoes, women from different eras of korean history dressed for modern jobs heading out to work and waving, a hooded young man in pajamas waving back from the studio door holding headphones, morning sunlight, masterpiece, no readable text",
+  "init": null
+ },
+ "cg_after_payday": {
+  "seed": 2611251,
+  "prompt": "1girl, 1boy, comedic, small home music studio at night, a desk piled with a mountain of white salary envelopes, a hooded young man wearing big headphones working on music at the computer, his younger sister with crossed arms glaring at him beside the envelope pile, monitor shows only soft blurred glow, masterpiece, no readable text",
   "init": null
  }
 }
