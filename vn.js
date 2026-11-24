@@ -83,6 +83,7 @@ const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄
 // 집옷(home): 현대 실내 장면에서 히로인이 입는 옷(2026.11 주인님 지정, 히로인마다 다른 옷). @show <id> home. 표정은 HOME_EXPR만 따로 그렸다.
 const HOME_IDS='noeul ullim dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom irang eunsil sara choa bada ellie goyo moa'.split(' ');
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
+COSTUME.moa.add('school');   // 모아 교복(종장 후일담 「모아네 집」, st_moa_school)
 const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
