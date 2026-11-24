@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시. 2026.11 스탠딩 개선안(검수 전, 아직 본편에 안 씀): st2_ 이름으로 33장. 새벽(엄마) 반신 4장 전신화, 다솜·한별·도담·해랑·서리 머리색·옷 맞춤, 달래·보리·화선 집옷 셋·단오·아라·쇠별 임신 집옷에서 소품 지우기, 한별·가온·여울 worry·소담 serious·아라 pout 새로. 적용은 검수 뒤 assets/st2_X → st_X로 바꾸고 vn.js CAST에 새 표정을 잇는다(docs/스탠딩-개선안.md). 2026.11 「없던 속성」 새 히로인 8명(이랑·은실·사라·초아·바다·엘리·고요·모아): 193장. 한 명당 스탠딩 8표정+임신+집옷 3, 설정 컷·사건·꽁냥·엔딩·애프터·하렘, 아내 대결 b0~b3(앞 단계 i2i)·win. 새 시대 배경 8. 2026.11 스탠딩 개선안 검수: 통과 30장을 st_로 적용(새 표정 5: st_hanbyeol_worry, st_gaon_worry, st_yeoul_worry, st_sodam_serious, st_ara_pout). 화선 집옷 3장은 지퍼가 열려 맨가슴이 드러나 탈락 → 지퍼 올림·안에 티셔츠로 st2_ 다시. 화선 집옷 3장은 주인님이 지퍼 열린 st2_ 판을 그대로 쓰기로 해서 그 판을 st_로 적용(재주문 취소).",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시. 2026.11 스탠딩 개선안(검수 전, 아직 본편에 안 씀): st2_ 이름으로 33장. 새벽(엄마) 반신 4장 전신화, 다솜·한별·도담·해랑·서리 머리색·옷 맞춤, 달래·보리·화선 집옷 셋·단오·아라·쇠별 임신 집옷에서 소품 지우기, 한별·가온·여울 worry·소담 serious·아라 pout 새로. 적용은 검수 뒤 assets/st2_X → st_X로 바꾸고 vn.js CAST에 새 표정을 잇는다(docs/스탠딩-개선안.md). 2026.11 「없던 속성」 새 히로인 8명(이랑·은실·사라·초아·바다·엘리·고요·모아): 193장. 한 명당 스탠딩 8표정+임신+집옷 3, 설정 컷·사건·꽁냥·엔딩·애프터·하렘, 아내 대결 b0~b3(앞 단계 i2i)·win. 새 시대 배경 8. 2026.11 스탠딩 개선안 검수: 통과 30장을 st_로 적용(새 표정 5: st_hanbyeol_worry, st_gaon_worry, st_yeoul_worry, st_sodam_serious, st_ara_pout). 화선 집옷 3장은 지퍼가 열려 맨가슴이 드러나 탈락 → 지퍼 올림·안에 티셔츠로 st2_ 다시. 화선 집옷 3장은 주인님이 지퍼 열린 st2_ 판을 그대로 쓰기로 해서 그 판을 st_로 적용(재주문 취소). 2026.11 후일담 「바깥양반들」 CG 2(cg_after_breadwinners·cg_after_payday).",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -15371,6 +15371,66 @@
    "prompt": "1girl, solo, adult woman, tour guide in a green vest and cap holding a small flag, ponytail, black volcanic stone wall and sea in the background, gesturing with an open hand toward the left, upper body to thighs, cowboy shot, looking at viewer, friendly smile, background slightly blurred, some empty space at the top of the image",
    "negative": "text, letters, speech bubble, watermark, signature, logo, nsfw, cleavage, swimsuit, revealing clothes, multiple views, chibi, child, loli",
    "seed": 81162
+  },
+  {
+   "id": "cg_after_breadwinners",
+   "size": "bg",
+   "seed": 2611250,
+   "prompt": "4girls, 1boy, comedic slice of life, crowded entrance hallway of a small seoul apartment in the morning, a long row of women's shoes, women from different eras of korean history dressed for modern jobs heading out to work and waving, a hooded young man in pajamas waving back from the studio door holding headphones, morning sunlight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, adult woman, black hair in a low bun with a wooden hairpin, brown eyes, market apron over a modern blouse, holding a ledger notebook, cheerful",
+     "uc": "nude, nipples, child, male",
+     "x": 0.15,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, adult woman, long wavy blonde hair with a navy ribbon, blue eyes, freckles, teacher blazer, holding textbooks, smiling",
+     "uc": "nude, nipples, child, male",
+     "x": 0.36,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, adult woman, black hair in a tight low bun, sharp narrow eyes, black security guard uniform, a coiled red rope at her belt, cool smirk",
+     "uc": "nude, nipples, child, male",
+     "x": 0.56,
+     "y": 0.5
+    },
+    {
+     "prompt": "girl, adult woman, short wavy black hair, tanned skin, rubber fish market apron and boots, big grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.74,
+     "y": 0.52
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, pajamas, holding headphones, waving lazily from a doorway",
+     "uc": "visible eyes",
+     "x": 0.92,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_after_payday",
+   "size": "bg",
+   "seed": 2611251,
+   "prompt": "1girl, 1boy, comedic, small home music studio at night, a desk piled with a mountain of white salary envelopes, a hooded young man wearing big headphones working on music at the computer, his younger sister with crossed arms glaring at him beside the envelope pile, monitor shows only soft blurred glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "girl, young adult woman, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, crossed arms, exasperated glare, vein mark",
+     "uc": "nude, nipples, child, male",
+     "x": 0.3,
+     "y": 0.5
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, wearing big headphones, focused at the keyboard, ignoring her",
+     "uc": "visible eyes",
+     "x": 0.68,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
   }
  ]
 }
