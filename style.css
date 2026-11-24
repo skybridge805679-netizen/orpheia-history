@@ -764,6 +764,47 @@ dialog#vnLog.mgx-dlg::backdrop{background:#05080fcc;backdrop-filter:blur(3px)}
 dialog#vnLog.mgx-dlg h3{color:#f4ecdb}
 .mgx-lobby{min-height:100%;display:flex;flex-direction:column;justify-content:center;gap:18px}.mgx-lobby .mgx-hero{margin-bottom:0}
 .mgx-lobby>*{width:100%;box-sizing:border-box}
+/* 미니게임 보강(2026.11): 시대 고르기·모드 그림·결과 CG·유물·먼저일까·완승 */
+.mgx-art{position:absolute;inset:0;z-index:0;pointer-events:none;background-size:cover;background-position:center;opacity:.13;filter:saturate(.8) blur(1px);-webkit-mask:linear-gradient(90deg,transparent,#000 30%,#000 70%,transparent);mask:linear-gradient(90deg,transparent,#000 30%,#000 70%,transparent)}
+.mgx-era{display:inline-block;margin-right:6px;padding:1px 9px;border-radius:20px;border:1px solid #4fd1c566;color:#9ff0e6;font-size:11.5px;letter-spacing:.06em}
+.mgx-eras{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;max-width:1060px;margin:0 auto}
+.mgx-eras span{font-size:11px;letter-spacing:.28em;color:var(--g);margin-right:4px}
+.mgx-eras button{padding:7px 16px;border-radius:30px;border:1px solid var(--line);background:var(--card);color:#d9cfbb;font:14px var(--f-ui);cursor:pointer;transition:.15s}
+.mgx-eras button:hover{border-color:var(--g);color:var(--g2)}.mgx-eras button.on{background:linear-gradient(90deg,#e6b85c,#f6dfa4);color:#1a1405;border-color:transparent;font-weight:700}
+.mgx-tile{background-size:cover;background-position:center}
+.mgx-hero.art{background:linear-gradient(90deg,#141f3ef5 30%,#141f3e99 55%,#141f3e00 80%),var(--hero) right center/cover,#1b2d55;min-height:200px}
+.mgx-hero.art .mgx-hero-st{display:none}
+/* 유물 */
+.mgx-relic{max-width:620px;margin:0 auto 18px;padding:10px;border-radius:14px;background:#0008;border:1px solid #e6b85c55;text-align:center}
+.mgx-relic img{display:block;width:100%;max-height:min(42vh,380px);object-fit:contain;border-radius:8px;background:#000}
+.mgx-relic figcaption{margin-top:8px;font:400 19px var(--f-title);color:var(--g2)}
+.mgx-res .mgx-credit{display:block;margin-top:4px;font-size:11px;font-weight:400;color:#8a8270}
+/* 먼저일까 */
+.mgx-vs{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;max-width:900px;margin:8px auto 22px}
+.mgx-ev{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;min-height:120px;padding:18px;border-radius:14px;background:linear-gradient(135deg,#ffffff12,#ffffff05);border:1px solid #e6b85c55;text-align:center}
+.mgx-ev b{font:400 21px/1.45 var(--f-title)}.mgx-ev i{font-style:normal;font:700 16px var(--f-ui);color:var(--g2);min-height:1.2em}
+.mgx-arrow{align-self:center;font-size:30px;color:var(--g)}
+.mgx-vs.ok .mgx-ev{border-color:var(--c);background:#4fd1c51a}.mgx-vs.ng .mgx-ev{border-color:var(--r);background:#ff6b6b1a;animation:mgxShake .35s}
+.mgx-ox{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:640px;margin:0 auto 12px}
+.mgx-ox button{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px;border-radius:16px;border:2px solid;background:var(--card);color:#f4ecdb;font:600 16px var(--f-ui);cursor:pointer;transition:transform .1s}
+.mgx-ox button:hover{transform:translateY(-2px)}.mgx-ox button:active{transform:scale(.97)}
+.mgx-ox span{font:700 40px/1 var(--f-ui)}.mgx-ox .o{border-color:#ff7a7a}.mgx-ox .o span{color:#ff7a7a}.mgx-ox .x{border-color:#6aa8ff}.mgx-ox .x span{color:#6aa8ff}
+.mgx-clock{display:inline-block;margin-right:8px;font-weight:700;color:var(--g2)}.mgx-clock.low{color:#ff8a8a;animation:mgxPulse .8s infinite}
+/* 결과 */
+.mgx-result2{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,1fr);gap:24px;align-items:start;max-width:1120px;margin:0 auto}
+.mgx-rcg{margin:0;position:relative;border-radius:14px;overflow:hidden;border:1px solid #e6b85c55;box-shadow:0 14px 40px #0009;background:radial-gradient(#2a3d6b,#0b1224)}
+.mgx-rimg{display:block;width:100%;aspect-ratio:1216/832;object-fit:cover}.mgx-rimg.stand{object-fit:contain;object-position:center top}
+.mgx-rcg figcaption{position:absolute;left:12px;right:12px;bottom:12px;padding:12px 16px;border-radius:10px;background:#0b1224d9;border:1px solid #ffffff22;line-height:1.55;backdrop-filter:blur(4px)}
+.mgx-rcg .mgx-name{background:#2f8f86}
+.mgx-rhead{display:flex;align-items:center;gap:20px}.mgx-rhead .mgx-rank{width:116px;height:116px;flex:0 0 auto}.mgx-rhead .mgx-rank b{font-size:60px}
+.mgx-review{margin-top:16px;padding:12px 16px;border-radius:12px;background:#ffffff08;border:1px solid var(--line);max-height:34vh;overflow:auto}
+.mgx-review h4{margin:0 0 6px;font:400 17px var(--f-title);color:#ffb0b0}.mgx-review h4 small{font:700 12px var(--f-ui);color:#a99f8c;margin-left:4px}
+.mgx-review ol{margin:0;padding-left:1.3em;line-height:1.6;font-size:14px}.mgx-review li{margin-bottom:4px}
+/* 아내 대결 완승 */
+.mgx-cgbox.win{border-color:#e6b85c;box-shadow:0 0 0 1px #e6b85c,0 14px 40px #0009,0 0 40px #e6b85c44}
+.mgx-heartpip{margin-left:4px;color:#ff5d9e;font-size:18px;line-height:16px;text-shadow:0 0 8px #ff5d9e}
+.mgx-wives em b{color:#ff5d9e;font-size:12px;line-height:9px;margin-left:2px}
+@media (max-width:760px){.mgx-result2{grid-template-columns:1fr}.mgx-vs{grid-template-columns:1fr}.mgx-arrow{transform:rotate(90deg);justify-self:center}.mgx-ev{min-height:80px}}
 
 .pf-face.sil img,.pf-art.sil img{filter:brightness(0) opacity(.85)}.pf-art.sil{background:radial-gradient(circle at 50% 40%,#5a5a62,#1a1a20)}
 .pf-life{margin:0;padding-left:1.3em;line-height:1.75}.pf-life li{margin-bottom:4px}

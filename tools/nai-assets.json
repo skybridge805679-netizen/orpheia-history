@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다.",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시.",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -12149,7 +12149,9 @@
    "size": "bg",
    "seed": 2604040,
    "prompt": "1girl, solo, adult woman, young adult woman, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic build, short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, quiver on her back, top of a stone fortress wall, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_ara_b2.webp",
+   "strength": 0.7
   },
   {
    "id": "cg_wife_gaon_b0",
@@ -12177,7 +12179,9 @@
    "size": "bg",
    "seed": 2604050,
    "prompt": "1girl, solo, adult woman, young adult woman, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, silla palace hall with bamboo slips, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_gaon_b2.webp",
+   "strength": 0.7
   },
   {
    "id": "cg_wife_haerang_b0",
@@ -12198,14 +12202,18 @@
    "size": "bg",
    "seed": 6060606,
    "prompt": "1girl, solo, adult woman, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, northern grassland with a balhae palace in the distance, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, white korean breast band (gaseumtti) visible, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_haerang_b1.webp",
+   "strength": 0.66
   },
   {
    "id": "cg_wife_haerang_b3",
    "size": "bg",
    "seed": 6060606,
    "prompt": "1girl, solo, adult woman, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, northern grassland with a balhae palace in the distance, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_haerang_b1.webp",
+   "strength": 0.76
   },
   {
    "id": "cg_wife_haneui_b0",
@@ -12320,7 +12328,9 @@
    "size": "bg",
    "seed": 7070707,
    "prompt": "1girl, solo, adult woman, young adult woman, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, small abacus at her belt, river port with goryeo trading ships, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_yeoul_b2.webp",
+   "strength": 0.7
   },
   {
    "id": "cg_wife_soebyeol_b0",
@@ -12404,7 +12414,9 @@
    "size": "bg",
    "seed": 8080808,
    "prompt": "1girl, solo, adult woman, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, joseon palace kitchen with yakgwa sweets, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a white korean breast band (gaseumtti) and white short sokbaji underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_sodam_b2.webp",
+   "strength": 0.7
   },
   {
    "id": "cg_wife_dodam_b0",
@@ -12447,7 +12459,9 @@
    "size": "bg",
    "seed": 2323241,
    "prompt": "1girl, solo, adult woman, graceful mature adult woman, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, joseon banquet room at night with red plum blossoms, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
-   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature"
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_maehyang_b0.webp",
+   "strength": 0.6
   },
   {
    "id": "cg_wife_maehyang_b2",
@@ -12746,7 +12760,9 @@
    "seed": 1616161,
    "prompt": "1girl, solo, adult woman, young adult woman, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, 1980s korean university campus, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a light pink bra and light pink panties left, only a few shreds of the costume on her arms, her shirt, cardigan and jeans torn off completely and lying on the ground beside her, bare legs, no pants, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature, jeans, denim, pants, wearing pants",
-   "rev": 2
+   "rev": 2,
+   "init": "assets/cg_wife_dasom_b2.webp",
+   "strength": 0.7
   },
   {
    "id": "cg_wife_saebyeok_mom_b0",
@@ -12775,6 +12791,265 @@
    "seed": 1515300,
    "prompt": "1girl, solo, mature adult woman, mature korean woman in her early forties, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, 1980s korean woman, cream silk blouse, long pleated navy skirt, beige cardigan, 1980s korean apartment living room at night, rain on the window, warm lamp light, quiz battle, floating glowing quiz cards and paper slips around her, blouse, skirt and cardigan fallen off completely and lying on the floor beside her, only a champagne lace bra and champagne lace panties left, bare legs, kneeling, full-face blush, teary eyes, shy mature smile, looking at viewer",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature, young girl, teenager"
+  },
+  {
+   "id": "cg_mg_lobby",
+   "size": "bg",
+   "seed": 161008233,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, standing in front of a glowing retro arcade game cabinet, holding a game controller, winking, playful smile, v sign, starry night sky, a long glowing golden thread with floating parchment cards stretching across the sky, neon light, cozy game corner, cowboy shot",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_order",
+   "size": "bg",
+   "seed": 161008234,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, threading a glowing golden thread through floating parchment cards arranged in a line across a starry night sky, beads of light on the thread, focused gentle smile, dynamic pose, magical sparkles, from side",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_who",
+   "size": "bg",
+   "seed": 7171717,
+   "prompt": "1girl, solo, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, sneakers, wireless earphones, detective pose, holding a big magnifying glass up to one eye, behind her a lit paper sliding screen with black silhouettes of people in traditional korean hanbok and gat hats, floating question marks, excited grin, sparkling eyes, cowboy shot",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_pairs",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, black hair, very long hair, hair dissolving into ink, dripping ink, grey eyes, pale skin, black and white hanbok-style dress, ink stains, intact clothes, kneeling on a wooden floor playing a card matching memory game, many face-down paper cards with ink brush patterns spread out, flipping two cards, smug smirk, half-closed eyes, ink droplets floating, moonlit traditional korean room, paper window",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_relic",
+   "size": "bg",
+   "seed": 161008235,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, museum docent, white gloves, holding a magnifying glass, leaning forward to look at a celadon vase in a glass display case, korean history museum hall, soft spotlights, curious sparkling eyes, smile",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_ox",
+   "size": "bg",
+   "seed": 7171718,
+   "prompt": "1girl, solo, young adult woman, 20 years old, light brown wavy medium hair, light blue eyes, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thigh high socks, sneakers, wireless earphones, on a bright tv quiz show stage, holding a big red circle paddle in one hand and a big blue cross-shaped paddle in the other, a giant stopwatch behind her, confetti, spotlights, energetic jumping pose, big grin, open mouth",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_rank_s",
+   "size": "bg",
+   "seed": 161008236,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, jumping with joy, holding a golden trophy over her head, confetti and golden sparkles, fireworks, starry night sky, big open-mouthed smile, happy tears, dynamic angle",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_rank_a",
+   "size": "bg",
+   "seed": 161008237,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, giving a thumbs up and a wink, holding a gold star stamp, small cozy home music studio at night, computer monitors softly glowing, cheerful smile, sparkles, upper body",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_rank_b",
+   "size": "bg",
+   "seed": 161008238,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, sitting at a desk beside a stack of history books and an open notebook with colorful sticky notes, pointing at the notebook with a pen, gentle encouraging smile, desk lamp, small home music studio at night",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_mg_rank_c",
+   "size": "bg",
+   "seed": 161008239,
+   "prompt": "1girl, solo, adult woman, silver white very long hair, straight hair, green eyes, maid headdress, green hair ribbon, maid, black maid dress, long sleeves, white frilled apron, green bowtie, emerald brooch, offering a warm cup of tea with both hands, slightly teary eyes, gentle reassuring smile, head tilt, soft knitted blanket, small home music studio at night, warm lamp light, comforting atmosphere",
+   "negative": "nude, nipples, explicit, child, loli, male, boy, 2girls, multiple views, reference sheet, text, speech bubble, letters, watermark, signature, logo, extra limbs, bad hands"
+  },
+  {
+   "id": "cg_wife_noeul_win",
+   "size": "bg",
+   "seed": 7313131,
+   "prompt": "1girl, solo, adult woman, adult woman, tiger spirit noble lady, very fair porcelain white skin, very long voluminous hair, bright orange hair, black streaks, multicolored hair, streaked hair, striped hair, tiger ears, animal ear fluff, amber eyes with slit pupils, small fang, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairpins, white fur stole, tiger tail, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_ullim_win",
+   "size": "bg",
+   "seed": 7250725,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, celestial maiden, feitian, very fair skin, very long hair floating upward, teal green hair, verdigris hair, gold hair tips, gold eyes, gold forehead jewel, translucent pale jade celestial shawl, gold beaded necklaces, sheer jade silk top, long white and jade skirt, barefoot, floating, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_naru_win",
+   "size": "bg",
+   "seed": 6604417,
+   "prompt": "1girl, solo, adult woman, adult woman, river spirit ferrywoman, long dark purple hair, purple hair, thick single braid over the shoulder tied with a rope cord, small brass bell on the hair tie, pale gold eyes, fair skin, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat on her back, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_dallae_win",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, solo, adult woman, adult woman, merchant, black hair in a low bun with a wooden hairpin, brown eyes, plain brown hemp robe, wide sleeves, cloth belt, fur pelt over one shoulder, cloth bundle, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_ara_win",
+   "size": "bg",
+   "seed": 2604040,
+   "prompt": "1girl, solo, adult woman, young adult woman, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic build, short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, quiver on her back, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_gaon_win",
+   "size": "bg",
+   "seed": 2604050,
+   "prompt": "1girl, solo, adult woman, young adult woman, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_haerang_win",
+   "size": "bg",
+   "seed": 6060606,
+   "prompt": "1girl, solo, adult woman, young adult woman, short dark brown hair, side ponytail, bright green eyes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_haneui_win",
+   "size": "bg",
+   "seed": 2606060,
+   "prompt": "1girl, solo, adult woman, young adult woman, unified silla noblewoman, long glossy black hair in an elegant high updo with gold hairpins and a gold flower ornament, warm amber eyes, gold drop earrings, deep purple silk long jacket with wide sleeves, long pleated pale lavender silk skirt, sheer silk shawl, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_maru_win",
+   "size": "bg",
+   "seed": 2607070,
+   "prompt": "1girl, solo, adult woman, young adult woman, goryeo provincial gentry eldest daughter, long black hair in a low braided bun with a wooden hairpin, warm dark brown eyes, light beige jeogori with burgundy collar and cuffs, long deep green pleated skirt, small apron, ring of iron keys at her sash, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_seori_win",
+   "size": "bg",
+   "seed": 2607080,
+   "prompt": "1girl, solo, adult woman, young adult woman, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, plain fur-trimmed brown hat without any badge, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_yeoul_win",
+   "size": "bg",
+   "seed": 7070707,
+   "prompt": "1girl, solo, adult woman, young adult woman, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, small abacus at her belt, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_soebyeol_win",
+   "size": "bg",
+   "seed": 2608090,
+   "prompt": "1girl, solo, adult woman, young adult woman, goryeo blacksmith village girl, short messy black hair tied back with a cloth band, soot smudge on her cheek, bright determined black eyes, tanned skin, toned arms, sleeveless rough hemp work tunic, leather apron, wide hemp trousers, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_danbi_win",
+   "size": "bg",
+   "seed": 2608100,
+   "prompt": "1girl, solo, adult woman, young adult woman, goryeo commoner maiden, long black hair deliberately messy and tousled, big lively dark eyes, small mole under one eye, plain pale pink jeogori with a short white collar, faded blue long skirt, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_sodam_win",
+   "size": "bg",
+   "seed": 8080808,
+   "prompt": "1girl, solo, adult woman, young adult woman, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori, long deep blue chima skirt, white apron, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_dodam_win",
+   "size": "bg",
+   "seed": 1111201,
+   "prompt": "1girl, solo, adult woman, young adult woman, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder with a red ribbon, herb sprig behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up, deep indigo chima, white work apron, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_maehyang_win",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "1girl, solo, adult woman, graceful mature adult woman, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_choryeon_win",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "1girl, solo, adult woman, proud young adult woman, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_hwaseon_win",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "1girl, solo, adult woman, playful young adult woman, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_seola_win",
+   "size": "bg",
+   "seed": 2323232,
+   "prompt": "1girl, solo, adult woman, elegant young adult woman, joseon gisaeng, glossy black hair in an updo with a braided chignon, white plum blossom ornament and silver binyeo, calm dark grey eyes, snow-white skin, beauty mark under left eye, short jade green jeogori with crimson cuffs and ribbon, long deep rose chima, folded white fan, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_dano_win",
+   "size": "bg",
+   "seed": 9090909,
+   "prompt": "1girl, solo, adult woman, lively young adult woman, messy short black hair with a red ribbon headband, golden brown eyes, tanned skin, joseon commoner storyteller, faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, folding fan, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_garam_win",
+   "size": "bg",
+   "seed": 2614141,
+   "prompt": "1girl, solo, adult woman, adult woman, young adult, joseon mountain hunter girl, long dark brown hair in a single low braid tied with a red cloth, sharp grey eyes, slightly tanned skin, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_bori_win",
+   "size": "bg",
+   "seed": 1313131,
+   "prompt": "1girl, solo, adult woman, young adult woman, farmer, sun-tanned skin, thick black hair in a low braid, white cotton headband, dark brown determined eyes, plain white hemp jeogori and white chima tucked up, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_hanbyeol_win",
+   "size": "bg",
+   "seed": 1414141,
+   "prompt": "1girl, solo, adult woman, young adult woman, long straight black hair with a center part and a long braid with a white ribbon, bright dark eyes, 1900s korean mission school student, white jeogori, long black chima, black leather shoes, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_saebyeok_win",
+   "size": "bg",
+   "seed": 1515151,
+   "prompt": "1girl, solo, adult woman, young adult woman, short bob black hair, sharp determined black eyes, 1940s korean liberation army uniform, olive drab jacket with belt, plain olive field cap with a small round red-and-blue taegeuk badge, plain collar without insignia, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_bomnae_win",
+   "size": "bg",
+   "seed": 2622220,
+   "prompt": "1girl, solo, adult woman, young adult woman, 1970s korean garment factory worker, black hair in a short bob with a white cloth headband, round warm brown eyes, light blue work blouse with sleeves rolled up, navy work skirt, white factory apron, thimble on her finger, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_dasom_win",
+   "size": "bg",
+   "seed": 1616161,
+   "prompt": "1girl, solo, adult woman, young adult woman, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature"
+  },
+  {
+   "id": "cg_wife_saebyeok_mom_win",
+   "size": "bg",
+   "seed": 1515300,
+   "prompt": "1girl, solo, mature adult woman, mature korean woman in her early forties, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, 1980s korean woman, cream silk blouse, long pleated navy skirt, beige cardigan, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature, young girl, teenager"
   }
  ]
 }
