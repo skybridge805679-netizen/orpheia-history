@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>혜진의 엽떡 퇴마</title>
+<!-- 혜진 단독 미니게임(역사와 무관). 땅따먹기 + 탄막: 악귀가 엽떡을 쏘고, 혜진은 금줄을 그어 땅을 차지해 악귀를 가둔다.
+     맞으면 옷이 한 단계씩 망가진다(묵 배틀식, 0~3단계, 4번째에 끝).
+     단계 그림: assets/cg_hyejin_b0~b3.webp가 있으면 그것을, 없으면 스탠딩(st_hyejin_*) + 소스 얼룩으로 대신한다.
+     본편과 연결하지 않은 독립 페이지. 최고 점수는 이 브라우저에만 남는다. -->
+<style>
+:root{--bg:#120d1c;--panel:#1d1529;--ink:#f3eadb;--dim:#a99fb8;--red:#d8382f;--gold:#e0b04a;--line:#3a2d4d}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;-webkit-user-select:none;user-select:none;touch-action:manipulation}
+#wrap{max-width:1040px;margin:0 auto;padding:12px 16px 24px;display:flex;gap:14px;align-items:flex-start}
+#stage{position:relative;flex:1 1 auto;min-width:0}
+#field{display:block;width:100%;height:auto;border:2px solid var(--line);border-radius:8px;background:#0b0812;image-rendering:auto}
+#side{flex:0 0 270px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+h1{font-size:18px;margin:0 0 8px;letter-spacing:.02em}
+h1 small{color:var(--dim);font-weight:400;font-size:12px;margin-left:6px}
+#pwrap{position:relative;height:300px;border-radius:8px;overflow:hidden;background:radial-gradient(circle at 50% 35%,#3a2850,#160f22)}
+#portrait{position:absolute;left:50%;top:6px;height:290px;transform:translateX(-50%);transition:transform .15s}
+#pwrap.shake #portrait{animation:shk .35s}
+@keyframes shk{0%,100%{transform:translateX(-50%)}25%{transform:translateX(calc(-50% - 8px))}75%{transform:translateX(calc(-50% + 8px))}}
+#stain{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#line{min-height:62px;margin:10px 0;padding:8px 10px;background:#0f0a17;border-left:3px solid var(--red);border-radius:4px;font-size:14px;line-height:1.5}
+.row{display:flex;justify-content:space-between;font-size:13px;margin:4px 0;color:var(--dim)}
+.row b{color:var(--ink);font-weight:600}
+.bar{height:8px;background:#0f0a17;border-radius:4px;overflow:hidden;margin:2px 0 8px;position:relative}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--red));width:0}
+.bar s{position:absolute;top:0;bottom:0;left:75%;width:2px;background:#fff8}
+#cloth{display:flex;gap:4px;margin:4px 0 8px}
+#cloth span{flex:1;height:10px;border-radius:3px;background:var(--gold)}
+#cloth span.off{background:#3a2d4d}
+#help{font-size:12px;color:var(--dim);line-height:1.55;margin-top:8px}
+kbd{background:#2b2140;border:1px solid var(--line);border-radius:3px;padding:0 4px;font-size:11px;color:var(--ink)}
+#ov{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#0b0812cc;border-radius:8px;text-align:center}
+#ov.hide{display:none}
+#ov .box{max-width:420px;padding:20px}
+#ov h2{margin:0 0 8px;font-size:26px;color:var(--gold)}
+#ov p{margin:6px 0;font-size:14px;line-height:1.6}
+button{font:inherit;cursor:pointer}
+.btn{margin-top:12px;padding:10px 22px;border:0;border-radius:8px;background:var(--red);color:#fff;font-size:16px;font-weight:700}
+#pad{display:none;margin-top:10px;gap:10px;align-items:center;justify-content:space-between}
+#dpad{display:grid;grid-template-columns:repeat(3,52px);grid-template-rows:repeat(3,52px);gap:4px}
+#dpad button,#drawBtn{border:1px solid var(--line);background:#2b2140;color:var(--ink);border-radius:10px;font-size:20px;touch-action:none}
+#dpad button:active,#drawBtn.on{background:var(--red)}
+#drawBtn{width:110px;height:110px;border-radius:50%;font-size:15px;font-weight:700}
+@media (max-width:820px){
+ #wrap{flex-direction:column;padding:10px 16px}
+ #side{flex:none;width:100%;display:grid;grid-template-columns:120px 1fr;gap:10px}
+ #side h1{grid-column:1/-1}
+ #pwrap{height:170px}
+ #portrait{height:165px}
+ #line{margin:0}
+ #help{display:none}
+}
+@media (pointer:coarse){#pad{display:flex}}
+</style>
+</head>
+<body>
+<div id="wrap">
+ <div id="stage">
+  <canvas id="field"></canvas>
+  <div id="ov"><div class="box" id="ovbox"></div></div>
+  <div id="pad">
+   <div id="dpad">
+    <span></span><button data-d="0,-1">▲</button><span></span>
+    <button data-d="-1,0">◀</button><span></span><button data-d="1,0">▶</button>
+    <span></span><button data-d="0,1">▼</button><span></span>
+   </div>
+   <button id="drawBtn">금줄<br>긋기</button>
+  </div>
+ </div>
+ <div id="side">
+  <h1>혜진의 엽떡 퇴마<small>야간 근무</small></h1>
+  <div id="pwrap"><img id="portrait" alt="혜진" src="assets/st_hyejin_neutral.webp"><canvas id="stain" width="270" height="300"></canvas></div>
+  <div>
+   <div id="line">……</div>
+   <div class="row"><span>장소</span><b id="where">-</b></div>
+   <div class="row"><span>정화한 땅</span><b id="pct">0%</b></div>
+   <div class="bar"><i id="pbar"></i><s></s></div>
+   <div class="row"><span>옷 상태</span><b id="clothTxt">멀쩡함</b></div>
+   <div id="cloth"><span></span><span></span><span></span></div>
+   <div class="row"><span>점수</span><b id="score">0</b></div>
+   <div class="row"><span>최고 점수</span><b id="best">0</b></div>
+   <div id="help"><kbd>←↑↓→</kbd> 이동 · <kbd>Space</kbd>/<kbd>Z</kbd>를 누른 채 정화한 땅 밖으로 나가면 금줄을 긋는다. 다시 정화한 땅에 닿으면 악귀가 없는 쪽이 정화된다. 갇힌 도깨비불은 퇴치. 75%를 정화하면 다음 장소로. <kbd>P</kbd> 멈춤</div>
+  </div>
+ </div>
+</div>
+<script>
+(()=>{
+'use strict';
+const GW=120,GH=90,CS=6,CW=GW*CS,CH=GH*CS,N=GW*GH,GOAL=75;
+const cv=document.getElementById('field'),ctx=cv.getContext('2d');cv.width=CW;cv.height=CH;
+const fcv=document.createElement('canvas');fcv.width=GW;fcv.height=GH;const fctx=fcv.getContext('2d');
+const $=id=>document.getElementById(id);
+const STAGES=[
+ {name:'골목 입구',fire:1.9,speed:95,ring:10,spread:3,spirits:2,boss:9},
+ {name:'폐교 복도',fire:1.5,speed:115,ring:14,spread:5,spirits:3,boss:11},
+ {name:'자정의 사거리',fire:1.15,speed:135,ring:18,spread:5,spirits:4,boss:13},
+];
+const CLOTH=['멀쩡함','소스 범벅','조끼 실종','위기'];
+const EXPR=['neutral','surprised','pout','angry'];
+const LINES={
+ start:['야간 근무 시작. 오늘 손님은…… 엽떡 던지는 악귀? 장난해?','방울 챙겼고, 부채 챙겼고. 엽떡 막을 우산은…… 안 챙겼네.','여긴 금방 끝내자. 내일 1교시 있어.'],
+ hit:['앗 뜨거! 교복에 소스 튀었어! 세탁비 누가 줘!','조끼가 날아갔잖아! 이거 학교에 뭐라고 해!','더는 안 돼…… 한 번만 더 맞으면 진짜 끝이야!'],
+ kill:['하나 보냈다!','잘 가. 다음엔 떡볶이 말고 국화 들고 와.','갇혔지? 그럼 끝이야.'],
+ clear:['정화 끝. 남은 엽떡은 내가 먹는다.','후, 이 동네도 조용해졌네.','퇴마 완료. 맵기는…… 2단계 정도였어.'],
+ over:'……오늘은 퇴근. 엽떡은 먹는 거지, 맞는 게 아니라고.',
+ win:'근무 끝! 사장님, 여기 엽떡 하나요. 이번엔 먹으려고요.',
+};
+const pick=a=>a[Math.random()*a.length|0];
+let best=0;try{best=+localStorage.getItem('hyejin_yupdduk_best')||0}catch(e){}
+$('best').textContent=best;
+
+// 단계 그림: 있으면 쓰고, 없으면 스탠딩 + 얼룩
+const cgOk=[false,false,false,false];
+for(let i=0;i<4;i++){const im=new Image();im.onload=()=>{cgOk[i]=true;if(game)portrait()};im.src=`assets/cg_hyejin_b${i}.webp`;}
+
+let grid,boss,spirits,bullets,parts,p,trail,trailStart,drawing,stageI,level,score,inv,state,fireT,spiral,moveAcc,pct,border,flash,shakeT,lineT,game=false;
+const idx=(x,y)=>y*GW+x, inb=(x,y)=>x>=0&&y>=0&&x<GW&&y<GH;
+
+function say(t){$('line').textContent=t;}
+function newGame(){stageI=0;level=0;score=0;game=true;startStage();}
+function startStage(){
+ const S=STAGES[stageI];
+ grid=new Uint8Array(N);
+ for(let x=0;x<GW;x++){grid[idx(x,0)]=1;grid[idx(x,GH-1)]=1;}
+ for(let y=0;y<GH;y++){grid[idx(0,y)]=1;grid[idx(GW-1,y)]=1;}
+ border=grid.reduce((a,v)=>a+v,0);
+ p={x:GW>>1,y:GH-1};trail=[];drawing=false;inv=1.5;moveAcc=0;fireT=1.5;spiral=null;bullets=[];parts=[];
+ const a=Math.random()*Math.PI*2;
+ boss={x:GW/2,y:GH/2-6,vx:Math.cos(a)*S.boss,vy:Math.sin(a)*S.boss,t:0};
+ spirits=[];for(let i=0;i<S.spirits;i++){const b=Math.random()*Math.PI*2,sp=14+Math.random()*5;spirits.push({x:15+Math.random()*(GW-30),y:12+Math.random()*(GH-30),vx:Math.cos(b)*sp,vy:Math.sin(b)*sp,t:Math.random()*9});}
+ redrawField();calcPct();
+ $('where').textContent=`${stageI+1} / ${STAGES.length} · ${S.name}`;
+ say(LINES.start[stageI]);portrait();ui();
+ state='play';hideOv();
+}
+function isEdge(x,y){
+ if(grid[idx(x,y)]!==1)return false;
+ for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){const nx=x+dx,ny=y+dy;if(inb(nx,ny)&&grid[idx(nx,ny)]!==1)return true;}
+ return false;
+}
+function redrawField(){
+ const im=fctx.createImageData(GW,GH),d=im.data;
+ for(let y=0;y<GH;y++)for(let x=0;x<GW;x++){
+  const i=idx(x,y),o=i*4;if(grid[i]!==1){d[o+3]=0;continue;}
+  if(isEdge(x,y)){d[o]=224;d[o+1]=176;d[o+2]=74;d[o+3]=255;continue;}
+  const n=((x*7+y*13)%11)-5,band=((x+y)%16<2)?-14:0;
+  d[o]=236+n+band;d[o+1]=222+n+band;d[o+2]=190+n+band;d[o+3]=255;
+ }
+ fctx.putImageData(im,0,0);
+}
+function calcPct(){let c=0;for(let i=0;i<N;i++)if(grid[i]===1)c++;pct=Math.floor((c-border)/(N-border)*100);}
+
+function step(dx,dy){
+ const nx=p.x+dx,ny=p.y+dy;if(!inb(nx,ny))return;
+ const cur=grid[idx(p.x,p.y)],t=grid[idx(nx,ny)];
+ if(cur===1){
+  if(t===1){if(isEdge(nx,ny)){p.x=nx;p.y=ny;}return;}
+  if(t===0&&held.draw){trailStart={x:p.x,y:p.y};trail=[{x:nx,y:ny}];grid[idx(nx,ny)]=2;p.x=nx;p.y=ny;drawing=true;}
+  return;
+ }
+ if(cur===2){
+  if(t===0){grid[idx(nx,ny)]=2;trail.push({x:nx,y:ny});p.x=nx;p.y=ny;}
+  else if(t===1){p.x=nx;p.y=ny;closeTrail();}
+ }
+}
+function closeTrail(){
+ for(const c of trail)grid[idx(c.x,c.y)]=1;
+ trail=[];drawing=false;
+ const seen=new Uint8Array(N),q=new Int32Array(N),regs=[];
+ const bc=idx(Math.round(Math.min(GW-1,Math.max(0,boss.x))),Math.round(Math.min(GH-1,Math.max(0,boss.y))));
+ for(let s=0;s<N;s++){if(grid[s]!==0||seen[s])continue;
+  let h=0,tl=0;q[tl++]=s;seen[s]=1;const cells=[];let hasB=false;
+  while(h<tl){const c=q[h++];cells.push(c);if(c===bc)hasB=true;const x=c%GW,y=(c/GW)|0;
+   if(x>0&&!seen[c-1]&&grid[c-1]===0){seen[c-1]=1;q[tl++]=c-1;}
+   if(x<GW-1&&!seen[c+1]&&grid[c+1]===0){seen[c+1]=1;q[tl++]=c+1;}
+   if(y>0&&!seen[c-GW]&&grid[c-GW]===0){seen[c-GW]=1;q[tl++]=c-GW;}
+   if(y<GH-1&&!seen[c+GW]&&grid[c+GW]===0){seen[c+GW]=1;q[tl++]=c+GW;}}
+  regs.push({cells,hasB});}
+ let keep=regs.find(r=>r.hasB);if(!keep&&regs.length)keep=regs.reduce((a,b)=>b.cells.length>a.cells.length?b:a);
+ let gained=0;for(const r of regs){if(r===keep)continue;for(const c of r.cells)grid[c]=1;gained+=r.cells.length;}
+ const before=pct;redrawField();calcPct();
+ score+=Math.max(0,pct-before)*100+gained;
+ // 갇힌 도깨비불 퇴치
+ spirits=spirits.filter(s=>{const c=grid[idx(Math.round(s.x)|0,Math.round(s.y)|0)];if(c===1){burst(s.x*CS,s.y*CS,'#7fd4ff',26);score+=500;say(pick(LINES.kill));return false;}return true;});
+ // 정화된 땅 위의 엽떡은 사라진다
+ bullets=bullets.filter(b=>grid[idx(b.x/CS|0,b.y/CS|0)]!==1);
+ ui();
+ if(pct>=GOAL)stageClear();
+}
+function hit(){
+ if(inv>0||state!=='play')return;
+ level++;shakeT=.35;flash=.25;
+ burst((p.x+.5)*CS,(p.y+.5)*CS,'#ff5a3c',40);
+ for(const c of trail)grid[idx(c.x,c.y)]=0;
+ if(drawing&&trailStart){p.x=trailStart.x;p.y=trailStart.y;}
+ trail=[];drawing=false;inv=2;
+ const px=(p.x+.5)*CS,py=(p.y+.5)*CS;bullets=bullets.filter(b=>Math.hypot(b.x-px,b.y-py)>110);
+ $('pwrap').classList.remove('shake');void $('pwrap').offsetWidth;$('pwrap').classList.add('shake');
+ if(level>3){level=3;portrait();gameOver();return;}
+ say(LINES.hit[level-1]);portrait();ui();
+}
+function stageClear(){
+ state='clear';score+=Math.max(0,3-level)*1000+(pct-GOAL)*200;ui();
+ say(pick(LINES.clear));setExpr('smile');
+ if(stageI>=STAGES.length-1){saveBest();showOv(`<h2>근무 끝</h2><p>${LINES.win}</p><p>점수 <b>${score}</b>${score>=best?' · 최고 점수!':''}</p><button class="btn" id="ovb">처음부터 다시</button>`,newGame);}
+ else showOv(`<h2>정화 완료</h2><p>${STAGES[stageI].name}, 정화율 ${pct}%</p><p>다음 장소: ${STAGES[stageI+1].name}</p><button class="btn" id="ovb">다음 장소로</button>`,()=>{stageI++;startStage();});
+}
+function gameOver(){state='over';saveBest();say(LINES.over);
+ showOv(`<h2>오늘은 퇴근</h2><p>${STAGES[stageI].name}에서 엽떡에 졌다.</p><p>점수 <b>${score}</b></p><button class="btn" id="ovb">다시 출근</button>`,newGame);}
+function saveBest(){if(score>best){best=score;try{localStorage.setItem('hyejin_yupdduk_best',best)}catch(e){}}$('best').textContent=best;}
+
+// 탄막
+function shoot(x,y,a,sp){bullets.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,a});}
+function fire(){
+ const S=STAGES[stageI],bx=boss.x*CS,by=boss.y*CS,pa=Math.atan2((p.y+.5)*CS-by,(p.x+.5)*CS-bx);
+ const r=Math.random();
+ if(r<.38){const o=Math.random()*6;for(let i=0;i<S.ring;i++)shoot(bx,by,o+i/S.ring*Math.PI*2,S.speed);}
+ else if(r<.72){for(let i=0;i<S.spread;i++)shoot(bx,by,pa+(i-(S.spread-1)/2)*.18,S.speed*1.25);}
+ else spiral={t:0,a:Math.random()*6,n:0,dir:Math.random()<.5?1:-1};
+}
+function burst(x,y,c,n){for(let i=0;i<n;i++){const a=Math.random()*6.28,s=40+Math.random()*160;parts.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:.6+Math.random()*.4,c});}}
+
+function moveMob(m,dt,r){
+ let nx=m.x+m.vx*dt,ny=m.y+m.vy*dt;
+ const cx=Math.round(nx),cy=Math.round(m.y);
+ if(!inb(cx,cy)||grid[idx(cx,cy)]===1){m.vx=-m.vx;nx=m.x;}
+ const cx2=Math.round(m.x),cy2=Math.round(ny);
+ if(!inb(cx2,cy2)||grid[idx(cx2,cy2)]===1){m.vy=-m.vy;ny=m.y;}
+ m.x=nx;m.y=ny;
+ // 금줄에 닿으면 실패
+ if(drawing){const R=Math.ceil(r);for(let dy=-R;dy<=R;dy++)for(let dx=-R;dx<=R;dx++){const x=Math.round(m.x)+dx,y=Math.round(m.y)+dy;if(inb(x,y)&&grid[idx(x,y)]===2&&dx*dx+dy*dy<=r*r){hit();return;}}}
+}
+
+function update(dt){
+ if(state!=='play')return;
+ const S=STAGES[stageI];
+ inv=Math.max(0,inv-dt);
+ // 이동
+ const d=curDir();
+ if(d){moveAcc+=dt*(drawing?24:32);while(moveAcc>=1){step(d[0],d[1]);moveAcc-=1;if(state!=='play')return;}}else moveAcc=0;
+ // 보스 악귀
+ boss.t+=dt;if(Math.random()<dt*.35){const a=Math.random()*6.28;boss.vx=Math.cos(a)*S.boss;boss.vy=Math.sin(a)*S.boss;}
+ moveMob(boss,dt,2.2);if(state!=='play')return;
+ for(const s of spirits){s.t+=dt;moveMob(s,dt,1);if(state!=='play')return;
+  if(Math.hypot(s.x-p.x,s.y-p.y)<1.4)hit();}
+ if(Math.hypot(boss.x-p.x,boss.y-p.y)<2.6)hit();
+ // 탄막
+ fireT-=dt;if(fireT<=0){fire();fireT=S.fire*(.8+Math.random()*.4);}
+ if(spiral){spiral.t+=dt;while(spiral.n<spiral.t/.07&&spiral.n<24){shoot(boss.x*CS,boss.y*CS,spiral.a+spiral.n*.42*spiral.dir,S.speed*.9);shoot(boss.x*CS,boss.y*CS,spiral.a+Math.PI+spiral.n*.42*spiral.dir,S.speed*.9);spiral.n++;}if(spiral.n>=24)spiral=null;}
+ const px=(p.x+.5)*CS,py=(p.y+.5)*CS;
+ bullets=bullets.filter(b=>{b.x+=b.vx*dt;b.y+=b.vy*dt;
+  if(b.x<0||b.y<0||b.x>=CW||b.y>=CH)return false;
+  if(Math.hypot(b.x-px,b.y-py)<6.5){hit();return false;}
+  return grid[idx(b.x/CS|0,b.y/CS|0)]!==1;});
+ parts=parts.filter(q=>{q.x+=q.vx*dt;q.y+=q.vy*dt;q.vx*=.94;q.vy*=.94;q.l-=dt;return q.l>0;});
+ flash=Math.max(0,(flash||0)-dt);shakeT=Math.max(0,(shakeT||0)-dt);
+}
+
+// 그리기
+let T=0;
+function draw(){
+ ctx.save();
+ if(shakeT>0)ctx.translate((Math.random()-.5)*10,(Math.random()-.5)*10);
+ const g=ctx.createRadialGradient(boss?boss.x*CS:CW/2,boss?boss.y*CS:CH/2,10,CW/2,CH/2,CW*.7);
+ g.addColorStop(0,'#3b1f4f');g.addColorStop(1,'#0b0812');ctx.fillStyle=g;ctx.fillRect(0,0,CW,CH);
+ ctx.globalAlpha=.08;ctx.fillStyle='#b48cff';
+ for(let i=0;i<7;i++){const x=(Math.sin(T*.13+i*1.7)*.5+.5)*CW,y=(Math.cos(T*.11+i*2.3)*.5+.5)*CH;ctx.beginPath();ctx.arc(x,y,90+i*12,0,7);ctx.fill();}
+ ctx.globalAlpha=1;
+ if(grid){
+  ctx.imageSmoothingEnabled=false;ctx.drawImage(fcv,0,0,CW,CH);
+  // 금줄
+  if(trail.length){ctx.strokeStyle='#e8302a';ctx.lineWidth=3;ctx.lineJoin='round';ctx.beginPath();
+   ctx.moveTo((trailStart.x+.5)*CS,(trailStart.y+.5)*CS);for(const c of trail)ctx.lineTo((c.x+.5)*CS,(c.y+.5)*CS);ctx.stroke();
+   ctx.fillStyle='#fff6';for(let i=0;i<trail.length;i+=6){const c=trail[i];ctx.fillRect(c.x*CS+1,c.y*CS+1,4,4);}}
+  // 도깨비불
+  for(const s of spirits){const x=s.x*CS,y=s.y*CS,f=Math.sin(s.t*9)*2;
+   const gg=ctx.createRadialGradient(x,y,1,x,y,12);gg.addColorStop(0,'#e8fbff');gg.addColorStop(.4,'#5cc8ff');gg.addColorStop(1,'#5cc8ff00');
+   ctx.fillStyle=gg;ctx.beginPath();ctx.moveTo(x,y-14-f);ctx.quadraticCurveTo(x+10,y,x,y+8);ctx.quadraticCurveTo(x-10,y,x,y-14-f);ctx.fill();}
+  // 보스 악귀
+  {const x=boss.x*CS,y=boss.y*CS,w=Math.sin(boss.t*3);
+   ctx.fillStyle='#000a';ctx.beginPath();ctx.ellipse(x,y+20,16,4,0,0,7);ctx.fill();
+   const gg=ctx.createRadialGradient(x,y-4,2,x,y,24);gg.addColorStop(0,'#5a2a6e');gg.addColorStop(1,'#1a0b22');ctx.fillStyle=gg;
+   ctx.beginPath();ctx.moveTo(x-16,y+14);
+   for(let i=0;i<=6;i++){const xx=x-16+i*32/6;ctx.lineTo(xx,y+14+((i%2)?6:0)+w*2);}
+   ctx.quadraticCurveTo(x+20,y-6,x,y-22-w*2);ctx.quadraticCurveTo(x-20,y-6,x-16,y+14);ctx.fill();
+   ctx.fillStyle='#ff4a3a';ctx.beginPath();ctx.ellipse(x-6,y-6,3,4.5,0,0,7);ctx.ellipse(x+6,y-6,3,4.5,0,0,7);ctx.fill();
+   ctx.strokeStyle='#ff4a3a';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(x,y+4,5,.2*Math.PI,.8*Math.PI);ctx.stroke();}
+  // 엽떡
+  for(const b of bullets){ctx.save();ctx.translate(b.x,b.y);ctx.rotate(b.a);
+   ctx.shadowColor='#ff3b1f';ctx.shadowBlur=8;ctx.fillStyle='#d42a1e';rr(-7,-3.5,14,7,3.5);ctx.fill();
+   ctx.shadowBlur=0;ctx.fillStyle='#ff8a66';rr(-5,-2.5,7,2,1);ctx.fill();ctx.restore();}
+  // 혜진
+  {const x=(p.x+.5)*CS,y=(p.y+.5)*CS;if(!(inv>0&&Math.floor(T*12)%2)){
+   ctx.strokeStyle='#27406e';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x,y-4);ctx.quadraticCurveTo(x+8+Math.sin(T*8)*2,y-2,x+10,y+6);ctx.stroke();
+   ctx.fillStyle='#fff3d6';ctx.beginPath();ctx.arc(x,y,6,0,7);ctx.fill();
+   ctx.strokeStyle='#d8382f';ctx.lineWidth=2;ctx.stroke();
+   ctx.fillStyle='#e0b04a';ctx.beginPath();ctx.arc(x,y,2.5,0,7);ctx.fill();
+   if(drawing){ctx.strokeStyle='#ff5a4a88';ctx.lineWidth=1;ctx.beginPath();ctx.arc(x,y,10+Math.sin(T*10)*2,0,7);ctx.stroke();}}}
+  for(const q of parts){ctx.globalAlpha=Math.max(0,q.l);ctx.fillStyle=q.c;ctx.fillRect(q.x-2,q.y-2,4,4);}ctx.globalAlpha=1;
+  if(flash>0){ctx.fillStyle=`rgba(255,60,30,${flash*1.6})`;ctx.fillRect(0,0,CW,CH);}
+ }
+ ctx.restore();
+}
+function rr(x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
+
+// 초상: 단계 그림이 있으면 그것, 없으면 스탠딩 + 소스 얼룩
+let curExpr='neutral';
+function setExpr(e){curExpr=e;const im=$('portrait');if(cgOk[level])return;im.src=`assets/st_hyejin_${e}.webp`;}
+function portrait(){
+ const im=$('portrait'),sc=$('stain'),c=sc.getContext('2d');c.clearRect(0,0,sc.width,sc.height);
+ if(cgOk[level]){im.src=`assets/cg_hyejin_b${level}.webp`;return;}
+ setExpr(EXPR[level]);
+ const n=[0,7,16,28][level];let seed=17;const rnd=()=>(seed=(seed*9301+49297)%233280)/233280;
+ for(let i=0;i<n;i++){const x=sc.width*(.32+rnd()*.36),y=sc.height*(.22+rnd()*.62),r=4+rnd()*(6+level*3);
+  c.fillStyle=`rgba(${190+rnd()*40|0},${30+rnd()*30|0},20,.8)`;c.beginPath();c.arc(x,y,r,0,7);c.fill();
+  for(let k=0;k<3;k++){c.beginPath();c.arc(x+(rnd()-.5)*r*3,y+(rnd()-.5)*r*3,r*.3,0,7);c.fill();}
+  if(rnd()<.4){c.fillRect(x-1,y,2.5,r*2.2);}}
+}
+function ui(){
+ $('pct').textContent=pct+'%';$('pbar').style.width=Math.min(100,pct/GOAL*75)+'%';
+ $('score').textContent=score;$('clothTxt').textContent=CLOTH[level];
+ [...$('cloth').children].forEach((s,i)=>s.classList.toggle('off',i<level));
+}
+function showOv(html,fn){$('ovbox').innerHTML=html;$('ov').classList.remove('hide');$('ovb').onclick=fn;}
+function hideOv(){$('ov').classList.add('hide');}
+
+// 입력
+const held={draw:false};const dirs=[];let touchDir=null;
+const KD={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1],a:[-1,0],d:[1,0],w:[0,-1],s:[0,1]};
+function curDir(){return touchDir||(dirs.length?KD[dirs[dirs.length-1]]:null);}
+addEventListener('keydown',e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;
+ if(KD[k]){if(!dirs.includes(k))dirs.push(k);e.preventDefault();}
+ if(k===' '||k==='z'||k==='Shift'){held.draw=true;e.preventDefault();
+  if(k===' '&&!$('ov').classList.contains('hide')&&$('ovb')){$('ovb').click();}}
+ if(k==='Enter'&&!$('ov').classList.contains('hide')&&$('ovb'))$('ovb').click();
+ if(k==='p'&&game&&(state==='play'||state==='pause')){if(state==='play'){state='pause';showOv('<h2>잠깐 쉬는 중</h2><p>방울 소리를 멈췄다.</p><button class="btn" id="ovb">다시 근무</button>',()=>{state='play';hideOv();});}else{state='play';hideOv();}}
+});
+addEventListener('keyup',e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;
+ const i=dirs.indexOf(k);if(i>=0)dirs.splice(i,1);if(k===' '||k==='z'||k==='Shift')held.draw=false;});
+addEventListener('blur',()=>{dirs.length=0;held.draw=false;touchDir=null;});
+document.querySelectorAll('#dpad button').forEach(b=>{const d=b.dataset.d.split(',').map(Number);
+ b.addEventListener('pointerdown',e=>{e.preventDefault();touchDir=d;b.setPointerCapture(e.pointerId);});
+ const up=()=>{if(touchDir===d)touchDir=null;};b.addEventListener('pointerup',up);b.addEventListener('pointercancel',up);});
+const db=$('drawBtn');
+db.addEventListener('pointerdown',e=>{e.preventDefault();held.draw=true;db.classList.add('on');db.setPointerCapture(e.pointerId);});
+['pointerup','pointercancel'].forEach(t=>db.addEventListener(t,()=>{held.draw=false;db.classList.remove('on');}));
+
+// 시작
+let last=performance.now();
+function loop(now){const dt=Math.min(.05,(now-last)/1000);last=now;T+=dt;update(dt);draw();requestAnimationFrame(loop);}
+showOv(`<h2>혜진의 엽떡 퇴마</h2><p>악귀가 엽떡을 던진다. 금줄을 그어 땅을 정화하고, 악귀를 구석으로 몰아라.</p><p>엽떡에 맞으면 교복이 망가진다. 네 번 맞으면 퇴근.</p><button class="btn" id="ovb">근무 시작</button>`,newGame);
+requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
