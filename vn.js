@@ -101,7 +101,7 @@ function fixSlots(keep){
   const u=used();const free=[c.home,...P].find(p=>p&&!u.has(p));if(free)c.pos=free;}
 }
 const standFile=(who,expr)=>{const s=CAST[who]?.stand;if(!s)return '';
- if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c==='home'&&expr==='pregnant')return `st_${who}_home_pregnant.webp`;if(c==='home')return HOME_EXPR.has(expr)?`st_${who}_home_${expr}.webp`:`st_${who}_home.webp`;if(c&&c!=='home'&&COSTUME_EXPR[who]?.has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&c!=='home'&&!COSTUME[who].has(expr))return `st_${who}_${c}.webp`;}
+ if(COSTUME[who]){const c=S?.chars?.[who]?.costume;if(c==='home'&&expr==='pregnant')return `st_${who}_home_pregnant.webp`;if(c==='home')return HOME_EXPR.has(expr)?`st_${who}_home_${expr}.webp`:`st_${who}_home.webp`;if(c&&c!=='home'&&COSTUME_EXPR[who]?.has(expr))return `st_${who}_${c}_${expr}.webp`;if(c&&c!=='home'&&(expr===c||!COSTUME[who].has(expr)))return `st_${who}_${c}.webp`;}
  if(who==='sayeon'&&S?.sayeonDmg&&SAYEON_DMG_OK)return `st_sayeon_${expr==='surprised'?'surprised':'shy'}_d${S.sayeonDmg}.webp`;
  if(who==='orpheia'&&S?.orpDmg)return `st_orpheia_${ORP_GLITCH[expr]||'smile'}_g${S.orpDmg}.webp`;
  if(who==='orpheia'&&orpHanbok())return `st_orpheia_hanbok_${HANBOK_EXPR.has(expr)?expr:'neutral'}.webp`;

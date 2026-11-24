@@ -1110,7 +1110,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @bg bg_street_evening
 @day 그해 봄 · 사립 신명고등학교 정문
 지도 앱에는 「신명고(사립)」라고만 나오는 학교. 동네 사람들은 일반과만 있는 평범한 사립고로 안다. 모아가 일반과 편입생으로 교문 앞에 선다. 새 교복이 아직 빳빳하다.
-@show moa school center
+@show moa school+smile center
 [모아] 아저씨, 봐 봐! 교복! 나 어때? 완전 학생이지?
 [상철] (아기 띠를 메고, 아기를 안은 채) 응. 학생이야.
 [모아] 그치? ……근데 이 그림, 좀 웃기다. 아내는 등교하고, 남편은 애 안고 교문에서 배웅하고.
@@ -1121,7 +1121,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [모아] 윤슬 언니! 여고생인게 뭐 어때서? 여고생이 엄마인게 이상해?
 [윤슬|angry] 그러니까 더 이상하다고!
 @hide all
-@show moa school center
+@show moa school+smile center
 [모아] (교문 안으로 뛰어가다 돌아보며) 아저씨! 하교할 때 데리러 와야 해!
 @hide all
 @bg cg_after_husband|bg_studio_night
