@@ -2,3 +2,6 @@
 __pycache__/
 assets/gen/
 tools/fonts/
+
+# 비타 로컬 빌드 산출물(비타 작업은 컴퓨터 환경에서 따로, main에 올리지 않음)
+vita/
