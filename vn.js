@@ -148,6 +148,9 @@ function parse(src,id){
 let pendingFx={},S=null,typing=null,autoTimer=null,auto=false,skip=false,hidden=false,log=[],busy=false;
 const fresh=ch=>({ch,pc:0,bg:'',chars:{},day:'',line:null,phone:false,flags:{...meta.flags}});
 const curCh=()=>byId[S.ch];
+// 짧은 컷(설정 컷·만남 컷): 대사·서술 두 줄 안에 다음 @bg로 넘어가면 곡을 바꾸지 않는다(한 줄짜리 그림에 사건 곡이 잠깐 끼어드는 것 막기).
+const CUT_PASS=new Set(['show','hide','day','sfx','note','cutin','fx','wait','photo','outfit','mob','add','set','flash','shake','nod','hop','tilt','sink','sd']);
+function shortCut(a){if(!/^cg_/.test(a))return false;const ops=curCh().ops;let n=0;for(let k=S.pc+1;k<ops.length;k++){const t=ops[k].t;if(t==='bg')return true;if(t==='say'||t==='narr'){if(++n>2)return false;}else if(!CUT_PASS.has(t))return false;}return false;}
 function isRead(pc){return (meta.read[S.ch]||[]).includes(pc);}
 function markRead(pc){const a=meta.read[S.ch]||(meta.read[S.ch]=[]);if(!a.includes(pc)){a.push(pc);if(a.length%10===0)persist();}}
 function evalSet(spec){for(const part of spec.split(/[,\s]+/).filter(Boolean)){const m=part.match(/^(\w+)([+-]=?|=)(-?\d+)$/);if(!m)continue;const [,f,op,v]=m;S.flags[f]=op==='='?+v:(S.flags[f]||0)+(op.startsWith('-')?-v:+v);if(f==='orp')S.flags.orp=Math.min(100,S.flags.orp);}}
@@ -170,7 +173,7 @@ function step(){
    case 'board':{const ids=op.arg.trim().split(/\s+/);if(ids.every(id=>(S.boardShown||[]).includes(id))){S.pc++;break;}return board(ids);}
    case 'sd':sdPop(op.arg.trim());S.pc++;break;
    case 'photo':S.photo=op.arg.trim()==='off'?null:op.arg.trim();if(S.photo&&Object.keys(S.chars).length>=3)for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.pc++;paint();break;
-   case 'bg':BGM.chapter=S.ch;for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];S.cutin=null;BGM.scene(a);}S.pc++;paint();break;
+   case 'bg':BGM.chapter=S.ch;for(const k of Object.keys(S.chars))if(S.chars[k].auto)delete S.chars[k];S.photo=null;{const [a,b]=op.arg.split('|').map(x=>x.trim());S.bg=bgFile(a);S.bgAlt=b?bgFile(b):null;S.mood=[];S.cutin=null;if(!shortCut(a))BGM.scene(a);}S.pc++;paint();break;
    case 'bgm':BGM.chapter=S.ch;if(op.arg==='auto')BGM.scene(S.bg);else BGM.play(op.arg==='off'?'':op.arg);S.pc++;break;
    case 'show':{for(const k of Object.keys(S.chars))if(S.chars[k].auto&&k!==op.who&&(S.chars[k].pos===op.pos||Object.keys(S.chars).filter(x=>x!==op.who).length>=3))delete S.chars[k];
     const was=S.chars[op.who];const [c0,e0]=op.expr.includes('+')?op.expr.split('+'):[null,op.expr];S.chars[op.who]={expr:c0?e0:op.expr,pos:op.pos,home:op.pos,costume:c0&&COSTUME[op.who]?.has(c0)?c0:COSTUME[op.who]?.has(op.expr)?op.expr:was?.costume};fixSlots(op.who);if(!was)pendingFx[op.who]='enter';else if(was.expr!==op.expr&&EXPR_FX[op.expr])pendingFx[op.who]=EXPR_FX[op.expr];S.pc++;paint();break;}

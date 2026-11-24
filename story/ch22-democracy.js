@@ -155,10 +155,10 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @hide all
 @bg cg_ch22_bomnae_sitin|bg_era_neighborhood_1970s
 머리에 수건을 두른 여공들이 야당 당사 강당을 빽빽이 메웠다. 맨 앞줄에 봄내가 앉아 있다.
+[봄내|serious] 오빠. 회사가 문을 닫았어요. 하루아침에 폐업이래요. 우린 갈 데가 없어서 야당 당사로 왔어요. YH 무역 사람들이요.
 @bg bg_era_party_hall_1979|bg_era_neighborhood_1970s
 @show bomnae serious right
 @show orpheia worry left
-[봄내|serious] 오빠. 회사가 문을 닫았어요. 하루아침에 폐업이래요. 우린 갈 데가 없어서 야당 당사로 왔어요. YH 무역 사람들이요.
 [봄내|teary] 밖에서 경찰이 들어온대요. 끌려 나갈 거예요. ……그래도 여기 앉아 있었다는 건 남겠죠? 오빠가 노래로 남겨 줄 거잖아요.
 [오르페이아|serious] (귓속말) 1979년 YH 무역 사건이에요. 폐업에 항의한 여성 노동자들이 신민당사에서 농성했고, 강제로 끌려 나가요. 그 일을 감싼 야당 총재 김영삼이 국회의원에서 제명되고…… 그게 부산과 마산에 불을 붙여요.
 @hide all
