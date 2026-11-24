@@ -74,5 +74,6 @@
 - **호러·긴장 연출 `@fx`**: 지속 분위기 `dark`(가장자리 어둠)·`flicker`(형광등 깜빡임)·`cold`(색 빠짐)·`tremble`(대사 글자 떨림)·`dread`(배경이 천천히 다가옴)는 여러 개를 한 줄에 켜고 `-이름`으로 하나, `off`로 전부 끈다(배경이 바뀌면 저절로 풀림, 세이브에 남음). 순간 효과 `black`(암전)·`thud`(쿵 흔들림)·`pulse`(심장 박동)·`glitch`·`zoom`. 효과음 `@sfx thud|heartbeat|hum|hiss|dial|knock|tick|ring`. `@wait ms`로 뜸을 들인다. 본보기: 종장 남겨진 남편 장면. 남발하지 않는다.
 - 묵 배틀: 묵 장면의 기출 묶음은 `@battle muk` … `@quiz` … `@battle end`로 감싼다. 첫 시도에 맞힐 때마다 묵의 먹물 옷이 한 단계씩 찢어진다(CG `cg_muk_b0~b3`). 주인님이 첫 시도에 틀리면 오르페이아의 의상 데이터가 버그로 깨진다(「기록이 번지면 오르페이아도 번진다」, CG `cg_orp_b1~b3`). 배틀 뒤 그 장 동안 묵·오르페이아 스탠딩은 찢어진 단계(`st_muk_*_dN`, `st_orpheia_{shy,pout,smile}_gN`)로 나온다.
 - **작업은 `main`에서 바로 한다**(2026.11 주인님 지정, 브랜치를 따로 파지 않는다). NAI 그림 생성 Actions는 `main`에 `tools/nai-assets.json`이 푸시될 때 돈다.
+「NAI 항목별 negative는 주인님이 지정한 것만 쓴다. 노출·체형 관련 금지어를 임의로 넣지 않는다」
 - 작업실 배경은 시각에 따라 `bg_studio_night`(밤)·`bg_studio_dawn`(귀환·새벽 3~5시)·`bg_studio_morning`(아침)을 쓰고, 외전 집 장면은 `bg_home_kitchen`·`bg_home_living`. 다이브 장면 첫머리에 그 장면을 보여 주는 CG(설정 컷)를 두고 첫 인물이 서기 전에 배경으로 돌린다(2026.11 에셋 100장 추가 때 정한 틀).
 - 테스트는 시간이 오래 걸리므로 주인님이 원할 때만 돌린다. 평소엔 `node --check story/*.js`.
