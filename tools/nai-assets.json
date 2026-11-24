@@ -1,5 +1,5 @@
 {
- "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시.",
+ "_note": "1차분(2026-11-17 Actions 생성, 429 대기 추가 후 재시도): 배경 6·장면 4·스탠딩 20(투명 배경). size: bg=1216x832, stand=832x1216 (모두 Opus 무료 크기). 같은 인물은 같은 seed로 뽑아 얼굴을 맞춘다. transparent:true 이면 'transparent background' 태그를 붙인다(NAI 웹의 Transparent BG와 같은 동작, API에서도 알파 채널 확인됨). 2차: 강사 커피·엄격은 기본 그림 i2i, 하린은 seed 변경·테두리 금지, 고인돌·고려 항구 다시. 3차: 하린 기본·삐침은 웃음 그림 i2i(긴 트윈테일로 통일), 강사 커피·엄격은 i2i 강도 0.72. 4차: 강사 기본이 두 명(복제)으로 나와 seed 바꿔 다시, 엄격·커피는 새 기본 그림 i2i. 5차: 강사가 여러 명(캐릭터 시트처럼)으로 나와 'multiple views, reference sheet' 금지·solo focus 추가, 미소도 기본 i2i. 6차: 강사는 전신 대신 cowboy shot(무릎 위), 출입증 묘사 빼고 다시. 7차: 시간 여행 장면 배경 8종(1장 선사·초기 국가). 9차: 윤슬(뒤에 유리 조각 같은 판이 그려짐) seed 변경·금지어, 사연 신석기 의상 머리색 맞춤. 10차: 동행 인물 누리(시대별 3)·달래(2). 11차: 누리 구석기(쇠도끼→뗀석기, 옷 가림), 달래(조선풍 비단 한복→소박한 삼베옷). 12차: 3장(삼국) 배경 5·나루 3·사연 백제 의상. 다시 뽑을 그림은 assets에서 지우고 이 파일을 푸시하면 빠진 것만 새로 뽑는다. 2026.11 미니게임 보강: 연표 아케이드 그림 10(cg_mg_*), 아내 대결 완승 그림 27(cg_wife_<id>_win, b0와 같은 seed), 단계마다 배경이 튀던 아내 대결 8장(해랑 b2·b3, 여울·다솜·소담·아라·가온 b3, 매향 b1)은 앞 단계 그림 i2i로 다시. 2026.11 스탠딩 개선안(검수 전, 아직 본편에 안 씀): st2_ 이름으로 33장. 새벽(엄마) 반신 4장 전신화, 다솜·한별·도담·해랑·서리 머리색·옷 맞춤, 달래·보리·화선 집옷 셋·단오·아라·쇠별 임신 집옷에서 소품 지우기, 한별·가온·여울 worry·소담 serious·아라 pout 새로. 적용은 검수 뒤 assets/st2_X → st_X로 바꾸고 vn.js CAST에 새 표정을 잇는다(docs/스탠딩-개선안.md).",
  "items": [
   {
    "id": "bg_my_room_night",
@@ -13050,6 +13050,336 @@
    "seed": 1515300,
    "prompt": "1girl, solo, mature adult woman, mature korean woman in her early forties, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, faint smile lines, 1980s korean woman, cream silk blouse, long pleated navy skirt, beige cardigan, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
    "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature, young girl, teenager"
+  },
+  {
+   "id": "st2_saebyeok_mom_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, pout, annoyed, frowning, blush, full body, feet visible",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, japanese army, rising sun, child, loli, teenager, nude, nipples, old woman, wrinkles, grey hair, cropped legs, upper body, cowboy shot, out of frame",
+   "init": "assets/st_saebyeok_mom.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "st2_saebyeok_mom_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, blush, shy smile, eyes looking away, full body, feet visible",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, japanese army, rising sun, child, loli, teenager, nude, nipples, old woman, wrinkles, grey hair, cropped legs, upper body, cowboy shot, out of frame",
+   "init": "assets/st_saebyeok_mom.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "st2_saebyeok_mom_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, cream silk blouse with the top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over her shoulders, holding an old faded olive field cap with a small round taegeuk badge against her chest, standing, full body, looking at viewer, tears, teary eyes, sad smile, full body, feet visible",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, japanese army, rising sun, child, loli, teenager, nude, nipples, old woman, wrinkles, grey hair, cropped legs, upper body, cowboy shot, out of frame",
+   "init": "assets/st_saebyeok_mom.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "st2_saebyeok_mom_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with a few strands framing her face, sharp but gentle black eyes, 1980s korean woman, loose cream silk blouse buttoned up, long pleated navy skirt, beige cardigan over her shoulders, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer, full body, feet visible",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, japanese army, rising sun, child, loli, teenager, nude, nipples, old woman, wrinkles, grey hair, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls, cropped legs, upper body, cowboy shot, out of frame",
+   "init": "assets/st_saebyeok_mom.webp",
+   "strength": 0.72
+  },
+  {
+   "id": "st2_dasom_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1616161,
+   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, gentle smile, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, purple hair, blue hair, violet hair",
+   "init": "assets/st_dasom_angry.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dasom_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1616161,
+   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, serious, determined, teary eyes, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, purple hair, blue hair, violet hair",
+   "init": "assets/st_dasom_angry.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dasom_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1616161,
+   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, purple hair, blue hair, violet hair",
+   "init": "assets/st_dasom_angry.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dasom_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1616161,
+   "prompt": "1girl, solo, solo focus, 1980s korean college student, shoulder length straight black hair with bangs, kind dark eyes, white blouse under a navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding a stack of books and a white handkerchief, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, purple hair, blue hair, violet hair",
+   "init": "assets/st_dasom_angry.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_hanbyeol_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern, child, loli, petite, flat chest, blue hair, teal hair, aqua hair",
+   "init": "assets/st_hanbyeol_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_hanbyeol_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, teary eyes, tears, sad smile, emotional, black hair",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern, child, loli, petite, flat chest, blue hair, teal hair, aqua hair",
+   "init": "assets/st_hanbyeol_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dodam_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1111201,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist, standing, full body, looking at viewer, surprised, wide eyes, open mouth, leaning forward curiously",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text",
+   "init": "assets/st_dodam_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dodam_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1111201,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, joseon village doctor apprentice, chestnut brown hair in a single long braid over her shoulder tied with a red daenggi ribbon, a small herb sprig tucked behind her ear, bright hazel eyes, light pale green jeogori with sleeves rolled up to the elbows, deep indigo chima, white work apron tied at the waist, small leather pouch of acupuncture needles hanging from her waist, standing, full body, looking at viewer, teary eyes, trembling brave smile, clutching a medicine pouch to her chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, watermark, signature, text",
+   "init": "assets/st_dodam_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_haerang_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, angry, pout, puffed cheeks, crossed arms, annoyed",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok, child, loli, petite, flat chest",
+   "init": "assets/st_haerang_shy.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_haerang_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok, child, loli, petite, flat chest",
+   "init": "assets/st_haerang_shy.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_haerang_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 6060606,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, short dark brown hair, side ponytail, bright green eyes, ancient northeast asian clothes, dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back, standing, full body, looking at viewer, surprised, wide eyes, open mouth, hands raised",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, armor, hanbok, child, loli, petite, flat chest",
+   "init": "assets/st_haerang_shy.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_seori_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2607080,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, goryeo northern frontier girl, shoulder-length dark brown hair with a short side braid, rosy cheeks, cheerful amber eyes, fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord, standing, full body, looking at viewer, bright smile, open mouth, one hand on her hip",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text",
+   "init": "assets/st_seori_shy.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_dallae_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611241,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_dallae_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st2_dallae_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611241,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_dallae_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st2_dallae_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611241,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, black hair in a loose low bun with a wooden hairpin, brown eyes, oversized men's grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_dallae_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_bori_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611242,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_bori_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st2_bori_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611242,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_bori_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st2_bori_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611242,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, thick black hair in a low braid, dark brown determined eyes, sun-tanned skin, loose white t-shirt and red dolphin shorts, an apron over it, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_bori_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_hwaseon_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_hwaseon_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st2_hwaseon_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_hwaseon_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st2_hwaseon_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st2_hwaseon_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_dano_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611244,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, messy short black hair with a red ribbon headband, sparkling golden brown eyes, tanned skin, oversized band t-shirt and denim cutoff shorts, headphones around her neck, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_dano_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_ara_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611245,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, long black hair in a high ponytail tied with a red cord, bright hazel eyes, sun-kissed skin, athletic toned build, red sports bra and black dolphin shorts, bare midriff, toned abs, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_ara_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_soebyeol_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611246,
+   "prompt": "1girl, solo, solo focus, adult woman, young adult, short messy black hair tied back with a cloth band, bright determined black eyes, tanned skin, toned arms, black tank top and grey jogger shorts, sweatband on her wrist, barefoot, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_soebyeol_home.webp",
+   "strength": 0.76
+  },
+  {
+   "id": "st2_hanbyeol_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1414141,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, college student, long straight black hair with a neat center part and a long braid with a white ribbon, bright dark eyes, korean empire era 1900s mission school student, white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, standing, full body, looking at viewer, worried, anxious frown, biting lip, hand near her mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, sailor uniform, school uniform, modern, child, loli, petite, flat chest",
+   "init": "assets/st_hanbyeol_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_gaon_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2604050,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, ancient silla court interpreter, black hair in a neat low bun with a simple silver hairpin, a few loose strands framing her face, soft brown eyes, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips tied with string, standing, full body, looking at viewer, worried, anxious frown, eyebrows drawn together",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text",
+   "init": "assets/st_gaon_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_yeoul_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 7070707,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, wavy chestnut brown hair, low twin tails tied with blue cloth, bright blue eyes, freckles, goryeo merchant girl, short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, standing, full body, looking at viewer, worried, anxious frown, eyebrows drawn together",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest",
+   "init": "assets/st_yeoul_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_sodam_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 8080808,
+   "prompt": "1girl, solo, solo focus, young adult woman, 21 years old, black hair in a single long braid with red daenggi ribbon, round dark brown eyes, joseon palace maid, green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets, standing, full body, looking at viewer, serious, determined, firm expression, closed mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest",
+   "init": "assets/st_sodam_smile.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "st2_ara_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2604040,
+   "prompt": "1girl, solo, solo focus, young adult woman, 22 years old, goguryeo female archer, long black hair in a high ponytail tied with a red cord, two long pheasant feathers in her hair ornament, bright hazel eyes, sun-kissed skin, athletic toned build, short wrap jacket with red polka dot pattern and dark red trim at the collar and cuffs, leather belt, wide trousers tied at the ankles, leather boots, leather quiver of arrows on her back, holding a recurve bow, standing, full body, looking at viewer, pout, puffed cheeks, sulking, looking away, blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, joseon hanbok, child, loli, petite, flat chest, watermark, signature, text",
+   "init": "assets/st_ara_smile.webp",
+   "strength": 0.6
   }
  ]
 }
