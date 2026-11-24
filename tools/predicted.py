@@ -1237,7 +1237,7 @@ def build():
         size=None
         (ROOT/"data/predicted-figures.js").write_text(head+"window.QUESTION_FIGURES=Object.freeze({...(window.QUESTION_FIGURES||{}),..."+json.dumps(OF,ensure_ascii=False)+"});\n",encoding="utf-8")
     elif os.environ.get("NORENDER"):
-        # 그림(폰트·이웃 저장소)이 없는 환경: 보기·해설만 고치고 기존 그림 목록은 그대로 둔다(문항 순서·자료를 바꾸지 않았을 때만).
+        # 그림(폰트)이 없는 환경: 보기·해설만 고치고 기존 그림 목록은 그대로 둔다(문항 순서·자료를 바꾸지 않았을 때만).
         size=None
     else:
         size=render(figs)

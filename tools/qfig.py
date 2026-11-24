@@ -1,9 +1,8 @@
 """예상 문제 자료 그림(HTML 템플릿 → Playwright 렌더 → WebP). tools/predicted.py 가 부른다."""
-import html, json, subprocess, tempfile, os
+import html, json, re, subprocess, tempfile, os
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "tools/fonts"
-SITE = ROOT.parent / "korean-history-study/site"
 E = html.escape
 
 _H=None
@@ -17,8 +16,8 @@ def heritage_src(name):
 def photo(src):
     """heritage 경로 또는 heritage.js 이름 → file:// 주소"""
     if "/" not in src: src=heritage_src(src)  # heritage.js 이름이면 경로로, "choice-art/…" 같은 학습 사이트 경로는 그대로
-    for base in (ROOT / "assets", SITE):
-        p = base / src
+    webp = re.sub(r"\.(png|jpe?g)$", ".webp", src, flags=re.I)  # 기출 그림 사본(assets/kh/)은 WebP
+    for p in (ROOT / "assets" / src, ROOT / "assets/kh" / src, ROOT / "assets/kh" / webp):
         if p.exists(): return p.as_uri()
     if os.environ.get("NORENDER"): return ""  # 그림을 다시 그리지 않을 때는 사진이 없어도 된다
     raise FileNotFoundError(src)
