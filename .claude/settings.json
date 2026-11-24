@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./data/profiles.js)",
+      "Edit(./data/profiles.js)",
+      "Write(./data/profiles.js)",
+      "Bash(cat:*profiles.js*)",
+      "Bash(head:*profiles.js*)",
+      "Bash(tail:*profiles.js*)",
+      "Bash(less:*profiles.js*)",
+      "Bash(grep:*profiles.js*)",
+      "Bash(sed:*profiles.js*)"
+    ]
+  }
+}
