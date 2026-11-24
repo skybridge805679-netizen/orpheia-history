@@ -4,6 +4,7 @@
 NAI_TOKEN=pst-... python3 tools/nai_batch.py            # 전부
 NAI_TOKEN=pst-... python3 tools/nai_batch.py bg_lecture_room cg_ch01_dolmen   # 골라서
 원본 PNG는 assets/gen/, 게임용 WebP는 assets/ 에 둔다(Pillow가 없으면 PNG만).
+"""
 
 import json, random, sys, time
 from pathlib import Path
