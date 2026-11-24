@@ -973,6 +973,48 @@
     "chunmei"
    ],
    "prompt": "1girl, solo, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating"
+  },
+  {
+   "id": "cg_after_kisses",
+   "size": "bg",
+   "seed": 2611250,
+   "prompt": "4girls, 1boy, heartwarming comedic slice of life, crowded entrance hallway of a small seoul house in the morning, a long row of women's shoes, young mothers dressed for modern jobs and one in a school uniform each kissing a baby on the cheek before heading out the door, a tiger girl holding four babies at once at the end of the line, a hooded young man in pajamas holding a baby, morning sunlight, cute chubby babies, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "girl, adult woman, young adult, tiger ears, fluffy tiger tail, red silk slip with a yellow apron over it, holding four babies at once in her arms, proud smile",
+     "x": 0.78,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, pajamas, holding a baby, getting kissed on the cheek by a woman, flustered",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_after_tigerden",
+   "size": "bg",
+   "seed": 2611251,
+   "prompt": "1girl, 1boy, heartwarming, cozy living room turned into a daycare, nap time, afternoon sunlight, a tiger girl lying on a big floor mat with many cute chubby babies sleeping curled up against her arms, chest and tail like tiger cubs, one baby with a tiny tiger tail, a hooded young man dozing off at the edge holding a diaper, soft blankets, toys scattered, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "girl, adult woman, young adult, tiger ears, fluffy tiger tail curled around the babies, red silk slip with a yellow apron over it, lying on her side, gentle sleepy motherly smile, eyes half closed",
+     "x": 0.45,
+     "y": 0.55
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting against the sofa dozing off, holding a diaper",
+     "uc": "visible eyes",
+     "x": 0.82,
+     "y": 0.55
+    }
+   ]
   }
  ]
 }
