@@ -1,0 +1,34 @@
+# 배포 기록(Deployments) 정리: 환경마다 가장 최근 것 하나만 남기고 지운다.
+# GitHub Pages가 푸시마다(그림 봇 포함) 기록을 하나씩 쌓으므로 매주 한 번 치운다. 사이트 자체는 건드리지 않는다.
+name: cleanup-deployments
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cleanup-deployments.yml']
+  schedule:
+    - cron: '41 19 * * 0'
+  workflow_dispatch:
+permissions:
+  deployments: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            const all = await github.paginate(github.rest.repos.listDeployments, {owner, repo, per_page: 100});
+            const keep = new Set(), seen = new Set();
+            for (const d of all.sort((a, b) => new Date(b.created_at) - new Date(a.created_at)))
+              if (!seen.has(d.environment)) { seen.add(d.environment); keep.add(d.id); }
+            let n = 0, fail = 0;
+            for (const d of all) {
+              if (keep.has(d.id)) continue;
+              try {
+                await github.rest.repos.createDeploymentStatus({owner, repo, deployment_id: d.id, state: 'inactive'});
+                await github.rest.repos.deleteDeployment({owner, repo, deployment_id: d.id});
+                n++;
+              } catch (e) { fail++; core.warning(`${d.id}: ${e.message}`); }
+            }
+            core.notice(`배포 기록 ${all.length}개 중 ${n}개 삭제, 실패 ${fail}개, 남김 ${keep.size}개(${[...seen].join(', ')})`);
