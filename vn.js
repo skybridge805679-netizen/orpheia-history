@@ -719,10 +719,25 @@ function profiles(sel){
  if(!d.open)d.showModal();
 }
 // ── 장 선택: 한 번 들어간 장은 타이틀에서 처음부터 다시 볼 수 있다(records.chReached).
+// 종장 이후(히든 엔딩 뒤 애프터·후일담): 히든 엔딩을 본 뒤 장 선택에 마디별로 열린다. 그 마디부터 이어서 끝까지 본다. 새 후일담을 쓰면 ch24에 @label aft_… 을 달고 한 줄 더한다.
+const AFTER_PARTS=[
+ {label:'aft_today',title:'오늘을 산다',sub:'편의점·욕실·옥상, 각자의 하루'},
+ {label:'aft_breadwinners',title:'바깥양반들',sub:'월급날 밤과 도담의 진료소'},
+ {label:'aft_spring',title:'이듬해 봄',sub:'첫 아기'},
+ {label:'aft_firstcry',title:'첫 울음',sub:'밤 수유 길의 작업실'},
+ {label:'aft_autumn',title:'그다음 해 가을',sub:'소파 위의 엄마와 딸'},
+ {label:'aft_second',title:'둘째 회의',sub:'백 명 넘는 식구'},
+ {label:'aft_tigerden',title:'범굴 어린이집',sub:'현관의 뽀뽀와 거실의 범'},
+ {label:'aft_idol',title:'연회의 무대',sub:'생방송과 대기실'},
+ {label:'aft_moa',title:'모아네 집',sub:'시장 어귀의 재회와 교복'},
+ {label:'aft_husband',title:'그 밤',sub:'연표 바깥, 어느 아파트 부엌'},
+];
+function afterOpen(){return (records.endings||[]).includes('연표의 신부들');}
 function reach(id){const a=records.chReached||(records.chReached=[]);if(!a.includes(id)){a.push(id);save();}}
 function chapterSelect(){const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.chReached||[]);
  d.innerHTML=`<div class="dialog-header"><div><small>CHAPTER SELECT</small><h2>장 선택</h2></div><button class="quiet" data-close>닫기 ×</button></div><p class="mg-sum">한 번 들어간 장은 그 장 처음부터 다시 볼 수 있어요. 지금 이어하던 기록은 그대로 남아요.</p>
- <ul class="gl-ch">${chapters.map(c=>`<li class="${got.has(c.id)?'':'locked'}"><button data-ch="${c.id}" ${got.has(c.id)?'':'disabled'}><b>${esc(c.title)}</b><span>${got.has(c.id)?esc(c.subtitle||''):'？？？'}</span></button></li>`).join('')}</ul>`;
+ <ul class="gl-ch">${chapters.map(c=>`<li class="${got.has(c.id)?'':'locked'}"><button data-ch="${c.id}" ${got.has(c.id)?'':'disabled'}><b>${esc(c.title)}</b><span>${got.has(c.id)?esc(c.subtitle||''):'？？？'}</span></button></li>`).join('')}</ul>${afterOpen()?`<h3 class="gl-sub">종장 이후 · 오늘을 산다</h3><ul class="gl-ch">${AFTER_PARTS.map(x=>`<li><button data-aft="${x.label}"><b>${esc(x.title)}</b><span>${esc(x.sub)}</span></button></li>`).join('')}</ul>`:''}`;
+ d.querySelectorAll('[data-aft]').forEach(b=>b.onclick=()=>{d.close();d.className='';S=fresh('ep');S.pc=byId.ep.labels[b.dataset.aft]??0;log=[];shell();paint();step();});
  d.querySelector('[data-close]').onclick=()=>{d.close();d.className='';};
  d.querySelectorAll('[data-ch]').forEach(b=>b.onclick=()=>{d.close();d.className='';S=fresh(b.dataset.ch);log=[];shell();paint();step();});
  d.showModal();}
