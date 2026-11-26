@@ -9,25 +9,44 @@ from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
 
+MEDIUM_UC = (
+    "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, "
+    "jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, "
+    "screentone, multiple views, logo, too many watermarks, negative space, blank page"
+)
+
 def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, negative="", chars=None, style=None):
     """chars: [{"prompt": 인물 프롬프트, "uc": 인물 네거티브, "x": 0.1~0.9, "y": 0.1~0.9}] — NAI 멀티 캐릭터 프롬프트.
     인물마다 따로 적어서 머리색·옷이 서로 섞이지 않게 하고, x·y(5×5 격자)로 화면 위치를 정한다.
     동작은 source#/target#/mutual# 태그(예: source#carrying, target#carrying)로 누가 누구에게 하는지 적는다."""
     chars = chars or []
     full = f"{style or STYLE['style']}, {prompt}"
-    neg = STYLE["negative"] + (", " + negative if negative else "")
+    is_v5 = model.startswith("nai-diffusion-5")
+    is_medium = model.startswith("nai-diffusion-5-full-medium")
+    if is_medium:
+        neg = MEDIUM_UC if "nsfw" in full.lower() else f"nsfw, {MEDIUM_UC}"
+        steps = 14
+        sampler = "k_euler_ancestral"
+    else:
+        neg = STYLE["negative"] + (", " + negative if negative else "")
+        steps = STYLE["steps"]
+        sampler = STYLE["sampler"]
     params = {
-        "params_version": 3, "width": w, "height": h, "scale": STYLE["scale"], "sampler": STYLE["sampler"],
-        "steps": STYLE["steps"], "n_samples": 1, "seed": seed, "ucPreset": 3, "qualityToggle": STYLE.get("quality", True),
+        "params_version": 4 if is_v5 else 3, "width": w, "height": h, "scale": STYLE["scale"], "sampler": sampler,
+        "steps": steps, "n_samples": 1, "seed": seed, "ucPreset": 2 if is_medium else 3, "qualityToggle": STYLE.get("quality", True),
         "noise_schedule": "karras", "negative_prompt": neg,
         "v4_prompt": {"caption": {"base_caption": full, "char_captions": [
             {"char_caption": c["prompt"], "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
-            "use_coords": any("x" in c for c in chars), "use_order": True},
+            "use_coords": any("x" in c for c in chars), "use_order": True, "legacy_uc": False},
         "v4_negative_prompt": {"caption": {"base_caption": neg, "char_captions": [
-            {"char_caption": c.get("uc", ""), "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
-            "legacy_uc": False},
+            {"char_caption": "" if is_medium else c.get("uc", ""), "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
+            "use_coords": False, "use_order": False, "legacy_uc": False},
     }
-    if chars:
+    if is_v5:
+        params["cfg_rescale"] = 0.0
+        params["legacy_uc"] = False
+        params["add_original_image"] = True
+    if chars and not is_v5:
         params["characterPrompts"] = [{"prompt": c["prompt"], "uc": c.get("uc", ""),
                                        "center": {"x": c.get("x", 0.5), "y": c.get("y", 0.5)}, "enabled": True} for c in chars]
     action = "generate"
