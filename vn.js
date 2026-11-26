@@ -86,7 +86,7 @@ const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄
 const HOME_IDS='noeul ullim dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom irang eunsil sara choa bada ellie goyo moa tsubaki chunmei'.split(' ');
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
 COSTUME.moa.add('school');   // 모아 교복(종장 후일담 「모아네 집」, st_moa_school)
-['maehyang','choryeon','hwaseon','seola'].forEach(id=>{COSTUME[id].add('school');COSTUME[id].add('idol');});   // 교방 네 자매 교복·아이돌 무대 의상(종장 후일담)
+COSTUME.maehyang.add('school');COSTUME.maehyang.add('idol');COSTUME.choryeon.add('school');COSTUME.choryeon.add('idol');COSTUME.hwaseon.add('school');COSTUME.hwaseon.add('idol');COSTUME.seola.add('school');COSTUME.seola.add('idol');   // 교방 네 자매 교복·아이돌 무대 의상(종장 후일담)
 const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant','despair','wet'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
