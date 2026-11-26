@@ -656,7 +656,7 @@ function galleryCgs(){
 function gallery(tab='cg'){
  const d=$('#vnLog');d.className='sheets gallery';const got=new Set(records.cgSeen||[]),heard=new Set(records.bgmHeard||[]),ends=records.endings||[];
  const groups=galleryCgs(),total=groups.reduce((n,g)=>n+g.list.length,0),opened=groups.reduce((n,g)=>n+g.list.filter(k=>got.has(k)).length,0);
- const songs=[...BGM.songs,'song_end_orpheia','song_end_fail'],bgms=Object.keys(BGM_TITLE);
+ const songs=[...BGM.songs,'song_end_orpheia','song_end_fail','song_end_hero','song_end_muk'],bgms=Object.keys(BGM_TITLE);
  const tabs=`<nav class="gl-tabs">${[['cg',`CG ${opened}/${total}`],['music',`음악 감상 ${[...songs,...bgms].filter(n=>heard.has(n)||n==='bgm_title').length}/${songs.length+bgms.length}`],['scene',`회상 ${sceneList().filter(x=>got.has(x.k)).length}/${sceneList().length}`],['end',`엔딩 ${ends.length}/${endingCount()}`],['muk','묵 의상 도감']].map(([k,v])=>`<button data-tab="${k}" class="${k===tab?'on':''}">${v}</button>`).join('')}</nav>`;
  let body='';
  if(tab==='cg')body=groups.map(g=>{const sets=[];for(const k of g.list){const b=varBase(k),last=sets[sets.length-1];if(last&&last.b===b)last.v.push(k);else sets.push({b,v:[k]});}
@@ -682,7 +682,7 @@ function profiles(sel){
  const d=$('#vnLog');d.className='sheets gallery profiles';
  const face=(id,e='smile')=>{const q=P.find(x=>x.id===id);if(q?.img&&e==='smile')return asset(q.img+'.webp');const s=CAST[id]?.stand||{};const f=s[e]||s.smile||s.neutral;return f?asset(f+'.webp'):asset('emblem_gold.webp');};
  // 모습: data/stands.js(tools/stand_index.py)에 있는 그 인물의 스탠딩을 모두 보여 준다(2026.11 주인님 지정). 표정 / 옷 / 흐트러짐으로 묶는다.
- const PF_EXP={smile:'웃음',neutral:'평소',shy:'부끄러움',surprised:'놀람',angry:'화남',pout:'삐짐',teary:'눈물',worry:'걱정',serious:'진지',excited:'신남',explain:'설명',sad:'슬픔',lonely:'쓸쓸',smirk:'비웃음',writing:'기록',pregnant:'임신'};
+ const PF_EXP={smile:'웃음',neutral:'평소',shy:'부끄러움',surprised:'놀람',angry:'화남',pout:'삐짐',teary:'눈물',worry:'걱정',serious:'진지',excited:'신남',explain:'설명',sad:'슬픔',lonely:'쓸쓸',smirk:'비웃음',writing:'기록',pregnant:'임신',despair:'절망',wet:'비에 젖음'};
  const PF_COST={home:'집옷',hanbok:'한복',school:'교복',mom:'엄마',baekje:'백제',buyeo:'부여',goryeo:'고려',hwarang:'화랑',joseon:'조선',neolithic:'신석기'};
  const pfLabel=(id,f)=>{const rest=f.slice(`st_${id}`.length).replace(/^_/,'');if(!rest)return {g:'옷',t:'처음 모습',o:0};const tk=rest.split('_');let cost=[],ex=[],dmg='';
   for(const k of tk){let m;if((m=k.match(/^d(\d)$/)))dmg=`찢어짐 ${m[1]}`;else if((m=k.match(/^g(\d)$/)))dmg=`흐트러짐 ${m[1]}`;else if(PF_EXP[k])ex.push(PF_EXP[k]);else cost.push(id==='muk'&&window.MUK_SKINS?.[k]?.name||PF_COST[k]||k);}
