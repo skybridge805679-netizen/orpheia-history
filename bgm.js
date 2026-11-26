@@ -10,8 +10,9 @@ const BGM=(()=>{
  // 새 곡 파일이 아직 없으면 대신 틀 곡
  const FB={bgm_tension:'bgm_challenge',bgm_muk:'bgm_challenge',song_end_hero:'bgm_romance',song_end_muk:'bgm_orpheia',...Object.fromEntries(ERA.map(e=>[e,'bgm_outing'])),bgm_horror:'bgm_tragic',bgm_exorcist:'bgm_challenge',bgm_babies:'bgm_comedy',bgm_family:'bgm_daily',bgm_noble:'bgm_romance',bgm_clinic:'bgm_outing',bgm_sayeon:'bgm_challenge',bgm_jealous:'bgm_comedy',song_end_orpheia:'bgm_orpheia',song_end_fail:'bgm_ending'};
  // 배경 이름 규칙: 표에 없으면 접두어로 고른다(새 장을 써도 BGM 표를 고칠 필요가 없게).
- const TRAGIC=/ugeumchi|jeju_43|gwangju_1980|heungnam|samjeondo|gyeongbokgung_ruin|okhoru|jungmyeongjeon|harbin|kokumin_school|bupyeong|tomak|namhansanseong|jinju_1862|pyeongyang_fall|hwangsan|myeonghakso/;
- const ROMANCE=/kiln|drying|cinema|farewell|yakgwa|dano_wink/;
+ const TRAGIC=/ugeumchi|jeju_43|gwangju_1980|heungnam|samjeondo|gyeongbokgung_ruin|okhoru|jungmyeongjeon|harbin|kokumin_school|bupyeong|tomak|namhansanseong|jinju_1862|pyeongyang_fall|hwangsan|myeonghakso|cg_ch02_dallae_siege|cg_ch03_(gungnae_messenger|hanseong_refugees)|cg_ch06_poseokjeong|cg_ch07_dongbuk|cg_ch11_ruin|cg_ch12_choa_jeongju|cg_ch14_imo|cg_ch17_survey|cg_ch20_school|cg_ch21_(jeju|tentschool)|cg_ch22_bomnae_sitin/;
+ const ROMANCE=/kiln|drying|cinema(?!_spill)|farewell|yakgwa|dano_wink|cg_ch12_(seola_dance|seola_secret)|cg_ch13_bada_abalone|cg_ch15_ellie_organ|cg_ch19_date|cg_ch20_saebyeok_(hood_off|dawn)/;
+ const COMEDY=/^cg_yeoul_(fall|father|market)$|^cg_ch01_(firespirit|noeul_pounce)$|^cg_ch02_(noeul_tackle|dallae_fall)$|^cg_ch03_(capsize|eunsil|campfire)$|^cg_ch04_(gaon|ara)$|^cg_ch05_haerang_(carry|wet)$|^cg_ch06_(seasick|sara_mask|sara)$|^cg_ch07_(maru|gwageo_caught)$|^cg_ch08_(soebyeol|fashion|fashion_fall)$|^cg_ch09_yeoul_duel$|^cg_ch10_(crossdress|hide_hug|sodam_books)$|^cg_ch11_(recoil|tsubaki)$|^cg_ch12_(hwaseon_fall|choryeon_string|seola_screen|sisters|choa)$|^cg_ch13_(catch|bada)$|^cg_ch14_garam$|^cg_ch15_ellie$|^cg_ch16_rivals_fall$|^cg_ch17_(bori_spill|chunmei)$|^cg_ch18_measure$|^cg_ch19_cinema_spill$|^cg_ch20_tangle$|^cg_ch22_bomnae$|^cg_ch23_moa$/;
  // 시대 장면(bg_era_*)은 장마다 그 시대 탐방곡을 튼다(2026.11.23). 파일이 없으면 FB로 bgm_outing.
  const eraOf=ch=>{const n=+String(ch||'').replace(/\D/g,'');if(!n||n>23)return '';return n<=6?'bgm_era_ancient':n<=9?'bgm_era_goryeo':n<=11?'bgm_era_joseon':n<=13?'bgm_era_joseon_late':n<=16?'bgm_era_modern':n<=20?'bgm_era_colonial':'bgm_era_contemporary';};
  const byRule=n=>{
@@ -26,19 +27,24 @@ const BGM=(()=>{
   if(/^cg_sp_el_(door|confess)/.test(n))return 'bgm_romance';   // 엘리 외전: 밤 복도·방문 앞은 설렘, 나머지는 집 곡
   if(/^cg_sp_el_/.test(n))return 'bgm_family';
   if(/^cg_sp_ex_battle/.test(n))return 'bgm_exorcist';
-  if(/^cg_sp_ex_(ghost|dawn)|^cg_after_husband/.test(n))return 'bgm_horror';
-  if(/^cg_kk_/.test(n))return 'bgm_romance';   // 꽁냥 장면 CG(2026.11.23)
+  if(/^cg_sp_ex_(ghost|dawn)|^cg_after_husband|^cg_ch23_saebyeok_(despair|kneel|rain_door|h\d)|^cg_sp0[356]_saebyeok_h|^cg_(ch10|ch14|ch15|sp05|sp06|end)_goyo_(haunt|float|h\d)|^cg_ch14_goyo$/.test(n))return 'bgm_horror';
+  if(/^cg_ep_sayeon_|^cg_ch06_sayeon_archive/.test(n))return 'bgm_sayeon';
+  if(/^cg_ep_muk_|^cg_end_muk_h|^cg_muk_/.test(n))return 'bgm_muk';
+  if(/^cg_ch12_choa_h|^cg_sp0[56]_choa_h|^cg_ch0[478]_(hideout|seori|danbi)$|^cg_ch12_(byeokseo|choa_meet)$|^cg_ch22_suspect$/.test(n))return 'bgm_tension';
+  if(/orpheia|dive_hand|timeline_dive/.test(n))return 'bgm_orpheia';
   if(/haneui/.test(n)&&!/harem/.test(n))return 'bgm_noble';
   if(/dodam|after_clinic/.test(n)&&!/harem/.test(n))return 'bgm_clinic';
+  if(/_h\d+$|^cg_sp_nt2?_/.test(n))return 'bgm_romance';   // 본편·외전·엔딩 정사(H) 및 밤 장면
+  if(/^cg_kk_/.test(n))return 'bgm_romance';   // 꽁냥 장면 CG(2026.11.23)
   if(/^cg_after_/.test(n))return 'bgm_family';
   if(/ink_spread|comment_flame/.test(n))return 'bgm_challenge';
   if(/studio/.test(n))return 'bgm_night_shift';
   if(/yunseul/.test(n))return 'bgm_yunseul';
-  if(/orpheia|dive_hand|timeline_dive/.test(n))return 'bgm_orpheia';
+  if(/ullim/.test(n))return 'bgm_orpheia';
   if(TRAGIC.test(n))return 'bgm_tragic';
   if(ROMANCE.test(n))return 'bgm_romance';
-  if(/^cg_(ch\d\d|yeoul)_/.test(n))return 'bgm_comedy';
-  if(/^bg_era_/.test(n))return eraOf(api.chapter)||'bgm_outing';
+  if(COMEDY.test(n))return 'bgm_comedy';
+  if(/^(bg_era_|cg_ch\d\d_)/.test(n))return eraOf(api.chapter)||'bgm_outing';
   return '';
  };
  const SCENE={
@@ -51,7 +57,7 @@ const BGM=(()=>{
   cg_ch08_soebyeol_news:'bgm_era_goryeo',cg_ch08_ullim_hum:'bgm_orpheia',cg_ch12_maehyang_dawn:'bgm_romance',
   cg_ch14_garam_grief:'bgm_tragic',cg_ch14_bori_song:'bgm_era_modern',cg_ch20_chunmei:'bgm_era_colonial',
   cg_ch21_saebyeok_hug:'bgm_romance',cg_ch23_mother:'bgm_tragic',cg_ch23_saebyeok_confess:'bgm_tragic',
-  cg_end_harem_saebyeok:'bgm_romance',cg_end_saebyeok_kiss:'bgm_romance',cg_sp_aunt_lullaby:'bgm_family',cg_sp_sb_night:'bgm_romance',
+  cg_end_harem_saebyeok:'bgm_romance',cg_end_saebyeok_kiss:'bgm_romance',cg_sp_aunt_lullaby:'bgm_family',cg_sp_sb_night:'bgm_horror',
  };
  let set={volume:.5,muted:false};
  try{Object.assign(set,JSON.parse(localStorage.getItem(KEY)||'{}'));}catch{}
