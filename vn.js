@@ -87,7 +87,7 @@ const HOME_IDS='noeul ullim dallae naru ara gaon haerang haneui maru seori yeoul
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
 COSTUME.moa.add('school');   // 모아 교복(종장 후일담 「모아네 집」, st_moa_school)
 const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
-const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
+const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant','despair','wet'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
 const SAYEON_DMG_OK=true;
 // 같은 자리에 두 사람이 겹쳐 서지 않게 한다. keep(방금 @show 한 사람)은 그 자리를 지키고, 겹친 사람은 원래 자리(home)가 비었으면 거기로, 아니면 빈자리로 옮긴다.

@@ -6335,6 +6335,144 @@
      "y": 0.5
     }
    ]
+  },
+  {
+   "id": "st_saebyeok_mom_despair",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "model": "nai-diffusion-5-full",
+   "cast": [
+    "saebyeok_mom"
+   ],
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, black hair in a loose low chignon with disheveled strands falling across her face, 1980s korean woman, cream silk blouse, long pleated navy skirt, beige cardigan, standing, full body, looking at viewer, extreme despair, horror, pale face, constricted pupils, wide terrified eyes, trembling, one hand covering mouth in nausea and shock, other hand gripping her skirt tightly, tears streaming down, psychological breakdown, cold sweat",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, smile, happy, calm, child, loli",
+   "init": "assets/st_saebyeok_mom_teary.webp",
+   "strength": 0.58
+  },
+  {
+   "id": "st_saebyeok_mom_wet",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1515300,
+   "model": "nai-diffusion-5-full",
+   "cast": [
+    "saebyeok_mom"
+   ],
+   "prompt": "1girl, solo, solo focus, mature woman, adult korean woman in her late thirties, milf, beautiful, curvy, large breasts, wet messy black hair, hair coming undone from bun, drenched in rain, dripping water, wet clothes, translucent wet cream silk blouse clinging to skin, bra visible through wet shirt, deep cleavage, long pleated navy skirt soaked with rain, barefoot, no ring, standing, full body, looking at viewer, crying, tears and rain on face, desperate pleading expression, submissive, shivering, hands together in apology",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, umbrella, dry clothes, smile, happy, child, loli",
+   "init": "assets/st_saebyeok_mom_teary.webp",
+   "strength": 0.65
+  },
+  {
+   "id": "cg_ch23_saebyeok_despair",
+   "size": "bg",
+   "seed": 2623001,
+   "model": "nai-diffusion-5-full",
+   "prompt": "1girl, 1boy, psychological horror, dramatic lighting, outside 1988 seoul olympic stadium, dark vignette shadow, a mature korean woman frozen in sheer horror and despair upon seeing a young man in a black hoodie, pale face, constricted pupils, covering her mouth in nausea, gripping her skirt with white knuckles, tears and sweat, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "girl, mature female, curvy, black hair in a low bun with loose strands, cream silk blouse, navy skirt, beige cardigan, gold wedding ring on left ring finger, extreme despair, horror, pale face, wide terrified eyes, constricted pupils, trembling, covering mouth with one hand, nauseous, tears, cold sweat, breakdown",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, cold expression, standing still, looking down at her wedding ring",
+     "uc": "visible eyes, smile",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_ch23_saebyeok_kneel",
+   "size": "bg",
+   "seed": 2623002,
+   "model": "nai-diffusion-5-full",
+   "prompt": "1girl, 1boy, dark concrete corridor under stadium stands, deep shadows, dramatic, a mature korean woman collapsed on her knees on the floor wailing in despair and clutching an old faded olive military cap, pressing her tear-stained cheek near the shoes of a cold young man in a black hoodie standing over her, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "girl, mature female, curvy, disheveled black hair in a loose bun, cream silk blouse, navy skirt, kneeling on concrete floor, collapsed, clutching an old faded olive field cap to her chest, grabbing her own hair, wailing, crying hard, tears streaming, extreme guilt and despair, looking up at him in terror and submission",
+     "x": 0.42,
+     "y": 0.65
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, cold stern mouth, standing over her, looking down coldly, dominant",
+     "uc": "visible eyes, smile, gentle",
+     "x": 0.62,
+     "y": 0.45
+    }
+   ]
+  },
+  {
+   "id": "cg_ch23_saebyeok_rain_door",
+   "size": "bg",
+   "seed": 2623003,
+   "model": "nai-diffusion-5-full",
+   "prompt": "1girl, 1boy, night at a dimly lit 1980s seoul inn room doorway, heavy pouring rain outside in the dark alley, a mature curvy korean woman completely drenched in rain kneeling at the open door before a hooded young man, wet translucent white blouse clinging to her large breasts and skin, hair undone and dripping water, trembling and pleading for punishment, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "girl, mature female, curvy, large breasts, wet messy black hair coming undone, drenched in rain, dripping water, wet translucent cream silk blouse clinging to skin, bra and cleavage visible through wet blouse, wet navy skirt, kneeling at the doorway, holding up her bare left hand without a wedding ring, crying, tears mixed with rain, desperate submissive pleading expression",
+     "x": 0.44,
+     "y": 0.58
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, standing inside the room, grabbing her chin with one hand, cold dominant aura",
+     "uc": "visible eyes, smile",
+     "x": 0.62,
+     "y": 0.48
+    }
+   ]
+  },
+  {
+   "id": "cg_ch10_goyo_haunt",
+   "size": "bg",
+   "seed": 2610005,
+   "model": "nai-diffusion-5-full",
+   "prompt": "1girl, 1boy, eerie supernatural horror and seduction, dark joseon palace corridor at night (gyeongbokgung), floating blue ghost fire (will-o-the-wisp) and flickering blue candle, a pale translucent virgin ghost girl in white sobok hanbok emerging from the dark pillar shadow behind a young man in pink court lady disguise, placing her icy pale hands around his neck, chilling and seductive, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "goyo",
+     "prompt": "girl, ghost, korean virgin ghost (cheonyeo gwisin), absurdly long straight black hair hanging down to ankles, corpse-pale translucent skin, dark haunting black eyes, white mourning hanbok (sobok), barefoot floating slightly above floor, emerging from dark shadow behind him, icy pale hands reaching around his neck, eerie alluring expression, blue ghost fire glow",
+     "x": 0.44,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man disguised as a joseon court lady, pink dangui jacket loosened, black hoodie underneath, hood down or shaded face, faceless upper face, surprised, cold breath",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_ch20_saebyeok_hood_off",
+   "size": "bg",
+   "seed": 2620005,
+   "model": "nai-diffusion-5-full",
+   "prompt": "1girl, 1boy, romantic emotional close-up, starry night on a grassy hillside in xian (1945), milky way in the night sky, white parachute silk spread on the grass, a 17-year-old korean liberation army girl gently pulling back the black hood of a young man with both hands and touching his cheek with tears in her eyes, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok",
+     "prompt": "girl, 17 years old, short black bob hair, 1940s korean liberation army olive drab uniform, field cap with taegeuk badge, reaching up with both hands to pull back his black hood, touching his cheek, teary eyes, loving emotional blush, tender smile",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie with hood pulled back off his head, short black hair, upper face softly shaded by night shadow, gentle warm mouth and jawline visible, holding her wrist gently",
+     "uc": "brightly lit eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
   }
  ]
 }
