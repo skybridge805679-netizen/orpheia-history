@@ -3171,6 +3171,1372 @@
    "strength": 0.72,
    "model": "nai-diffusion-5-full-medium",
    "cast": "goyo"
+  },
+  {
+   "id": "st_maehyang_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, calm dignified smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, stern scolding expression, frown, pointing with folded fan",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, faint blush, looking away, covering mouth with sleeve",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, surprised, eyes wide, raised eyebrows",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, teary eyes, single tear, gentle sad smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, holding a folded paper with a poem, standing, full body, looking at viewer, worried, furrowed brows, hand on chest",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, petite, flat chest, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_home",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, long glossy black hair let down, a single gold hairpin, dignified sharp dark eyes, mature beauty, black lace bra and matching lace panties, a sheer black silk robe hanging open over them, elegant pose, relaxed at home, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor",
+   "init": "assets/st_maehyang_smile.webp",
+   "strength": 0.78,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, long glossy black hair let down, a single gold hairpin, dignified sharp dark eyes, mature beauty, black lace bra and matching lace panties, a sheer black silk robe hanging open over them, elegant pose, relaxed at home, standing, full body, pregnant, visibly pregnant, round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli",
+   "init": "assets/st_maehyang_home.webp",
+   "strength": 0.62,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_maehyang_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, long glossy black hair let down, a single gold hairpin, dignified sharp dark eyes, mature beauty, black lace bra and matching lace panties, a sheer black silk robe hanging open over them, elegant pose, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor",
+   "init": "assets/st_maehyang_home.webp",
+   "strength": 0.5,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "cg_after_maehyang",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "1girl, 1boy, small bookstore poetry reading night, a tall graceful woman reading a poem aloud at a microphone with a calm dignified face, the audience enchanted, a hooded young man in the back row",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, elegant modern clothes, reading a poem at a microphone, dignified",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.48,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sitting in the back row",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_ch12_maehyang_dawn",
+   "size": "bg",
+   "seed": 2324023,
+   "prompt": "1girl, 1boy, wooden maru veranda of a joseon house at dawn after a banquet, pale moon fading, mist, empty wine cups, ink stone and brush, quiet romantic mood, masterpiece",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, joseon gisaeng, tall, black hair in a formal updo, red plum blossom ornament, gold binyeo, dignified dark eyes, deep plum purple jeogori, navy chima, sitting on the maru writing a poem on hanji paper with a brush, outer jeogori draped loosely over her shoulders, hair slightly loosened, tired gentle smile, looking at him",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting beside her, holding a cup, seen from the side",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.64,
+     "y": 0.58
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_ch12_maehyang_h1",
+   "size": "bg",
+   "seed": 195124294,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, rain, attic, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, nude, blush, sweat, straddling, riding, hands on his chest, large breasts",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, lying on back",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_end_maehyang",
+   "size": "bg",
+   "seed": 2324033,
+   "prompt": "1girl, 1boy, spring garden of a joseon house in full plum blossom, morning light, petals falling, elegant farewell, masterpiece",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, joseon gisaeng, tall, black hair in a formal updo, red plum blossom ornament, gold binyeo, dignified dark eyes, deep plum purple jeogori, navy chima, handing him a folded hanji letter with a poem, dignified gentle smile, faint blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, receiving the letter, seen from behind",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.65,
+     "y": 0.55
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_maehyang_h1",
+   "size": "bg",
+   "seed": 3638953486,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, snow, rain, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, nude, blush, sweat, straddling, arms around his neck, open mouth, large breasts, tears",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, sitting, hugging her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_maehyang",
+   "size": "bg",
+   "seed": 6085534,
+   "prompt": "1girl, 1boy, heartwarming, riverside banquet under a white canopy beside cheonggyecheon stream, a young man breaking a yakgwa honey cookie in half and offering one half to a tall gisaeng, she is surprised and touched, warm afternoon light, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding out half of a yakgwa cookie to her, gentle",
+     "uc": "visible eyes",
+     "x": 0.38,
+     "y": 0.55
+    },
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, joseon gisaeng, tall, black hair in a formal updo, red plum blossom ornament, gold binyeo, dignified dark eyes, deep plum purple jeogori, navy chima, holding the other half of a yakgwa cookie with both hands, surprised, touched, soft shy smile, slight blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.62,
+     "y": 0.5,
+     "cast": "maehyang"
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_kk_maehyang_kiss",
+   "size": "bg",
+   "seed": 2611521,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dawn on a riverside stone embankment in old seoul, she shares a half yakgwa cookie and kisses a hooded young man, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, tall, glossy black hair in a neat formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, joseon gisaeng, deep plum purple jeogori with gold trim and a long dark red otgoreum ribbon, long full navy chima skirt wrapped high under the bust, kissing him, eyes closed, blush, holding half a cookie, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, gentle, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt_maehyang",
+   "size": "bg",
+   "seed": 2611321,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, before dawn, pale blue window light, she lies beside him writing on a smartphone with a soft smile, the screen light on her face, he sleeps",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, long-sleeved violet silk pajamas, lying on stomach, holding smartphone, soft smile, screen light on face",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, sleeping",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt2_maehyang",
+   "size": "bg",
+   "seed": 2611422,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, blanket, dim warm bedside lamp light, a baby monitor glowing on the bedside table, romantic, tired, peaceful, no readable text, she sits by the window at the edge of the bed writing on a smartphone, he sleeps with his head on her lap, city lights outside",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, black lace bra and matching lace panties, sheer black silk robe hanging over them, long hair let down with a single gold hairpin, sitting, his head on her lap, writing on smartphone, soft smile",
+     "x": 0.45,
+     "y": 0.45
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, sleeping, head on her lap",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.6
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp05_maehyang_h1",
+   "size": "bg",
+   "seed": 2249315902,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, nude, blush, sweat, lying on back",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp06_maehyang_h1",
+   "size": "bg",
+   "seed": 1004255988,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, bedroom, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, nude, blush, sweat, lying on back, large breasts",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_wife_maehyang_b0",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, joseon banquet room at night with red plum blossoms, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "cg_wife_maehyang_b2",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, joseon banquet room at night with red plum blossoms, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, deep red silk breast band visible, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "cg_wife_maehyang_b3",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, joseon banquet room at night with red plum blossoms, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a deep red silk breast band and short red silk underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "cg_wife_maehyang_win",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "cg_wife_maehyang_b1",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, joseon gisaeng, glossy black hair in a formal updo with a large braided chignon, red plum blossom ornament and gold binyeo, dignified sharp dark eyes, deep plum purple jeogori with gold trim, long navy chima, joseon banquet room at night with red plum blossoms, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, flat chest, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "init": "assets/cg_wife_maehyang_b0.webp",
+   "strength": 0.6,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_choryeon_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, smug smirk, chin up",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, angry, puffed cheeks, glaring, stomping",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, tsundere, deep blush, pouting, looking away, arms crossed",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, surprised, flustered, eyes wide",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, teary eyes, biting lip, trying not to cry",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, holding a geomungo plectrum, standing, full body, looking at viewer, worried, glancing sideways, fidgeting with sleeve",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_home",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a loose updo with strands framing her face, haughty upturned light brown eyes, pink lace bra and panties set, an oversized cream knit cardigan slipping off her shoulders, haughty blush, relaxed at home, standing, full body, looking at viewer, gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor",
+   "init": "assets/st_choryeon_smile.webp",
+   "strength": 0.78,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a loose updo with strands framing her face, haughty upturned light brown eyes, pink lace bra and panties set, an oversized cream knit cardigan slipping off her shoulders, haughty blush, relaxed at home, standing, full body, pregnant, visibly pregnant, round pregnant belly, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli",
+   "init": "assets/st_choryeon_home.webp",
+   "strength": 0.62,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_choryeon_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a loose updo with strands framing her face, haughty upturned light brown eyes, pink lace bra and panties set, an oversized cream knit cardigan slipping off her shoulders, haughty blush, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor",
+   "init": "assets/st_choryeon_home.webp",
+   "strength": 0.5,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "cg_after_choryeon",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "1girl, 1boy, music instrument shop, a proud woman with a lotus ornament in her hair restringing an electric guitar with a sulky but focused face, a hooded young man watching",
+   "chars": [
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, modern chic clothes, restringing an electric guitar, sulky focused face",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, watching",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_ch12_choryeon_h1",
+   "size": "bg",
+   "seed": 107929561,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, rain, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, nude, blush, sweat, lying on back, tears",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_ch12_choryeon_string",
+   "size": "bg",
+   "seed": 2324022,
+   "prompt": "1girl, 1boy, behind the stage curtain of a joseon banquet hall at night, candlelight, a geomungo zither on the floor with a snapped string, close, tense, romantic, masterpiece",
+   "chars": [
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, joseon gisaeng, black hair updo with loose strands, pink lotus ornament, light brown eyes, pale pink jeogori, lilac chima, kneeling at the geomungo, his hands over her hands on the string, deep blush, tsundere pout, looking away, slipped jeogori collar, collarbone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.55,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, kneeling behind her, reaching around her to retie the string",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_choryeon",
+   "size": "bg",
+   "seed": 2324032,
+   "prompt": "1girl, 1boy, a quiet joseon gisaeng house room at night, moonlight through a paper window, a geomungo zither, intimate farewell, masterpiece",
+   "chars": [
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, joseon gisaeng, black hair updo with loose strands, pink lotus ornament, light brown eyes, pale pink jeogori, lilac chima, playing the geomungo, tears falling, tsundere pout, not looking at him",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.55,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting behind her listening, back view",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.66,
+     "y": 0.58
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_choryeon_h1",
+   "size": "bg",
+   "seed": 3576268177,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, rain, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, nude, blush, sweat, lying on back, legs spread, legs around his waist",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_choryeon",
+   "size": "bg",
+   "seed": 5700173,
+   "prompt": "1girl, 1boy, romantic, night banquet room of a joseon noble house, lantern light, a gisaeng sitting at a geomungo looking away with a tsundere pout while a hooded young man kneels beside her listening closely to one string, soft glow, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling beside her, leaning close, listening intently to the string, calm",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.5
+    },
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, joseon gisaeng, black hair updo with loose strands, pink lotus ornament, light brown eyes, pale pink jeogori, lilac chima, sitting at the geomungo, plucking one string, face turned away, tsundere pout, deep blush, glancing at him from the corner of her eye",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.5,
+     "cast": "choryeon"
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_kk_choryeon_kiss",
+   "size": "bg",
+   "seed": 2611522,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, night in an empty guest hall after a banquet, a geomungo zither on the floor, she grabs a hooded young man's sleeve and kisses him, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, glossy black hair in a joseon gisaeng updo with a few loose strands framing her face, pink lotus flower hair ornament, haughty upturned eyes, light brown eyes, joseon gisaeng, pale pink jeogori with white cuffs and a long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under the bust, smug smirk, chin up, kissing him, eyes closed, blush, tsundere, holding his sleeve, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, kneeling, being kissed, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt_choryeon",
+   "size": "bg",
+   "seed": 2611322,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, she lies with her back turned to him in a pout, but reaches back with one hand and pinches the sleeve of his hoodie",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, long-sleeved navy pajamas, back turned, pout, blushing, holding his sleeve behind her, tsundere",
+     "x": 0.4,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, facing her back, gentle",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.52
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt2_choryeon",
+   "size": "bg",
+   "seed": 2611423,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, blanket, dim warm bedside lamp light, a baby monitor glowing on the bedside table, romantic, tired, peaceful, no readable text, she wears foam earplugs and snuggles into his chest with a grumpy pout, eyes closed",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, pink lace bra and panties set, oversized cream knit cardigan, glossy black hair in a loose updo, earplugs, snuggling into his chest, grumpy pout, blush, eyes closed",
+     "x": 0.45,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on side, holding her",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.52
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp05_choryeon_h1",
+   "size": "bg",
+   "seed": 2346603937,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, nude, blush, sweat, all fours, looking back, ass up",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, kneeling behind her, gripping her hips",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp06_choryeon_h1",
+   "size": "bg",
+   "seed": 907295087,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, nude, blush, sweat, lying on back",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_wife_choryeon_b0",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, joseon banquet room with a geomungo, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "cg_wife_choryeon_b1",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, joseon banquet room with a geomungo, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "cg_wife_choryeon_b2",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, joseon banquet room with a geomungo, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, pink silk breast band visible, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "cg_wife_choryeon_b3",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, joseon banquet room with a geomungo, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a pink silk breast band and pink silk underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "cg_wife_choryeon_win",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_hwaseon_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, wide grin, wink, peace sign",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, mock angry pout, hands on hips, cheeks puffed",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, wide grin, pregnant, visibly pregnant, round pregnant belly under her clothes, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples, child, loli, nude, nipples, bare belly, navel, exposed stomach, midriff, cleavage, sexy pose, multiple girls, 2girls",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, blush, giggling, hands on cheeks",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, surprised, mouth open, jumping back",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, crying with a wobbly smile, tears",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, full body, looking at viewer, worried, biting fingernail, eyes darting",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, child, loli, nude, nipples",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, gentle smile, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_hwaseon_smile.webp",
+   "strength": 0.78,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, pregnant, visibly pregnant, large round pregnant belly, obvious belly bulge, third trimester, both hands resting gently on her belly, maternal, gentle happy smile, soft blush, looking at viewer, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, flat stomach, child, loli, slim waist, thin waist, text, japanese text, english text, holding object, suitcase, swim ring, inflatable, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_hwaseon_home.webp",
+   "strength": 0.76,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_hwaseon_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2611243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a messy half updo with small colorful flower pins, bright mischievous amber eyes, a huge oversized black hoodie only, sleeves past her hands, bare legs, barefoot, mischievous, relaxed at home, standing, full body, looking at viewer, blushing, embarrassed, looking away, simple background, no props, nothing around her",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, areola, pussy, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, armor, furniture, chair, table, bicycle, suitcase, swim ring, inflatable, potted plant, flowers, water, waves, scenery, room, background objects, paint strokes, brush strokes, abstract shapes, streaks, splashes",
+   "init": "assets/st_hwaseon_home.webp",
+   "strength": 0.5,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_after_hwaseon",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "1girl, 1boy, k-pop dance studio with a mirror wall, a playful woman with flower pins in her hair nailing a dance move in front of the mirror, other students staring, a hooded young man trying to copy and failing",
+   "chars": [
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, modern dance practice clothes, mid dance move, wink",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, trying to copy the dance, failing",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_ch12_hwaseon_fall",
+   "size": "bg",
+   "seed": 2324021,
+   "prompt": "1girl, 1boy, joseon dynasty gisaeng house rehearsal yard in the evening, wooden floor, paper lanterns being lit, scattered flower petals, comedic accident, romantic comedy, masterpiece",
+   "chars": [
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, black hair updo with many colorful flower pins, bright amber eyes, bright yellow flower embroidered jeogori, orange otgoreum, green chima, long dancing sleeves, fell forward on top of him, straddling, long sleeve tangled around both of them, chima skirt fluttering up, thighs visible, flustered laugh, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.45,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, lying on his back on the floor under her, arms spread, stunned",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.5,
+     "y": 0.65
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_ch12_hwaseon_h1",
+   "size": "bg",
+   "seed": 3462767461,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, snow, rain, attic, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, nude, blush, sweat, lying on back, legs spread, legs around his waist",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_ch12_hwaseon_market",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "1girl, 1boy, busy joseon street stalls, a stall full of colorful hair ornaments, a playful gisaeng holding up two flower hairpins and haggling with the old vendor, a hooded young man holding her shopping",
+   "chars": [
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, holding up two flower hairpins, haggling, grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.42,
+     "y": 0.5,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding her shopping bundles",
+     "uc": "visible eyes",
+     "x": 0.64,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_hwaseon",
+   "size": "bg",
+   "seed": 2324031,
+   "prompt": "1girl, 1boy, joseon festival night street with many paper lanterns and a crowd in the background, fireworks of sparks, joyful farewell, masterpiece",
+   "chars": [
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, black hair updo with many colorful flower pins, bright amber eyes, bright yellow flower embroidered jeogori, orange otgoreum, green chima, long dancing sleeves, dancing in front of him and pulling his hand, big smile with tears at the corners of her eyes",
+     "uc": "nude, nipples, child, male",
+     "x": 0.45,
+     "y": 0.5,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, being pulled by the hand, seen from behind",
+     "uc": "visible face, visible eyes, gat, hanbok",
+     "x": 0.65,
+     "y": 0.55
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_hwaseon_h1",
+   "size": "bg",
+   "seed": 1607143428,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, reverse cowgirl position, girl on top, from behind, vaginal, rain, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, nude, blush, sweat, reverse cowgirl, straddling, ass focus, tears",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, lying on back",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_hwaseon",
+   "size": "bg",
+   "seed": 9562577,
+   "prompt": "1girl, 1boy, cute comedic, busy joseon street market stall with hair ornaments, a hooded young man clumsily pinning a crooked flower hair pin into a laughing gisaeng's hair, she tilts her head toward him, bright daylight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, clumsily pinning a crooked flower hair pin into her hair, focused",
+     "uc": "visible eyes",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, black hair updo with many colorful flower pins, bright amber eyes, bright yellow flower embroidered jeogori, orange otgoreum, green chima, long dancing sleeves, tilting her head toward him, laughing with eyes closed, hand over mouth, crooked flower pin in her hair, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.52,
+     "cast": "hwaseon"
+    }
+   ],
+   "negative": "watermark, signature, text, logo, child, loli, nude, nipples, explicit, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_kk_hwaseon_kiss",
+   "size": "bg",
+   "seed": 2611523,
+   "prompt": "1girl, 1boy, kiss, romantic, emotional, dusk at an old market alley as stalls close, she spins in a dance and kisses a hooded young man mid-turn, soft light, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, joseon gisaeng, bright yellow jeogori embroidered with flowers and a long orange otgoreum ribbon, long full green chima skirt wrapped high under the bust, long dancing sleeves, standing on tiptoe, peace sign, dancing, kissing him, eyes closed, blush, flowing sleeves, source#kiss",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, being kissed, holding her hand, surprised, target#kiss",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt_hwaseon",
+   "size": "bg",
+   "seed": 2611323,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, white sheets, blanket, warm bedside lamp light, romantic, peaceful, soft lighting, no readable text, comedic, from above, she has fallen asleep sprawled diagonally across the whole bed with one leg and arm flung over him, drooling slightly, he is squashed at the edge",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, long-sleeved orange pajamas, sprawled, sleeping, open mouth, drooling, carefree",
+     "x": 0.48,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, squashed at the edge of the bed, sweat drop",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.6
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp_nt2_hwaseon",
+   "size": "bg",
+   "seed": 2611424,
+   "prompt": "1girl, 1boy, night, cozy modern bedroom, bed, blanket, dim warm bedside lamp light, a baby monitor glowing on the bedside table, romantic, tired, peaceful, no readable text, she wears his spare black hoodie with the hood up imitating him, sitting on his stomach and grinning, he lies under her",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, a huge oversized black hoodie only with sleeves past her hands, glossy black hair in a messy half updo with small flower pins, sitting, hood up, sleeves past hands, mischievous grin, peace sign",
+     "x": 0.47,
+     "y": 0.45
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, lying on back, sweat drop",
+     "uc": "visible eyes",
+     "x": 0.55,
+     "y": 0.6
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_sp05_hwaseon_h1",
+   "size": "bg",
+   "seed": 1994534524,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, bed, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, nude, blush, sweat, lying on back, legs spread, legs around his waist",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp06_hwaseon_h1",
+   "size": "bg",
+   "seed": 24968332,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, on boat, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, nude, blush, sweat, straddling, riding, hands on his chest",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, nude, lying on back",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_wife_hwaseon_b0",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, joseon banquet dance floor with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident challenging smile, pointing at viewer, holding a quiz card",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_wife_hwaseon_b1",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, joseon banquet dance floor with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, ripped hem, loosened ties, flustered, blush, sweat drop",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_wife_hwaseon_b2",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, joseon banquet dance floor with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, heavily torn clothes, top torn open, yellow silk breast band visible, cleavage, one bare shoulder, skirt torn up to the thigh, embarrassed, deep blush, covering her chest with one arm",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_wife_hwaseon_b3",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, joseon banquet dance floor with paper lanterns, quiz battle, floating glowing quiz cards and paper slips around her, clothes almost completely torn away, only a yellow silk breast band and yellow silk underpants left, shreds of the costume on her arms and waist, kneeling, full-face blush, teary eyes, shy smile, looking at viewer",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, male, boy, 2girls, multiple views, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_wife_hwaseon_win",
+   "size": "bg",
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, computer monitors glowing softly in the background, pov, holding hands with viewer, gentle happy smile, blush, looking at viewer, soft bokeh, small glowing hearts floating, a few quiz cards scattered on the floor",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, sex, child, loli, 2girls, multiple views, visible male face, text, speech bubble, watermark, signature",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "cg_ch12_sisters",
+   "size": "bg",
+   "seed": 2323242,
+   "prompt": "3girls, 1boy, comedic, behind a folding screen at a joseon banquet, a hooded young man caught, a proud gisaeng in pink grabbing his wrist possessively, a playful gisaeng in yellow pointing and shouting, a calm gisaeng in jade green retying her ribbon and looking away",
+   "chars": [
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, joseon gisaeng, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, pale pink jeogori with a long magenta ribbon, long lilac chima, grabbing his wrist, jealous glare",
+     "uc": "nude, nipples, child, male",
+     "x": 0.35,
+     "y": 0.5,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow jeogori embroidered with flowers, long orange ribbon, long green chima, pointing, shouting",
+     "uc": "nude, nipples, child, male",
+     "x": 0.55,
+     "y": 0.45,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, joseon gisaeng, glossy black hair in an updo with a braided chignon, white plum blossom ornament and silver binyeo, calm dark grey eyes, snow-white skin, beauty mark under left eye, short jade green jeogori with crimson cuffs and ribbon, long deep rose chima, folded white fan, retying her jeogori ribbon, looking away, blush",
+     "uc": "nude, nipples, child, male",
+     "x": 0.78,
+     "y": 0.5,
+     "cast": "seola"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, caught in the middle, sweating",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.6
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_end_harem_gisaeng",
+   "size": "bg",
+   "seed": 2324010,
+   "prompt": "4girls, 1boy, hidden harem ending, comedic chaos in a small modern home music studio at night with a computer, keyboard and speakers, a glowing monitor pouring out light and plum blossom petals, four joseon gisaeng sisters in colorful hanbok crowding around a young man, clinging to his arms, comedic harem, sparkles, monitor shows only soft blurred glow, no readable text, masterpiece",
+   "chars": [
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, entire face covered in solid black shadow, faceless, sitting on a studio chair, sweating, flustered, stiff",
+     "uc": "visible face, visible eyes",
+     "x": 0.5,
+     "y": 0.55
+    },
+    {
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, joseon gisaeng, glossy black hair in an elegant gisaeng updo, white plum blossom hair ornament, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, jade green jeogori with crimson cuffs, long crimson otgoreum ribbon, deep rose chima, hugging his right arm, calm blushing smile",
+     "uc": "nude, nipples, child, male",
+     "x": 0.65,
+     "y": 0.55,
+     "cast": "seola"
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, joseon gisaeng, black hair updo with many colorful flower pins, bright yellow flower embroidered jeogori, green chima, long dancing sleeves, hugging him from behind over his shoulders, wink, grin",
+     "uc": "nude, nipples, child, male",
+     "x": 0.5,
+     "y": 0.3,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, joseon gisaeng, black hair updo with loose strands, pink lotus ornament, pale pink jeogori, lilac chima, tugging his left sleeve, tsundere pout, blush, looking away",
+     "uc": "nude, nipples, child, male",
+     "x": 0.33,
+     "y": 0.55,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, joseon gisaeng, tall, black hair in a formal updo, red plum blossom ornament, deep plum purple jeogori, navy chima, standing with arms crossed, sighing, faint blush, holding a folded marriage letter",
+     "uc": "nude, nipples, child, male",
+     "x": 0.82,
+     "y": 0.45,
+     "cast": "maehyang"
+    }
+   ],
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_after_idol_stage",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "4girls, k-pop idol group performance on a live music show stage, bright colorful stage lights, confetti, giant led screen behind, cheering crowd with lightsticks, four teenage girls in matching modern hanbok-inspired idol stage costumes posing with open fans, dynamic",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, deep plum and gold idol stage costume, cropped hanbok-style jacket with gold trim, short pleated navy skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.2,
+     "y": 0.5,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, pink and white idol stage costume, cropped hanbok-style jacket with magenta ribbon, short lilac skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.4,
+     "y": 0.5,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow and green idol stage costume, cropped hanbok-style jacket with flower embroidery, short green skirt, dance pose, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.6,
+     "y": 0.5,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, glossy black hair in an updo with a braided chignon, calm dark grey eyes, snow-white skin, beauty mark under left eye, jade green and rose idol stage costume, cropped hanbok-style jacket with crimson ribbon, short rose skirt, holding an open fan, idol, smiling, singing, headset microphone",
+     "uc": "nude, nipples, child, male",
+     "x": 0.8,
+     "y": 0.5,
+     "cast": "seola"
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, male",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_after_idol_backstage",
+   "size": "bg",
+   "seed": 2323232,
+   "prompt": "4girls, 1boy, comedic, cramped tv station dressing room backstage, mirror with light bulbs, four baby strollers lined up, diaper bag, baby bottles, stage shoes kicked off on the floor, four teenage girls in idol stage costumes busily handling babies, a hooded young man in the middle holding four babies in his arms at once",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, glossy black hair in a formal updo with a large braided chignon, dignified sharp dark eyes, deep plum and gold idol stage costume, cropped hanbok-style jacket with gold trim, short pleated navy skirt, handing a baby to him, calm",
+     "uc": "nude, nipples, child, male",
+     "x": 0.2,
+     "y": 0.5,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, glossy black hair in an updo with loose strands, haughty upturned light brown eyes, pink and white idol stage costume, cropped hanbok-style jacket with magenta ribbon, short lilac skirt, testing a baby bottle on her wrist, sulky",
+     "uc": "nude, nipples, child, male",
+     "x": 0.38,
+     "y": 0.55,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, bright yellow and green idol stage costume, cropped hanbok-style jacket with flower embroidery, short green skirt, barefoot, playing with a baby in a stroller, laughing",
+     "uc": "nude, nipples, child, male",
+     "x": 0.62,
+     "y": 0.6,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, glossy black hair in an updo with a braided chignon, calm dark grey eyes, snow-white skin, beauty mark under left eye, jade green and rose idol stage costume, cropped hanbok-style jacket with crimson ribbon, short rose skirt, pulling a curtain to hide strollers, finger on lips",
+     "uc": "nude, nipples, child, male",
+     "x": 0.85,
+     "y": 0.5,
+     "cast": "seola"
+    },
+    {
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, holding four babies at once in his arms, overwhelmed",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.45
+    }
+   ],
+   "negative": "nude, nipples, breastfeeding, explicit, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
+   "model": "nai-diffusion-5-full-medium"
   }
  ]
 }
