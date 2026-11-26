@@ -1,6 +1,6 @@
 # 캐릭터 NAI 프롬프트·시드
 
-주인님이 직접 CG를 뽑으실 때 쓰는 참고표예요. 출처는 `tools/nai-log.json`(인물 외형), `tools/nai-style.json`(공통 설정), 그리고 주문서를 비우기 전의 `tools/nai-assets.json`(커밋 e27f226 직전) 스탠딩 항목이에요.
+주인님이 직접 CG를 뽑으실 때 쓰는 참고표예요. 출처는 `tools/nai-log.json`(인물 외형), `tools/nai-style.json`(공통 설정), 그리고 주문서를 비우기 전의 `tools/nai-assets.json` 스탠딩 항목이에요(대부분 커밋 e27f226 직전, 츠바키·춘메이는 abaed34).
 
 ## 공통 설정(모든 그림)
 
@@ -415,17 +415,25 @@ boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, facel
 ### 츠바키 (`tsubaki`)
 
 - 외형 태그: `1girl, black hair, hime cut, short hair, blunt bangs, dark brown eyes, pale skin`
-- 스탠딩 없음. 예시 CG `cg_sp_nt_tsubaki` · seed 2611320 (인물별 캐릭터 프롬프트):
+- 대표 스탠딩 `st_tsubaki_smile` · **seed 2603309** (스탠딩 12장 모두 이 시드. smile·pregnant는 처음부터 뽑았고, 나머지 표정·집옷은 smile을 init으로 넣음)
 ```
-girl, long beige knit cardigan over white long-sleeved pajamas, red camellia hair clip, seiza, bowing, polite, blush
+1girl, solo, solo focus, adult woman, young adult, japanese girl from tsushima island in the early 17th century, black hime cut bob with straight bangs, a red camellia flower in her hair, dark brown eyes, pale skin, slender, korean hanbok borrowed and worn clumsily over a japanese kosode, patterned kosode collar showing at her neck, short light pink jeogori with a red goreum ribbon tied clumsily backwards, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook tied at her waist with a cord, holding a small vocabulary notebook, standing, full body, looking at viewer, bright happy smile
 ```
-- 다른 CG 시드: `cg_sp_nt2_tsubaki` 2611421, `cg_kk_tsubaki_kiss` 2611520
+- 추가 네거티브: `multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel`
+- 집옷 `st_tsubaki_home` (init `assets/st_tsubaki_smile.webp`, strength 0.78):
+```
+1girl, solo, solo focus, adult woman, young adult, white cotton camisole and short pleated pajama shorts with a long beige knit cardigan slipping off one shoulder, a red camellia hair clip, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile
+```
 
 ### 춘메이 (`chunmei`)
 
 - 외형 태그: `1girl, black hair, double bun, brown eyes, flour on cheek`
-- 스탠딩 없음. 예시 CG `cg_sp_nt_chunmei` · seed 2611332 (인물별 캐릭터 프롬프트):
+- 대표 스탠딩 `st_chunmei_smile` · **seed 2603310** (스탠딩 12장 모두 이 시드. smile·pregnant는 처음부터 뽑았고, 나머지 표정·집옷은 smile을 init으로 넣음)
 ```
-girl, red satin long-sleeved pajamas with chinese frog buttons, hair down, flour on cheek, poking his cheek, grin
+1girl, solo, solo focus, adult woman, young adult, 1920s shanghai chinese girl, black hair in double buns, bright brown eyes, lively, red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus hanging at her waist, black cloth shoes, a little flour on her cheek, holding an abacus, standing, full body, looking at viewer, bright happy smile
 ```
-- 다른 CG 시드: `cg_sp_nt2_chunmei` 2611433, `cg_kk_chunmei_kiss` 2611532
+- 추가 네거티브: `multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel`
+- 집옷 `st_chunmei_home` (init `assets/st_chunmei_smile.webp`, strength 0.78):
+```
+1girl, solo, solo focus, adult woman, young adult, red satin pajama shirt with chinese frog buttons, unbuttoned at the collar, and short black satin pajama shorts, hair down from the buns, barefoot, relaxed at home, simple background, no props, standing, full body, looking at viewer, gentle smile
+```
