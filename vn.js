@@ -86,6 +86,7 @@ const COSTUME={saebyeok:new Set(['mom','home'])};   // saebyeok mom = 다솜 엄
 const HOME_IDS='noeul ullim dallae naru ara gaon haerang haneui maru seori yeoul soebyeol danbi sodam dodam maehyang choryeon hwaseon seola dano garam bori hanbyeol saebyeok bomnae dasom irang eunsil sara choa bada ellie goyo moa tsubaki chunmei'.split(' ');
 HOME_IDS.forEach(id=>{(COSTUME[id]||(COSTUME[id]=new Set())).add('home');});
 COSTUME.moa.add('school');   // 모아 교복(종장 후일담 「모아네 집」, st_moa_school)
+['maehyang','choryeon','hwaseon','seola'].forEach(id=>{COSTUME[id].add('school');COSTUME[id].add('idol');});   // 교방 네 자매 교복·아이돌 무대 의상(종장 후일담)
 const HOME_EXPR=new Set(['shy']);   // 임신 중 집옷: @show <id> home+pregnant → st_<id>_home_pregnant(2026.11 주인님 지정)
 const COSTUME_EXPR={saebyeok:new Set(['smile','surprised','serious','shy','angry','teary','pregnant','despair','wet'])};   // 검수 뒤 예: ['smile','shy','surprised','angry','teary']
 // 사관의 시험 뒤 풀린 사관복 스탠딩(st_sayeon_{shy,surprised}_d1~3). 그림 검수 뒤 true.
@@ -683,7 +684,7 @@ function profiles(sel){
  const face=(id,e='smile')=>{const q=P.find(x=>x.id===id);if(q?.img&&e==='smile')return asset(q.img+'.webp');const s=CAST[id]?.stand||{};const f=s[e]||s.smile||s.neutral;return f?asset(f+'.webp'):asset('emblem_gold.webp');};
  // 모습: data/stands.js(tools/stand_index.py)에 있는 그 인물의 스탠딩을 모두 보여 준다(2026.11 주인님 지정). 표정 / 옷 / 흐트러짐으로 묶는다.
  const PF_EXP={smile:'웃음',neutral:'평소',shy:'부끄러움',surprised:'놀람',angry:'화남',pout:'삐짐',teary:'눈물',worry:'걱정',serious:'진지',excited:'신남',explain:'설명',sad:'슬픔',lonely:'쓸쓸',smirk:'비웃음',writing:'기록',pregnant:'임신',despair:'절망',wet:'비에 젖음'};
- const PF_COST={home:'집옷',hanbok:'한복',school:'교복',mom:'엄마',baekje:'백제',buyeo:'부여',goryeo:'고려',hwarang:'화랑',joseon:'조선',neolithic:'신석기'};
+ const PF_COST={home:'집옷',hanbok:'한복',school:'교복',idol:'아이돌',mom:'엄마',baekje:'백제',buyeo:'부여',goryeo:'고려',hwarang:'화랑',joseon:'조선',neolithic:'신석기'};
  const pfLabel=(id,f)=>{const rest=f.slice(`st_${id}`.length).replace(/^_/,'');if(!rest)return {g:'옷',t:'처음 모습',o:0};const tk=rest.split('_');let cost=[],ex=[],dmg='';
   for(const k of tk){let m;if((m=k.match(/^d(\d)$/)))dmg=`찢어짐 ${m[1]}`;else if((m=k.match(/^g(\d)$/)))dmg=`흐트러짐 ${m[1]}`;else if(PF_EXP[k])ex.push(PF_EXP[k]);else cost.push(id==='muk'&&window.MUK_SKINS?.[k]?.name||PF_COST[k]||k);}
   const t=[...cost,...ex,dmg].filter(Boolean).join(' · ');const ei=Object.keys(PF_EXP).indexOf(tk.find(k=>PF_EXP[k])||'');

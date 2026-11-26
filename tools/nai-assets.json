@@ -4537,6 +4537,300 @@
    ],
    "negative": "nude, nipples, breastfeeding, explicit, loli, watermark, signature, text, extra limbs, bad hands, multiple views",
    "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "st_maehyang_school",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, glossy black hair in a formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, beauty mark near lips, korean high school uniform, navy blazer with a school emblem, white shirt, red ribbon tie, pleated navy skirt, black stockings, loafers, school bag in hand, standing upright, straight-on, eye level, front view, full body, looking at viewer, composed gentle smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_choryeon_school",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with loose strands framing her face, pink lotus flower hair ornament, haughty upturned light brown eyes, korean high school uniform, navy blazer with a school emblem, white shirt, red ribbon tie, pleated navy miniskirt, white knee-high socks, loafers, school bag slung over one shoulder, standing upright, straight-on, eye level, front view, full body, looking at viewer, arms crossed, tsundere smug smirk, light blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_hwaseon_school",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, korean high school uniform, navy blazer open over a knit vest, white shirt, red ribbon tie, short pleated navy skirt, loose white socks, loafers, school backpack on shoulders, standing upright, straight-on, eye level, front view, full body, looking at viewer, wide cheerful grin, wink, peace sign",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_seola_school",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323232,
+   "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, 1girl, solo, solo focus, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, korean high school uniform, slightly oversized navy blazer with a school emblem, white shirt, red ribbon tie, pleated navy skirt, white over-knee socks, loafers, holding school bag with both hands in front, standing upright, straight-on, eye level, front view, full body, looking at viewer, shy gentle smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, hanbok, jeogori, historical clothes, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "seola"
+  },
+  {
+   "id": "st_maehyang_idol",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323241,
+   "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, 1girl, solo, solo focus, glossy black hair in a formal joseon gisaeng updo with a large braided chignon, red plum blossom hair ornament and gold binyeo hairpin, dignified sharp dark eyes, beauty mark near lips, k-pop idol stage costume, deep plum and gold cropped hanbok-style idol jacket with gold trim, short pleated navy idol miniskirt, thighhigh stockings, stage heels, headset microphone, holding an open red folding fan, standing upright, straight-on, eye level, front view, full body, looking at viewer, charismatic idol smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "maehyang"
+  },
+  {
+   "id": "st_choryeon_idol",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323242,
+   "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo with loose strands framing her face, pink lotus flower hair ornament, haughty upturned light brown eyes, k-pop idol stage costume, pale pink and white cropped hanbok-style idol jacket with magenta ribbon trim, short pleated lilac idol miniskirt, white lace thighhighs, stage boots, headset microphone, holding a folding fan, standing upright, straight-on, eye level, front view, full body, looking at viewer, proud idol pose, confident smile",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "choryeon"
+  },
+  {
+   "id": "st_hwaseon_idol",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323243,
+   "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, 1girl, solo, solo focus, glossy black hair in a joseon gisaeng updo decorated with many small colorful flower pins, bright mischievous amber eyes, k-pop idol stage costume, bright yellow cropped hanbok-style idol jacket with flower embroidery and orange ribbon, short pleated emerald green idol miniskirt, sparkling choker, stage boots, headset microphone, holding an open fan, standing upright, straight-on, eye level, front view, full body, looking at viewer, energetic idol wink, v sign",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hwaseon"
+  },
+  {
+   "id": "st_seola_idol",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2323232,
+   "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, 1girl, solo, solo focus, glossy black hair in an elegant joseon gisaeng updo with a large braided chignon, white plum blossom hair ornament and silver binyeo hairpin, long eyelashes, calm dark grey eyes, fair snow-white skin, beauty mark under left eye, k-pop idol stage costume, jade green cropped hanbok-style idol jacket with crimson cuffs and ribbon, short frilled deep rose idol miniskirt, white stockings, stage Mary Janes, headset microphone, holding a white folding fan near her lips, standing upright, straight-on, eye level, front view, full body, looking at viewer, pure mysterious idol smile, soft blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, nude, nipples, child, loli, watermark, signature, text, from above, from below, high angle, low angle, dutch angle, foreshortening, leaning forward, bent over, perspective",
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "seola"
+  },
+  {
+   "id": "cg_after_sisters_school",
+   "size": "bg",
+   "seed": 2323241,
+   "prompt": "4girls, spring morning at a korean high school front gate with blooming cherry blossom trees, falling cherry blossom petals, four teenage sisters wearing matching navy korean high school uniforms with white shirts, red ribbon ties, and pleated navy skirts, carrying school bags, students in background looking in awe, bright warm sunlight, masterpiece, no readable text",
+   "chars": [
+    {
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, glossy black hair in a formal updo with a braided chignon, red plum blossom hair ornament, dignified sharp dark eyes, navy korean high school uniform blazer, white shirt, red ribbon tie, pleated navy skirt, black stockings, holding school bag, gentle dignified smile, waving hand",
+     "uc": "nude, nipples, child, male, hanbok",
+     "x": 0.2,
+     "y": 0.5,
+     "cast": "maehyang"
+    },
+    {
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, glossy black hair in an updo with loose strands, pink lotus hair ornament, haughty upturned light brown eyes, navy korean high school uniform blazer, white shirt, red ribbon tie, pleated navy miniskirt, school bag on shoulder, arms crossed, tsundere pout, blushing",
+     "uc": "nude, nipples, child, male, hanbok",
+     "x": 0.4,
+     "y": 0.52,
+     "cast": "choryeon"
+    },
+    {
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, glossy black hair in an updo decorated with many small colorful flower pins, mischievous amber eyes, navy korean high school uniform blazer over knit vest, red ribbon tie, short pleated skirt, loose socks, school backpack, cheerful grin, peace sign, jumping slightly",
+     "uc": "nude, nipples, child, male, hanbok",
+     "x": 0.6,
+     "y": 0.5,
+     "cast": "hwaseon"
+    },
+    {
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, glossy black hair in an updo with a braided chignon, white plum blossom ornament, calm dark grey eyes, snow-white skin, beauty mark under left eye, slightly oversized navy korean high school uniform blazer, red ribbon tie, pleated navy skirt, white over-knee socks, holding school bag in front with both hands, shy gentle smile, blush",
+     "uc": "nude, nipples, child, male, hanbok",
+     "x": 0.8,
+     "y": 0.55,
+     "cast": "seola"
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views, male",
+   "model": "nai-diffusion-5-full-medium"
+  },
+  {
+   "id": "cg_after_maehyang_idol_h1",
+   "size": "bg",
+   "seed": 2323241,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, sitting on lap, face-to-face, straddling, vaginal, indoors, tv station dressing room, vanity mirror with light bulbs, k-pop idol stage costume, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, clothed sex, wearing deep plum and gold cropped hanbok-style k-pop idol stage jacket pulled open, exposed large breasts, nipples, short pleated navy idol miniskirt lifted up around waist, thighhigh stockings, headset microphone on cheek, sitting on vanity desk edge straddling him, arms around his neck, blush, sweat, moaning, ecstasy",
+     "x": 0.45,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, clothed, standing between her legs, holding her waist",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_after_choryeon_idol_h1",
+   "size": "bg",
+   "seed": 2323242,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, indoors, tv station dressing room, leather sofa, k-pop idol stage costume, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, clothed sex, wearing pale pink and white cropped hanbok-style k-pop idol stage jacket unfastened, exposed small breasts, nipples, short pleated lilac idol miniskirt lifted up over hips, panties pulled aside, white lace thighhighs, headset microphone, bent over on sofa on all fours, ass up, looking back over shoulder, deep blush, tears, biting lip",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, kneeling behind her on sofa, gripping her hips",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_hwaseon_idol_h1",
+   "size": "bg",
+   "seed": 2323243,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, standing sex, from behind, one leg lifted, vaginal, indoors, tv station dressing room, full-length dance mirror reflection, k-pop idol stage costume, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, clothed sex, wearing bright yellow cropped hanbok-style k-pop idol stage jacket with flower embroidery pulled open, exposed medium breasts, nipples, short pleated emerald green idol miniskirt flipped up, sparkling choker, headset microphone, standing in front of mirror with one leg lifted high, blush, sweat, winking at mirror, tongue out, ecstasy",
+     "x": 0.44,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, standing behind her, holding her lifted leg and waist",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_seola_idol_h1",
+   "size": "bg",
+   "seed": 2323232,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, carrying sex, lifted, missionary, vaginal, indoors, behind velvet dressing room curtain, k-pop idol stage costume, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, clothed sex, wearing jade green cropped hanbok-style k-pop idol stage jacket with crimson ribbon pulled up, exposed flat chest small breasts, nipples, short frilled deep rose idol miniskirt lifted up, white stockings, headset microphone, being carried and lifted in his arms with legs spread, holding an open white folding fan hiding her mouth, deep blush, tears, trembling",
+     "x": 0.44,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, standing, lifting her thighs in his arms",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_maehyang_school_h1",
+   "size": "bg",
+   "seed": 2323241,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, missionary, on desk, legs wrapped around waist, vaginal, indoors, cozy home music studio, korean high school uniform, no readable text",
+   "chars": [
+    {
+     "cast": "maehyang",
+     "prompt": "graceful 18 years old teenage girl, youthful face, tall, curvy, large breasts, -3::older woman, milf, middle aged::, girl, clothed sex, korean high school uniform, navy blazer and unbuttoned white school shirt open, red ribbon tie, exposed large breasts, nipples, pleated school skirt pushed up around waist, white thighhighs, lying back on music studio desk, legs wrapped around his waist, blush, sweat, moaning",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, standing at the desk leaning over her",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_choryeon_school_h1",
+   "size": "bg",
+   "seed": 2323242,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, standing sex, doggystyle, from behind, hands against glass window, vaginal, indoors, music studio soundproof booth, korean high school uniform, no readable text",
+   "chars": [
+    {
+     "cast": "choryeon",
+     "prompt": "proud 16 years old teenage girl, youthful face, slender, small breasts, -3::mature female, adult woman, large breasts::, girl, clothed sex, korean high school uniform, unbuttoned white school blouse, red ribbon tie, exposed small breasts, nipples, pleated navy miniskirt lifted up from behind, white knee-high socks, standing with both hands pressed against soundproof glass window, looking back, deep blush, teary eyes, biting lip",
+     "x": 0.42,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, standing behind her, holding her hips",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_hwaseon_school_h1",
+   "size": "bg",
+   "seed": 2323243,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, straddling, vaginal, indoors, home music studio sofa, korean high school uniform, no readable text",
+   "chars": [
+    {
+     "cast": "hwaseon",
+     "prompt": "playful energetic 15 years old young teenage girl, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts, tall::, girl, clothed sex, korean high school uniform, navy knit vest pulled up, open white school shirt, red ribbon tie, exposed medium breasts, nipples, short pleated navy school skirt spread over his lap, loose white socks, school backpack still on her shoulders, straddling and riding him on sofa, blush, sweat, cheerful wink, open mouth",
+     "x": 0.46,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, sitting on studio sofa underneath her, hands on her hips",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.56
+    }
+   ]
+  },
+  {
+   "id": "cg_after_seola_school_h1",
+   "size": "bg",
+   "seed": 2323232,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, 1girl, 1boy, nsfw, explicit, missionary, m-legs, spread legs, vaginal, indoors, home music studio mat, korean high school uniform, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "petite, short stature, slender, flat chest, small breasts, 14 years old, young teenage girl, -3::mature female, adult woman, large breasts, medium breasts, curvy, tall::, girl, clothed sex, korean high school uniform, slightly oversized navy blazer and white blouse pulled up above chest, red ribbon tie, exposed flat chest small breasts, nipples, pleated navy school skirt lifted up, white over-knee socks, lying on back with legs folded up in m-legs, biting her uniform sleeve, deep blush, tears",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, on top of her between her legs",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
   }
  ]
 }
