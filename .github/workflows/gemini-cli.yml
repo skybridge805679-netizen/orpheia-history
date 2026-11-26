@@ -51,6 +51,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 러너 폴더를 믿을 수 있는 폴더로 둔다(없으면 헤드리스 실행이 막힘).
+          GEMINI_CLI_TRUST_WORKSPACE: 'true'
           REPOSITORY: ${{ github.repository }}
           ISSUE_NUMBER: ${{ github.event.issue.number || github.event.pull_request.number }}
           IS_PR: ${{ github.event.issue.pull_request != null || github.event.pull_request != null }}
