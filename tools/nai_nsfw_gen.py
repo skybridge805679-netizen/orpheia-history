@@ -6,7 +6,7 @@ import json, re, glob, zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = "nai-diffusion-4-5-full"
+MODEL = "nai-diffusion-5-full"
 LOOKS = json.loads((ROOT / "tools/nai-log.json").read_text(encoding="utf-8"))
 
 OUTFIT = {  # 시대·배경 단서

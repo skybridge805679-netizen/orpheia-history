@@ -2232,18 +2232,18 @@
    "id": "cg_ch02_noeul_h1",
    "size": "bg",
    "seed": 453821211,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, rain, no readable text",
    "chars": [
     {
      "cast": "noeul",
-     "prompt": "girl, nude, blush, sweat, lying on back, large breasts",
+     "prompt": "girl, nude, blush, sweat, straddling, arms around his neck, open mouth, large breasts",
      "x": 0.42,
      "y": 0.5
     },
     {
      "cast": "sangcheol",
-     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "prompt": "boy, faceless male, shaded face, nude, sitting, hugging her",
      "uc": "visible eyes",
      "x": 0.58,
      "y": 0.5
@@ -2254,7 +2254,7 @@
    "id": "cg_ch03_naru_h1",
    "size": "bg",
    "seed": 1495285071,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, river, no readable text",
    "chars": [
     {
@@ -2276,18 +2276,18 @@
    "id": "cg_ch05_ullim_h1",
    "size": "bg",
    "seed": 3544884142,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, rain, no readable text",
    "chars": [
     {
      "cast": "ullim",
-     "prompt": "girl, nude, blush, sweat, lying on back, tears",
+     "prompt": "girl, nude, blush, sweat, straddling, arms around his neck, open mouth, tears",
      "x": 0.42,
      "y": 0.5
     },
     {
      "cast": "sangcheol",
-     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "prompt": "boy, faceless male, shaded face, nude, sitting, hugging her",
      "uc": "visible eyes",
      "x": 0.58,
      "y": 0.5
@@ -2298,8 +2298,8 @@
    "id": "cg_ch06_naru_h1",
    "size": "bg",
    "seed": 330790914,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, river, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, no readable text",
    "chars": [
     {
      "cast": "naru",
@@ -2320,7 +2320,7 @@
    "id": "cg_ch06_sara_h1",
    "size": "bg",
    "seed": 3401926088,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -2342,7 +2342,7 @@
    "id": "cg_ch06_haneui_h1",
    "size": "bg",
    "seed": 1540363220,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, night, rain, no readable text",
    "chars": [
     {
@@ -2364,7 +2364,7 @@
    "id": "cg_ch08_soebyeol_h1",
    "size": "bg",
    "seed": 2928210949,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, no readable text",
    "chars": [
     {
@@ -2386,7 +2386,7 @@
    "id": "cg_ch09_yeoul_h1",
    "size": "bg",
    "seed": 2423880952,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -2408,7 +2408,7 @@
    "id": "cg_ch10_sodam_h1",
    "size": "bg",
    "seed": 3746131360,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, korean palace hall, dark, no readable text",
    "chars": [
     {
@@ -2430,7 +2430,7 @@
    "id": "cg_ch11_dodam_h1",
    "size": "bg",
    "seed": 1190477460,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, snow, night, no readable text",
    "chars": [
     {
@@ -2452,7 +2452,7 @@
    "id": "cg_ch11_tsubaki_h1",
    "size": "bg",
    "seed": 320550203,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, reverse cowgirl position, girl on top, from behind, vaginal, rain, no readable text",
    "chars": [
     {
@@ -2474,7 +2474,7 @@
    "id": "cg_ch11_naru_h1",
    "size": "bg",
    "seed": 2551480055,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, beach, no readable text",
    "chars": [
     {
@@ -2496,7 +2496,7 @@
    "id": "cg_ch12_maehyang_h1",
    "size": "bg",
    "seed": 195124294,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, rain, attic, no readable text",
    "chars": [
     {
@@ -2518,7 +2518,7 @@
    "id": "cg_ch12_choryeon_h1",
    "size": "bg",
    "seed": 107929561,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, rain, no readable text",
    "chars": [
     {
@@ -2540,7 +2540,7 @@
    "id": "cg_ch12_hwaseon_h1",
    "size": "bg",
    "seed": 3462767461,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, snow, rain, attic, no readable text",
    "chars": [
     {
@@ -2562,7 +2562,7 @@
    "id": "cg_ch12_seola_h1",
    "size": "bg",
    "seed": 2806868263,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, rain, no readable text",
    "chars": [
     {
@@ -2584,7 +2584,7 @@
    "id": "cg_ch12_choa_h1",
    "size": "bg",
    "seed": 2689262017,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, no readable text",
    "chars": [
     {
@@ -2606,7 +2606,7 @@
    "id": "cg_ch13_bada_h1",
    "size": "bg",
    "seed": 1100586735,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, rain, beach, no readable text",
    "chars": [
     {
@@ -2628,7 +2628,7 @@
    "id": "cg_ch13_dano_h1",
    "size": "bg",
    "seed": 2284241991,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, no readable text",
    "chars": [
     {
@@ -2650,7 +2650,7 @@
    "id": "cg_ch14_garam_h1",
    "size": "bg",
    "seed": 2883807472,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, no readable text",
    "chars": [
     {
@@ -2672,7 +2672,7 @@
    "id": "cg_ch14_sodam_h1",
    "size": "bg",
    "seed": 3600993766,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, night, rain, attic, no readable text",
    "chars": [
     {
@@ -2694,7 +2694,7 @@
    "id": "cg_ch14_bori_h1",
    "size": "bg",
    "seed": 904321179,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, river, no readable text",
    "chars": [
     {
@@ -2716,7 +2716,7 @@
    "id": "cg_ch15_ellie_h1",
    "size": "bg",
    "seed": 2882233770,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, fellatio, oral, snow, night, candlelight, no readable text",
    "chars": [
     {
@@ -2738,7 +2738,7 @@
    "id": "cg_ch20_chunmei_h1",
    "size": "bg",
    "seed": 3519104969,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, cum in pussy, cum, futon, no readable text",
    "chars": [
     {
@@ -2760,7 +2760,7 @@
    "id": "cg_ch23_saebyeok_h1",
    "size": "bg",
    "seed": 724666113,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, cum in pussy, cum, snow, night, inn room, no readable text",
    "chars": [
     {
@@ -2782,7 +2782,7 @@
    "id": "cg_ch23_dasom_h1",
    "size": "bg",
    "seed": 708738993,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, cum in pussy, cum, night, no readable text",
    "chars": [
     {
@@ -2804,7 +2804,7 @@
    "id": "cg_end_dodam_h1",
    "size": "bg",
    "seed": 3371188578,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, rain, no readable text",
    "chars": [
     {
@@ -2826,7 +2826,7 @@
    "id": "cg_end_soebyeol_h1",
    "size": "bg",
    "seed": 3667863837,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, river, no readable text",
    "chars": [
     {
@@ -2848,7 +2848,7 @@
    "id": "cg_end_haneui_h1",
    "size": "bg",
    "seed": 3128155249,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, rain, no readable text",
    "chars": [
     {
@@ -2870,7 +2870,7 @@
    "id": "cg_end_yeoul_h1",
    "size": "bg",
    "seed": 3425016882,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, rain, river, no readable text",
    "chars": [
     {
@@ -2892,7 +2892,7 @@
    "id": "cg_end_naru_h1",
    "size": "bg",
    "seed": 595883372,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, river, no readable text",
    "chars": [
     {
@@ -2914,7 +2914,7 @@
    "id": "cg_end_sodam_h1",
    "size": "bg",
    "seed": 3197008212,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, korean palace hall, dark, no readable text",
    "chars": [
     {
@@ -2936,7 +2936,7 @@
    "id": "cg_end_maehyang_h1",
    "size": "bg",
    "seed": 3638953486,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, snow, rain, no readable text",
    "chars": [
     {
@@ -2958,7 +2958,7 @@
    "id": "cg_end_choryeon_h1",
    "size": "bg",
    "seed": 3576268177,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, rain, no readable text",
    "chars": [
     {
@@ -2980,7 +2980,7 @@
    "id": "cg_end_hwaseon_h1",
    "size": "bg",
    "seed": 1607143428,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, reverse cowgirl position, girl on top, from behind, vaginal, rain, no readable text",
    "chars": [
     {
@@ -3002,7 +3002,7 @@
    "id": "cg_end_seola_h1",
    "size": "bg",
    "seed": 3263147480,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, snow, rain, no readable text",
    "chars": [
     {
@@ -3024,7 +3024,7 @@
    "id": "cg_end_hanbyeol_h1",
    "size": "bg",
    "seed": 3419718910,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, snow, bed, no readable text",
    "chars": [
     {
@@ -3046,7 +3046,7 @@
    "id": "cg_end_bori_h1",
    "size": "bg",
    "seed": 3303118409,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, kitchen, no readable text",
    "chars": [
     {
@@ -3068,7 +3068,7 @@
    "id": "cg_end_dano_h1",
    "size": "bg",
    "seed": 490792798,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, snow, no readable text",
    "chars": [
     {
@@ -3090,7 +3090,7 @@
    "id": "cg_end_garam_h1",
    "size": "bg",
    "seed": 3285179482,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, no readable text",
    "chars": [
     {
@@ -3112,7 +3112,7 @@
    "id": "cg_end_ullim_h1",
    "size": "bg",
    "seed": 2502599654,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -3134,7 +3134,7 @@
    "id": "cg_end_noeul_h1",
    "size": "bg",
    "seed": 3216037932,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, rain, no readable text",
    "chars": [
     {
@@ -3156,7 +3156,7 @@
    "id": "cg_end_saebyeok_h1",
    "size": "bg",
    "seed": 1501634839,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, cum in pussy, cum, snow, desk, no readable text",
    "chars": [
     {
@@ -3178,7 +3178,7 @@
    "id": "cg_end_dasom_h1",
    "size": "bg",
    "seed": 959231615,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -3200,7 +3200,7 @@
    "id": "cg_end_sara_h1",
    "size": "bg",
    "seed": 210444462,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, no readable text",
    "chars": [
     {
@@ -3222,7 +3222,7 @@
    "id": "cg_end_choa_h1",
    "size": "bg",
    "seed": 576181913,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, snow, no readable text",
    "chars": [
     {
@@ -3244,7 +3244,7 @@
    "id": "cg_end_bada_h1",
    "size": "bg",
    "seed": 3573530102,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, rain, beach, river, no readable text",
    "chars": [
     {
@@ -3266,7 +3266,7 @@
    "id": "cg_end_ellie_h1",
    "size": "bg",
    "seed": 740669986,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, snow, rain, traditional korean room, hanok, no readable text",
    "chars": [
     {
@@ -3288,7 +3288,7 @@
    "id": "cg_end_tsubaki_h1",
    "size": "bg",
    "seed": 113257646,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -3310,7 +3310,7 @@
    "id": "cg_end_chunmei_h1",
    "size": "bg",
    "seed": 295569151,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, night, rain, attic, no readable text",
    "chars": [
     {
@@ -3332,7 +3332,7 @@
    "id": "cg_sp03_saebyeok_h1",
    "size": "bg",
    "seed": 2811440892,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, night, bed, no readable text",
    "chars": [
     {
@@ -3354,7 +3354,7 @@
    "id": "cg_sp04_ellie_h1",
    "size": "bg",
    "seed": 999615632,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, snow, night, rain, no readable text",
    "chars": [
     {
@@ -3376,7 +3376,7 @@
    "id": "cg_sp05_noeul_h1",
    "size": "bg",
    "seed": 1204020668,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, bed, no readable text",
    "chars": [
     {
@@ -3398,7 +3398,7 @@
    "id": "cg_sp05_naru_h1",
    "size": "bg",
    "seed": 840404151,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3420,7 +3420,7 @@
    "id": "cg_sp05_ullim_h1",
    "size": "bg",
    "seed": 1834589814,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, rain, no readable text",
    "chars": [
     {
@@ -3442,7 +3442,7 @@
    "id": "cg_sp05_sara_h1",
    "size": "bg",
    "seed": 3949310321,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, no readable text",
    "chars": [
     {
@@ -3464,7 +3464,7 @@
    "id": "cg_sp05_haneui_h1",
    "size": "bg",
    "seed": 1250180106,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -3486,7 +3486,7 @@
    "id": "cg_sp05_yeoul_h1",
    "size": "bg",
    "seed": 878092706,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, on boat, no readable text",
    "chars": [
     {
@@ -3508,7 +3508,7 @@
    "id": "cg_sp05_soebyeol_h1",
    "size": "bg",
    "seed": 2221472045,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -3530,7 +3530,7 @@
    "id": "cg_sp05_sodam_h1",
    "size": "bg",
    "seed": 1191003332,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, fellatio, oral, bed, no readable text",
    "chars": [
     {
@@ -3552,7 +3552,7 @@
    "id": "cg_sp05_dodam_h1",
    "size": "bg",
    "seed": 813923570,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, no readable text",
    "chars": [
     {
@@ -3574,7 +3574,7 @@
    "id": "cg_sp05_tsubaki_h1",
    "size": "bg",
    "seed": 3691145942,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3596,7 +3596,7 @@
    "id": "cg_sp05_maehyang_h1",
    "size": "bg",
    "seed": 2249315902,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3618,7 +3618,7 @@
    "id": "cg_sp05_seola_h1",
    "size": "bg",
    "seed": 973901896,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, futon, no readable text",
    "chars": [
     {
@@ -3640,7 +3640,7 @@
    "id": "cg_sp05_hwaseon_h1",
    "size": "bg",
    "seed": 1994534524,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, bed, no readable text",
    "chars": [
     {
@@ -3662,7 +3662,7 @@
    "id": "cg_sp05_choryeon_h1",
    "size": "bg",
    "seed": 2346603937,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, no readable text",
    "chars": [
     {
@@ -3684,7 +3684,7 @@
    "id": "cg_sp05_choa_h1",
    "size": "bg",
    "seed": 868495174,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -3706,7 +3706,7 @@
    "id": "cg_sp05_dano_h1",
    "size": "bg",
    "seed": 215162497,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3728,7 +3728,7 @@
    "id": "cg_sp05_bada_h1",
    "size": "bg",
    "seed": 3312206889,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, beach, river, no readable text",
    "chars": [
     {
@@ -3750,7 +3750,7 @@
    "id": "cg_sp05_garam_h1",
    "size": "bg",
    "seed": 1002234314,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3772,7 +3772,7 @@
    "id": "cg_sp05_bori_h1",
    "size": "bg",
    "seed": 3581046678,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -3794,7 +3794,7 @@
    "id": "cg_sp05_ellie_h1",
    "size": "bg",
    "seed": 3562440626,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, bed, no readable text",
    "chars": [
     {
@@ -3816,7 +3816,7 @@
    "id": "cg_sp05_hanbyeol_h1",
    "size": "bg",
    "seed": 2502104270,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, futon, no readable text",
    "chars": [
     {
@@ -3838,7 +3838,7 @@
    "id": "cg_sp05_chunmei_h1",
    "size": "bg",
    "seed": 951531655,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -3860,7 +3860,7 @@
    "id": "cg_sp05_saebyeok_h1",
    "size": "bg",
    "seed": 125235495,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, bed, no readable text",
    "chars": [
     {
@@ -3882,7 +3882,7 @@
    "id": "cg_sp05_dasom_h1",
    "size": "bg",
    "seed": 3244264431,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -3904,7 +3904,7 @@
    "id": "cg_sp06_saebyeok_h1",
    "size": "bg",
    "seed": 3132923369,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, cum in pussy, cum, snow, bed, no readable text",
    "chars": [
     {
@@ -3926,7 +3926,7 @@
    "id": "cg_sp06_noeul_h1",
    "size": "bg",
    "seed": 2901696185,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, no readable text",
    "chars": [
     {
@@ -3948,7 +3948,7 @@
    "id": "cg_sp06_ullim_h1",
    "size": "bg",
    "seed": 2255365495,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, bed, no readable text",
    "chars": [
     {
@@ -3970,7 +3970,7 @@
    "id": "cg_sp06_naru_h1",
    "size": "bg",
    "seed": 194687092,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, reverse cowgirl position, girl on top, from behind, vaginal, bed, no readable text",
    "chars": [
     {
@@ -3992,7 +3992,7 @@
    "id": "cg_sp06_sara_h1",
    "size": "bg",
    "seed": 3538455990,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -4014,7 +4014,7 @@
    "id": "cg_sp06_haneui_h1",
    "size": "bg",
    "seed": 3546700297,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -4036,7 +4036,7 @@
    "id": "cg_sp06_yeoul_h1",
    "size": "bg",
    "seed": 3747682979,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, no readable text",
    "chars": [
     {
@@ -4058,7 +4058,7 @@
    "id": "cg_sp06_soebyeol_h1",
    "size": "bg",
    "seed": 966956515,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, no readable text",
    "chars": [
     {
@@ -4080,7 +4080,7 @@
    "id": "cg_sp06_sodam_h1",
    "size": "bg",
    "seed": 2915762113,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -4102,7 +4102,7 @@
    "id": "cg_sp06_dodam_h1",
    "size": "bg",
    "seed": 3686057971,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -4124,7 +4124,7 @@
    "id": "cg_sp06_tsubaki_h1",
    "size": "bg",
    "seed": 2879174694,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, no readable text",
    "chars": [
     {
@@ -4146,7 +4146,7 @@
    "id": "cg_sp06_maehyang_h1",
    "size": "bg",
    "seed": 1004255988,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, bedroom, no readable text",
    "chars": [
     {
@@ -4168,7 +4168,7 @@
    "id": "cg_sp06_choryeon_h1",
    "size": "bg",
    "seed": 907295087,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -4190,7 +4190,7 @@
    "id": "cg_sp06_hwaseon_h1",
    "size": "bg",
    "seed": 24968332,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, on boat, no readable text",
    "chars": [
     {
@@ -4212,7 +4212,7 @@
    "id": "cg_sp06_seola_h1",
    "size": "bg",
    "seed": 3510315845,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, night, rain, no readable text",
    "chars": [
     {
@@ -4234,7 +4234,7 @@
    "id": "cg_sp06_choa_h1",
    "size": "bg",
    "seed": 172561281,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, bed, river, no readable text",
    "chars": [
     {
@@ -4256,7 +4256,7 @@
    "id": "cg_sp06_dano_h1",
    "size": "bg",
    "seed": 895361606,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -4278,7 +4278,7 @@
    "id": "cg_sp06_bada_h1",
    "size": "bg",
    "seed": 242634990,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, bathhouse, steam, no readable text",
    "chars": [
     {
@@ -4300,7 +4300,7 @@
    "id": "cg_sp06_garam_h1",
    "size": "bg",
    "seed": 3498793675,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, cum in pussy, cum, no readable text",
    "chars": [
     {
@@ -4322,7 +4322,7 @@
    "id": "cg_sp06_bori_h1",
    "size": "bg",
    "seed": 3976155985,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -4344,7 +4344,7 @@
    "id": "cg_sp06_ellie_h1",
    "size": "bg",
    "seed": 1063337139,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, no readable text",
    "chars": [
     {
@@ -4366,7 +4366,7 @@
    "id": "cg_sp06_hanbyeol_h1",
    "size": "bg",
    "seed": 686389252,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, no readable text",
    "chars": [
     {
@@ -4388,7 +4388,7 @@
    "id": "cg_sp06_chunmei_h1",
    "size": "bg",
    "seed": 1328147063,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -4410,7 +4410,7 @@
    "id": "cg_sp06_dasom_h1",
    "size": "bg",
    "seed": 711471342,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, rain, no readable text",
    "chars": [
     {
@@ -4432,7 +4432,7 @@
    "id": "cg_ch02_dallae_h1",
    "size": "bg",
    "seed": 1645960543,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, no readable text",
    "chars": [
     {
@@ -4454,18 +4454,18 @@
    "id": "cg_ch02_dallae_h2",
    "size": "bg",
    "seed": 212264165,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, paizuri, breasts squeezed together, no readable text",
    "chars": [
     {
      "cast": "dallae",
-     "prompt": "girl, nude, blush, sweat, lying on back",
+     "prompt": "girl, nude, blush, sweat, squeezing her own breasts",
      "x": 0.42,
      "y": 0.5
     },
     {
      "cast": "sangcheol",
-     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "prompt": "boy, faceless male, shaded face, nude, sitting",
      "uc": "visible eyes",
      "x": 0.58,
      "y": 0.5
@@ -4476,7 +4476,7 @@
    "id": "cg_ch03_eunsil_h1",
    "size": "bg",
    "seed": 1685589025,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, night, grass field, no readable text",
    "chars": [
     {
@@ -4498,12 +4498,12 @@
    "id": "cg_ch03_irang_h1",
    "size": "bg",
    "seed": 2745319352,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
      "cast": "irang",
-     "prompt": "girl, nude, blush, sweat, lying on back, large breasts",
+     "prompt": "girl, nude, blush, sweat, lying on back, small breasts",
      "x": 0.42,
      "y": 0.5
     },
@@ -4520,18 +4520,18 @@
    "id": "cg_ch04_gaon_h1",
    "size": "bg",
    "seed": 3081869050,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, fellatio, oral, rain, no readable text",
    "chars": [
     {
      "cast": "gaon",
-     "prompt": "girl, nude, blush, sweat, lying on back",
+     "prompt": "girl, nude, blush, sweat, kneeling, penis in mouth, saliva, small breasts",
      "x": 0.42,
      "y": 0.5
     },
     {
      "cast": "sangcheol",
-     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "prompt": "boy, faceless male, shaded face, nude, standing",
      "uc": "visible eyes",
      "x": 0.58,
      "y": 0.5
@@ -4542,18 +4542,18 @@
    "id": "cg_ch04_ara_h1",
    "size": "bg",
    "seed": 3045002711,
-   "model": "nai-diffusion-4-5-full",
-   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, river, no readable text",
+   "model": "nai-diffusion-5-full",
+   "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, river, no readable text",
    "chars": [
     {
      "cast": "ara",
-     "prompt": "girl, nude, blush, sweat, lying on back, large breasts",
+     "prompt": "girl, nude, blush, sweat, straddling, riding, hands on his chest, large breasts",
      "x": 0.42,
      "y": 0.5
     },
     {
      "cast": "sangcheol",
-     "prompt": "boy, faceless male, shaded face, nude, on top of her",
+     "prompt": "boy, faceless male, shaded face, nude, lying on back",
      "uc": "visible eyes",
      "x": 0.58,
      "y": 0.5
@@ -4564,7 +4564,7 @@
    "id": "cg_ch05_haerang_h1",
    "size": "bg",
    "seed": 1098222072,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -4586,12 +4586,12 @@
    "id": "cg_ch05_haerang_h2",
    "size": "bg",
    "seed": 3632060494,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
      "cast": "haerang",
-     "prompt": "girl, nude, blush, sweat, lying on back, large breasts",
+     "prompt": "girl, nude, blush, sweat, lying on back",
      "x": 0.42,
      "y": 0.5
     },
@@ -4608,7 +4608,7 @@
    "id": "cg_ch07_maru_h1",
    "size": "bg",
    "seed": 891582176,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -4630,7 +4630,7 @@
    "id": "cg_ch07_seori_h1",
    "size": "bg",
    "seed": 2593029295,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, no readable text",
    "chars": [
     {
@@ -4652,7 +4652,7 @@
    "id": "cg_muk_goryeo_d1",
    "size": "bg",
    "seed": 184202435,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4667,7 +4667,7 @@
    "id": "cg_muk_goryeo_d3",
    "size": "bg",
    "seed": 392936943,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, completely torn clothes, almost nude, nipples, battle damage, sitting on ground, blush, no readable text",
    "chars": [
     {
@@ -4682,7 +4682,7 @@
    "id": "cg_ch08_danbi_h1",
    "size": "bg",
    "seed": 1107853094,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, futon, no readable text",
    "chars": [
     {
@@ -4704,7 +4704,7 @@
    "id": "cg_muk_general_d1",
    "size": "bg",
    "seed": 1149503963,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4719,7 +4719,7 @@
    "id": "cg_muk_general_d3",
    "size": "bg",
    "seed": 2861197559,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, completely torn clothes, almost nude, nipples, battle damage, sitting on ground, blush, no readable text",
    "chars": [
     {
@@ -4734,7 +4734,7 @@
    "id": "cg_muk_yeogwan_d1",
    "size": "bg",
    "seed": 3692228623,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4749,7 +4749,7 @@
    "id": "cg_ch10_goyo_h1",
    "size": "bg",
    "seed": 1753860349,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, candlelight, on boat, korean palace hall, dark, no readable text",
    "chars": [
     {
@@ -4771,7 +4771,7 @@
    "id": "cg_muk_yeogwan_d3",
    "size": "bg",
    "seed": 840732963,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, completely torn clothes, almost nude, nipples, battle damage, sitting on ground, blush, no readable text",
    "chars": [
     {
@@ -4786,7 +4786,7 @@
    "id": "cg_muk_lotus_d1",
    "size": "bg",
    "seed": 3942672466,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4801,7 +4801,7 @@
    "id": "cg_muk_lotus_d3",
    "size": "bg",
    "seed": 84806014,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -4822,7 +4822,7 @@
    "id": "cg_muk_rain_d1",
    "size": "bg",
    "seed": 89386588,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4837,7 +4837,7 @@
    "id": "cg_muk_rain_d3",
    "size": "bg",
    "seed": 3948777336,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -4858,7 +4858,7 @@
    "id": "cg_muk_talchum_d1",
    "size": "bg",
    "seed": 2073372577,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4873,7 +4873,7 @@
    "id": "cg_muk_talchum_d3",
    "size": "bg",
    "seed": 2509981325,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -4894,7 +4894,7 @@
    "id": "cg_muk_donghak_d1",
    "size": "bg",
    "seed": 2459447339,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4909,7 +4909,7 @@
    "id": "cg_muk_donghak_d3",
    "size": "bg",
    "seed": 2090225927,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -4930,7 +4930,7 @@
    "id": "cg_ch15_goyo_h1",
    "size": "bg",
    "seed": 572427700,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, rain, blue ghost fire, candlelight, no readable text",
    "chars": [
     {
@@ -4952,7 +4952,7 @@
    "id": "cg_muk_modern1900_d1",
    "size": "bg",
    "seed": 1904278758,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -4967,7 +4967,7 @@
    "id": "cg_muk_modern1900_d3",
    "size": "bg",
    "seed": 2676923850,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -4988,7 +4988,7 @@
    "id": "cg_ch16_hanbyeol_h1",
    "size": "bg",
    "seed": 3626693668,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, fellatio, oral, night, desk, river, no readable text",
    "chars": [
     {
@@ -5010,7 +5010,7 @@
    "id": "cg_muk_uibyeong_d1",
    "size": "bg",
    "seed": 240898559,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5025,7 +5025,7 @@
    "id": "cg_muk_uibyeong_d3",
    "size": "bg",
    "seed": 315136211,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5046,7 +5046,7 @@
    "id": "cg_ch17_chunmei_h1",
    "size": "bg",
    "seed": 412336778,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, paizuri, breasts squeezed together, night, rain, attic, no readable text",
    "chars": [
     {
@@ -5068,7 +5068,7 @@
    "id": "cg_muk_manse_d1",
    "size": "bg",
    "seed": 803917709,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5083,7 +5083,7 @@
    "id": "cg_muk_manse_d3",
    "size": "bg",
    "seed": 3252989601,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5104,7 +5104,7 @@
    "id": "cg_ch18_bori_h1",
    "size": "bg",
    "seed": 3553766287,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, night, kitchen, no readable text",
    "chars": [
     {
@@ -5126,7 +5126,7 @@
    "id": "cg_muk_moga_d1",
    "size": "bg",
    "seed": 1235012924,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5141,7 +5141,7 @@
    "id": "cg_muk_moga_d3",
    "size": "bg",
    "seed": 2811407384,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5162,7 +5162,7 @@
    "id": "cg_ch19_hanbyeol_h1",
    "size": "bg",
    "seed": 284096791,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cafe, no readable text",
    "chars": [
     {
@@ -5184,7 +5184,7 @@
    "id": "cg_muk_hangul_d1",
    "size": "bg",
    "seed": 3634474013,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5199,7 +5199,7 @@
    "id": "cg_muk_hangul_d3",
    "size": "bg",
    "seed": 917490993,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5220,7 +5220,7 @@
    "id": "cg_ch20_saebyeok_h1",
    "size": "bg",
    "seed": 2533092303,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, snow, night, rain, no readable text",
    "chars": [
     {
@@ -5242,7 +5242,7 @@
    "id": "cg_muk_liberation_d1",
    "size": "bg",
    "seed": 187105998,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5257,7 +5257,7 @@
    "id": "cg_muk_liberation_d3",
    "size": "bg",
    "seed": 396119010,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5278,7 +5278,7 @@
    "id": "cg_muk_refugee_d1",
    "size": "bg",
    "seed": 3937123952,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5293,7 +5293,7 @@
    "id": "cg_muk_refugee_d3",
    "size": "bg",
    "seed": 77979460,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5314,7 +5314,7 @@
    "id": "cg_ch22_bomnae_h1",
    "size": "bg",
    "seed": 51315399,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, night, rain, no readable text",
    "chars": [
     {
@@ -5336,7 +5336,7 @@
    "id": "cg_muk_handkerchief_d1",
    "size": "bg",
    "seed": 3921286183,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5351,7 +5351,7 @@
    "id": "cg_muk_handkerchief_d3",
    "size": "bg",
    "seed": 129266955,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5372,7 +5372,7 @@
    "id": "cg_ch23_moa_h1",
    "size": "bg",
    "seed": 2130624258,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, no readable text",
    "chars": [
     {
@@ -5394,7 +5394,7 @@
    "id": "cg_muk_idol_d1",
    "size": "bg",
    "seed": 353274616,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, torn clothes, battle damage, wardrobe malfunction, cleavage, exposed breasts, thighs, blush, no readable text",
    "chars": [
     {
@@ -5409,7 +5409,7 @@
    "id": "cg_muk_idol_d3",
    "size": "bg",
    "seed": 211141596,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "2girls, nsfw, clothes破損, torn clothes, wardrobe malfunction, exposed breasts, nipples, blush, sweat, battle damage, no readable text",
    "chars": [
     {
@@ -5430,7 +5430,7 @@
    "id": "cg_ep_sayeon_scroll_break",
    "size": "bg",
    "seed": 972985930,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, nude, torn paper scrolls floating around, exposed breasts, nipples, blush, embarrassed, no readable text",
    "chars": [
     {
@@ -5445,7 +5445,7 @@
    "id": "cg_ep_muk_pages_break",
    "size": "bg",
    "seed": 1454445219,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "1girl, solo, nsfw, nude, torn paper pages and ink scattering into light, exposed breasts, nipples, pale skin, glowing light, no readable text",
    "chars": [
     {
@@ -5460,7 +5460,7 @@
    "id": "cg_end_ara_h1",
    "size": "bg",
    "seed": 1906870597,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, no readable text",
    "chars": [
     {
@@ -5482,7 +5482,7 @@
    "id": "cg_end_gaon_h1",
    "size": "bg",
    "seed": 2842997526,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, no readable text",
    "chars": [
     {
@@ -5504,7 +5504,7 @@
    "id": "cg_end_maru_h1",
    "size": "bg",
    "seed": 309096439,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, rain, no readable text",
    "chars": [
     {
@@ -5526,12 +5526,12 @@
    "id": "cg_end_seori_h1",
    "size": "bg",
    "seed": 3625692380,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, futon, river, no readable text",
    "chars": [
     {
      "cast": "seori",
-     "prompt": "girl, nude, blush, sweat, lying on back, large breasts",
+     "prompt": "girl, nude, blush, sweat, lying on back, small breasts",
      "x": 0.42,
      "y": 0.5
     },
@@ -5548,7 +5548,7 @@
    "id": "cg_end_danbi_h1",
    "size": "bg",
    "seed": 53202142,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, rain, no readable text",
    "chars": [
     {
@@ -5570,7 +5570,7 @@
    "id": "cg_end_bomnae_h1",
    "size": "bg",
    "seed": 3192791161,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, night, no readable text",
    "chars": [
     {
@@ -5592,7 +5592,7 @@
    "id": "cg_end_haerang_h1",
    "size": "bg",
    "seed": 2044005019,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, river, no readable text",
    "chars": [
     {
@@ -5614,7 +5614,7 @@
    "id": "cg_end_dallae_h1",
    "size": "bg",
    "seed": 862052736,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, rain, no readable text",
    "chars": [
     {
@@ -5636,7 +5636,7 @@
    "id": "cg_end_irang_h1",
    "size": "bg",
    "seed": 3906752441,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, rain, no readable text",
    "chars": [
     {
@@ -5658,7 +5658,7 @@
    "id": "cg_end_eunsil_h1",
    "size": "bg",
    "seed": 102844354,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, snow, futon, no readable text",
    "chars": [
     {
@@ -5680,7 +5680,7 @@
    "id": "cg_end_goyo_h1",
    "size": "bg",
    "seed": 3294811939,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, night, korean palace hall, dark, blue ghost fire, candlelight, no readable text",
    "chars": [
     {
@@ -5702,7 +5702,7 @@
    "id": "cg_end_moa_h1",
    "size": "bg",
    "seed": 2652510733,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, night, no readable text",
    "chars": [
     {
@@ -5724,7 +5724,7 @@
    "id": "cg_end_orpheia_h1",
    "size": "bg",
    "seed": 117451331,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, snow, rain, desk, no readable text",
    "chars": [
     {
@@ -5746,7 +5746,7 @@
    "id": "cg_end_muk_h1",
    "size": "bg",
    "seed": 3690427724,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, night, rain, desk, no readable text",
    "chars": [
     {
@@ -5768,7 +5768,7 @@
    "id": "cg_sp05_dallae_h1",
    "size": "bg",
    "seed": 3281387783,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, paizuri, breasts squeezed together, snow, on boat, no readable text",
    "chars": [
     {
@@ -5790,7 +5790,7 @@
    "id": "cg_sp05_irang_h1",
    "size": "bg",
    "seed": 279933481,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, no readable text",
    "chars": [
     {
@@ -5812,7 +5812,7 @@
    "id": "cg_sp05_eunsil_h1",
    "size": "bg",
    "seed": 75206585,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bed, no readable text",
    "chars": [
     {
@@ -5834,7 +5834,7 @@
    "id": "cg_sp05_ara_h1",
    "size": "bg",
    "seed": 3814328480,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, no readable text",
    "chars": [
     {
@@ -5856,7 +5856,7 @@
    "id": "cg_sp05_gaon_h1",
    "size": "bg",
    "seed": 3102165705,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -5878,7 +5878,7 @@
    "id": "cg_sp05_haerang_h1",
    "size": "bg",
    "seed": 1358705891,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, rain, river, no readable text",
    "chars": [
     {
@@ -5900,7 +5900,7 @@
    "id": "cg_sp05_maru_h1",
    "size": "bg",
    "seed": 67081772,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, futon, no readable text",
    "chars": [
     {
@@ -5922,7 +5922,7 @@
    "id": "cg_sp05_seori_h1",
    "size": "bg",
    "seed": 543723852,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, futon, no readable text",
    "chars": [
     {
@@ -5944,7 +5944,7 @@
    "id": "cg_sp05_danbi_h1",
    "size": "bg",
    "seed": 166054222,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, face-to-face, sitting on lap, straddling, vaginal, hugging, rain, no readable text",
    "chars": [
     {
@@ -5966,7 +5966,7 @@
    "id": "cg_sp05_goyo_h1",
    "size": "bg",
    "seed": 3589353216,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, bedroom, on boat, blue ghost fire, candlelight, no readable text",
    "chars": [
     {
@@ -5988,7 +5988,7 @@
    "id": "cg_sp05_bomnae_h1",
    "size": "bg",
    "seed": 1320796162,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, rain, no readable text",
    "chars": [
     {
@@ -6010,7 +6010,7 @@
    "id": "cg_sp05_moa_h1",
    "size": "bg",
    "seed": 216570840,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -6032,7 +6032,7 @@
    "id": "cg_sp05_orpheia_h1",
    "size": "bg",
    "seed": 3695340603,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, snow, bed, no readable text",
    "chars": [
     {
@@ -6054,7 +6054,7 @@
    "id": "cg_sp06_dallae_h1",
    "size": "bg",
    "seed": 1517577992,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, cowgirl position, girl on top, vaginal, no readable text",
    "chars": [
     {
@@ -6076,7 +6076,7 @@
    "id": "cg_sp06_irang_h1",
    "size": "bg",
    "seed": 221094188,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, missionary, vaginal, legs spread, no readable text",
    "chars": [
     {
@@ -6098,7 +6098,7 @@
    "id": "cg_sp06_eunsil_h1",
    "size": "bg",
    "seed": 2644109754,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -6120,7 +6120,7 @@
    "id": "cg_sp06_ara_h1",
    "size": "bg",
    "seed": 1842679677,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, no readable text",
    "chars": [
     {
@@ -6142,7 +6142,7 @@
    "id": "cg_sp06_gaon_h1",
    "size": "bg",
    "seed": 2171237902,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -6164,7 +6164,7 @@
    "id": "cg_sp06_haerang_h1",
    "size": "bg",
    "seed": 660792851,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, doggystyle, from behind, vaginal, all fours, no readable text",
    "chars": [
     {
@@ -6186,7 +6186,7 @@
    "id": "cg_sp06_maru_h1",
    "size": "bg",
    "seed": 980593391,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, no readable text",
    "chars": [
     {
@@ -6208,7 +6208,7 @@
    "id": "cg_sp06_seori_h1",
    "size": "bg",
    "seed": 3412011593,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, futon, no readable text",
    "chars": [
     {
@@ -6230,7 +6230,7 @@
    "id": "cg_sp06_danbi_h1",
    "size": "bg",
    "seed": 3805442639,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, standing sex, against wall, vaginal, cum in pussy, cum, rain, no readable text",
    "chars": [
     {
@@ -6252,7 +6252,7 @@
    "id": "cg_sp06_goyo_h1",
    "size": "bg",
    "seed": 3967554107,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, bedroom, on boat, blue ghost fire, candlelight, no readable text",
    "chars": [
     {
@@ -6274,7 +6274,7 @@
    "id": "cg_sp06_bomnae_h1",
    "size": "bg",
    "seed": 3613107713,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, no readable text",
    "chars": [
     {
@@ -6296,7 +6296,7 @@
    "id": "cg_sp06_moa_h1",
    "size": "bg",
    "seed": 2187828277,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, night, no readable text",
    "chars": [
     {
@@ -6318,7 +6318,7 @@
    "id": "cg_sp06_orpheia_h1",
    "size": "bg",
    "seed": 2883370699,
-   "model": "nai-diffusion-4-5-full",
+   "model": "nai-diffusion-5-full",
    "prompt": "sex, hetero, nude, 1girl, 1boy, nsfw, explicit, vaginal, missionary, cum in pussy, cum, snow, bed, no readable text",
    "chars": [
     {
