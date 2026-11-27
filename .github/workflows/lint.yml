@@ -3,7 +3,7 @@ name: 대본 점검
 on:
   push:
     branches: [main]
-    paths: ['story/**', 'data/**', 'vn.js', 'quiz.js', 'core.js', 'minigame.js', 'tools/lint.js', 'assets/*.webp']
+    paths: ['story/**', 'data/**', 'vn.js', 'quiz.js', 'core.js', 'minigame.js', 'tools/lint.js', 'tools/nai-*.json', 'assets/*.webp']
   workflow_dispatch:
 jobs:
   lint:

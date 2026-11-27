@@ -9,7 +9,7 @@ NAI_TOKEN=pst-... python3 tools/nai_batch.py bg_lecture_room cg_ch01_dolmen   # 
 import json, random, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from nai import generate, STYLE
+from nai import generate, sanitize_prompt, STYLE
 
 ROOT = Path(__file__).resolve().parents[1]
 SIZES = {"bg": (1216, 832), "stand": (832, 1216), "square": (1024, 1024)}
@@ -26,7 +26,7 @@ def looks(cast):
     for c in ids:
         if c not in LOOKS:
             sys.exit(f"nai-log.json에 외형이 없는 인물: {c}")
-    return ", ".join(LOOKS[c] for c in ids)
+    return ", ".join(sanitize_prompt(LOOKS[c], c) for c in ids)
 
 
 def join(*parts):
@@ -43,9 +43,9 @@ for it in items:
         print("건너뜀", png.name); continue
     w, h = SIZES[it.get("size", "bg")]
     seed = it.get("seed") or random.randint(1, 2**32 - 1)
-    prompt = join(looks(it.get("cast")), it.get("prompt", ""), "transparent background" if it.get("transparent") else "")
+    prompt = sanitize_prompt(join(looks(it.get("cast")), it.get("prompt", ""), "transparent background" if it.get("transparent") else ""), it.get("cast"))
     init = it.get("init")
-    chars = [dict(c, prompt=join(looks(c.get("cast")), c.get("prompt", ""))) for c in it["chars"]] if it.get("chars") else None
+    chars = [dict(c, prompt=sanitize_prompt(join(looks(c.get("cast")), c.get("prompt", "")), c.get("cast"))) for c in it["chars"]] if it.get("chars") else None
     try:
         try:
             png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),

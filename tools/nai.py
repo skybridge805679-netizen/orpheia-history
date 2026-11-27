@@ -4,10 +4,42 @@
 
 python3 tools/nai.py OUT.png "장면 프롬프트" [--w 832 --h 1216 --seed N --model MODEL]
 화풍·품질·네거티브는 tools/nai-style.json 에서 읽는다."""
-import argparse, io, json, os, random, subprocess, sys, time, zipfile
+import argparse, io, json, os, random, re, subprocess, sys, time, zipfile
 from pathlib import Path
 
 STYLE = json.loads((Path(__file__).with_name("nai-style.json")).read_text(encoding="utf-8"))
+RULES = json.loads((Path(__file__).with_name("nai-rules.json")).read_text(encoding="utf-8"))
+
+
+def sanitize_prompt(text, cast=None):
+    """tools/nai-rules.json 설정에 따라 프롬프트에서 금지된 나이·비표준 표현을 제거하고,
+    단부루 정식 태그로 치환하며, 인물(cast)의 스리사이즈 기준 5단계 가슴 크기 태그를 강제 동기화한다."""
+    if not text:
+        return text
+    s = text
+    for pat in RULES.get("forbidden_patterns", []):
+        s = re.sub(pat + r",?\s*", "", s, flags=re.IGNORECASE)
+    for bad, good in RULES.get("tag_replacements", {}).items():
+        s = re.sub(r"\b" + re.escape(bad) + r"\b", good, s, flags=re.IGNORECASE)
+    bmap = RULES.get("character_breast_map", {})
+    cid = cast if isinstance(cast, str) else (cast[0] if isinstance(cast, list) and len(cast) == 1 else None)
+    if cid and cid in bmap:
+        tier = bmap[cid]
+        # 네거티브 가중치 블록(-3::...::) 바깥의 가슴 크기 태그를 해당 캐릭터의 구간 태그로 통일하고, 없으면 앞에 붙인다
+        parts = re.split(r"(-?\d+(?:\.\d+)?::[^:]+::)", s)
+        has_tier = False
+        for idx in range(0, len(parts), 2):
+            if re.search(r"\b(flat chest|small breasts|medium breasts|large breasts|huge breasts)\b", parts[idx]):
+                parts[idx] = re.sub(r"\b(flat chest,?\s*small breasts|flat chest|small breasts|medium breasts|large breasts|huge breasts)\b", tier, parts[idx])
+                has_tier = True
+        s = "".join(parts)
+        if not has_tier:
+            s = f"{tier}, {s}"
+    s = re.sub(r",\s*,+", ",", s)
+    s = re.sub(r"\s+,", ",", s)
+    s = re.sub(r",\s+", ", ", s).strip().strip(",").strip()
+    return s
+
 
 MEDIUM_UC = (
     "lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, "
@@ -19,7 +51,8 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, nega
     """chars: [{"prompt": 인물 프롬프트, "uc": 인물 네거티브, "x": 0.1~0.9, "y": 0.1~0.9}] — NAI 멀티 캐릭터 프롬프트.
     인물마다 따로 적어서 머리색·옷이 서로 섞이지 않게 하고, x·y(5×5 격자)로 화면 위치를 정한다.
     동작은 source#/target#/mutual# 태그(예: source#carrying, target#carrying)로 누가 누구에게 하는지 적는다."""
-    chars = chars or []
+    prompt = sanitize_prompt(prompt)
+    chars = [dict(c, prompt=sanitize_prompt(c.get("prompt", ""), c.get("cast"))) for c in (chars or [])]
     full = f"{style or STYLE['style']}, {prompt}"
     is_v5 = model.startswith("nai-diffusion-5")
     is_medium = model.startswith("nai-diffusion-5-full-medium")

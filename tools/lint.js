@@ -126,7 +126,7 @@ for (const c of chapters) {
 }
 // 장 사이 이동(@jump 가 다른 장 라벨이면 위에서 오류가 나므로, 그건 vn.js finishChapter(next)로만 한다)
 
-// ── 6. CAST 스탠딩 파일, stands.js 최신
+// ── 6. CAST 스탠딩 파일, stands.js 최신, NAI 프롬프트 규칙(tools/nai-rules.json) 점검
 for (const [id, c] of Object.entries(CAST)) for (const [e, f] of Object.entries(c.stand || {})) if (f) { const stem = f.replace(/\.webp$/, ''); if (!ASSETS.has(stem)) { if (NAI_PENDING.has(stem)) W('vn.js CAST', `${id}.${e} → 생성 대기 그림 ${f}`); else E('vn.js CAST', `${id}.${e} → 없는 그림 ${f}`); } }
 try { const before = fs.readFileSync(rel('data/stands.js'), 'utf8'); const out = cp.execFileSync('python3', ['-c', `
 import re,json,sys
@@ -138,6 +138,37 @@ for f in sorted((R/'assets').glob('st_*.webp')):
     if n==f'st_{i}' or n.startswith(f'st_{i}_'):o.setdefault(i,[]).append(n);break
 print(json.dumps(o,ensure_ascii=False,separators=(',',':')))`, ROOT]).toString().trim();
   if (!before.includes(out)) E('data/stands.js', '스탠딩 목록이 오래됨 → python3 tools/stand_index.py'); } catch (e) { W('data/stands.js', '점검 못 함 ' + e.message); }
+try {
+  const rules = JSON.parse(fs.readFileSync(rel('tools/nai-rules.json'), 'utf8'));
+  const naiLog = JSON.parse(fs.readFileSync(rel('tools/nai-log.json'), 'utf8'));
+  const naiAssets = JSON.parse(fs.readFileSync(rel('tools/nai-assets.json'), 'utf8'));
+  const bmap = rules.character_breast_map || {};
+  const badRe = (rules.forbidden_patterns || []).map(p => new RegExp(p, 'i'));
+  const aliasRe = Object.keys(rules.tag_replacements || {}).map(k => [k, new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i')]);
+  const tierOf = b => b <= 78 ? 'flat chest' : b <= 82 ? 'small breasts' : b <= 88 ? 'medium breasts' : b <= 93 ? 'large breasts' : 'huge breasts';
+  for (const p of W_.PROFILES || []) {
+    if (!p.bwh || !bmap[p.id]) continue;
+    const b = parseInt(p.bwh.split('·')[0].trim(), 10);
+    if (!isNaN(b) && bmap[p.id] !== tierOf(b)) E('tools/nai-rules.json', `${p.id} 바스트(${b}) 구간은 '${tierOf(b)}'이어야 하는데 '${bmap[p.id]}'로 적힘`);
+  }
+  const checkPrompt = (where, txt, cast) => {
+    if (!txt) return;
+    const posOnly = txt.replace(/-?\d+(?:\.\d+)?::[^:]+::/g, '');
+    for (const r of badRe) { const m = posOnly.match(r); if (m) E(where, `금지된 나이·비표준 프롬프트 '${m[0]}' (tools/nai-rules.json)`); }
+    for (const [k, r] of aliasRe) if (r.test(posOnly)) E(where, `단부루 비표준 태그 '${k}' → '${rules.tag_replacements[k]}'로 바꿀 것`);
+    if (cast && bmap[cast]) {
+      const tiers = posOnly.match(/\b(flat chest|small breasts|medium breasts|large breasts|huge breasts)\b/g) || [];
+      if (!tiers.includes(bmap[cast])) E(where, `${cast} 가슴 크기 태그 '${bmap[cast]}' 누락`);
+      const wrong = tiers.find(t => t !== bmap[cast]);
+      if (wrong) E(where, `${cast} 가슴 크기 태그 충돌: '${wrong}' (기준: '${bmap[cast]}')`);
+    }
+  };
+  for (const [cid, pr] of Object.entries(naiLog)) checkPrompt(`tools/nai-log.json (${cid})`, pr, cid);
+  for (const it of naiAssets.items || []) {
+    checkPrompt(`tools/nai-assets.json (${it.id})`, it.prompt, typeof it.cast === 'string' ? it.cast : null);
+    for (const [ci, c] of (it.chars || []).entries()) checkPrompt(`tools/nai-assets.json (${it.id}#char${ci + 1})`, c.prompt, typeof c.cast === 'string' ? c.cast : null);
+  }
+} catch (e) { W('tools/nai-rules.json', '프롬프트 규칙 점검 실패: ' + e.message); }
 
 // ── 7. 결과
 const showW = process.argv.includes('-w') || process.argv.includes('--warn');
