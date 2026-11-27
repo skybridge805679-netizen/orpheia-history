@@ -1,5 +1,5 @@
 'use strict';
-// 미니게임 모드(2026.11): 연표 꿰기 · 누구일까요 · 짝 맞추기 · 이 유물은? · 먼저일까?(60초), 그리고 엔딩 뒤 「아내 대결」.
+// 미니게임 모드(2026.11): 연표 꿰기 · 누구일까요 · 짝 맞추기 · 이 유물은? · 먼저일까?(60초), 그리고 엔딩 뒤 「아내 대결」, 히든 엔딩 뒤 「떡볶이 퇴마」(혜진 슈팅).
 // 2026.11 보강: 시대 고르기(records.mgEra), 결과 화면의 「헷갈린 것」 복습, 랭크별 오르페이아 CG(cg_mg_rank_*),
 //   모드별 그림(cg_mg_<모드>, 아직 안 뽑혔으면 예전 그림), 아내 대결 완승 CG(cg_wife_<id>_win, 대사 MG_WIFE[id].win).
 // 아내 대결은 묵 배틀처럼 맞힐 때마다 의상이 한 단계씩 풀린다(CG cg_wife_<id>_b0~b3). 기록은 records.wife[id] = 본 최고 단계(3이면 완승 CG도 열림).
@@ -25,8 +25,8 @@ window.MiniGame=(()=>{
  // 한 판 안에서는 같은 문제를 되도록 다시 내지 않는다.
  let seen=new Set();
  const fresh=(arr,key)=>{const l=arr.filter(x=>!seen.has(key(x)));const x=pick(l.length?l:arr);seen.add(key(x));return x;};
- let dlg,onClose,keyFn=null,timer=null;
- const stopTimer=()=>{if(timer){clearInterval(timer);timer=null;}};
+ let dlg,onClose,keyFn=null,timer=null,raf=0,loopStop=null;
+ const stopTimer=()=>{if(timer){clearInterval(timer);timer=null;}if(raf){cancelAnimationFrame(raf);raf=0;}loopStop?.();loopStop=null;};
  // ── 틀: 위 HUD + 본문. art = 본문 뒤에 은은히 까는 그림.
  function frame({title,sub='MINI GAME',back,prog,score,art}){
   stopTimer();
@@ -111,11 +111,13 @@ window.MiniGame=(()=>{
  const RANK_LINE={S:'완벽해요, 주인님! 연표가 한 군데도 안 번졌어요. ……상으로 오늘 밤 차는 제가 끓일게요.',A:'거의 다 붙었어요! 헷갈린 것만 아래에서 한 번 더 보고 가요.',
   B:'좋아요. 반 넘게 단단해졌어요. 헷갈린 건 「기출 풀기」에서 한 번 더 봐요.',C:'괜찮아요. 이유와 함께 다시 보면 금방 붙어요. 차 한 잔 하고 한 판 더 해요.',D:'오늘은 몸풀기였던 걸로 해요. 아래 것만 같이 읽고 가요, 주인님.'};
  // 결과: 왼쪽 오르페이아 CG, 오른쪽 점수·복습.
- function result({title,score,max,best,nb,r,notes,again,unit='/ '+max}){
+ function result({title,score,max,best,nb,r,notes,again,unit='/ '+max,who,noteTitle='헷갈린 것'}){
   const a=frame({title,sub:'RESULT',back:lobby});
-  a.innerHTML=`<div class="mgx-result2"><figure class="mgx-rcg"><img class="mgx-rimg" src="${asset(RANK_CG[r])}" onerror="this.onerror=null;this.classList.add('stand');this.src='${asset(RANK_ST[r])}'" alt=""><figcaption><span class="mgx-name">오르페이아</span>${esc(RANK_LINE[r])}</figcaption></figure>
+  const fig=who?`<figure class="mgx-rcg"><img class="mgx-rimg stand" src="${asset(who.img)}" alt=""><figcaption><span class="mgx-name">${esc(who.name)}</span>${esc(who.line)}</figcaption></figure>`
+   :`<figure class="mgx-rcg"><img class="mgx-rimg" src="${asset(RANK_CG[r])}" onerror="this.onerror=null;this.classList.add('stand');this.src='${asset(RANK_ST[r])}'" alt=""><figcaption><span class="mgx-name">오르페이아</span>${esc(RANK_LINE[r])}</figcaption></figure>`;
+  a.innerHTML=`<div class="mgx-result2">${fig}
   <div class="mgx-rside"><div class="mgx-rhead"><div class="mgx-rank r-${r}"><small>RANK</small><b>${r}</b></div><div class="mgx-rtext"><h3>${score} <small>${esc(unit)}</small></h3>${nb?'<p class="mgx-new">NEW RECORD</p>':''}<p class="mgx-dim">최고 기록 ${best} · ${esc(ERA[era][0])}</p></div></div>
-  ${notes.length?`<div class="mgx-review"><h4>헷갈린 것 <small>${notes.length}</small></h4><ol>${notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ol></div>`:'<p class="mgx-res ok">헷갈린 것 없음!</p>'}
+  ${notes.length?`<div class="mgx-review"><h4>${esc(noteTitle)} <small>${notes.length}</small></h4><ol>${notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ol></div>`:'<p class="mgx-res ok">헷갈린 것 없음!</p>'}
   <div class="mgx-row"><button class="mgx-next" data-again>한 판 더 <kbd>Enter</kbd></button><button class="mgx-ghost" data-lobby>목록으로</button></div></div></div>`;
   a.querySelector('[data-again]').onclick=again;a.querySelector('[data-lobby]').onclick=()=>lobby();
   keyFn=e=>{if(e.key==='Enter'){keyFn=null;again();return true;}};
@@ -157,6 +159,154 @@ window.MiniGame=(()=>{
   paintHud();show();sfx('vb_start');
   const t0=Date.now();let last=t0;
   timer=setInterval(()=>{const now=Date.now();left-=(now-last)/1000;last=now;paintHud();if(left<=0)end();},200);
+ }
+ // ── 떡볶이 퇴마(혜진): 세로 슈팅. 오르페이아가 만든 퇴마 연습 게임인데, 부적 탄창에 혜진의 야식 주문 기록이 섞여 부적 대신 떡볶이가 나간다.
+ //   마우스(또는 ←↑→↓·WASD)로 움직이고 떡볶이는 저절로 나간다. Shift = 천천히(판정 점 보임), X·우클릭 = 삶은 달걀 「성불하세요!」(화면 정리), P = 멈춤.
+ //   치즈 = 관통, 소시지 = 세 갈래, 삶은 달걀 = 폭탄 하나 더. 80초쯤 버티면 야근 악귀가 나온다. 기록 records.mgBest.tteok.
+ const tteokOpen=()=>(records.endings||[]).includes('연표의 신부들');
+ const TK={
+  start:['……잠깐, 부적이 왜 빨개? 이거 떡볶이잖아!!','아 몰라, 맵기만 하면 귀신도 쫓기겠지.'],
+  sys:'부적 탄창에 혜진 님의 야식 주문 기록이 섞였어요. 고치는 동안은 그냥 그대로 쏘세요♪',
+  cheese:['치즈 추가! 이건 좀 반칙인데?','치즈가 쭉쭉 늘어나서 뒤에 있는 놈까지 꿰뚫어!'],
+  sausage:['소시지 토핑까지? 오늘 회식이네.','세 갈래 발사! 엽떡 세트 메뉴다.'],
+  egg:['삶은 달걀은 아껴 둬야지…','달걀 하나 더! 위험할 때 X.'],
+  hit:['아 진짜! 교복 세탁비 청구할 거야!','국물 튀었어!! 이거 안 지워진다고!','윽, 먹물 귀신 주제에…!'],
+  bomb:['성불하세요!!','다들 그냥 좀 가라고!!'],
+  boss:'…야근 귀신이다. 이 시간까지 퇴근 못 한 거, 나도 알아. 그러니까 이제 퇴근해.',
+  bossLow:'조금만 더! 결재 서류 그만 던져!',
+  win:'끝! 남은 떡볶이는 내가 먹는다.',
+  lose:'……오늘은 그냥 집 가서 떡볶이 시켜 먹을래.',
+ };
+ const TK_RES={S:'완벽해. 떡볶이로 이 정도면 나 진짜 천재 아니야? 할머니한텐 비밀이야.',A:'꽤 했다. 국물 좀 튄 건 못 본 걸로 해 줘.',
+  B:'뭐, 나쁘지 않네. 치즈 추가할 걸 그랬다.',C:'떡이 너무 굵어서 그래. 다음엔 밀떡으로 쏠 거야.',D:'……오늘은 그냥 집 가서 떡볶이 시켜 먹을래.'};
+ const KILL_TXT=['맵다!','매워…!','달다…','성불…','물…!'];
+ function tteok(){
+  const a=frame({title:'떡볶이 퇴마',sub:'MINI GAME · 혜진',back:lobby,score:''});
+  const hud=dlg.querySelector('.mgx-score');
+  a.classList.add('mgx-main-shmup');
+  a.innerHTML=`<div class="mgx-shmup"><aside class="mgx-sh-who"><img src="${asset('st_hyejin_smile.webp')}" alt=""><p class="mgx-sh-say"><b class="mgx-sh-nm">혜진</b><span data-say></span></p><p class="mgx-sh-sys" data-sys></p></aside>
+   <div class="mgx-sh-stage"><canvas width="480" height="640"></canvas><div class="mgx-sh-over" data-over hidden></div></div>
+   <aside class="mgx-sh-help"><h4>조작</h4><p><kbd>마우스</kbd> 또는 <kbd>←↑→↓</kbd><kbd>WASD</kbd> 움직이기</p><p>떡볶이는 저절로 나가요</p><p><kbd>Shift</kbd> 천천히 · 판정 점 보기</p><p><kbd>X</kbd> · 우클릭 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤</p><h4>토핑</h4><p><b class="t-cheese">치즈</b> 꿰뚫는 떡</p><p><b class="t-sausage">소시지</b> 세 갈래 발사</p><p><b class="t-egg">삶은 달걀</b> 화면 정리 하나 더</p></aside></div>`;
+  const cv=a.querySelector('canvas'),g=cv.getContext('2d'),W=480,H=640;
+  const sayEl=a.querySelector('[data-say]'),sysEl=a.querySelector('[data-sys]'),who=a.querySelector('.mgx-sh-who img'),over=a.querySelector('[data-over]');
+  const img=n=>{const i=new Image();i.src=asset(n);return i;};
+  const IM={me:img('st_hyejin_serious.webp'),hurt:img('st_hyejin_surprised.webp'),man:img('mob_man_modern.webp')};
+  let sayT=0;const say=(t,face='smile',force)=>{if(!force&&sayT>0)return;sayEl.textContent=Array.isArray(t)?pick(t):t;who.src=asset(`st_hyejin_${face}.webp`);sayT=2.2;};
+  // 상태
+  const P={x:W/2,y:H-80,inv:0,lives:3,bombs:2,cheese:0,sausage:0,fire:0};
+  let shots=[],foes=[],ebul=[],items=[],fx=[],texts=[],t=0,spawn=1.2,score=0,kills=0,hits=0,boss=null,bossDone=false,ended=false,paused=false,flashT=0,mouse=null,lastHud=0;
+  const keys={};
+  const best=(records.mgBest||{}).tteok||0;
+  const dist2=(a,b)=>(a.x-b.x)**2+(a.y-b.y)**2;
+  // 입력
+  keyFn=e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;keys[k]=true;
+   if(k==='x'){bomb();}if(k==='p'){paused=!paused;}return ['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','w','a','s','d','x','p','Shift',' '].includes(k);};
+  const up=e=>{const k=e.key.length===1?e.key.toLowerCase():e.key;keys[k]=false;};
+  document.addEventListener('keyup',up);
+  const toCanvas=e=>{const r=cv.getBoundingClientRect();return {x:(e.clientX-r.left)*W/r.width,y:(e.clientY-r.top)*H/r.height};};
+  cv.addEventListener('pointermove',e=>{mouse=toCanvas(e);});
+  cv.addEventListener('pointerleave',()=>{mouse=null;});
+  cv.addEventListener('contextmenu',e=>{e.preventDefault();bomb();});
+  loopStop=()=>{document.removeEventListener('keyup',up);};
+  // 적
+  const addFoe=type=>{const x=30+Math.random()*(W-60);
+   if(type==='wisp')foes.push({type,x,y:-20,hp:1,r:11,ph:Math.random()*6,pts:100});
+   else if(type==='sheet')foes.push({type,x,y:-30,hp:3,r:17,ph:Math.random()*6,cd:1+Math.random(),pts:300});
+   else foes.push({type:'man',x,y:-50,hp:10,r:22,stopY:110+Math.random()*110,cd:1,life:0,pts:800});};
+  const aim=(f,sp,off=0)=>{const ang=Math.atan2(P.y-f.y,P.x-f.x)+off;ebul.push({x:f.x,y:f.y,vx:Math.cos(ang)*sp,vy:Math.sin(ang)*sp,r:5});};
+  const ring=(f,n,sp,rot=0)=>{for(let i=0;i<n;i++){const ang=rot+i*Math.PI*2/n;ebul.push({x:f.x,y:f.y,vx:Math.cos(ang)*sp,vy:Math.sin(ang)*sp,r:5});}};
+  const drop=f=>{const c=f.type==='wisp'?.04:f.type==='sheet'?.15:f.type==='man'?.5:0;if(Math.random()<c)items.push({x:f.x,y:f.y,kind:pick(['cheese','cheese','sausage','sausage','egg'])});};
+  const kill=f=>{score+=f.pts;kills++;texts.push({x:f.x,y:f.y,txt:pick(KILL_TXT),t:0});for(let i=0;i<8;i++)fx.push({x:f.x,y:f.y,vx:(Math.random()-.5)*160,vy:(Math.random()-.5)*160,t:0});drop(f);};
+  function bomb(){if(ended||paused||P.bombs<=0)return;P.bombs--;ebul=[];flashT=.6;P.inv=Math.max(P.inv,1.5);say(TK.bomb,'angry',true);sfx('vb_purify');
+   for(const f of foes){f.hp-=15;if(f.hp<=0)kill(f);}foes=foes.filter(f=>f.hp>0);if(boss){boss.hp-=25;}}
+  function hurt(){if(P.inv>0||ended)return;P.lives--;hits++;P.inv=2;ebul=[];sfx('wrong');say(TK.hit,'surprised',true);if(P.lives<=0)finish(false);}
+  // 그리기 도우미
+  const tteokShape=(x,y,big)=>{const w=big?9:7,h=big?24:20;g.save();g.translate(x,y);g.fillStyle='#d8341f';g.beginPath();g.roundRect(-w/2,-h/2,w,h,w/2);g.fill();
+   g.fillStyle='#ff8a5c';g.fillRect(-w/2+2,-h/2+4,2,h-9);g.fillStyle='#fff4d6';g.fillRect(1,-3,1.6,1.6);g.fillRect(-1,4,1.6,1.6);g.restore();};
+  const drawFoe=f=>{g.save();
+   if(f.type==='wisp'){const gr=g.createRadialGradient(f.x,f.y,2,f.x,f.y,f.r+8);gr.addColorStop(0,'#e8fbff');gr.addColorStop(.4,'#5cc8ff');gr.addColorStop(1,'#1b3cff00');g.fillStyle=gr;g.beginPath();g.arc(f.x,f.y,f.r+8,0,7);g.fill();}
+   else if(f.type==='sheet'){g.globalAlpha=.9;g.fillStyle='#e9e4f2';g.beginPath();g.arc(f.x,f.y-4,f.r,Math.PI,0);g.lineTo(f.x+f.r,f.y+f.r);
+    for(let i=4;i>=0;i--)g.lineTo(f.x-f.r+i*f.r/2,f.y+f.r+(i%2?-5:0)+Math.sin(t*8+i)*2);g.closePath();g.fill();g.fillStyle='#1a1026';g.beginPath();g.arc(f.x-6,f.y-5,3,0,7);g.arc(f.x+6,f.y-5,3,0,7);g.fill();}
+   else{const w=f.type==='boss'?150:46,h=w*1.5;g.shadowColor=f.type==='boss'?'#ff3b6b':'#7cf';g.shadowBlur=18;if(IM.man.complete&&IM.man.naturalWidth)g.drawImage(IM.man,f.x-w/2,f.y-h*.45,w,h);else{g.fillStyle='#160f1f';g.fillRect(f.x-w/3,f.y-h*.4,w*.66,h*.8);}
+    g.shadowBlur=8;g.shadowColor='#f33';g.fillStyle='#ff4d4d';const ey=f.y-h*.33,ex=w*.06;g.beginPath();g.arc(f.x-ex,ey,f.type==='boss'?4:2,0,7);g.arc(f.x+ex,ey,f.type==='boss'?4:2,0,7);g.fill();}
+   g.restore();};
+  const ITEM={cheese:['#ffd84a','치즈'],sausage:['#c9573a','소시지'],egg:['#fff7e6','달걀']};
+  // 한 프레임
+  let last=performance.now();
+  const step=ts=>{raf=requestAnimationFrame(step);const dt=Math.min(.05,(ts-last)/1000);last=ts;
+   if(!paused){if(!ended)update(dt);else{t+=dt;for(const p of fx){p.t+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;}fx=fx.filter(p=>p.t<.6);for(const x of texts){x.t+=dt;x.y-=30*dt;}texts=texts.filter(x=>x.t<.9);}}draw();};
+  function update(dt){t+=dt;sayT-=dt;P.inv-=dt;P.cheese-=dt;P.sausage-=dt;flashT-=dt;
+   // 움직임
+   const slow=keys.Shift?.45:1,sp=330*slow;let mx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),my=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
+   if(mx||my){const l=Math.hypot(mx,my);P.x+=mx/l*sp*dt;P.y+=my/l*sp*dt;}else if(mouse){const dx=mouse.x-P.x,dy=mouse.y-P.y,l=Math.hypot(dx,dy);if(l>1){const m=Math.min(l,sp*1.4*dt);P.x+=dx/l*m;P.y+=dy/l*m;}}
+   P.x=Math.max(14,Math.min(W-14,P.x));P.y=Math.max(30,Math.min(H-20,P.y));
+   // 발사
+   P.fire-=dt;if(P.fire<=0){P.fire=.11;const big=P.cheese>0,mk=(vx)=>shots.push({x:P.x,y:P.y-26,vx,vy:-620,pierce:big,hit:big?new Set():null});mk(0);if(P.sausage>0){mk(-150);mk(150);}}
+   // 출현
+   if(!boss&&!bossDone){spawn-=dt;if(t>=80){if(!foes.length){boss={type:'boss',x:W/2,y:-120,hp:240,max:240,r:46,cd:1,pat:0,patT:0,pts:10000};say(TK.boss,'serious',true);sfx('vb_start');}}
+    else if(spawn<=0){spawn=Math.max(.32,1.15-t*.011);const r=Math.random();addFoe(t<18?'wisp':t<40?(r<.65?'wisp':'sheet'):(r<.45?'wisp':r<.82?'sheet':'man'));if(t>30&&Math.random()<.3)addFoe('wisp');}}
+   // 적 움직임·공격
+   for(const f of foes){f.ph=(f.ph||0)+dt;
+    if(f.type==='wisp'){f.y+=95*dt;f.x+=Math.sin(f.ph*3)*70*dt;}
+    else if(f.type==='sheet'){f.y+=55*dt;f.x+=Math.sin(f.ph*1.6)*55*dt;f.cd-=dt;if(f.cd<=0&&f.y>0&&f.y<H*.6){f.cd=2;aim(f,150);}}
+    else{f.life+=dt;if(f.life<7)f.y+=(f.stopY-f.y)*Math.min(1,dt*2);else f.y+=200*dt;f.cd-=dt;if(f.cd<=0&&f.life<7&&f.life>.8){f.cd=1.4;aim(f,170,-.25);aim(f,170,0);aim(f,170,.25);}}}
+   foes=foes.filter(f=>f.y<H+60&&f.x>-60&&f.x<W+60);
+   if(boss){const b=boss;if(b.y<130)b.y+=70*dt;else{b.x=W/2+Math.sin(t*.7)*130;b.patT+=dt;if(b.patT>4.5){b.patT=0;b.pat=(b.pat+1)%3;}b.cd-=dt;
+     if(b.cd<=0){if(b.pat===0){b.cd=.45;ring(b,16,130,t);}else if(b.pat===1){b.cd=.6;for(const o of[-.4,-.2,0,.2,.4])aim(b,190,o);}else{b.cd=.12;ebul.push({x:30+Math.random()*(W-60),y:-10,vx:(Math.random()-.5)*30,vy:150+Math.random()*80,r:7,paper:true,rot:Math.random()*6});}}}
+    if(b.hp<b.max*.3&&!b.low){b.low=true;say(TK.bossLow,'angry',true);}
+    if(b.hp<=0){kill(b);for(let i=0;i<40;i++)fx.push({x:b.x+(Math.random()-.5)*80,y:b.y+(Math.random()-.5)*80,vx:(Math.random()-.5)*300,vy:(Math.random()-.5)*300,t:0});boss=null;bossDone=true;ebul=[];sfx('vb_ko');say(TK.win,'smile',true);ended=true;setTimeout(()=>finish(true),1600);}}
+   // 떡 맞히기
+   for(const s of shots){s.x+=s.vx*dt;s.y+=s.vy*dt;const targets=boss?[...foes,boss]:foes;
+    for(const f of targets){if(s.dead||f.hp<=0)continue;if(s.hit&&s.hit.has(f))continue;if(dist2(s,f)<(f.r+6)**2){f.hp--;score+=10;if(s.pierce)s.hit.add(f);else s.dead=true;if(f.hp<=0&&f!==boss)kill(f);}}}
+   foes=foes.filter(f=>f.hp>0);shots=shots.filter(s=>!s.dead&&s.y>-30&&s.x>-20&&s.x<W+20);
+   // 적 탄
+   for(const e of ebul){e.x+=e.vx*dt;e.y+=e.vy*dt;if(e.paper)e.rot+=dt*4;if(P.inv<=0&&dist2(e,P)<(e.r+3)**2){hurt();break;}}
+   ebul=ebul.filter(e=>e.y<H+20&&e.y>-30&&e.x>-20&&e.x<W+20);
+   for(const f of foes)if(P.inv<=0&&dist2(f,P)<(f.r+4)**2){hurt();break;}
+   if(boss&&P.inv<=0&&dist2(boss,P)<(boss.r+4)**2)hurt();
+   // 토핑
+   for(const it of items){it.y+=80*dt;if(dist2(it,P)<24**2){it.got=true;sfx('correct');
+    if(it.kind==='cheese'){P.cheese=8;say(TK.cheese,'smile',true);}else if(it.kind==='sausage'){P.sausage=8;say(TK.sausage,'smile',true);}else{P.bombs=Math.min(5,P.bombs+1);say(TK.egg,'smile',true);}score+=200;}}
+   items=items.filter(i=>!i.got&&i.y<H+20);
+   for(const p of fx){p.t+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;}fx=fx.filter(p=>p.t<.6);
+   for(const x of texts){x.t+=dt;x.y-=30*dt;}texts=texts.filter(x=>x.t<.9);
+   if(sayT<-3)say(pick([['오늘 학원 숙제도 있는데…'],['길드 레이드 출발했겠다…'],['떡 아깝다, 진짜.'],['이거 끝나면 치즈 추가해서 시켜 먹어야지.']]));
+   if(now()-lastHud>120){lastHud=now();paintHud();}}
+  const now=()=>performance.now();
+  const paintHud=()=>{hud.innerHTML=`<span class="mgx-sh-life">${'♥'.repeat(Math.max(0,P.lives))}<i>${'♥'.repeat(Math.max(0,3-P.lives))}</i></span> <span class="mgx-sh-egg">달걀 ${P.bombs}</span> 점수 <b>${score.toLocaleString()}</b>`;};
+  function draw(){
+   // 밤 골목: 남색 하늘 + 흐르는 가로등 빛 + 아스팔트 줄
+   const gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,'#0b0f24');gr.addColorStop(1,'#1c1230');g.fillStyle=gr;g.fillRect(0,0,W,H);
+   g.strokeStyle='#ffffff10';g.lineWidth=2;for(let i=0;i<9;i++){const y=((t*120+i*80)%720)-40;g.beginPath();g.moveTo(W/2,y);g.lineTo(W/2,y+30);g.stroke();}
+   for(let i=0;i<3;i++){const y=((t*60+i*260)%780)-60,x=i%2?40:W-40;const lg=g.createRadialGradient(x,y,4,x,y,90);lg.addColorStop(0,'#ffd99a55');lg.addColorStop(1,'#ffd99a00');g.fillStyle=lg;g.beginPath();g.arc(x,y,90,0,7);g.fill();}
+   // 토핑
+   for(const it of items){const [c,n]=ITEM[it.kind];g.save();g.fillStyle=c;g.strokeStyle='#0008';g.lineWidth=2;g.beginPath();
+    if(it.kind==='egg')g.ellipse(it.x,it.y,9,12,0,0,7);else if(it.kind==='cheese'){g.moveTo(it.x-11,it.y+8);g.lineTo(it.x+11,it.y+8);g.lineTo(it.x+11,it.y-6);g.closePath();}else g.roundRect(it.x-13,it.y-5,26,10,5);
+    g.fill();g.stroke();g.fillStyle='#fff';g.font='bold 11px sans-serif';g.textAlign='center';g.fillText(n,it.x,it.y+24);g.restore();}
+   for(const f of foes)drawFoe(f);
+   if(boss){drawFoe(boss);g.fillStyle='#0009';g.fillRect(20,14,W-40,10);g.fillStyle='#ff4d6d';g.fillRect(20,14,(W-40)*Math.max(0,boss.hp)/boss.max,10);g.fillStyle='#fff';g.font='bold 12px sans-serif';g.textAlign='left';g.fillText('야근 악귀',22,40);}
+   // 떡
+   for(const s of shots){tteokShape(s.x,s.y,s.pierce);if(s.pierce){g.fillStyle='#ffe066';g.fillRect(s.x-2,s.y-12,4,6);}}
+   // 적 탄(먹물 구슬·결재 서류)
+   for(const e of ebul){g.save();if(e.paper){g.translate(e.x,e.y);g.rotate(e.rot);g.fillStyle='#f3efe4';g.fillRect(-7,-9,14,18);g.fillStyle='#c33';g.fillRect(-4,-5,8,2);}
+    else{g.shadowColor='#b05cff';g.shadowBlur=10;g.fillStyle='#2a0d3a';g.beginPath();g.arc(e.x,e.y,e.r,0,7);g.fill();g.strokeStyle='#d6a8ff';g.lineWidth=1.5;g.stroke();}g.restore();}
+   // 혜진
+   if(!(P.inv>0&&Math.floor(P.inv*12)%2)){const im=P.inv>1?IM.hurt:IM.me;const h=96,w=h*0.684;if(im.complete&&im.naturalWidth)g.drawImage(im,P.x-w/2,P.y-h*.62,w,h);else{g.fillStyle='#fff';g.fillRect(P.x-8,P.y-20,16,40);}}
+   if(keys.Shift){g.fillStyle='#fff';g.strokeStyle='#f33';g.lineWidth=2;g.beginPath();g.arc(P.x,P.y,4,0,7);g.fill();g.stroke();}
+   for(const p of fx){g.fillStyle=`rgba(255,${120+Math.random()*80|0},80,${1-p.t/.6})`;g.fillRect(p.x,p.y,3,3);}
+   g.textAlign='center';g.font='bold 15px sans-serif';for(const x of texts){g.fillStyle=`rgba(255,230,160,${1-x.t/.9})`;g.fillText(x.txt,x.x,x.y);}
+   if(flashT>0){g.fillStyle=`rgba(255,250,235,${flashT})`;g.fillRect(0,0,W,H);g.fillStyle=`rgba(200,40,30,${flashT*1.5})`;g.font='bold 40px serif';g.fillText('성불하세요!',W/2,H/2);}
+   if(paused){g.fillStyle='#000a';g.fillRect(0,0,W,H);g.fillStyle='#fff';g.font='bold 28px sans-serif';g.fillText('잠깐 멈춤 · P',W/2,H/2);}
+  }
+  let done=false;function finish(won){if(done)return;done=true;ended=true;const sc=score+(won?P.lives*2000+P.bombs*500:0);
+   const r=won&&sc>=40000?'S':sc>=25000?'A':sc>=15000?'B':sc>=7000?'C':'D';
+   if(!won){say(TK.lose,'pout',true);}
+   setTimeout(()=>{stopTimer();keyFn=null;const b=records.mgBest||(records.mgBest={});const nb=sc>(b.tteok||0);if(nb){b.tteok=sc;save();}
+    result({title:'떡볶이 퇴마',score:sc.toLocaleString(),max:0,best:Math.max(best,sc).toLocaleString(),nb,r,unit:'점',again:tteok,noteTitle:'오늘 밤 근무 기록',
+     who:{name:'혜진',img:`st_hyejin_${r==='S'||r==='A'?'smile':r==='B'?'neutral':'pout'}.webp`,line:TK_RES[r]},
+     notes:[`쓰러뜨린 잡귀 ${kills}`,won?`야근 악귀 퇴근시킴 (남은 하트 ${P.lives} × 2,000 · 달걀 ${P.bombs} × 500)`:'야근 악귀는 아직 사무실에 있어요',`맞은 횟수 ${hits}`]});},won?200:1400);}
+  say(TK.start,'surprised',true);sysEl.innerHTML=`<b>ORPHEIA</b> ${esc(TK.sys)}`;paintHud();sfx('vb_start');
+  raf=requestAnimationFrame(step);
  }
  // ── 아내 대결.
  const STEP=2,ROUNDS=10,BATTLE_KINDS=['order','who','pairs','relic'];
@@ -207,9 +357,10 @@ window.MiniGame=(()=>{
    ${tile('pairs','🧩','짝 맞추기','단서 넷 ↔ 이름 넷',[KINDS.pairs[3],KINDS.pairs[4]],`BEST ${bb('pairs')}/10`)}
    ${tile('relic','🏺','이 유물은?','문화재 사진을 보고 시대 맞히기',[KINDS.relic[3],KINDS.relic[4]],`BEST ${bb('relic')}/10`)}
    ${tile('speed','⏱️','먼저일까?',`${SPEED_SEC}초 동안 두 사건의 앞뒤를 O/X로`,['cg_mg_ox.webp','bg_timeline_dive.webp'],`BEST ${bb('speed')}`)}
+   ${tteokOpen()?tile('tteok','🌶️','떡볶이 퇴마','혜진의 부적이 전부 떡볶이로 나가요',['cg_sp_ex_tteok.webp','cg_sp_ex_battle.webp'],`BEST ${(b.tteok||0).toLocaleString()}`):tile('','🔒','？？？','어느 골목의 무당과 만나면 열려요',['bg_studio_night.webp'],'',true)}
    ${wifeOpen()?tile('wife','💍','아내 대결','맞힐 때마다 상대의 옷이 한 단계씩',['cg_end_harem.webp'],`완승 ${Object.values(w).filter(x=>x>=3).length}/${heroes().length}`):tile('','🔒','？？？','엔딩을 하나 보면 열려요',['bg_studio_night.webp'],'',true)}
   </div></div>`;
-  a.querySelectorAll('[data-k]').forEach(x=>x.onclick=()=>x.dataset.k==='wife'?wives():x.dataset.k==='speed'?speed():solo(x.dataset.k));
+  a.querySelectorAll('[data-k]').forEach(x=>x.onclick=()=>x.dataset.k==='wife'?wives():x.dataset.k==='speed'?speed():x.dataset.k==='tteok'?tteok():solo(x.dataset.k));
   a.querySelectorAll('[data-era]').forEach(x=>x.onclick=()=>{records.mgEra=x.dataset.era;save();sfx('select');lobby();});
  }
  return {open(cb){onClose=cb;lobby();}};

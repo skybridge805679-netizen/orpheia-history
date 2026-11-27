@@ -819,3 +819,17 @@ dialog#vnLog.mgx-dlg h3{color:#f4ecdb}
 .pf-life{margin:0;padding-left:1.3em;line-height:1.75}.pf-life li{margin-bottom:4px}
 .pf-death{margin:6px 0;padding:12px 14px;background:#1d1a16;color:#e9e1d0;border-left:4px solid #555;line-height:1.8;font-family:var(--f-body)}
 .pf-death p{margin:0 0 8px}.pf-death p:last-child{margin:0}
+/* 떡볶이 퇴마(혜진 슈팅) */
+.mgx-main.mgx-main-shmup{overflow:hidden;padding:14px 18px}
+.mgx-shmup{display:grid;grid-template-columns:1fr auto 1fr;gap:18px;height:100%;align-items:center}
+.mgx-sh-stage{position:relative;height:100%;aspect-ratio:3/4;max-height:100%;border-radius:12px;overflow:hidden;border:1px solid #e6b85c66;box-shadow:0 14px 40px #000a}
+.mgx-sh-stage canvas{width:100%;height:100%;display:block;cursor:crosshair}
+.mgx-sh-who{align-self:end;display:flex;flex-direction:column;align-items:center;gap:8px}
+.mgx-sh-who img{max-height:46vh;max-width:100%;filter:drop-shadow(0 10px 18px #000a)}
+.mgx-sh-say{margin:0;padding:10px 14px;border-radius:12px;background:#fff8ec;color:#2a1d14;font-size:14px;min-height:3.2em;width:100%;box-sizing:border-box}
+.mgx-sh-say .mgx-sh-nm{display:block;font-weight:700;color:#b8321f;font-size:12px}
+.mgx-sh-sys{margin:0;font-size:12px;color:#9fe3dc;line-height:1.5}.mgx-sh-sys b{color:var(--g)}
+.mgx-sh-help{align-self:center;font-size:13px;color:#d9cfbb}.mgx-sh-help h4{margin:14px 0 6px;color:var(--g2);font-size:14px}.mgx-sh-help p{margin:3px 0}
+.mgx-sh-help kbd{font-size:11px;padding:1px 5px;border:1px solid #fff4;border-radius:4px;margin-right:3px}
+.mgx-sh-help .t-cheese{color:#ffd84a}.mgx-sh-help .t-sausage{color:#ff8a66}.mgx-sh-help .t-egg{color:#fff7e6}
+.mgx-sh-life{color:#ff5a6e;letter-spacing:2px}.mgx-sh-life i{color:#ffffff30;font-style:normal}.mgx-sh-egg{color:#fff7e6;margin:0 8px}
