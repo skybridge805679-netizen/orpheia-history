@@ -228,7 +228,7 @@ window.MiniGame=(()=>{
   // 그리기 도우미
   const tteokShape=(x,y,big)=>{const w=big?9:7,h=big?24:20;g.save();g.translate(x,y);g.fillStyle='#d8341f';g.beginPath();g.roundRect(-w/2,-h/2,w,h,w/2);g.fill();
    g.fillStyle='#ff8a5c';g.fillRect(-w/2+2,-h/2+4,2,h-9);g.fillStyle='#fff4d6';g.fillRect(1,-3,1.6,1.6);g.fillRect(-1,4,1.6,1.6);g.restore();};
-  const SPF={wisp:['wisp',36],sheet:['sheet',48],man:['man',74],boss:['boss',230]};
+  const SPF={wisp:['wisp',36],sheet:['sheet',48],man:['man',74],boss:['boss',200]};
   const drawFoe=f=>{const sp=SP[SPF[f.type][0]];if(ok(sp)){g.save();if(f.type==='boss'){g.shadowColor='#ff3b6b';g.shadowBlur=18;}blit(sp,f.x,f.y,SPF[f.type][1]);g.restore();return;}g.save();
    if(f.type==='wisp'){const gr=g.createRadialGradient(f.x,f.y,2,f.x,f.y,f.r+8);gr.addColorStop(0,'#e8fbff');gr.addColorStop(.4,'#5cc8ff');gr.addColorStop(1,'#1b3cff00');g.fillStyle=gr;g.beginPath();g.arc(f.x,f.y,f.r+8,0,7);g.fill();}
    else if(f.type==='sheet'){g.globalAlpha=.9;g.fillStyle='#e9e4f2';g.beginPath();g.arc(f.x,f.y-4,f.r,Math.PI,0);g.lineTo(f.x+f.r,f.y+f.r);
