@@ -4839,7 +4839,7 @@
    "seed": 1818011,
    "cast": "hyejin",
    "style": "pixel art, limited palette, sprite, chibi, {best quality, very aesthetic}",
-   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, facing away, full body, holding folding fan, arm up"
+   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, flying, full body, floating hair, wind, holding folding fan, arm up"
   },
   {
    "id": "tk_hyejin_hurt",
@@ -4848,7 +4848,7 @@
    "seed": 1818011,
    "cast": "hyejin",
    "style": "pixel art, limited palette, sprite, chibi, {best quality, very aesthetic}",
-   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, facing away, full body, holding folding fan, arm up, surprised, sweat"
+   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, flying, full body, floating hair, wind, holding folding fan, arm up, surprised, sweat"
   },
   {
    "id": "tk_tteok",
@@ -4927,7 +4927,7 @@
    "size": "stand",
    "seed": 2711010,
    "style": "pixel art, limited palette, {best quality, very aesthetic}",
-   "prompt": "no humans, scenery, from above, road, crosswalk, night, lamppost, power lines, dark"
+   "prompt": "no humans, scenery, from above, cityscape, night, rooftop, city lights, power lines"
   },
   {
    "id": "cg_mg_tteok",
