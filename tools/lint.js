@@ -46,6 +46,7 @@ fs.readdirSync(rel('data/core-notes')).forEach(f => load('data/core-notes/' + f)
 const QKEYS = new Set((W_.QS || []).map(q => `${q.r}-${q.n}`));
 const NOTES = new Set((W_.CORE_NOTES || []).map(n => n.id));
 const ASSETS = new Set(fs.readdirSync(rel('assets')).filter(f => f.endsWith('.webp')).map(f => f.slice(0, -5)));
+const NAI_PENDING = new Set(); try { const nai = JSON.parse(fs.readFileSync(rel('tools/nai-assets.json'), 'utf8')); for (const it of nai.items || []) if (it.id) NAI_PENDING.add(it.id); } catch (_) {}
 const BGMS = new Set(fs.readdirSync(rel('assets/bgm')).filter(f => f.endsWith('.mp3')).map(f => f.slice(0, -4)));
 const FIGNAMES = new Set(); for (const v of Object.values(W_.QUESTION_FIGURES || {})) for (const c of v.choices || []) if (c.nameStatus === 'identified') FIGNAMES.add(c.name);
 const photoOk = n => { const H = W_.HERITAGE || {}; if (H[n] || FIGNAMES.has(n)) return true; for (const k of [...FIGNAMES, ...Object.keys(H)]) if (k.includes(n) || n.includes(k)) return true; return false; };
@@ -108,7 +109,7 @@ for (const c of chapters) {
         const [c0, e0] = o.expr.includes('+') ? o.expr.split('+') : [null, o.expr];
         if (c0 && !COSTUME[o.who]?.has(c0)) E(o.at, `${o.who}에게 없는 옷 ${c0}`);
         if (!c0 && !COSTUME[o.who]?.has(e0) && !standFile(o.who, e0) && e0 !== 'neutral') W(o.at, `${o.who}에게 없는 표정 ${e0}(기본 그림으로 나옴)`);
-        if (c0 === 'home' && e0 === 'pregnant' && !ASSETS.has(`st_${o.who}_home_pregnant`)) E(o.at, `없는 그림 st_${o.who}_home_pregnant`);
+        if (c0 === 'home' && e0 === 'pregnant' && !ASSETS.has(`st_${o.who}_home_pregnant`)) { if (NAI_PENDING.has(`st_${o.who}_home_pregnant`)) W(o.at, `생성 대기 그림 st_${o.who}_home_pregnant`); else E(o.at, `없는 그림 st_${o.who}_home_pregnant`); }
         break; }
       case 'say': {
         if (!CAST[o.who] && !NAMES.has(o.name) && !MOB_BY_NAME[o.name] && !SPECIAL_SPEAKERS.has(o.name)) W(o.at, `모브 원형이 없는 이름표 [${o.name}](실루엣 없이 말함)`);
@@ -126,7 +127,7 @@ for (const c of chapters) {
 // 장 사이 이동(@jump 가 다른 장 라벨이면 위에서 오류가 나므로, 그건 vn.js finishChapter(next)로만 한다)
 
 // ── 6. CAST 스탠딩 파일, stands.js 최신
-for (const [id, c] of Object.entries(CAST)) for (const [e, f] of Object.entries(c.stand || {})) if (f && !ASSETS.has(f.replace(/\.webp$/, ''))) E('vn.js CAST', `${id}.${e} → 없는 그림 ${f}`);
+for (const [id, c] of Object.entries(CAST)) for (const [e, f] of Object.entries(c.stand || {})) if (f) { const stem = f.replace(/\.webp$/, ''); if (!ASSETS.has(stem)) { if (NAI_PENDING.has(stem)) W('vn.js CAST', `${id}.${e} → 생성 대기 그림 ${f}`); else E('vn.js CAST', `${id}.${e} → 없는 그림 ${f}`); } }
 try { const before = fs.readFileSync(rel('data/stands.js'), 'utf8'); const out = cp.execFileSync('python3', ['-c', `
 import re,json,sys
 from pathlib import Path
