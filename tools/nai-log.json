@@ -453,5 +453,13 @@
    "default": "black hoodie, hood up, hood pulled low, eyes hidden in hood shadow"
   }
  },
- "ungnyeo": "1girl, dark brown hair, long hair, hair bun, brown eyes"
+ "ungnyeo": {
+  "seed": 2711101,
+  "bwh": "92 · 59 · 94",
+  "breast_tier": "large breasts",
+  "looks": "1girl, mature female, large breasts, brown hair, long hair, hair bun, side bun, brown eyes",
+  "outfits": {
+   "default": "wooden hairpin, hair flower, korean clothes, hanbok, white jeogori with red floral collar and cuffs, red goreum ribbon, long deep brown chima skirt, norigae tassel at waist, embroidered shoes, holding woven basket"
+  }
+ }
 }
