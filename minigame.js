@@ -186,7 +186,13 @@ window.MiniGame=(()=>{
   a.classList.add('mgx-main-shmup');
   a.innerHTML=`<div class="mgx-shmup"><aside class="mgx-sh-who"><img src="${asset('st_hyejin_smile.webp')}" alt=""><p class="mgx-sh-say"><b class="mgx-sh-nm">혜진</b><span data-say></span></p><p class="mgx-sh-sys" data-sys></p></aside>
    <div class="mgx-sh-stage"><canvas width="480" height="640"></canvas><div class="mgx-sh-over" data-over hidden></div></div>
-   <aside class="mgx-sh-help"><h4>조작</h4><p><kbd>마우스</kbd> 또는 <kbd>←↑→↓</kbd><kbd>WASD</kbd> 움직이기</p><p>떡볶이는 저절로 나가요</p><p>적탄을 아슬아슬하게 스치면 점수</p><p><kbd>Shift</kbd> 천천히 · 판정 점 보기</p><p><kbd>X</kbd> · 우클릭 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤</p><h4>토핑</h4><p><b class="t-cheese">치즈</b> 꿰뚫는 떡</p><p><b class="t-sausage">소시지</b> 세 갈래 발사</p><p><b class="t-egg">삶은 달걀</b> 화면 정리 하나 더</p></aside></div>`;
+   <aside class="mgx-sh-panel">
+    <div class="sp-score"><small>HI-SCORE</small><b data-hi></b><small>SCORE</small><b class="now" data-sc>0</b></div>
+    <dl class="sp-stat"><dt>목숨</dt><dd data-life></dd><dt>달걀</dt><dd data-egg></dd><dt>스침</dt><dd data-graze>0</dd></dl>
+    <div class="sp-block"><h5>토핑</h5><div data-top></div></div>
+    <div class="sp-block"><h5 data-stl>야근 악귀까지</h5><div class="sp-bar"><u data-stage></u></div></div>
+    <div class="sp-keys"><p><kbd>마우스</kbd><kbd>←↑→↓</kbd> 이동 · 떡볶이 자동 발사</p><p><kbd>Shift</kbd> 천천히, 판정 점</p><p><kbd>X</kbd><kbd>우클릭</kbd> 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤 · 탄을 스치면 점수</p></div>
+   </aside></div>`;
   const cv=a.querySelector('canvas'),g=cv.getContext('2d'),W=480,H=640;
   const sayEl=a.querySelector('[data-say]'),sysEl=a.querySelector('[data-sys]'),who=a.querySelector('.mgx-sh-who img'),over=a.querySelector('[data-over]');
   const img=n=>{const i=new Image();i.src=asset(n);return i;};
@@ -293,7 +299,15 @@ window.MiniGame=(()=>{
    if(sayT<-3)say(pick([['오늘 학원 숙제도 있는데…'],['길드 레이드 출발했겠다…'],['떡 아깝다, 진짜.'],['이거 끝나면 치즈 추가해서 시켜 먹어야지.']]));
    if(now()-lastHud>120){lastHud=now();paintHud();}}
   const now=()=>performance.now();
-  const paintHud=()=>{hud.innerHTML=`<span class="mgx-sh-life">${'♥'.repeat(Math.max(0,P.lives))}<i>${'♥'.repeat(Math.max(0,3-P.lives))}</i></span> <span class="mgx-sh-egg">달걀 ${P.bombs}</span> <span class="mgx-sh-egg">스침 ${graze}</span> 점수 <b>${score.toLocaleString()}</b>`;};
+  const pane=k=>a.querySelector(`[data-${k}]`);const hiEl=pane('hi');hiEl.textContent=best.toLocaleString();
+  const TOP=[['cheese','치즈','#ffd84a','꿰뚫는 떡'],['sausage','소시지','#ff8a66','세 갈래']];
+  const paintHud=()=>{hud.innerHTML='';pane('sc').textContent=score.toLocaleString();if(score>best)hiEl.textContent=score.toLocaleString();
+   pane('life').innerHTML='<b>'+'♥'.repeat(Math.max(0,P.lives))+'</b><i>'+'♥'.repeat(Math.max(0,3-P.lives))+'</i>';
+   pane('egg').innerHTML=Array.from({length:5},(_,k)=>`<img class="${k<P.bombs?'':'off'}" src="${asset('tk_item_egg.webp')}" alt="">`).join('');
+   pane('graze').textContent=graze;
+   const on=TOP.filter(([k])=>P[k]>0);pane('top').innerHTML=on.length?on.map(([k,n,c,d])=>`<p><b style="color:${c}">${n}</b> ${d}<span class="sp-bar small"><u style="width:${Math.max(0,P[k]/8*100)}%;background:${c}"></u></span></p>`).join(''):'<p class="dim">없음</p>';
+   pane('stl').textContent=boss?`야근 악귀${spellName?` · 「${spellName}」`:''}`:bossDone?'퇴근 완료':'야근 악귀까지';
+   pane('stage').style.width=(boss?Math.max(0,boss.hp/boss.max*100):bossDone?0:Math.min(100,t/80*100))+'%';pane('stage').classList.toggle('boss',!!boss);};
   function draw(){
    // 밤 골목: 남색 하늘 + 흐르는 가로등 빛 + 아스팔트 줄
    if(ok(SP.bg_alley)){const bh=W*SP.bg_alley.naturalHeight/SP.bg_alley.naturalWidth,off=(t*45)%(bh*2);
