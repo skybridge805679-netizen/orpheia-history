@@ -7,12 +7,14 @@ const SFX=(()=>{
  const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(set));}catch{}};
  let ctx=null,master=null,noiseBuf=null;
  function init(){
-  if(ctx)return ctx.state==='suspended'?ctx.resume():null;
+  // Safari는 다른 소리(배경음 audio 태그)가 나거나 탭을 오가면 'interrupted'로 멈추고 저절로 돌아오지 않는다. running이 아니면 무조건 깨운다.
+  if(ctx)return ctx.state!=='running'?ctx.resume().catch(()=>{}):null;
   const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;
   ctx=new AC();master=ctx.createGain();master.gain.value=set.muted?0:set.volume;master.connect(ctx.destination);
   noiseBuf=ctx.createBuffer(1,ctx.sampleRate,ctx.sampleRate);const d=noiseBuf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
  }
- for(const ev of ['pointerdown','keydown'])document.addEventListener(ev,init,{capture:true});
+ for(const ev of ['pointerdown','pointerup','click','touchend','keydown'])document.addEventListener(ev,init,{capture:true});
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden&&ctx&&ctx.state!=='running')ctx.resume().catch(()=>{});});
  // Building blocks: a shaped tone and a filtered noise burst.
  function tone(f,t0,dur,{type='sine',vol=.3,to=null,attack=.005,release=null}={}){
   const o=ctx.createOscillator(),g=ctx.createGain(),t=ctx.currentTime+t0;
@@ -79,7 +81,9 @@ const SFX=(()=>{
   tone(f*(.94+Math.random()*.12),0,.045,{type,vol,attack:.002});
  }
  function setBlip(on){set.blip=on;persist();}
- function play(name){if(set.muted||!ctx||ctx.state!=='running'||!SOUNDS[name])return;try{SOUNDS[name]();}catch{}}
+ function play(name){if(set.muted||!ctx||!SOUNDS[name])return;
+  if(ctx.state!=='running'){ctx.resume().then(()=>{if(ctx.state==='running')try{SOUNDS[name]();}catch{}}).catch(()=>{});return;}
+  try{SOUNDS[name]();}catch{}}
  function setVolume(v){set.volume=v;persist();if(master)master.gain.value=set.muted?0:v;}
  function setMuted(m){set.muted=m;persist();if(master)master.gain.value=m?0:set.volume;}
  return {blip,setBlip,play,setVolume,setMuted,settings:()=>({...set}),names:Object.keys(SOUNDS)};
