@@ -20,13 +20,32 @@ missing_only = "--missing" in sys.argv  # Actions: assets/<id>.webp 가 없는 �
 LOOKS = json.loads((ROOT / "tools/nai-log.json").read_text(encoding="utf-8"))  # 인물 외형(읽기 전용)
 
 
-def looks(cast):
-    """인물 id(하나 또는 목록)의 외형 태그. 없는 id면 멈춘다(오타로 외형 없이 뽑히지 않게)."""
+def looks(cast, outfit=None):
+    """인물 id(하나 또는 목록)의 외형(+선택한 의상) 태그.
+    - tools/nai-log.json 항목이 객체이면 looks + outfits[outfit]을 조합한다.
+    - outfit에 'default', 'home', 'school', 'idol', 'hanbok' 등을 넘기면 해당 의상 프롬프트까지 자동으로 붙인다.
+    - 없는 id면 멈춘다(오타로 외형 없이 뽑히지 않게)."""
     ids = [cast] if isinstance(cast, str) else list(cast or [])
+    out = []
     for c in ids:
         if c not in LOOKS:
             sys.exit(f"nai-log.json에 외형이 없는 인물: {c}")
-    return ", ".join(sanitize_prompt(LOOKS[c], c) for c in ids)
+        entry = LOOKS[c]
+        if isinstance(entry, dict):
+            base = entry.get("looks", "")
+            cloth = (entry.get("outfits") or {}).get(outfit, "") if outfit else ""
+            out.append(sanitize_prompt(", ".join(p for p in (base, cloth) if p), c))
+        else:
+            out.append(sanitize_prompt(entry, c))
+    return ", ".join(out)
+
+
+def default_seed(cast):
+    """인물 id가 하나이고 tools/nai-log.json에 seed가 있으면 그 고유 시드를 돌려준다."""
+    cid = cast if isinstance(cast, str) else (cast[0] if isinstance(cast, list) and len(cast) == 1 else None)
+    if cid and isinstance(LOOKS.get(cid), dict):
+        return LOOKS[cid].get("seed")
+    return None
 
 
 def join(*parts):
@@ -42,10 +61,10 @@ for it in items:
     if not pick and (png.exists() or (missing_only and (ROOT / f"assets/{it['id']}.webp").exists())):
         print("건너뜀", png.name); continue
     w, h = SIZES[it.get("size", "bg")]
-    seed = it.get("seed") or random.randint(1, 2**32 - 1)
-    prompt = sanitize_prompt(join(looks(it.get("cast")), it.get("prompt", ""), "transparent background" if it.get("transparent") else ""), it.get("cast"))
+    seed = it.get("seed") or default_seed(it.get("cast")) or random.randint(1, 2**32 - 1)
+    prompt = sanitize_prompt(join(looks(it.get("cast"), it.get("outfit")), it.get("prompt", ""), "transparent background" if it.get("transparent") else ""), it.get("cast"))
     init = it.get("init")
-    chars = [dict(c, prompt=sanitize_prompt(join(looks(c.get("cast")), c.get("prompt", "")), c.get("cast"))) for c in it["chars"]] if it.get("chars") else None
+    chars = [dict(c, prompt=sanitize_prompt(join(looks(c.get("cast"), c.get("outfit")), c.get("prompt", "")), c.get("cast"))) for c in it["chars"]] if it.get("chars") else None
     try:
         try:
             png.write_bytes(generate(prompt, w, h, seed, it.get("model", STYLE["model"]),

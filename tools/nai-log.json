@@ -1,47 +1,456 @@
 {
- "orpheia": "1girl, large breasts, white hair, very long hair, straight hair, green eyes",
- "sayeon": "1girl, large breasts, black hair, very long hair, orange eyes",
- "muk": "1girl, petite, flat chest, black hair, long hair, grey eyes, pale skin",
- "yunseul": "1girl, medium breasts, brown hair, wavy hair, medium hair, aqua eyes",
- "nuri": "1girl, child, flat chest, black hair, short hair, messy hair, brown eyes, tan",
- "noeul": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin",
- "naru": "1girl, large breasts, purple hair, long hair, single braid, hair over shoulder, yellow eyes, pale skin",
- "ullim": "1girl, petite, skinny, small breasts, green hair, gradient hair, colored tips, very long hair, floating hair, yellow eyes, pale skin",
- "dallae": "1girl, medium breasts, black hair, hair bun, brown eyes",
- "haerang": "1girl, medium breasts, brown hair, short hair, side ponytail, green eyes",
- "ara": "1girl, tall female, toned, medium breasts, black hair, long hair, high ponytail, yellow eyes, tan",
- "gaon": "1girl, petite, small breasts, black hair, hair bun, brown eyes",
- "irang": "1girl, medium breasts, black hair, topknot, black eyes",
- "eunsil": "1girl, petite, skinny, flat chest, black hair, very long hair, straight hair, brown eyes, tareme, pale skin",
- "haneui": "1girl, medium breasts, black hair, long hair, hair bun, orange eyes",
- "sara": "1girl, tall female, curvy, large breasts, red hair, long hair, wavy hair, orange eyes, tan",
- "maru": "1girl, medium breasts, black hair, long hair, braided bun, brown eyes",
- "seori": "1girl, petite, small breasts, brown hair, medium hair, side braid, orange eyes, blush",
- "yeoul": "1girl, medium breasts, brown hair, wavy hair, low twintails, blue eyes, freckles",
- "soebyeol": "1girl, tall female, toned, large breasts, black hair, short hair, messy hair, black eyes, tan",
- "danbi": "1girl, petite, skinny, flat chest, black hair, long hair, messy hair, black eyes, mole under eye",
- "sodam": "1girl, petite, skinny, flat chest, black hair, single braid, long hair, brown eyes",
- "dodam": "1girl, medium breasts, brown hair, single braid, hair over shoulder, yellow eyes",
- "garam": "1girl, medium breasts, brown hair, long hair, single braid, grey eyes, tan",
- "maehyang": "1girl, tall female, curvy, huge breasts, black hair, hair bun, black eyes, mole under mouth",
- "choryeon": "1girl, skinny, small breasts, black hair, hair bun, brown eyes, tsurime",
- "hwaseon": "1girl, medium breasts, black hair, hair bun, orange eyes",
- "seola": "1girl, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye",
- "choa": "1girl, medium breasts, black hair, hair bun, black eyes, tsurime",
- "dano": "1girl, petite, skinny, small breasts, black hair, short hair, messy hair, brown eyes, tan",
- "bada": "1girl, toned, medium breasts, black hair, short hair, wavy hair, wet hair, black eyes, tan",
- "bori": "1girl, curvy, large breasts, black hair, single braid, brown eyes, tan",
- "goyo": "1girl, ghost, petite, skinny, small breasts, black hair, absurdly long hair, straight hair, black eyes, pale skin",
- "ellie": "1girl, tall female, large breasts, blonde hair, long hair, wavy hair, half updo, blue eyes, freckles, pale skin",
- "hanbyeol": "1girl, medium breasts, black hair, long hair, straight hair, parted bangs, single braid, black eyes",
- "saebyeok": "1girl, medium breasts, black hair, short hair, bob cut, black eyes",
- "saebyeok_mom": "1girl, mature female, curvy, huge breasts, black hair, hair bun, black eyes",
- "bomnae": "1girl, petite, medium breasts, black hair, short hair, bob cut, brown eyes, blush",
- "dasom": "1girl, medium breasts, black hair, medium hair, straight hair, blunt bangs, black eyes",
- "moa": "1girl, gyaru, kogal, medium breasts, brown hair, streaked hair, long hair, tan",
- "hyejin": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes",
- "sangcheol": "1boy, faceless male, shaded face",
- "tsubaki": "1girl, petite, medium breasts, black hair, hime cut, short hair, blunt bangs, brown eyes, pale skin",
- "chunmei": "1girl, medium breasts, black hair, double bun, brown eyes, food on face",
- "myeongwol": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes"
+ "orpheia": {
+  "seed": 161008233,
+  "bwh": "93 · 56 · 88",
+  "breast_tier": "large breasts",
+  "looks": "1girl, large breasts, white hair, very long hair, straight hair, green eyes",
+  "outfits": {
+   "default": "maid headdress, green ribbon, hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots",
+   "hanbok": "green ribbon, hair ribbon, gold binyeo hairclip, korean clothes, hanbok, pale jade green jeogori with white dongjeong collar, long emerald goreum ribbon, long deep green chima skirt with gold leaf pattern, emerald norigae tassel at waist, embroidered flower shoes"
+  }
+ },
+ "sayeon": {
+  "seed": 5050505,
+  "bwh": "89 · 57 · 90",
+  "breast_tier": "large breasts",
+  "looks": "1girl, large breasts, black hair, very long hair, orange eyes",
+  "outfits": {
+   "default": "red ribbon, hair ribbon, hanbok, white jeogori, navy chima, robe woven from long paper scrolls, holding calligraphy brush, holding scroll"
+  }
+ },
+ "muk": {
+  "seed": 6060606,
+  "bwh": "76 · 53 · 79",
+  "breast_tier": "flat chest",
+  "looks": "1girl, petite, flat chest, black hair, long hair, grey eyes, pale skin",
+  "outfits": {
+   "default": "hair dissolving into ink, dripping ink, black and white hanbok-style dress, ink stains, floating ink droplets"
+  }
+ },
+ "yunseul": {
+  "seed": 7171717,
+  "bwh": "비공개 (표준)",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, brown hair, wavy hair, medium hair, aqua eyes",
+  "outfits": {
+   "default": "oversized pastel blue hoodie covered with history themed pin badges, black shorts, thighhighs, sneakers, wireless earphones, holding a thick korean history book with sticky notes"
+  }
+ },
+ "nuri": {
+  "seed": 8080808,
+  "bwh": "아동",
+  "breast_tier": "flat chest",
+  "looks": "1girl, child, flat chest, black hair, short hair, messy hair, brown eyes, tan",
+  "outfits": {
+   "default": "prehistoric fur tunic covering body, long fur clothes, barefoot, holding a teardrop-shaped chipped stone tool",
+   "neolithic": "neolithic simple hemp dress, bone necklace, holding comb-pattern clay pot",
+   "bronze": "bronze age worn hemp clothes, rope over shoulder"
+  }
+ },
+ "noeul": {
+  "seed": 7313131,
+  "bwh": "98 · 59 · 95",
+  "breast_tier": "huge breasts",
+  "looks": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin",
+  "outfits": {
+   "default": "layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairclips, jade hair stick, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes",
+   "home": "red silk slip negligee with thin straps and lace hem, bare shoulders, barefoot, fluffy tiger tail"
+  }
+ },
+ "naru": {
+  "seed": 6604417,
+  "bwh": "91 · 58 · 92",
+  "breast_tier": "large breasts",
+  "looks": "1girl, large breasts, purple hair, long hair, single braid, hair over shoulder, yellow eyes, pale skin",
+  "outfits": {
+   "default": "small brass bell on hair tie, short indigo jeogori with white wave pattern on the hem, sleeves rolled up, loose white baji trousers rolled up to the knees, barefoot, knotted rope sash, straw sedge hat hanging on her back, holding a long wooden punting pole",
+   "home": "small brass bell on hair tie, navy striped button-up pajama shirt and matching long pajama pants with wave pattern trim, sleeves rolled up, barefoot"
+  }
+ },
+ "ullim": {
+  "seed": 7250725,
+  "bwh": "79 · 54 · 81",
+  "breast_tier": "small breasts",
+  "looks": "1girl, petite, skinny, small breasts, green hair, gradient hair, colored tips, very long hair, floating hair, yellow eyes, pale skin",
+  "outfits": {
+   "default": "small gold forehead jewel, gold hair ornaments with dangling beads, long translucent pale jade celestial shawl swirling around her arms, sheer pale jade silk top with gold trim, silk chest band, long flowing white and jade layered skirt, gold armlets, gold anklets, barefoot, holding a small ancient angular harp",
+   "home": "small gold forehead jewel, pale jade satin camisole, loose wide-leg cream lounge pants, translucent celestial shawl floating around her shoulders, barefoot"
+  }
+ },
+ "dallae": {
+  "seed": 9090909,
+  "bwh": "86 · 57 · 88",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, hair bun, brown eyes",
+  "outfits": {
+   "default": "wooden hairclip, plain brown hemp robe with wide sleeves, cloth belt, rough fabric, cloth bundle on back",
+   "home": "wooden hairclip, oversized grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot"
+  }
+ },
+ "haerang": {
+  "seed": 6060606,
+  "bwh": "84 · 56 · 86",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, brown hair, short hair, side ponytail, green eyes",
+  "outfits": {
+   "default": "dark blue wrap tunic with fur trim, leather belt, trousers, fur boots, small bow on back",
+   "home": "short cropped white t-shirt, fluffy fleece sleep pants with deer print, fuzzy socks"
+  }
+ },
+ "ara": {
+  "seed": 2604040,
+  "bwh": "88 · 59 · 91",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, tall female, toned, medium breasts, black hair, long hair, high ponytail, yellow eyes, tan",
+  "outfits": {
+   "default": "two long pheasant feathers in hair ornament, goguryeo archer short wrap jacket with red polka dot pattern and dark red trim, leather belt, wide trousers tied at the ankles, leather boots, leather quiver on back, holding a recurve bow",
+   "home": "red sports bra and black dolphin shorts, bare midriff, toned abs, barefoot"
+  }
+ },
+ "gaon": {
+  "seed": 2604050,
+  "bwh": "81 · 55 · 83",
+  "breast_tier": "small breasts",
+  "looks": "1girl, petite, small breasts, black hair, hair bun, brown eyes",
+  "outfits": {
+   "default": "simple silver hairclip, long hip-length teal silk jacket with a narrow sash belt, long pleated white skirt, small brush tucked behind her ear, holding a bundle of bamboo slips",
+   "home": "pen tucked behind her ear, neat pale mint button-up pajama shirt and long pajama pants, slippers"
+  }
+ },
+ "irang": {
+  "seed": 2603301,
+  "bwh": "85 · 57 · 87",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, topknot, black eyes",
+  "outfits": {
+   "default": "red hairband, chest bound with cloth, silla hwarang white wrap jacket with red trim and a narrow belt, wide white trousers tied at the ankles, red sash, leather boots, wooden practice sword at her waist",
+   "home": "oversized white dress shirt, loose ponytail, bare legs, barefoot"
+  }
+ },
+ "eunsil": {
+  "seed": 2603302,
+  "bwh": "78 · 54 · 80",
+  "breast_tier": "flat chest",
+  "looks": "1girl, petite, skinny, flat chest, black hair, very long hair, straight hair, brown eyes, tareme, pale skin",
+  "outfits": {
+   "default": "small gold hair ornament, ancient gaya long cream wrap jacket with dark green trim and a cord belt, long pleated dark green skirt, jade comma bead necklace, holding a twelve-string gayageum zither",
+   "home": "soft cream knit cardigan over a white camisole and pajama shorts, hair loosely braided, barefoot"
+  }
+ },
+ "haneui": {
+  "seed": 2606060,
+  "bwh": "87 · 56 · 88",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, long hair, hair bun, orange eyes",
+  "outfits": {
+   "default": "gold hairclips and gold flower hair ornament, gold drop earrings, unified silla deep purple silk long jacket with wide sleeves and silk sash, long pleated pale lavender silk skirt, sheer silk shawl draped over shoulders, small jade pendant",
+   "home": "gold hairclip, white lace negligee with thin straps, sheer lavender robe off the shoulders, barefoot"
+  }
+ },
+ "sara": {
+  "seed": 2603303,
+  "bwh": "92 · 57 · 93",
+  "breast_tier": "large breasts",
+  "looks": "1girl, tall female, curvy, large breasts, red hair, long hair, wavy hair, orange eyes, tan",
+  "outfits": {
+   "default": "small gold earrings, central asian red and gold patterned silk caftan with a sash, loose white trousers, embroidered slippers, necklace of silver coins, small incense pouch",
+   "home": "small gold earrings, loose white tunic dress with gold embroidery, barefoot, silver anklet"
+  }
+ },
+ "maru": {
+  "seed": 2607070,
+  "bwh": "86 · 58 · 88",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, long hair, braided bun, brown eyes",
+  "outfits": {
+   "default": "wooden hairclip, goryeo light beige jeogori jacket with burgundy collar and cuffs, long deep green pleated skirt, small apron tied at waist, ring of iron keys hanging from sash",
+   "home": "beige knit cardigan over a white camisole, short cotton shorts, house slippers, key ring on finger"
+  }
+ },
+ "seori": {
+  "seed": 2607080,
+  "bwh": "81 · 56 · 84",
+  "breast_tier": "small breasts",
+  "looks": "1girl, petite, small breasts, brown hair, medium hair, side braid, orange eyes, blush",
+  "outfits": {
+   "default": "fur-trimmed brown hat, padded indigo winter jacket with fur collar, thick wrap trousers, leather boots, wool mittens hanging from a cord",
+   "home": "thick fleece bear-ear hooded pajama onesie with hood down, fuzzy socks"
+  }
+ },
+ "yeoul": {
+  "seed": 7070707,
+  "bwh": "84 · 56 · 86",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, brown hair, wavy hair, low twintails, blue eyes, freckles",
+  "outfits": {
+   "default": "blue cloth hair ties, goryeo merchant short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase",
+   "home": "blue cloth hair ties, blue silk robe tied loosely at the waist over a white silk camisole, bare legs"
+  }
+ },
+ "soebyeol": {
+  "seed": 2608090,
+  "bwh": "89 · 61 · 91",
+  "breast_tier": "large breasts",
+  "looks": "1girl, tall female, toned, large breasts, black hair, short hair, messy hair, black eyes, tan",
+  "outfits": {
+   "default": "cloth headband, soot smudge on cheek, sleeveless rough hemp work tunic over a short jacket tied at waist, leather apron, wide hemp trousers, straw sandals, holding a blacksmith hammer",
+   "home": "cloth headband, black tank top and grey jogger shorts, sweatband on wrist, barefoot"
+  }
+ },
+ "danbi": {
+  "seed": 2608100,
+  "bwh": "78 · 53 · 80",
+  "breast_tier": "flat chest",
+  "looks": "1girl, petite, skinny, flat chest, black hair, long hair, messy hair, black eyes, mole under eye",
+  "outfits": {
+   "default": "goryeo plain pale pink jeogori with short white collar, faded blue long skirt, cloth shoes",
+   "home": "pastel pink frilly nightgown dress with puff sleeves, barefoot"
+  }
+ },
+ "sodam": {
+  "seed": 8080808,
+  "bwh": "77 · 53 · 79",
+  "breast_tier": "flat chest",
+  "looks": "1girl, petite, skinny, flat chest, black hair, single braid, long hair, brown eyes",
+  "outfits": {
+   "default": "red daenggi ribbon, joseon palace maid green jeogori jacket, long deep blue chima skirt, white apron, holding a small tray of yakgwa sweets",
+   "home": "red daenggi ribbon, pink cotton pajama set with small cherry print, slippers"
+  }
+ },
+ "dodam": {
+  "seed": 1111201,
+  "bwh": "86 · 56 · 87",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, brown hair, single braid, hair over shoulder, yellow eyes",
+  "outfits": {
+   "default": "red daenggi ribbon, small herb sprig tucked behind ear, light pale green jeogori with sleeves rolled up to elbows, deep indigo chima, white work apron, leather pouch of acupuncture needles at waist, holding a bundle of dried herbs",
+   "home": "red ribbon, plain white short-sleeve t-shirt and cotton shorts, stethoscope around neck, slippers"
+  }
+ },
+ "garam": {
+  "seed": 2614141,
+  "bwh": "85 · 57 · 88",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, brown hair, long hair, single braid, grey eyes, tan",
+  "outfits": {
+   "default": "red cloth hair tie, padded dark green jeogori with rolled-up sleeves, grey baji trousers, short fur vest, leather gaiters, straw sandals, gunpowder flask at waist, matchlock musket slung on back",
+   "home": "red cloth hair tie, olive sports bra and black jogger pants, towel around neck, barefoot"
+  }
+ },
+ "maehyang": {
+  "seed": 2323241,
+  "bwh": "94 · 59 · 93",
+  "breast_tier": "huge breasts",
+  "looks": "1girl, tall female, curvy, huge breasts, black hair, hair bun, black eyes, mole under mouth",
+  "outfits": {
+   "default": "red plum blossom hair ornament and gold binyeo hairclip, joseon gisaeng deep plum purple jeogori with gold trim and long dark red otgoreum ribbon, long full navy chima skirt wrapped high under bust, holding a folded poem paper",
+   "home": "long black hair let down with gold hairclip, black lace bra and matching lace panties, sheer black silk robe hanging open",
+   "school": "red plum blossom hair ornament and gold binyeo hairclip, korean high school uniform, navy blazer with school emblem, white shirt, red ribbon tie, pleated navy skirt, black thighhighs, loafers, school bag",
+   "idol": "red plum blossom hair ornament and gold binyeo hairclip, k-pop idol stage costume, deep plum and gold cropped hanbok-style idol jacket with gold trim, short pleated navy idol miniskirt, thighhighs, stage heels, headset microphone, holding an open red folding fan"
+  }
+ },
+ "choryeon": {
+  "seed": 2323242,
+  "bwh": "81 · 55 · 84",
+  "breast_tier": "small breasts",
+  "looks": "1girl, skinny, small breasts, black hair, hair bun, brown eyes, tsurime",
+  "outfits": {
+   "default": "pink lotus flower hair ornament, joseon gisaeng pale pink jeogori with white cuffs and long magenta otgoreum ribbon, long full lilac chima skirt wrapped high under bust, jade plectrum on finger",
+   "home": "loose updo, pink lace bra and panties set, oversized cream knit cardigan slipping off one shoulder",
+   "school": "pink lotus flower hair ornament, korean high school uniform, navy blazer with school emblem, white shirt, red ribbon tie, pleated navy miniskirt, kneehighs, loafers, school bag",
+   "idol": "pink lotus flower hair ornament, k-pop idol stage costume, pale pink and white cropped hanbok-style idol jacket with magenta ribbon trim, short pleated lilac idol miniskirt, white lace thighhighs, stage boots, headset microphone, holding a folding fan"
+  }
+ },
+ "hwaseon": {
+  "seed": 2323243,
+  "bwh": "85 · 54 · 86",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, skinny, medium breasts, black hair, hair bun, orange eyes",
+  "outfits": {
+   "default": "many small colorful flower hairclips, joseon gisaeng bright yellow jeogori embroidered with flowers and long orange otgoreum ribbon, long full green chima skirt wrapped high under bust, long dancing sleeves",
+   "home": "messy half updo with small colorful flower hairclips, huge oversized black hoodie only, sleeves past hands, bare legs, barefoot",
+   "school": "small colorful flower hairclips, korean high school uniform, navy blazer open over knit vest, white shirt, red ribbon tie, short pleated navy skirt, loose socks, loafers, school backpack",
+   "idol": "small colorful flower hairclips, k-pop idol stage costume, bright yellow cropped hanbok-style idol jacket with flower embroidery and orange ribbon, short pleated emerald green idol miniskirt, sparkling choker, stage boots, headset microphone, holding an open fan"
+  }
+ },
+ "seola": {
+  "seed": 2323232,
+  "bwh": "76 · 52 · 78",
+  "breast_tier": "flat chest",
+  "looks": "1girl, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye",
+  "outfits": {
+   "default": "white plum blossom hair ornament and silver binyeo hairclip, joseon gisaeng short jade green jeogori with crimson cuffs and long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under bust, holding a folded white fan",
+   "home": "long black hair let down with white plum blossom hairclip, simple white cotton nightgown, light shawl, barefoot",
+   "school": "white plum blossom hair ornament and silver binyeo hairclip, korean high school uniform, slightly oversized navy blazer with school emblem, white shirt, red ribbon tie, pleated navy skirt, white thighhighs, loafers, school bag",
+   "idol": "white plum blossom hair ornament and silver binyeo hairclip, k-pop idol stage costume, jade green cropped hanbok-style idol jacket with crimson cuffs and ribbon, short frilled deep rose idol miniskirt, white thighhighs, stage mary janes, headset microphone, holding a white folding fan"
+  }
+ },
+ "choa": {
+  "seed": 2603304,
+  "bwh": "85 · 57 · 87",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, hair bun, black eyes, tsurime",
+  "outfits": {
+   "default": "plain wooden hairclip, joseon female detective (damo) dark indigo jeogori with tight sleeves, short black chima tied up over grey trousers, black cloth sash with coiled red rope, iron baton in hand, straw sandals",
+   "home": "hair down, black tank top and grey sweatpants, barefoot"
+  }
+ },
+ "dano": {
+  "seed": 9090909,
+  "bwh": "79 · 54 · 82",
+  "breast_tier": "small breasts",
+  "looks": "1girl, petite, skinny, small breasts, black hair, short hair, messy hair, brown eyes, tan",
+  "outfits": {
+   "default": "red ribbon headband, joseon storyteller faded yellow jeogori with rolled sleeves, short indigo chima over white trousers, straw sandals, holding a rolled hangul storybook and a folding fan",
+   "home": "red ribbon headband, oversized band t-shirt and denim cutoff shorts, headphones around neck"
+  }
+ },
+ "bada": {
+  "seed": 2603305,
+  "bwh": "88 · 58 · 90",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, toned, medium breasts, black hair, short hair, wavy hair, wet hair, black eyes, tan",
+  "outfits": {
+   "default": "traditional white cotton haenyeo diving clothes (sleeveless top and shorts), cloth headscarf, diving goggles on forehead, orange gourd float (tewak) with net, iron abalone hook",
+   "home": "oversized blue striped t-shirt and denim shorts, barefoot"
+  }
+ },
+ "bori": {
+  "seed": 1313131,
+  "bwh": "93 · 59 · 92",
+  "breast_tier": "large breasts",
+  "looks": "1girl, curvy, large breasts, black hair, single braid, brown eyes, tan",
+  "outfits": {
+   "default": "white cotton headband, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear",
+   "home": "loose white t-shirt and red dolphin shorts, apron, barefoot"
+  }
+ },
+ "goyo": {
+  "seed": 2603307,
+  "bwh": "80 · 53 · 82",
+  "breast_tier": "small breasts",
+  "looks": "1girl, ghost, petite, skinny, small breasts, black hair, absurdly long hair, straight hair, black eyes, pale skin",
+  "outfits": {
+   "default": "korean virgin ghost (cheonyeo gwishin) plain white mourning hanbok (sobok), white jeogori and long white chima, barefoot, floating slightly above the ground, faint blue glow",
+   "home": "oversized white hoodie with hood up, bare legs, barefoot, faint blue glow"
+  }
+ },
+ "ellie": {
+  "seed": 2603306,
+  "bwh": "90 · 57 · 90",
+  "breast_tier": "large breasts",
+  "looks": "1girl, tall female, large breasts, blonde hair, long hair, wavy hair, half updo, blue eyes, freckles, pale skin",
+  "outfits": {
+   "default": "navy hair ribbon, 1900s western white high-collar blouse with puffed sleeves, long navy skirt, brown lace-up boots, holding a small korean geography book",
+   "home": "hair down, soft pink nightgown with a cardigan"
+  }
+ },
+ "hanbyeol": {
+  "seed": 1414141,
+  "bwh": "84 · 56 · 86",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, long hair, straight hair, parted bangs, single braid, black eyes",
+  "outfits": {
+   "default": "white hair ribbon, 1900s mission school student white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books",
+   "home": "white hair ribbon, round reading glasses, oversized white dress shirt as pajamas, sleeves rolled, kneehighs"
+  }
+ },
+ "saebyeok": {
+  "seed": 1515151,
+  "bwh": "85 · 56 · 86",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, short hair, bob cut, black eyes",
+  "outfits": {
+   "default": "1940s korean liberation army olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with small taegeuk badge, holding a rifle",
+   "home": "champagne silk negligee with thin straps and lace trim, long open cream cardigan, barefoot"
+  }
+ },
+ "saebyeok_mom": {
+  "seed": 1515300,
+  "bwh": "94 · 60 · 94",
+  "breast_tier": "huge breasts",
+  "looks": "1girl, mature female, curvy, huge breasts, black hair, hair bun, black eyes",
+  "outfits": {
+   "default": "1980s cream silk blouse with top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over shoulders, holding an old faded olive field cap with a taegeuk badge",
+   "home": "champagne silk negligee with thin straps and lace trim, long open cream cardigan, barefoot"
+  }
+ },
+ "bomnae": {
+  "seed": 2622220,
+  "bwh": "83 · 55 · 85",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, petite, medium breasts, black hair, short hair, bob cut, brown eyes, blush",
+  "outfits": {
+   "default": "white cloth headband, 1970s garment factory light blue work blouse with sleeves rolled up, navy work skirt below the knee, white factory apron with thread scraps, thimble on finger, canvas sneakers",
+   "home": "white cloth headband, handmade cotton pajama set with neat stitches and a small embroidered flower, barefoot"
+  }
+ },
+ "dasom": {
+  "seed": 1616161,
+  "bwh": "85 · 56 · 87",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, medium hair, straight hair, blunt bangs, black eyes",
+  "outfits": {
+   "default": "1980s college student white blouse under navy cardigan, high-waisted light blue jeans, white sneakers, canvas shoulder bag, holding books and a white handkerchief",
+   "home": "white sports bra and matching cotton panties, oversized university sweatshirt slipping off one shoulder, bare legs"
+  }
+ },
+ "moa": {
+  "seed": 2603308,
+  "bwh": "88 · 56 · 89",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, gyaru, kogal, medium breasts, brown hair, streaked hair, long hair, tan",
+  "outfits": {
+   "default": "eyeliner, pink lip gloss, plastic hairclips, hoop earrings, 1990s cropped white tee, oversized baggy hip hop jeans, chunky sneakers, pager clipped to belt",
+   "home": "messy hair bun, red devils world cup t-shirt and short shorts, barefoot",
+   "school": "eyeliner, pink lip gloss, plastic hairclips, hoop earrings, korean high school uniform, navy blazer with school emblem, white shirt, red ribbon tie, pleated navy skirt, white socks, loafers, school bag"
+  }
+ },
+ "hyejin": {
+  "seed": 1818011,
+  "bwh": "79 · 55 · 80",
+  "breast_tier": "small breasts",
+  "looks": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes",
+  "outfits": {
+   "default": "unique school uniform fusing korean hanbok and school uniform, white jeogori-style blouse with crossed collar and white dongjeong collar strip, long red goreum ribbon tied at chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below knees, black pantyhose, loafers, school bag with brass shaman bells, five-colored cloth strips on wrist, holding a folded fan"
+  }
+ },
+ "myeongwol": {
+  "seed": 1818511,
+  "bwh": "79 · 55 · 80",
+  "breast_tier": "small breasts",
+  "looks": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes",
+  "outfits": {
+   "default": "traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around wrist, cluster of small brass shaman bells, holding a painted folding fan"
+  }
+ },
+ "tsubaki": {
+  "seed": 2603309,
+  "bwh": "83 · 55 · 85",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, petite, medium breasts, black hair, hime cut, short hair, blunt bangs, brown eyes, pale skin",
+  "outfits": {
+   "default": "red camellia hair flower, korean hanbok worn clumsily over a japanese kosode, patterned kosode collar showing at neck, short light pink jeogori with red goreum ribbon tied clumsily, long deep indigo chima skirt, white tabi socks, straw zori sandals, small handmade vocabulary notebook at waist",
+   "home": "red camellia hairclip, white cotton camisole and short pleated pajama shorts with a long beige knit cardigan slipping off one shoulder, barefoot"
+  }
+ },
+ "chunmei": {
+  "seed": 2603310,
+  "bwh": "88 · 56 · 89",
+  "breast_tier": "medium breasts",
+  "looks": "1girl, medium breasts, black hair, double bun, brown eyes, food on face",
+  "outfits": {
+   "default": "1920s shanghai red cheongsam (qipao) with mandarin collar and frog buttons, sleeves rolled up, white flour-dusted apron, wooden abacus at waist, black cloth shoes",
+   "home": "hair down from buns, red satin pajama shirt with chinese frog buttons unbuttoned at collar, short black satin pajama shorts, barefoot"
+  }
+ },
+ "sangcheol": {
+  "seed": 1010101,
+  "bwh": "비공개",
+  "breast_tier": null,
+  "looks": "1boy, faceless male, shaded face",
+  "outfits": {
+   "default": "black hoodie, hood up, hood pulled low, eyes hidden in hood shadow"
+  }
+ }
 }

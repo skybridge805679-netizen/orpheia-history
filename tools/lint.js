@@ -163,7 +163,16 @@ try {
       if (wrong) E(where, `${cast} 가슴 크기 태그 충돌: '${wrong}' (기준: '${bmap[cast]}')`);
     }
   };
-  for (const [cid, pr] of Object.entries(naiLog)) checkPrompt(`tools/nai-log.json (${cid})`, pr, cid);
+  for (const [cid, entry] of Object.entries(naiLog)) {
+    if (typeof entry === 'string') {
+      checkPrompt(`tools/nai-log.json (${cid})`, entry, cid);
+    } else if (entry && typeof entry === 'object') {
+      checkPrompt(`tools/nai-log.json (${cid}.looks)`, entry.looks, cid);
+      if (bmap[cid] && entry.breast_tier !== bmap[cid]) E(`tools/nai-log.json (${cid})`, `breast_tier '${entry.breast_tier}' !== '${bmap[cid]}'`);
+      if (!entry.seed) W(`tools/nai-log.json (${cid})`, '고유 seed 누락');
+      for (const [ok, op] of Object.entries(entry.outfits || {})) checkPrompt(`tools/nai-log.json (${cid}.outfits.${ok})`, op, null);
+    }
+  }
   for (const it of naiAssets.items || []) {
     checkPrompt(`tools/nai-assets.json (${it.id})`, it.prompt, typeof it.cast === 'string' ? it.cast : null);
     for (const [ci, c] of (it.chars || []).entries()) checkPrompt(`tools/nai-assets.json (${it.id}#char${ci + 1})`, c.prompt, typeof c.cast === 'string' ? c.cast : null);
