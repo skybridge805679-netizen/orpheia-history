@@ -5018,6 +5018,132 @@
    "cast": "hyejin",
    "prompt": "1girl, solo, teenage girl, 17 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, sharp amber eyes, casual oversized gaming t-shirt at home in her bedroom at night, wearing gaming headset around neck, sitting at computer desk with a steaming cup of spicy red tteokbokki, glowing monitor and smartphone showing a retro pixel art vertical shoot-em-up game screen, pointing at the monitor in shock and embarrassment, full-face blush, wide eyes, comedic slice of life, warm desk lamp and monitor glow, masterpiece, no readable text",
    "negative": "nude, nipples, explicit, child, loli, extra limbs, bad hands, watermark, signature, text, logo, multiple views"
+  },
+  {
+   "id": "st_myeongwol_neutral",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, calm aloof expression, closed mouth",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, playful confident grin, happy eyes, ringing brass bells",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, surprised, wide amber eyes, open mouth, startled, light blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, serious expression, narrowed sharp amber eyes, spiritual aura, raising brass shaman bells",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, angry, fierce glare, shouting, pointing folded fan forward, annoyed",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, sulky tsundere pout, puffed cheeks, arms crossed, half-closed eyes, looking slightly away",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around her wrist, cluster of small brass shaman bells, holding a painted folding fan, standing, full body, looking at viewer, deep blush, shy, embarrassed, hiding lower face behind open painted fan, glancing up at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform"
+  },
+  {
+   "id": "st_myeongwol_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "myeongwol",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, korean shaman girl, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja), long deep navy chima skirt, five-colored cloth strips tied around her wrist, pregnant, visibly pregnant, round pregnant belly under her hanbok chima, both hands resting gently on her pregnant belly, maternal, gentle proud smile, soft blush, standing, full body, looking at viewer",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, nipples, child, loli, modern clothes, school uniform, bare belly, navel, exposed stomach"
+  },
+  {
+   "id": "cg_ch19_myeongwol_meet",
+   "size": "bg",
+   "seed": 1818511,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, rainy night at a small candlelit wooden korean shaman shrine on Inwangsan mountain in 1930s Gyeongseong, paper talismans and five-colored cloth hanging inside, a small charcoal brazier with grilled spicy red rice cake skewers (tteok-kkochi), a 17-year-old shaman girl with a high black ponytail and amber eyes hiding a rice cake skewer behind her back while raising brass shaman bells in surprise at a hooded young man taking shelter from the rain under the eaves, warm candlelight against dark rain, romantic comedy, masterpiece, no readable text",
+   "chars": [
+    {
+     "cast": "myeongwol",
+     "prompt": "1girl, teenage girl, 17 years old, youthful face, slender, medium breasts, -3::mature female, adult woman, large breasts::, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, white jeogori with red cuffs, crimson sleeveless shaman vest, navy chima skirt, five-colored cloth strips on wrist, holding brass shaman bells in one hand and hiding a red glazed rice cake skewer behind her back, startled tsundere expression, blush",
+     "uc": "nude, nipples, child, male, modern school uniform",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, young man, black hoodie, hood pulled low, eyes hidden in hood shadow, faceless upper face, wet from rain, standing under the shrine eaves",
+     "uc": "visible eyes",
+     "x": 0.66,
+     "y": 0.55
+    }
+   ],
+   "negative": "nude, nipples, explicit, child, loli, watermark, signature, text, extra limbs, bad hands, multiple views"
+  },
+  {
+   "id": "cg_ch19_myeongwol_h1",
+   "size": "bg",
+   "seed": 1818512,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, clothed sex, partially undressed, 1girl, 1boy, nsfw, explicit, missionary, legs wrapped around waist, vaginal, cum in pussy, internal cumshot, indoors, candlelit traditional korean shaman shrine room at night, futon bedding, five-colored shaman ribbons and brass bells scattered on the floor, rain outside, warm candlelight, no readable text",
+   "chars": [
+    {
+     "cast": "myeongwol",
+     "prompt": "1girl, teenage girl, 17 years old, youthful cute face, slender, medium breasts, -3::mature female, adult woman, large breasts::, long straight black hair in a high ponytail tied with a red silk daenggi ribbon, sharp amber eyes, white jeogori and crimson shaman vest pulled open off her shoulders, exposed medium breasts, pink nipples, navy chima skirt pushed up around her waist, five-colored cloth strips and brass shaman bells tied around her wrist, lying on back on futon, legs wrapped tightly around his waist, deep blush, sweat, tears of ecstasy, moaning",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, faceless male, shaded face, black hoodie, on top of her between her legs, holding her wrist with brass bells",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
   }
  ]
 }
