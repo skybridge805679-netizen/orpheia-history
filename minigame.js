@@ -186,7 +186,7 @@ window.MiniGame=(()=>{
   a.classList.add('mgx-main-shmup');
   a.innerHTML=`<div class="mgx-shmup"><aside class="mgx-sh-who"><img src="${asset('st_hyejin_smile.webp')}" alt=""><p class="mgx-sh-say"><b class="mgx-sh-nm">혜진</b><span data-say></span></p><p class="mgx-sh-sys" data-sys></p></aside>
    <div class="mgx-sh-stage"><canvas width="480" height="640"></canvas><div class="mgx-sh-over" data-over hidden></div></div>
-   <aside class="mgx-sh-help"><h4>조작</h4><p><kbd>마우스</kbd> 또는 <kbd>←↑→↓</kbd><kbd>WASD</kbd> 움직이기</p><p>떡볶이는 저절로 나가요</p><p><kbd>Shift</kbd> 천천히 · 판정 점 보기</p><p><kbd>X</kbd> · 우클릭 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤</p><h4>토핑</h4><p><b class="t-cheese">치즈</b> 꿰뚫는 떡</p><p><b class="t-sausage">소시지</b> 세 갈래 발사</p><p><b class="t-egg">삶은 달걀</b> 화면 정리 하나 더</p></aside></div>`;
+   <aside class="mgx-sh-help"><h4>조작</h4><p><kbd>마우스</kbd> 또는 <kbd>←↑→↓</kbd><kbd>WASD</kbd> 움직이기</p><p>떡볶이는 저절로 나가요</p><p>적탄을 아슬아슬하게 스치면 점수</p><p><kbd>Shift</kbd> 천천히 · 판정 점 보기</p><p><kbd>X</kbd> · 우클릭 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤</p><h4>토핑</h4><p><b class="t-cheese">치즈</b> 꿰뚫는 떡</p><p><b class="t-sausage">소시지</b> 세 갈래 발사</p><p><b class="t-egg">삶은 달걀</b> 화면 정리 하나 더</p></aside></div>`;
   const cv=a.querySelector('canvas'),g=cv.getContext('2d'),W=480,H=640;
   const sayEl=a.querySelector('[data-say]'),sysEl=a.querySelector('[data-sys]'),who=a.querySelector('.mgx-sh-who img'),over=a.querySelector('[data-over]');
   const img=n=>{const i=new Image();i.src=asset(n);return i;};
@@ -199,7 +199,7 @@ window.MiniGame=(()=>{
   let sayT=0;const say=(t,face='smile',force)=>{if(!force&&sayT>0)return;sayEl.textContent=Array.isArray(t)?pick(t):t;who.src=asset(`st_hyejin_${face}.webp`);sayT=2.2;};
   // 상태
   const P={x:W/2,y:H-80,inv:0,lives:3,bombs:2,cheese:0,sausage:0,fire:0};
-  let shots=[],foes=[],ebul=[],items=[],fx=[],texts=[],t=0,spawn=1.2,score=0,kills=0,hits=0,boss=null,bossDone=false,ended=false,paused=false,flashT=0,mouse=null,lastHud=0;
+  let shots=[],foes=[],ebul=[],items=[],fx=[],texts=[],t=0,spawn=1.2,score=0,kills=0,hits=0,boss=null,bossDone=false,ended=false,paused=false,flashT=0,mouse=null,lastHud=0,graze=0,spellT=0,spellName='';
   const keys={};
   const best=(records.mgBest||{}).tteok||0;
   const dist2=(a,b)=>(a.x-b.x)**2+(a.y-b.y)**2;
@@ -222,6 +222,16 @@ window.MiniGame=(()=>{
   const ring=(f,n,sp,rot=0)=>{for(let i=0;i<n;i++){const ang=rot+i*Math.PI*2/n;ebul.push({x:f.x,y:f.y,vx:Math.cos(ang)*sp,vy:Math.sin(ang)*sp,r:5});}};
   const drop=f=>{const c=f.type==='wisp'?.04:f.type==='sheet'?.15:f.type==='man'?.5:0;if(Math.random()<c)items.push({x:f.x,y:f.y,kind:pick(['cheese','cheese','sausage','sausage','egg'])});};
   const kill=f=>{score+=f.pts;kills++;texts.push({x:f.x,y:f.y,txt:pick(KILL_TXT),t:0});for(let i=0;i<8;i++)fx.push({x:f.x,y:f.y,vx:(Math.random()-.5)*160,vy:(Math.random()-.5)*160,t:0});drop(f);};
+  // 보스 공격(이름 카드): 0~2를 6.5초씩 돌고, 체력이 30% 아래로 떨어지면 마지막 공격으로 바뀐다.
+  const SPELLS=['야근 수당 미지급','퇴근 5분 전 회의','결재 서류 폭풍','무한 결재 루프'];
+  const shot=(b,ang,sp,r=5)=>ebul.push({x:b.x,y:b.y,vx:Math.cos(ang)*sp,vy:Math.sin(ang)*sp,r});
+  const paper=()=>ebul.push({x:30+Math.random()*(W-60),y:-10,vx:(Math.random()-.5)*30,vy:150+Math.random()*80,r:7,paper:true,rot:Math.random()*6});
+  const SPELL_FN=[
+   b=>{b.cd=.09;b.spin+=.31;shot(b,b.spin,135);shot(b,b.spin+Math.PI,135);},
+   b=>{b.cd=.75;ring(b,22,115,Math.random()*6);for(const o of[-.15,0,.15])aim(b,215,o);},
+   b=>{b.cd=.1;paper();b.n=(b.n||0)+1;if(b.n%9===0)for(const o of[-.3,0,.3])aim(b,180,o);},
+   b=>{b.cd=.07;b.spin+=.23;for(let k=0;k<3;k++)shot(b,b.spin+k*Math.PI*2/3,125);b.n=(b.n||0)+1;if(b.n%25===0)ring(b,18,95,b.spin);},
+  ];
   function bomb(){if(ended||paused||P.bombs<=0)return;P.bombs--;ebul=[];flashT=.6;P.inv=Math.max(P.inv,1.5);say(TK.bomb,'angry',true);sfx('vb_purify');
    for(const f of foes){f.hp-=15;if(f.hp<=0)kill(f);}foes=foes.filter(f=>f.hp>0);if(boss){boss.hp-=25;}}
   function hurt(){if(P.inv>0||ended)return;P.lives--;hits++;P.inv=2;ebul=[];sfx('wrong');say(TK.hit,'surprised',true);if(P.lives<=0)finish(false);}
@@ -249,7 +259,7 @@ window.MiniGame=(()=>{
    // 발사
    P.fire-=dt;if(P.fire<=0){P.fire=.11;const big=P.cheese>0,mk=(vx)=>shots.push({x:P.x,y:P.y-26,vx,vy:-620,pierce:big,hit:big?new Set():null});mk(0);if(P.sausage>0){mk(-150);mk(150);}}
    // 출현
-   if(!boss&&!bossDone){spawn-=dt;if(t>=80){if(!foes.length){boss={type:'boss',x:W/2,y:-120,hp:240,max:240,r:46,cd:1,pat:0,patT:0,pts:10000};say(TK.boss,'serious',true);sfx('vb_start');}}
+   if(!boss&&!bossDone){spawn-=dt;if(t>=80){if(!foes.length){boss={type:'boss',x:W/2,y:-120,hp:300,max:300,r:46,cd:1.5,pat:-1,patT:99,spin:0,pts:10000};say(TK.boss,'serious',true);sfx('vb_start');}}
     else if(spawn<=0){spawn=Math.max(.32,1.15-t*.011);const r=Math.random();addFoe(t<18?'wisp':t<40?(r<.65?'wisp':'sheet'):(r<.45?'wisp':r<.82?'sheet':'man'));if(t>30&&Math.random()<.3)addFoe('wisp');}}
    // 적 움직임·공격
    for(const f of foes){f.ph=(f.ph||0)+dt;
@@ -257,8 +267,10 @@ window.MiniGame=(()=>{
     else if(f.type==='sheet'){f.y+=55*dt;f.x+=Math.sin(f.ph*1.6)*55*dt;f.cd-=dt;if(f.cd<=0&&f.y>0&&f.y<H*.6){f.cd=2;aim(f,150);}}
     else{f.life+=dt;if(f.life<7)f.y+=(f.stopY-f.y)*Math.min(1,dt*2);else f.y+=200*dt;f.cd-=dt;if(f.cd<=0&&f.life<7&&f.life>.8){f.cd=1.4;aim(f,170,-.25);aim(f,170,0);aim(f,170,.25);}}}
    foes=foes.filter(f=>f.y<H+60&&f.x>-60&&f.x<W+60);
-   if(boss){const b=boss;if(b.y<130)b.y+=70*dt;else{b.x=W/2+Math.sin(t*.7)*130;b.patT+=dt;if(b.patT>4.5){b.patT=0;b.pat=(b.pat+1)%3;}b.cd-=dt;
-     if(b.cd<=0){if(b.pat===0){b.cd=.45;ring(b,16,130,t);}else if(b.pat===1){b.cd=.6;for(const o of[-.4,-.2,0,.2,.4])aim(b,190,o);}else{b.cd=.12;ebul.push({x:30+Math.random()*(W-60),y:-10,vx:(Math.random()-.5)*30,vy:150+Math.random()*80,r:7,paper:true,rot:Math.random()*6});}}}
+   if(boss){const b=boss;if(b.y<130)b.y+=70*dt;else{b.x=W/2+Math.sin(t*.7)*120;b.patT+=dt;
+     const want=b.hp<b.max*.3?3:(b.patT>6.5||b.pat<0)?(b.pat+1)%3:b.pat;
+     if(want!==b.pat&&!(b.pat===3)){if(b.pat>=0)for(const e of ebul){score+=20;fx.push({x:e.x,y:e.y,vx:0,vy:-60,t:.2});}ebul=[];b.pat=want;b.patT=0;b.cd=.8;spellName=SPELLS[want];spellT=2.4;sfx('vb_break');}
+     b.cd-=dt;if(b.cd<=0)SPELL_FN[b.pat](b);}
     if(b.hp<b.max*.3&&!b.low){b.low=true;say(TK.bossLow,'angry',true);}
     if(b.hp<=0){kill(b);for(let i=0;i<40;i++)fx.push({x:b.x+(Math.random()-.5)*80,y:b.y+(Math.random()-.5)*80,vx:(Math.random()-.5)*300,vy:(Math.random()-.5)*300,t:0});boss=null;bossDone=true;ebul=[];sfx('vb_ko');say(TK.win,'smile',true);ended=true;setTimeout(()=>finish(true),1600);}}
    // 떡 맞히기
@@ -266,7 +278,9 @@ window.MiniGame=(()=>{
     for(const f of targets){if(s.dead||f.hp<=0)continue;if(s.hit&&s.hit.has(f))continue;if(dist2(s,f)<(f.r+6)**2){f.hp--;score+=10;if(s.pierce)s.hit.add(f);else s.dead=true;if(f.hp<=0&&f!==boss)kill(f);}}}
    foes=foes.filter(f=>f.hp>0);shots=shots.filter(s=>!s.dead&&s.y>-30&&s.x>-20&&s.x<W+20);
    // 적 탄
-   for(const e of ebul){e.x+=e.vx*dt;e.y+=e.vy*dt;if(e.paper)e.rot+=dt*4;if(P.inv<=0&&dist2(e,P)<(e.r+3)**2){hurt();break;}}
+   for(const e of ebul){e.x+=e.vx*dt;e.y+=e.vy*dt;if(e.paper)e.rot+=dt*4;if(P.inv>0)continue;const d=dist2(e,P);if(d<(e.r+3)**2){hurt();break;}
+    if(!e.gz&&d<(e.r+18)**2){e.gz=1;graze++;score+=50;fx.push({x:(e.x+P.x)/2,y:(e.y+P.y)/2,vx:(Math.random()-.5)*90,vy:-80,t:.1});}}
+   spellT-=dt;
    ebul=ebul.filter(e=>e.y<H+20&&e.y>-30&&e.x>-20&&e.x<W+20);
    for(const f of foes)if(P.inv<=0&&dist2(f,P)<(f.r+4)**2){hurt();break;}
    if(boss&&P.inv<=0&&dist2(boss,P)<(boss.r+4)**2)hurt();
@@ -279,10 +293,12 @@ window.MiniGame=(()=>{
    if(sayT<-3)say(pick([['오늘 학원 숙제도 있는데…'],['길드 레이드 출발했겠다…'],['떡 아깝다, 진짜.'],['이거 끝나면 치즈 추가해서 시켜 먹어야지.']]));
    if(now()-lastHud>120){lastHud=now();paintHud();}}
   const now=()=>performance.now();
-  const paintHud=()=>{hud.innerHTML=`<span class="mgx-sh-life">${'♥'.repeat(Math.max(0,P.lives))}<i>${'♥'.repeat(Math.max(0,3-P.lives))}</i></span> <span class="mgx-sh-egg">달걀 ${P.bombs}</span> 점수 <b>${score.toLocaleString()}</b>`;};
+  const paintHud=()=>{hud.innerHTML=`<span class="mgx-sh-life">${'♥'.repeat(Math.max(0,P.lives))}<i>${'♥'.repeat(Math.max(0,3-P.lives))}</i></span> <span class="mgx-sh-egg">달걀 ${P.bombs}</span> <span class="mgx-sh-egg">스침 ${graze}</span> 점수 <b>${score.toLocaleString()}</b>`;};
   function draw(){
    // 밤 골목: 남색 하늘 + 흐르는 가로등 빛 + 아스팔트 줄
-   if(ok(SP.bg_alley)){const bh=W*SP.bg_alley.naturalHeight/SP.bg_alley.naturalWidth;g.drawImage(SP.bg_alley,0,H-bh,W,bh);g.fillStyle='#0b0f2466';g.fillRect(0,0,W,H);
+   if(ok(SP.bg_alley)){const bh=W*SP.bg_alley.naturalHeight/SP.bg_alley.naturalWidth,off=(t*45)%(bh*2);
+    for(let k=-1;k<2;k++){const Y=off+k*bh*2;g.drawImage(SP.bg_alley,0,Y-bh,W,bh);g.save();g.translate(0,Y-bh);g.scale(1,-1);g.drawImage(SP.bg_alley,0,0,W,bh);g.restore();}
+    g.fillStyle='#0b0f2466';g.fillRect(0,0,W,H);
     for(let k=0;k<3;k++){const y=((t*90+k*260)%780)-60,x=k%2?60:W-60;const lg=g.createRadialGradient(x,y,4,x,y,110);lg.addColorStop(0,'#ffd99a33');lg.addColorStop(1,'#ffd99a00');g.fillStyle=lg;g.beginPath();g.arc(x,y,110,0,7);g.fill();}}
    else{const gr=g.createLinearGradient(0,0,0,H);gr.addColorStop(0,'#0b0f24');gr.addColorStop(1,'#1c1230');g.fillStyle=gr;g.fillRect(0,0,W,H);
    g.strokeStyle='#ffffff10';g.lineWidth=2;for(let i=0;i<9;i++){const y=((t*120+i*80)%720)-40;g.beginPath();g.moveTo(W/2,y);g.lineTo(W/2,y+30);g.stroke();}
@@ -292,14 +308,15 @@ window.MiniGame=(()=>{
     if(it.kind==='egg')g.ellipse(it.x,it.y,9,12,0,0,7);else if(it.kind==='cheese'){g.moveTo(it.x-11,it.y+8);g.lineTo(it.x+11,it.y+8);g.lineTo(it.x+11,it.y-6);g.closePath();}else g.roundRect(it.x-13,it.y-5,26,10,5);
     g.fill();g.stroke();g.fillStyle='#fff';g.font='bold 11px sans-serif';g.textAlign='center';g.fillText(n,it.x,it.y+24);g.restore();}
    for(const f of foes)drawFoe(f);
-   if(boss){drawFoe(boss);g.fillStyle='#0009';g.fillRect(20,14,W-40,10);g.fillStyle='#ff4d6d';g.fillRect(20,14,(W-40)*Math.max(0,boss.hp)/boss.max,10);g.fillStyle='#fff';g.font='bold 12px sans-serif';g.textAlign='left';g.fillText('야근 악귀',22,40);}
+   if(boss){drawFoe(boss);g.fillStyle='#0009';g.fillRect(20,14,W-40,10);g.fillStyle='#ff4d6d';g.fillRect(20,14,(W-40)*Math.max(0,boss.hp)/boss.max,10);g.fillStyle='#fff';g.font='bold 12px sans-serif';g.textAlign='left';g.fillText('야근 악귀',22,40);if(spellName){g.textAlign='right';g.fillStyle='#ffd6e0';g.font='bold 13px serif';g.fillText(`「${spellName}」`,W-22,40);}}
+   if(spellT>0&&spellName){const a=Math.min(1,spellT,2.4-spellT+.2);g.save();g.globalAlpha=Math.max(0,a);g.fillStyle='#0009';g.fillRect(0,H*.42,W,54);g.fillStyle='#ff4d6d';g.fillRect(0,H*.42,W,2);g.fillRect(0,H*.42+52,W,2);g.fillStyle='#fff';g.textAlign='center';g.font='bold 24px serif';g.fillText(`「${spellName}」`,W/2,H*.42+35);g.restore();}
    // 떡
    for(const s of shots){if(ok(SP.tteok))blit(SP.tteok,s.x,s.y,s.pierce?30:26);else tteokShape(s.x,s.y,s.pierce);if(s.pierce){g.fillStyle='#ffe066';g.fillRect(s.x-2,s.y-12,4,6);}}
    // 적 탄(먹물 구슬·결재 서류)
    for(const e of ebul){g.save();if(e.paper&&ok(SP.paper)){g.translate(e.x,e.y);g.rotate(e.rot);blit(SP.paper,0,0,22);}else if(e.paper){g.translate(e.x,e.y);g.rotate(e.rot);g.fillStyle='#f3efe4';g.fillRect(-7,-9,14,18);g.fillStyle='#c33';g.fillRect(-4,-5,8,2);}
     else{g.shadowColor='#b05cff';g.shadowBlur=10;g.fillStyle='#2a0d3a';g.beginPath();g.arc(e.x,e.y,e.r,0,7);g.fill();g.strokeStyle='#d6a8ff';g.lineWidth=1.5;g.stroke();}g.restore();}
    // 혜진
-   if(!(P.inv>0&&Math.floor(P.inv*12)%2)){const pix=P.inv>1?SP.hyejin_hurt:SP.hyejin;if(ok(pix)){blit(pix,P.x,P.y,96,.5,.62);}else{const im=P.inv>1?IM.hurt:IM.me;const h=96,w=h*0.684;if(im.complete&&im.naturalWidth)g.drawImage(im,P.x-w/2,P.y-h*.62,w,h);else{g.fillStyle='#fff';g.fillRect(P.x-8,P.y-20,16,40);}}}
+   if(!(P.inv>0&&Math.floor(P.inv*12)%2)){const pix=P.inv>1?SP.hyejin_hurt:SP.hyejin;if(ok(pix)){const bob=Math.sin(t*4)*3;g.strokeStyle='#ffffff55';g.lineWidth=1.5;for(let k=0;k<3;k++){const wx=P.x-14+k*14,wy=P.y+30+((t*260+k*23)%40);g.beginPath();g.moveTo(wx,wy);g.lineTo(wx,wy+12);g.stroke();}blit(pix,P.x,P.y+bob,96,.5,.62);}else{const im=P.inv>1?IM.hurt:IM.me;const h=96,w=h*0.684;if(im.complete&&im.naturalWidth)g.drawImage(im,P.x-w/2,P.y-h*.62,w,h);else{g.fillStyle='#fff';g.fillRect(P.x-8,P.y-20,16,40);}}}
    if(keys.Shift){g.fillStyle='#fff';g.strokeStyle='#f33';g.lineWidth=2;g.beginPath();g.arc(P.x,P.y,4,0,7);g.fill();g.stroke();}
    for(const p of fx){g.fillStyle=`rgba(255,${120+Math.random()*80|0},80,${1-p.t/.6})`;g.fillRect(p.x,p.y,3,3);}
    g.textAlign='center';g.font='bold 15px sans-serif';for(const x of texts){g.fillStyle=`rgba(255,230,160,${1-x.t/.9})`;g.fillText(x.txt,x.x,x.y);}
@@ -312,7 +329,7 @@ window.MiniGame=(()=>{
    setTimeout(()=>{stopTimer();keyFn=null;const b=records.mgBest||(records.mgBest={});const nb=sc>(b.tteok||0);if(nb){b.tteok=sc;save();}
     result({title:'떡볶이 퇴마',score:sc.toLocaleString(),max:0,best:Math.max(best,sc).toLocaleString(),nb,r,unit:'점',again:tteok,noteTitle:'오늘 밤 근무 기록',
      who:{name:'혜진',img:r==='S'||r==='A'?'tk_win.webp':r==='D'||!won?'tk_lose.webp':'tk_win.webp',fb:`st_hyejin_${r==='S'||r==='A'?'smile':r==='B'?'neutral':'pout'}.webp`,line:TK_RES[r]},
-     notes:[`쓰러뜨린 잡귀 ${kills}`,won?`야근 악귀 퇴근시킴 (남은 하트 ${P.lives} × 2,000 · 달걀 ${P.bombs} × 500)`:'야근 악귀는 아직 사무실에 있어요',`맞은 횟수 ${hits}`]});},won?200:1400);}
+     notes:[`쓰러뜨린 잡귀 ${kills}`,won?`야근 악귀 퇴근시킴 (남은 하트 ${P.lives} × 2,000 · 달걀 ${P.bombs} × 500)`:'야근 악귀는 아직 사무실에 있어요',`아슬아슬하게 스친 탄 ${graze}`,`맞은 횟수 ${hits}`]});},won?200:1400);}
   say(TK.start,'surprised',true);sysEl.innerHTML=`<b>ORPHEIA</b> ${esc(TK.sys)}`;paintHud();sfx('vb_start');
   raf=requestAnimationFrame(step);
  }
