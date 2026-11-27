@@ -4952,6 +4952,72 @@
    "cast": "hyejin",
    "style": "pixel art, limited palette, {best quality, very aesthetic}",
    "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, pout, sauce on clothes, holding phone, standing, night, alley, lamppost"
+  },
+  {
+   "id": "st_hyejin_d1",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818011,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, korean high school student, shaman girl, long straight black hair in a high ponytail tied with a red ribbon, sharp amber eyes, unique school uniform that fuses korean hanbok and a school uniform, white jeogori-style blouse with crossed collar and white dongjeong collar strip, long red goreum ribbon loosened and untied at the chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below the knees, black tights, loafers, school bag on her back with small brass shaman bells, five-colored cloth strips on her wrist, holding a folded fan, battle damage, light clothing damage, torn sleeves, ripped skirt hem, scratches and smudges on uniform, standing, full body, looking at viewer, surprised and annoyed expression, clenched teeth, light blush",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli"
+  },
+  {
+   "id": "st_hyejin_d2",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818011,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, korean high school student, shaman girl, long straight black hair in a high ponytail tied with a red ribbon, sharp amber eyes, unique school uniform that fuses korean hanbok and a school uniform, heavy battle damage, torn clothes, navy uniform vest torn open with missing brass buttons, white jeogori-style blouse ripped and slipping off one shoulder, white lace bra visible through torn blouse, cleavage, bare shoulder, red goreum ribbon severed, navy pleated chima skirt torn high up the thigh exposing torn black tights and bare thigh, five-colored cloth strips on wrist, holding brass shaman bells, standing, full body, looking at viewer, flustered, deep blush, covering chest with one arm, embarrassed pout",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli"
+  },
+  {
+   "id": "st_hyejin_d3",
+   "size": "stand",
+   "transparent": true,
+   "seed": 1818011,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, solo, solo focus, teenage girl, 17 years old, korean high school student, shaman girl, long straight black hair in a messy high ponytail with a torn red ribbon, sharp amber eyes, clothes almost completely torn away, extreme battle damage, only a white bra and short white korean sokbaji underpants left, shreds of torn white hanbok blouse and navy pleated skirt hanging from her arms and waist, torn black thighhigh tights, five-colored shaman cloth strips tangled around her wrist, standing, full body, looking at viewer, covering her chest and body with both arms, full-face crimson blush, teary eyes, mortified expression",
+   "negative": "multiple views, reference sheet, character sheet, multiple girls, 2girls, clone, duplicate, border, frame, panel, watermark, signature, text, nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli"
+  },
+  {
+   "id": "cg_sp_ex_hit1",
+   "size": "bg",
+   "seed": 1818315,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, teenage girl, 17 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, sharp amber eyes, unique uniform fusing hanbok and school uniform, white jeogori-style blouse with crossed collar, red goreum ribbon, navy vest with brass buttons, long navy pleated chima-style skirt, black tights, school bag with brass shaman bells, five-colored cloth strips on her wrist, exorcism battle in a dark korean residential alley at night, hit by a sweeping giant black shadow claw, shockwave, battle damage stage 1, her white hanbok blouse sleeve and navy skirt hem ripping apart, red goreum ribbon coming untied, stumbling back, surprised angry expression, yellow korean paper talismans flying around, dramatic lighting, dynamic angle, masterpiece, no readable text",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, visible face on shadow, extra arms, bad anatomy, watermark, signature, text, logo, multiple views"
+  },
+  {
+   "id": "cg_sp_ex_hit2",
+   "size": "bg",
+   "seed": 1818316,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, teenage girl, 17 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, sharp amber eyes, unique uniform fusing hanbok and school uniform, exorcism battle in a dark korean residential alley at night, dark ink shockwave erupting from a looming black shadow spirit, heavy battle damage stage 2, brass buttons flying off her torn navy vest, white jeogori blouse ripped open and slipping off her shoulder, white bra and cleavage exposed, navy pleated skirt torn up to the hip revealing torn black tights and bare thighs, five-colored cloth strips snapping, covering her chest with one arm while holding shaman bells, flustered deep blush, shouting in embarrassment, dramatic lighting, dynamic angle, masterpiece, no readable text",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, visible face on shadow, extra arms, bad anatomy, watermark, signature, text, logo, multiple views"
+  },
+  {
+   "id": "cg_sp_ex_hit3",
+   "size": "bg",
+   "seed": 1818317,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, teenage girl, 17 years old, korean high school student, long straight black hair in a messy high ponytail with a red ribbon, sharp amber eyes, exorcism battle in a dark korean residential alley at night, massive red and black spiritual explosion as a glowing golden talisman clashes with a giant shadow spirit, extreme battle damage stage 3, uniform completely blown apart into flying fabric shreds, only a white bra and short white korean sokbaji underpants and shredded black tights remaining, knocked down sitting on the asphalt, covering her chest with both arms, full-face blush, teary eyes, scattered brass shaman bells and paper talismans on the ground, dramatic lighting, masterpiece, no readable text",
+   "negative": "nude, completely nude, topless, nipples, areolae, pussy, genitals, child, loli, visible face on shadow, extra arms, bad anatomy, watermark, signature, text, logo, multiple views"
+  },
+  {
+   "id": "cg_sp_ex_arcade",
+   "size": "bg",
+   "seed": 1818318,
+   "model": "nai-diffusion-5-full-medium",
+   "cast": "hyejin",
+   "prompt": "1girl, solo, teenage girl, 17 years old, korean high school student, long straight black hair in a high ponytail with a red ribbon, sharp amber eyes, casual oversized gaming t-shirt at home in her bedroom at night, wearing gaming headset around neck, sitting at computer desk with a steaming cup of spicy red tteokbokki, glowing monitor and smartphone showing a retro pixel art vertical shoot-em-up game screen, pointing at the monitor in shock and embarrassment, full-face blush, wide eyes, comedic slice of life, warm desk lamp and monitor glow, masterpiece, no readable text",
+   "negative": "nude, nipples, explicit, child, loli, extra limbs, bad hands, watermark, signature, text, logo, multiple views"
   }
  ]
 }

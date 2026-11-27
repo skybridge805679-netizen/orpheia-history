@@ -165,21 +165,26 @@ window.MiniGame=(()=>{
  //   치즈 = 관통, 소시지 = 세 갈래, 삶은 달걀 = 폭탄 하나 더. 80초쯤 버티면 야근 악귀가 나온다. 기록 records.mgBest.tteok.
  const tteokOpen=()=>(records.endings||[]).includes('연표의 신부들');
  const TK={
-  start:['……잠깐, 부적이 왜 빨개? 이거 떡볶이잖아!!','아 몰라, 맵기만 하면 귀신도 쫓기겠지.'],
-  sys:'부적 탄창에 혜진 님의 야식 주문 기록이 섞였어요. 고치는 동안은 그냥 그대로 쏘세요♪',
-  cheese:['치즈 추가! 이건 좀 반칙인데?','치즈가 쭉쭉 늘어나서 뒤에 있는 놈까지 꿰뚫어!'],
-  sausage:['소시지 토핑까지? 오늘 회식이네.','세 갈래 발사! 엽떡 세트 메뉴다.'],
-  egg:['삶은 달걀은 아껴 둬야지…','달걀 하나 더! 위험할 때 X.'],
-  hit:['아 진짜! 교복 세탁비 청구할 거야!','국물 튀었어!! 이거 안 지워진다고!','윽, 먹물 귀신 주제에…!'],
-  bomb:['성불하세요!!','다들 그냥 좀 가라고!!'],
-  boss:'…야근 귀신이다. 이 시간까지 퇴근 못 한 거, 나도 알아. 그러니까 이제 퇴근해.',
-  bossLow:'조금만 더! 결재 서류 그만 던져!',
-  win:'끝! 남은 떡볶이는 내가 먹는다.',
-  lose:'……오늘은 그냥 집 가서 떡볶이 시켜 먹을래.',
+  start:['……잠깐만, 내 경면주사 부적이 왜 시뻘건 국물이야?! 이거 엽떡이잖아!!','아 몰라! 고춧가루 캡사이신도 양기(陽氣)니까 눈에 뵈는 잡귀는 다 태워 버리겠지!'],
+  sys:'부적 탄창에 혜진 님의 배달 앱 야식 주문 기록이 혼선되었어요. 패치하는 동안은 그냥 매운맛으로 성불시키세요♪',
+  cheese:['모차렐라 치즈 두 번 추가!! 이건 귀신도 못 참지!','치즈가 쭉쭉 늘어나서 뒤에 숨은 잡귀까지 한 줄로 꿰뚫어!'],
+  sausage:['비엔나소시지 토핑까지?! 오늘 밤 골목 회식이네!','세 갈래 탄막 발사! 이게 바로 신명고 무악과 특제 세트 메뉴다!'],
+  egg:['삶은 달걀은 아껴 뒀다가 매운 국물 비벼 먹어야 하는데…','특제 삶은 달걀 폭탄 추가! 급할 땐 X키로 성불시켜 버려!'],
+  hit1:['꺄악?! 아 진짜, 내 한복 교복 소매 터졌잖아!! 세탁비 누가 물어 줄 거야!','국물이랑 먹물이 동시에 튀었어!! 이 동정 깃 다림질하느라 삼십 분 걸렸단 말이야!'],
+  hit2:['히익?! 조, 조끼 단추랑 옷고름까지 뜯어지면 어떡해!! 속옷 보인단 말이야, 이 변태 잡귀들아!!','잠깐만, 치마 옆트임이 허벅지까지 찢어졌어!! 밤바람 들어온다고, 그만 좀 쏴!!'],
+  hit3:['으아아앙!! 교복 다 찢어져서 가릴 데도 없단 말이야!! 할머니 신당으로 도망갈래애!!','하, 하얀 속바지랑 브래지어만 남았잖아……! 오늘 밤 골목 방범 CCTV 다 부숴 버릴 거야……!'],
+  bomb:['특제 매운맛 먹고 다들 저승으로 칼퇴근하세요──!!','내 금요일 밤 레이드 방해하지 말고 싹 다 성불하라고오!!'],
+  boss:'……나왔다, 만년 과장급 야근 악귀. 이 시간까지 퇴근 못 한 한은 알겠는데, 내 퇴근길은 막지 마!',
+  bossLow:'거의 다 잡았어! 빨간 도장 찍힌 결재 서류 그만 좀 집어 던져, 이 악귀야!!',
+  win:'후우, 야간 퇴마 완료! ……내 교복 찢어진 건 할머니한테 뭐라고 둘러대지? 일단 남은 떡볶이부터 먹고 생각하자.',
+  lose:'으으…… 교복은 걸레짝이 되고 떡볶이 국물 범벅이고…… 오늘은 그냥 집 가서 이불 뒤집어쓰고 엽떡이나 시켜 먹을래…….',
  };
- const TK_RES={S:'완벽해. 떡볶이로 이 정도면 나 진짜 천재 아니야? 할머니한텐 비밀이야.',A:'꽤 했다. 국물 좀 튄 건 못 본 걸로 해 줘.',
-  B:'뭐, 나쁘지 않네. 치즈 추가할 걸 그랬다.',C:'떡이 너무 굵어서 그래. 다음엔 밀떡으로 쏠 거야.',D:'……오늘은 그냥 집 가서 떡볶이 시켜 먹을래.'};
- const KILL_TXT=['맵다!','매워…!','달다…','성불…','물…!'];
+ const TK_RES={S:'완벽한 무피격 칼퇴근! 떡볶이 한 사발로 골목 잡귀를 쓸어버리다니 나 진짜 신명고 수석 아니야? 할머니한텐 비밀이야.',
+  A:'꽤 선방했다! 교복 소매가 조금 뜯어지긴 했지만, 이 정도면 세탁소 수선 맡기면 감쪽같겠지.',
+  B:'후우, 아슬아슬했어. 치마랑 저고리 고름이 뜯어져서 가슴팍이 다 시려…… 모차렐라 치즈 토핑을 더 챙겼어야 했는데.',
+  C:'으으, 먹물 탄에 맞아서 교복이 반쯤 걸레짝이 됐잖아……! 다음엔 쌀떡 말고 쫄깃한 밀떡으로 쏴서 다 갚아 줄 거야.',
+  D:'히잉…… 교복은 속옷만 남고 다 찢어지고, 떡볶이 국물까지 뒤집어썼어…… 슬냥이 언니한테 오늘 레이드 못 간다고 톡 해야지…….'};
+ const KILL_TXT=['맵다!','캡사이신…!','쿨피스…!','성불…!','칼퇴근…!'];
  function tteok(){
   const a=frame({title:'떡볶이 퇴마',sub:'MINI GAME · 혜진',back:lobby,score:''});
   const hud=dlg.querySelector('.mgx-score');
@@ -188,21 +193,23 @@ window.MiniGame=(()=>{
    <div class="mgx-sh-stage"><canvas width="480" height="640"></canvas><div class="mgx-sh-over" data-over hidden></div></div>
    <aside class="mgx-sh-panel">
     <div class="sp-score"><small>HI-SCORE</small><b data-hi></b><small>SCORE</small><b class="now" data-sc>0</b></div>
-    <dl class="sp-stat"><dt>목숨</dt><dd data-life></dd><dt>달걀</dt><dd data-egg></dd><dt>스침</dt><dd data-graze>0</dd></dl>
+    <dl class="sp-stat"><dt>목숨</dt><dd data-life></dd><dt>교복</dt><dd data-cloth>멀쩡함</dd><dt>달걀</dt><dd data-egg></dd><dt>스침</dt><dd data-graze>0</dd></dl>
     <div class="sp-block"><h5>토핑</h5><div data-top></div></div>
     <div class="sp-block"><h5 data-stl>야근 악귀까지</h5><div class="sp-bar"><u data-stage></u></div></div>
-    <div class="sp-keys"><p><kbd>마우스</kbd><kbd>←↑→↓</kbd> 이동 · 떡볶이 자동 발사</p><p><kbd>Shift</kbd> 천천히, 판정 점</p><p><kbd>X</kbd><kbd>우클릭</kbd> 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤 · 탄을 스치면 점수</p></div>
+    <div class="sp-keys"><p><kbd>마우스</kbd><kbd>←↑→↓</kbd> 이동 · 떡볶이 자동 발사</p><p><kbd>Shift</kbd> 천천히, 판정 점</p><p><kbd>X</kbd><kbd>우클릭</kbd> 삶은 달걀 「성불하세요!」</p><p><kbd>P</kbd> 멈춤 · 탄에 맞을 때마다 교복이 찢어져요</p></div>
    </aside></div>`;
   const cv=a.querySelector('canvas'),g=cv.getContext('2d'),W=480,H=640;
   const sayEl=a.querySelector('[data-say]'),sysEl=a.querySelector('[data-sys]'),who=a.querySelector('.mgx-sh-who img'),over=a.querySelector('[data-over]');
   const img=n=>{const i=new Image();i.src=asset(n);return i;};
-  const IM={me:img('st_hyejin_serious.webp'),hurt:img('st_hyejin_surprised.webp'),man:img('mob_man_modern.webp')};
+  const IM={me:img('st_hyejin_serious.webp'),hurt:img('st_hyejin_surprised.webp'),d1:img('st_hyejin_d1.webp'),d2:img('st_hyejin_d2.webp'),d3:img('st_hyejin_d3.webp'),man:img('mob_man_modern.webp')};
   // 도트 그림(tk_*). 아직 없으면 캔버스로 그린다.
   const SP={};for(const n of ['hyejin','hyejin_hurt','tteok','item_cheese','item_sausage','item_egg','wisp','sheet','man','boss','paper','bg_alley'])SP[n]=img(`tk_${n}.webp`);
   const ok=i=>i&&i.complete&&i.naturalWidth>0;
   const blit=(im,x,y,h,ax=.5,ay=.5)=>{const w=h*im.naturalWidth/im.naturalHeight;g.drawImage(im,x-w*ax,y-h*ay,w,h);};
   g.imageSmoothingEnabled=false;
-  let sayT=0;const say=(t,face='smile',force)=>{if(!force&&sayT>0)return;sayEl.textContent=Array.isArray(t)?pick(t):t;who.src=asset(`st_hyejin_${face}.webp`);sayT=2.2;};
+  let sayT=0,dmg=0,ripT=0;
+  const faceSrc=face=>dmg>=3?asset('st_hyejin_d3.webp'):dmg===2?asset('st_hyejin_d2.webp'):dmg===1?asset('st_hyejin_d1.webp'):asset(`st_hyejin_${face}.webp`);
+  const say=(t,face='smile',force)=>{if(!force&&sayT>0)return;sayEl.textContent=Array.isArray(t)?pick(t):t;who.src=faceSrc(face);sayT=2.4;};
   // 상태
   const P={x:W/2,y:H-80,inv:0,lives:3,bombs:2,cheese:0,sausage:0,fire:0};
   let shots=[],foes=[],ebul=[],items=[],fx=[],texts=[],t=0,spawn=1.2,score=0,kills=0,hits=0,boss=null,bossDone=false,ended=false,paused=false,flashT=0,mouse=null,lastHud=0,graze=0,spellT=0,spellName='';
@@ -240,7 +247,10 @@ window.MiniGame=(()=>{
   ];
   function bomb(){if(ended||paused||P.bombs<=0)return;P.bombs--;ebul=[];flashT=.6;P.inv=Math.max(P.inv,1.5);say(TK.bomb,'angry',true);sfx('vb_purify');
    for(const f of foes){f.hp-=15;if(f.hp<=0)kill(f);}foes=foes.filter(f=>f.hp>0);if(boss){boss.hp-=25;}}
-  function hurt(){if(P.inv>0||ended)return;P.lives--;hits++;P.inv=2;ebul=[];sfx('wrong');say(TK.hit,'surprised',true);if(P.lives<=0)finish(false);}
+  function hurt(){if(P.inv>0||ended)return;P.lives--;hits++;dmg=Math.min(3,hits);ripT=1.1;P.inv=2;ebul=[];sfx('vb_rip');
+   for(let i=0;i<14;i++)fx.push({x:P.x+(Math.random()-.5)*24,y:P.y+(Math.random()-.5)*24,vx:(Math.random()-.5)*220,vy:(Math.random()-.5)*220,t:0,cloth:true});
+   texts.push({x:P.x,y:P.y-20,txt:dmg===1?'찌익─! 교복 손상!':dmg===2?'파앗─! 옷고름 파열!':'콰아앙─! 교복 대파!!',t:0});
+   say(TK['hit'+dmg],'surprised',true);paintHud();if(P.lives<=0)finish(false);}
   // 그리기 도우미
   const tteokShape=(x,y,big)=>{const w=big?9:7,h=big?24:20;g.save();g.translate(x,y);g.fillStyle='#d8341f';g.beginPath();g.roundRect(-w/2,-h/2,w,h,w/2);g.fill();
    g.fillStyle='#ff8a5c';g.fillRect(-w/2+2,-h/2+4,2,h-9);g.fillStyle='#fff4d6';g.fillRect(1,-3,1.6,1.6);g.fillRect(-1,4,1.6,1.6);g.restore();};
@@ -257,7 +267,7 @@ window.MiniGame=(()=>{
   let last=performance.now();
   const step=ts=>{raf=requestAnimationFrame(step);const dt=Math.min(.05,(ts-last)/1000);last=ts;
    if(!paused){if(!ended)update(dt);else{t+=dt;for(const p of fx){p.t+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;}fx=fx.filter(p=>p.t<.6);for(const x of texts){x.t+=dt;x.y-=30*dt;}texts=texts.filter(x=>x.t<.9);}}draw();};
-  function update(dt){t+=dt;sayT-=dt;P.inv-=dt;P.cheese-=dt;P.sausage-=dt;flashT-=dt;
+  function update(dt){t+=dt;sayT-=dt;ripT-=dt;P.inv-=dt;P.cheese-=dt;P.sausage-=dt;flashT-=dt;
    // 움직임
    const slow=keys.Shift?.45:1,sp=330*slow;let mx=(keys.ArrowRight||keys.d?1:0)-(keys.ArrowLeft||keys.a?1:0),my=(keys.ArrowDown||keys.s?1:0)-(keys.ArrowUp||keys.w?1:0);
    if(mx||my){const l=Math.hypot(mx,my);P.x+=mx/l*sp*dt;P.y+=my/l*sp*dt;}else if(mouse){const dx=mouse.x-P.x,dy=mouse.y-P.y,l=Math.hypot(dx,dy);if(l>1){const m=Math.min(l,sp*1.4*dt);P.x+=dx/l*m;P.y+=dy/l*m;}}
@@ -296,13 +306,15 @@ window.MiniGame=(()=>{
    items=items.filter(i=>!i.got&&i.y<H+20);
    for(const p of fx){p.t+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;}fx=fx.filter(p=>p.t<.6);
    for(const x of texts){x.t+=dt;x.y-=30*dt;}texts=texts.filter(x=>x.t<.9);
-   if(sayT<-3)say(pick([['오늘 학원 숙제도 있는데…'],['길드 레이드 출발했겠다…'],['떡 아깝다, 진짜.'],['이거 끝나면 치즈 추가해서 시켜 먹어야지.']]));
+   if(sayT<-3)say(pick([['오늘 신명고 부적학 숙제도 있는데…'],['슬냥이 언니네 길드 레이드 벌써 출발했겠다…'],['이 귀한 엽떡을 잡귀한테 쏘다니 아깝다, 진짜.'],['이거 끝나면 모차렐라 치즈 두 번 추가해서 시켜 먹어야지.']]));
    if(now()-lastHud>120){lastHud=now();paintHud();}}
   const now=()=>performance.now();
   const pane=k=>a.querySelector(`[data-${k}]`);const hiEl=pane('hi');hiEl.textContent=best.toLocaleString();
   const TOP=[['cheese','치즈','#ffd84a','꿰뚫는 떡'],['sausage','소시지','#ff8a66','세 갈래']];
+  const CLOTH_TXT=['멀쩡함','찢어짐 1','찢어짐 2','완전 대파'];
   const paintHud=()=>{hud.innerHTML='';pane('sc').textContent=score.toLocaleString();if(score>best)hiEl.textContent=score.toLocaleString();
    pane('life').innerHTML='<b>'+'♥'.repeat(Math.max(0,P.lives))+'</b><i>'+'♥'.repeat(Math.max(0,3-P.lives))+'</i>';
+   pane('cloth').innerHTML=`<b style="color:${dmg>=3?'#ff4d6d':dmg===2?'#ff9e66':dmg===1?'#ffd84a':'#a8e6cf'}">${CLOTH_TXT[dmg]}</b>`;
    pane('egg').innerHTML=Array.from({length:5},(_,k)=>`<img class="${k<P.bombs?'':'off'}" src="${asset('tk_item_egg.webp')}" alt="">`).join('');
    pane('graze').textContent=graze;
    const on=TOP.filter(([k])=>P[k]>0);pane('top').innerHTML=on.length?on.map(([k,n,c,d])=>`<p><b style="color:${c}">${n}</b> ${d}<span class="sp-bar small"><u style="width:${Math.max(0,P[k]/8*100)}%;background:${c}"></u></span></p>`).join(''):'<p class="dim">없음</p>';
@@ -330,9 +342,10 @@ window.MiniGame=(()=>{
    for(const e of ebul){g.save();if(e.paper&&ok(SP.paper)){g.translate(e.x,e.y);g.rotate(e.rot);blit(SP.paper,0,0,22);}else if(e.paper){g.translate(e.x,e.y);g.rotate(e.rot);g.fillStyle='#f3efe4';g.fillRect(-7,-9,14,18);g.fillStyle='#c33';g.fillRect(-4,-5,8,2);}
     else{g.shadowColor='#b05cff';g.shadowBlur=10;g.fillStyle='#2a0d3a';g.beginPath();g.arc(e.x,e.y,e.r,0,7);g.fill();g.strokeStyle='#d6a8ff';g.lineWidth=1.5;g.stroke();}g.restore();}
    // 혜진
-   if(!(P.inv>0&&Math.floor(P.inv*12)%2)){const pix=P.inv>1?SP.hyejin_hurt:SP.hyejin;if(ok(pix)){const bob=Math.sin(t*4)*3;g.strokeStyle='#ffffff55';g.lineWidth=1.5;for(let k=0;k<3;k++){const wx=P.x-14+k*14,wy=P.y+30+((t*260+k*23)%40);g.beginPath();g.moveTo(wx,wy);g.lineTo(wx,wy+12);g.stroke();}blit(pix,P.x,P.y+bob,96,.5,.62);}else{const im=P.inv>1?IM.hurt:IM.me;const h=96,w=h*0.684;if(im.complete&&im.naturalWidth)g.drawImage(im,P.x-w/2,P.y-h*.62,w,h);else{g.fillStyle='#fff';g.fillRect(P.x-8,P.y-20,16,40);}}}
+   if(!(P.inv>0&&Math.floor(P.inv*12)%2)){const pix=(P.inv>1||dmg>=2)?SP.hyejin_hurt:SP.hyejin;if(ok(pix)){const bob=Math.sin(t*4)*3;g.strokeStyle='#ffffff55';g.lineWidth=1.5;for(let k=0;k<3;k++){const wx=P.x-14+k*14,wy=P.y+30+((t*260+k*23)%40);g.beginPath();g.moveTo(wx,wy);g.lineTo(wx,wy+12);g.stroke();}blit(pix,P.x,P.y+bob,96,.5,.62);}else{const im=dmg>=1&&ok(IM['d'+dmg])?IM['d'+dmg]:P.inv>1?IM.hurt:IM.me;const h=96,w=h*0.684;if(im.complete&&im.naturalWidth)g.drawImage(im,P.x-w/2,P.y-h*.62,w,h);else{g.fillStyle='#fff';g.fillRect(P.x-8,P.y-20,16,40);}}}
    if(keys.Shift){g.fillStyle='#fff';g.strokeStyle='#f33';g.lineWidth=2;g.beginPath();g.arc(P.x,P.y,4,0,7);g.fill();g.stroke();}
-   for(const p of fx){g.fillStyle=`rgba(255,${120+Math.random()*80|0},80,${1-p.t/.6})`;g.fillRect(p.x,p.y,3,3);}
+   for(const p of fx){g.fillStyle=p.cloth?`rgba(245,240,255,${1-p.t/.6})`:`rgba(255,${120+Math.random()*80|0},80,${1-p.t/.6})`;g.fillRect(p.x,p.y,p.cloth?5:3,p.cloth?5:3);}
+   if(ripT>0&&dmg>=1){const im=IM['d'+dmg];g.save();g.globalAlpha=Math.min(.92,ripT*1.2);g.fillStyle='rgba(40,8,24,0.45)';g.fillRect(0,0,W,H);if(ok(im))blit(im,W/2,H*.54,420,.5,.5);g.fillStyle='#ff4d6d';g.font='bold 26px serif';g.textAlign='center';g.fillText(dmg===1?'교복 손상 (1/3)':dmg===2?'교복 파열 (2/3)':'교복 완전 대파!! (3/3)',W/2,H*.16);g.restore();}
    g.textAlign='center';g.font='bold 15px sans-serif';for(const x of texts){g.fillStyle=`rgba(255,230,160,${1-x.t/.9})`;g.fillText(x.txt,x.x,x.y);}
    if(flashT>0){g.fillStyle=`rgba(255,250,235,${flashT})`;g.fillRect(0,0,W,H);g.fillStyle=`rgba(200,40,30,${flashT*1.5})`;g.font='bold 40px serif';g.fillText('성불하세요!',W/2,H/2);}
    if(paused){g.fillStyle='#000a';g.fillRect(0,0,W,H);g.fillStyle='#fff';g.font='bold 28px sans-serif';g.fillText('잠깐 멈춤 · P',W/2,H/2);}
@@ -341,9 +354,11 @@ window.MiniGame=(()=>{
    const r=won&&sc>=40000?'S':sc>=25000?'A':sc>=15000?'B':sc>=7000?'C':'D';
    if(!won){say(TK.lose,'pout',true);}
    setTimeout(()=>{stopTimer();keyFn=null;const b=records.mgBest||(records.mgBest={});const nb=sc>(b.tteok||0);if(nb){b.tteok=sc;save();}
+    const resImg=!won||dmg>=3?'cg_sp_ex_hit3.webp':dmg===2?'cg_sp_ex_hit2.webp':dmg===1?'cg_sp_ex_hit1.webp':r==='S'||r==='A'?'tk_win.webp':r==='D'?'tk_lose.webp':'tk_win.webp';
+    const resFb=dmg>=1?`st_hyejin_d${dmg}.webp`:`st_hyejin_${r==='S'||r==='A'?'smile':r==='B'?'neutral':'pout'}.webp`;
     result({title:'떡볶이 퇴마',score:sc.toLocaleString(),max:0,best:Math.max(best,sc).toLocaleString(),nb,r,unit:'점',again:tteok,noteTitle:'오늘 밤 근무 기록',
-     who:{name:'혜진',img:r==='S'||r==='A'?'tk_win.webp':r==='D'||!won?'tk_lose.webp':'tk_win.webp',fb:`st_hyejin_${r==='S'||r==='A'?'smile':r==='B'?'neutral':'pout'}.webp`,line:TK_RES[r]},
-     notes:[`쓰러뜨린 잡귀 ${kills}`,won?`야근 악귀 퇴근시킴 (남은 하트 ${P.lives} × 2,000 · 달걀 ${P.bombs} × 500)`:'야근 악귀는 아직 사무실에 있어요',`아슬아슬하게 스친 탄 ${graze}`,`맞은 횟수 ${hits}`]});},won?200:1400);}
+     who:{name:'혜진',img:resImg,fb:resFb,line:TK_RES[r]},
+     notes:[`쓰러뜨린 잡귀 ${kills}`,won?`야근 악귀 퇴근시킴 (남은 하트 ${P.lives} × 2,000 · 달걀 ${P.bombs} × 500)`:'야근 악귀는 아직 사무실에 있어요',`아슬아슬하게 스친 탄 ${graze}`,`맞은 횟수 ${hits} (교복 상태: ${CLOTH_TXT[dmg]})`]});},won?200:1400);}
   say(TK.start,'surprised',true);sysEl.innerHTML=`<b>ORPHEIA</b> ${esc(TK.sys)}`;paintHud();sfx('vb_start');
   raf=requestAnimationFrame(step);
  }
