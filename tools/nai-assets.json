@@ -5144,6 +5144,64 @@
      "y": 0.5
     }
    ]
+  },
+  {
+   "id": "st_ungnyeo_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, smile"
+  },
+  {
+   "id": "st_ungnyeo_neutral",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, light smile, closed mouth",
+   "init": "assets/st_ungnyeo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ungnyeo_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, worried, frown",
+   "init": "assets/st_ungnyeo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ungnyeo_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, tears, smile",
+   "init": "assets/st_ungnyeo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ungnyeo_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, angry, frown, hand on own hip",
+   "init": "assets/st_ungnyeo_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_ungnyeo_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711101,
+   "cast": "ungnyeo",
+   "prompt": "solo, mature female, korean clothes, hanbok, white shirt, brown skirt, long skirt, apron, hairpin, holding basket, standing, full body, looking at viewer, surprised, open mouth",
+   "init": "assets/st_ungnyeo_smile.webp",
+   "strength": 0.5
   }
  ]
 }
