@@ -4839,7 +4839,7 @@
    "seed": 1818011,
    "cast": "hyejin",
    "style": "pixel art, limited palette, sprite, chibi, {best quality, very aesthetic}",
-   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, holding folding fan, bell, full body, standing"
+   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, facing away, full body, holding folding fan, arm up"
   },
   {
    "id": "tk_hyejin_hurt",
@@ -4848,7 +4848,7 @@
    "seed": 1818011,
    "cast": "hyejin",
    "style": "pixel art, limited palette, sprite, chibi, {best quality, very aesthetic}",
-   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, holding folding fan, bell, full body, standing, surprised, open mouth, wavy mouth, sweat, sauce on clothes"
+   "prompt": "solo, school uniform, hanbok, red hair ribbon, white shirt, red ribbon, navy vest, long skirt, pleated skirt, black pantyhose, loafers, from behind, facing away, full body, holding folding fan, arm up, surprised, sweat"
   },
   {
    "id": "tk_tteok",
@@ -4912,7 +4912,7 @@
    "transparent": true,
    "seed": 2711008,
    "style": "pixel art, limited palette, sprite, chibi, {best quality, very aesthetic}",
-   "prompt": "1boy, solo, ghost, salaryman, suit, loose necktie, faceless, glowing eyes, red eyes, black aura, holding paper, giant, from below, full body"
+   "prompt": "1boy, solo, ghost, salaryman, suit, loose necktie, faceless, glowing eyes, red eyes, black aura, holding paper, full body, simple background"
   },
   {
    "id": "tk_paper",
@@ -4927,7 +4927,7 @@
    "size": "stand",
    "seed": 2711010,
    "style": "pixel art, limited palette, {best quality, very aesthetic}",
-   "prompt": "no humans, scenery, night, road, crosswalk, lamppost, utility pole, power lines, building, from above, dark"
+   "prompt": "no humans, scenery, from above, road, crosswalk, night, lamppost, power lines, dark"
   },
   {
    "id": "cg_mg_tteok",
