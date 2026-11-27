@@ -143,6 +143,7 @@ try {
   const naiLog = JSON.parse(fs.readFileSync(rel('tools/nai-log.json'), 'utf8'));
   const naiAssets = JSON.parse(fs.readFileSync(rel('tools/nai-assets.json'), 'utf8'));
   const bmap = rules.character_breast_map || {};
+  const loliSet = new Set(rules.loli_characters || []);
   const badRe = (rules.forbidden_patterns || []).map(p => new RegExp(p, 'i'));
   const aliasRe = Object.keys(rules.tag_replacements || {}).map(k => [k, new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i')]);
   const tierOf = b => b <= 78 ? 'flat chest' : b <= 82 ? 'small breasts' : b <= 88 ? 'medium breasts' : b <= 93 ? 'large breasts' : 'huge breasts';
@@ -161,6 +162,11 @@ try {
       if (!tiers.includes(bmap[cast])) E(where, `${cast} 가슴 크기 태그 '${bmap[cast]}' 누락`);
       const wrong = tiers.find(t => t !== bmap[cast]);
       if (wrong) E(where, `${cast} 가슴 크기 태그 충돌: '${wrong}' (기준: '${bmap[cast]}')`);
+    }
+    if (cast) {
+      const hasLoli = /\bloli\b/i.test(posOnly);
+      if (loliSet.has(cast) && !hasLoli) E(where, `${cast}에게 필수인 'loli' 태그 누락 (tools/nai-rules.json)`);
+      if (!loliSet.has(cast) && hasLoli) E(where, `${cast}에게는 'loli' 태그를 쓰지 않음 (설아·울림·단비 전용)`);
     }
   };
   for (const [cid, entry] of Object.entries(naiLog)) {

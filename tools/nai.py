@@ -22,7 +22,18 @@ def sanitize_prompt(text, cast=None):
     for bad, good in RULES.get("tag_replacements", {}).items():
         s = re.sub(r"\b" + re.escape(bad) + r"\b", good, s, flags=re.IGNORECASE)
     bmap = RULES.get("character_breast_map", {})
+    loli_set = set(RULES.get("loli_characters", []))
     cid = cast if isinstance(cast, str) else (cast[0] if isinstance(cast, list) and len(cast) == 1 else None)
+    if cid:
+        parts = re.split(r"(-?\d+(?:\.\d+)?::[^:]+::)", s)
+        if cid in loli_set:
+            has_loli = any(re.search(r"\bloli\b", parts[idx], flags=re.IGNORECASE) for idx in range(0, len(parts), 2))
+            if not has_loli:
+                parts[0] = f"loli, {parts[0]}"
+        else:
+            for idx in range(0, len(parts), 2):
+                parts[idx] = re.sub(r"\bloli\b,?\s*", "", parts[idx], flags=re.IGNORECASE)
+        s = "".join(parts)
     if cid and cid in bmap:
         tier = bmap[cid]
         # 네거티브 가중치 블록(-3::...::) 바깥의 가슴 크기 태그를 해당 캐릭터의 구간 태그로 통일하고, 없으면 앞에 붙인다

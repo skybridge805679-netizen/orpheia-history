@@ -88,6 +88,7 @@
   1. **단부루 정식 태그 + 자연어 보충**: 단부루(Danbooru)에 등록된 정식 태그들로 작성하고, 단부루 태그만으로 부족한 한국사 고유 복식·구도·상황 묘사는 자연어로 설명해 채운다.
   2. **무의미한 나이·세대 정보 금지**: `14 years old`~`18 years old`, `teenage girl`, `adult woman`, `short stature` 등 단부루에 없는 나이·세대 문구는 프롬프트를 오염시키므로 절대 쓰지 않는다.
   3. **스리사이즈(BWH) 구간별 5단계 가슴 크기 태그**: `data/profiles.js`의 바스트(B) 구간에 따라 캐릭터당 정확히 1개만 부여한다(`B ≤ 78`: `flat chest` / `B 79~82`: `small breasts` / `B 83~88`: `medium breasts` / `B 89~93`: `large breasts` / `B ≥ 94`: `huge breasts`).
-  4. **자동 적용 및 검증 로직**: `tools/nai.py`(`sanitize_prompt`)와 `tools/nai_batch.py`가 생성 시마다 `tools/nai-rules.json`을 읽어 금지 문구 제거·단부루 정식 태그 치환·캐릭터별 가슴 크기 태그 동기화를 자동으로 수행하며, `node tools/lint.js`도 이를 상시 검증한다. 새 캐릭터를 추가할 때는 `data/profiles.js`의 BWH에 맞춰 `tools/nai-log.json`과 `tools/nai-rules.json`에 함께 등록한다.
+  4. **`loli` 태그 적용 대상 고정**: `loli` 태그는 오직 **설아(`seola`), 울림(`ullim`), 단비(`danbi`)** 3명에게만 적용하며, 나머지 캐릭터에는 적용하지 않는다.
+  5. **자동 적용 및 검증 로직**: `tools/nai.py`(`sanitize_prompt`)와 `tools/nai_batch.py`가 생성 시마다 `tools/nai-rules.json`을 읽어 금지 문구 제거·단부루 정식 태그 치환·캐릭터별 가슴 크기 및 `loli` 태그 동기화를 자동으로 수행하며, `node tools/lint.js`도 이를 상시 검증한다. 새 캐릭터를 추가할 때는 `data/profiles.js`의 BWH에 맞춰 `tools/nai-log.json`과 `tools/nai-rules.json`에 함께 등록한다.
 - 작업실 배경은 시각에 따라 `bg_studio_night`(밤)·`bg_studio_dawn`(귀환·새벽 3~5시)·`bg_studio_morning`(아침)을 쓰고, 외전 집 장면은 `bg_home_kitchen`·`bg_home_living`. 다이브 장면 첫머리에 그 장면을 보여 주는 CG(설정 컷)를 두고 첫 인물이 서기 전에 배경으로 돌린다(2026.11 에셋 100장 추가 때 정한 틀). 대사·서술 두 줄 안에 다음 `@bg`로 넘어가는 짧은 컷은 실행기가 곡을 바꾸지 않는다(`vn.js` `shortCut`, 한 줄짜리 그림에 사건 곡이 끼어드는 것 막기). 히로인 만남 컷은 그 히로인의 첫마디까지 그림 위에서 하고 배경으로 돌린다(2026.11 주인님 지정: 그림만 달랑 나오는 의미 없는 이벤트 금지).
 - 테스트는 시간이 오래 걸리므로 주인님이 원할 때만 돌린다. 평소엔 `node --check story/*.js`.
