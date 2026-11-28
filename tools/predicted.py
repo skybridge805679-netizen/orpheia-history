@@ -1205,7 +1205,9 @@ add("ch13","지역사","지역사(제주)","(가) 지역에 대한 탐구 활동
 def remake(n, topic, q, fig, ctx, ans, reason, wrong, clue, take, basis=None):
     d=Q[n-1]; d.update(topic=topic,q=q,fig=fig,ctx=ctx,ans=ans,reason=reason,wrong=wrong,clue=clue,take=take,pics=None)
     if basis: d['basis']=basis
-F_=lambda n,who,line,inner: FRAME(f"qs_f{n}",who,line,inner) if (ROOT/f"assets/qs_f{n}.webp").exists() else inner
+# 진행자 그림을 아직 쓰지 않는 문항(검수에서 걸림: 2026.11.28 qs_f80·166·167 노출 — 다시 뽑거나 손볼 때까지 자료만)
+F_SKIP={80,166,167}
+F_=lambda n,who,line,inner: FRAME(f"qs_f{n}",who,line,inner) if (ROOT/f"assets/qs_f{n}.webp").exists() and n not in F_SKIP else inner
 remake(4,"고조선","(가) 나라에 대한 설명으로 옳은 것은?",
  saryo([("","좌장군이 (가)의 왕검성을 급히 공격하였다. 조선상 노인, 상 한음, 니계상 참, 장군 왕겹이 서로 의논하여 항복하려 하였으나 우거왕이 듣지 않았다. …… 니계상 참이 사람을 시켜 우거왕을 죽이고 와서 항복하였다.".replace("(가)",BL()))],"『사기』"),
  "[사료] 좌장군이 (가)의 왕검성을 급히 공격하였다. 조선상 노인, 상 한음, 니계상 참, 장군 왕겹이 항복을 의논하였으나 우거왕이 듣지 않았다. 니계상 참이 우거왕을 죽이고 항복하였다. ─ 『사기』",
