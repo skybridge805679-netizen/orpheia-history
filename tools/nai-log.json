@@ -444,6 +444,16 @@
    "home": "hair down from buns, red satin pajama shirt with chinese frog buttons unbuttoned at collar, short black satin pajama shorts, barefoot"
   }
  },
+ "celeste": {
+  "seed": 1866101,
+  "bwh": "96 · 58 · 95",
+  "breast_tier": "huge breasts",
+  "looks": "1girl, tall female, curvy, huge breasts, vampire, fangs, pink hair, strawberry blonde hair, long hair, wavy hair, drill hair, purple eyes, pale skin",
+  "outfits": {
+   "default": "joseon dark silk jangot cloak hood draped over head and shoulders, 19th century french aristocratic gothic black and crimson velvet corset dress underneath, black lace choker with a small silver cross pendant, deep cleavage, long layered bustle skirt, black lace gloves, holding a black lace parasol and a royal uigwe manuscript book",
+   "home": "pink blonde wavy hair let down, sheer black lace nightgown slip with crimson ribbon trim, deep cleavage, holding a crystal wine glass of red tomato juice, barefoot"
+  }
+ },
  "sangcheol": {
   "seed": 1010101,
   "bwh": "비공개",
@@ -462,5 +472,14 @@
    "default": "wooden hairpin, hair flower, korean clothes, hanbok, white jeogori with red floral collar and cuffs, red goreum ribbon, long deep brown chima skirt, norigae tassel at waist, embroidered shoes, holding woven basket"
   }
  },
- "celeste": "1girl, blonde hair, very long hair, drill hair, red eyes, pale skin, fang, medium breasts"
+ "celeste": {
+  "seed": 1866101,
+  "bwh": "96 · 58 · 95",
+  "breast_tier": "huge breasts",
+  "looks": "1girl, tall female, curvy, huge breasts, vampire, pink hair, strawberry blonde hair, long hair, wavy hair, drill hair, purple eyes, pale skin, fangs",
+  "outfits": {
+   "default": "french aristocratic gothic black and crimson velvet corset dress, joseon dark silk jangot cloak draped over head and shoulders, black lace choker with silver cross pendant, black lace gloves, holding a black lace parasol and an ancient joseon royal uigwe book",
+   "home": "long wavy pink-blonde hair let down, sheer black lace nightgown slip with crimson ribbon trim, deep cleavage, holding a crystal wine glass of red tomato juice, barefoot, relaxed at home"
+  }
+ }
 }
