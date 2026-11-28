@@ -684,7 +684,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [오르페이아] (반면 1883년 박문국에서 열흘마다 펴낸 우리나라 최초의 신문인 『한성순보』는 순한문 신문이었어요!)
 @hide all
 @battle muk skin=donghak
-@quiz 72-30 81-19 81-20 81-81 81-82 81-83
+@quiz 72-30 자작-19 자작-20 자작-81 자작-82 자작-83
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -710,7 +710,7 @@ VN.chapter('ch14','제14장','검은 배, 세 번의 격변',`
 [오르페이아|surprised] 아까부터 여쭙고 싶었는데, 사연 님 그 개항기 서양 드레스, 뒤쪽 치마가 볼록하고 가슴선이 파여서 엄청 고혹적이에요! ……좋아요, 이번 잔향은 개항기 숙녀 사연 님께 맡길게요! 저는 옆에서 레이스 양산 들어 드릴게요!
 @hide all
 @battle muk stage2 skin=donghak ally=sayeon askin=sy_bustle
-@quiz 81-136 81-137 81-138
+@quiz 자작-136 자작-137 자작-138
 @battle end
 @bgm bgm_muk
 @show muk lonely center

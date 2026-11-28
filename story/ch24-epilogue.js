@@ -244,7 +244,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [나] 읽을게. 한 글자도 흘리지 않고, 끝까지.
 @hide all
 @battle muk skin=pages
-@quiz 81-108 81-113 81-114 81-115 81-116 81-117
+@quiz 자작-108 자작-113 자작-114 자작-115 자작-116 자작-117
 @battle end
 @bg cg_ink_spread
 @bgm bgm_muk
@@ -326,7 +326,7 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [윤슬|serious] 오르페이아 언니, 나 혹시 틀려도 비웃기 없기다?
 [오르페이아|smile] 틀리면 주인님 오답 노트에 정다운 글씨가 한 줄 늘어날 뿐인걸요. 거기엔 묵이 심심해하며 기다리고 있잖아요.
 @hide all
-@quiz 81-48 81-49 81-50 81-51 81-52 81-84 81-85 81-86 81-87
+@quiz 자작-48 자작-49 자작-50 자작-51 자작-52 자작-84 자작-85 자작-86 자작-87
 @phone on
 @show orpheia excited center
 @if quizFirst >= 7 -> finalok

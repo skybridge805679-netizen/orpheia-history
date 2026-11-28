@@ -7,6 +7,8 @@ const figSrc=src=>{if(/^(https?:|data:|assets\/)/.test(src))return src;const p=s
 const KEY='orpheia-history-v1';
 let records={textSpeed:window.matchMedia?.('(prefers-reduced-motion: reduce)').matches?0:28,quiz:{}};
 try{const raw=JSON.parse(localStorage.getItem(KEY)||'null');if(raw&&typeof raw==='object')records={...records,...raw};}catch{}
+// 2026.11.28: 오르페이아가 만든 문제의 키를 81-N → 자작-N으로 옮겼다(진짜 제81회 기출이 81-N을 쓴다). 예전 풀이 기록을 한 번만 옮긴다.
+if(!records.migJajak){const q=records.quiz||{};for(const k of Object.keys(q))if(/^81-\d+$/.test(k)){q['자작-'+k.slice(3)]=q[k];delete q[k];}records.migJajak=1;}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(records));}catch{}}
 function toast(t){const n=$('#toast');n.textContent=t;n.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>n.style.display='none',2600);}
 // 문항별 기록: 푼 횟수, 첫 시도 정답, 최근 정답 여부.

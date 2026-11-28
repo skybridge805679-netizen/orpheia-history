@@ -17,7 +17,7 @@ const Quiz=(()=>{
  const lastRound=()=>Math.max(...QS.filter(q=>!q.pred).map(q=>q.r));
  function stats(){const t=QS.length,seen=QS.filter(q=>records.quiz[key(q)]).length,right=QS.filter(q=>records.quiz[key(q)]?.last).length;return {total:t,seen,right};}
  // 고르는 규칙: 안 푼 문항 → 최근에 틀린 문항 → 나머지 순으로 섞어서 뽑는다.
- // 제81회 예상 모의고사: 기출 회당 평균 시대 비중(docs/출제-분석.md)대로 예상 문제에서 50문항을 시험지 순서로 뽑는다.
+ // 자작문제 모의고사: 기출 회당 평균 시대 비중(docs/출제-분석.md)대로 자작문제(오르페이아가 만든 문제, 키 자작-N)에서 50문항을 시험지 순서로 뽑는다.
  const MOCK_QUOTA={'선사':1,'초기국가':1,'삼국':4,'남북국':4,'고려':7,'조선전기':4,'조선후기':5,'근대':7,'일제강점기':9,'현대':5,'통합':3};
  function mockList(){const out=[];for(const [e,n] of Object.entries(MOCK_QUOTA))out.push(...QS.filter(q=>q.pred&&q.era===e).sort((a,b)=>(b.w||0)-(a.w||0)||a.n-b.n).slice(0,n).sort((a,b)=>a.n-b.n));return out;}
  function choose(pool,n){
@@ -26,7 +26,7 @@ const Quiz=(()=>{
   return sh.slice(0,n);
  }
  function select(arg){
-  const toks=String(arg||'').trim().split(/\s+/).filter(Boolean),keys=toks.filter(t=>/^\d+-\d+$/.test(t)),opt=Object.fromEntries(toks.filter(t=>t.includes('=')).map(t=>t.split('=')));
+  const toks=String(arg||'').trim().split(/\s+/).filter(Boolean),keys=toks.filter(t=>/^(\d+|자작)-\d+$/.test(t)),opt=Object.fromEntries(toks.filter(t=>t.includes('=')).map(t=>t.split('=')));
   if(keys.length)return keys.map(k=>QBY[k]).filter(Boolean);
   let pool=QS;
   if(opt.era)pool=pool.filter(q=>opt.era.split(',').includes(q.era));
@@ -47,7 +47,7 @@ const Quiz=(()=>{
  function figure(q){
   const f=FIG()[key(q)];
   if(!f)return `<div class="qz-ctx">${esc(q.ctx)}</div>`;
-  return `<figure class="qz-fig"><img src="${esc(figSrc(f.src))}" width="${f.width}" height="${f.height}" alt="제${q.r}회 ${q.n}번 자료" loading="eager"><figcaption><details><summary>자료를 글로 읽기</summary><p>${esc(q.ctx)}</p></details></figcaption></figure>`;
+  return `<figure class="qz-fig"><img src="${esc(figSrc(f.src))}" width="${f.width}" height="${f.height}" alt="${q.pred?'자작문제':`제${q.r}회`} ${q.n}번 자료" loading="eager"><figcaption><details><summary>자료를 글로 읽기</summary><p>${esc(q.ctx)}</p></details></figcaption></figure>`;
  }
  function choiceHtml(q){
   const f=FIG()[key(q)],pics=f?.imageChoices&&f.choices;
@@ -72,7 +72,7 @@ const Quiz=(()=>{
   else if(last){note=`<div class="qz-exp bad"><h3>✕ ${N[last-1]}은(는) 아니에요</h3><p>${esc((ex.choices||[])[last-1]||'이 보기는 조건에 맞지 않아요.')}</p></div>`+preNote(ex);}
   else note=preNote(ex);
   const ori=R.done?say('right',R.firstOk?pick(LINES.right):'이번엔 맞혔어요. 첫 시도 점수는 다음에 꼭 가져가요!'):last?say('wrong',R.line||(R.line=pick(LINES.wrong))):say('open',R.open||(R.open=records.preNote===false?pick(LINES.solo):q.pred?pick(['제가 다음 회차를 예상해서 만든 문제예요. 아래 단서 노트 보고 기출처럼 풀면 돼요!',...LINES.open.filter(l=>!l.startsWith('실제 기출'))]):pick(LINES.open)));
-  R.el.innerHTML=`<div class="qz-panel"><header class="qz-head"><span class="qz-no">${q.n}.</span><span class="chip">${esc(q.era)}</span>${R.done?`<span class="chip gold">${esc(q.topic)}</span>`:''}<span class="qz-meta">${q.pred?'<b class="qz-pred">오르페이아 예상</b>':`제${q.r}회`} · ${q.p}점 · ${R.i+1}/${R.list.length}</span>${R.title?`<span class="qz-meta">${esc(R.title)}</span>`:''}<button class="quiet qz-exit" data-exit>그만</button></header>
+  R.el.innerHTML=`<div class="qz-panel"><header class="qz-head"><span class="qz-no">${q.n}.</span><span class="chip">${esc(q.era)}</span>${R.done?`<span class="chip gold">${esc(q.topic)}</span>`:''}<span class="qz-meta">${q.pred?'<b class="qz-pred">자작문제</b>':`제${q.r}회`} · ${q.p}점 · ${R.i+1}/${R.list.length}</span>${R.title?`<span class="qz-meta">${esc(R.title)}</span>`:''}<button class="quiet qz-exit" data-exit>그만</button></header>
    <div class="qz-body"><div class="qz-left"><h2 class="qz-q">${esc(q.q)}</h2>${figure(q)}</div><div class="qz-right"><div class="qz-choices">${choiceHtml(q)}</div>${ori}${note}${R.done?`<button class="primary qz-next" data-next>${R.i+1<R.list.length?'다음 문제 ▶':'결과 보기 ▶'}</button>`:''}</div></div></div>`;
   R.el.querySelectorAll('[data-c]').forEach(b=>b.onclick=e=>{e.stopPropagation();answer(+b.dataset.c);});
   R.el.querySelector('[data-next]')?.addEventListener('click',e=>{e.stopPropagation();next();});
@@ -106,13 +106,13 @@ const Quiz=(()=>{
   const acc=f=>{const qs=QS.filter(f),r=qs.filter(q=>records.quiz[key(q)]?.last).length;return `${r}/${qs.length}`;};
   $('#main').innerHTML=`<section class="qz-lobby"><img class="qz-lobby-bg" src="${asset('bg_study_cafe.webp')}" alt=""><div class="qz-lobby-body"><header><small>PRACTICE · 기출 풀기</small><h2>어디부터 풀까요, 주인님?</h2><p>풀어 본 문항 ${st.seen}/${st.total} · 최근 정답 ${st.right}</p><button class="quiet" data-back>← 타이틀</button></header>
    <h3>시대별 10문항 <span>(안 푼 문항 → 최근에 틀린 문항 순)</span></h3><div class="qz-grid">${eras.map(e=>`<button data-era="${esc(e)}"><b>${esc(e)}</b><span>최근 정답 ${acc(q=>q.era===e)}</span></button>`).join('')}</div>
-   <h3>오르페이아 예상 모의고사</h3><div class="qz-grid"><button data-mock><b>제81회 예상 모의고사</b><span>기출 시대 비중대로 50문항 · 최근 정답 ${(()=>{const l=mockList();return l.filter(q=>records.quiz[key(q)]?.last).length+'/'+l.length})()}</span></button></div>
-   <h3>회차 전체 50문항</h3><div class="qz-grid">${rounds.map(r=>`<button data-round="${r}"><b>${r===81?'오르페이아 예상':`제${r}회`}</b><span>최근 정답 ${acc(q=>q.r===r)}</span></button>`).join('')}</div>
+   <h3>오르페이아 자작문제</h3><div class="qz-grid"><button data-mock><b>자작문제 모의고사</b><span>기출 시대 비중대로 50문항 · 최근 정답 ${(()=>{const l=mockList();return l.filter(q=>records.quiz[key(q)]?.last).length+'/'+l.length})()}</span></button></div>
+   <h3>회차 전체 50문항</h3><div class="qz-grid">${rounds.map(r=>`<button data-round="${r}"><b>제${r}회</b><span>최근 정답 ${acc(q=>q.r===r)}</span></button>`).join('')}</div>
    <h3>틀린 문제만</h3><div class="qz-grid"><button data-wrong><b>최근에 틀린 문항</b><span>${QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last).length}문항</span></button></div></div></section>`;
   const host=$('.qz-lobby'),again=()=>lobby(back);
   host.querySelector('[data-back]').onclick=back;
   host.querySelectorAll('[data-era]').forEach(b=>b.onclick=()=>run(`era=${b.dataset.era} n=10`,{host,onDone:again,title:b.dataset.era}));
-  host.querySelector('[data-mock]').onclick=()=>run(mockList(),{host,onDone:again,title:'제81회 예상 모의고사'});
+  host.querySelector('[data-mock]').onclick=()=>run(mockList(),{host,onDone:again,title:'자작문제 모의고사'});
   host.querySelectorAll('[data-round]').forEach(b=>b.onclick=()=>run(`round=${b.dataset.round}`,{host,onDone:again,title:`제${b.dataset.round}회`}));
   host.querySelector('[data-wrong]').onclick=()=>{const l=QS.filter(q=>records.quiz[key(q)]&&!records.quiz[key(q)].last);if(!l.length)return toast('최근에 틀린 문항이 없어요♪');run(l.slice(0,20),{host,onDone:again,title:'오답 다시'});};
  }

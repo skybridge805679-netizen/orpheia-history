@@ -387,7 +387,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [오르페이아|explain] 자, 묵과 함께 치르는 1차 대결이에요! 러일 전쟁부터 국권 피탈까지의 침탈과 저항 총정리, 가요!
 @hide all
 @battle muk skin=uibyeong
-@quiz 81-24 81-25 81-26
+@quiz 자작-24 자작-25 자작-26
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
@@ -414,7 +414,7 @@ VN.chapter('ch16','제16장','빼앗긴 도장, 지키려는 손',`
 [오르페이아|surprised] 와아, 사연 님이 모던한 전보국 교환수 블라우스랑 치마 제복에 헤드셋까지 쓰시니까 지적인 매력이 폭발해요! ……좋아요, 이번 잔향은 교환수 사연 님의 모스 부호에 맡길게요! 저는 옆에서 뚜뚜뚜 전보 테이프 받아 적을게요!
 @hide all
 @battle muk stage2 skin=uibyeong ally=sayeon askin=sy_telegraph
-@quiz 81-88 81-89 81-90
+@quiz 자작-88 자작-89 자작-90
 @battle end
 @bgm bgm_muk
 @show muk lonely center

@@ -1,12 +1,12 @@
 import os
 #!/usr/bin/env python3
-"""오르페이아 예상 문제(제81회 예상) 생성기.
+"""오르페이아 자작문제(키 자작-N) 생성기. 정답 위치를 바꾸지 않으려고 난수 씨앗은 81 그대로 둔다.
 기출 70~80회의 출제 틀을 따른다: 자료(사료·대화·답사 계획서·연표·신문·판결문·사진)를 주고,
 자료 속 단서에서 시대·인물·사건을 한 번 추론한 뒤, 그 대상에 맞는 선지를 고르게 한다.
 오답은 다른 시대·인물의 실제 사실로 채운다. 정답·오답 사실은 기출 해설에 있는 것만 쓴다.
 자료 그림은 tools/qfig.py(HTML 템플릿)로 그리고, 사람이 말하는 장면은 NAI 장면 삽화(assets/qs_*.webp) 위에 말풍선을 얹는다.
 
-  python3 tools/predicted.py   → data/predicted.js, data/predicted-figures.js, assets/qfig/81-N.webp
+  python3 tools/predicted.py   → data/predicted.js, data/predicted-figures.js, assets/qfig/jajak-N.webp
 """
 import json, random, sys, html
 from pathlib import Path
@@ -1036,7 +1036,7 @@ add("ch21","현대","이승만 정부","다음 장면이 있었던 정부 시기
  [("경부 고속 도로가 개통되었다.","박정희 정부"),("금융 실명제가 실시되었다.","김영삼 정부"),("삼청 교육대가 설치되었다.","1980년 신군부"),("함평 고구마 피해 보상 운동이 일어났다.","1970년대")],
  "6·25 전쟁 중 부산에서 기립 표결로 통과된 개헌은 이승만 정부의 발췌 개헌이다.","이승만 정부: 발췌 개헌(1952)·한미 상호 방위 조약(1953)·진보당 사건(1959) → 4·19 혁명.",basis="이승만 정부")
 
-# ───────── 2026.11.23 단골 사실 예상 문제(81-151~160). 정답은 70~80회 기출에 없던 한능검 단골 사실(근거: docs/단골-사실.md, 주인님 노트).
+# ───────── 2026.11.23 단골 사실 예상 문제(자작-151~160). 정답은 70~80회 기출에 없던 한능검 단골 사실(근거: docs/단골-사실.md, 주인님 노트).
 add("ch10","조선전기","세종","다음 업적을 남긴 왕 때 있었던 사실로 옳은 것은?",
  FRAME("qs_f151","사서","이달의 왕을 소개합니다.",CARD("이달의 왕",["압록강 쪽에 4군, 두만강 쪽에 6진을 개척함","6조의 일을 의정부를 거쳐 아뢰게 하는 의정부 서사제를 실시함","한양을 기준으로 한 역법서 『칠정산』을 펴냄"])),
  "[이달의 왕] 압록강 쪽에 4군, 두만강 쪽에 6진을 개척함. 의정부 서사제를 실시함. 한양 기준 역법서 『칠정산』을 펴냄.",
@@ -1185,7 +1185,7 @@ _wrap(58,"qs_f58","크리에이터","AI에게 이 건물을 물어봤어요!")
 _wrap(2,"qs_f2","해설사","저희 답사 계획서예요.")
 Q[86-1]['fig']=FRAME("qs_f86","해설사","이번 답사지를 소개합니다.",DAPSA("주제: 섬 하나에 담긴 우리 역사 — "+BL()+" 답사",[("1코스","고인돌 유적","탁자식 고인돌, 청동기 시대 지배자의 무덤"),("2코스","고려 궁지","몽골의 침입을 피해 도읍을 옮겼던 곳"),("3코스","초지진·광성보","미국 함대와 맞서 싸운 진지")],head=("코스","답사지","주요 내용")))
 
-# ───────── 2026.11 새 히로인 장면용(81-161 사라·6장, 81-162 바다·13장). 근거 기출은 다른 장(종장)에 있어 같은 장 복습 출제가 아니다.
+# ───────── 2026.11 새 히로인 장면용(자작-161 사라·6장, 자작-162 바다·13장). 근거 기출은 다른 장(종장)에 있어 같은 장 복습 출제가 아니다.
 add("ch06","남북국","무형문화유산","(가)에 들어갈 춤으로 옳은 것은?",
  FRAME("qs_f161","크리에이터","오늘은 천 년 넘게 이어진 춤 이야기예요!",CARD(BL()+" 소개 카드",["신라 헌강왕 때 울산 개운포에서 나왔다는 설화가 바탕","역신(역병 귀신)을 노래와 춤으로 물리쳤다는 이야기","궁중 무용 가운데 유일하게 사람 얼굴 가면을 씀","다섯 사람이 오방색 옷을 입고 춤춤"])),
  "[(가) 소개 카드] 신라 헌강왕 때 울산 개운포에서 나왔다는 설화가 바탕. 역신을 노래와 춤으로 물리쳤다는 이야기. 궁중 무용 가운데 유일하게 사람 얼굴 가면을 씀. 다섯 사람이 오방색 옷을 입고 춤춤.",
@@ -1208,11 +1208,11 @@ def basis_keys():
     return m
 def build():
     BK=basis_keys()
-    head="// 오르페이아 예상 문제(제81회 예상) — tools/predicted.py 가 만든다. 실제 기출이 아니므로 화면에 '오르페이아 예상'으로 표시한다.\n"
+    head="// 오르페이아 자작문제 — tools/predicted.py 가 만든다. 실제 기출이 아니므로 화면에 '자작문제'로 표시한다.\n"
     rng=random.Random(81); NUM='①②③④⑤'
     qs=[];ex={};figs={};meta={};bych={}
     for n,d in enumerate(Q,1):
-        key=f"81-{n}"; a=rng.randint(1,5)
+        key=f"자작-{n}"; a=rng.randint(1,5)
         opts=list(d['wrong']); opts.insert(a-1,(d['ans'],'정답'))
         # 연표 칸 (가)~(마), 순서 배열 (가)-(나)-(다) 같은 보기는 시험지처럼 가나다 순으로 놓는다(정답 위치는 그에 따라 정해진다).
         K='가나다라마'
@@ -1223,7 +1223,7 @@ def build():
         bs=[k for t in (d['basis'] if isinstance(d['basis'],list) else [d['basis']]) for k in BK.get(t,[])]
         ex[key]={"answer":a,"clues":[d['clue']],"reason":d['reason'],"choices":why,"takeaway":d['take']+(f" (근거 기출: {', '.join(sorted(bs,reverse=True)[:6])})" if bs else "")}
         d['nbasis']=len(bs)
-        qs.append({"n":n,"q":d['q'],"ctx":d['ctx'],"ch":[o[0] for o in opts],"era":d['era'],"topic":d['topic'],"exp":d['take'],"r":81,"a":a,"p":2,"pred":True,"w":len(bs)})
+        qs.append({"n":n,"q":d['q'],"ctx":d['ctx'],"ch":[o[0] for o in opts],"era":d['era'],"topic":d['topic'],"exp":d['take'],"r":"자작","a":a,"p":2,"pred":True,"w":len(bs)})
         figs[key]=d['fig']
         if d['pics']:
             from qfig import heritage_src
@@ -1232,20 +1232,20 @@ def build():
     ONLY=[k for k in os.environ.get("ONLY","").split(",") if k]
     if ONLY:
         old=(ROOT/"data/predicted-figures.js").read_text(encoding="utf-8"); OF=json.loads(old[old.index("||{}),...")+9:old.rindex("});")])
-        sz=render({k:figs[k] for k in ONLY})
-        for k,(w,h) in sz.items(): OF[k]={**OF.get(k,{}),"src":f"assets/qfig/{k}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})}
+        sz={k.replace('jajak-','자작-'):v for k,v in render({k.replace('자작-','jajak-'):figs[k] for k in ONLY}).items()}
+        for k,(w,h) in sz.items(): OF[k]={**OF.get(k,{}),"src":f"assets/qfig/{k.replace('자작-','jajak-')}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})}
         size=None
         (ROOT/"data/predicted-figures.js").write_text(head+"window.QUESTION_FIGURES=Object.freeze({...(window.QUESTION_FIGURES||{}),..."+json.dumps(OF,ensure_ascii=False)+"});\n",encoding="utf-8")
     elif os.environ.get("NORENDER"):
         # 그림(폰트)이 없는 환경: 보기·해설만 고치고 기존 그림 목록은 그대로 둔다(문항 순서·자료를 바꾸지 않았을 때만).
         size=None
     else:
-        size=render(figs)
-    F={k:{"src":f"assets/qfig/{k}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})} for k,(w,h) in (size or {}).items()}
+        size={k.replace('jajak-','자작-'):v for k,v in (render({k.replace('자작-','jajak-'):v for k,v in figs.items()}) or {}).items()}
+    F={k:{"src":f"assets/qfig/{k.replace('자작-','jajak-')}.webp","width":w,"height":h,"imageChoices":bool(meta.get(k)),**({"choices":meta[k]} if k in meta else {})} for k,(w,h) in (size or {}).items()}
     (ROOT/"data/predicted.js").write_text(head+"(window.QS=window.QS||[]).push(..."+json.dumps(qs,ensure_ascii=False)+");\nObject.assign(window.QUESTION_EXPLANATIONS=window.QUESTION_EXPLANATIONS||{},"+json.dumps(ex,ensure_ascii=False)+");\n",encoding="utf-8")
     if size is not None: (ROOT/"data/predicted-figures.js").write_text(head+"window.QUESTION_FIGURES=Object.freeze({...(window.QUESTION_FIGURES||{}),..."+json.dumps(F,ensure_ascii=False)+"});\n",encoding="utf-8")
     print(len(qs),"문항", {k:len(v) for k,v in bych.items()})
-    nob=[f"81-{n}" for n,d in enumerate(Q,1) if not d.get('nbasis')]
+    nob=[f"자작-{n}" for n,d in enumerate(Q,1) if not d.get('nbasis')]
     print("근거 기출 주제를 못 찾은 문항:",nob)
     return bych
 if __name__=="__main__": build()

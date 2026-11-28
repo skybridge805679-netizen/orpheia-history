@@ -477,7 +477,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 @label m1after
 @hide all
 @battle muk skin=handkerchief
-@quiz 81-42 81-43 81-44
+@quiz 자작-42 자작-43 자작-44
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -504,7 +504,7 @@ VN.chapter('ch22','제22장','4월의 교복, 6월의 거리',`
 [오르페이아|surprised] 와아, 사연 님이 80년대 대학생 청재킷에 미니스커트랑 통기타까지 메시니까 캠퍼스 퀸카 선배님 같아요! ……좋아요, 이번 잔향은 사연 선배님의 캠퍼스 발표에 맡길게요! 저는 옆에서 OHP 필름 슬라이드 넘길게요!
 @hide all
 @battle muk stage2 skin=handkerchief ally=sayeon askin=sy_campus
-@quiz 81-106 81-107 81-109
+@quiz 자작-106 자작-107 자작-109
 @battle end
 @bgm bgm_muk
 @show muk lonely center

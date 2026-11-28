@@ -521,7 +521,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 [오르페이아|worry] (귓속말) 주인님, 1904년 러일 전쟁이 발발한 직후부터 1905년 을사늑약으로 이어지는 국권 피탈의 밤이에요. 대한국 국제 반포(1899)나 지금 이 전차 개통(1899)보다 뒤에 일어날 일이라 연표 순서 문제에 자주 나와요. 머지않아 다음 장에서 저희가 직접 가서 마주하게 될 밤이에요!
 @hide all
 @battle muk skin=modern1900
-@quiz 81-21 81-22 81-23
+@quiz 자작-21 자작-22 자작-23
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -547,7 +547,7 @@ VN.chapter('ch15','제15장','황제의 나라, 전차가 달리는 거리',`
 [오르페이아|surprised] 와아, 사연 님이 이화학당 여학생 교복을 입으시니까 도도한 학당 선배님 같아서 너무 잘 어울려요! ……좋아요, 이번 잔향은 사연 언니의 특별 수업에 맡길게요! 저는 교실 맨 뒷자리에서 열심히 필기할게요!
 @hide all
 @battle muk stage2 skin=modern1900 ally=sayeon askin=sy_ewha
-@quiz 81-139 81-140 81-141
+@quiz 자작-139 자작-140 자작-141
 @battle end
 @bgm bgm_muk
 @show muk lonely center

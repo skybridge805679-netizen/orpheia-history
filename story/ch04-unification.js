@@ -480,7 +480,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [오르페이아] (셋째, 대야성이 함락되던 '선덕 여왕' 때의 문화유산은 벽돌 모양으로 돌을 다듬어 쌓은 '분황사 모전 석탑'! 불국사 다보탑이나 성덕대왕 신종은 삼국 통일 이후의 유물이라 함정이에요!)
 @hide all
 @battle muk skin=hwarang
-@quiz 81-7 81-8 81-9
+@quiz 자작-7 자작-8 자작-9
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
@@ -504,7 +504,7 @@ VN.chapter('ch04','제4장','살수에서 기벌포까지',`
 [오르페이아] 셋째, 백제 멸망 뒤 왕자 부여풍을 맞아들이고 흑치상지가 3만 유민을 모아 소정방과 맞서 싸운 거점은 '임존성'! 주인님, 그 사람들의 목소리를 되찾아 주세요!
 @hide all
 @battle muk stage2 skin=hwarang
-@quiz 81-142 81-143 81-144
+@quiz 자작-142 자작-143 자작-144
 @battle end
 @bgm bgm_muk
 @show muk lonely center

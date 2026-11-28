@@ -301,7 +301,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 @label m1after
 @hide all
 @battle muk skin=refugee
-@quiz 81-39 81-40 81-41
+@quiz 자작-39 자작-40 자작-41
 @battle end
 @show muk lonely center
 @if quizFirst >= 2 -> sealok
@@ -328,7 +328,7 @@ VN.chapter('ch21','제21장','둘로 갈린 새벽',`
 [오르페이아|surprised] 와아, 사연 님이 하얀 간호장교 제복에 십자 모자랑 붕대까지 드시니까 피란지 천막 병원의 백의의 천사 같아요! ……좋아요, 이번 잔향 치료는 사연 간호장교님께 맡길게요! 저는 옆에서 소독약이랑 차트 들고 보좌할게요!
 @hide all
 @battle muk stage2 skin=refugee ally=sayeon askin=sy_nurse
-@quiz 81-103 81-104 81-105
+@quiz 자작-103 자작-104 자작-105
 @battle end
 @bgm bgm_muk
 @show muk lonely center

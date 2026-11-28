@@ -187,8 +187,8 @@ try {
 
 // ── 7. 결과
 const showW = process.argv.includes('-w') || process.argv.includes('--warn');
-console.log(`대본 ${chapters.length}편 · 문항 ${quizSeen.size} / 기출·예상 ${QKEYS.size} · 그림 ${ASSETS.size}`);
-const notUsed = [...QKEYS].filter(k => !k.startsWith('81-') && !quizSeen.has(k)); if (notUsed.length) W('기출', `이야기에 안 나온 기출 ${notUsed.length}개: ${notUsed.slice(0, 12).join(' ')}`);
+console.log(`대본 ${chapters.length}편 · 문항 ${quizSeen.size} / 기출·자작 ${QKEYS.size} · 그림 ${ASSETS.size}`);
+const notUsed = [...QKEYS].filter(k => !k.startsWith('자작-') && !quizSeen.has(k)); if (notUsed.length) W('기출', `이야기에 안 나온 기출 ${notUsed.length}개: ${notUsed.slice(0, 12).join(' ')}`);
 if (errs.length) { console.log(`\n오류 ${errs.length}`); errs.forEach(x => console.log('  E ' + x)); }
 const wsum = {}; warns.forEach(w => { const k = w.replace(/^.*?  /, '').replace(/[:\s].*$/, ''); wsum[k] = (wsum[k] || 0) + 1; });
 console.log(`\n경고 ${warns.length}` + (showW ? '' : '  (자세히: node tools/lint.js -w)'));

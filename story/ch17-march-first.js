@@ -419,7 +419,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 @label m1after
 @hide all
 @battle muk skin=manse
-@quiz 81-27 81-28 81-29
+@quiz 자작-27 자작-28 자작-29
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -446,7 +446,7 @@ VN.chapter('ch17','제17장','칼 찬 교사와 만세의 봄',`
 [오르페이아|surprised] 와아, 사연 님이 상하이 임시 정부 여성 비서 양장 투피스랑 안경까지 쓰시니까 지적인 커리어우먼 같아서 숨이 멎을 것 같아요! ……좋아요, 이번 잔향은 사연 비서님의 기밀문서에 맡길게요! 저는 옆에서 임시 정부 국새 도장 쾅쾅 찍을게요!
 @hide all
 @battle muk stage2 skin=manse ally=sayeon askin=sy_shanghai
-@quiz 81-91 81-92 81-93
+@quiz 자작-91 자작-92 자작-93
 @battle end
 @bgm bgm_muk
 @show muk lonely center

@@ -453,8 +453,8 @@ function notebook(view='notes',sel=null,q=''){
 // ── 기출 문항. quiz.js 가 문제를 띄우고, 끝나면 결과를 플래그로 돌려준다.
 //    quizFirst: 이번 묶음에서 첫 시도에 맞힌 수, quizTotal: 이번 묶음 문항 수, quizAll: 이야기 전체 누적.
 function quiz(arg,noPre){
- if(!noPre&&!skip){const ids=notesFor(String(arg).split(/\s+/).filter(x=>/^\d+-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));
-  if(ids.length){coreNotes().then(()=>{const ids2=notesFor(String(arg).split(/\s+/).filter(x=>/^\d+-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));if(ids2.length)board(ids2,()=>quiz(arg,true),true,String(arg).split(/\s+/));else quiz(arg,true);}).catch(()=>quiz(arg,true));return;}
+ if(!noPre&&!skip){const ids=notesFor(String(arg).split(/\s+/).filter(x=>/^(\d+|자작)-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));
+  if(ids.length){coreNotes().then(()=>{const ids2=notesFor(String(arg).split(/\s+/).filter(x=>/^(\d+|자작)-\d+$/.test(x))).filter(id=>!(S.boardShown||[]).includes(id));if(ids2.length)board(ids2,()=>quiz(arg,true),true,String(arg).split(/\s+/));else quiz(arg,true);}).catch(()=>quiz(arg,true));return;}
   if(!window.CORE_NOTES?.length&&!quiz._tried){quiz._tried=1;busy=true;coreNotes().then(()=>quiz(arg,false)).catch(()=>quiz(arg,true));return;}}
  autosave('문제 직전');busy=true;stopAuto();skip=false;auto=false;S.line=null;paint();
  if(S.battle)battleHud();

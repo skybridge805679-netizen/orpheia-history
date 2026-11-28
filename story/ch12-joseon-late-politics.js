@@ -1018,7 +1018,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 @label m1after
 @hide all
 @battle muk skin=rain
-@quiz 81-13 81-14 81-15 81-79
+@quiz 자작-13 자작-14 자작-15 자작-79
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -1048,7 +1048,7 @@ VN.chapter('ch12','제12장','상복과 탕평비',`
 [사연] 기록 속에 남은 다모의 의복 데이터를 잠시 빌려 입었을 뿐입니다. 오늘 밤엔 번진 먹물을 잡아들이는 사관 다모가 되겠습니다.
 @hide choa
 @battle muk stage2 skin=rain ally=sayeon askin=sy_damo
-@quiz 81-130 81-131 81-132
+@quiz 자작-130 자작-131 자작-132
 @battle end
 @bgm bgm_muk
 @show muk lonely center

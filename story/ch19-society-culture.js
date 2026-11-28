@@ -390,7 +390,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @label m1after
 @hide all
 @battle muk skin=hangul
-@quiz 81-33 81-34 81-35
+@quiz 자작-33 자작-34 자작-35
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok
@@ -418,7 +418,7 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 [오르페이아|surprised] 와아, 사연 님이 몸에 딱 달라붙는 1930년대 유성기 가수 스팽글 드레스에 깃털 장식까지 하시니까 축음기 레코드판에서 막 튀어나오신 디바 같아요! ……좋아요, 이번 잔향은 사연 디바님의 라이브 무대에 맡길게요! 저는 옆에서 축음기 태엽 열심히 감을게요!
 @hide all
 @battle muk stage2 skin=hangul ally=sayeon askin=sy_singer
-@quiz 81-97 81-98 81-99
+@quiz 자작-97 자작-98 자작-99
 @battle end
 @bgm bgm_muk
 @show muk lonely center

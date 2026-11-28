@@ -572,7 +572,7 @@ VN.chapter('ch10','제10장','새 나라의 설계도',`
 [오르페이아|serious] 미끄러지면 설계도의 이유를 붙잡고 다시 일어나면 돼요! 주인님, 묵이 다음 백 년의 사화와 성리학 예고 문제까지 한꺼번에 꺼내 들었어요. 전부 봉인해 버려요!
 @hide all
 @battle muk stage2 skin=yeogwan
-@quiz 81-74 81-75 81-76 81-77 81-78 81-151 81-158
+@quiz 자작-74 자작-75 자작-76 자작-77 자작-78 자작-151 자작-158
 @battle end
 @bgm bgm_muk
 @show muk lonely center

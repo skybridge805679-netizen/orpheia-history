@@ -648,7 +648,7 @@ VN.chapter('ch02','제2장','하늘의 자손, 다섯 나라의 축제',`
 [묵|angry] 그래 봤자 시험지에선 두 나라를(가), (나)로 한꺼번에 묶어 놓으면 다들 헷갈려 죽는다고! 이것도 뚫어 봐!
 @hide all
 @battle muk skin=shaman
-@quiz 81-4 81-5 81-6
+@quiz 자작-4 자작-5 자작-6
 @battle end
 @bgm bgm_muk
 @show muk lonely center
