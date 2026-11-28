@@ -106,15 +106,19 @@ def render(figs):
     tmp = Path(tempfile.mkdtemp())
     for k, h in figs.items():
         (tmp / f"{k}.html").write_text(f"<!doctype html><meta charset=utf-8><style>{CSS}</style><div id=f>{h}</div>", encoding="utf-8")
-    js = tmp / "r.js"
-    js.write_text("""const {chromium}=require('playwright');const fs=require('fs'),path=require('path');
-(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1000,height:800},deviceScaleFactor:1.5});const out={};
-for(const f of fs.readdirSync(process.argv[2]).filter(f=>f.endsWith('.html'))){await p.goto('file://'+path.join(process.argv[2],f));await p.waitForTimeout(150);
- const el=await p.$('#f');const bb=await el.boundingBox();await el.screenshot({path:path.join(process.argv[2],f.replace('.html','.png'))});out[f.replace('.html','')]=[Math.round(bb.width),Math.round(bb.height)];}
-fs.writeFileSync(path.join(process.argv[2],'size.json'),JSON.stringify(out));await b.close();})();""")
-    subprocess.run(["node", str(js), str(tmp)], check=True)
+    from playwright.sync_api import sync_playwright
     from PIL import Image
-    size = json.loads((tmp / "size.json").read_text())
-    for k in figs:
-        Image.open(tmp / f"{k}.png").convert("RGB").save(ROOT / f"assets/qfig/{k}.webp", "WEBP", quality=88, method=5)
+    size = {}
+    with sync_playwright() as pw:
+        b = pw.chromium.launch()
+        p = b.new_page(viewport={"width": 1000, "height": 800}, device_scale_factor=1.5)
+        for k in figs:
+            p.goto((tmp / f"{k}.html").as_uri())
+            p.wait_for_timeout(150)
+            el = p.query_selector("#f")
+            bb = el.bounding_box()
+            el.screenshot(path=str(tmp / f"{k}.png"))
+            size[k] = [round(bb["width"]), round(bb["height"])]
+            Image.open(tmp / f"{k}.png").convert("RGB").save(ROOT / f"assets/qfig/{k}.webp", "WEBP", quality=88, method=5)
+        b.close()
     return size

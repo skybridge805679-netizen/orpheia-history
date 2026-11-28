@@ -246,7 +246,17 @@ VN.chapter('ep','종장','연표의 끝에서',`
 [나] 읽을게. 한 글자도 흘리지 않고, 끝까지.
 @hide all
 @battle muk skin=pages
-@quiz 자작-108 자작-113 자작-114 자작-115 자작-116 자작-117
+@quiz 자작-108 자작-113 자작-114
+@battle end
+@bg cg_ink_spread
+@bgm bgm_muk
+@show muk lonely center
+세 문제의 정답이 빛을 발하자 묵의 몸을 감싸고 있던 기출 시험지 외투와 치맛자락이 하얀 종이 눈발처럼 갈기갈기 찢겨 날아가고, 먹물로 엮인 아슬아슬한 속옷만 남은 작은 몸이 떨며 드러났다.
+[묵|lonely] ……아앗, 시험지 겉옷이 다 풀려 버렸어. 이제 남은 건 내 심장 가장 가까운 곳에 달라붙은 마지막 속옷 세 조각뿐이야.
+[오르페이아|teary] 주인님, 마지막 세 조각까지 남김없이 읽어 주세요!
+@hide all
+@battle muk stage2 skin=pages
+@quiz 자작-115 자작-116 자작-117
 @battle end
 @bg cg_ink_spread
 @bgm bgm_muk

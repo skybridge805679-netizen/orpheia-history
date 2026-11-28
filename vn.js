@@ -469,10 +469,16 @@ function quiz(arg,noPre){
 //    첫 시도에 맞힐 때마다 묵의 먹물 옷이 한 단계씩 찢어진다(cg_muk_b0~b3). serious: 옷 대신 먹물이 빛으로 흩어진다.
 //    연출: VS 컷인 → 게이지·콤보 → 정답마다 히트스톱·베기·옷 조각 파편 → 오답은 먹물 반격 → 마지막은 FINISH/K.O. → 등급.
 const MUK_TAUNT=['이유? 그런 거 없어도 외워지던데?','연도만 맞으면 되잖아. 순서는 내가 섞어 줄게.','이번 문제지는 내 거야. 가져갈 수 있으면 가져가 봐.','오르페이아, 네 주인님 시험 운은 어떨까?'];
+const MUK_TAUNT2=['아, 아직 속옷은 남았거든! 잔향까지 다 풀진 못할걸!','겉옷 벗겼다고 끝인 줄 알았어? 이 안쪽은 절대 안 보여 줘!','흐응, 여기서부터는 한 자락도 안 내줄 거야!'];
 const MUK_BREAK={
  1:['……소매쯤이야. 이유 하나 붙였다고 우쭐하지 마!','윽, 이 정도로……! 아직 한참 남았거든!'],
  2:['자, 잠깐! 거긴…… 보지 마! 이건 먹물이 모자라서 그런 거라고!','어, 어깨……! 오르페이아, 네 주인님 눈 좀 가려!'],
- 3:['~~~~~!! 다 벗겨 놓고 이유까지 붙이면…… 나한테 뭐가 남는데……!','보, 보지 마……! 이번만…… 이번만 진 걸로 해 줄게……!'],
+ 3:['~~~~~!! 겉옷까지 다 벗겨 놓고 이유까지 붙이면…… 속옷밖에 안 남잖아……!','보, 보지 마……! 1단계는 진 걸로 해 줄 테니까 거기서 멈춰……!'],
+};
+const MUK_BREAK2={
+ 1:['꺄앗?! 자, 잠깐만! 지금은 겉옷이 아니라 속옷 끈이잖아!!','히익……! 브래지어 끈이 왜 거기서 끊어지는데?! 보지 마!'],
+ 2:['아, 안 돼……! 속옷 앞섶까지 터지면…… 주, 주인님 눈 가리라고 해, 오르페이아!!','으아앙, 가릴 데가 없단 말이야……! 마지막 한 겹까지 찢으려고 하지 마!'],
+ 3:['~~~~~!! 속옷까지 다 찢어 발기면…… 나 진짜로 아무것도 안 남았단 말이야……!!','보, 보지 마아……!! 먹물 한 방울까지 다 벗겨졌어…… 완전 항복이야……!'],
 };
 const MUK_SERIOUS={1:'먹물 한 겹이 빛이 되어 흩어진다.',2:'엉킨 연도 하나가 풀리며, 묵의 소매가 투명해진다.',3:'이유를 되찾은 기록이 하얗게 빛난다. 묵이 조용히 눈을 감는다.'};
 const MUK_MISS=['틀렸네~ 먹물 충전♪','이유 없이 고르면, 그건 내 거야.','봐, 또 번졌잖아.','후후, 그 선지 나도 헷갈리게 만든 거야.'];
@@ -492,10 +498,10 @@ const SAYEON_BREAK={
 const SAYEON_MISS=['……그 답은 기록에 없습니다. 다시 읽으십시오.','때가 어긋났습니다. 사관의 눈은 속일 수 없습니다.','후후, 그 보기는 제가 일부러 놓아둔 것입니다.'];
 const SAYEON_BUG=['주인님이 틀리시면, 오르페이아 님이 번집니다. 저와 같은 종이니까요.','오르페이아 님, 의상이…… 기록이 흐려지셨습니다.','제가 입을 옷을 지키려다 오르페이아 님 옷이 날아갔군요.'];
 const OPP={
- muk:{name:'묵',sub:'먹물 계정',serSub:'번진 기록',cg:(st,b)=>mukCg(st,b),vsImg:b=>b.skin?mukCg(0,b):asset(b.serious?'st_muk_lonely.webp':'st_muk_smirk.webp'),vsCg:b=>!!b.skin,taunt:()=>MUK_TAUNT,brk:()=>MUK_BREAK,miss:()=>MUK_MISS,bug:()=>MUK_BUG,cloth:'먹물 옷',left:'먹물 옷 남은 겹',fin:'묵의 먹물 옷이 전부 벗겨졌다!',go:'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요',counter:'묵의 반격',brkHead:'BREAK!',dmg:'-1 겹'},
- sayeon:{name:'사연',sub:'연표의 사관',serSub:'연표의 사관',cg:st=>asset(`cg_sayeon_b${st}.webp`),vsImg:()=>asset('cg_sayeon_b0.webp'),vsCg:()=>true,taunt:()=>SAYEON_TAUNT,brk:()=>SAYEON_BREAK,miss:()=>SAYEON_MISS,bug:()=>SAYEON_BUG,cloth:'두루마리 사관복',left:'남은 두루마리',fin:'사관복이 연표로 전부 풀려 나갔다!',go:'첫 시도 정답 = UNROLL! 두루마리 사관복을 한 자락씩 풀어 연표를 이으세요',counter:'사관의 반문',brkHead:'UNROLL!',dmg:'+1 연표'}};
+ muk:{name:'묵',sub:'먹물 계정',serSub:'번진 기록',cg:(st,b)=>mukCg(st,b),vsImg:b=>b.skin?mukCg(0,b):asset(b.serious?'st_muk_lonely.webp':'st_muk_smirk.webp'),vsCg:b=>!!b.skin,taunt:b=>b?.stage2?MUK_TAUNT2:MUK_TAUNT,brk:b=>b?.stage2?MUK_BREAK2:MUK_BREAK,miss:()=>MUK_MISS,bug:()=>MUK_BUG,cloth:b=>b?.stage2?'먹물 속옷':'먹물 옷',left:b=>b?.stage2?'먹물 속옷 남은 겹':'먹물 옷 남은 겹',fin:b=>b?.stage2?'묵의 마지막 속옷까지 전부 찢어졌다!':'묵의 먹물 겉옷이 전부 벗겨졌다!',go:b=>b?.stage2?'2페이즈 정답 = UNDERWEAR BREAK! 남은 속옷까지 한 겹씩 벗겨 내세요':'첫 시도 정답 = BREAK! 먹물 옷을 한 겹씩 벗겨 내세요',counter:'묵의 반격',brkHead:'BREAK!',dmg:'-1 겹'},
+ sayeon:{name:'사연',sub:'연표의 사관',serSub:'연표의 사관',cg:st=>asset(`cg_sayeon_b${st}.webp`),vsImg:()=>asset('cg_sayeon_b0.webp'),vsCg:()=>true,taunt:()=>SAYEON_TAUNT,brk:()=>SAYEON_BREAK,miss:()=>SAYEON_MISS,bug:()=>SAYEON_BUG,cloth:()=>'두루마리 사관복',left:()=>'남은 두루마리',fin:()=>'사관복이 연표로 전부 풀려 나갔다!',go:()=>'첫 시도 정답 = UNROLL! 두루마리 사관복을 한 자락씩 풀어 연표를 이으세요',counter:'사관의 반문',brkHead:'UNROLL!',dmg:'+1 연표'}};
 const opp=b=>OPP[b?.who]||OPP.muk;
-// ── 아군 사연(2단계 「잔향」): @battle muk stage2 ally=sayeon askin=<키>. 첫 시도 정답마다 사연의 시대 의상(두루마리로 엮은 옷)이 한 자락씩 풀려 묵을 묶는다.
+// ── 아군 사연(2단계 「잔향」): @battle muk stage2 ally=sayeon askin=<키>. 첫 시도 정답마다 사연의 시대 의상(두루마리로 엮은 옷)이 한 자락씩 풀려 묵의 남은 속옷을 찢고 결박한다.
 //    CG cg_sayeon_<askin>_b0~b3(없으면 cg_sayeon_b0~b3), 의상 이름은 data/sayeon-skins.js.
 const ALLY_SAYEON_GO=['2단계는 제가 서겠습니다. 주인님은 이유만 대 주십시오. 옷은…… 제가 내겠습니다.','잔향은 오래된 기록입니다. 사관의 소매로 묶겠습니다.','오르페이아 님은 쉬십시오. 이번 두루마리는 제 몫입니다.'];
 const ALLY_SAYEON_BREAK={1:['한 자락 풀어 묵을 묶었습니다. ……소매가 조금 짧아졌을 뿐입니다.','두루마리 하나, 연표로 던졌습니다. 아직 괜찮습니다.'],2:['겉옷까지 연표로 썼습니다……! 주, 주인님, 눈은 묵 쪽으로!','어깨가 서늘하군요. 기록을 잇는 대가라면 감수하겠습니다……!'],3:['마지막 자락까지 다 던졌습니다……! 묵은 묶였지만, 저는…… 저를 기록하지 마십시오!','다 풀렸습니다……! 연표는 이어졌습니다. 그러니 제 꼴은 잊어 주십시오……!']};
@@ -510,11 +516,12 @@ const ORP_COMBO=['좋아요, 주인님! 그대로 밀어붙여요!','연속 정�
 let lastBattle=null;
 const pickOne=a=>a[Math.floor(Math.random()*a.length)];
 const calm=()=>skip||window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-// 의상(스킨)별 CG. 없으면 기본 cg_muk_bN.
-function mukCg(st,b=S.battle){const k=b?.skin,n=b?.serious?0:st;return asset(k&&window.MUK_SKINS?.[k]?`cg_muk_${k}_b${n}.webp`:`cg_muk_b${n}.webp`);}
+// 의상(스킨)별 CG. 1페이즈는 b0~b3(의상 파손), 2페이즈(stage2)는 b3~b6(속옷 파손). 없으면 기본 cg_muk_bN.
+function mukCg(st,b=S.battle){const k=b?.skin,n=b?.serious?0:(b?.stage2?st+3:st);return asset(k&&window.MUK_SKINS?.[k]?`cg_muk_${k}_b${n}.webp`:`cg_muk_b${n}.webp`);}
+function mukFb(st,b=S.battle){const k=b?.skin,n=b?.serious?0:Math.min(3,st);return asset(k&&window.MUK_SKINS?.[k]?`cg_muk_${k}_b${n}.webp`:`cg_muk_b${n}.webp`);}
 function battleImg(st){return opp(S.battle).cg(st,S.battle);}
 function skinName(b=S.battle){return window.MUK_SKINS?.[b?.skin]?.name||'';}
-function recordSkin(b){if(!b?.skin)return;const m=records.mukSkins||(records.mukSkins={});m[b.skin]=Math.max(m[b.skin]??0,b.serious?0:b.stage);save();}
+function recordSkin(b){if(!b?.skin)return;const m=records.mukSkins||(records.mukSkins={});const lv=b.serious?0:(b.stage2?b.stage+3:b.stage);m[b.skin]=Math.max(m[b.skin]??0,lv);save();}
 function nextSkin(){const i=chapters.indexOf(curCh());for(const c of chapters.slice(i+1))for(const o of c.ops)if(o.t==='battle'&&/^muk\b/.test(o.arg)){const m=/(?:^|\s)skin=(\w+)/.exec(o.arg);if(m)return m[1];}return null;}   // 묵 배틀만(사연 배틀 skin=scroll은 묵 의상이 아니다)
 function vnShake(big){if(calm())return;const v=$('#vn');v.classList.remove('vb-shake','vb-shake-big');void v.offsetWidth;v.classList.add(big?'vb-shake-big':'vb-shake');setTimeout(()=>v.classList.remove('vb-shake','vb-shake-big'),600);}
 function particles(host,kind,n){if(calm())return;
@@ -527,16 +534,16 @@ function battle(arg){
  if(who==='end'){
   const b=S.battle;S.battle=null;lastBattle=b;$('#vnBattleHud')?.remove();if(!b){S.pc++;return step();}
   if(b.who==='muk')recordSkin(b);if(allyOn(b)){recordAskin(b);if(b.stage>0)S.sayeonDmg=b.stage;}
-  if(b.who==='muk'&&!b.serious&&b.stage>0){S.mukDmg=b.stage;S.mukSkin=b.skin||null;}
+  if(b.who==='muk'&&!b.serious&&b.stage>0){S.mukDmg=b.stage2?3:b.stage;S.mukSkin=b.skin||null;}
   if(b.who==='sayeon'&&b.stage>0)S.sayeonDmg=b.stage;
   if(!b.serious&&b.orp>0)S.orpDmg=b.orp;
   if(skip){S.pc++;return step();}
   const rate=b.total?b.hits/b.total:0,rank=rate>=1?'S':rate>=.67?'A':rate>=.34?'B':'C';
   busy=true;SFX.play(rank==='S'?'vb_ko':'vb_end');
   const head=b.stage>=3?(b.serious?'정화 완료':'K.O.'):'BATTLE END';
-  const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':opp(b).fin):(b.serious?`아직 번진 기록 ${3-b.stage}`:`${opp(b).left} ${3-b.stage}`),b.stage,b.serious,true);
+  const el=battleCut(head,b.stage>=3?(b.serious?'번진 기록이 모두 빛으로 돌아갔다.':opp(b).fin(b)):(b.serious?`아직 번진 기록 ${3-b.stage}`:`${opp(b).left(b)} ${3-b.stage}`),b.stage,b.serious,true);
   el.classList.add('result');
-  el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':'BREAK'} <b>${b.stage}/3</b></li>${allyOn(b)?`<li>사연 두루마리 <b>${b.stage}/3</b></li>`:b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
+  el.querySelector('.vb-text').insertAdjacentHTML('beforeend',`<div class="vb-rank r-${rank}">${rank==='S'?`<img src="${asset('emblem_gold.webp')}" alt="">`:''}<span>RANK</span><b>${rank}</b></div><ul class="vb-stats"><li>첫 시도 정답 <b>${b.hits}/${b.total||0}</b></li><li>최대 콤보 <b>${b.maxCombo||0}</b></li><li>${b.serious?'되돌린 기록':b.stage2?'속옷 BREAK':'의상 BREAK'} <b>${b.stage}/3</b></li>${allyOn(b)?`<li>사연 두루마리 <b>${b.stage}/3</b></li>`:b.serious?'':`<li>오르페이아 버그 <b>${b.orp}/3</b></li>`}</ul>`);
   el.onclick=e=>{e.stopPropagation();el.remove();
    // 이 장의 마지막 배틀이면 다음 장 묵의 새 의상을 실루엣으로 예고
    const more=curCh().ops.slice(S.pc+1).some(o=>o.t==='battle'&&!/^end/.test(o.arg));const nk=!more&&b.who==='muk'&&nextSkin();
@@ -550,16 +557,16 @@ function battle(arg){
  busy=true;BGM.play(S.battle.serious?'bgm_tragic':S.battle.who==='sayeon'?'bgm_sayeon':'bgm_challenge');
  const v=$('#vn'),el=document.createElement('div');el.className='vn-vs'+(S.battle.serious?' serious':'');
  el.innerHTML=(allyOn(S.battle)?`<div class="vs-side vs-l cg"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${allyCg(0)}" onerror="this.onerror=null;this.src='${allyFb(0)}'" alt=""><b>사연</b><small>${askinName()?esc(askinName())+' · ':''}연표의 사관</small></div>`:`<div class="vs-side vs-l"><img class="vs-emblem" src="${asset('emblem_white.webp')}" alt=""><img src="${asset('st_orpheia_serious.webp')}" alt=""><b>오르페이아</b><small>電脳侍女 · LV.99</small></div>`)+`
- <div class="vs-side vs-r${opp(S.battle).vsCg(S.battle)?' cg':''}"><img src="${opp(S.battle).vsImg(S.battle)}" alt=""><b>${opp(S.battle).name}</b><small>${S.battle.who==='muk'&&skinName()?esc(skinName())+' · ':''}${S.battle.serious?opp(S.battle).serSub:opp(S.battle).sub}</small></div>
- <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div>${S.battle.stage2?'<div class="vs-stage">STAGE 2 · 잔향</div>':''}<div class="vs-bar top"></div><div class="vs-bar bot"></div>
- <p class="vs-line">${esc(allyOn(S.battle)?'사연「'+pickOne(ALLY_SAYEON_GO)+'」':S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':opp(S.battle).name+'「'+pickOne(opp(S.battle).taunt())+'」')}</p>
- <p class="vs-go">${allyOn(S.battle)?'첫 시도 정답 = UNROLL! 사연의 두루마리 의상을 한 자락씩 풀어 묵을 묶으세요':S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':opp(S.battle).go}<small>눌러서 시작 ▶</small></p>`;
+ <div class="vs-side vs-r${opp(S.battle).vsCg(S.battle)?' cg':''}"><img src="${opp(S.battle).vsImg(S.battle)}" onerror="this.onerror=null;this.src='${mukFb(0,S.battle)}'" alt=""><b>${opp(S.battle).name}</b><small>${S.battle.who==='muk'&&skinName()?esc(skinName())+' · ':''}${S.battle.serious?opp(S.battle).serSub:S.battle.stage2?'2페이즈 · 속옷 사수':opp(S.battle).sub}</small></div>
+ <div class="vs-mark">${S.battle.serious?'鎭魂':'VS'}</div>${S.battle.stage2?'<div class="vs-stage">PHASE 2 · 속옷 파손</div>':''}<div class="vs-bar top"></div><div class="vs-bar bot"></div>
+ <p class="vs-line">${esc(allyOn(S.battle)?'사연「'+pickOne(ALLY_SAYEON_GO)+'」':S.battle.serious?'……이 이름들, 이유와 함께 돌려줘.':opp(S.battle).name+'「'+pickOne(opp(S.battle).taunt(S.battle))+'」')}</p>
+ <p class="vs-go">${allyOn(S.battle)?'첫 시도 정답 = UNROLL & BREAK! 사연의 두루마리와 함께 묵의 속옷까지 벗겨 내세요':S.battle.serious?'첫 시도에 맞혀서, 번진 기록을 되돌려 주세요':opp(S.battle).go(S.battle)}<small>눌러서 시작 ▶</small></p>`;
  v.appendChild(el);SFX.play(S.battle.serious?'vb_bell':'vb_start');if(!S.battle.serious)vnShake(true);
  el.onclick=e=>{e.stopPropagation();if(el.dataset.go)return;el.dataset.go='1';el.classList.add('out');SFX.play('vb_go');setTimeout(()=>{el.remove();busy=false;S.pc++;step();},280);};
 }
 function battleCut(head,text,st,serious,wait){
- const v=$('#vn');const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
- el.innerHTML=`<img src="${opp(S.battle||lastBattle).cg(st,S.battle||lastBattle)}" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
+ const v=$('#vn'),b=S.battle||lastBattle;const el=document.createElement('div');el.className='vn-battle'+(serious?' serious':'')+(wait?' wait':'');
+ el.innerHTML=`<img src="${opp(b).cg(st,b)}" onerror="this.onerror=null;this.src='${mukFb(st,b)}'" alt=""><div class="vb-text"><b>${esc(head)}</b><p>${esc(text)}</p>${wait?'<small>눌러서 계속 ▶</small>':''}</div>`;
  v.appendChild(el);return el;
 }
 function battleHud(){
@@ -567,8 +574,9 @@ function battleHud(){
  // 한 줄 대전 막대: 왼쪽 상대(묵·사연) · 가운데 VS · 오른쪽 내 편(오르페이아 / 아군 사연). 막대+칸을 겹 3칸 하나로 합쳤다.
  const seg=(lost,prev)=>`<span class="vbh-seg">${[1,2,3].map(i=>`<i class="${i<=lost?(i>(prev??lost)?'off hit':'off'):''}"></i>`).join('')}</span>`;
  const side=(cls,img,stand,name,sub,lost,prev,note,fb)=>`<div class="vbh-side ${cls}"><span class="vbh-face${stand?' stand':''}"><img src="${img}"${fb?` onerror="this.onerror=null;this.src='${fb}'"`:''} alt=""></span><div class="vbh-info"><b>${name}<small>${sub}</small></b>${seg(lost,prev)}<em>${note}</em></div></div>`;
- const foeFace=b.who==='muk'?(b.serious?'st_muk_lonely.webp':b.stage===0?'st_muk_smirk.webp':(b.skin&&window.MUK_SKINS?.[b.skin]?.dmg)?`st_muk_${b.skin}_${b.stage===1?'angry':'shy'}_d${b.stage}.webp`:`st_muk_${b.stage===1?'angry':'shy'}_d${b.stage}.webp`):'st_sayeon_serious.webp';
- const foe=side('foe',asset(foeFace),true,opp(b).name,b.serious?'번진 기록':opp(b).cloth,b.stage,b.lagStage,b.serious?'':`남은 겹 ${3-b.stage}/3`);
+ const dLv=b.stage2?3:b.stage;
+ const foeFace=b.who==='muk'?(b.serious?'st_muk_lonely.webp':dLv===0?'st_muk_smirk.webp':(b.skin&&window.MUK_SKINS?.[b.skin]?.dmg)?`st_muk_${b.skin}_${dLv===1?'angry':'shy'}_d${dLv}.webp`:`st_muk_${dLv===1?'angry':'shy'}_d${dLv}.webp`):'st_sayeon_serious.webp';
+ const foe=side('foe',asset(foeFace),true,opp(b).name,b.serious?'번진 기록':opp(b).cloth(b),b.stage,b.lagStage,b.serious?'':`남은 겹 ${3-b.stage}/3`);
  const mine=allyOn(b)?side('mine ally',asset('st_sayeon_smile.webp'),true,'사연',(askinName(b)?esc(askinName(b))+' · ':'')+'두루마리',b.stage,b.lagStage,'정답마다 묵을 묶어요')
   :b.serious?'':side('mine',asset(b.orp?`st_orpheia_shy_g${b.orp}.webp`:'st_orpheia_serious.webp'),true,'오르페이아','의상 데이터',b.orp,b.lagOrp,b.orp?`손실 ${b.orp}/3`:'오답이면 버그!');
  w.innerHTML=foe+`<span class="vbh-vs">VS</span>`+mine+(b.combo>1?`<em class="vbh-combo">${b.combo} COMBO</em>`:'');
@@ -591,10 +599,10 @@ function battleHit(ok,first,hits,total){
  const prev=b.stage;b.stage=st;const fin=st>=3;
  if(b.serious){SFX.play('vb_purify');}else{SFX.play(fin?'vb_finish':'vb_break');setTimeout(()=>SFX.play('vb_rip'),fin?260:140);vnShake(fin);}
  const el=document.createElement('div');el.className='vn-battle hit'+(b.serious?' serious':'')+(fin?' fin':'');
- const [head,line]=allyOn(b)?[fin?'FINISH!':'UNROLL!',`사연「${pickOne(ALLY_SAYEON_BREAK[st])}」`]:b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':opp(b).brkHead,`${opp(b).name}「${pickOne(opp(b).brk()[st])}」`];
- const sub=allyOn(b)?`<p class="vb-muk">${b.serious?esc(MUK_SERIOUS[st]):'묵「'+esc(pickOne(opp(b).brk()[st]))+'」'}</p>`:'';
- el.innerHTML=(allyOn(b)?`<img class="old" src="${allyCg(prev,b)}" onerror="this.onerror=null;this.src='${allyFb(prev)}'" alt=""><img class="new" src="${allyCg(st,b)}" onerror="this.onerror=null;this.src='${allyFb(st)}'" alt="">`:`<img class="old" src="${opp(b).cg(prev,b)}" alt=""><img class="new" src="${opp(b).cg(st,b)}" alt="">`)+`<div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${sub}${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · ${allyOn(b)?'오르페이아「사연 님, 그대로예요!」':'오르페이아「'+esc(pickOne(ORP_COMBO))+'」'}</p>`:''}</div><span class="vb-dmg">${allyOn(b)?'+1 연표':b.serious?'+1 기록':opp(b).dmg}</span>`;
- $('#vn').appendChild(el);seeCg(allyOn(b)?allyCg(st,b):opp(b).cg(st,b));particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
+ const [head,line]=b.serious?['정화',MUK_SERIOUS[st]]:[fin?'FINISH!':opp(b).brkHead,`${opp(b).name}「${pickOne(opp(b).brk(b)[st])}」`];
+ const sub=allyOn(b)?`<p class="vb-muk">사연「${esc(pickOne(ALLY_SAYEON_BREAK[st]))}」</p>`:'';
+ el.innerHTML=`<img class="old" src="${opp(b).cg(prev,b)}" onerror="this.onerror=null;this.src='${mukFb(prev,b)}'" alt=""><img class="new" src="${opp(b).cg(st,b)}" onerror="this.onerror=null;this.src='${mukFb(st,b)}'" alt=""><div class="vb-slash"></div><div class="vb-text"><b>${head}</b><p>${esc(line)}</p>${sub}${b.combo>1?`<p class="vb-orp">${b.combo} COMBO · ${allyOn(b)?'오르페이아「사연 님, 그대로예요!」':'오르페이아「'+esc(pickOne(ORP_COMBO))+'」'}</p>`:''}</div><span class="vb-dmg">${b.serious?'+1 기록':opp(b).dmg}</span>`;
+ $('#vn').appendChild(el);seeCg(opp(b).cg(st,b));if(allyOn(b))seeCg(allyCg(st,b));particles(el,b.serious?'light':'cloth',b.serious?26:fin?40:24);if(!b.serious)particles(el,'ink',10);
  el.onclick=e=>{e.stopPropagation();el.remove();};setTimeout(()=>el.remove(),fin?3400:2700);battleHud();
 }
 
@@ -633,16 +641,16 @@ function config(){const d=$('#vnConfig'),st=meta.settings;
  $('#cfgReset').onclick=()=>{if(!confirm('세이브·읽음 기록을 지울까요? 문항 풀이 기록은 남습니다.'))return;meta={saves:{},read:{},flags:{},settings:st};persist();d.close();title();};
  d.showModal();
 }
-// 묵 의상 도감: 배틀에서 만난 의상과 벗겨 낸 단계까지의 CG. 못 본 의상은 실루엣.
+// 묵 의상 도감: 배틀에서 만난 의상과 벗겨 낸 단계까지의 CG(1페이즈 b0~b3 의상 + 2페이즈 b4~b6 속옷). 못 본 의상은 실루엣.
 function mukGallery(){const d=$('#vnLog'),got=records.mukSkins||{},all=Object.entries(window.MUK_SKINS||{});
  const n=all.filter(([k])=>k in got).length;
  d.innerHTML=`<div class="dialog-header"><div><small>COLLECTION</small><h2>묵 의상 도감</h2></div><button class="quiet" data-close>닫기 ×</button></div>
- <p class="mg-sum">만난 의상 ${n} / ${all.length} · 첫 시도 정답으로 먹물 옷을 벗겨 낸 단계까지 열려요.</p><div class="mg-grid">${all.map(([k,v])=>{const has=k in got,mx=has?got[k]:-1,st=v.serious?[0]:[0,1,2,3];
+ <p class="mg-sum">만난 의상 ${n} / ${all.length} · 1페이즈(의상 파손)와 2페이즈(속옷 파손)에서 벗겨 낸 단계까지 열려요.</p><div class="mg-grid">${all.map(([k,v])=>{const has=k in got,mx=has?got[k]:-1,st=v.serious?[0]:[0,1,2,3,4,5,6];
   return `<figure class="mg-card${has?'':' locked'}${v.serious?' serious':''}"><div class="mg-main"><img src="${asset(`cg_muk_${k}_b0.webp`)}" alt=""></div><figcaption><b>${has?esc(v.name):'???'}</b>${v.serious?'<small>진혼</small>':`<span class="mg-pips">${st.map(i=>`<i class="${i<=mx?'on':''}" data-k="${k}" data-i="${i}"></i>`).join('')}</span>`}</figcaption></figure>`;}).join('')}</div><div class="mg-view" hidden><img alt=""></div>`;
  d.querySelector('[data-close]').onclick=()=>d.close();
  const view=d.querySelector('.mg-view');view.onclick=()=>view.hidden=true;
  d.querySelectorAll('.mg-card:not(.locked) .mg-main').forEach(m=>m.onclick=()=>{view.querySelector('img').src=m.querySelector('img').src;view.hidden=false;});
- d.querySelectorAll('.mg-pips i.on').forEach(p=>p.onclick=e=>{e.stopPropagation();view.querySelector('img').src=asset(`cg_muk_${p.dataset.k}_b${p.dataset.i}.webp`);view.hidden=false;});
+ d.querySelectorAll('.mg-pips i.on').forEach(p=>p.onclick=e=>{e.stopPropagation();const im=view.querySelector('img');im.onerror=()=>{im.onerror=null;im.src=asset(`cg_muk_${p.dataset.k}_b3.webp`);};im.src=asset(`cg_muk_${p.dataset.k}_b${p.dataset.i}.webp`);view.hidden=false;});
  d.showModal();}
 // ── 갤러리: 본 CG·들은 곡·본 엔딩만 열린다(records.cgSeen / records.bgmHeard / records.endings).
 function seeCg(src){const k=String(src||'').split('/').pop().replace(/\.(webp|png)(\?.*)?$/,'');if(!/^cg_/.test(k)||/^cg_(ink_spread|comment_flame)$/.test(k))return;const a=records.cgSeen||(records.cgSeen=[]);if(!a.includes(k)){a.push(k);save();}}
