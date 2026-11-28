@@ -520,9 +520,9 @@ SCENE_OVERRIDES = {
     "cg_ch23_saebyeok_h1": {
         "premodern": False,
         "env": "inside 1988 seoul old inn room on a stormy autumn night, rain hitting window, discarded wedding ring on floor, rumpled bed",
-        "pose": "doggystyle on bed, arms pinned behind back, hair pulled, rough sex, vaginal, cum in pussy",
+        "pose": "doggystyle on bed, arms pinned behind back, hair pulled, rough sex, mutual crying, tears from both, vaginal, cum in pussy",
         "girl": "partially undressed, wet 1980s cream silk blouse torn open and navy skirt bunched up, mature curvy body, exposed huge breasts, hair bun coming undone, on all fours on inn bed with arms pinned behind her back, crying tears of submission and ecstasy",
-        "boy": "kneeling behind her on the bed, holding her wrists/hair and thrusting roughly",
+        "boy": "black hoodie with hood down, red-rimmed eyes streaming with hot tears of betrayal and furious possessive love, kneeling behind her on the bed, holding her wrists and hair, thrusting roughly",
     },
     "cg_ch23_moa_h1": {
         "premodern": False,

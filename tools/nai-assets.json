@@ -6459,7 +6459,7 @@
    "size": "bg",
    "seed": 724666113,
    "model": "nai-diffusion-5-full-medium",
-   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, doggystyle on bed, arms pinned behind back, hair pulled, rough sex, vaginal, cum in pussy, inside 1988 seoul old inn room on a stormy autumn night, rain hitting window, discarded wedding ring on floor, rumpled bed, no readable text",
+   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, doggystyle on bed, arms pinned behind back, hair pulled, rough sex, mutual crying, tears from both, vaginal, cum in pussy, inside 1988 seoul old inn room on a stormy autumn night, rain hitting window, discarded wedding ring on floor, rumpled bed, no readable text",
    "chars": [
     {
      "cast": "saebyeok_mom",
@@ -6469,7 +6469,7 @@
     },
     {
      "cast": "sangcheol",
-     "prompt": "1boy, faceless male, shaded face, black hoodie, hood pulled low, eyes hidden in hood shadow, kneeling behind her on the bed, holding her wrists/hair and thrusting roughly",
+     "prompt": "1boy, faceless male, shaded face, black hoodie with hood down, red-rimmed eyes streaming with hot tears of betrayal and furious possessive love, kneeling behind her on the bed, holding her wrists and hair, thrusting roughly",
      "uc": "visible eyes",
      "x": 0.56,
      "y": 0.5
@@ -9211,6 +9211,27 @@
      "uc": "visible eyes",
      "x": 0.8,
      "y": 0.54
+    }
+   ]
+  },
+  {
+   "id": "cg_ch23_sangcheol_tears",
+   "size": "bg",
+   "seed": 185503221,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, dark concrete stadium corridor tunnel in 1988, dim dramatic shadows, intense emotional confrontation, mutual crying, streaming tears, heartbreak and betrayal, gripping shoulders, kneeling on floor, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "1girl, mature female, curvy, huge breasts, black hair, hair bun, black eyes, -3::flat chest, small breasts::, 1980s cream silk blouse with top buttons undone, slight cleavage, long pleated navy skirt, beige cardigan over shoulders, holding an old faded olive field cap with a taegeuk badge, kneeling on concrete floor holding faded military cap, looking up in utter shock and agonizing remorse as his hot tears fall onto her cheeks, crying hysterically",
+     "x": 0.44,
+     "y": 0.58
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, black hoodie with hood pulled down off head, short black hair, red-rimmed eyes streaming with thick tears of betrayal and heartbreak, gripping her shoulders tightly and shouting in anguish",
+     "x": 0.56,
+     "y": 0.46
     }
    ]
   }
