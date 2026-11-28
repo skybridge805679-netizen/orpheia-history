@@ -228,6 +228,8 @@ VN.chapter('ep','종장','연표의 끝에서',`
 @show orpheia explain center
 @sd teach
 [오르페이아|explain] 마지막 지도는 내포·창녕·대구·광주. 다솜 씨가 엄마 새벽 씨의 몫까지 대신 낸 문제 자리예요.
+[오르페이아|explain] (귓속말) 대구 몫 한 문제만 먼저 풀고 갈게요. 불로동 고분군, 공산 전투의 신숭겸 장군 유적, 경상 감영, 계산 성당, 2·28 민주 운동 기념 회관을 잇는 답사길 — 대구예요. 1907년 김광제·서상돈 등이 나랏빚을 갚자며 국채 보상 운동을 처음 일으킨 곳이죠. 홍건적을 피한 공민왕은 안동, 유계춘의 봉기는 진주, 박재혁 의거는 부산, 김주열은 마산이에요.
+@quiz 81-50
 @board regional-naepo regional-changnyeong regional-daegu-gwangju
 @hide all
 

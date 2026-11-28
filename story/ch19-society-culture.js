@@ -388,9 +388,10 @@ VN.chapter('ch19','제19장','경성의 두 얼굴',`
 @label m1ok
 [묵|smile] 맞아. 광복 이후의 풍경만 정확히 걸러 내면 일제 강점기의 두 얼굴이 한눈에 보이지.
 @label m1after
+[오르페이아|explain] (귓속말) 하나 더, 경성의 두 얼굴 그 자체인 문제예요. 반도 호텔처럼 서구식 건물이 올라가던 경성과, 변두리의 토막집. 조선 총독부가 다스리던 시절의 모습을 묻는데 ‘아닌 것’을 골라요. 경평 축구·황국 신민 서사·영단주택·삼천리는 다 그 시절이지만, 경인선 기공식은 1897년이에요.
 @hide all
 @battle muk skin=hangul
-@quiz 자작-33 자작-34 자작-35
+@quiz 자작-33 자작-34 자작-35 81-43
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

@@ -18,7 +18,8 @@ const Quiz=(()=>{
  function stats(){const t=QS.length,seen=QS.filter(q=>records.quiz[key(q)]).length,right=QS.filter(q=>records.quiz[key(q)]?.last).length;return {total:t,seen,right};}
  // 고르는 규칙: 안 푼 문항 → 최근에 틀린 문항 → 나머지 순으로 섞어서 뽑는다.
  // 자작문제 모의고사: 기출 회당 평균 시대 비중(docs/출제-분석.md)대로 자작문제(오르페이아가 만든 문제, 키 자작-N)에서 50문항을 시험지 순서로 뽑는다.
- const MOCK_QUOTA={'선사':1,'초기국가':1,'삼국':4,'남북국':4,'고려':7,'조선전기':4,'조선후기':5,'근대':7,'일제강점기':9,'현대':5,'통합':3};
+ // 70~81회 회당 평균(docs/출제-분석.md)을 최대 나머지 방식으로 50에 맞춘 값(2026.11.28 다시 계산).
+ const MOCK_QUOTA={'선사':1,'초기국가':1,'삼국':4,'남북국':4,'고려':7,'조선전기':4,'조선후기':5,'근대':7,'일제강점기':9,'현대':6,'통합':2};
  function mockList(){const out=[];for(const [e,n] of Object.entries(MOCK_QUOTA))out.push(...QS.filter(q=>q.pred&&q.era===e).sort((a,b)=>(b.w||0)-(a.w||0)||a.n-b.n).slice(0,n).sort((a,b)=>a.n-b.n));return out;}
  function choose(pool,n){
   const w=q=>{const r=records.quiz[key(q)];return !r?0:!r.last?1:2;};

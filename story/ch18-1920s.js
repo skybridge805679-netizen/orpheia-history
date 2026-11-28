@@ -299,9 +299,10 @@ VN.chapter('ch18','제18장','부드러운 손, 숨은 칼',`
 @label m1ok
 [묵|smile] 맞아. 걸어간 길의 모양은 서로 달랐어도, 그 길들이 끝내 닿으려 했던 곳은 '독립'이라는 똑같은 한자리였어.
 @label m1after
+[오르페이아|explain] (귓속말) 하나 더요. 태화관 사진과 ‘인천항에 ○○단 잠입’ 기사가 검열관의 붉은 펜에 지워진 중외일보 — 문화 통치를 내세운 1920년대예요. 그때 일제는 도 평의회·면 협의회 같은 자문 기구를 만들어 보였죠. 헌병 경찰과 태형령은 1910년대예요.
 @hide all
 @battle muk skin=moga
-@quiz 자작-30 자작-31 자작-32
+@quiz 자작-30 자작-31 자작-32 81-38
 @battle end
 @show muk smile center
 @if quizFirst >= 2 -> sealok

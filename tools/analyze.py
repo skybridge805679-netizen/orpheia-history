@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""기출 70~80회 출제 분석 → docs/출제-분석.md. 시대 비중, 주제별 출제 회차, 최근 공백, 발문 유형."""
+"""기출 출제 분석(qs.js의 모든 회차) → docs/출제-분석.md. 시대 비중, 주제별 출제 회차, 최근 공백, 발문 유형."""
 import json, subprocess, collections
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
@@ -15,11 +15,11 @@ def kind(s):
     if any(k in s for k in ['문화유산','탑','사진','그림']): return '사진·문화유산'
     if '옳지 않은' in s: return '옳지 않은 것'
     return '설명·사실 고르기'
-out=["# 기출 70~80회 출제 분석","",f"분석 문항 {len(Q)} (회차 {R[0]}~{last}). `python3 tools/analyze.py`로 다시 만든다.",""]
+out=[f"# 기출 {R[0]}~{last}회 출제 분석","",f"분석 문항 {len(Q)} (회차 {R[0]}~{last}). `python3 tools/analyze.py`로 다시 만든다.",""]
 out+=["## 시대별 회당 문항 수","","| 시대 | 합계 | 회당 평균 |","|---|---|---|"]
 ec=collections.Counter(q['era'] for q in Q)
 for e in ERA: out.append(f"| {e} | {ec[e]} | {ec[e]/len(R):.1f} |")
-out+=["","## 주제별 출제 회차 (시대 안에서 많이 나온 순)","","우선도 = 출제 회 수가 많은데 최근 2회(79·80)에 안 나온 주제를 ★로 표시.",""]
+out+=["","## 주제별 출제 회차 (시대 안에서 많이 나온 순)","",f"우선도 = 출제 회 수가 많은데 최근 2회({last-1}·{last})에 안 나온 주제를 ★로 표시.",""]
 for e in ERA:
     tp=collections.defaultdict(list)
     for q in Q:
