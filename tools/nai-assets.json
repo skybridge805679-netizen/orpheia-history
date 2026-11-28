@@ -9140,6 +9140,79 @@
      "y": 0.54
     }
    ]
+  },
+  {
+   "id": "cg_ch09_yeoul_contract",
+   "size": "bg",
+   "seed": 24709363,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, ancient goryeo byeokrando harbor pier in daylight, wooden cargo crates, traditional korean hanji marriage contract torn neatly in half with red seal stamp split across the seam, red ink paste box, romantic and playful atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "yeoul",
+     "prompt": "1girl, medium breasts, brown hair, wavy hair, low twintails, blue eyes, freckles, -3::huge breasts, flat chest::, blue cloth hair ties, goryeo merchant short jade green jacket with wide sleeves, long white skirt, cloth sash, small abacus hanging from belt, carrying a celadon vase, holding one half of the red-stamped hanji marriage contract and handing the other half to him, red ink on thumb, blushing tsundere smile, sparkling blue eyes",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, receiving his half of the red-stamped contract paper with red ink on his thumb",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ],
+   "negative": "modern bedroom, western bed, mattress, modern pillow, modern furniture, modern bathroom, shampoo bottle, tile wall, glass window, electric lamp, modern clothes, smartphone, laptop"
+  },
+  {
+   "id": "cg_sp_nt_yeoul_contract",
+   "size": "bg",
+   "seed": 650816051,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, cozy modern bedroom at night, warm bedside lamp, sitting together on bed, two torn halves of an ancient hanji marriage contract placed side by side forming a complete red circular seal stamp in the center alongside two matching jade-green celadon shards, deeply emotional romantic reunion, no readable text",
+   "chars": [
+    {
+     "cast": "yeoul",
+     "prompt": "1girl, medium breasts, brown hair, wavy hair, low twintails, blue eyes, freckles, -3::huge breasts, flat chest::, blue cloth hair ties, blue silk robe tied loosely at the waist over a white silk camisole, bare legs, covering her mouth with both hands in tearful joy, deep blush, looking down at the reunited red seal contract and celadon shard on the bedsheet",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, holding open his leather wallet and aligning his half of the ancient contract with hers on the bed",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_yeoul_ledger",
+   "size": "bg",
+   "seed": 673400324,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "2girls, 1boy, modern home music studio at night, mixing desk, wooden personal seal stamp in velvet case, bankbooks and building property deed documents, warm comedic and proud family scene, no readable text",
+   "chars": [
+    {
+     "cast": "yeoul",
+     "prompt": "1girl, medium breasts, brown hair, wavy hair, low twintails, blue eyes, freckles, -3::huge breasts, flat chest::, blue cloth hair ties, modern navy office suit blazer and white blouse, holding his personal seal stamp case and open bankbook with a poised, confident main-wife smile",
+     "x": 0.35,
+     "y": 0.52
+    },
+    {
+     "cast": "yunseul",
+     "prompt": "1girl, medium breasts, brown hair, wavy hair, medium hair, aqua eyes, -3::huge breasts, flat chest::, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thighhighs, sneakers, wireless earphones, holding a thick korean history book with sticky notes, jaw dropped in comic shock and awe, wide aqua eyes staring at the bankbook and property deed",
+     "x": 0.62,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting at mixing console with headphones on one ear, smiling calmly",
+     "uc": "visible eyes",
+     "x": 0.8,
+     "y": 0.54
+    }
+   ]
   }
  ]
 }
