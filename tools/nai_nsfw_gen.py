@@ -1414,7 +1414,7 @@ def cast_of(i):
     return c
 
 
-# 이미 수작업으로 세밀하게 작성된 에셋(설아 자매 교복/아이돌 애프터스토리 8종 및 명월 H씬 1종)은 보존
+# 이미 수작업으로 세밀하게 작성된 에셋(설아 자매 교복/아이돌 애프터스토리 8종, 명월 H씬 1종, 신규 추가 H씬 11종)은 보존
 PRESERVE_IDS = {
     "cg_ch19_myeongwol_h1",
     "cg_after_maehyang_idol_h1",
@@ -1425,6 +1425,17 @@ PRESERVE_IDS = {
     "cg_after_choryeon_school_h1",
     "cg_after_hwaseon_school_h1",
     "cg_after_seola_school_h1",
+    "cg_after_bath_harem_h1",
+    "cg_after_dodam_clinic_h1",
+    "cg_after_seola_pregnant_h1",
+    "cg_after_bori_noeul_lactation_h1",
+    "cg_after_mother_daughter_3p_h1",
+    "cg_end_sayeon_h1",
+    "cg_after_orpheia_muk_sayeon_h1",
+    "cg_after_ara_gaon_3p_h1",
+    "cg_after_maru_seori_3p_h1",
+    "cg_after_seola_sisters_4p_h1",
+    "cg_sp05_sayeon_h1",
 }
 
 items = []

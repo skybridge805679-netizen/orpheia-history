@@ -8453,6 +8453,700 @@
      "y": 0.5
     }
    ]
+  },
+  {
+   "id": "cg_ch02_ungnyeo_ricecake",
+   "size": "bg",
+   "seed": 2118389252,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "2girls, 1boy, ancient korean cave entrance at sunset, warm golden sunset glow, woven bamboo basket with steamed mugwort rice cakes wrapped in hemp cloth, heartwarming family atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "ungnyeo",
+     "prompt": "1girl, mature female, large breasts, brown hair, long hair, hair bun, side bun, brown eyes, -3::flat chest, small breasts::, wooden hairpin, hair flower, korean clothes, hanbok, white jeogori with red floral collar and cuffs, red goreum ribbon, long deep brown chima skirt, norigae tassel at waist, embroidered shoes, holding woven basket, gentle motherly smile, handing warm hemp cloth bundle of mugwort rice cakes to the boy while stroking the tiger girl head",
+     "x": 0.3,
+     "y": 0.5
+    },
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairclips, jade hair stick, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, tiger ears flattened shyly, deep blush, looking up at her sister while hiding behind her",
+     "x": 0.52,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, receiving the warm rice cake bundle with both hands",
+     "uc": "visible eyes",
+     "x": 0.75,
+     "y": 0.52
+    }
+   ],
+   "negative": "modern bedroom, western bed, mattress, modern pillow, modern furniture, modern bathroom, shampoo bottle, tile wall, glass window, electric lamp, modern clothes, smartphone, laptop"
+  },
+  {
+   "id": "cg_ch16_hanbyeol_censor",
+   "size": "bg",
+   "seed": 2954443400,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, 1907 korean newspaper printing room at night, dim oil lamp light, wooden desk, red censorship ink stamps, brick-red erased newspaper proof sheets, warm emotional scene, no readable text",
+   "chars": [
+    {
+     "cast": "hanbyeol",
+     "prompt": "1girl, medium breasts, black hair, long hair, straight hair, parted bangs, single braid, black eyes, -3::huge breasts, flat chest::, white hair ribbon, 1900s mission school student white jeogori with short sleeves, long black chima skirt, black leather shoes, holding a newspaper and books, ink smudges on fingertips, teary eyes, determined and touched expression, looking up as he writes musical notes on the censored blank spaces of the newspaper",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, leaning over the desk holding a fountain pen, writing musical notes across the censored newspaper column",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_ch18_bori_stew",
+   "size": "bg",
+   "seed": 1875339617,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, 1920s autumn birch forest camp in manchuria at night, crackling campfire, large cast-iron cauldron boiling white rice and beef soup, steam rising, falling golden birch leaves, no readable text",
+   "chars": [
+    {
+     "cast": "bori",
+     "prompt": "1girl, curvy, large breasts, black hair, single braid, brown eyes, tan, -3::flat chest, small breasts::, white cotton headband, plain white hemp jeogori and white chima tucked up, white trousers, straw sandals, holding a bamboo spear, warm motherly smile, blushing cheeks illuminated by firelight, holding out a steaming wooden bowl of white rice and meat soup with both hands",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting on log by campfire, accepting the warm bowl of soup",
+     "uc": "visible eyes",
+     "x": 0.62,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_ch21_saebyeok_organ",
+   "size": "bg",
+   "seed": 245164596,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, 1950s busan tent school classroom at sunset, canvas military tent interior, golden evening sunlight through tent flap, small wooden reed organ, chalkboard, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok",
+     "prompt": "1girl, medium breasts, black hair, short hair, bob cut, black eyes, -3::huge breasts, flat chest::, 1940s korean liberation army olive drab military jacket with belt and shoulder straps, matching trousers, puttees, field cap with small taegeuk badge, holding a rifle, sitting at small wooden reed organ, playing keys alongside him, soft nostalgic smile, blushing cheeks in sunset light",
+     "x": 0.44,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting beside her on the organ bench, playing four-hands duet on the reed organ",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_ch22_bomnae_measure",
+   "size": "bg",
+   "seed": 1075521219,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, 1970s low-ceiling attic sewing room at night, warm bare lightbulb, vintage treadle sewing machine, fabric rolls, intimate romantic atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "bomnae",
+     "prompt": "1girl, petite, medium breasts, black hair, short hair, bob cut, brown eyes, blush, -3::huge breasts, flat chest::, white cloth headband, 1970s garment factory light blue work blouse with sleeves rolled up, navy work skirt below the knee, white factory apron with thread scraps, thimble on finger, canvas sneakers, standing on tiptoes very close to his chest, wrapping a yellow tailor measuring tape around his shoulders and back, deep blush, shy loving eyes",
+     "x": 0.46,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, standing still with arms slightly raised while she measures his chest and shoulders",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_aunt_seola_hide",
+   "size": "bg",
+   "seed": 2486757541,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, modern apartment living room at dusk, hiding behind kitchen wall corner, doorway view in background, comedic and heart-pounding atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "1girl, loli, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye, -3::mature female, huge breasts, large breasts, medium breasts, curvy, tall female::, white plum blossom hair ornament and silver binyeo hairclip, joseon gisaeng short jade green jeogori with crimson cuffs and long crimson otgoreum ribbon, long full deep rose chima skirt wrapped high under bust, holding a folded white fan, pressing her small white folding fan gently against his lips to hush him, leaning close against his chest behind the wall corner, blushing, whispering",
+     "x": 0.46,
+     "y": 0.55
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, crouching slightly behind the living room wall corner holding her shoulders",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_sp_ex_lineage",
+   "size": "bg",
+   "seed": 2071318468,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "2girls, 1boy, dark korean alley at night, glowing spiritual blue and golden light, spiritual vision overlay across time, brass shaman bells ringing, mystical atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "hyejin",
+     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, unique school uniform fusing korean hanbok and school uniform, white jeogori-style blouse with crossed collar and white dongjeong collar strip, long red goreum ribbon tied at chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below knees, black pantyhose, loafers, school bag with brass shaman bells, five-colored cloth strips on wrist, holding a folded fan, holding up ringing brass shaman bells and folding fan, looking back with emotional glowing orange eyes",
+     "x": 0.35,
+     "y": 0.52
+    },
+    {
+     "cast": "myeongwol",
+     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, translucent glowing spirit aura, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around wrist, cluster of small brass shaman bells, holding a painted folding fan, standing right behind her descendant in matching posture, warm tearful smile across a hundred years",
+     "x": 0.52,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, reaching out his hand toward them",
+     "uc": "visible eyes",
+     "x": 0.72,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_yunseul_seook",
+   "size": "bg",
+   "seed": 3121471752,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "3girls, 1boy, cozy modern home music studio in the morning, breakfast table with 36 spoonfuls of rice and soup bowls, smartphone showing bank balance notification, comedic domestic scene, no readable text",
+   "chars": [
+    {
+     "cast": "yunseul",
+     "prompt": "1girl, medium breasts, brown hair, wavy hair, medium hair, aqua eyes, -3::huge breasts, flat chest::, oversized pastel blue hoodie covered with history themed pin badges, black shorts, thighhighs, sneakers, wireless earphones, holding a thick korean history book with sticky notes, holding up her smartphone in shock and comic outrage, anime anger vein, pointing at the screen",
+     "x": 0.25,
+     "y": 0.5
+    },
+    {
+     "cast": "dallae",
+     "prompt": "1girl, medium breasts, black hair, hair bun, brown eyes, -3::huge breasts, flat chest::, wooden hairclip, oversized grey t-shirt slipping off one shoulder, black dolphin shorts, bare legs, barefoot, holding a spoon to feed him a bite of rice, cheerful teasing smile",
+     "x": 0.48,
+     "y": 0.54
+    },
+    {
+     "cast": "bori",
+     "prompt": "1girl, curvy, large breasts, black hair, single braid, brown eyes, tan, -3::flat chest, small breasts::, loose white t-shirt and red dolphin shorts, apron, barefoot, holding a warm bowl of soup next to him, doting motherly smile",
+     "x": 0.72,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting at table with mouth full of rice, sweating nervously",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.54
+    }
+   ]
+  },
+  {
+   "id": "cg_after_seola_gamjeong",
+   "size": "bg",
+   "seed": 1305807123,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "5girls, 1boy, cozy home oriental medicine clinic room in the morning, wooden medicine cabinet, pulse diagnosis cushion, warm sunlight, emotional and joyful family celebration, no readable text",
+   "chars": [
+    {
+     "cast": "dodam",
+     "prompt": "1girl, medium breasts, brown hair, single braid, hair over shoulder, yellow eyes, -3::huge breasts, flat chest::, red ribbon, plain white short-sleeve t-shirt and cotton shorts, stethoscope around neck, slippers, holding three fingers on the wrist for pulse diagnosis, amazed and joyful smile",
+     "x": 0.22,
+     "y": 0.54
+    },
+    {
+     "cast": "seola",
+     "prompt": "1girl, loli, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye, -3::mature female, huge breasts, large breasts, medium breasts, curvy, tall female::, long black hair let down with white plum blossom hairclip, simple white cotton nightgown, light shawl, barefoot, sitting on clinic chair, one hand resting gently on her lower belly, teary happy blush",
+     "x": 0.42,
+     "y": 0.56
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, standing beside his young wife holding her hand gently",
+     "uc": "visible eyes",
+     "x": 0.54,
+     "y": 0.5
+    },
+    {
+     "cast": "maehyang",
+     "prompt": "1girl, tall female, curvy, huge breasts, black hair, hair bun, black eyes, mole under mouth, -3::flat chest, small breasts::, long black hair let down with gold hairclip, black lace bra and matching lace panties, sheer black silk robe hanging open, clasping hands together in tearful joy behind her sister",
+     "x": 0.68,
+     "y": 0.5
+    },
+    {
+     "cast": "choryeon",
+     "prompt": "1girl, skinny, small breasts, black hair, hair bun, brown eyes, tsurime, -3::mature female, huge breasts, large breasts, medium breasts::, loose updo, pink lace bra and panties set, oversized cream knit cardigan slipping off one shoulder, blushing and wiping a tear from the corner of her eye",
+     "x": 0.8,
+     "y": 0.52
+    },
+    {
+     "cast": "hwaseon",
+     "prompt": "1girl, skinny, medium breasts, black hair, hair bun, orange eyes, -3::huge breasts, flat chest::, messy half updo with small colorful flower hairclips, huge oversized black hoodie only, sleeves past hands, bare legs, barefoot, cheering happily with arms raised",
+     "x": 0.9,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_naming_debate",
+   "size": "bg",
+   "seed": 2828243201,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "4girls, 1boy, bright modern living room and studio in the morning, large whiteboard covered with baby name ideas by historical era, lively family meeting, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, red silk slip negligee with thin straps and lace hem, bare shoulders, barefoot, fluffy tiger tail, pointing proudly at the whiteboard with a marker, confident grin, fluffy tiger tail wagging",
+     "x": 0.22,
+     "y": 0.52
+    },
+    {
+     "cast": "haneui",
+     "prompt": "1girl, medium breasts, black hair, long hair, hair bun, orange eyes, -3::huge breasts, flat chest::, gold hairclip, white lace negligee with thin straps, sheer lavender robe off the shoulders, barefoot, holding a brush pen and notebook, elegant competitive smile",
+     "x": 0.42,
+     "y": 0.52
+    },
+    {
+     "cast": "hanbyeol",
+     "prompt": "1girl, medium breasts, black hair, long hair, straight hair, parted bangs, single braid, black eyes, -3::huge breasts, flat chest::, white hair ribbon, round reading glasses, oversized white dress shirt as pajamas, sleeves rolled, kneehighs, adjusting her round glasses while holding a thick dictionary, serious expression",
+     "x": 0.62,
+     "y": 0.52
+    },
+    {
+     "cast": "orpheia",
+     "prompt": "1girl, large breasts, white hair, very long hair, straight hair, green eyes, -3::flat chest, small breasts::, maid headdress, green ribbon, hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, holding a tablet showing a spreadsheet chart, cheerful smile",
+     "x": 0.82,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_firstcry_console",
+   "size": "bg",
+   "seed": 761954201,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, modern home music studio at dawn, soft pink and blue morning light through window, large mixing console desk with glowing faders and waveform monitor, peaceful emotional scene, no readable text",
+   "chars": [
+    {
+     "cast": "orpheia",
+     "prompt": "1girl, large breasts, white hair, very long hair, straight hair, green eyes, -3::flat chest, small breasts::, maid headdress, green ribbon, hair ribbon, maid, black dress, long sleeves, white apron, frilled apron, green bowtie, emerald brooch, black boots, leaning her head gently against his shoulder beside the mixing console, warm loving smile, placing her hand over his on the master fader",
+     "x": 0.45,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting at the mixing console desk with headphones around neck, pushing up the master fader",
+     "uc": "visible eyes",
+     "x": 0.58,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_second_meeting",
+   "size": "bg",
+   "seed": 2683395161,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "4girls, 1boy, sunny modern apartment living room, family council table with calendar chart, comedic and warm atmosphere, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "1girl, mature female, curvy, huge breasts, black hair, hair bun, black eyes, -3::flat chest, small breasts::, champagne silk negligee with thin straps and lace trim, long open cream cardigan, barefoot, sitting at head of table, gently cradling her slightly rounded pregnant belly with both hands, shy submissive blush, unable to speak up",
+     "x": 0.28,
+     "y": 0.54
+    },
+    {
+     "cast": "dasom",
+     "prompt": "1girl, medium breasts, black hair, medium hair, straight hair, blunt bangs, black eyes, -3::huge breasts, flat chest::, white sports bra and matching cotton panties, oversized university sweatshirt slipping off one shoulder, bare legs, looking at her mother belly with wide surprised eyes and a blushing smile",
+     "x": 0.48,
+     "y": 0.54
+    },
+    {
+     "cast": "choryeon",
+     "prompt": "1girl, skinny, small breasts, black hair, hair bun, brown eyes, tsurime, -3::mature female, huge breasts, large breasts, medium breasts::, loose updo, pink lace bra and panties set, oversized cream knit cardigan slipping off one shoulder, pointing at the calendar chart with a smug teasing grin",
+     "x": 0.68,
+     "y": 0.52
+    },
+    {
+     "cast": "moa",
+     "prompt": "1girl, gyaru, kogal, medium breasts, brown hair, streaked hair, long hair, tan, -3::huge breasts, flat chest::, messy hair bun, red devils world cup t-shirt and short shorts, barefoot, raising hand excitedly for her second baby turn",
+     "x": 0.84,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_tigerden_nap",
+   "size": "bg",
+   "seed": 848463297,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "1girl, 1boy, sunny modern living room transformed into a giant baby playroom, thick pastel play mats, dozens of cute chubby babies sleeping piled up, peaceful afternoon nap, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, red silk slip negligee with thin straps and lace hem, bare shoulders, barefoot, fluffy tiger tail, lying stretched out comfortably on the living room play mat like a mother tiger, several adorable babies sleeping curled up on her stomach, chest, and beside her fluffy tiger tail, warm protective smile",
+     "x": 0.45,
+     "y": 0.56
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting leaned against the wall near her feet holding a clean diaper, dozing off peacefully",
+     "uc": "visible eyes",
+     "x": 0.75,
+     "y": 0.54
+    }
+   ]
+  },
+  {
+   "id": "cg_end_noeul_ungnyeo",
+   "size": "bg",
+   "seed": 2689460397,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "2girls, 1boy, ancient asadal rocky cave entrance at crimson sunset, warm red evening sky, mountain pine trees, emotional farewell blessing, no readable text",
+   "chars": [
+    {
+     "cast": "ungnyeo",
+     "prompt": "1girl, mature female, large breasts, brown hair, long hair, hair bun, side bun, brown eyes, -3::flat chest, small breasts::, wooden hairpin, hair flower, korean clothes, hanbok, white jeogori with red floral collar and cuffs, red goreum ribbon, long deep brown chima skirt, norigae tassel at waist, embroidered shoes, holding woven basket, reaching up to gently stroke between the tiger girl fluffy ears, tearful warm motherly smile, handing a hemp cloth rice cake bundle to the boy",
+     "x": 0.34,
+     "y": 0.5
+    },
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, layered white and crimson silk robe with gold embroidered tiger stripe trim, wide flowing sleeves, gold belt hung with green jade curved beads, gold hairclips, jade hair stick, jade earrings, small bronze mirror pendant, white fur stole with a gold clasp, silk shoes, closing eyes happily with a tear on her eyelashes as her sister strokes her tiger ears, blushing",
+     "x": 0.54,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, standing beside them holding the warm hemp cloth bundle",
+     "uc": "visible eyes",
+     "x": 0.74,
+     "y": 0.52
+    }
+   ],
+   "negative": "modern bedroom, western bed, mattress, modern pillow, modern furniture, modern bathroom, shampoo bottle, tile wall, glass window, electric lamp, modern clothes, smartphone, laptop"
+  },
+  {
+   "id": "cg_after_bath_harem_h1",
+   "size": "bg",
+   "seed": 957239364,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, group sex, foursome, 3girls, 1boy, nsfw, explicit, large luxury steamed bathroom, overflowing hot bathtub, soap bubbles, wet skin, girl on top straddling in tub, double breast press against back, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, nude, wet skin, soap bubbles, orange streaked hair, tiger ears, fluffy wet tiger tail, exposed huge breasts pressed against his chest, straddling his lap in the bathtub in cowgirl position, moaning in ecstasy",
+     "x": 0.45,
+     "y": 0.52
+    },
+    {
+     "cast": "naru",
+     "prompt": "1girl, large breasts, purple hair, long hair, single braid, hair over shoulder, yellow eyes, pale skin, -3::flat chest, small breasts::, nude, wet purple hair in single braid, brass bell on hair tie, exposed large breasts pressed against his left shoulder and arm from behind, faint blue water glow on ankles, kissing his neck",
+     "x": 0.28,
+     "y": 0.5
+    },
+    {
+     "cast": "bada",
+     "prompt": "1girl, toned, medium breasts, black hair, short hair, wavy hair, wet hair, black eyes, tan, -3::huge breasts, flat chest::, nude, wet short wavy black hair, tan toned skin, exposed medium breasts pressed against his right shoulder from behind, caressing his chest in the steaming water",
+     "x": 0.68,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, nude, wet black hoodie hood pulled low over eyes, sitting in the large bathtub holding the tiger girl hips while surrounded by three wet beauties",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_after_dodam_clinic_h1",
+   "size": "bg",
+   "seed": 2317405884,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, indoors, home oriental medicine clinic at night, warm lamp light, wooden medicine chest, padded examination bed, missionary with legs lifted high, mating press, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "dodam",
+     "prompt": "1girl, medium breasts, brown hair, single braid, hair over shoulder, yellow eyes, -3::huge breasts, flat chest::, partially undressed, white clinic coat and green jeogori pulled open, exposed medium breasts, red ribbon in single brown braid, herb aroma, lying on examination bed with legs lifted high around his shoulders, blushing deeply and moaning",
+     "x": 0.45,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, leaning over her on the clinic bed, holding her thighs and penetrating deeply",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_seola_pregnant_h1",
+   "size": "bg",
+   "seed": 1302997723,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, cozy modern bedroom at night, warm bedside lamp, spooning position on bed, from behind, pregnant, gentle affectionate sex, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "1girl, loli, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye, -3::mature female, huge breasts, large breasts, medium breasts, curvy, tall female::, nude, white plum blossom hairclip in long black hair, mole under eye, exposed flat chest, softly rounded pregnant belly, lying on her side on bed, both his hands and hers gently cradling her pregnant stomach from behind, teary blissful blush",
+     "x": 0.46,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, lying behind her on bed in spooning position, embracing her pregnant belly tenderly while penetrating slowly from behind",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_bori_noeul_lactation_h1",
+   "size": "bg",
+   "seed": 2233266204,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, threesome, 2girls, 1boy, nsfw, explicit, cozy bedroom at night, bed, lactation, breast milk spraying, double breast sucking and cowgirl position, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "noeul",
+     "prompt": "1girl, tall female, curvy, huge breasts, tiger girl, orange hair, streaked hair, multicolored hair, very long hair, tiger ears, animal ear fluff, orange eyes, slit pupils, fang, pale skin, -3::flat chest, small breasts::, nude, orange streaked hair, tiger ears, fluffy tiger tail, exposed huge breasts dripping and spraying white breast milk, lactation, straddling his lap on bed in cowgirl position, arching back in pleasure",
+     "x": 0.44,
+     "y": 0.52
+    },
+    {
+     "cast": "bori",
+     "prompt": "1girl, curvy, large breasts, black hair, single braid, brown eyes, tan, -3::flat chest, small breasts::, nude, single black braid, tan curvy body, exposed large breasts overflowing with white breast milk, lactation, kneeling beside him on bed pressing her lactating nipple to his lips with a doting blushing smile",
+     "x": 0.64,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting on bed thrusting up into the tiger girl while nursing from the other girl lactating breast",
+     "uc": "visible eyes",
+     "x": 0.52,
+     "y": 0.55
+    }
+   ]
+  },
+  {
+   "id": "cg_after_mother_daughter_3p_h1",
+   "size": "bg",
+   "seed": 1079808165,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, threesome, oyakodon, mother and daughter, 2girls, 1boy, nsfw, explicit, cozy bedroom at night, bed, double doggy style / side-by-side from behind, holding hands, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "saebyeok_mom",
+     "prompt": "1girl, mature female, curvy, huge breasts, black hair, hair bun, black eyes, -3::flat chest, small breasts::, nude, mature female, black hair bun undone, exposed huge breasts pressed against bedsheets, on all fours on bed beside her daughter, interlocking fingers with her daughter hand, crying out in intense pleasure",
+     "x": 0.38,
+     "y": 0.54
+    },
+    {
+     "cast": "dasom",
+     "prompt": "1girl, medium breasts, black hair, medium hair, straight hair, blunt bangs, black eyes, -3::huge breasts, flat chest::, nude, medium straight black hair with blunt bangs, exposed medium breasts, lying on her stomach/knees beside her mother on bed, holding her mother hand tightly, blushing and moaning as he penetrates her from behind",
+     "x": 0.6,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, kneeling behind the mother and daughter on the bed, holding their hips and thrusting deeply",
+     "uc": "visible eyes",
+     "x": 0.52,
+     "y": 0.48
+    }
+   ]
+  },
+  {
+   "id": "cg_end_sayeon_h1",
+   "size": "bg",
+   "seed": 2165839111,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, modern music studio desk at night, long paper timeline scroll unrolled across desk, missionary on desk, wrists loosely wrapped in paper scroll ribbons, holding calligraphy brush dripping ink, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "sayeon",
+     "prompt": "1girl, large breasts, black hair, very long hair, orange eyes, -3::flat chest, small breasts::, partially undressed, white jeogori and navy hanbok skirt pulled open on desk, exposed large breasts, very long black hair spread over paper scrolls, orange eyes teary with pleasure, wrists loosely bound by her own paper scroll strips, dropping an ink-wet calligraphy brush as she orgasms",
+     "x": 0.46,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, leaning over the studio desk between her spread legs, penetrating deeply",
+     "uc": "visible eyes",
+     "x": 0.56,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_orpheia_muk_sayeon_h1",
+   "size": "bg",
+   "seed": 1925595509,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, group sex, foursome, 3girls, 1boy, nsfw, explicit, sunny modern music studio bedroom in the morning, wide sofa bed, missionary and simultaneous body worship, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "orpheia",
+     "prompt": "1girl, large breasts, white hair, very long hair, straight hair, green eyes, -3::flat chest, small breasts::, nude except for maid headdress and green hair ribbon, very long white hair, green eyes, exposed large breasts, lying in center of sofa bed with legs wrapped around his waist receiving deep penetration, blushing ecstatic smile",
+     "x": 0.46,
+     "y": 0.54
+    },
+    {
+     "cast": "muk",
+     "prompt": "1girl, petite, flat chest, black hair, long hair, grey eyes, pale skin, -3::mature female, huge breasts, large breasts, medium breasts, curvy, tall female::, nude, petite, long black hair with ink tips, pale skin, grey eyes, exposed flat chest, leaning against his side licking and kissing his chest and the maid breast playfully",
+     "x": 0.28,
+     "y": 0.54
+    },
+    {
+     "cast": "sayeon",
+     "prompt": "1girl, large breasts, black hair, very long hair, orange eyes, -3::flat chest, small breasts::, nude, very long black hair with red ribbon, orange eyes, exposed large breasts pressed against his other side, holding her sister hand and kissing his neck",
+     "x": 0.68,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, on top of the three intertwined girls on the studio bed",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_ara_gaon_3p_h1",
+   "size": "bg",
+   "seed": 2127279472,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, threesome, 2girls, 1boy, nsfw, explicit, cozy modern bedroom at night, bed, double riding, cowgirl position and facesitting / cunnilingus, holding hands, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "ara",
+     "prompt": "1girl, tall female, toned, medium breasts, black hair, long hair, high ponytail, yellow eyes, tan, -3::huge breasts, flat chest::, nude, high black ponytail, tan toned body, exposed medium breasts bouncing, straddling his waist in reverse/forward cowgirl position on bed, arching her back and moaning",
+     "x": 0.58,
+     "y": 0.52
+    },
+    {
+     "cast": "gaon",
+     "prompt": "1girl, petite, small breasts, black hair, hair bun, brown eyes, -3::mature female, huge breasts, large breasts, medium breasts::, nude, petite, black hair bun, exposed small breasts, straddling over his chest and face for cunnilingus while holding the archer girl hands for balance, deep blush, teary eyes",
+     "x": 0.38,
+     "y": 0.48
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, lying on back on bed thrusting up into the archer girl while pleasing the interpreter girl with his tongue",
+     "uc": "visible eyes",
+     "x": 0.48,
+     "y": 0.58
+    }
+   ]
+  },
+  {
+   "id": "cg_after_maru_seori_3p_h1",
+   "size": "bg",
+   "seed": 184761250,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, threesome, 2girls, 1boy, nsfw, explicit, cozy bedroom on a snowy winter night, underneath thick layered quilts and blankets on warm futon, spooning sex and simultaneous oral/caress, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "maru",
+     "prompt": "1girl, medium breasts, black hair, long hair, braided bun, brown eyes, -3::huge breasts, flat chest::, nude under thick quilt, braided black hair bun, ring of keys on nightstand, exposed medium breasts, lying on her side with one leg lifted as he penetrates her deeply from behind, blushing and moaning",
+     "x": 0.58,
+     "y": 0.54
+    },
+    {
+     "cast": "seori",
+     "prompt": "1girl, petite, small breasts, brown hair, medium hair, side braid, orange eyes, blush, -3::mature female, huge breasts, large breasts, medium breasts::, nude except for cute bear-ear fleece hood on head, petite, brown side braid, exposed small breasts, cuddled close on his other side under the thick blanket, kissing and licking his chest and shaft base",
+     "x": 0.36,
+     "y": 0.54
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, lying between the two girls under the warm three-layer quilt, embracing both",
+     "uc": "visible eyes",
+     "x": 0.48,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_after_seola_sisters_4p_h1",
+   "size": "bg",
+   "seed": 1976579125,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, group sex, harem, 4girls, 1boy, nsfw, explicit, spacious bedroom at night, silk bedding, four gisaeng sisters intertwined around one man, missionary and simultaneous kissing and caressing, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "seola",
+     "prompt": "1girl, loli, petite, skinny, flat chest, black hair, hair bun, grey eyes, long eyelashes, pale skin, mole under eye, -3::mature female, huge breasts, large breasts, medium breasts, curvy, tall female::, nude, white plum blossom hairclip, mole under eye, exposed flat chest, lying in center of silk bed with legs spread, receiving his gentle deep penetration while holding her sisters hands, teary blush",
+     "x": 0.48,
+     "y": 0.56
+    },
+    {
+     "cast": "maehyang",
+     "prompt": "1girl, tall female, curvy, huge breasts, black hair, hair bun, black eyes, mole under mouth, -3::flat chest, small breasts::, nude, red plum blossom hair ornament, mole under mouth, curvy, exposed huge breasts pressed against his chest and arm from the left, kissing his cheek affectionately",
+     "x": 0.26,
+     "y": 0.52
+    },
+    {
+     "cast": "choryeon",
+     "prompt": "1girl, skinny, small breasts, black hair, hair bun, brown eyes, tsurime, -3::mature female, huge breasts, large breasts, medium breasts::, nude, pink lotus hair ornament, tsurime, exposed small breasts, kneeling on his right side caressing his waist and her sister thigh, blushing deeply",
+     "x": 0.68,
+     "y": 0.54
+    },
+    {
+     "cast": "hwaseon",
+     "prompt": "1girl, skinny, medium breasts, black hair, hair bun, orange eyes, -3::huge breasts, flat chest::, nude, colorful flower hairclips, exposed medium breasts, flexible legs raised playfully behind them on the bed, hugging his shoulders",
+     "x": 0.82,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, embracing all four sisters on the wide bed while penetrating the youngest in the center",
+     "uc": "visible eyes",
+     "x": 0.5,
+     "y": 0.52
+    }
+   ]
+  },
+  {
+   "id": "cg_sp05_sayeon_h1",
+   "size": "bg",
+   "seed": 1911551360,
+   "model": "nai-diffusion-5-full-medium",
+   "prompt": "sex, hetero, 1girl, 1boy, nsfw, explicit, cozy modern studio bedroom at night, bed, wall calendar with 38th ink square drawn in margin, face-to-face straddling on lap, sitting cowgirl position, passionate embrace, vaginal, cum in pussy, no readable text",
+   "chars": [
+    {
+     "cast": "sayeon",
+     "prompt": "1girl, large breasts, black hair, very long hair, orange eyes, -3::flat chest, small breasts::, nude, discarded hanbok and paper scroll on bed, very long black hair cascading down, orange eyes filled with love and tears, exposed large breasts pressed against his chest, straddling his lap face-to-face, one hand caressing his cheek",
+     "x": 0.46,
+     "y": 0.52
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, sitting on bed holding her waist and hips, thrusting deeply upward",
+     "uc": "visible eyes",
+     "x": 0.54,
+     "y": 0.54
+    }
+   ]
   }
  ]
 }
