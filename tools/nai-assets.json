@@ -9234,6 +9234,289 @@
      "y": 0.46
     }
    ]
+  },
+  {
+   "id": "st_celeste_smile",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, smile, fang"
+  },
+  {
+   "id": "st_celeste_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, blush, embarrassed, looking away",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_surprised",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, surprised, open mouth, fang",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_angry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, angry, frown, fang",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_pout",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, pout, puffy cheeks, blush",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_teary",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, tears, smile",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_worry",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, worried, frown",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_serious",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, standing, full body, looking at viewer, serious, closed mouth",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, pregnant, hand on own stomach, standing, full body, looking at viewer, gentle smile"
+  },
+  {
+   "id": "st_celeste_home",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, black nightgown, lace trim, frills, bare shoulders, barefoot, relaxed at home, simple background, standing, full body, looking at viewer, medium breasts, sleepy, smile",
+   "init": "assets/st_celeste_smile.webp",
+   "strength": 0.78
+  },
+  {
+   "id": "st_celeste_home_shy",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, black nightgown, lace trim, frills, bare shoulders, barefoot, relaxed at home, simple background, standing, full body, looking at viewer, medium breasts, blush, embarrassed, looking away",
+   "init": "assets/st_celeste_home.webp",
+   "strength": 0.5
+  },
+  {
+   "id": "st_celeste_home_pregnant",
+   "size": "stand",
+   "transparent": true,
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "solo, black nightgown, lace trim, frills, bare shoulders, barefoot, relaxed at home, simple background, standing, full body, looking at viewer, medium breasts, pregnant, both hands on own stomach, gentle smile, blush",
+   "init": "assets/st_celeste_home.webp",
+   "strength": 0.6
+  },
+  {
+   "id": "cg_ch14_celeste",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, comedic, night, moonlight, a traditional Korean royal library pavilion with a tiled roof on Ganghwa island, scattered old bound books on the ground, distant smoke, she pins him against a wooden pillar trying to bite his neck",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, fang, open mouth, tears, frustrated, hands on his shoulders, parasol dropped on the ground",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, surprised, back against pillar",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_celeste",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, romantic, before dawn, dark blue sky turning pale at the horizon, on top of an old Korean stone fortress wall, autumn leaves, sitting side by side, holding hands",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, sitting, sad smile, looking at the horizon",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_kk_celeste_kiss",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, romantic, kiss, before dawn, pale light at the horizon, on top of an old Korean stone fortress wall, she tilts her parasol to hide both of their faces from the coming sunlight",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, kiss, closed eyes, holding parasol, standing on tiptoes",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_end_celeste",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, romantic, night, a hidden room in an old Korean hermitage, candles, stacks of old bound books, a window with moonlight, she rests her head on his shoulder",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, jangot cloak removed, smile, blush, holding an old book",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_end_harem_celeste",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, comedic, small modern home music studio at night, a glowing monitor, a girl stepping out of the monitor holding a parasol and a pile of old bound books, a hooded young man on a studio chair turning around, no readable text",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, holding books, smile, fang",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_after_celeste",
+   "size": "bg",
+   "seed": 2711201,
+   "prompt": "1girl, 1boy, comedic, a modern convenience store at night, bright fluorescent lights, refrigerated drink shelves, she holds a bottle of tomato juice and a sunscreen tube with sparkling eyes, a hooded young man holding a shopping basket, no readable text",
+   "chars": [
+    {
+     "cast": "celeste",
+     "prompt": "girl, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding bottle, sparkling eyes, open mouth, excited, fang",
+     "x": 0.4,
+     "y": 0.5
+    },
+    {
+     "cast": "sangcheol",
+     "prompt": "boy, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow",
+     "uc": "visible eyes",
+     "x": 0.6,
+     "y": 0.5
+    }
+   ]
+  },
+  {
+   "id": "cg_wife_celeste_b0",
+   "size": "bg",
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "1girl, solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, night, moonlit Korean fortress wall on Ganghwa island, autumn leaves, quiz battle, floating glowing quiz cards and paper slips around her, intact clothes, confident smile, fang, pointing at viewer"
+  },
+  {
+   "id": "cg_wife_celeste_b1",
+   "size": "bg",
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "1girl, solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, night, moonlit Korean fortress wall on Ganghwa island, autumn leaves, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn clothes, torn sleeves, torn skirt hem, surprised, blush",
+   "init": "assets/cg_wife_celeste_b0.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "cg_wife_celeste_b2",
+   "size": "bg",
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "1girl, solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, night, moonlit Korean fortress wall on Ganghwa island, autumn leaves, quiz battle, floating glowing quiz cards and paper slips around her, battle damage, torn dress, corset visible, frills torn, cleavage, embarrassed, blush, covering chest",
+   "init": "assets/cg_wife_celeste_b0.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "cg_wife_celeste_b3",
+   "size": "bg",
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "1girl, solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, holding parasol, night, moonlit Korean fortress wall on Ganghwa island, autumn leaves, quiz battle, floating glowing quiz cards and paper slips around her, clothes mostly torn away, white chemise, lace underwear, jangot cloak clutched to her chest, very embarrassed, blush, tears",
+   "init": "assets/cg_wife_celeste_b0.webp",
+   "strength": 0.55
+  },
+  {
+   "id": "cg_wife_celeste_win",
+   "size": "bg",
+   "seed": 2711201,
+   "cast": "celeste",
+   "prompt": "1girl, solo, rococo, black dress, frilled dress, lace trim, corset, long sleeves, black choker, red ribbon, a faded dark green Joseon jangot cloak draped over her head and shoulders like a hood, medium breasts, after the quiz battle, her own clothes neatly restored, an oversized black hoodie draped over her shoulders, sitting close on a sofa in a cozy small home music studio at night, warm desk lamp light, holding hands, happy smile, blush, fang"
   }
  ]
 }
