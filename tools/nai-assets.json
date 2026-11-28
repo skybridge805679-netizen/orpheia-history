@@ -8598,26 +8598,19 @@
    "size": "bg",
    "seed": 2071318468,
    "model": "nai-diffusion-5-full-medium",
-   "prompt": "2girls, 1boy, dark korean alley at night, glowing spiritual blue and golden light, spiritual vision overlay across time, brass shaman bells ringing, mystical atmosphere, no readable text",
+   "prompt": "2girls, dark korean alley at dawn, glowing spiritual blue and golden light, spiritual vision overlay across time, brass shaman bells ringing, talisman paper flying, mystical exorcism atmosphere, no readable text",
    "chars": [
     {
      "cast": "hyejin",
-     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, unique school uniform fusing korean hanbok and school uniform, white jeogori-style blouse with crossed collar and white dongjeong collar strip, long red goreum ribbon tied at chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below knees, black pantyhose, loafers, school bag with brass shaman bells, five-colored cloth strips on wrist, holding a folded fan, holding up ringing brass shaman bells and folding fan, looking back with emotional glowing orange eyes",
-     "x": 0.35,
-     "y": 0.52
+     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, torn clothes, unique school uniform fusing korean hanbok and school uniform, white jeogori-style blouse with crossed collar and white dongjeong collar strip, long red goreum ribbon tied at chest, short navy uniform vest with brass buttons, long navy pleated chima-style skirt below knees, black pantyhose, loafers, school bag with brass shaman bells, five-colored cloth strips on wrist, holding a folded fan, holding up ringing brass shaman bells and flicking a red talisman forward, fierce emotional glowing orange eyes",
+     "x": 0.44,
+     "y": 0.54
     },
     {
      "cast": "myeongwol",
-     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, translucent glowing spirit aura, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around wrist, cluster of small brass shaman bells, holding a painted folding fan, standing right behind her descendant in matching posture, warm tearful smile across a hundred years",
-     "x": 0.52,
-     "y": 0.48
-    },
-    {
-     "cast": "sangcheol",
-     "prompt": "1boy, faceless male, shaded face, black hoodie, hood up, hood pulled low, eyes hidden in hood shadow, reaching out his hand toward them",
-     "uc": "visible eyes",
-     "x": 0.72,
-     "y": 0.52
+     "prompt": "1girl, skinny, small breasts, black hair, long hair, straight hair, high ponytail, red ribbon, hair ribbon, orange eyes, -3::mature female, huge breasts, large breasts, medium breasts::, translucent glowing golden spirit aura, traditional korean mudang shaman outfit, white jeogori blouse with red cuffs and long red goreum ribbon, sleeveless crimson shaman vest (kwaeja) with subtle gold embroidery, long deep navy chima skirt, five-colored cloth strips tied around wrist, cluster of small brass shaman bells, holding a painted folding fan, standing right behind her granddaughter in matching exorcism posture, ringing shaman bells together across a hundred years, serene proud smile",
+     "x": 0.56,
+     "y": 0.46
     }
    ]
   },
