@@ -68,7 +68,8 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, nega
     is_v5 = model.startswith("nai-diffusion-5")
     is_medium = model.startswith("nai-diffusion-5-full-medium")
     if is_medium:
-        neg = MEDIUM_UC if "nsfw" in full.lower() else f"nsfw, {MEDIUM_UC}"
+        base_uc = MEDIUM_UC if "nsfw" in full.lower() else f"nsfw, {MEDIUM_UC}"
+        neg = base_uc + (", " + negative if negative else "")
         steps = 14
         sampler = "k_euler_ancestral"
     else:
@@ -83,7 +84,7 @@ def generate(prompt, w, h, seed, model, init=None, strength=0.6, noise=0.1, nega
             {"char_caption": c["prompt"], "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
             "use_coords": any("x" in c for c in chars), "use_order": True, "legacy_uc": False},
         "v4_negative_prompt": {"caption": {"base_caption": neg, "char_captions": [
-            {"char_caption": "" if is_medium else c.get("uc", ""), "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
+            {"char_caption": c.get("uc", ""), "centers": [{"x": c.get("x", 0.5), "y": c.get("y", 0.5)}]} for c in chars]},
             "use_coords": False, "use_order": False, "legacy_uc": False},
     }
     if is_v5:
